@@ -6,6 +6,1601 @@ import type { Product } from './types';
 
 export const XXL_PRODUCTS: Product[] = [
   {
+    "id": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 4377.01,
+    "originalPrice": 4399,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 23.6,
+    "image": "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 400 & Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "Fox 36 Float AWL HD Sport RAIL 2.0 R, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 150mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Performance, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-reaction-hybrid-one-800-800-wh-29-zoll",
+    "slug": "cube-reaction-hybrid-one-800-800-wh-29-zoll",
+    "name": "Cube Reaction Hybrid ONE 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 2884.51,
+    "originalPrice": 2899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 25.9,
+    "image": "/products/cube-reaction-hybrid-one-800-800-wh-29-zoll/cube-reaction-hybrid-one-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-reaction-hybrid-one-800-800-wh-29-zoll/cube-reaction-hybrid-one-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Cube Reaction Hybrid ONE 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCM34 NLO Coil, Tapered, Achsaufnahme: 15x110mm, Federweg: 120mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Smart Sam, Active, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE44 HPC SLX 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 24.3,
+    "image": "/products/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 400C & Bosch Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano XT BR-M8220, hydraulische Scheibenbremse",
+      "Gabel": "Fox 36 Float Rhythm GRIP, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 150mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Continental Kryptotal Front, Enduro Soft, Tubeless Ready, 2.4",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-reaction-hybrid-pro-800-800-wh-29-zoll",
+    "slug": "cube-reaction-hybrid-pro-800-800-wh-29-zoll",
+    "name": "Cube Reaction Hybrid Pro 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 3183.01,
+    "originalPrice": 3199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 25.5,
+    "image": "/products/cube-reaction-hybrid-pro-800-800-wh-29-zoll/cube-reaction-hybrid-pro-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-reaction-hybrid-pro-800-800-wh-29-zoll/cube-reaction-hybrid-pro-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Reaction Hybrid Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour X1-32 LO-R Air, Tapered, Achsaufnahme: 15x110mm, Federweg: 120mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Smart Sam, Active, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-reaction-hybrid-performance-600-600-wh-29-zoll",
+    "slug": "cube-reaction-hybrid-performance-600-600-wh-29-zoll",
+    "name": "Cube Reaction Hybrid Performance 600",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 2486.51,
+    "originalPrice": 2499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 24.8,
+    "image": "/products/cube-reaction-hybrid-performance-600-600-wh-29-zoll/cube-reaction-hybrid-performance-600-600-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-reaction-hybrid-performance-600-600-wh-29-zoll/cube-reaction-hybrid-performance-600-600-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line Smart, 600 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Cube Reaction Hybrid Performance 600 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerTube 600",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCM34 NLO Coil, Tapered, Achsaufnahme: 15x110mm, Federweg: 120mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Smart Sam, Active, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE22 Pro 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 3680.51,
+    "originalPrice": 3699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.7,
+    "image": "/products/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE22 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR34X 2CR Air, Tapered, Achsaufnahme: 15x110mm, Federweg: 120mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Smart Sam, Active, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE44 Pro 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 3780.01,
+    "originalPrice": 3799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.6,
+    "image": "/products/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR36 2CR Air, Tapered, Achsaufnahme: 15x110mm, Federweg: 140mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Performance, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29",
+    "slug": "cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29",
+    "name": "Cube Stereo Hybrid ONE77 HPC SLX 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 24.7,
+    "image": "/products/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE77 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 400C & Bosch Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano XT BR-M8220, hydraulische Scheibenbremse",
+      "Gabel": "Fox 38 Float Rhythm GRIP, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 170mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Continental Argotal, Enduro Soft, Tubeless Ready, 2.4",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-reaction-hybrid-race-800-800-wh-29-zoll",
+    "slug": "cube-reaction-hybrid-race-800-800-wh-29-zoll",
+    "name": "Cube Reaction Hybrid Race 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 3481.51,
+    "originalPrice": 3499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 24.8,
+    "image": "/products/cube-reaction-hybrid-race-800-800-wh-29-zoll/cube-reaction-hybrid-race-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-reaction-hybrid-race-800-800-wh-29-zoll/cube-reaction-hybrid-race-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Reaction Hybrid Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse",
+      "Gabel": "RockShox Recon Silver RL Air, Tapered, Achsaufnahme: 15x110mm, Federweg: 120mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Smart Sam, Active, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll",
+    "slug": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll",
+    "name": "Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 27,5 Zoll",
+    "brand": "Cube",
+    "category": "E-Trekking",
+    "price": 4377.01,
+    "originalPrice": 4399,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 23.6,
+    "image": "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 27,5 Zoll ist ein Trekking E-Bike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 400 & Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "Fox 36 Float AWL HD Sport RAIL 2.0 R, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 150mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Performance, 2.6",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one77-hpc-race-800-800-wh-29",
+    "slug": "cube-stereo-hybrid-one77-hpc-race-800-800-wh-29",
+    "name": "Cube Stereo Hybrid ONE77 HPC Race 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 25.4,
+    "image": "/products/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE77 HPC Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Aion 38X 2CR Air, Tapered, Achsaufnahme: 15x110mm, Lockout, Federweg: 170mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Schwalbe Magic Mary, Performance, 2.4",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE44 HPC SLX Evo 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 5670.51,
+    "originalPrice": 5699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 24.8,
+    "image": "/products/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX Evo 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse mit Front-ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 400C & Bosch Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano XT BR-M8220, hydraulische Scheibenbremse mit Front-ABS",
+      "Gabel": "Fox 36 Float Rhythm GRIP, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 150mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Continental Kryptotal Front, Enduro Soft, Tubeless Ready, 2.4",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-reaction-hybrid-slx-800-800-wh-29-zoll",
+    "slug": "cube-reaction-hybrid-slx-800-800-wh-29-zoll",
+    "name": "Cube Reaction Hybrid SLX 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 24.3,
+    "image": "/products/cube-reaction-hybrid-slx-800-800-wh-29-zoll/cube-reaction-hybrid-slx-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-reaction-hybrid-slx-800-800-wh-29-zoll/cube-reaction-hybrid-slx-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Reaction Hybrid SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 500 & Bosch LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano XT BR-M8220, hydraulische Scheibenbremse",
+      "Gabel": "Fox 34 Float AWL, 2-Position Sweep-Adjust RAIL Damper, Tapered, Achsaufnahme: 15x110mm, E-Bike Optimized, Federweg: 120mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Smart Sam, Performance, Kevlar, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll",
+    "slug": "cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll",
+    "name": "Cube Stereo Hybrid ONE44 EX 800",
+    "brand": "Cube",
+    "category": "E-MTB",
+    "price": 4178.01,
+    "originalPrice": 4199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.8,
+    "image": "/products/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Stereo Hybrid ONE44 EX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT520, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT520, hydraulische Scheibenbremse",
+      "Gabel": "RockShox Psylo Silver RC Air, Tapered, Achsaufnahme: 15x110mm, Lockout, Federweg: 140mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Performance, 2.6",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-jam2-6-9-800-wh-29-zoll",
+    "slug": "focus-jam2-6-9-800-wh-29-zoll",
+    "name": "Focus Jam2 6.9",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 6964.01,
+    "originalPrice": 6999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.3,
+    "image": "/products/focus-jam2-6-9-800-wh-29-zoll/focus-jam2-6-9-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-jam2-6-9-800-wh-29-zoll/focus-jam2-6-9-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Jam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox 36 Performance Elite, Grip X2, 160 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Albert, Super Trail, ADDIX Ultra Soft, 29 x 2,60&quot; (65-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-jam2-6-8-800-wh-29-zoll",
+    "slug": "focus-jam2-6-8-800-wh-29-zoll",
+    "name": "Focus Jam2 6.8",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 25.8,
+    "image": "/products/focus-jam2-6-8-800-wh-29-zoll/focus-jam2-6-8-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-jam2-6-8-800-wh-29-zoll/focus-jam2-6-8-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Jam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "800 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram DB8, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Rock Shox Lyrik Select, Debon Air+, Charger RC, 160 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Albert, Super Trail, ADDIX Ultra Soft, 29 x 2,60&quot; (65-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-thron2-6-8-abs-800-wh-29-zoll",
+    "slug": "focus-thron2-6-8-abs-800-wh-29-zoll",
+    "name": "Focus Thron2 6.8 ABS",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 5571.01,
+    "originalPrice": 5599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.9,
+    "image": "/products/focus-thron2-6-8-abs-800-wh-29-zoll/focus-thron2-6-8-abs-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-thron2-6-8-abs-800-wh-29-zoll/focus-thron2-6-8-abs-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Thron2 6.8 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP Trail EVO, 4-Kolben, hydraulische Scheibenbremse, ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Downtube, integrated, 800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "TRP Trail EVO, 4-Kolben, hydraulische Scheibenbremse, ABS",
+      "Gabel": "Rock Shox Psylo Silver RC, 150 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Minion DHF, TLE, EXO, 29x2,50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-thron2-6-7-600-wh-29-zoll",
+    "slug": "focus-thron2-6-7-600-wh-29-zoll",
+    "name": "Focus Thron2 6.7",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 4675.51,
+    "originalPrice": 4699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 25.35,
+    "image": "/products/focus-thron2-6-7-600-wh-29-zoll/focus-thron2-6-7-600-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-thron2-6-7-600-wh-29-zoll/focus-thron2-6-7-600-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Focus Thron2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Downtube, integrated, 600 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT420, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Zeron 36 X Boost, 2CR, 150 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Minion DHF, TLE, EXO, 29x2,50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-thron2-6-8-eqp-abs-600-wh-29-zoll",
+    "slug": "focus-thron2-6-8-eqp-abs-600-wh-29-zoll",
+    "name": "Focus Thron2 6.8 EQP ABS",
+    "brand": "Focus",
+    "category": "E-Trekking",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Gen4",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27.5,
+    "image": "/products/focus-thron2-6-8-eqp-abs-600-wh-29-zoll/focus-thron2-6-8-eqp-abs-600-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-thron2-6-8-eqp-abs-600-wh-29-zoll/focus-thron2-6-8-eqp-abs-600-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Gen4, 600 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Thron2 6.8 EQP ABS ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura CT-ABS, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Gen4 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Downtube, integrated, 600 Wh",
+      "Display": "Bosch Kiox 500 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura CT-ABS, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Zeron 36 X Boost, 2CR, 150 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Addix, 29x2,40&quot; (62-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-jam2-6-7-600-wh-29-zoll",
+    "slug": "focus-jam2-6-7-600-wh-29-zoll",
+    "name": "Focus Jam2 6.7",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 4675.51,
+    "originalPrice": 4699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 25.6,
+    "image": "/products/focus-jam2-6-7-600-wh-29-zoll/focus-jam2-6-7-600-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-jam2-6-7-600-wh-29-zoll/focus-jam2-6-7-600-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Focus Jam2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro Gemini SL, 4-Kolben,* / Sram DB8, 4-Kolben,* hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "600 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Tektro Gemini SL, 4-Kolben,* / Sram DB8, 4-Kolben,* hydraulische Scheibenbremse",
+      "Gabel": "Rock Shox Psylo Silver RC, 160 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Minion DHF, TLE, EXO, 29 x 2,50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-sam2-6-8-800-wh-29-zoll",
+    "slug": "focus-sam2-6-8-800-wh-29-zoll",
+    "name": "Focus Sam2 6.8",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 27.5,
+    "image": "/products/focus-sam2-6-8-800-wh-29-zoll/focus-sam2-6-8-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-sam2-6-8-800-wh-29-zoll/focus-sam2-6-8-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Sam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-M6120, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "800 Wh",
+      "Display": "Bosch Mini Remote + System Controller",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano Deore BR-M6120, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox 38 Rhythm, Grip 3-Position, 170 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Assegai, DoubleDown, 3C MaxxGrip, 29 x 2,50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-sam2-6-9-800-wh-29",
+    "slug": "focus-sam2-6-9-800-wh-29",
+    "name": "Focus Sam2 6.9",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 7461.51,
+    "originalPrice": 7499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 27,
+    "image": "/products/focus-sam2-6-9-800-wh-29/focus-sam2-6-9-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/focus-sam2-6-9-800-wh-29/focus-sam2-6-9-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Sam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "800 Wh",
+      "Display": "Bosch Mini Remote + System Controller",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox 38 Factory, Grip X2, 170 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Magic Marry, Super DH, ADDIX Ultra Soft, 29 x 2,40&quot; (62-622)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-thron2-6-9-abs-800-wh-29-zoll",
+    "slug": "focus-thron2-6-9-abs-800-wh-29-zoll",
+    "name": "Focus Thron2 6.9 ABS",
+    "brand": "Focus",
+    "category": "E-MTB",
+    "price": 6964.01,
+    "originalPrice": 6999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.85,
+    "image": "/products/focus-thron2-6-9-abs-800-wh-29-zoll/focus-thron2-6-9-abs-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-thron2-6-9-abs-800-wh-29-zoll/focus-thron2-6-9-abs-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Focus Thron2 6.9 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT-C, 4-Kolben, hydraulische Scheibenbremse, ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Downtube, integrated, 800 Wh",
+      "Display": "Bosch Kiox 500 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura MT-C, 4-Kolben, hydraulische Scheibenbremse, ABS",
+      "Gabel": "Fox 36 AWL HD, Rail, 150 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Minion DHF, TLE, EXO, 29x2,50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "focus-thron2-6-7-eqp-600-wh-29-zoll",
+    "slug": "focus-thron2-6-7-eqp-600-wh-29-zoll",
+    "name": "Focus Thron2 6.7 EQP",
+    "brand": "Focus",
+    "category": "E-Trekking",
+    "price": 4874.51,
+    "originalPrice": 4899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Gen4",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27.2,
+    "image": "/products/focus-thron2-6-7-eqp-600-wh-29-zoll/focus-thron2-6-7-eqp-600-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/focus-thron2-6-7-eqp-600-wh-29-zoll/focus-thron2-6-7-eqp-600-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Gen4, 600 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Focus Thron2 6.7 EQP ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Gen4 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Downtube, integrated, 600 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT420, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Zeron 36 X Boost, 2CR, 150 mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Nobby Nic, Addix, 29x2,40&quot; (62-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ghost-e-asx-abs-low-eq-800-wh-27-5-zoll",
+    "slug": "ghost-e-asx-abs-low-eq-800-wh-27-5-zoll",
+    "name": "Ghost E-ASX ABS LOW EQ",
+    "brand": "Ghost",
+    "category": "E-Trekking",
+    "price": 6466.51,
+    "originalPrice": 6499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ghost E-ASX ABS LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube, 800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura MT C Allroad ABS, 4-Kolben, 203 mm",
+      "Gabel": "SR Suntour AION36X-Boost EQ ABS 3CR-PCS DS 15AH2-110, Federweg: 140mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Johnny Watts Performance, DD, RaceGuard, 67EPI, 60-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ghost-e-asx-abs-eq-800-wh-29",
+    "slug": "ghost-e-asx-abs-eq-800-wh-29",
+    "name": "Ghost E-ASX ABS EQ",
+    "brand": "Ghost",
+    "category": "E-Trekking",
+    "price": 6466.51,
+    "originalPrice": 6499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/ghost-e-asx-abs-eq-800-wh-29/ghost-e-asx-abs-eq-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/ghost-e-asx-abs-eq-800-wh-29/ghost-e-asx-abs-eq-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ghost E-ASX ABS EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube, 800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Magura MT C Allroad ABS, 4-Kolben, 203 mm",
+      "Gabel": "Fox 36 Float, AWL HD, RAIL 2.0, Sweep-Adj, QR, Federweg: 150mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Continental Xynotal Trail Endurance, Faltreifen, 60-622",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ghost-e-asx-universal-800-wh-29",
+    "slug": "ghost-e-asx-universal-800-wh-29",
+    "name": "Ghost E-ASX Universal",
+    "brand": "Ghost",
+    "category": "E-MTB",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 27.79,
+    "image": "/products/ghost-e-asx-universal-800-wh-29/ghost-e-asx-universal-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/ghost-e-asx-universal-800-wh-29/ghost-e-asx-universal-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ghost E-ASX Universal ist ein E-Mountainbike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube, 800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm",
+      "Gabel": "RockShox Psylo Silver RC, Crown Adjust, Solo Air, Offset: 44 mm, Federweg: 160mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Continental Xynotal Trail Endurance, Faltreifen, 60-622",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ghost-e-asx-universal-eq-800-wh-29",
+    "slug": "ghost-e-asx-universal-eq-800-wh-29",
+    "name": "Ghost E-ASX Universal EQ",
+    "brand": "Ghost",
+    "category": "E-Trekking",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/ghost-e-asx-universal-eq-800-wh-29/ghost-e-asx-universal-eq-800-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/ghost-e-asx-universal-eq-800-wh-29/ghost-e-asx-universal-eq-800-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ghost E-ASX Universal EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube, 800 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm",
+      "Gabel": "RockShox Psylo Silver RC, Crown Adjust, Solo Air, Offset: 44 mm, Federweg: 150mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Continental Xynotal Trail Endurance, Faltreifen, 60-622",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ghost-e-asx-essential-low-eq-600-wh-27-5-zoll",
+    "slug": "ghost-e-asx-essential-low-eq-600-wh-27-5-zoll",
+    "name": "Ghost E-ASX Essential LOW EQ",
+    "brand": "Ghost",
+    "category": "E-Trekking",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27,
+    "image": "/products/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Ghost E-ASX Essential LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro Orion HD-M750, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube, 600 Wh",
+      "Display": "Bosch Kiox 300 + LED Remote",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Tektro Orion HD-M750, 4-Kolben, Resin-Pad, 203 mm",
+      "Gabel": "SR Suntour MOBIE36-Boost EQ 2CR-PCS DS 15AH2-110, Federweg: 140mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Johnny Watts Performance, DD, RaceGuard, 67EPI, 60-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "haibike-allmtn-4-800-wh-29",
     "slug": "haibike-allmtn-4-800-wh-29",
     "name": "Haibike Allmtn 4",
@@ -1546,6 +3141,446 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
+    "id": "ktm-macina-city-820-xl-belt-800-wh-28-zoll",
+    "slug": "ktm-macina-city-820-xl-belt-800-wh-28-zoll",
+    "name": "KTM Macina City 820 XL Belt",
+    "brand": "KTM",
+    "category": "E-City",
+    "price": 4576.01,
+    "originalPrice": 4599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 29.7,
+    "image": "/products/ktm-macina-city-820-xl-belt-800-wh-28-zoll/ktm-macina-city-820-xl-belt-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-city-820-xl-belt-800-wh-28-zoll/ktm-macina-city-820-xl-belt-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das KTM Macina City 820 XL Belt ist ein City E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTUBE 800Wh horizontal",
+      "Display": "Bosch KIOX 500 TFT Display",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro HD-T390 / E390 2-Kolben",
+      "Gabel": "Suntour NCX32-D coil LO 63mm (HD) 1 1/8",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Marathon E-Plus Perf. DualGuard 50-622 Reflex",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-sport-sx-elite-di2-400-wh-28-zoll",
+    "slug": "ktm-macina-sport-sx-elite-di2-400-wh-28-zoll",
+    "name": "KTM Macina Sport SX Elite Di2",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 4675.51,
+    "originalPrice": 4699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 19.5,
+    "image": "/products/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Sport SX Elite Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Display": "Bosch PURION 200 Display & Remote",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT402 (3-F) / MT410 2-Kolben",
+      "Gabel": "Suntour NRX32-E Air LOR 63mm 15AH2x100",
+      "Rahmen": "Carbon, Tiefeinsteiger",
+      "Reifen": "Schwalbe G-One Overland 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-sport-sx-20-400-wh-28-zoll",
+    "slug": "ktm-macina-sport-sx-20-400-wh-28-zoll",
+    "name": "KTM Macina Sport SX 20",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 3481.51,
+    "originalPrice": 3499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 21.5,
+    "image": "/products/ktm-macina-sport-sx-20-400-wh-28-zoll/ktm-macina-sport-sx-20-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-sport-sx-20-400-wh-28-zoll/ktm-macina-sport-sx-20-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Sport SX 20 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT201 / MT200 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Display": "Bosch PURION 200 Display & Remote",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT201 / MT200 2-Kolben",
+      "Gabel": "Suntour NCX32-D Air LO 63mm 1 1/8",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe G-One Overland 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-style-820-xl-800-wh-28-zoll",
+    "slug": "ktm-macina-style-820-xl-800-wh-28-zoll",
+    "name": "KTM Macina Style 820 XL",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 4476.51,
+    "originalPrice": 4499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 29.1,
+    "image": "/products/ktm-macina-style-820-xl-800-wh-28-zoll/ktm-macina-style-820-xl-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-style-820-xl-800-wh-28-zoll/ktm-macina-style-820-xl-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Style 820 XL ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro TKD-139 / HD-E730 4-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTUBE 800Wh horizontal",
+      "Display": "Bosch KIOX 500 TFT Display",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Tektro TKD-139 / HD-E730 4-Kolben",
+      "Gabel": "Suntour NCX32-D coil LO 63mm (HD) 1 1/8",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Marathon E-Plus Perf. DualGuard 50-622 Reflex",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-superbelt-sx-400-wh-28-zoll",
+    "slug": "ktm-macina-superbelt-sx-400-wh-28-zoll",
+    "name": "KTM Macina Superbelt SX",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 3680.51,
+    "originalPrice": 3699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 22.2,
+    "image": "/products/ktm-macina-superbelt-sx-400-wh-28-zoll/ktm-macina-superbelt-sx-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-superbelt-sx-400-wh-28-zoll/ktm-macina-superbelt-sx-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das KTM Macina Superbelt SX ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Display": "Bosch PURION 200 Display & Remote",
+      "Schaltung": "8-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano MT402 (3-F) / MT410 2-Kolben",
+      "Gabel": "Suntour NCX-D Air LO 63mm 1 1/8",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Marathon Mondial Perf. RaceGuard 47-622 Reflex",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-gran-820-800-wh-28-zoll",
+    "slug": "ktm-macina-gran-820-800-wh-28-zoll",
+    "name": "KTM Macina Gran 820",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 29.1,
+    "image": "/products/ktm-macina-gran-820-800-wh-28-zoll/ktm-macina-gran-820-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-gran-820-800-wh-28-zoll/ktm-macina-gran-820-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Gran 820 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTUBE 800Wh horizontal",
+      "Display": "Bosch INTUVIA 100 LCD Display",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-T390 / E390 2-Kolben",
+      "Gabel": "Suntour XCM 32 ATB coil 29&quot; NLO 80mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Al Ground Perf. RaceGuard 60-622 Reflex",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-sport-sx-10-di2-400-wh-28-zoll",
+    "slug": "ktm-macina-sport-sx-10-di2-400-wh-28-zoll",
+    "name": "KTM Macina Sport SX 10 Di2",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 3879.51,
+    "originalPrice": 3899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 21.5,
+    "image": "/products/ktm-macina-sport-sx-10-di2-400-wh-28-zoll/ktm-macina-sport-sx-10-di2-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-sport-sx-10-di2-400-wh-28-zoll/ktm-macina-sport-sx-10-di2-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Sport SX 10 Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Display": "Bosch PURION 200 Display & Remote",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT402 (3-F) / MT410 2-Kolben",
+      "Gabel": "Suntour NRX32-E Air LOR 63mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe G-One Overland Eco 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-tour-px-810-800-wh-28-zoll",
+    "slug": "ktm-macina-tour-px-810-800-wh-28-zoll",
+    "name": "KTM Macina Tour Px 810",
+    "brand": "KTM",
+    "category": "E-Trekking",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line PX Smart",
+    "torqueNm": 90,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 28.3,
+    "image": "/products/ktm-macina-tour-px-810-800-wh-28-zoll/ktm-macina-tour-px-810-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-tour-px-810-800-wh-28-zoll/ktm-macina-tour-px-810-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 800 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Tour Px 810 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200 / MT200 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line PX Smart 250 Watt",
+      "Drehmoment": "90 Nm",
+      "Akku": "Bosch PowerTUBE 800Wh horizontal",
+      "Display": "Bosch KIOX 500 TFT Display",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT200 / MT200 2-Kolben",
+      "Gabel": "Suntour NCX32-D Air LO 63mm 1 1/8",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Energizer Plus Perf. GreenGuard 50-622 Reflex",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "riese-und-mueller-swing5-silent-500-wh-28-zoll",
     "slug": "riese-und-mueller-swing5-silent-500-wh-28-zoll",
     "name": "Riese & Müller Swing5 silent",
@@ -2145,6 +4180,556 @@ export const XXL_PRODUCTS: Product[] = [
       "Gabel": "SR Suntour Mobie 34, tapered, Boost, 100mm Federweg",
       "Rahmen": "Aluminium, Tiefeinsteiger",
       "Reifen": "Schwalbe Super Moto-X 62-584 Reflex",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-sinus-fs-x12-800-wh-27-5-zoll",
+    "slug": "winora-sinus-fs-x12-800-wh-27-5-zoll",
+    "name": "Winora Sinus FS X12",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 5670.51,
+    "originalPrice": 5699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-sinus-fs-x12-800-wh-27-5-zoll/winora-sinus-fs-x12-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-sinus-fs-x12-800-wh-27-5-zoll/winora-sinus-fs-x12-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Winora Sinus FS X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800Wh",
+      "Display": "Bosch Purion 200 / 400 (TBF)",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT420, 203mm Bremsscheibendurchmesser",
+      "Gabel": "SR Suntour XCR 34 100mm Federweg",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Johnny Watts Reflective",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yucatan-x10-800-wh-27-5-zoll",
+    "slug": "winora-yucatan-x10-800-wh-27-5-zoll",
+    "name": "Winora Yucatan X10",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 3680.51,
+    "originalPrice": 3699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line PX Smart",
+    "torqueNm": 90,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 27.5,
+    "image": "/products/winora-yucatan-x10-800-wh-27-5-zoll/winora-yucatan-x10-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yucatan-x10-800-wh-27-5-zoll/winora-yucatan-x10-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Winora Yucatan X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line PX Smart 250 Watt",
+      "Drehmoment": "90 Nm",
+      "Akku": "Bosch PowerTube 800 Wh",
+      "Display": "Bosch Intuvia 100 + LED Remote",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano Deore BR-MT410, 2-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour SF26 XCM34 Boost NLO, Federweg: 100mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "XLC VT-T45 Toorak, 27.5x2.35&quot; (60-584)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-sinus-fs-r5f-pro-800-wh-27-5-zoll",
+    "slug": "winora-sinus-fs-r5f-pro-800-wh-27-5-zoll",
+    "name": "Winora Sinus FS R5f Pro",
+    "brand": "Winora",
+    "category": "E-City",
+    "price": 6267.51,
+    "originalPrice": 6299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Winora Sinus FS R5f Pro ist ein City E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura, hydraulische Scheibenbremse, MT-C ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch Li-ION InTube 800 Wh",
+      "Display": "Bosch Kiox 500 Kiox 500 + LED Remote",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura, hydraulische Scheibenbremse, MT-C ABS",
+      "Gabel": "Suntour SF24 Mobie 34 Boost ABS EQ 2CR DS 100mm Federweg",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe AL Grounder Performance 60-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yakun-x10-800-wh-27-5-zoll",
+    "slug": "winora-yakun-x10-800-wh-27-5-zoll",
+    "name": "Winora Yakun X10",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-yakun-x10-800-wh-27-5-zoll/winora-yakun-x10-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yakun-x10-800-wh-27-5-zoll/winora-yakun-x10-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Winora Yakun X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800Wh",
+      "Display": "Bosch Intuvia 100/LED Remote",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT410, 203mm Bremsscheibendurchmesser",
+      "Gabel": "SR Suntour Mobie34 100mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Al Grounder",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yakun-r5-pro-800-wh-27-5-zoll",
+    "slug": "winora-yakun-r5-pro-800-wh-27-5-zoll",
+    "name": "Winora Yakun R5 Pro",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 4775.01,
+    "originalPrice": 4799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-yakun-r5-pro-800-wh-27-5-zoll/winora-yakun-r5-pro-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yakun-r5-pro-800-wh-27-5-zoll/winora-yakun-r5-pro-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Winora Yakun R5 Pro ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800Wh",
+      "Display": "Bosch Kiox 500/LED-Remote",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano Deore 4P, 203mm Bremsscheibendurchmesser",
+      "Gabel": "SR Suntour Mobie34 100mm Federweg",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Continental eContact plus",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yucatan-x9-600-wh-27-5-zoll",
+    "slug": "winora-yucatan-x9-600-wh-27-5-zoll",
+    "name": "Winora Yucatan X9",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 3382.01,
+    "originalPrice": 3399,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line PX Smart",
+    "torqueNm": 90,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27.4,
+    "image": "/products/winora-yucatan-x9-600-wh-27-5-zoll/winora-yucatan-x9-600-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yucatan-x9-600-wh-27-5-zoll/winora-yucatan-x9-600-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Winora Yucatan X9 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line PX Smart 250 Watt",
+      "Drehmoment": "90 Nm",
+      "Akku": "Bosch PowerTube 600 Wh",
+      "Display": "Bosch Intuvia 100 + LED Remote",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, 2-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour SF26 XCM34 Boost LO DS, Federweg: 100mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "XLC VT-T45 Toorak, 27.5x2.35&quot; (60-584)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-sinus-as-800-wh-27-5-zoll",
+    "slug": "winora-sinus-as-800-wh-27-5-zoll",
+    "name": "Winora Sinus AS",
+    "brand": "Winora",
+    "category": "E-City",
+    "price": 6466.51,
+    "originalPrice": 6499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Pinion MGU E1.9",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-sinus-as-800-wh-27-5-zoll/winora-sinus-as-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-sinus-as-800-wh-27-5-zoll/winora-sinus-as-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Pinion MGU E1.9, 800 Wh Akku, 9-Gang Getriebeschaltung (Freilauf).",
+    "description": "Das Winora Sinus AS ist ein City E-Bike von Winora. Es hat Pinion MGU E1.9 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 9-Gang Getriebeschaltung (Freilauf). Die Bremsanlage: Magura MT5. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Pinion MGU E1.9 Mittelmotor 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "FIT Tubepack 800Wh",
+      "Display": "Fit Display + Remote",
+      "Schaltung": "9-Gang Getriebeschaltung (Freilauf)",
+      "Bremsen": "Magura MT5",
+      "Gabel": "SR Suntour Mobie 34 80mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe One Ref",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-tria-x7-500-wh-28-zoll",
+    "slug": "winora-tria-x7-500-wh-28-zoll",
+    "name": "Winora Tria X7",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 2486.51,
+    "originalPrice": 2499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Smart",
+    "torqueNm": 40,
+    "batteryStandardWh": 500,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-tria-x7-500-wh-28-zoll/winora-tria-x7-500-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-tria-x7-500-wh-28-zoll/winora-tria-x7-500-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Active Line Smart, 500 Wh Akku, 7-Gang Kettenschaltung.",
+    "description": "Das Winora Tria X7 ist ein Trekking E-Bike von Winora. Es hat Bosch Active Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 40 Nm. Geschaltet wird über 7-Gang Kettenschaltung. Die Bremsanlage: Alhonga HT474, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 500 Wh",
+          "capacityWh": 500,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Smart 250 Watt",
+      "Drehmoment": "40 Nm",
+      "Akku": "Bosch PowerTube, 500 Wh",
+      "Display": "Bosch Intuvia 100 + LED Remote",
+      "Schaltung": "7-Gang Kettenschaltung",
+      "Bremsen": "Alhonga HT474, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour NEX E25, Stahlfeder, Federweg: 63mm, Stahlschaft 1 1/8&quot; - 1 1/2&quot; tapered, 8 x 100mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Road Cruiser, Reflex, 28x2.00&quot; (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yakun-x12-800-wh-27-5-zoll",
+    "slug": "winora-yakun-x12-800-wh-27-5-zoll",
+    "name": "Winora Yakun X12",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 4476.51,
+    "originalPrice": 4499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 28.8,
+    "image": "/products/winora-yakun-x12-800-wh-27-5-zoll/winora-yakun-x12-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yakun-x12-800-wh-27-5-zoll/winora-yakun-x12-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Winora Yakun X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800Wh",
+      "Display": "Bosch Kiox 300/LED-Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano Deore 4P, 203mm Bremsscheibendurchmesser",
+      "Gabel": "SR Suntour Mobie34 100mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Al Grounder",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "winora-yakun-x10e-600-wh-27-5-zoll",
+    "slug": "winora-yakun-x10e-600-wh-27-5-zoll",
+    "name": "Winora Yakun X10E",
+    "brand": "Winora",
+    "category": "E-Trekking",
+    "price": 3680.51,
+    "originalPrice": 3699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/winora-yakun-x10e-600-wh-27-5-zoll/winora-yakun-x10e-600-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/winora-yakun-x10e-600-wh-27-5-zoll/winora-yakun-x10e-600-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 600 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Winora Yakun X10E ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 600Wh",
+      "Display": "Bosch Intuvia 100/LED Remote",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT410, 203mm Bremsscheibendurchmesser",
+      "Gabel": "SR Suntour Mobie34 100mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Al Grounder",
       "Laufradgröße": "27,5 Zoll"
     },
     "isFeatured": false

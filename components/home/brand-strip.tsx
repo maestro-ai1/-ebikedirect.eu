@@ -11,6 +11,10 @@ const BRANDS = [
   { name: 'Gazelle', path: '/marken/gazelle' },
   { name: 'Canyon', path: '/marken/canyon' },
   { name: 'Tenways', path: '/marken/tenways' },
+  { name: 'Focus', path: '/marken/focus' },
+  { name: 'Winora', path: '/marken/winora' },
+  { name: 'Ghost', path: '/marken/ghost' },
+  { name: 'KTM', path: '/marken/ktm' },
 ];
 
 export function BrandStrip({ locale }: { locale: Locale }) {

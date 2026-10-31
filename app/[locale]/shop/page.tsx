@@ -50,7 +50,7 @@ function ShopContent() {
   const itemsPerPage = 6;
 
   const categories = ['all', 'E-MTB', 'E-Trekking', 'E-City', 'Speed-Pedelec', 'Cargo-E-Bike', 'Zubehör'];
-  const brands = ['all', 'Cube', 'Specialized', 'Riese & Müller', 'Haibike', 'Kalkhoff', 'Gazelle', 'Canyon', 'Tenways', 'ABUS'];
+  const brands = ['all', 'Cube', 'Specialized', 'Riese & Müller', 'Haibike', 'Kalkhoff', 'Gazelle', 'Canyon', 'Tenways', 'Focus', 'Winora', 'Ghost', 'KTM', 'ABUS'];
   const motors = ['all', 'Bosch', 'Shimano', 'Yamaha', 'Specialized'];
 
   // Filter products
