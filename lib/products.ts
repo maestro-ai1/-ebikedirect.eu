@@ -2,6 +2,7 @@ import { Product } from './types';
 import { CATALOG_PRODUCTS } from './catalog-products';
 import { TENWAYS_PRODUCTS } from './catalog-tenways';
 import { UNIVERSAL_PRODUCTS } from './catalog-universal';
+import { XXL_PRODUCTS } from './catalog-xxl';
 
 const TEMPLATE_PRODUCTS: Product[] = [
   {
@@ -437,6 +438,6 @@ const TEMPLATE_PRODUCTS: Product[] = [
 ];
 
 // Catalogue products first, then the products carried over from the former site.
-export const PRODUCTS: Product[] = [...CATALOG_PRODUCTS, ...TENWAYS_PRODUCTS, ...UNIVERSAL_PRODUCTS, ...TEMPLATE_PRODUCTS];
+export const PRODUCTS: Product[] = [...CATALOG_PRODUCTS, ...TENWAYS_PRODUCTS, ...UNIVERSAL_PRODUCTS, ...XXL_PRODUCTS, ...TEMPLATE_PRODUCTS];
 
 export const FEATURED_PRODUCTS = PRODUCTS.filter((p) => p.isFeatured).slice(0, 6);
