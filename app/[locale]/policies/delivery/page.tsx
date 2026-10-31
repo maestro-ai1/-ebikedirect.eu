@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { Truck, ShieldCheck, CheckCircle2, Clock, Phone, AlertCircle } from 'lucide-react';
+import { Truck, ShieldCheck, CheckCircle2, Clock, Phone, AlertCircle } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
   title: 'Versand und Lieferbedingungen',

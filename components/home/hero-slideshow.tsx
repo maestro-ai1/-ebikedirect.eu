@@ -12,7 +12,7 @@ import {
   ArrowRight,
   Bitcoin,
   ShieldCheck
-} from 'lucide-react';
+} from '@/components/ui/icons';
 
 interface Slide {
   id: string;

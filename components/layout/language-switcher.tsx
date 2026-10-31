@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Globe, ChevronDown, Check } from 'lucide-react';
+import { Globe, ChevronDown, Check } from '@/components/ui/icons';
 import { useI18n } from '@/context/i18n-context';
 import { Locale } from '@/lib/i18n';
 

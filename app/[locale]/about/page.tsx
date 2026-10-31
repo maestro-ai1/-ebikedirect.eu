@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { ShieldCheck, Wrench, Award, CheckCircle2, ArrowRight, Bitcoin, Users } from 'lucide-react';
+import { ShieldCheck, Wrench, Award, CheckCircle2, ArrowRight, Bitcoin, Users } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
   title: 'Über uns und unsere Werkstatt',

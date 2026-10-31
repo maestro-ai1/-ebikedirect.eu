@@ -163,5 +163,49 @@
     "s3": "Compare modelos e encomende online.",
     "home": "Bicicletas elétricas para a Europa",
     "breadcrumbHome": "Início"
+  },
+  "home": {
+    "catTitle": "Escolher por utilização",
+    "catSub": "Seis tipos, um objetivo: a bicicleta que combina com o seu dia a dia.",
+    "models": "modelos",
+    "viewCategory": "Ver",
+    "cat": {
+      "mtb": "Bicicletas elétricas de montanha",
+      "trekking": "Bicicletas elétricas trekking",
+      "city": "Bicicletas elétricas urbanas",
+      "speed": "S-Pedelec",
+      "cargo": "Bicicletas elétricas de carga",
+      "all": "Todas as bicicletas elétricas"
+    },
+    "newTitle": "Novidades",
+    "newSub": "Modelos adicionados recentemente com dados verificados e fotos de estúdio.",
+    "viewAll": "Ver todos os modelos",
+    "rrp": "PVP",
+    "details": "Ver detalhes",
+    "brandsTitle": "Marcas disponíveis",
+    "brandsSub": "Cada marca tem a sua página com todos os modelos disponíveis.",
+    "whyTitle": "Porquê ebikedirect.eu",
+    "why": [
+      [
+        "Entrega",
+        "Envio em palete com plataforma elevatória, gratuito a partir de 10 000 € de encomenda."
+      ],
+      [
+        "Pagamento",
+        "10% de desconto ao pagar com USDT ou Bitcoin."
+      ],
+      [
+        "Garantia",
+        "Garantia de 2 anos e 30 dias para devolver."
+      ],
+      [
+        "Aconselhamento",
+        "Aconselhamento sobre tamanho do quadro, motor e bateria antes da compra."
+      ]
+    ],
+    "guideTitle": "Do guia",
+    "guideSub": "Técnica, regras e decisão de compra bem explicadas.",
+    "guideAll": "Ler todos os artigos",
+    "model": "modelo"
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { ShieldCheck } from 'lucide-react';
+import { ShieldCheck } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
   title: 'Impressum',

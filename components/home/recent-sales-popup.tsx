@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { X, ShoppingBag, MapPin, CheckCircle2 } from 'lucide-react';
+import { X, ShoppingBag, MapPin, CheckCircle2 } from '@/components/ui/icons';
 import { RECENT_SALES } from '@/lib/sales-notifications';
 import { SaleNotification } from '@/lib/types';
 

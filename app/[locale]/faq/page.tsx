@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { FaqJsonLd } from '@/components/seo/json-ld';
-import { ChevronDown, HelpCircle, Search, ShieldCheck, Truck, Bitcoin, Wrench } from 'lucide-react';
+import { ChevronDown, HelpCircle, Search, ShieldCheck, Truck, Bitcoin, Wrench } from '@/components/ui/icons';
 
 interface FaqItem {
   question: string;

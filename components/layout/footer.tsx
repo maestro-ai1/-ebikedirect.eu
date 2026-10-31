@@ -11,7 +11,7 @@ import {
   Phone,
   MapPin,
   Zap
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { useI18n } from '@/context/i18n-context';
 
 export function Footer() {

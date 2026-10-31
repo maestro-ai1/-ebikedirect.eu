@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { RotateCcw, ShieldCheck, CheckCircle2, AlertCircle, Phone } from 'lucide-react';
+import { RotateCcw, ShieldCheck, CheckCircle2, AlertCircle, Phone } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
   title: 'Widerruf, Rückgabe und Garantie',

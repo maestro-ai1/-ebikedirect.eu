@@ -163,5 +163,49 @@
     "s3": "Modelle vergleichen und online bestellen.",
     "home": "E-Bikes und Pedelecs für Europa",
     "breadcrumbHome": "Startseite"
+  },
+  "home": {
+    "catTitle": "Nach Einsatz wählen",
+    "catSub": "Sechs Typen, ein Ziel: das Rad, das zu Ihrem Alltag passt.",
+    "models": "Modelle",
+    "viewCategory": "Ansehen",
+    "cat": {
+      "mtb": "E-Mountainbikes",
+      "trekking": "Trekking E-Bikes",
+      "city": "City E-Bikes",
+      "speed": "S-Pedelecs",
+      "cargo": "Cargo E-Bikes",
+      "all": "Alle E-Bikes"
+    },
+    "newTitle": "Neu im Sortiment",
+    "newSub": "Frisch aufgenommene Modelle mit geprüften Daten und Studiofotos.",
+    "viewAll": "Alle Modelle ansehen",
+    "rrp": "UVP",
+    "details": "Details ansehen",
+    "brandsTitle": "Marken im Sortiment",
+    "brandsSub": "Jede Marke hat eine eigene Seite mit allen lieferbaren Modellen.",
+    "whyTitle": "Warum ebikedirect.eu",
+    "why": [
+      [
+        "Lieferung",
+        "Speditionsversand mit Hebebühne, kostenfrei ab 10.000 € Bestellwert."
+      ],
+      [
+        "Zahlung",
+        "10 % Rabatt bei Zahlung mit USDT oder Bitcoin."
+      ],
+      [
+        "Garantie",
+        "2 Jahre Garantie und 30 Tage Rückgaberecht."
+      ],
+      [
+        "Beratung",
+        "Fachberatung zu Rahmengröße, Motor und Akku vor dem Kauf."
+      ]
+    ],
+    "guideTitle": "Aus dem Ratgeber",
+    "guideSub": "Verständlich erklärt: Technik, Recht und Kaufentscheidung.",
+    "guideAll": "Alle Artikel lesen",
+    "model": "Modell"
   }
 }

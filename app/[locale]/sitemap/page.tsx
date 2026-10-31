@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { PRODUCTS } from '@/lib/products';
 import { BLOG_POSTS } from '@/lib/blog';
-import { Map, ExternalLink, ShieldCheck, FileText } from 'lucide-react';
+import { Map, ExternalLink, ShieldCheck, FileText } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
   title: 'HTML-Sitemap: alle Seiten im Überblick',

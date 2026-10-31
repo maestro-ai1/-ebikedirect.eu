@@ -16,7 +16,7 @@ import {
   Battery,
   Star,
   Info
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 

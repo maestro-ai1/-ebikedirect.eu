@@ -163,5 +163,49 @@
     "s3": "Confronta i modelli e ordina online.",
     "home": "Bici elettriche per l'Europa",
     "breadcrumbHome": "Home"
+  },
+  "home": {
+    "catTitle": "Scegli per utilizzo",
+    "catSub": "Sei tipi, un obiettivo: la bici adatta alla tua quotidianità.",
+    "models": "modelli",
+    "viewCategory": "Vedi",
+    "cat": {
+      "mtb": "E-Mountain bike",
+      "trekking": "E-bike trekking",
+      "city": "E-bike city",
+      "speed": "S-Pedelec",
+      "cargo": "E-bike cargo",
+      "all": "Tutte le e-bike"
+    },
+    "newTitle": "Novità",
+    "newSub": "Modelli appena aggiunti con dati verificati e foto in studio.",
+    "viewAll": "Vedi tutti i modelli",
+    "rrp": "Prezzo di listino",
+    "details": "Vedi dettagli",
+    "brandsTitle": "Marchi disponibili",
+    "brandsSub": "Ogni marchio ha una pagina con tutti i modelli consegnabili.",
+    "whyTitle": "Perché ebikedirect.eu",
+    "why": [
+      [
+        "Consegna",
+        "Spedizione su bancale con sponda idraulica, gratuita da 10.000 € di ordine."
+      ],
+      [
+        "Pagamento",
+        "10% di sconto pagando con USDT o Bitcoin."
+      ],
+      [
+        "Garanzia",
+        "Garanzia di 2 anni e 30 giorni per il reso."
+      ],
+      [
+        "Consulenza",
+        "Consulenza su taglia del telaio, motore e batteria prima dell'acquisto."
+      ]
+    ],
+    "guideTitle": "Dalla guida",
+    "guideSub": "Tecnica, norme e scelta d'acquisto spiegate bene.",
+    "guideAll": "Leggi tutti gli articoli",
+    "model": "modello"
   }
 }

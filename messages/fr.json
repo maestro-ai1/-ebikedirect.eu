@@ -163,5 +163,49 @@
     "s3": "Comparez les modèles et commandez en ligne.",
     "home": "Vélos électriques pour l'Europe",
     "breadcrumbHome": "Accueil"
+  },
+  "home": {
+    "catTitle": "Choisir selon l'usage",
+    "catSub": "Six types, un objectif : le vélo qui correspond à votre quotidien.",
+    "models": "modèles",
+    "viewCategory": "Voir",
+    "cat": {
+      "mtb": "VTT électriques",
+      "trekking": "Vélos électriques trekking",
+      "city": "Vélos électriques urbains",
+      "speed": "S-Pedelec",
+      "cargo": "Vélos cargo électriques",
+      "all": "Tous les vélos électriques"
+    },
+    "newTitle": "Nouveautés",
+    "newSub": "Modèles récemment ajoutés, avec données vérifiées et photos de studio.",
+    "viewAll": "Voir tous les modèles",
+    "rrp": "PVC",
+    "details": "Voir le détail",
+    "brandsTitle": "Marques disponibles",
+    "brandsSub": "Chaque marque a sa page avec tous les modèles livrables.",
+    "whyTitle": "Pourquoi ebikedirect.eu",
+    "why": [
+      [
+        "Livraison",
+        "Transport sur palette avec hayon, gratuit dès 10 000 € de commande."
+      ],
+      [
+        "Paiement",
+        "10 % de remise en cas de paiement en USDT ou Bitcoin."
+      ],
+      [
+        "Garantie",
+        "Garantie de 2 ans et 30 jours pour retourner."
+      ],
+      [
+        "Conseil",
+        "Conseil sur la taille de cadre, le moteur et la batterie avant l'achat."
+      ]
+    ],
+    "guideTitle": "Conseils",
+    "guideSub": "Technique, droit et choix d'achat expliqués simplement.",
+    "guideAll": "Lire tous les articles",
+    "model": "modèle"
   }
 }

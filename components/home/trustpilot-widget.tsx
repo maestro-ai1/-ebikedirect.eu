@@ -8,7 +8,7 @@ import {
   ChevronRight,
   ShieldCheck,
   MessageSquare
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { REVIEWS_POOL, TRUSTPILOT_STATS } from '@/lib/reviews';
 import { TrustpilotReview } from '@/lib/types';
 import { useI18n } from '@/context/i18n-context';

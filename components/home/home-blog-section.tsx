@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, BookOpen, Clock, Calendar, User } from 'lucide-react';
+import { ArrowRight, BookOpen, Clock, Calendar, User } from '@/components/ui/icons';
 import { BLOG_POSTS } from '@/lib/blog';
 
 export function HomeBlogSection() {

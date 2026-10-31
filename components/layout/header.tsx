@@ -13,7 +13,7 @@ import {
   Truck,
   Zap,
   Bitcoin
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
 import { LanguageSwitcher } from '@/components/layout/language-switcher';

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { MapPin, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from 'lucide-react';
+import { MapPin, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from '@/components/ui/icons';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

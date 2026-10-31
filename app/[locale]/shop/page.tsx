@@ -17,7 +17,7 @@ import {
   X,
   ChevronLeft,
   ChevronRight
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { PRODUCTS } from '@/lib/products';
 import { Product } from '@/lib/types';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';

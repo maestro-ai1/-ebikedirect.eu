@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import '../globals.css';
+import { Space_Grotesk, Inter } from 'next/font/google';
 import { I18nProvider } from '@/context/i18n-context';
 import { CartProvider } from '@/context/cart-context';
 import { Header } from '@/components/layout/header';
@@ -12,6 +13,9 @@ import { StoreJsonLd } from '@/components/seo/json-ld';
 import { HreflangTags } from '@/components/seo/hreflang-tags';
 import { LOCALE_CODES, SUPPORTED_LOCALES, isLocale, MESSAGES } from '@/lib/i18n';
 import { SITE_URL, getKeywordPage, buildTitle, buildDescription, isIndexed } from '@/lib/seo';
+
+const display = Space_Grotesk({ subsets: ['latin', 'latin-ext'], variable: '--font-display-face', display: 'swap' });
+const body = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-body-face', display: 'swap' });
 
 export const viewport: Viewport = {
   themeColor: '#131A22',
@@ -71,7 +75,7 @@ export default async function LocaleLayout({
   const info = SUPPORTED_LOCALES.find((l) => l.code === locale)!;
 
   return (
-    <html lang={info.hreflang.split('-')[0]} className="scroll-smooth">
+    <html lang={info.hreflang.split('-')[0]} className={`scroll-smooth ${display.variable} ${body.variable}`}>
       <head>
         <StoreJsonLd />
         <Suspense fallback={null}>

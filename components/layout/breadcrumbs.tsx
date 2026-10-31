@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ChevronRight, Home } from 'lucide-react';
+import { ChevronRight, Home } from '@/components/ui/icons';
 import { BreadcrumbsJsonLd } from '@/components/seo/json-ld';
 
 export interface BreadcrumbItem {

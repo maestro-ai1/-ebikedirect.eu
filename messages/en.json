@@ -163,5 +163,49 @@
     "s3": "Compare models and order online.",
     "home": "E-bikes and pedelecs for Europe",
     "breadcrumbHome": "Home"
+  },
+  "home": {
+    "catTitle": "Choose by use",
+    "catSub": "Six types, one goal: the bike that fits your everyday life.",
+    "models": "models",
+    "viewCategory": "View",
+    "cat": {
+      "mtb": "E-mountain bikes",
+      "trekking": "Trekking e-bikes",
+      "city": "City e-bikes",
+      "speed": "S-Pedelecs",
+      "cargo": "Cargo e-bikes",
+      "all": "All e-bikes"
+    },
+    "newTitle": "New in the range",
+    "newSub": "Recently added models with checked data and studio photos.",
+    "viewAll": "View all models",
+    "rrp": "RRP",
+    "details": "View details",
+    "brandsTitle": "Brands in the range",
+    "brandsSub": "Each brand has its own page with every available model.",
+    "whyTitle": "Why ebikedirect.eu",
+    "why": [
+      [
+        "Delivery",
+        "Pallet delivery with tail lift, free from a €10,000 order value."
+      ],
+      [
+        "Payment",
+        "10% off when paying with USDT or Bitcoin."
+      ],
+      [
+        "Warranty",
+        "2-year warranty and 30 days to return."
+      ],
+      [
+        "Advice",
+        "Advice on frame size, motor and battery before you buy."
+      ]
+    ],
+    "guideTitle": "From the guide",
+    "guideSub": "Technology, rules and buying decisions explained clearly.",
+    "guideAll": "Read all articles",
+    "model": "model"
   }
 }

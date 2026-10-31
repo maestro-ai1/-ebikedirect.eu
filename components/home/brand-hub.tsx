@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { TOP_BRANDS } from '@/lib/brands';
-import { Award, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Award, CheckCircle2, ChevronRight } from '@/components/ui/icons';
 import { useI18n } from '@/context/i18n-context';
 
 export function BrandHub() {

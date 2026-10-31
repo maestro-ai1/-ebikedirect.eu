@@ -2,96 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 import { HeroSlideshow } from '@/components/home/hero-slideshow';
 import { FeaturedProducts } from '@/components/home/featured-products';
-import { BrandHub } from '@/components/home/brand-hub';
 import { TrustpilotWidget } from '@/components/home/trustpilot-widget';
-import { HomeBlogSection } from '@/components/home/home-blog-section';
-import {
-  ShieldCheck,
-  Truck,
-  Bitcoin,
-  Wrench,
-  PhoneCall,
-  CheckCircle2,
-  ArrowRight
-} from 'lucide-react';
+import { BrandStrip } from '@/components/home/brand-strip';
+import { CategoryTiles } from '@/components/home/category-tiles';
+import { NewArrivals } from '@/components/home/new-arrivals';
+import { ServiceBand } from '@/components/home/service-band';
+import { GuideTeaser } from '@/components/home/guide-teaser';
+import { PhoneCall, ArrowRight } from '@/components/ui/icons';
+import { isLocale, DEFAULT_LOCALE } from '@/lib/i18n';
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: raw } = await params;
+  const locale = isLocale(raw) ? raw : DEFAULT_LOCALE;
+
   return (
     <>
-      {/* 1. Hero Animated Slideshow */}
       <HeroSlideshow />
-
-      {/* 2. Value Proposition Strip */}
-      <section className="bg-white border-b border-gray-200 py-6" aria-label="Einkaufsvorteile">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-orange-100/60 text-[#FF5722] flex items-center justify-center shrink-0">
-                <Truck className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="text-xs sm:text-sm font-black text-[#131A22]">
-                  Frei Haus ab 10.000 €
-                </div>
-                <div className="text-[11px] text-gray-500">
-                  Mindestbestellwert: 500 €
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-emerald-100/60 text-[#00C853] flex items-center justify-center shrink-0">
-                <Bitcoin className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="text-xs sm:text-sm font-black text-[#131A22]">
-                  10% Krypto-Rabatt
-                </div>
-                <div className="text-[11px] text-gray-500">
-                  Sofort-Skonto mit USDT & BTC
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-blue-100/60 text-blue-600 flex items-center justify-center shrink-0">
-                <Wrench className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="text-xs sm:text-sm font-black text-[#131A22]">
-                  Meister-Montage 95%
-                </div>
-                <div className="text-[11px] text-gray-500">
-                  Fahrbereit justiert & geprüft
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-purple-100/60 text-purple-600 flex items-center justify-center shrink-0">
-                <ShieldCheck className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="text-xs sm:text-sm font-black text-[#131A22]">
-                  2 Jahre Garantie
-                </div>
-                <div className="text-[11px] text-gray-500">
-                  30 Tage Rückgaberecht
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Featured Products Grid (Exact 6 products with interactive option selector) */}
+      <BrandStrip locale={locale} />
+      <CategoryTiles locale={locale} />
+      <NewArrivals locale={locale} />
       <FeaturedProducts />
-
-      {/* 4. Brand Hub Grid */}
-      <BrandHub />
-
-      {/* 5. Trustpilot 4.9/5 Widget & Multi-lingual Review Ticker */}
+      <ServiceBand locale={locale} />
       <TrustpilotWidget />
+      <GuideTeaser locale={locale} />
 
       {/* 6. Interactive Workshop & Consultation CTA */}
       <section className="py-14 sm:py-16 bg-[#131A22] text-white">
@@ -129,8 +62,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. Home Blog Section (3 Latest Articles) */}
-      <HomeBlogSection />
     </>
   );
 }

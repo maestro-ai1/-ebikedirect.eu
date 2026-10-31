@@ -14,7 +14,7 @@ import {
   ArrowRight,
   Sparkles,
   Bitcoin
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { FEATURED_PRODUCTS } from '@/lib/products';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';

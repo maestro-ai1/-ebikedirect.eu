@@ -163,5 +163,49 @@
     "s3": "Vergelijk modellen en bestel online.",
     "home": "E-bikes en pedelecs voor Europa",
     "breadcrumbHome": "Home"
+  },
+  "home": {
+    "catTitle": "Kies op gebruik",
+    "catSub": "Zes typen, één doel: de fiets die bij uw dagelijks leven past.",
+    "models": "modellen",
+    "viewCategory": "Bekijken",
+    "cat": {
+      "mtb": "Elektrische mountainbikes",
+      "trekking": "Trekking e-bikes",
+      "city": "City e-bikes",
+      "speed": "S-Pedelecs",
+      "cargo": "Elektrische bakfietsen",
+      "all": "Alle e-bikes"
+    },
+    "newTitle": "Nieuw in het assortiment",
+    "newSub": "Recent toegevoegde modellen met gecontroleerde gegevens en studiofoto's.",
+    "viewAll": "Alle modellen bekijken",
+    "rrp": "Adviesprijs",
+    "details": "Details bekijken",
+    "brandsTitle": "Merken in het assortiment",
+    "brandsSub": "Elk merk heeft een eigen pagina met alle leverbare modellen.",
+    "whyTitle": "Waarom ebikedirect.eu",
+    "why": [
+      [
+        "Levering",
+        "Pallettransport met laadklep, gratis vanaf 10.000 € bestelwaarde."
+      ],
+      [
+        "Betaling",
+        "10% korting bij betaling met USDT of Bitcoin."
+      ],
+      [
+        "Garantie",
+        "2 jaar garantie en 30 dagen retourrecht."
+      ],
+      [
+        "Advies",
+        "Advies over framemaat, motor en accu vóór de aankoop."
+      ]
+    ],
+    "guideTitle": "Uit de gids",
+    "guideSub": "Techniek, regels en aankoopkeuze helder uitgelegd.",
+    "guideAll": "Alle artikelen lezen",
+    "model": "model"
   }
 }

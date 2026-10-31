@@ -14,7 +14,7 @@ import {
   QrCode,
   ArrowRight,
   ExternalLink
-} from 'lucide-react';
+} from '@/components/ui/icons';
 import { useCart } from '@/context/cart-context';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { useI18n } from '@/context/i18n-context';
