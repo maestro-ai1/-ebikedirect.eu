@@ -21,7 +21,8 @@ function productTitle(name: string): string {
 
 function productDescription(p: { name: string; price: number; motor: string; batteryStandardWh: number; rangeKm: number }): string {
   const price = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(p.price);
-  const parts = [`${p.name} kaufen:`, `${p.motor}, ${p.batteryStandardWh} Wh, bis ${p.rangeKm} km Reichweite.`, `Preis ${price}.`, 'Lieferung per Spedition. Jetzt online bestellen.'];
+  const spec = `${p.motor}${p.batteryStandardWh > 0 ? `, ${p.batteryStandardWh} Wh` : ''}${p.rangeKm > 0 ? `, bis ${p.rangeKm} km Reichweite` : ''}.`;
+  const parts = [`${p.name} kaufen:`, spec, `Preis ${price}.`, 'Lieferung per Spedition. Jetzt online bestellen.'];
   let text = parts.join(' ');
   if (text.length > 158) text = [parts[0], `${p.motor}, ${p.batteryStandardWh} Wh.`, parts[2], parts[3]].join(' ');
   if (text.length > 158) text = [parts[0], `${p.batteryStandardWh} Wh Akku.`, parts[2], parts[3]].join(' ');

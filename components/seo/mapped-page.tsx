@@ -43,7 +43,7 @@ export function MappedPage({ path }: { path: string }) {
         ? []
         : [{ label: 'E-Bikes', href: '/e-bikes' }];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
-  const siblings = (def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
+  const siblings = (def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon', '/marken/tenways'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
     .filter((s) => s !== path)
     .map((s) => ({ path: s, name: getKeywordPage('de', s)?.name || s }));
 
@@ -77,7 +77,7 @@ export function MappedPage({ path }: { path: string }) {
                     <h3 className="text-base font-bold text-[#131A22] leading-snug">
                       <Link href={`/shop/${p.slug}`} className="hover:text-[#FF5722]">{p.name}</Link>
                     </h3>
-                    <p className="text-xs text-gray-600 flex-1">{p.motor}, {p.batteryStandardWh} Wh, bis {p.rangeKm} km Reichweite</p>
+                    <p className="text-xs text-gray-600 flex-1">{p.motor}{p.batteryStandardWh > 0 ? `, ${p.batteryStandardWh} Wh Akku` : ''}{p.rangeKm > 0 ? `, bis ${p.rangeKm} km Reichweite` : ''}</p>
                     <div className="text-lg font-black text-[#131A22]">{eur.format(p.price)}</div>
                   </div>
                 </li>

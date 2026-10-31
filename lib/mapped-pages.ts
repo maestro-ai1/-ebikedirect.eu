@@ -25,6 +25,7 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/marken/kalkhoff', type: 'brand', brand: 'Kalkhoff' },
   { path: '/marken/gazelle', type: 'brand', brand: 'Gazelle' },
   { path: '/marken/canyon', type: 'brand', brand: 'Canyon' },
+  { path: '/marken/tenways', type: 'brand', brand: 'Tenways' },
 ];
 
 export function getMappedPage(path: string): MappedPageDef | undefined {

@@ -1,6 +1,7 @@
 import { Product } from './types';
+import { CATALOG_PRODUCTS } from './catalog-products';
 
-export const PRODUCTS: Product[] = [
+const TEMPLATE_PRODUCTS: Product[] = [
   {
     id: 'prod-cube-stereo-160',
     slug: 'cube-stereo-hybrid-160-hpc-actionteam-750',
@@ -432,5 +433,8 @@ export const PRODUCTS: Product[] = [
     isFeatured: false
   }
 ];
+
+// Catalogue products first, then the products carried over from the former site.
+export const PRODUCTS: Product[] = [...CATALOG_PRODUCTS, ...TEMPLATE_PRODUCTS];
 
 export const FEATURED_PRODUCTS = PRODUCTS.filter((p) => p.isFeatured).slice(0, 6);

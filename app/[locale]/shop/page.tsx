@@ -50,7 +50,7 @@ function ShopContent() {
   const itemsPerPage = 6;
 
   const categories = ['all', 'E-MTB', 'E-Trekking', 'E-City', 'Speed-Pedelec', 'Cargo-E-Bike'];
-  const brands = ['all', 'Cube', 'Specialized', 'Riese & Müller', 'Haibike', 'Kalkhoff', 'Gazelle', 'Canyon'];
+  const brands = ['all', 'Cube', 'Specialized', 'Riese & Müller', 'Haibike', 'Kalkhoff', 'Gazelle', 'Canyon', 'Tenways'];
   const motors = ['all', 'Bosch', 'Shimano', 'Yamaha', 'Specialized'];
 
   // Filter products
@@ -413,7 +413,7 @@ function ShopProductCard({ product }: { product: Product }) {
           </div>
           <div className="flex items-center gap-1">
             <Battery className="w-3.5 h-3.5 text-[#00C853] shrink-0" />
-            <span>bis {product.rangeKm} km</span>
+            <span>{product.rangeKm > 0 ? `bis ${product.rangeKm} km` : product.batteryStandardWh > 0 ? `${product.batteryStandardWh} Wh Akku` : 'Akku siehe Daten'}</span>
           </div>
         </div>
 

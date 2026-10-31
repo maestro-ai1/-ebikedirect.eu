@@ -100,11 +100,15 @@ export function ProductJsonLd({ product }: { product: Product }) {
         }
       }
     },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': product.rating.toString(),
-      'reviewCount': product.reviewsCount.toString()
-    }
+    ...(product.reviewsCount > 0
+      ? {
+          'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': product.rating.toString(),
+            'reviewCount': product.reviewsCount.toString()
+          }
+        }
+      : {})
   };
 
   return (

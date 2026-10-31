@@ -126,7 +126,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
                   </span>
                   <span className="flex items-center gap-1.5 text-xs font-bold text-[#009624] bg-[#E8F8F0] px-2.5 py-1 rounded-full border border-[#00C853]/40">
                     <span className="w-2 h-2 rounded-full bg-[#00C853] animate-pulse" />
-                    Sofort lieferbar ({product.stockCount} verfügbar)
+                    {product.stockCount > 0 ? `Sofort lieferbar (${product.stockCount} verfügbar)` : 'Auf Anfrage lieferbar'}
                   </span>
                 </div>
 
@@ -135,6 +135,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
                 </h1>
 
                 {/* Rating */}
+                {product.reviewsCount > 0 && (
                 <div className="flex items-center gap-2 text-xs">
                   <div className="flex items-center text-amber-400">
                     {[...Array(5)].map((_, i) => (
@@ -144,20 +145,21 @@ export function ProductDetailClient({ product }: { product: Product }) {
                   <span className="font-bold text-gray-900">{product.rating.toFixed(1)}</span>
                   <span className="text-gray-500">({product.reviewsCount} Kundenbewertungen auf Trustpilot)</span>
                 </div>
+                )}
 
                 {/* Key Technical Metric Badges */}
                 <div className="grid grid-cols-3 gap-2.5 bg-gray-50 p-3 rounded-xl border border-gray-200">
                   <div className="text-center">
                     <div className="text-[10px] text-gray-500 font-semibold uppercase">Motor</div>
-                    <div className="text-xs font-extrabold text-gray-900 truncate mt-0.5">{product.torqueNm} Nm</div>
+                    <div className="text-xs font-extrabold text-gray-900 truncate mt-0.5">{product.torqueNm > 0 ? `${product.torqueNm} Nm` : 'siehe Daten'}</div>
                   </div>
                   <div className="text-center border-x border-gray-200">
                     <div className="text-[10px] text-gray-500 font-semibold uppercase">Akku</div>
-                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{selectedBattery.capacityWh} Wh</div>
+                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{selectedBattery.capacityWh > 0 ? `${selectedBattery.capacityWh} Wh` : 'siehe Daten'}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-[10px] text-gray-500 font-semibold uppercase">Reichweite</div>
-                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">bis {product.rangeKm} km</div>
+                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{product.rangeKm > 0 ? `bis ${product.rangeKm} km` : 'siehe Daten'}</div>
                   </div>
                 </div>
 
@@ -321,10 +323,12 @@ export function ProductDetailClient({ product }: { product: Product }) {
                   <span className="font-medium text-gray-900 text-right max-w-xs">{specVal}</span>
                 </div>
               ))}
+              {product.weightKg > 0 && (
               <div className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-500">Gewicht:</span>
                 <span className="font-medium text-gray-900">{product.weightKg} kg</span>
               </div>
+              )}
               <div className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-500">Zulassung:</span>
                 <span className="font-medium text-gray-900">StVZO-konform / EPAC bis 25 km/h</span>
