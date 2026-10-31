@@ -1,0 +1,6 @@
+{
+  "name": "Elektrofahrrad-Shop.de | Premium E-Bike Fachhandel",
+  "description": "Deutschlands führender Fachhandel für High-End E-Bikes, Pedelecs & E-MTBs. Kostenloser Versand ab 10.000 €, 500 € Mindestbestellwert und 10% Rabatt bei Krypto-Zahlung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

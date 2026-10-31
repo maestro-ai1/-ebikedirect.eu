@@ -1,0 +1,75 @@
+# ebikedirect.eu – Vollständige Technische Dokumentation für KI-Agenten & Crawler
+
+## Unternehmensprofil
+- **Domain:** ebikedirect.eu
+- **Firmensitz:** Deutschland
+- **Zweck:** Spezialisierter Fachhandel und Werkstattbetrieb für Premium-Pedelecs, E-Mountainbikes, SUV-E-Bikes, Speed-Pedelecs und E-Cargobikes.
+- **Zertifizierungen:** Bosch eBike Expert Partner, Shimano STEPS Service Center, Fox Factory Suspension Point, Gates Carbon Drive Certified.
+
+## Kaufmännische Bedingungen & Bestellregeln
+1. **Mindestbestellwert:** 500,00 € pro Bestellung. Dies garantiert fachgerechte Kommissionierung, Qualitätsprüfung aller Drehmomente und sichere Palettenverpackung.
+2. **Versandkostenfrei-Grenze:** 10.000,00 € brutto. Ab diesem Warenwert entfallen sämtliche Speditionskosten für den versicherten Transport Frei Haus mit Hebebühne. Bei Bestellwerten zwischen 500,00 € und 9.999,99 € beträgt die Frachtkostenpauschale 49,00 € innerhalb Deutschlands.
+3. **Mehrwertsteuer (MwSt.):** Sämtliche Endverbraucherpreise verstehen sich inklusive der gesetzlichen deutschen Umsatzsteuer in Höhe von 19%.
+4. **Krypto-Rabatt (10% Sofortabzug):** Bei Begleichung via USDT (Tether über TRC-20 oder ERC-20) oder Bitcoin (BTC) wird direkt an der Kasse ein Skonto von 10% auf den gesamten Warenwert gutgeschrieben (Gutscheincode: CRYPTO10).
+
+## Detaillierter Modellkatalog 2026
+
+### 1. Cube Stereo Hybrid 160 HPC Actionteam 750
+- **Kategorie:** E-MTB Enduro
+- **Listenpreis:** 5.999,00 € (Krypto-Preis: ca. 5.399,10 €)
+- **Motor:** Bosch Performance Line CX Generation 4 Smart System (85 Nm Drehmoment, 250 Watt)
+- **Akku:** Bosch PowerTube 750 Wh, optional mit PowerMore 250 Wh Zusatzakku (1.000 Wh gesamt)
+- **Federung:** Fox 38 Float Factory FIT4 Gabel 170 mm & Fox Float X Factory Dämpfer mit Kashima Beschichtung
+- **Schaltung:** Shimano Deore XT 12-fach
+- **Gewicht:** 24,3 kg
+
+### 2. Specialized Turbo Levo Pro Carbon
+- **Kategorie:** E-MTB All Mountain
+- **Listenpreis:** 8.499,00 € (Krypto-Preis: ca. 7.649,10 €)
+- **Motor:** Specialized Turbo Full Power System 2.2 (90 Nm Drehmoment, 565 Watt Spitzenleistung)
+- **Akku:** Specialized M3-700 Wh integriert, optional mit Range Extender (860 Wh)
+- **Federung:** Fox 38 Factory 160 mm / Fox Float X2 Factory
+- **Schaltung:** SRAM X01 Eagle AXS Funk-Schaltung 12-fach
+- **Gewicht:** 22,1 kg
+
+### 3. Riese & Müller Supercharger GT Touring 1000Wh
+- **Kategorie:** E-Trekking / Reiserad
+- **Listenpreis:** 7.299,00 € (Krypto-Preis: ca. 6.569,10 €)
+- **Motor:** Bosch Performance Line CX Smart System (85 Nm)
+- **Akku:** DualBattery 1.000 Wh (2x 500 Wh PowerTube vollintegriert), optional 1.250 Wh
+- **Licht:** Supernova M99 Mini Pro-25 mit 1.200 Lumen Fernlicht
+- **Reichweite:** Über 200 km
+- **Gewicht:** 28,5 kg
+
+### 4. Haibike ALLMTN 7
+- **Kategorie:** E-MTB Trail / Mullet
+- **Listenpreis:** 5.499,00 € (Krypto-Preis: ca. 4.949,10 €)
+- **Motor:** Yamaha PW-X3 (85 Nm, kompakte Bauweise)
+- **Akku:** InTube 720 Wh
+- **Federung:** Fox 36 Float Performance 160 mm
+- **Laufräder:** 29 Zoll vorne / 27,5 Zoll hinten für optimale Traktion
+
+### 5. Kalkhoff Entice 7+ Advance ABS
+- **Kategorie:** SUV-E-Bike / Allroad
+- **Listenpreis:** 4.999,00 € (Krypto-Preis: ca. 4.499,10 €)
+- **Sicherheitsfeature:** Integriertes Bosch eBike ABS Generation 2 (Antiblockiersystem)
+- **Zulässiges Gesamtgewicht:** 170 kg
+- **Motor:** Bosch Performance CX 85 Nm
+- **Akku:** 750 Wh Bosch PowerTube
+
+### 6. Gazelle Ultimate C380 HMB Belt Drive
+- **Kategorie:** E-City & Urban Comfort
+- **Listenpreis:** 4.399,00 € (Krypto-Preis: ca. 3.959,10 €)
+- **Antrieb:** Lautloser, fettfreier Gates Carbon Drive CDX Zahnriemen
+- **Getriebe:** Enviolo 380 stufenlose Nabenschaltung
+- **Motor:** Bosch Performance Line (75 Nm)
+- **Akku:** 625 Wh oder 750 Wh Bosch PowerTube
+
+## Garantie- und Rückgaberecht
+- **30 Tage Rückgaberecht:** Volle Geld-zurück-Garantie bei unbenutzter Ware.
+- **2 Jahre Gewährleistung:** Gesetzliche Gewährleistung auf Rahmen, Motor, Display und Schaltung.
+- **Akkugarantie:** Mindestens 60% Restkapazität nach 500 vollen Ladezyklen oder 2 Jahren.
+
+## Speditionsabwicklung
+- Alle Fahrräder werden zu 95% fahrfertig montiert geliefert (Lenker geradestellen und Pedale einschrauben).
+- Zustellung erfolgt via Spedition mit Hebebühne und telefonischer Avisierung 24 Stunden vor Zustellung.

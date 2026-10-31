@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#131A22"/>
+  <!-- Kinetic Electric Wheel & Lightning Motif -->
+  <circle cx="24" cy="24" r="16" stroke="#2B3848" stroke-width="2.5" stroke-dasharray="4 2"/>
+  <circle cx="24" cy="24" r="8" stroke="#00C853" stroke-width="2"/>
+  <path d="M26 12L19 25H25L22 36L31 23H25L26 12Z" fill="#FF5722"/>
+  <circle cx="24" cy="24" r="2.5" fill="#00C853"/>
+</svg>
