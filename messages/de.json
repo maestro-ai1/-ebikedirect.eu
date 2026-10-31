@@ -1,7 +1,6 @@
 {
   "locale": "de",
   "name": "Deutsch",
-  "flag": "🇩🇪",
   "nav": {
     "home": "Home",
     "shop": "Shop",
@@ -156,5 +155,13 @@
     "legal": "Rechtliches & Richtlinien",
     "allRights": "Alle Rechte vorbehalten.",
     "priceNote": "Preise inkl. gesetzl. 19% MwSt. · Mindestbestellwert 500,00 € · Kostenloser Versand ab 10.000,00 €"
+  },
+  "seo": {
+    "titleTail": "online bestellen",
+    "s1": "Premium E-Bikes von Cube, Specialized, Riese & Müller und mehr.",
+    "s2": "Speditionsversand in ganz Europa.",
+    "s3": "Modelle vergleichen und online bestellen.",
+    "home": "E-Bikes und Pedelecs für Europa",
+    "breadcrumbHome": "Startseite"
   }
 }

@@ -1,0 +1,413 @@
+{
+ "locale": "es",
+ "market": "ES",
+ "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "pages": [
+  {
+   "url": "/",
+   "type": "home",
+   "name": "Home",
+   "primary": {
+    "keyword": "bicicleta electrica plegable",
+    "intent": "C",
+    "volume": 3600,
+    "kd": 16
+   },
+   "secondary": [
+    {
+     "keyword": "bicicleta eléctrica plegable",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 19
+    },
+    {
+     "keyword": "bici electrica niño",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 15
+    },
+    {
+     "keyword": "bici eléctrica baratas",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "bicicleta eléctrica barata",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 21
+    },
+    {
+     "keyword": "bici electrica precio",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 29
+    }
+   ],
+   "held": []
+  }
+ ],
+ "pool": [
+  {
+   "keyword": "bicicleta eléctrica plegable",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 19
+  },
+  {
+   "keyword": "bici electrica niño",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 15
+  },
+  {
+   "keyword": "bici eléctrica baratas",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 22
+  },
+  {
+   "keyword": "bicicleta eléctrica barata",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 21
+  },
+  {
+   "keyword": "bici electrica precio",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 29
+  },
+  {
+   "keyword": "bicicleta electrica montana",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 25
+  },
+  {
+   "keyword": "bicicleta electrica de montana",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 17
+  },
+  {
+   "keyword": "cube bike",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 25
+  },
+  {
+   "keyword": "mejor bicicleta electrica calidad precio",
+   "intent": "C",
+   "volume": 880,
+   "kd": 13
+  },
+  {
+   "keyword": "bici electrica media markt",
+   "intent": "T",
+   "volume": 880,
+   "kd": 29
+  },
+  {
+   "keyword": "precio bicicleta electrica",
+   "intent": "T",
+   "volume": 720,
+   "kd": 17
+  },
+  {
+   "keyword": "mejor bicicleta eléctrica calidad precio",
+   "intent": "C",
+   "volume": 720,
+   "kd": 12
+  },
+  {
+   "keyword": "cube e bike",
+   "intent": "T",
+   "volume": 720,
+   "kd": 24
+  },
+  {
+   "keyword": "e bikes",
+   "intent": "T",
+   "volume": 720,
+   "kd": 29
+  },
+  {
+   "keyword": "madridebike-bici-electricas",
+   "intent": "C",
+   "volume": 720,
+   "kd": 27
+  },
+  {
+   "keyword": "bici electrica bh",
+   "intent": "T",
+   "volume": 720,
+   "kd": 27
+  },
+  {
+   "keyword": "bici electrica pequeña",
+   "intent": "T",
+   "volume": 590,
+   "kd": 22
+  },
+  {
+   "keyword": "ebike mtb",
+   "intent": "T",
+   "volume": 590,
+   "kd": 22
+  },
+  {
+   "keyword": "motor bici electrica",
+   "intent": "T",
+   "volume": 590,
+   "kd": 30
+  },
+  {
+   "keyword": "e-bikes",
+   "intent": "C",
+   "volume": 590,
+   "kd": 19
+  },
+  {
+   "keyword": "kit para bici electrica",
+   "intent": "T",
+   "volume": 590,
+   "kd": 8
+  },
+  {
+   "keyword": "bicicleta electrica cecotec",
+   "intent": "C",
+   "volume": 590,
+   "kd": 22
+  },
+  {
+   "keyword": "bicicleta electrica precio",
+   "intent": "T",
+   "volume": 480,
+   "kd": 16
+  },
+  {
+   "keyword": "bicicleta electrica mountain bike",
+   "intent": "T",
+   "volume": 480,
+   "kd": 9
+  },
+  {
+   "keyword": "bicicleta electrica orbea",
+   "intent": "T",
+   "volume": 480,
+   "kd": 22
+  },
+  {
+   "keyword": "bicicleta electrica de montaña",
+   "intent": "C",
+   "volume": 480,
+   "kd": 12
+  },
+  {
+   "keyword": "bici electrica orbea",
+   "intent": "T",
+   "volume": 480,
+   "kd": 18
+  },
+  {
+   "keyword": "bicicleta electrica trek",
+   "intent": "T",
+   "volume": 480,
+   "kd": 28
+  },
+  {
+   "keyword": "orbea ebike",
+   "intent": "T",
+   "volume": 480,
+   "kd": 20
+  },
+  {
+   "keyword": "megamo ebike",
+   "intent": "T",
+   "volume": 480,
+   "kd": 20
+  },
+  {
+   "keyword": "bici electrica precios",
+   "intent": "T",
+   "volume": 390,
+   "kd": 24
+  },
+  {
+   "keyword": "precio bici electrica",
+   "intent": "T",
+   "volume": 390,
+   "kd": 23
+  },
+  {
+   "keyword": "mejores bicicleta electrica",
+   "intent": "C",
+   "volume": 390,
+   "kd": 13
+  },
+  {
+   "keyword": "e bike segunda mano",
+   "intent": "C",
+   "volume": 390,
+   "kd": 12
+  },
+  {
+   "keyword": "mini bici electrica",
+   "intent": "C",
+   "volume": 390,
+   "kd": 19
+  },
+  {
+   "keyword": "bicicleta electrica moma",
+   "intent": "T",
+   "volume": 390,
+   "kd": 25
+  },
+  {
+   "keyword": "bici electrica moma",
+   "intent": "T",
+   "volume": 390,
+   "kd": 29
+  },
+  {
+   "keyword": "moto bici electrica",
+   "intent": "T",
+   "volume": 390,
+   "kd": 11
+  },
+  {
+   "keyword": "e bike ocasion",
+   "intent": "C",
+   "volume": 390,
+   "kd": 25
+  },
+  {
+   "keyword": "mejor bicicleta electrica",
+   "intent": "C",
+   "volume": 390,
+   "kd": 12
+  },
+  {
+   "keyword": "ebike ocasion",
+   "intent": "T",
+   "volume": 390,
+   "kd": 21
+  },
+  {
+   "keyword": "cecotec bicicleta electrica",
+   "intent": "C",
+   "volume": 390,
+   "kd": 24
+  },
+  {
+   "keyword": "bicicleta eléctrica media markt",
+   "intent": "T",
+   "volume": 390,
+   "kd": 27
+  },
+  {
+   "keyword": "canyon e bike",
+   "intent": "T",
+   "volume": 390,
+   "kd": 30
+  },
+  {
+   "keyword": "bicicleta electrica megamo",
+   "intent": "T",
+   "volume": 390,
+   "kd": 19
+  },
+  {
+   "keyword": "bici electrica barata",
+   "intent": "C",
+   "volume": 320,
+   "kd": 15
+  },
+  {
+   "keyword": "bici electrica carretera",
+   "intent": "C",
+   "volume": 320,
+   "kd": 12
+  },
+  {
+   "keyword": "bicicleta electrica trekking",
+   "intent": "C",
+   "volume": 320,
+   "kd": 15
+  },
+  {
+   "keyword": "bicicleta electrica media markt",
+   "intent": "T",
+   "volume": 320,
+   "kd": 27
+  },
+  {
+   "keyword": "bicicleta eléctrica el corte inglés",
+   "intent": "T",
+   "volume": 320,
+   "kd": 30
+  },
+  {
+   "keyword": "e bike cube",
+   "intent": "C",
+   "volume": 320,
+   "kd": 25
+  },
+  {
+   "keyword": "bicicleta electrica tipo moto",
+   "intent": "T",
+   "volume": 320,
+   "kd": 7
+  },
+  {
+   "keyword": "ebike bh",
+   "intent": "T",
+   "volume": 320,
+   "kd": 30
+  },
+  {
+   "keyword": "e bike cannondale",
+   "intent": "T",
+   "volume": 320,
+   "kd": 25
+  },
+  {
+   "keyword": "bicicleta electrica barata y buena",
+   "intent": "C",
+   "volume": 260,
+   "kd": 10
+  },
+  {
+   "keyword": "bici electrica plegable barata",
+   "intent": "C",
+   "volume": 260,
+   "kd": 19
+  },
+  {
+   "keyword": "bicicleta eléctrica precio",
+   "intent": "T",
+   "volume": 260,
+   "kd": 15
+  },
+  {
+   "keyword": "precio bicicleta eléctrica",
+   "intent": "T",
+   "volume": 260,
+   "kd": 19
+  },
+  {
+   "keyword": "bicicleta electrica oferta",
+   "intent": "C",
+   "volume": 260,
+   "kd": 14
+  },
+  {
+   "keyword": "precios de bici electrica",
+   "intent": "T",
+   "volume": 260,
+   "kd": 29
+  }
+ ]
+}

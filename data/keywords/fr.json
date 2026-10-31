@@ -1,0 +1,413 @@
+{
+ "locale": "fr",
+ "market": "FR",
+ "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "pages": [
+  {
+   "url": "/",
+   "type": "home",
+   "name": "Home",
+   "primary": {
+    "keyword": "velo electrique femme",
+    "intent": "",
+    "volume": 9900,
+    "kd": 19
+   },
+   "secondary": [
+    {
+     "keyword": "velo electrique pas cher",
+     "intent": "T",
+     "volume": 4400,
+     "kd": 27
+    },
+    {
+     "keyword": "vélo électrique pas cher",
+     "intent": "T",
+     "volume": 3600,
+     "kd": 27
+    },
+    {
+     "keyword": "velo electrique cube",
+     "intent": "T",
+     "volume": 3600,
+     "kd": 29
+    },
+    {
+     "keyword": "vtt electrique occasion",
+     "intent": "C",
+     "volume": 3600,
+     "kd": 24
+    },
+    {
+     "keyword": "velo electrique prix",
+     "intent": "T",
+     "volume": 2400,
+     "kd": 29
+    }
+   ],
+   "held": []
+  }
+ ],
+ "pool": [
+  {
+   "keyword": "velo electrique pas cher",
+   "intent": "T",
+   "volume": 4400,
+   "kd": 27
+  },
+  {
+   "keyword": "vélo électrique pas cher",
+   "intent": "T",
+   "volume": 3600,
+   "kd": 27
+  },
+  {
+   "keyword": "velo electrique cube",
+   "intent": "T",
+   "volume": 3600,
+   "kd": 29
+  },
+  {
+   "keyword": "vtt electrique occasion",
+   "intent": "C",
+   "volume": 3600,
+   "kd": 24
+  },
+  {
+   "keyword": "velo electrique prix",
+   "intent": "T",
+   "volume": 2400,
+   "kd": 29
+  },
+  {
+   "keyword": "cube velo electrique",
+   "intent": "T",
+   "volume": 2400,
+   "kd": 24
+  },
+  {
+   "keyword": "velo electrique pour route",
+   "intent": "C",
+   "volume": 2400,
+   "kd": 19
+  },
+  {
+   "keyword": "vtt electrique cube",
+   "intent": "T",
+   "volume": 2400,
+   "kd": 28
+  },
+  {
+   "keyword": "meilleur velo electrique",
+   "intent": "C",
+   "volume": 2400,
+   "kd": 24
+  },
+  {
+   "keyword": "velo electrique route",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 14
+  },
+  {
+   "keyword": "cube vtt electrique",
+   "intent": "T",
+   "volume": 1900,
+   "kd": 27
+  },
+  {
+   "keyword": "pompe velo electrique",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 20
+  },
+  {
+   "keyword": "hommes velo electrique",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 25
+  },
+  {
+   "keyword": "velo electrique meilleur",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 14
+  },
+  {
+   "keyword": "location vtt electrique",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 23
+  },
+  {
+   "keyword": "velo electrique de route",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 15
+  },
+  {
+   "keyword": "prix des velos electrique",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 30
+  },
+  {
+   "keyword": "prix d un vélo électrique",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 24
+  },
+  {
+   "keyword": "vae vélo",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 18
+  },
+  {
+   "keyword": "prix d un velo electrique",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 29
+  },
+  {
+   "keyword": "velo electrique ville",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 22
+  },
+  {
+   "keyword": "vélo electrique femme",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 14
+  },
+  {
+   "keyword": "velo électrique pas cher",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 26
+  },
+  {
+   "keyword": "velo electrique lapierre",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 20
+  },
+  {
+   "keyword": "vtt electrique lapierre",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 19
+  },
+  {
+   "keyword": "meilleur velo electrique technisport",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 13
+  },
+  {
+   "keyword": "e bike electric bike",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 24
+  },
+  {
+   "keyword": "e bikes electric",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 19
+  },
+  {
+   "keyword": "ktm vélos électriques",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 10
+  },
+  {
+   "keyword": "velo electrique en solde",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 10
+  },
+  {
+   "keyword": "soldes velo electrique",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 16
+  },
+  {
+   "keyword": "velo electrique promo",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 20
+  },
+  {
+   "keyword": "prix d'un vélo électrique",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 23
+  },
+  {
+   "keyword": "velo electrique francais",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 26
+  },
+  {
+   "keyword": "femmes velo electrique",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 14
+  },
+  {
+   "keyword": "velo electrique paris",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 26
+  },
+  {
+   "keyword": "mini vélo électrique",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 17
+  },
+  {
+   "keyword": "scott vtt electrique",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 24
+  },
+  {
+   "keyword": "velo électrique nakamura",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 19
+  },
+  {
+   "keyword": "velo electrique promotion",
+   "intent": "C",
+   "volume": 880,
+   "kd": 12
+  },
+  {
+   "keyword": "promos velos electriques",
+   "intent": "C",
+   "volume": 880,
+   "kd": 16
+  },
+  {
+   "keyword": "bosch velo electrique",
+   "intent": "C",
+   "volume": 880,
+   "kd": 29
+  },
+  {
+   "keyword": "prix vélo électrique",
+   "intent": "T",
+   "volume": 880,
+   "kd": 24
+  },
+  {
+   "keyword": "promo velo electrique",
+   "intent": "C",
+   "volume": 880,
+   "kd": 21
+  },
+  {
+   "keyword": "meilleur vélo électrique",
+   "intent": "C",
+   "volume": 880,
+   "kd": 26
+  },
+  {
+   "keyword": "vélo électrique déstockage",
+   "intent": "T",
+   "volume": 880,
+   "kd": 11
+  },
+  {
+   "keyword": "velo electrique moteur bosch",
+   "intent": "C",
+   "volume": 880,
+   "kd": 14
+  },
+  {
+   "keyword": "velo vtt electrique",
+   "intent": "C",
+   "volume": 880,
+   "kd": 26
+  },
+  {
+   "keyword": "vélo électrique pour femme",
+   "intent": "C",
+   "volume": 880,
+   "kd": 14
+  },
+  {
+   "keyword": "comparaison velos electriques",
+   "intent": "C",
+   "volume": 880,
+   "kd": 17
+  },
+  {
+   "keyword": "meilleurs velo electriques",
+   "intent": "C",
+   "volume": 880,
+   "kd": 22
+  },
+  {
+   "keyword": "vélo électrique route",
+   "intent": "C",
+   "volume": 880,
+   "kd": 15
+  },
+  {
+   "keyword": "vtt électrique reconditionné",
+   "intent": "C",
+   "volume": 880,
+   "kd": 25
+  },
+  {
+   "keyword": "antivols velo electrique",
+   "intent": "C",
+   "volume": 880,
+   "kd": 18
+  },
+  {
+   "keyword": "velo electrique gros pneus",
+   "intent": "C",
+   "volume": 880,
+   "kd": 14
+  },
+  {
+   "keyword": "velo electrique scott",
+   "intent": "T",
+   "volume": 880,
+   "kd": 23
+  },
+  {
+   "keyword": "velo electrique 24 pouces",
+   "intent": "C",
+   "volume": 880,
+   "kd": 13
+  },
+  {
+   "keyword": "velo electrique hollandais",
+   "intent": "C",
+   "volume": 880,
+   "kd": 17
+  },
+  {
+   "keyword": "velo electrique biplace",
+   "intent": "C",
+   "volume": 880,
+   "kd": 9
+  },
+  {
+   "keyword": "vélo électrique peugeot",
+   "intent": "T",
+   "volume": 880,
+   "kd": 11
+  }
+ ]
+}

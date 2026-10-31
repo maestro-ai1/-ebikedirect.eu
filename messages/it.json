@@ -1,7 +1,6 @@
 {
   "locale": "it",
   "name": "Italiano",
-  "flag": "🇮🇹",
   "nav": {
     "home": "Home",
     "shop": "Negozio",
@@ -156,5 +155,13 @@
     "legal": "Note Legali & Termini",
     "allRights": "Tutti i diritti riservati.",
     "priceNote": "Prezzi con IVA 19% inclusa · Ordine minimo 500,00 € · Spedizione gratuita da 10.000,00 €"
+  },
+  "seo": {
+    "titleTail": "ordina online",
+    "s1": "Bici elettriche premium di Cube, Specialized, Riese & Müller e altri.",
+    "s2": "Spedizione su bancale in tutta Europa.",
+    "s3": "Confronta i modelli e ordina online.",
+    "home": "Bici elettriche per l'Europa",
+    "breadcrumbHome": "Home"
   }
 }

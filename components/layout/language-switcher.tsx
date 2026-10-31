@@ -41,7 +41,6 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
         aria-haspopup="true"
         aria-label={`Sprache wählen: ${currentLocaleInfo.nativeName} (${currentLocaleInfo.label})`}
       >
-        <span className="text-sm leading-none">{currentLocaleInfo.flag}</span>
         <span className="font-extrabold text-xs tracking-wider uppercase">
           {currentLocaleInfo.label}
         </span>
@@ -83,7 +82,7 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
                   role="menuitem"
                 >
                   <div className="flex items-center gap-2.5">
-                    <span className="text-base leading-none">{item.flag}</span>
+                    <span className="w-7 text-[10px] font-extrabold tracking-wider text-gray-400">{item.label}</span>
                     <div className="flex flex-col">
                       <span className="leading-tight">{item.nativeName}</span>
                       <span className="text-[10px] text-gray-400 font-normal leading-tight">

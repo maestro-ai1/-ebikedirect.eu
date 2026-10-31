@@ -1,0 +1,413 @@
+{
+ "locale": "it",
+ "market": "IT",
+ "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "pages": [
+  {
+   "url": "/",
+   "type": "home",
+   "name": "Home",
+   "primary": {
+    "keyword": "bici elettrica",
+    "intent": "I",
+    "volume": 90500,
+    "kd": 27
+   },
+   "secondary": [
+    {
+     "keyword": "ebike",
+     "intent": "C",
+     "volume": 14800,
+     "kd": 21
+    },
+    {
+     "keyword": "bici elettriche",
+     "intent": "C",
+     "volume": 8100,
+     "kd": 22
+    },
+    {
+     "keyword": "bici elettrica pieghevole",
+     "intent": "C",
+     "volume": 6600,
+     "kd": 21
+    },
+    {
+     "keyword": "miglio bici elettrica pieghevole motore centrale",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 8
+    },
+    {
+     "keyword": "e bike usate",
+     "intent": "T",
+     "volume": 2400,
+     "kd": 15
+    }
+   ],
+   "held": []
+  }
+ ],
+ "pool": [
+  {
+   "keyword": "ebike",
+   "intent": "C",
+   "volume": 14800,
+   "kd": 21
+  },
+  {
+   "keyword": "bici elettriche",
+   "intent": "C",
+   "volume": 8100,
+   "kd": 22
+  },
+  {
+   "keyword": "bici elettrica pieghevole",
+   "intent": "C",
+   "volume": 6600,
+   "kd": 21
+  },
+  {
+   "keyword": "miglio bici elettrica pieghevole motore centrale",
+   "intent": "C",
+   "volume": 2400,
+   "kd": 8
+  },
+  {
+   "keyword": "e bike usate",
+   "intent": "T",
+   "volume": 2400,
+   "kd": 15
+  },
+  {
+   "keyword": "bicicletta elettrica engwe",
+   "intent": "T",
+   "volume": 1900,
+   "kd": 23
+  },
+  {
+   "keyword": "bicicletta elettrica pieghevole",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 14
+  },
+  {
+   "keyword": "e bikes usate",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 13
+  },
+  {
+   "keyword": "usato bicicletta elettrica",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 22
+  },
+  {
+   "keyword": "vendita bici elettriche",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 18
+  },
+  {
+   "keyword": "bici elettrica unieuro",
+   "intent": "T",
+   "volume": 1900,
+   "kd": 29
+  },
+  {
+   "keyword": "bici elettriche offerte",
+   "intent": "C",
+   "volume": 1900,
+   "kd": 22
+  },
+  {
+   "keyword": "bici elettrica mediaworld",
+   "intent": "T",
+   "volume": 1600,
+   "kd": 30
+  },
+  {
+   "keyword": "bici elettrica uomo",
+   "intent": "C",
+   "volume": 1600,
+   "kd": 11
+  },
+  {
+   "keyword": "cube e bike",
+   "intent": "T",
+   "volume": 1600,
+   "kd": 22
+  },
+  {
+   "keyword": "engwe bici elettrica",
+   "intent": "T",
+   "volume": 1600,
+   "kd": 25
+  },
+  {
+   "keyword": "trek bikes e bike",
+   "intent": "T",
+   "volume": 1600,
+   "kd": 28
+  },
+  {
+   "keyword": "trek e bike",
+   "intent": "T",
+   "volume": 1600,
+   "kd": 29
+  },
+  {
+   "keyword": "bici elettrica pieghevoli",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 14
+  },
+  {
+   "keyword": "bici elettrica costi",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 16
+  },
+  {
+   "keyword": "prezzo bici elettrica",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 29
+  },
+  {
+   "keyword": "atala bici elettrica",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 19
+  },
+  {
+   "keyword": "e bike cube",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 23
+  },
+  {
+   "keyword": "e bike mountain bike",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 10
+  },
+  {
+   "keyword": "e bike trek",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 29
+  },
+  {
+   "keyword": "e-bike mtb",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 18
+  },
+  {
+   "keyword": "scott bikes e bike",
+   "intent": "T",
+   "volume": 1300,
+   "kd": 25
+  },
+  {
+   "keyword": "ebike mtb",
+   "intent": "C",
+   "volume": 1300,
+   "kd": 18
+  },
+  {
+   "keyword": "bici elettriche usato",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 21
+  },
+  {
+   "keyword": "e-bike usate",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 15
+  },
+  {
+   "keyword": "batteria per bicicletta elettrica",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 10
+  },
+  {
+   "keyword": "bici elettrica economiche",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 24
+  },
+  {
+   "keyword": "bici elettriche uomo",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 25
+  },
+  {
+   "keyword": "bicicletta elettrica in offerta",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 24
+  },
+  {
+   "keyword": "atala ebike",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 19
+  },
+  {
+   "keyword": "e bike bianchi",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 23
+  },
+  {
+   "keyword": "e bike rental",
+   "intent": "C",
+   "volume": 1000,
+   "kd": 17
+  },
+  {
+   "keyword": "ebike cube",
+   "intent": "T",
+   "volume": 1000,
+   "kd": 22
+  },
+  {
+   "keyword": "bici elettriche engwe",
+   "intent": "T",
+   "volume": 880,
+   "kd": 25
+  },
+  {
+   "keyword": "bici elettrica prezzi",
+   "intent": "T",
+   "volume": 880,
+   "kd": 21
+  },
+  {
+   "keyword": "bici elettrica prezzo",
+   "intent": "T",
+   "volume": 880,
+   "kd": 23
+  },
+  {
+   "keyword": "bici elettrica usate",
+   "intent": "C",
+   "volume": 880,
+   "kd": 21
+  },
+  {
+   "keyword": "bici elettriche prezzi",
+   "intent": "T",
+   "volume": 880,
+   "kd": 25
+  },
+  {
+   "keyword": "bici elettrica euronics",
+   "intent": "T",
+   "volume": 880,
+   "kd": 27
+  },
+  {
+   "keyword": "bici elettrica mountain bike",
+   "intent": "C",
+   "volume": 880,
+   "kd": 20
+  },
+  {
+   "keyword": "bicicletta elettrica la migliore",
+   "intent": "C",
+   "volume": 880,
+   "kd": 14
+  },
+  {
+   "keyword": "e bike electric bike",
+   "intent": "C",
+   "volume": 880,
+   "kd": 14
+  },
+  {
+   "keyword": "prezzi delle bici elettriche",
+   "intent": "T",
+   "volume": 880,
+   "kd": 22
+  },
+  {
+   "keyword": "atala e bike",
+   "intent": "T",
+   "volume": 880,
+   "kd": 9
+  },
+  {
+   "keyword": "e bike atala",
+   "intent": "T",
+   "volume": 880,
+   "kd": 18
+  },
+  {
+   "keyword": "e bike scott",
+   "intent": "T",
+   "volume": 880,
+   "kd": 26
+  },
+  {
+   "keyword": "bicicletta elettrica prezzi",
+   "intent": "T",
+   "volume": 720,
+   "kd": 23
+  },
+  {
+   "keyword": "canyon e bike",
+   "intent": "T",
+   "volume": 720,
+   "kd": 27
+  },
+  {
+   "keyword": "e-bike elettrica",
+   "intent": "C",
+   "volume": 720,
+   "kd": 20
+  },
+  {
+   "keyword": "bici elettriche a rate",
+   "intent": "C",
+   "volume": 720,
+   "kd": 15
+  },
+  {
+   "keyword": "bicicletta elettrica unieuro",
+   "intent": "T",
+   "volume": 720,
+   "kd": 28
+  },
+  {
+   "keyword": "e bike ebike",
+   "intent": "C",
+   "volume": 720,
+   "kd": 24
+  },
+  {
+   "keyword": "migliore bici elettriche",
+   "intent": "C",
+   "volume": 720,
+   "kd": 12
+  },
+  {
+   "keyword": "migliori bici elettriche",
+   "intent": "C",
+   "volume": 720,
+   "kd": 12
+  },
+  {
+   "keyword": "specialized bikes e bike",
+   "intent": "T",
+   "volume": 720,
+   "kd": 30
+  }
+ ]
+}

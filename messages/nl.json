@@ -1,7 +1,6 @@
 {
   "locale": "nl",
   "name": "Nederlands",
-  "flag": "🇳🇱",
   "nav": {
     "home": "Home",
     "shop": "Winkel",
@@ -156,5 +155,13 @@
     "legal": "Juridisch & Beleid",
     "allRights": "Alle rechten voorbehouden.",
     "priceNote": "Prijzen incl. 19% btw · Minimale bestelling €500,00 · Gratis verzending vanaf €10.000,00"
+  },
+  "seo": {
+    "titleTail": "online bestellen",
+    "s1": "Premium e-bikes van Cube, Specialized, Riese & Müller en meer.",
+    "s2": "Pallettransport door heel Europa.",
+    "s3": "Vergelijk modellen en bestel online.",
+    "home": "E-bikes en pedelecs voor Europa",
+    "breadcrumbHome": "Home"
   }
 }

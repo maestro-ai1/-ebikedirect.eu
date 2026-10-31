@@ -2,34 +2,19 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import { extractLocaleFromPath, getLocalizedPath } from '@/lib/i18n';
+import { extractLocaleFromPath, getHreflangAlternates, getLocalizedPath, Locale } from '@/lib/i18n';
 
-export function HreflangTags() {
+// Emits the self-referencing canonical plus the hreflang set for the current page.
+export function HreflangTags({ locale }: { locale: Locale }) {
   const pathname = usePathname() || '/';
-  const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.APP_URL || 'https://ebikedirect.eu';
   const { strippedPath } = extractLocaleFromPath(pathname);
-
-  // Exact mappings for European search engines
-  const hreflangMappings = [
-    { hreflang: 'de', url: `${baseUrl}${getLocalizedPath(strippedPath, 'de')}` },
-    { hreflang: 'de-DE', url: `${baseUrl}${getLocalizedPath(strippedPath, 'de')}` },
-    { hreflang: 'de-AT', url: `${baseUrl}${getLocalizedPath(strippedPath, 'de')}` },
-    { hreflang: 'en', url: `${baseUrl}${getLocalizedPath(strippedPath, 'en')}` },
-    { hreflang: 'en-EU', url: `${baseUrl}${getLocalizedPath(strippedPath, 'en')}` },
-    { hreflang: 'en-GB', url: `${baseUrl}${getLocalizedPath(strippedPath, 'en')}` },
-    { hreflang: 'nl', url: `${baseUrl}${getLocalizedPath(strippedPath, 'nl')}` },
-    { hreflang: 'nl-NL', url: `${baseUrl}${getLocalizedPath(strippedPath, 'nl')}` },
-    { hreflang: 'nl-BE', url: `${baseUrl}${getLocalizedPath(strippedPath, 'nl')}` },
-    { hreflang: 'it', url: `${baseUrl}${getLocalizedPath(strippedPath, 'it')}` },
-    { hreflang: 'it-IT', url: `${baseUrl}${getLocalizedPath(strippedPath, 'it')}` },
-    { hreflang: 'es', url: `${baseUrl}${getLocalizedPath(strippedPath, 'es')}` },
-    { hreflang: 'es-ES', url: `${baseUrl}${getLocalizedPath(strippedPath, 'es')}` },
-    { hreflang: 'x-default', url: `${baseUrl}${strippedPath === '/' ? '' : strippedPath}` }
-  ];
+  const canonical = `${baseUrl}${getLocalizedPath(strippedPath, locale)}`;
 
   return (
     <>
-      {hreflangMappings.map((item) => (
+      <link rel="canonical" href={canonical} />
+      {getHreflangAlternates(strippedPath, baseUrl).map((item) => (
         <link key={item.hreflang} rel="alternate" hrefLang={item.hreflang} href={item.url} />
       ))}
     </>

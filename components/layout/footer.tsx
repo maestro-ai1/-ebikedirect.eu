@@ -106,18 +106,14 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-gray-500" />
-                <span>Mo-Fr: 09:00 - 18:30 Uhr | +49 (0) 89 2154 7890</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-gray-500" />
-                <span>support@ebikedirect.eu</span>
+                <span>Mo-Fr: 09:00 - 18:30 Uhr</span>
               </div>
             </div>
 
             {/* Trustpilot Mini */}
             <div className="pt-2 flex items-center gap-2.5">
               <div className="bg-[#00C853] text-white px-2 py-0.5 rounded text-[11px] font-black">
-                ★ 4.9 / 5.0
+                4.9 / 5.0
               </div>
               <span className="text-xs text-gray-300 font-medium">
                 Trustpilot Score (5.284+ {t('trustpilot.reviewOf', 'Bewertungen')})

@@ -1,0 +1,203 @@
+{
+ "locale": "pt",
+ "market": "PT",
+ "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "pages": [
+  {
+   "url": "/",
+   "type": "home",
+   "name": "Home",
+   "primary": {
+    "keyword": "bicicleta elétrica",
+    "intent": "I",
+    "volume": 8100,
+    "kd": 17
+   },
+   "secondary": [
+    {
+     "keyword": "e bike portugal",
+     "intent": "C",
+     "volume": 720,
+     "kd": 14
+    },
+    {
+     "keyword": "melhor bicicleta eletrica portugal",
+     "intent": "C",
+     "volume": 590,
+     "kd": 14
+    },
+    {
+     "keyword": "bicicleta eletrica preço",
+     "intent": "T",
+     "volume": 480,
+     "kd": 10
+    },
+    {
+     "keyword": "preço bicicleta eletrica",
+     "intent": "T",
+     "volume": 480,
+     "kd": 10
+    },
+    {
+     "keyword": "bicicleta elétrica ktm",
+     "intent": "T",
+     "volume": 390,
+     "kd": 8
+    }
+   ],
+   "held": []
+  }
+ ],
+ "pool": [
+  {
+   "keyword": "e bike portugal",
+   "intent": "C",
+   "volume": 720,
+   "kd": 14
+  },
+  {
+   "keyword": "melhor bicicleta eletrica portugal",
+   "intent": "C",
+   "volume": 590,
+   "kd": 14
+  },
+  {
+   "keyword": "bicicleta eletrica preço",
+   "intent": "T",
+   "volume": 480,
+   "kd": 10
+  },
+  {
+   "keyword": "preço bicicleta eletrica",
+   "intent": "T",
+   "volume": 480,
+   "kd": 10
+  },
+  {
+   "keyword": "bicicleta elétrica ktm",
+   "intent": "T",
+   "volume": 390,
+   "kd": 8
+  },
+  {
+   "keyword": "bicicleta elétrica barata",
+   "intent": "T",
+   "volume": 260,
+   "kd": 10
+  },
+  {
+   "keyword": "bicicleta eletrica barata",
+   "intent": "C",
+   "volume": 210,
+   "kd": 14
+  },
+  {
+   "keyword": "e bike lisboa",
+   "intent": "C",
+   "volume": 210,
+   "kd": 23
+  },
+  {
+   "keyword": "ebike lisboa",
+   "intent": "C",
+   "volume": 210,
+   "kd": 15
+  },
+  {
+   "keyword": "comprar bicicleta eletrica",
+   "intent": "T",
+   "volume": 170,
+   "kd": 13
+  },
+  {
+   "keyword": "bicicleta eletrica comprar",
+   "intent": "T",
+   "volume": 170,
+   "kd": 13
+  },
+  {
+   "keyword": "bicicleta elétrica onde comprar",
+   "intent": "T",
+   "volume": 170,
+   "kd": 12
+  },
+  {
+   "keyword": "bicicleta eletrica urbana",
+   "intent": "C",
+   "volume": 140,
+   "kd": 8
+  },
+  {
+   "keyword": "bicicleta elétrica 3 rodas",
+   "intent": "T",
+   "volume": 140,
+   "kd": 4
+  },
+  {
+   "keyword": "bicicleta eletrica trek",
+   "intent": "T",
+   "volume": 140,
+   "kd": 19
+  },
+  {
+   "keyword": "ktm bicicleta eletrica",
+   "intent": "T",
+   "volume": 140,
+   "kd": 8
+  },
+  {
+   "keyword": "ebikes portugal",
+   "intent": "C",
+   "volume": 110,
+   "kd": 12
+  },
+  {
+   "keyword": "motor bicicleta eletrica",
+   "intent": "T",
+   "volume": 110,
+   "kd": 11
+  },
+  {
+   "keyword": "preço de bicicleta elétrica",
+   "intent": "T",
+   "volume": 110,
+   "kd": 9
+  },
+  {
+   "keyword": "bicicleta eletrica melhor",
+   "intent": "C",
+   "volume": 110,
+   "kd": 11
+  },
+  {
+   "keyword": "canyon e bike",
+   "intent": "T",
+   "volume": 110,
+   "kd": 22
+  },
+  {
+   "keyword": "ebikes specialized",
+   "intent": "T",
+   "volume": 110,
+   "kd": 28
+  },
+  {
+   "keyword": "motor para bicicleta eletrica",
+   "intent": "T",
+   "volume": 110,
+   "kd": 18
+  },
+  {
+   "keyword": "specialised e bike",
+   "intent": "T",
+   "volume": 110,
+   "kd": 19
+  },
+  {
+   "keyword": "specialized e bike",
+   "intent": "T",
+   "volume": 110,
+   "kd": 26
+  }
+ ]
+}

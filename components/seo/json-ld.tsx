@@ -9,7 +9,6 @@ export function StoreJsonLd() {
     'image': 'https://ebikedirect.eu/logo.svg',
     '@id': 'https://ebikedirect.eu/#store',
     'url': 'https://ebikedirect.eu',
-    'telephone': '+49-89-2154-7890',
     'priceRange': '€€€€',
     'address': {
       '@type': 'PostalAddress',

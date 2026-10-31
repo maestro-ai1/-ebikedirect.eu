@@ -40,10 +40,10 @@ export function TrustpilotWidget() {
 
   const languages = [
     { code: 'all', label: t('trustpilot.allEu', 'Alle (EU)') },
-    { code: 'de', label: '🇩🇪 Deutsch' },
-    { code: 'nl', label: '🇳🇱 Nederlands' },
-    { code: 'it', label: '🇮🇹 Italiano' },
-    { code: 'es', label: '🇪🇸 Español' }
+    { code: 'de', label: 'Deutsch' },
+    { code: 'nl', label: 'Nederlands' },
+    { code: 'it', label: 'Italiano' },
+    { code: 'es', label: 'Español' }
   ];
 
   return (
@@ -57,7 +57,7 @@ export function TrustpilotWidget() {
               {/* Green Trustpilot Badge */}
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-6 h-6 bg-[#00C853] text-white flex items-center justify-center rounded-sm font-black text-xs">
-                  ★
+                  TP
                 </div>
                 <span className="text-sm font-extrabold text-[#131A22] tracking-wider uppercase">
                   Trustpilot

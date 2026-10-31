@@ -92,11 +92,8 @@ export function Header() {
             </Link>
             <span>·</span>
             <span className="flex items-center gap-1 font-medium text-gray-300">
-              <span>{localeInfo.flag}</span>
               <span>{localeInfo.label} / € EUR</span>
             </span>
-            <span>·</span>
-            <span>{t('nav.advisor', 'Fachberater')}: +49 (0) 89 2154 7890</span>
           </div>
         </div>
       </div>
