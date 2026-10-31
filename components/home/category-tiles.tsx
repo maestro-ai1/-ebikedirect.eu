@@ -11,7 +11,7 @@ const TILES: { key: GlyphVariant; path: string; category?: string; tone: string 
   { key: 'mtb', path: '/e-bikes/e-mountainbikes', category: 'E-MTB', tone: 'bg-[#FFF1EC]' },
   { key: 'speed', path: '/e-bikes/s-pedelec', category: 'Speed-Pedelec', tone: 'bg-[#EEF1F4]' },
   { key: 'cargo', path: '/e-bikes/cargo-bikes', category: 'Cargo-E-Bike', tone: 'bg-[#FFF1EC]' },
-  { key: 'all', path: '/e-bikes', tone: 'bg-[#131A22]' },
+  { key: 'acc', path: '/zubehoer', category: 'Zubehör', tone: 'bg-[#131A22]' },
 ];
 
 export function CategoryTiles({ locale }: { locale: Locale }) {
@@ -26,7 +26,7 @@ export function CategoryTiles({ locale }: { locale: Locale }) {
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           {TILES.map((t) => {
             const count = t.category ? PRODUCTS.filter((p) => p.category === t.category).length : PRODUCTS.length;
-            const dark = t.key === 'all';
+            const dark = t.key === 'acc';
             return (
               <li key={t.key}>
                 <Link

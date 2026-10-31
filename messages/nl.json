@@ -175,7 +175,8 @@
       "city": "City e-bikes",
       "speed": "S-Pedelecs",
       "cargo": "Elektrische bakfietsen",
-      "all": "Alle e-bikes"
+      "all": "Alle e-bikes",
+      "acc": "Accessoires"
     },
     "newTitle": "Nieuw in het assortiment",
     "newSub": "Recent toegevoegde modellen met gecontroleerde gegevens en studiofoto's.",

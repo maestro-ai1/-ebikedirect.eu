@@ -175,7 +175,8 @@
       "city": "City E-Bikes",
       "speed": "S-Pedelecs",
       "cargo": "Cargo E-Bikes",
-      "all": "Alle E-Bikes"
+      "all": "Alle E-Bikes",
+      "acc": "Zubehör"
     },
     "newTitle": "Neu im Sortiment",
     "newSub": "Frisch aufgenommene Modelle mit geprüften Daten und Studiofotos.",

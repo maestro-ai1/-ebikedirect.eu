@@ -30,6 +30,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
   const [selectedColor, setSelectedColor] = useState(product.options.colors[0]);
   const [quantity, setQuantity] = useState(1);
 
+  const isAccessory = product.category === 'Zubehör';
   const currentPrice = product.price + selectedBattery.priceDelta;
   const cryptoPrice = currentPrice * 0.9;
   const cryptoSavings = currentPrice * 0.1;
@@ -148,6 +149,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
                 )}
 
                 {/* Key Technical Metric Badges */}
+                {!isAccessory && (
                 <div className="grid grid-cols-3 gap-2.5 bg-gray-50 p-3 rounded-xl border border-gray-200">
                   <div className="text-center">
                     <div className="text-[10px] text-gray-500 font-semibold uppercase">Motor</div>
@@ -162,12 +164,14 @@ export function ProductDetailClient({ product }: { product: Product }) {
                     <div className="text-xs font-extrabold text-gray-900 mt-0.5">{product.rangeKm > 0 ? `bis ${product.rangeKm} km` : 'siehe Daten'}</div>
                   </div>
                 </div>
+                )}
 
                 <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                   {product.description}
                 </p>
 
                 {/* INTERACTIVE SELECTOR 1: Frame Sizes */}
+                {(!isAccessory || product.options.frameSizes.length > 1) && (
                 <div className="space-y-1.5 pt-2">
                   <label className="block text-xs font-bold text-gray-800">
                     Rahmengröße auswählen: <strong className="text-[#FF5722]">{selectedFrame}</strong>
@@ -190,7 +194,10 @@ export function ProductDetailClient({ product }: { product: Product }) {
                   </div>
                 </div>
 
+                )}
+
                 {/* INTERACTIVE SELECTOR 2: Battery Choice */}
+                {!isAccessory && (
                 <div className="space-y-1.5">
                   <label className="block text-xs font-bold text-gray-800">
                     Akkukapazität:
@@ -216,10 +223,13 @@ export function ProductDetailClient({ product }: { product: Product }) {
                   </div>
                 </div>
 
+                )}
+
                 {/* INTERACTIVE SELECTOR 3: Color Swatches */}
+                {(!isAccessory || product.options.colors.length > 1) && (
                 <div className="space-y-1.5">
                   <label className="block text-xs font-bold text-gray-800">
-                    Rahmenfarbe: <strong className="text-gray-900">{selectedColor.name}</strong>
+                    {isAccessory ? 'Farbe' : 'Rahmenfarbe'}: <strong className="text-gray-900">{selectedColor.name}</strong>
                   </label>
                   <div className="flex items-center gap-3">
                     {product.options.colors.map((c) => (
@@ -242,6 +252,7 @@ export function ProductDetailClient({ product }: { product: Product }) {
                     ))}
                   </div>
                 </div>
+                )}
               </div>
 
               {/* Price Calculation & Checkout Triggers */}
@@ -329,10 +340,12 @@ export function ProductDetailClient({ product }: { product: Product }) {
                 <span className="font-medium text-gray-900">{product.weightKg} kg</span>
               </div>
               )}
+              {!isAccessory && (
               <div className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-500">Zulassung:</span>
-                <span className="font-medium text-gray-900">StVZO-konform / EPAC bis 25 km/h</span>
+                <span className="font-medium text-gray-900">{product.category === 'Speed-Pedelec' ? 'S-Pedelec bis 45 km/h, Versicherungskennzeichen' : 'StVZO-konform / EPAC bis 25 km/h'}</span>
               </div>
+              )}
             </div>
           </div>
         </div>

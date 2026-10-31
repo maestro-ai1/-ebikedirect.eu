@@ -175,7 +175,8 @@
       "city": "E-bike city",
       "speed": "S-Pedelec",
       "cargo": "E-bike cargo",
-      "all": "Tutte le e-bike"
+      "all": "Tutte le e-bike",
+      "acc": "Accessori"
     },
     "newTitle": "Novità",
     "newSub": "Modelli appena aggiunti con dati verificati e foto in studio.",

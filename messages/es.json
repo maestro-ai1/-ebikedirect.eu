@@ -175,7 +175,8 @@
       "city": "Bicicletas eléctricas urbanas",
       "speed": "S-Pedelec",
       "cargo": "Bicicletas eléctricas de carga",
-      "all": "Todas las bicicletas eléctricas"
+      "all": "Todas las bicicletas eléctricas",
+      "acc": "Accesorios"
     },
     "newTitle": "Novedades",
     "newSub": "Modelos añadidos recientemente con datos verificados y fotos de estudio.",

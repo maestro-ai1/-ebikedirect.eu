@@ -16,8 +16,10 @@ function productsFor(path: string) {
   const def = getMappedPage(path);
   if (!def) return [];
   if (def.brand) return PRODUCTS.filter((p) => p.brand === def.brand);
+  if (def.accessory) return PRODUCTS.filter((p) => p.accessory === def.accessory);
+  if (def.type === 'accessory') return PRODUCTS.filter((p) => p.category === 'Zubehör');
   if (def.category) return PRODUCTS.filter((p) => p.category === def.category);
-  return PRODUCTS;
+  return PRODUCTS.filter((p) => p.category !== 'Zubehör');
 }
 
 export function mappedMetadata(path: string): Metadata {
@@ -39,11 +41,14 @@ export function MappedPage({ path }: { path: string }) {
   const parent =
     def.type === 'brand'
       ? [{ label: 'Marken', href: '/e-bikes' }]
-      : path === '/e-bikes'
-        ? []
-        : [{ label: 'E-Bikes', href: '/e-bikes' }];
+      : def.type === 'accessory'
+        ? path === '/zubehoer' ? [] : [{ label: 'Zubehör', href: '/zubehoer' }]
+        : path === '/e-bikes'
+          ? []
+          : [{ label: 'E-Bikes', href: '/e-bikes' }];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
-  const siblings = (def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon', '/marken/tenways'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
+  const ACC = ['/zubehoer', '/zubehoer/schloesser', '/zubehoer/helme', '/zubehoer/taschen-koerbe', '/zubehoer/gepaecktraeger-anhaenger', '/zubehoer/schutzbleche-staender', '/zubehoer/handyhalter', '/zubehoer/werkzeug-pflege', '/zubehoer/regenschutz-bekleidung'];
+  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon', '/marken/tenways'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
     .filter((s) => s !== path)
     .map((s) => ({ path: s, name: getKeywordPage('de', s)?.name || s }));
 
@@ -52,17 +57,17 @@ export function MappedPage({ path }: { path: string }) {
       <Breadcrumbs items={[...parent, { label: page.name, href: path }]} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 space-y-10">
         <header className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-10 space-y-3">
-          <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : 'Kategorie'}</p>
+          <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
           <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
           <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
-            {h1}: Hier finden Sie {items.length === 1 ? 'das aktuell lieferbare Modell' : `die ${items.length} aktuell lieferbaren Modelle`} aus
-            dem Bereich {page.name}, mit Preis, Motor, Akkukapazität und Reichweite auf einen Blick. Vergleichen Sie die Ausstattung und bestellen Sie
-            Ihr E-Bike online mit Speditionslieferung nach Hause.
+            {def.type === 'accessory'
+              ? `${h1}: Hier finden Sie ${items.length === 1 ? 'den aktuell lieferbaren Artikel' : `die ${items.length} aktuell lieferbaren Artikel`} aus dem Bereich ${page.name}, mit Preis und Angabe, für welche Räder sie passen. Bestellen Sie Zubehör für Ihr E-Bike direkt online.`
+              : `${h1}: Hier finden Sie ${items.length === 1 ? 'das aktuell lieferbare Modell' : `die ${items.length} aktuell lieferbaren Modelle`} aus dem Bereich ${page.name}, mit Preis, Motor und Akkukapazität auf einen Blick. Vergleichen Sie die Ausstattung und bestellen Sie Ihr E-Bike online mit Speditionslieferung nach Hause.`}
           </p>
         </header>
 
         <section aria-labelledby="models" className="space-y-4">
-          <h2 id="models" className="text-xl font-black text-[#131A22]">Lieferbare Modelle</h2>
+          <h2 id="models" className="text-xl font-black text-[#131A22]">{def.type === 'accessory' ? 'Lieferbare Artikel' : 'Lieferbare Modelle'}</h2>
           {items.length === 0 ? (
             <p className="text-sm text-gray-600">Aktuell sind in diesem Bereich keine Modelle gelistet. Alle Modelle sehen Sie im <Link href={getLocalizedPath('/shop', 'de')} className="text-[#FF5722] font-semibold">Sortiment</Link>.</p>
           ) : (
@@ -107,7 +112,7 @@ export function MappedPage({ path }: { path: string }) {
 
         <section aria-labelledby="more" className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white rounded-2xl border border-gray-200 p-6">
-            <h2 id="more" className="text-base font-black text-[#131A22] mb-3">{def.type === 'brand' ? 'Weitere Marken' : 'Weitere Kategorien'}</h2>
+            <h2 id="more" className="text-base font-black text-[#131A22] mb-3">{def.type === 'brand' ? 'Weitere Marken' : def.type === 'accessory' ? 'Weiteres Zubehör' : 'Weitere Kategorien'}</h2>
             <ul className="space-y-1.5 text-sm">
               {siblings.map((s) => (
                 <li key={s.path}><Link href={getLocalizedPath(s.path, 'de')} className="text-[#FF5722] font-semibold hover:underline">{s.name}</Link></li>
