@@ -28,6 +28,8 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/zubehoer/handyhalter', type: 'accessory', accessory: 'handyhalter' },
   { path: '/zubehoer/werkzeug-pflege', type: 'accessory', accessory: 'werkzeug-pflege' },
   { path: '/zubehoer/regenschutz-bekleidung', type: 'accessory', accessory: 'regenschutz-bekleidung' },
+  { path: '/zubehoer/beleuchtung', type: 'accessory', accessory: 'beleuchtung' },
+  { path: '/zubehoer/sattel-lenker', type: 'accessory', accessory: 'sattel-lenker' },
   { path: '/marken/cube', type: 'brand', brand: 'Cube' },
   { path: '/marken/specialized', type: 'brand', brand: 'Specialized' },
   { path: '/marken/riese-und-mueller', type: 'brand', brand: 'Riese & Müller' },
