@@ -13,7 +13,7 @@ const H = { 'user-agent': UA, 'accept-language': 'de-DE,de;q=0.9' };
 const ORIGIN = 'https://www.fahrrad-xxl.de';
 const BRANDS = {
   Kalkhoff: 'kalkhoff', Haibike: 'haibike', 'Riese & Müller': 'riese-und-mueller', Cube: 'cube', Focus: 'focus', Winora: 'winora',
-  Ghost: 'ghost', KTM: 'ktm', Specialized: 'specialized', Trek: 'trek', Giant: 'giant', Rotwild: 'rotwild', Gazelle: 'gazelle', Brompton: 'brompton', QWIC: 'qwic',
+  Ghost: 'ghost', KTM: 'ktm', Specialized: 'specialized', Trek: 'trek', Giant: 'giant', Rotwild: 'rotwild', 'M1 Sporttechnik': 'm1-sporttechnik', Gazelle: 'gazelle', Brompton: 'brompton', QWIC: 'qwic',
 };
 const CATS = [['E-Trekking', 'e-bike-trekking'], ['E-City', 'e-bike-city'], ['E-MTB', 'e-bike-mtb'], ['Cargo-E-Bike', 'e-bike-lastenrad'], ['Speed-Pedelec', 'e-bike-speed-pedelec']];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

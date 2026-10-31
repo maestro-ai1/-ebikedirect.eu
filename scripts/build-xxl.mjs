@@ -11,8 +11,9 @@ const SKIP = new Set([
   'haibike-trekking-4-600-wh-27-5-zoll',
   'riese-und-mueller-charger5-vario-800-wh-27-5-zoll',
   'specialized-turbo-creo-sl-e5-comp-320-wh-28-zoll', // road/gravel e-bike: no matching category yet
+  'brompton-electric-g-line-e-motiq-urban-demo-345-wh-20-zoll', // demo unit
 ]);
-const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec' };
+const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec', 'Falt-E-Bike': 'Klapp E-Bike' };
 const slugKey = (s) => s;
 const q2 = (n) => Math.round(n * 100) / 100;
 const numOf = (s) => { const m = String(s || '').match(/(\d{2,3})\s*Nm/i); return m ? Number(m[1]) : 0; };
@@ -33,7 +34,7 @@ for (const m of items) {
   let name = norm(m.name);
   if (counts[name] > 1) name = `${name} ${wh} Wh ${zoll}`.replace(/\s+/g, ' ').trim();
   const brand = m.brand === 'Riese & Müller' ? 'Riese & Müller' : m.brand;
-  const cat = m.cat || (/image|entice/i.test(m.name) ? 'E-City' : 'E-Trekking');
+  const cat = m.brand === 'Brompton' ? 'Falt-E-Bike' : m.cat || (/image|entice/i.test(m.name) ? 'E-City' : 'E-Trekking');
   const s = m.specs || {};
   const motor = (s.Motor || '').replace(/Mittelmotor\s*/i, '').replace(/\s*\d+\s*Watt.*$/i, '').trim() || 'Mittelmotor';
 

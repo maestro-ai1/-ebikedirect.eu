@@ -6,6 +6,275 @@ import type { Product } from './types';
 
 export const XXL_PRODUCTS: Product[] = [
   {
+    "id": "brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll",
+    "slug": "brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll",
+    "name": "Brompton Electric G Line e-Motiq Urban",
+    "brand": "Brompton",
+    "category": "Falt-E-Bike",
+    "price": 4227.76,
+    "originalPrice": 4249,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 345,
+    "rangeKm": 0,
+    "weightKg": 18.5,
+    "image": "/products/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
+    "description": "Das Brompton Electric G Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 345 Wh",
+          "capacityWh": 345,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "345 Wh Greenway​",
+      "Display": "Neuer Brompton-Lenker-Kontrollbildschirm",
+      "Schaltung": "4-Gang Kettenschaltung",
+      "Bremsen": "Tektro, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium-Gabel mit Befestigungsvorrichtung",
+      "Rahmen": "Stahl",
+      "Reifen": "Schwalbe G-One All Round, Tan Wall, 20x2.10&quot; (54-406)",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll",
+    "slug": "brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll",
+    "name": "Brompton Electric G Line e-Motiq City+",
+    "brand": "Brompton",
+    "category": "Falt-E-Bike",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 345,
+    "rangeKm": 0,
+    "weightKg": 18.5,
+    "image": "/products/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
+    "description": "Das Brompton Electric G Line e-Motiq City+ ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 345 Wh",
+          "capacityWh": 345,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "345 Wh Greenway​",
+      "Display": "Neuer Brompton-Lenker-Kontrollbildschirm",
+      "Schaltung": "4-Gang Kettenschaltung",
+      "Bremsen": "Tektro, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium-Gabel mit Befestigungsvorrichtung",
+      "Rahmen": "Stahl",
+      "Reifen": "Schwalbe Big Apple, 20x2.15&quot; (55-406)",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "brompton-g-line-explore-345-wh-20-zoll",
+    "slug": "brompton-g-line-explore-345-wh-20-zoll",
+    "name": "Brompton G Line Explore",
+    "brand": "Brompton",
+    "category": "Falt-E-Bike",
+    "price": 3063.61,
+    "originalPrice": 3079,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 345,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/brompton-g-line-explore-345-wh-20-zoll/brompton-g-line-explore-345-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/brompton-g-line-explore-345-wh-20-zoll/brompton-g-line-explore-345-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Brompton G Line Explore ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 345 Wh",
+          "capacityWh": 345,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "345 Wh",
+      "Schaltung": "8-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium-Gabel mit Befestigungsvorrichtung",
+      "Rahmen": "Stahl",
+      "Reifen": "Schwalbe G-One All Round, Tan Wall, 20x2.10&quot; (54-406)",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll",
+    "slug": "brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll",
+    "name": "Brompton Electric P Line e-Motiq Urban MK2",
+    "brand": "Brompton",
+    "category": "Falt-E-Bike",
+    "price": 4476.51,
+    "originalPrice": 4499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 345,
+    "rangeKm": 0,
+    "weightKg": 16,
+    "image": "/products/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll-v1-1.webp",
+    "gallery": [
+      "/products/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
+    "description": "Das Brompton Electric P Line e-Motiq Urban MK2 ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 345 Wh",
+          "capacityWh": 345,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "345 Wh Greenway​",
+      "Display": "Neuer Brompton-Lenker-Kontrollbildschirm",
+      "Schaltung": "4-Gang Kettenschaltung",
+      "Bremsen": "Brompton Dual Pivot Bremssättel, mechanische Felgenbremse",
+      "Gabel": "Carbon Gabel",
+      "Rahmen": "Stahl",
+      "Reifen": "Continental Contact Urban, 16x1.35&quot; (35-349)",
+      "Laufradgröße": "16 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll",
+    "slug": "brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll",
+    "name": "Brompton Electric C Line e-Motiq Urban",
+    "brand": "Brompton",
+    "category": "Falt-E-Bike",
+    "price": 3814.83,
+    "originalPrice": 3834,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 345,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll-v1-1.webp",
+    "gallery": [
+      "/products/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
+    "description": "Das Brompton Electric C Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 345 Wh",
+          "capacityWh": 345,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "345 Wh Greenway​",
+      "Display": "Neuer Brompton-Lenker-Kontrollbildschirm",
+      "Schaltung": "4-Gang Kettenschaltung",
+      "Bremsen": "Brompton Dual Pivot Bremssättel, mechanische Felgenbremse",
+      "Gabel": "Gelötete Radgabel aus Stahl",
+      "Rahmen": "Stahl",
+      "Reifen": "Schwalbe Marathon Racer, reflektierende Seitenwand, 16x1.35&quot; (35-349 / 349x35c)",
+      "Laufradgröße": "16 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
     "slug": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
     "name": "Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll",
@@ -1322,6 +1591,553 @@ export const XXL_PRODUCTS: Product[] = [
       "Rahmen": "Aluminium, Fully",
       "Reifen": "Schwalbe Nobby Nic, Addix, 29x2,40&quot; (62-622)",
       "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll",
+    "slug": "gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll",
+    "name": "Gazelle Miss Grace C7+ RT 500 Wh 28 Zoll",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3083.51,
+    "originalPrice": 3099,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus Smart",
+    "torqueNm": 50,
+    "batteryStandardWh": 500,
+    "rangeKm": 0,
+    "weightKg": 28.5,
+    "image": "/products/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 500 Wh Akku, 7-Gang Nabenschaltung (Rücktrittbremse).",
+    "description": "Das Gazelle Miss Grace C7+ RT 500 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 500 Wh",
+          "capacityWh": 500,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus Smart 250 Watt 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "integriert in den Gepäckträger",
+      "Display": "Bosch Intuvia",
+      "Schaltung": "7-Gang Nabenschaltung (Rücktrittbremse)",
+      "Bremsen": "Magura HS11, hydraulische Felgenbremse",
+      "Gabel": "Stahl, ungefedert",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Fat Frank, 28x2.00&quot; (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll",
+    "slug": "gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll",
+    "name": "Gazelle Miss Grace C7+ RT 400 Wh 28 Zoll",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 2884.51,
+    "originalPrice": 2899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus Smart",
+    "torqueNm": 50,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 28.5,
+    "image": "/products/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 400 Wh Akku, 7-Gang Nabenschaltung (Rücktrittbremse).",
+    "description": "Das Gazelle Miss Grace C7+ RT 400 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus Smart 250 Watt 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "integriert in den Gepäckträger",
+      "Display": "Bosch Intuvia",
+      "Schaltung": "7-Gang Nabenschaltung (Rücktrittbremse)",
+      "Bremsen": "Magura HS11, hydraulische Felgenbremse",
+      "Gabel": "Stahl, ungefedert",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Fat Frank, 28x2.00&quot; (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-heavydutynl-c7-plus-500-wh-28-zoll",
+    "slug": "gazelle-heavydutynl-c7-plus-500-wh-28-zoll",
+    "name": "Gazelle HeavyDutyNL C7+",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3083.51,
+    "originalPrice": 3099,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus Smart",
+    "torqueNm": 50,
+    "batteryStandardWh": 500,
+    "rangeKm": 0,
+    "weightKg": 28.5,
+    "image": "/products/gazelle-heavydutynl-c7-plus-500-wh-28-zoll/gazelle-heavydutynl-c7-plus-500-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-heavydutynl-c7-plus-500-wh-28-zoll/gazelle-heavydutynl-c7-plus-500-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 500 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Gazelle HeavyDutyNL C7+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 500 Wh",
+          "capacityWh": 500,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus Smart 250 Watt 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "integriert in den Gepäckträger",
+      "Display": "Bosch Intuvia",
+      "Schaltung": "7-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Magura HS11, hydraulische Felgenbremse",
+      "Gabel": "Stahl, ungefedert",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Fat Frank, 28x2.00&quot; (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-grenoble-c5-600-wh-28-zoll",
+    "slug": "gazelle-grenoble-c5-600-wh-28-zoll",
+    "name": "Gazelle Grenoble C5",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27,
+    "image": "/products/gazelle-grenoble-c5-600-wh-28-zoll/gazelle-grenoble-c5-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-grenoble-c5-600-wh-28-zoll/gazelle-grenoble-c5-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 600 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Gazelle Grenoble C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Integriert in den Rahmen",
+      "Display": "Bosch Kiox 300",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro HD-T280, hydraulische Scheibenbremse",
+      "Gabel": "Teleskop, Spiralfeder",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Energizer Plus, 28x2.00&quot; (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-easyflow-c7-630-wh-24-zoll",
+    "slug": "gazelle-easyflow-c7-630-wh-24-zoll",
+    "name": "Gazelle Easyflow C7",
+    "brand": "Gazelle",
+    "category": "E-Trekking",
+    "price": 3581.01,
+    "originalPrice": 3599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Shimano STEPS EP5",
+    "torqueNm": 0,
+    "batteryStandardWh": 630,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/gazelle-easyflow-c7-630-wh-24-zoll/gazelle-easyflow-c7-630-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-easyflow-c7-630-wh-24-zoll/gazelle-easyflow-c7-630-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Shimano STEPS EP5, 630 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Gazelle Easyflow C7 ist ein Trekking E-Bike von Gazelle. Es hat Shimano STEPS EP5 und einen 630 Wh Akku. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 630 Wh",
+          "capacityWh": 630,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Shimano STEPS EP5 Mittelmotor 250 Watt, 60 Nm (DU-EP500)",
+      "Akku": "Shimano 630 Wh",
+      "Schaltung": "7-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro HD-R280, hydraulische Scheibenbremse",
+      "Gabel": "24 Zoll Aluminium Starrgabel",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Big Ben Plus (55-406)",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-arroyo-c8-elite-rt-600-wh-28-zoll",
+    "slug": "gazelle-arroyo-c8-elite-rt-600-wh-28-zoll",
+    "name": "Gazelle Arroyo C8 Elite RT",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3531.26,
+    "originalPrice": 3549,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus Smart",
+    "torqueNm": 50,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27.3,
+    "image": "/products/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 600 Wh Akku, 8-Gang Nabenschaltung (Rücktrittbremse).",
+    "description": "Das Gazelle Arroyo C8 Elite RT ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus Smart 250 Watt 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "Bosch 600 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "8-Gang Nabenschaltung (Rücktrittbremse)",
+      "Bremsen": "Tektro HD-T280, hydraulische Scheibenbremse",
+      "Gabel": "Gazelle , Teleskop, Spiralfeder, 40 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Energizer Active Plus (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-easyflow-c8-630-wh-24-zoll",
+    "slug": "gazelle-easyflow-c8-630-wh-24-zoll",
+    "name": "Gazelle Easyflow C8",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Shimano STEPS E5100",
+    "torqueNm": 0,
+    "batteryStandardWh": 630,
+    "rangeKm": 0,
+    "weightKg": 24.8,
+    "image": "/products/gazelle-easyflow-c8-630-wh-24-zoll/gazelle-easyflow-c8-630-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-easyflow-c8-630-wh-24-zoll/gazelle-easyflow-c8-630-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Shimano STEPS E5100, 630 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Gazelle Easyflow C8 ist ein City E-Bike von Gazelle. Es hat Shimano STEPS E5100 und einen 630 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, Hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 630 Wh",
+          "capacityWh": 630,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Shimano STEPS E5100 Mittelmotor 250 Watt, 50 Nm (DU-E5100)",
+      "Akku": "Shimano 630 Wh",
+      "Display": "Shimano SC-EN600",
+      "Schaltung": "8-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro HD-R280, Hydraulische Scheibenbremse",
+      "Gabel": "Starrgabel Stahl",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Big Ben Plus (55-406) 24 Zoll",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-heavydutynl-c5-500-wh-28-zoll",
+    "slug": "gazelle-heavydutynl-c5-500-wh-28-zoll",
+    "name": "Gazelle HeavyDutyNL C5",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3382.01,
+    "originalPrice": 3399,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 500,
+    "rangeKm": 0,
+    "weightKg": 26.3,
+    "image": "/products/gazelle-heavydutynl-c5-500-wh-28-zoll/gazelle-heavydutynl-c5-500-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-heavydutynl-c5-500-wh-28-zoll/gazelle-heavydutynl-c5-500-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 500 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Gazelle HeavyDutyNL C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 500 Wh",
+          "capacityWh": 500,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch Batterie 13,4 Ah 500 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura HS11, hydraulische Felgenbremse",
+      "Gabel": "Stahl, ungefedert",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Fat Frank, 50-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-grenoble-c8-600-wh-28-zoll",
+    "slug": "gazelle-grenoble-c8-600-wh-28-zoll",
+    "name": "Gazelle Grenoble C8",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 3531.26,
+    "originalPrice": 3549,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus Smart",
+    "torqueNm": 50,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 27.3,
+    "image": "/products/gazelle-grenoble-c8-600-wh-28-zoll/gazelle-grenoble-c8-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-grenoble-c8-600-wh-28-zoll/gazelle-grenoble-c8-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 600 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Gazelle Grenoble C8 ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus Smart 250 Watt 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "Bosch 600 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "8-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro HD-T280, hydraulische Scheibenbremse",
+      "Gabel": "Gazelle , Teleskop, Spiralfeder, 40 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Energizer Active Plus (50-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-avignon-c380-600-wh-28-zoll",
+    "slug": "gazelle-avignon-c380-600-wh-28-zoll",
+    "name": "Gazelle Avignon C380",
+    "brand": "Gazelle",
+    "category": "E-City",
+    "price": 4924.26,
+    "originalPrice": 4949,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line PX Smart",
+    "torqueNm": 90,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 29.1,
+    "image": "/products/gazelle-avignon-c380-600-wh-28-zoll/gazelle-avignon-c380-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-avignon-c380-600-wh-28-zoll/gazelle-avignon-c380-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Gazelle Avignon C380 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T3021, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line PX Smart 250 Watt",
+      "Drehmoment": "90 Nm",
+      "Akku": "Bosch 600 Wh",
+      "Display": "Bosch Kiox 500",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro HD-T3021, hydraulische Scheibenbremse",
+      "Gabel": "Gazelle , Teleskop, Spiralfeder, 40 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe The Green Marathon (55-622)",
+      "Laufradgröße": "28 Zoll"
     },
     "isFeatured": false
   },
