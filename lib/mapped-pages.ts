@@ -42,6 +42,8 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/marken/winora', type: 'brand', brand: 'Winora' },
   { path: '/marken/ghost', type: 'brand', brand: 'Ghost' },
   { path: '/marken/ktm', type: 'brand', brand: 'KTM' },
+  { path: '/marken/trek', type: 'brand', brand: 'Trek' },
+  { path: '/marken/giant', type: 'brand', brand: 'Giant' },
 ];
 
 export function getMappedPage(path: string): MappedPageDef | undefined {

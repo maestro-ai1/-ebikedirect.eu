@@ -1601,6 +1601,556 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
+    "id": "giant-talon-e-plus-gen2-430-wh-29-zoll",
+    "slug": "giant-talon-e-plus-gen2-430-wh-29-zoll",
+    "name": "Giant Talon E+ Gen2",
+    "brand": "Giant",
+    "category": "E-MTB",
+    "price": 2586.01,
+    "originalPrice": 2599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 2",
+    "torqueNm": 75,
+    "batteryStandardWh": 430,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-talon-e-plus-gen2-430-wh-29-zoll/giant-talon-e-plus-gen2-430-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-talon-e-plus-gen2-430-wh-29-zoll/giant-talon-e-plus-gen2-430-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Giant SyncDrive Sport 2, 430 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Giant Talon E+ Gen2 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 430 Wh",
+          "capacityWh": 430,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 2 Mittelmotor 250 Watt, 75Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "EnergyPak Smart 430 Wh",
+      "Display": "RideControl Dash 2",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCM 32 Coil, 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rekon, 29x2.40&quot; (62-622), Maxxis Performance Compound",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-fathom-e-plus-ex-750-wh-29-zoll",
+    "slug": "giant-fathom-e-plus-ex-750-wh-29-zoll",
+    "name": "Giant Fathom E+ EX",
+    "brand": "Giant",
+    "category": "E-Trekking",
+    "price": 3581.01,
+    "originalPrice": 3599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa",
+    "torqueNm": 85,
+    "batteryStandardWh": 750,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-fathom-e-plus-ex-750-wh-29-zoll/giant-fathom-e-plus-ex-750-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-fathom-e-plus-ex-750-wh-29-zoll/giant-fathom-e-plus-ex-750-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 750 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Giant Fathom E+ EX ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 750 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 750 Wh",
+          "capacityWh": 750,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) Mittelmotor 250 Wa",
+      "Drehmoment": "85 Nm",
+      "Akku": "Giant EnergyPak Smart, 750 Wh",
+      "Display": "Giant RideControl Dash 2",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR 34, Stahlfeder, Federweg: 130mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rekon, Pannenschutz",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-explore-e-plus-2-625-wh-28-zoll",
+    "slug": "giant-explore-e-plus-2-625-wh-28-zoll",
+    "name": "Giant Explore E+ 2",
+    "brand": "Giant",
+    "category": "E-City",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 2",
+    "torqueNm": 75,
+    "batteryStandardWh": 625,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-explore-e-plus-2-625-wh-28-zoll/giant-explore-e-plus-2-625-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-explore-e-plus-2-625-wh-28-zoll/giant-explore-e-plus-2-625-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Giant Explore E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 625 Wh",
+          "capacityWh": 625,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 2 Mittelmotor 250 Watt, 75Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "Giant EnergyPak Smart, 625 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR 34, Stahlfeder, Federweg: 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Giant Crosscut Gravel 2, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-explore-e-plus-1-800-wh-28-zoll",
+    "slug": "giant-explore-e-plus-1-800-wh-28-zoll",
+    "name": "Giant Explore E+ 1",
+    "brand": "Giant",
+    "category": "E-Trekking",
+    "price": 4576.01,
+    "originalPrice": 4599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-explore-e-plus-1-800-wh-28-zoll/giant-explore-e-plus-1-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-explore-e-plus-1-800-wh-28-zoll/giant-explore-e-plus-1-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 800 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Giant Explore E+ 1 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) Mittelmotor 250 Wa",
+      "Drehmoment": "85 Nm",
+      "Akku": "Giant EnergyPak Smart, 800 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR 34, Luft, Federweg: 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Giant Crosscut Gravel 2, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-explore-e-plus-0-800-wh-28-zoll",
+    "slug": "giant-explore-e-plus-0-800-wh-28-zoll",
+    "name": "Giant Explore E+ 0",
+    "brand": "Giant",
+    "category": "E-City",
+    "price": 5770.01,
+    "originalPrice": 5799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-explore-e-plus-0-800-wh-28-zoll/giant-explore-e-plus-0-800-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-explore-e-plus-0-800-wh-28-zoll/giant-explore-e-plus-0-800-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung (Freilauf).",
+    "description": "Das Giant Explore E+ 0 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung (Freilauf). Die Bremsanlage: Shimano Deore XT BR-M8120, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Pro 2 (Powered by Yamaha) Mittelmotor 250 Wa",
+      "Drehmoment": "85 Nm",
+      "Akku": "Giant EnergyPak Smart, 800 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung (Freilauf)",
+      "Bremsen": "Shimano Deore XT BR-M8120, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR 34, Luft, Federweg: 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Giant Crosscut Gravel 1, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-talon-e-plus-ex-gen2-430-wh-29-zoll",
+    "slug": "giant-talon-e-plus-ex-gen2-430-wh-29-zoll",
+    "name": "Giant Talon E+ EX Gen2",
+    "brand": "Giant",
+    "category": "E-Trekking",
+    "price": 2735.26,
+    "originalPrice": 2749,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 2",
+    "torqueNm": 75,
+    "batteryStandardWh": 430,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-talon-e-plus-ex-gen2-430-wh-29-zoll/giant-talon-e-plus-ex-gen2-430-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-talon-e-plus-ex-gen2-430-wh-29-zoll/giant-talon-e-plus-ex-gen2-430-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Giant SyncDrive Sport 2, 430 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Giant Talon E+ EX Gen2 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 430 Wh",
+          "capacityWh": 430,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 2 Mittelmotor 250 Watt, 75Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "EnergyPak Smart 430 Wh",
+      "Display": "RideControl Dash 2",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCM 32 Coil, 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rekon, 29x2.40&quot; (62-622), Maxxis Performance Compound",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-stance-e-plus-1-800-wh-29-zoll",
+    "slug": "giant-stance-e-plus-1-800-wh-29-zoll",
+    "name": "Giant Stance E+ 1",
+    "brand": "Giant",
+    "category": "E-MTB",
+    "price": 4477.5,
+    "originalPrice": 4500,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Pro 3X",
+    "torqueNm": 100,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-stance-e-plus-1-800-wh-29-zoll/giant-stance-e-plus-1-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-stance-e-plus-1-800-wh-29-zoll/giant-stance-e-plus-1-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Giant SyncDrive Pro 3X, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Giant Stance E+ 1 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Pro 3X und einen 800 Wh Akku, das Drehmoment beträgt 100 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Pro 3X Mittelmotor 250 Watt 100Nm",
+      "Drehmoment": "100 Nm",
+      "Akku": "Giant EnergyPak Smart, 800 Wh",
+      "Display": "Giant RideControl Dash 2",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "Giant STL 36 Air, Luft, Federweg: 150mm",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Maxxis Minion DHF, Pannenschutz",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-anytour-e-plus-2-625-wh-28-zoll",
+    "slug": "giant-anytour-e-plus-2-625-wh-28-zoll",
+    "name": "Giant AnyTour E+ 2",
+    "brand": "Giant",
+    "category": "E-City",
+    "price": 4577,
+    "originalPrice": 4600,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 2",
+    "torqueNm": 75,
+    "batteryStandardWh": 625,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-anytour-e-plus-2-625-wh-28-zoll/giant-anytour-e-plus-2-625-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-anytour-e-plus-2-625-wh-28-zoll/giant-anytour-e-plus-2-625-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Giant AnyTour E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 625 Wh",
+          "capacityWh": 625,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 2 Mittelmotor 250 Watt, 75Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "Giant EnergyPak Smart, 625 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano BR-MT420, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34, Luft, Federweg: 60mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Marathon E Plus, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-anytour-e-plus-3-625-wh-28-zoll",
+    "slug": "giant-anytour-e-plus-3-625-wh-28-zoll",
+    "name": "Giant AnyTour E+ 3",
+    "brand": "Giant",
+    "category": "E-City",
+    "price": 3880.5,
+    "originalPrice": 3900,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 2",
+    "torqueNm": 75,
+    "batteryStandardWh": 625,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-anytour-e-plus-3-625-wh-28-zoll/giant-anytour-e-plus-3-625-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-anytour-e-plus-3-625-wh-28-zoll/giant-anytour-e-plus-3-625-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Giant AnyTour E+ 3 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 625 Wh",
+          "capacityWh": 625,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 2 Mittelmotor 250 Watt, 75Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "Giant EnergyPak Smart, 625 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "8-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34, Luft, Federweg: 60mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Marathon E Plus, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-anytour-x-e-plus-3-625-wh-27-5-zoll",
+    "slug": "giant-anytour-x-e-plus-3-625-wh-27-5-zoll",
+    "name": "Giant Anytour X E+ 3",
+    "brand": "Giant",
+    "category": "E-Trekking",
+    "price": 3781,
+    "originalPrice": 3800,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Sport 3",
+    "torqueNm": 85,
+    "batteryStandardWh": 625,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-anytour-x-e-plus-3-625-wh-27-5-zoll/giant-anytour-x-e-plus-3-625-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-anytour-x-e-plus-3-625-wh-27-5-zoll/giant-anytour-x-e-plus-3-625-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Giant SyncDrive Sport 3, 625 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Giant Anytour X E+ 3 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 3 und einen 625 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 625 Wh",
+          "capacityWh": 625,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Sport 3 Mittelmotor 250 Watt, 85Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Giant EnergyPak Smart, 625 Wh",
+      "Display": "Giant RideDash EVO 2.0",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour MOBIE 34, Luft, Federweg: 100mm",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Schwalbe Smart Sam Plus, Pannenschutz",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "haibike-allmtn-4-800-wh-29",
     "slug": "haibike-allmtn-4-800-wh-29",
     "name": "Haibike Allmtn 4",
@@ -4181,6 +4731,1041 @@ export const XXL_PRODUCTS: Product[] = [
       "Rahmen": "Aluminium, Tiefeinsteiger",
       "Reifen": "Schwalbe Super Moto-X 62-584 Reflex",
       "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-expert-carbon-g4-840-wh-29",
+    "slug": "specialized-turbo-levo-expert-carbon-g4-840-wh-29",
+    "name": "Specialized Turbo Levo Expert Carbon G4",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 9949,
+    "originalPrice": 9999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 24.41,
+    "image": "/products/specialized-turbo-levo-expert-carbon-g4-840-wh-29/specialized-turbo-levo-expert-carbon-g4-840-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-expert-carbon-g4-840-wh-29/specialized-turbo-levo-expert-carbon-g4-840-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo Expert Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840 Wh",
+      "Display": "MasterMind T3 Display System, 2,2&ldquo; hochauflösender Farbbildschirm, vollständig anpassbar mit Specialized App",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox 38 Performance Elite Serie, 29&ldquo;, Grip X2 Dämpfer, 15x110mm Achse, 44mm Offset, 160mm Federweg",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Butcher, GRID GRAVITY Casing, GRIPTON&reg; T9 Mischung, 2Bliss Ready, 29x2.30&quot; (64-622)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-comp-alloy-g4-840-wh-29",
+    "slug": "specialized-turbo-levo-comp-alloy-g4-840-wh-29",
+    "name": "Specialized Turbo Levo Comp Alloy G4",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 6466.51,
+    "originalPrice": 6499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 25.7,
+    "image": "/products/specialized-turbo-levo-comp-alloy-g4-840-wh-29/specialized-turbo-levo-comp-alloy-g4-840-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-comp-alloy-g4-840-wh-29/specialized-turbo-levo-comp-alloy-g4-840-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo Comp Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Bronze, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840 Wh",
+      "Display": "MasterMind T3 Display System, 2,2&ldquo; hochauflösender Farbbildschirm, vollständig anpassbar mit Specialized App",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Maven Bronze, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox Float 36 Rhythm, GRIP-Dämpfer, Sweep-Einstellung mit zwei Positionen, 15x110mm Achse, 44mm Offset, 160mm Federweg",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Butcher, GRID GRAVITY Casing, GRIPTON&reg; T9 Mischung, 2Bliss Ready, 29x2.30&quot; (64-622)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-alloy-g4-840-wh-29",
+    "slug": "specialized-turbo-levo-alloy-g4-840-wh-29",
+    "name": "Specialized Turbo Levo Alloy G4",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 26.08,
+    "image": "/products/specialized-turbo-levo-alloy-g4-840-wh-29/specialized-turbo-levo-alloy-g4-840-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-alloy-g4-840-wh-29/specialized-turbo-levo-alloy-g4-840-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM DB8 Stealth, 4-piston caliper, hydraulic disc, 220mm Centerline rotor. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840 Wh Batterie",
+      "Display": "MasterMind T3-Anzeigesystem, 2,2-Zoll-Farbdisplay mit hoher Auflösung, vollständig anpassbar über die Specialized-App",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "SRAM DB8 Stealth, 4-piston caliper, hydraulic disc, 220mm Centerline rotor",
+      "Gabel": "Marzocchi Bomber Z1, 29&quot;, S2-S6: 160mm, S1: 150mm, sweep adjust compression",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Butcher, GRID GRAVITY casing, GRIPTON&reg; T9 compound, TLR, 29x2.4&quot;",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll",
+    "slug": "specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll",
+    "name": "Specialized Turbo Vado SL 2 4.0 EQ ST",
+    "brand": "Specialized",
+    "category": "E-Trekking",
+    "price": 4227.76,
+    "originalPrice": 4249,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 1.2 SL Custom Rx Trail tuned, 250W",
+    "torqueNm": 0,
+    "batteryStandardWh": 520,
+    "rangeKm": 0,
+    "weightKg": 20.54,
+    "image": "/products/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Specialized 1.2 SL Custom Rx Trail tuned, 250W, 520 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Vado SL 2 4.0 EQ ST ist ein Trekking E-Bike von Specialized. Es hat Specialized 1.2 SL Custom Rx Trail tuned, 250W und einen 520 Wh Akku. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-R285, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 520 Wh",
+          "capacityWh": 520,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized 1.2 SL Custom Rx Trail tuned, 250W",
+      "Akku": "Specialized SL2-520, voll integriert, 520Wh",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-R285, hydraulische Scheibenbremse",
+      "Gabel": "Future Shock 3.1, 12x100mm Steckachse, Flat-Mount -Disc",
+      "Rahmen": "Aluminium, Trapez",
+      "Reifen": "Hemisphere Flat Resistant Wirebead All-Terrain Reflect, 28x1.75&quot; (47-622 / 700x47c)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-s-works-turbo-levo-carbon-g4-840-wh-29",
+    "slug": "specialized-s-works-turbo-levo-carbon-g4-840-wh-29",
+    "name": "Specialized S-Works Turbo Levo Carbon G4",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 14426.51,
+    "originalPrice": 14499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1 S-Works",
+    "torqueNm": 111,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/specialized-s-works-turbo-levo-carbon-g4-840-wh-29/specialized-s-works-turbo-levo-carbon-g4-840-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/specialized-s-works-turbo-levo-carbon-g4-840-wh-29/specialized-s-works-turbo-levo-carbon-g4-840-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1 S-Works, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized S-Works Turbo Levo Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 S-Works und einen 840 Wh Akku, das Drehmoment beträgt 111 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Maven Ultimate, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 S-Works 850 Watt 111Nm",
+      "Drehmoment": "111 Nm",
+      "Akku": "840wh battery",
+      "Display": "All New Mastermind TCU, 2.2&quot; high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "SRAM Maven Ultimate, hydraulische Scheibenbremse",
+      "Gabel": "FOX FLOAT 38 Factory, GRIP X2 damper, HS and LS rebound and compression adjustment, 15x110mm QR axle, 44mm offset, 160mm of travel",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Butcher, GRID GRAVITY casing, GRIPTON T9 compound, 2Bliss Ready, 29x2.3&quot;",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-r-comp-840-wh-29-zoll",
+    "slug": "specialized-turbo-levo-r-comp-840-wh-29-zoll",
+    "name": "Specialized Turbo Levo R Comp",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 7959.01,
+    "originalPrice": 7999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 22.34,
+    "image": "/products/specialized-turbo-levo-r-comp-840-wh-29-zoll/specialized-turbo-levo-r-comp-840-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-r-comp-840-wh-29-zoll/specialized-turbo-levo-r-comp-840-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo R Comp ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840-Wh-Batterie",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse",
+      "Gabel": "FOX 36 SL Performance, GRIP-Dämpfer, 140 mm Federweg, 44 mm Offset, 15 x 110 mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Specialized Purgatory-Einspritzer, GRID-Gehäuse, T9-Compound-Einspritzung, 29x2,4",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-r-expert-840-wh-29-zoll",
+    "slug": "specialized-turbo-levo-r-expert-840-wh-29-zoll",
+    "name": "Specialized Turbo Levo R Expert",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 9949,
+    "originalPrice": 9999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 21.76,
+    "image": "/products/specialized-turbo-levo-r-expert-840-wh-29-zoll/specialized-turbo-levo-r-expert-840-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-r-expert-840-wh-29-zoll/specialized-turbo-levo-r-expert-840-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo R Expert ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840-Wh-Batterie",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse",
+      "Gabel": "FOX 36 SL Performance Elite, GRIP X-Dämpfer, HSC, LSC, LSR-Einstellung, 140 mm Federweg, 44 mm Offset, 15 x 110 mm",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Specialized Purgatory-Einspritzer, GRID-Gehäuse, T9-Compound-Einspritzung, 29x2,4",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-porto-4-0-710-wh-24-zoll",
+    "slug": "specialized-turbo-porto-4-0-710-wh-24-zoll",
+    "name": "Specialized Turbo Porto 4.0",
+    "brand": "Specialized",
+    "category": "Cargo-E-Bike",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
+    "torqueNm": 90,
+    "batteryStandardWh": 710,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Specialized 2.2 Custom tuned, 250W, 90Nm, 710 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Specialized Turbo Porto 4.0 ist ein Cargo E-Bike von Specialized. Es hat Specialized 2.2 Custom tuned, 250W, 90Nm und einen 710 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro Dorado, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 710 Wh",
+          "capacityWh": 710,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
+      "Drehmoment": "90 Nm",
+      "Akku": "Specialized U2-710, integrierter Akku, Ladezustandsanzeige, 710 Wh, UL",
+      "Display": "MasterMind TCD, mit Lenkerfernbedienung, integrierter Diebstahlsicherung, Bluetooth-Konnektivität, anpassbaren Display-Seiten",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro Dorado, hydraulische Scheibenbremse",
+      "Gabel": "Fero Disc",
+      "Rahmen": "Aluminium",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-levo-pro-carbon-g4-840-wh-29",
+    "slug": "specialized-turbo-levo-pro-carbon-g4-840-wh-29",
+    "name": "Specialized Turbo Levo Pro Carbon G4",
+    "brand": "Specialized",
+    "category": "E-MTB",
+    "price": 11939.01,
+    "originalPrice": 11999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 3.1",
+    "torqueNm": 105,
+    "batteryStandardWh": 840,
+    "rangeKm": 0,
+    "weightKg": 23.94,
+    "image": "/products/specialized-turbo-levo-pro-carbon-g4-840-wh-29/specialized-turbo-levo-pro-carbon-g4-840-wh-29-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-levo-pro-carbon-g4-840-wh-29/specialized-turbo-levo-pro-carbon-g4-840-wh-29-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Levo Pro Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 840 Wh",
+          "capacityWh": 840,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized Mittelmotor 3.1 810 Watt 105Nm",
+      "Drehmoment": "105 Nm",
+      "Akku": "840 Wh",
+      "Display": "MasterMind T3 Display System, 2,2&ldquo; hochauflösender Farbbildschirm, vollständig anpassbar mit Specialized App",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox Float 38 Factory, GRIP X2 Dämpfer, HS und LS Zug- und Druckstufeneinstellung, 15x110mm Achse, 44mm Offset, 160mm Federweg",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Butcher, GRID GRAVITY Casing, GRIPTON&reg; T9 Mischung, 2Bliss Ready, 29x2.30&quot; (64-622)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-rail-plus-9-7-gen-5-800-wh-29-zoll",
+    "slug": "trek-rail-plus-9-7-gen-5-800-wh-29-zoll",
+    "name": "Trek Rail+ 9.7 Gen 5",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-rail-plus-9-7-gen-5-800-wh-29-zoll/trek-rail-plus-9-7-gen-5-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-rail-plus-9-7-gen-5-800-wh-29-zoll/trek-rail-plus-9-7-gen-5-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Rail+ 9.7 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "800 Wh",
+      "Display": "Bosch System-Controller BRC3100, Smart System",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram DB 8, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "FOX 38 Rhythm Float 29, Grip, E-Bike optimized, 15x110...",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Bontrager Brevard Pro XR, Tubeless-Ready, Dual-Mischung, Aramidwulstkern, 60 TPI, 29x2.50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll",
+    "slug": "trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll",
+    "name": "Trek Fuel+ EX 5 Gen 2",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR60",
+    "torqueNm": 60,
+    "batteryStandardWh": 580,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit TQ HPR60, 580 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Fuel+ EX 5 Gen 2 ist ein E-Mountainbike von Trek. Es hat TQ HPR60 und einen 580 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 580 Wh",
+          "capacityWh": 580,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR60 Mittelmotor 250 Watt 60 Nm",
+      "Drehmoment": "60 Nm",
+      "Akku": "TQ 580 Wh, Intube-Akku",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT420, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "FOX 36 Float Performance GRIP, Tapered, Achsaufnahme:...",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Bontrager Gunnison Elite XR, Tubeless-Ready, Drahtwulstkern, 60 TPI, 29 x 2.40",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll",
+    "slug": "trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll",
+    "name": "Trek Powerfly+ FS 6 Gen 4",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 5272.51,
+    "originalPrice": 5299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Powerfly+ FS 6 Gen 4 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano M6120, 4-Kolben, Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800 Wh, Smart System",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano M6120, 4-Kolben, Scheibenbremse",
+      "Gabel": "Fox 34 Float Performance GRIP, 3-Position mit Micro...",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Bontrager Gunnison Pro XR, Tubeless-Ready, Zweikomponenten-Mischung, Aramidwulstkern, 60 TPI, 29x2.40&quot; (62-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-powerfly-plus-4-gen-5-800-wh-29-zoll",
+    "slug": "trek-powerfly-plus-4-gen-5-800-wh-29-zoll",
+    "name": "Trek Powerfly+ 4 Gen 5",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 3481.51,
+    "originalPrice": 3499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-powerfly-plus-4-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-gen-5-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-powerfly-plus-4-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-gen-5-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Trek Powerfly+ 4 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800 Wh, Smart System",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-M275, hydraulische Scheibenbremse",
+      "Gabel": "Marzocchi Bomber Z2 120 QR 15x110mm E-Bike Optimized",
+      "Rahmen": "Aluminium, Diamant",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll",
+    "slug": "trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll",
+    "name": "Trek Powerfly+ 4 Equipped Gen 5",
+    "brand": "Trek",
+    "category": "E-Trekking",
+    "price": 3780.01,
+    "originalPrice": 3799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Trek Powerfly+ 4 Equipped Gen 5 ist ein Trekking E-Bike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800 Wh, Smart System",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Tektro HD-M275, hydraulische Scheibenbremse",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Bontrager LT4 Expert, reflektierender Streifen, Drahtwulstkern, 60 TPI, 29 x 2.40",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-rail-plus-8-gen-5-800-wh-29-zoll",
+    "slug": "trek-rail-plus-8-gen-5-800-wh-29-zoll",
+    "name": "Trek Rail+ 8 Gen 5",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-rail-plus-8-gen-5-800-wh-29-zoll/trek-rail-plus-8-gen-5-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-rail-plus-8-gen-5-800-wh-29-zoll/trek-rail-plus-8-gen-5-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Rail+ 8 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800 Wh, Smart System",
+      "Display": "Bosch System-Controller BRC3100, Smart System",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram DB 8, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "RockShox ZEB Select, DebonAir Feder, Charger RC Dämpfer,...",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Bontrager Brevard Pro XR, Tubeless-Ready, Dual-Mischung, Aramidwulstkern, 60 TPI, 29x2.50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll",
+    "slug": "trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll",
+    "name": "Trek Rail+ 9.8 GX AXS T-Type Gen 5",
+    "brand": "Trek",
+    "category": "E-MTB",
+    "price": 7461.51,
+    "originalPrice": 7499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Rail+ 9.8 GX AXS T-Type Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Code Bronze, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "800 Wh",
+      "Display": "Bosch System-Controller BRC3100, Smart System",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Code Bronze, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Fox 38 Float Performance E-Bike Optimized, Federweg: 160...",
+      "Rahmen": "Carbon, Fully",
+      "Reifen": "Bontrager Brevard RSL SE, Tubeless-Ready, Triple-Mischung, Aramidwulstkern, 60 TPI, 29x2.50&quot; (64-622)",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll",
+    "slug": "trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll",
+    "name": "Trek District+ 4 Coaster Lowstep",
+    "brand": "Trek",
+    "category": "E-City",
+    "price": 3581.01,
+    "originalPrice": 3599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 545,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, 5-Gang Nabenschaltung (Rücktrittbremse).",
+    "description": "Das Trek District+ 4 Coaster Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 545 Wh",
+          "capacityWh": 545,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerTube 545 Wh, Smart System",
+      "Display": "Bosch Intuvia 100, smart system",
+      "Schaltung": "5-Gang Nabenschaltung (Rücktrittbremse)",
+      "Bremsen": "Shimano MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour NVX30, Spiralfeder, verstellbare Federvorspannung, 100-mm-Schnellspannachse, 60 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Bontrager E6 Hard-Case Lite, Reflektorstreifen, 27.5x2.40&quot; (62-584)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-district-plus-2-lowstep-400-wh-27-5-zoll",
+    "slug": "trek-district-plus-2-lowstep-400-wh-27-5-zoll",
+    "name": "Trek District+ 2 Lowstep",
+    "brand": "Trek",
+    "category": "E-City",
+    "price": 2785.01,
+    "originalPrice": 2799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Active Line Plus",
+    "torqueNm": 50,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/trek-district-plus-2-lowstep-400-wh-27-5-zoll/trek-district-plus-2-lowstep-400-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-district-plus-2-lowstep-400-wh-27-5-zoll/trek-district-plus-2-lowstep-400-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Active Line Plus, 400 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
+    "description": "Das Trek District+ 2 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Active Line Plus und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Active Line Plus 250 Watt, 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "Bosch CompactTube 400 Wh",
+      "Schaltung": "7-Gang Nabenschaltung (Freilauf)",
+      "Bremsen": "Shimano MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour NVX30, Spiralfeder, verstellbare Federvorspannung, 100-mm-Schnellspannachse, 60 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Bontrager H2 Comp, Drahtwulstkern, 30 TPI, 27.5x2.00&quot; (50-584)",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-district-plus-4-lowstep-545-wh-28-zoll",
+    "slug": "trek-district-plus-4-lowstep-545-wh-28-zoll",
+    "name": "Trek District+ 4 Lowstep",
+    "brand": "Trek",
+    "category": "E-City",
+    "price": 3879.51,
+    "originalPrice": 3899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 545,
+    "rangeKm": 0,
+    "weightKg": 25.6,
+    "image": "/products/trek-district-plus-4-lowstep-545-wh-28-zoll/trek-district-plus-4-lowstep-545-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-district-plus-4-lowstep-545-wh-28-zoll/trek-district-plus-4-lowstep-545-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Trek District+ 4 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 545 Wh",
+          "capacityWh": 545,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerTube 545 Wh, Smart System",
+      "Display": "Bosch Intuvia 100, smart system",
+      "Schaltung": "5-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Shimano MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour NVX30, Spiralfeder, verstellbare Federvorspannung, 100-mm-Schnellspannachse, 60 mm Federweg",
+      "Rahmen": "Aluminium, Tiefeinsteiger",
+      "Reifen": "Bontrager E6 Hard-Case Lite, Reflektorstreifen, 27.5x2.40&quot; (62-584)",
+      "Laufradgröße": "28 Zoll"
     },
     "isFeatured": false
   },

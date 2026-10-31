@@ -10,6 +10,7 @@ const SKIP = new Set([
   'kalkhoff-entice-5-advance-plus-belt-800-wh-29-zoll',
   'haibike-trekking-4-600-wh-27-5-zoll',
   'riese-und-mueller-charger5-vario-800-wh-27-5-zoll',
+  'specialized-turbo-creo-sl-e5-comp-320-wh-28-zoll', // road/gravel e-bike: no matching category yet
 ]);
 const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec' };
 const slugKey = (s) => s;

@@ -48,7 +48,7 @@ export function MappedPage({ path }: { path: string }) {
           : [{ label: 'E-Bikes', href: '/e-bikes' }];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
   const ACC = ['/zubehoer', '/zubehoer/schloesser', '/zubehoer/helme', '/zubehoer/taschen-koerbe', '/zubehoer/gepaecktraeger-anhaenger', '/zubehoer/schutzbleche-staender', '/zubehoer/handyhalter', '/zubehoer/werkzeug-pflege', '/zubehoer/regenschutz-bekleidung', '/zubehoer/beleuchtung', '/zubehoer/sattel-lenker'];
-  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon', '/marken/tenways', '/marken/focus', '/marken/winora', '/marken/ghost', '/marken/ktm'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
+  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/canyon', '/marken/tenways', '/marken/focus', '/marken/winora', '/marken/ghost', '/marken/ktm', '/marken/trek', '/marken/giant'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes'])
     .filter((s) => s !== path)
     .map((s) => ({ path: s, name: getKeywordPage('de', s)?.name || s }));
 
