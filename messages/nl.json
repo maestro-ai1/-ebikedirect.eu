@@ -13,7 +13,8 @@
     "searchPlaceholder": "Zoek model, merk of motor (bijv. Gazelle, Bosch CX)...",
     "searchBtn": "Zoeken",
     "cryptoAdvantage": "10% Crypto Voordeel",
-    "advisor": "Adviseur"
+    "advisor": "Adviseur",
+    "brands": "Merken"
   },
   "announcements": {
     "minOrder": "Minimale bestelwaarde €500 · Professionele palletlevering",
@@ -207,6 +208,7 @@
     "guideTitle": "Uit de gids",
     "guideSub": "Techniek, regels en aankoopkeuze helder uitgelegd.",
     "guideAll": "Alle artikelen lezen",
-    "model": "model"
+    "model": "model",
+    "brandsAll": "Alle merken bekijken"
   }
 }

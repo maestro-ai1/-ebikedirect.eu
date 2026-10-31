@@ -9,6 +9,7 @@ import { getMappedPage } from '@/lib/mapped-pages';
 import { getKeywordPage, capitalize, buildTitle, buildDescription } from '@/lib/seo';
 import { getAllPosts } from '@/lib/blog-content';
 import { getLocalizedPath } from '@/lib/i18n';
+import { BRAND_LOGOS } from '@/lib/brand-logos';
 
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
@@ -40,7 +41,7 @@ export function MappedPage({ path }: { path: string }) {
   const h1 = capitalize(page.primary.keyword);
   const parent =
     def.type === 'brand'
-      ? [{ label: 'Marken', href: '/e-bikes' }]
+      ? [{ label: 'Marken', href: '/marken' }]
       : def.type === 'accessory'
         ? path === '/zubehoer' ? [] : [{ label: 'Zubehör', href: '/zubehoer' }]
         : path === '/e-bikes'
@@ -57,6 +58,10 @@ export function MappedPage({ path }: { path: string }) {
       <Breadcrumbs items={[...parent, { label: page.name, href: path }]} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 space-y-10">
         <header className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-10 space-y-3">
+          {def.type === 'brand' && BRAND_LOGOS.find((b) => b.name === def.brand) && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={BRAND_LOGOS.find((b) => b.name === def.brand)!.logo} alt={`${def.brand} Logo`} className="h-10 w-auto max-w-[220px] object-contain" />
+          )}
           <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
           <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
           <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">

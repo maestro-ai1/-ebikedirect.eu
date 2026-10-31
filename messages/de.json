@@ -13,7 +13,8 @@
     "searchPlaceholder": "Modell, Marke oder Motor suchen (z.B. Cube, Bosch CX)...",
     "searchBtn": "Suchen",
     "cryptoAdvantage": "10% Krypto-Vorteil",
-    "advisor": "Fachberater"
+    "advisor": "Fachberater",
+    "brands": "Marken"
   },
   "announcements": {
     "minOrder": "Mindestbestellwert 500 € · Fachgerechte Palettenzustellung",
@@ -207,6 +208,7 @@
     "guideTitle": "Aus dem Ratgeber",
     "guideSub": "Verständlich erklärt: Technik, Recht und Kaufentscheidung.",
     "guideAll": "Alle Artikel lesen",
-    "model": "Modell"
+    "model": "Modell",
+    "brandsAll": "Alle Marken ansehen"
   }
 }

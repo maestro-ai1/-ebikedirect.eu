@@ -13,7 +13,8 @@
     "searchPlaceholder": "Search model, brand or motor (e.g. Cube, Bosch CX)...",
     "searchBtn": "Search",
     "cryptoAdvantage": "10% Crypto Advantage",
-    "advisor": "Expert Advisor"
+    "advisor": "Expert Advisor",
+    "brands": "Brands"
   },
   "announcements": {
     "minOrder": "Minimum order value €500 · Professional pallet delivery",
@@ -207,6 +208,7 @@
     "guideTitle": "From the guide",
     "guideSub": "Technology, rules and buying decisions explained clearly.",
     "guideAll": "Read all articles",
-    "model": "model"
+    "model": "model",
+    "brandsAll": "View all brands"
   }
 }

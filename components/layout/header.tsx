@@ -61,6 +61,7 @@ export function Header() {
   const navLinks = [
     { labelKey: 'nav.home', href: '/' },
     { labelKey: 'nav.shop', href: '/shop' },
+    { labelKey: 'nav.brands', href: '/marken' },
     { labelKey: 'nav.about', href: '/about' },
     { labelKey: 'nav.faq', href: '/faq' },
     { labelKey: 'nav.blog', href: '/blog' },

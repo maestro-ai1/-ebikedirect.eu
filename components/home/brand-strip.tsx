@@ -1,45 +1,41 @@
 import React from 'react';
 import Link from 'next/link';
 import { MESSAGES, Locale, getLocalizedPath } from '@/lib/i18n';
+import { BRAND_LOGOS } from '@/lib/brand-logos';
+import { getMappedPage } from '@/lib/mapped-pages';
 
-const BRANDS = [
-  { name: 'Kalkhoff', path: '/marken/kalkhoff' },
-  { name: 'Haibike', path: '/marken/haibike' },
-  { name: 'Riese & Müller', path: '/marken/riese-und-mueller' },
-  { name: 'Cube', path: '/marken/cube' },
-  { name: 'Specialized', path: '/marken/specialized' },
-  { name: 'Gazelle', path: '/marken/gazelle' },
-  { name: 'Canyon', path: '/marken/canyon' },
-  { name: 'Tenways', path: '/marken/tenways' },
-  { name: 'Focus', path: '/marken/focus' },
-  { name: 'Winora', path: '/marken/winora' },
-  { name: 'Ghost', path: '/marken/ghost' },
-  { name: 'KTM', path: '/marken/ktm' },
-  { name: 'Trek', path: '/marken/trek' },
-  { name: 'Giant', path: '/marken/giant' },
-];
-
+// Logo wall of the brands in the shop. Logos are shown on white tiles so every brand colour reads well.
 export function BrandStrip({ locale }: { locale: Locale }) {
   const m = MESSAGES[locale].home;
   return (
-    <section className="bg-[#131A22] text-white py-10 sm:py-14" aria-labelledby="brands-heading">
+    <section className="bg-white border-b border-gray-200 py-10 sm:py-14" aria-labelledby="brands-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-2 mb-6">
-          <h2 id="brands-heading" className="font-display text-xl sm:text-2xl font-bold tracking-tight">{m.brandsTitle}</h2>
-          <p className="text-xs sm:text-sm text-gray-400">{m.brandsSub}</p>
+          <h2 id="brands-heading" className="font-display text-xl sm:text-2xl font-bold tracking-tight text-[#131A22]">{m.brandsTitle}</h2>
+          <p className="text-xs sm:text-sm text-gray-500">{m.brandsSub}</p>
         </div>
-        <ul className="flex flex-wrap border-t border-white/15">
-          {BRANDS.map((b) => (
-            <li key={b.name} className="basis-1/2 sm:basis-1/4 border-b border-white/15 sm:border-r last:sm:border-r-0 even:border-l-0 sm:[&:nth-child(4n)]:border-r-0">
-              <Link
-                href={getLocalizedPath(b.path, locale)}
-                className="font-display block px-1 sm:px-5 py-5 sm:py-7 text-lg sm:text-2xl font-bold tracking-tight text-white/80 hover:text-[#FF5722] hover:bg-white/5 transition-colors"
-              >
-                {b.name}
-              </Link>
-            </li>
-          ))}
+        <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          {BRAND_LOGOS.map((b) => {
+            const href = getMappedPage(b.hub) ? b.hub : `/shop?brand=${encodeURIComponent(b.name)}`;
+            return (
+              <li key={b.slug}>
+                <Link
+                  href={getLocalizedPath(href, locale)}
+                  aria-label={b.name}
+                  className="group flex h-20 sm:h-24 items-center justify-center rounded-2xl border border-gray-200 bg-white px-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#FF5722] hover:shadow-[0_12px_28px_-16px_rgba(19,26,34,0.35)]"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={b.logo} alt={`${b.name} Logo`} loading="lazy" className="max-h-9 sm:max-h-11 w-auto max-w-full object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                </Link>
+              </li>
+            );
+          })}
         </ul>
+        <div className="mt-6 text-right">
+          <Link href={getLocalizedPath('/marken', locale)} className="inline-flex items-center gap-2 text-sm font-bold text-[#131A22] border-b-2 border-[#FF5722] pb-1 hover:text-[#FF5722] transition-colors">
+            {m.brandsAll}
+          </Link>
+        </div>
       </div>
     </section>
   );

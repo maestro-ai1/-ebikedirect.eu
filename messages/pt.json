@@ -13,7 +13,8 @@
     "searchPlaceholder": "Pesquisar modelo, marca ou motor (ex. Cube, Bosch CX)...",
     "searchBtn": "Pesquisar",
     "cryptoAdvantage": "Vantagem cripto de 10%",
-    "advisor": "Consultor"
+    "advisor": "Consultor",
+    "brands": "Marcas"
   },
   "announcements": {
     "minOrder": "Encomenda mínima de 500 € · Entrega em palete",
@@ -207,6 +208,7 @@
     "guideTitle": "Do guia",
     "guideSub": "Técnica, regras e decisão de compra bem explicadas.",
     "guideAll": "Ler todos os artigos",
-    "model": "modelo"
+    "model": "modelo",
+    "brandsAll": "Ver todas as marcas"
   }
 }
