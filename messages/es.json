@@ -177,7 +177,8 @@
       "speed": "S-Pedelec",
       "cargo": "Bicicletas eléctricas de carga",
       "all": "Todas las bicicletas eléctricas",
-      "acc": "Accesorios"
+      "acc": "Accesorios",
+      "falt": "Bicicletas eléctricas plegables"
     },
     "newTitle": "Novedades",
     "newSub": "Modelos añadidos recientemente con datos verificados y fotos de estudio.",

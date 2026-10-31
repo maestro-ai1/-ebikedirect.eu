@@ -177,7 +177,8 @@
       "speed": "S-Pedelecs",
       "cargo": "Cargo e-bikes",
       "all": "All e-bikes",
-      "acc": "Accessories"
+      "acc": "Accessories",
+      "falt": "Folding e-bikes"
     },
     "newTitle": "New in the range",
     "newSub": "Recently added models with checked data and studio photos.",

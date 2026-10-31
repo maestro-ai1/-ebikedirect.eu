@@ -177,7 +177,8 @@
       "speed": "S-Pedelec",
       "cargo": "Bicicletas elétricas de carga",
       "all": "Todas as bicicletas elétricas",
-      "acc": "Acessórios"
+      "acc": "Acessórios",
+      "falt": "Bicicletas elétricas dobráveis"
     },
     "newTitle": "Novidades",
     "newSub": "Modelos adicionados recentemente com dados verificados e fotos de estúdio.",

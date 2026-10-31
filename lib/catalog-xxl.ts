@@ -27,7 +27,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll/brompton-electric-g-line-e-motiq-urban-345-wh-20-zoll-v1-1.webp"
     ],
     "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
-    "description": "Das Brompton Electric G Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Brompton Electric G Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -81,7 +81,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll/brompton-electric-g-line-e-motiq-city-plus-345-wh-20-zoll-v1-1.webp"
     ],
     "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
-    "description": "Das Brompton Electric G Line e-Motiq City+ ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Brompton Electric G Line e-Motiq City+ ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Tektro, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -135,7 +135,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/brompton-g-line-explore-345-wh-20-zoll/brompton-g-line-explore-345-wh-20-zoll-v1-1.webp"
     ],
     "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Brompton G Line Explore ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Brompton G Line Explore ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -188,7 +188,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll/brompton-electric-p-line-e-motiq-urban-mk2-345-wh-16-zoll-v1-1.webp"
     ],
     "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
-    "description": "Das Brompton Electric P Line e-Motiq Urban MK2 ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Brompton Electric P Line e-Motiq Urban MK2 ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -242,7 +242,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll/brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll-v1-1.webp"
     ],
     "shortDescription": "Klapp E-Bike mit Hinterradmotor 36V, 345 Wh Akku, 4-Gang Kettenschaltung.",
-    "description": "Das Brompton Electric C Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Brompton Electric C Line e-Motiq Urban ist ein Klapp E-Bike von Brompton. Es hat Hinterradmotor 36V und einen 345 Wh Akku. Geschaltet wird über 4-Gang Kettenschaltung. Die Bremsanlage: Brompton Dual Pivot Bremssättel, mechanische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -275,6 +275,939 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
+    "id": "babboe-curve-mountain-enviolo-500-wh",
+    "slug": "babboe-curve-mountain-enviolo-500-wh",
+    "name": "Babboe Curve Mountain",
+    "brand": "Babboe",
+    "category": "Cargo-E-Bike",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Yamaha PW-ST 250W",
+    "torqueNm": 70,
+    "batteryStandardWh": 0,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/babboe-curve-mountain-enviolo-500-wh/babboe-curve-mountain-enviolo-500-wh-v1-1.webp",
+    "gallery": [
+      "/products/babboe-curve-mountain-enviolo-500-wh/babboe-curve-mountain-enviolo-500-wh-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Yamaha PW-ST 250W, 0 Wh Akku, Stufenlose Getriebe-Nabenschaltung (Freilauf).",
+    "description": "Das Babboe Curve Mountain ist ein Cargo E-Bike von Babboe. Es hat Yamaha PW-ST 250W und einen 0 Wh Akku, das Drehmoment beträgt 70 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-T525 hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 0 Wh",
+          "capacityWh": 0,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Yamaha PW-ST Mittelmotor 250W",
+      "Drehmoment": "70 Nm",
+      "Akku": "0 Wh",
+      "Display": "Yamaha LED (nicht abnehmbar)",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro HD-T525 hydraulische Scheibenbremse",
+      "Gabel": "Starrgabel mit Lenkungsdämpfer (gegen hartes Anschlagen)",
+      "Rahmen": "Stahl",
+      "Reifen": "CST Pro Brooklyn 50-406",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-longtail-hybrid-800-800-wh-26-zoll",
+    "slug": "cube-longtail-hybrid-800-800-wh-26-zoll",
+    "name": "Cube Longtail Hybrid 800",
+    "brand": "Cube",
+    "category": "Cargo-E-Bike",
+    "price": 3780.01,
+    "originalPrice": 3799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Cargo Line Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 34.1,
+    "image": "/products/cube-longtail-hybrid-800-800-wh-26-zoll/cube-longtail-hybrid-800-800-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-longtail-hybrid-800-800-wh-26-zoll/cube-longtail-hybrid-800-800-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Cargo Line Smart, 800 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Cube Longtail Hybrid 800 ist ein Cargo E-Bike von Cube. Es hat Bosch Cargo Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Cargo Line Smart 250 Watt 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerPack 800",
+      "Display": "Bosch Kiox 500 & Bosch LED Remote",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium Rigid Fork, 26&quot;",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Pick-Up, Performance, Super Defense, 65-559",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-longtail-hybrid-comfort-800-800-wh-26-zoll",
+    "slug": "cube-longtail-hybrid-comfort-800-800-wh-26-zoll",
+    "name": "Cube Longtail Hybrid Comfort 800",
+    "brand": "Cube",
+    "category": "Cargo-E-Bike",
+    "price": 4476.51,
+    "originalPrice": 4499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Cargo Line Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 26.3,
+    "image": "/products/cube-longtail-hybrid-comfort-800-800-wh-26-zoll/cube-longtail-hybrid-comfort-800-800-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-longtail-hybrid-comfort-800-800-wh-26-zoll/cube-longtail-hybrid-comfort-800-800-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Cargo Line Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Cube Longtail Hybrid Comfort 800 ist ein Cargo E-Bike von Cube. Es hat Bosch Cargo Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Cargo Line Smart 250 Watt 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerPack 800",
+      "Display": "Bosch Kiox 500 & Bosch LED Remote",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium Rigid Fork, 26&quot;",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Pick-Up, Performance, Super Defense, 65-559",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "babboe-go-mountain-enviolo-500-wh",
+    "slug": "babboe-go-mountain-enviolo-500-wh",
+    "name": "Babboe Go Mountain",
+    "brand": "Babboe",
+    "category": "Cargo-E-Bike",
+    "price": 5123.26,
+    "originalPrice": 5149,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Yamaha PW-ST 250W",
+    "torqueNm": 70,
+    "batteryStandardWh": 0,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/babboe-go-mountain-enviolo-500-wh/babboe-go-mountain-enviolo-500-wh-v1-1.webp",
+    "gallery": [
+      "/products/babboe-go-mountain-enviolo-500-wh/babboe-go-mountain-enviolo-500-wh-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Yamaha PW-ST 250W, 0 Wh Akku, Stufenlose Getriebe-Nabenschaltung (Freilauf).",
+    "description": "Das Babboe Go Mountain ist ein Cargo E-Bike von Babboe. Es hat Yamaha PW-ST 250W und einen 0 Wh Akku, das Drehmoment beträgt 70 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-T250, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 0 Wh",
+          "capacityWh": 0,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Yamaha PW-ST Mittelmotor 250W",
+      "Drehmoment": "70 Nm",
+      "Akku": "Unter der Sitzbank, Akku herausnehmbar",
+      "Display": "Yamaha Side Switch 1.7&quot; LCD, 7 Funktionen",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung (Freilauf)",
+      "Bremsen": "Tektro HD-T250, hydraulische Scheibenbremse",
+      "Gabel": "Stahl",
+      "Rahmen": "Stahl",
+      "Reifen": "CST Brooklyn 50-406",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "carqon-cruise-smart-e2-800-wh-20-zoll",
+    "slug": "carqon-cruise-smart-e2-800-wh-20-zoll",
+    "name": "Carqon Cruise Smart E2",
+    "brand": "Carqon",
+    "category": "Cargo-E-Bike",
+    "price": 6665.51,
+    "originalPrice": 6699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Cargo Line Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/carqon-cruise-smart-e2-800-wh-20-zoll/carqon-cruise-smart-e2-800-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/carqon-cruise-smart-e2-800-wh-20-zoll/carqon-cruise-smart-e2-800-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Cargo Line Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Carqon Cruise Smart E2 ist ein Cargo E-Bike von Carqon. Es hat Bosch Cargo Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro Dorado, 4 Kolben, hydraulische Scheibenbremsen.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Cargo Line Smart 250 Watt 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerPack 800Wh",
+      "Display": "Bosch Kiox 300",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro Dorado, 4 Kolben, hydraulische Scheibenbremsen",
+      "Gabel": "Suntour SF20-MOBIE, Federgabel",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Super Moto X 62-406 Reflexstreifen",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "qio-long-p9-545-wh-20-zoll",
+    "slug": "qio-long-p9-545-wh-20-zoll",
+    "name": "QiO Long P9",
+    "brand": "QiO",
+    "category": "Cargo-E-Bike",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 545,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/qio-long-p9-545-wh-20-zoll/qio-long-p9-545-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/qio-long-p9-545-wh-20-zoll/qio-long-p9-545-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das QiO Long P9 ist ein Cargo E-Bike von QiO. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Magura LOUISE, 4-Kolben, Easy Link, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 545 Wh",
+          "capacityWh": 545,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerPack 545, 545 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Magura LOUISE, 4-Kolben, Easy Link, hydraulische Scheibenbremse",
+      "Gabel": "Starrgabel Alu 6061 Disc",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe PickUp, 60-406, Super Defense, TwinSkin",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "qio-long-cla-800-wh-20-zoll",
+    "slug": "qio-long-cla-800-wh-20-zoll",
+    "name": "QiO Long CLA",
+    "brand": "QiO",
+    "category": "Cargo-E-Bike",
+    "price": 5670.51,
+    "originalPrice": 5699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Cargo Line Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/qio-long-cla-800-wh-20-zoll/qio-long-cla-800-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/qio-long-cla-800-wh-20-zoll/qio-long-cla-800-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Cargo Line Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das QiO Long CLA ist ein Cargo E-Bike von QiO. Es hat Bosch Cargo Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura LOUISE, 4-Kolben, Easy Link, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Cargo Line Smart 250 Watt 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerPack 800, 800 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura LOUISE, 4-Kolben, Easy Link, hydraulische Scheibenbremse",
+      "Gabel": "Suntour SF22 Mobie34, CGO Boost DS, 15AH2",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe PickUp, 60-406, Super Defense, TwinSkin",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-porto-4-0-710-wh-24-zoll",
+    "slug": "specialized-turbo-porto-4-0-710-wh-24-zoll",
+    "name": "Specialized Turbo Porto 4.0",
+    "brand": "Specialized",
+    "category": "Cargo-E-Bike",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
+    "torqueNm": 90,
+    "batteryStandardWh": 710,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Specialized 2.2 Custom tuned, 250W, 90Nm, 710 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Specialized Turbo Porto 4.0 ist ein Cargo E-Bike von Specialized. Es hat Specialized 2.2 Custom tuned, 250W, 90Nm und einen 710 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro Dorado, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 710 Wh",
+          "capacityWh": 710,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
+      "Drehmoment": "90 Nm",
+      "Akku": "Specialized U2-710, integrierter Akku, Ladezustandsanzeige, 710 Wh, UL",
+      "Display": "MasterMind TCD, mit Lenkerfernbedienung, integrierter Diebstahlsicherung, Bluetooth-Konnektivität, anpassbaren Display-Seiten",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro Dorado, hydraulische Scheibenbremse",
+      "Gabel": "Fero Disc",
+      "Rahmen": "Aluminium",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "gazelle-makki-load-545-wh-26-zoll",
+    "slug": "gazelle-makki-load-545-wh-26-zoll",
+    "name": "Gazelle Makki Load",
+    "brand": "Gazelle",
+    "category": "Cargo-E-Bike",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 545,
+    "rangeKm": 0,
+    "weightKg": 54.5,
+    "image": "/products/gazelle-makki-load-545-wh-26-zoll/gazelle-makki-load-545-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/gazelle-makki-load-545-wh-26-zoll/gazelle-makki-load-545-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Gazelle Makki Load ist ein Cargo E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-M750, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 545 Wh",
+          "capacityWh": 545,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch Powerpack, 545 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro HD-M750, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour MOBIE",
+      "Rahmen": "Aluminium",
+      "Reifen": "CST Brooklyn, 20x2.25&quot; (50-406)",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-longtail-hybrid-family-800-800-wh-26-zoll",
+    "slug": "cube-longtail-hybrid-family-800-800-wh-26-zoll",
+    "name": "Cube Longtail Hybrid Family 800",
+    "brand": "Cube",
+    "category": "Cargo-E-Bike",
+    "price": 4078.51,
+    "originalPrice": 4099,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Cargo Line Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 38.9,
+    "image": "/products/cube-longtail-hybrid-family-800-800-wh-26-zoll/cube-longtail-hybrid-family-800-800-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-longtail-hybrid-family-800-800-wh-26-zoll/cube-longtail-hybrid-family-800-800-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Cargo Line Smart, 800 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Cube Longtail Hybrid Family 800 ist ein Cargo E-Bike von Cube. Es hat Bosch Cargo Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Cargo Line Smart 250 Watt 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerPack 800",
+      "Display": "Bosch Kiox 500 & Bosch LED Remote",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Magura Gustav PRO, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse",
+      "Gabel": "Aluminium Rigid Fork, 26&quot;",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Pick-Up, Performance, Super Defense, 65-559",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "urban-arrow-familynext-advanced-belt-800-wh-26-zoll",
+    "slug": "urban-arrow-familynext-advanced-belt-800-wh-26-zoll",
+    "name": "Urban Arrow FamilyNext Advanced Belt",
+    "brand": "Urban Arrow",
+    "category": "Cargo-E-Bike",
+    "price": 6566.01,
+    "originalPrice": 6599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Smart",
+    "torqueNm": 75,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 51,
+    "image": "/products/urban-arrow-familynext-advanced-belt-800-wh-26-zoll/urban-arrow-familynext-advanced-belt-800-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/urban-arrow-familynext-advanced-belt-800-wh-26-zoll/urban-arrow-familynext-advanced-belt-800-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Performance Line Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Urban Arrow FamilyNext Advanced Belt ist ein Cargo E-Bike von Urban Arrow. Es hat Bosch Performance Line Smart und einen 800 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura CMe, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Smart 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerPack 800Wh",
+      "Display": "Bosch LED Remote + KIOX 300",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura CMe, hydraulische Scheibenbremse",
+      "Gabel": "Suntour Mobie34 CGO Boost",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Pick-Up 55-406",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "riese-und-mueller-multitinker2-family-625-wh-20-zoll",
+    "slug": "riese-und-mueller-multitinker2-family-625-wh-20-zoll",
+    "name": "Riese & Müller Multitinker2 FAMILY",
+    "brand": "Riese & Müller",
+    "category": "Cargo-E-Bike",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line PX Smart",
+    "torqueNm": 90,
+    "batteryStandardWh": 625,
+    "rangeKm": 0,
+    "weightKg": 36,
+    "image": "/products/riese-und-mueller-multitinker2-family-625-wh-20-zoll/riese-und-mueller-multitinker2-family-625-wh-20-zoll-v1-1.webp",
+    "gallery": [
+      "/products/riese-und-mueller-multitinker2-family-625-wh-20-zoll/riese-und-mueller-multitinker2-family-625-wh-20-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Cargo E-Bike mit Bosch Performance Line PX Smart, 625 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Riese & Müller Multitinker2 FAMILY ist ein Cargo E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 625 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 625 Wh",
+          "capacityWh": 625,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line PX Smart 250 Watt",
+      "Drehmoment": "90 Nm",
+      "Akku": "Bosch PowerTube 625 Wh",
+      "Display": "Bosch Purion 200",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Magura MT5, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34 CGO Boost, 20 Zoll, 80mm Federweg",
+      "Rahmen": "Aluminium",
+      "Reifen": "Schwalbe Super Moto-X 62-406",
+      "Laufradgröße": "20 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
+    "slug": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
+    "name": "Cube Kathmandu Hybrid 750 45 km/h",
+    "brand": "Cube",
+    "category": "Speed-Pedelec",
+    "price": 4576.01,
+    "originalPrice": 4599,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Speed G4",
+    "torqueNm": 75,
+    "batteryStandardWh": 750,
+    "rangeKm": 0,
+    "weightKg": 28.1,
+    "image": "/products/cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll/cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll/cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "S-Pedelec mit Bosch Performance Line Speed G4, 750 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Cube Kathmandu Hybrid 750 45 km/h ist ein S-Pedelec von Cube. Es hat Bosch Performance Line Speed G4 und einen 750 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Magura MT5e, hydraulische Scheibenbremse, Bremslicht.  Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 750 Wh",
+          "capacityWh": 750,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Speed G4 250 Watt",
+      "Drehmoment": "75 Nm",
+      "Akku": "Bosch PowerTube 750",
+      "Display": "Bosch Kiox 300 & Bosch LED Remote",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Magura MT5e, hydraulische Scheibenbremse, Bremslicht",
+      "Gabel": "SR Suntour Mobie 35 LO-R Air, 100mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Marathon E-Plus, Smart-DualGuard, 28x2.15&quot; (55-622)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll",
+    "slug": "riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll",
+    "name": "Riese & Müller Charger5 vario HS 45 km/h",
+    "brand": "Riese & Müller",
+    "category": "Speed-Pedelec",
+    "price": 7162.91,
+    "originalPrice": 7198.9,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Speed Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 32.3,
+    "image": "/products/riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll/riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll/riese-und-mueller-charger5-vario-hs-45-km-h-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "S-Pedelec mit Bosch Performance Line Speed Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Riese & Müller Charger5 vario HS 45 km/h ist ein S-Pedelec von Riese & Müller. Es hat Bosch Performance Line Speed Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT C, hydraulische Scheibenbremse mit ABS.  Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Speed Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800 Wh",
+      "Display": "Bosch Kiox 500",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura MT C, hydraulische Scheibenbremse mit ABS",
+      "Gabel": "SR Suntour Mobie 34, tapered, Boost, 100mm Federweg",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Super Moto-X 62-584, Reflex",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll",
+    "slug": "riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll",
+    "name": "Riese & Müller Delite5 rohloff HS 45 km/h",
+    "brand": "Riese & Müller",
+    "category": "Speed-Pedelec",
+    "price": 9750,
+    "originalPrice": 9799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line Speed Smart",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 35.4,
+    "image": "/products/riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll/riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll/riese-und-mueller-delite5-rohloff-hs-45-km-h-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "S-Pedelec mit Bosch Performance Line Speed Smart, 800 Wh Akku, 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Riese & Müller Delite5 rohloff HS 45 km/h ist ein S-Pedelec von Riese & Müller. Es hat Bosch Performance Line Speed Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro TRP HD-EU835, hydraulische Scheibenbremse.  Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line Speed Smart 250 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "Bosch PowerTube 800 Wh",
+      "Display": "Bosch Kiox 500",
+      "Schaltung": "14-Gang Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Tektro TRP HD-EU835, hydraulische Scheibenbremse",
+      "Gabel": "Fox AWL 34, Air, 120mm Federweg",
+      "Rahmen": "Aluminium, Fully",
+      "Reifen": "Schwalbe Super Moto-X 62-584, Reflex",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll",
+    "slug": "specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll",
+    "name": "Specialized Turbo Vado S IGH ST 45 km/h",
+    "brand": "Specialized",
+    "category": "Speed-Pedelec",
+    "price": 5174,
+    "originalPrice": 5200,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 2.2 S, 250W, 90Nm",
+    "torqueNm": 90,
+    "batteryStandardWh": 710,
+    "rangeKm": 0,
+    "weightKg": 28.09,
+    "image": "/products/specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll/specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll/specialized-turbo-vado-s-igh-st-45-km-h-710-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "S-Pedelec mit Specialized 2.2 S, 250W, 90Nm, 710 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Specialized Turbo Vado S IGH ST 45 km/h ist ein S-Pedelec von Specialized. Es hat Specialized 2.2 S, 250W, 90Nm und einen 710 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: TRP Zurich, 4-Kolben, hydraulische Scheibenbremse.  Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 710 Wh",
+          "capacityWh": 710,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized 2.2 S, 250W, 90Nm",
+      "Drehmoment": "90 Nm",
+      "Akku": "Specialized U2-710, Gehäuse aus Aluminium, Ladezustandsanzeige, 710Wh",
+      "Display": "MasterMind TCD, mit Lenkerfernbedienung, integrierter Diebstahlsicherung, Bluetooth-Konnektivität, anpassbaren Displayseiten",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "TRP Zurich, 4-Kolben, hydraulische Scheibenbremse",
+      "Rahmen": "Aluminium, Trapez",
+      "Reifen": "Pathfinder Sport Reflect, 27.5x2.30&quot; (58-584 / 650Bx38c)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll",
+    "slug": "flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll",
+    "name": "Flyer G1 Upstreet TR:CF 7.63 HS EU (NL-Schloss)",
+    "brand": "Flyer",
+    "category": "Speed-Pedelec",
+    "price": 8456.5,
+    "originalPrice": 8499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Pinion MGU E1.12S",
+    "torqueNm": 85,
+    "batteryStandardWh": 700,
+    "rangeKm": 0,
+    "weightKg": 29,
+    "image": "/products/flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll/flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll-v1-1.webp",
+    "gallery": [
+      "/products/flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll/flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll-v1-1.webp"
+    ],
+    "shortDescription": "S-Pedelec mit Pinion MGU E1.12S, 700 Wh Akku, 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Flyer G1 Upstreet TR:CF 7.63 HS EU (NL-Schloss) ist ein S-Pedelec von Flyer. Es hat Pinion MGU E1.12S und einen 700 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: TRP C2.3, 4 Kolben, hydraulische Scheibenbremse.  Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 700 Wh",
+          "capacityWh": 700,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Pinion MGU E1.12S Mittelmotor 800 Watt",
+      "Drehmoment": "85 Nm",
+      "Akku": "FIT TubePack 700, 700 Wh",
+      "Display": "FIT Display Comfort DSP1-L (3.5&quot;-Farbdisplay)",
+      "Schaltung": "12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "TRP C2.3, 4 Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie34 Air, 15x110mm",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Continental Contact urban, (62-622) 28 x 2,50",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
     "slug": "cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll",
     "name": "Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll",
@@ -296,7 +1229,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 29 Zoll ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -351,7 +1284,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-reaction-hybrid-one-800-800-wh-29-zoll/cube-reaction-hybrid-one-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Cube Reaction Hybrid ONE 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Reaction Hybrid ONE 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -406,7 +1339,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -461,7 +1394,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-reaction-hybrid-pro-800-800-wh-29-zoll/cube-reaction-hybrid-pro-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Reaction Hybrid Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Reaction Hybrid Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -516,7 +1449,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-reaction-hybrid-performance-600-600-wh-29-zoll/cube-reaction-hybrid-performance-600-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line Smart, 600 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Cube Reaction Hybrid Performance 600 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Reaction Hybrid Performance 600 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -571,7 +1504,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE22 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE22 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -626,7 +1559,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll/cube-stereo-hybrid-one44-pro-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 Pro 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -681,7 +1614,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29/cube-stereo-hybrid-one77-hpc-slx-800-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE77 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE77 HPC SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -736,7 +1669,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-reaction-hybrid-race-800-800-wh-29-zoll/cube-reaction-hybrid-race-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Reaction Hybrid Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Reaction Hybrid Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -791,7 +1724,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll/cube-stereo-hybrid-one44-hpc-race-800-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 27,5 Zoll ist ein Trekking E-Bike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC Race 800 800 Wh 27,5 Zoll ist ein Trekking E-Bike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -846,7 +1779,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29/cube-stereo-hybrid-one77-hpc-race-800-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE77 HPC Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE77 HPC Race 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura Louise, Front 4-Piston/Rear 4-Piston, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -901,7 +1834,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll/cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX Evo 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse mit Front-ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 HPC SLX Evo 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse mit Front-ABS.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -956,7 +1889,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-reaction-hybrid-slx-800-800-wh-29-zoll/cube-reaction-hybrid-slx-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Reaction Hybrid SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Reaction Hybrid SLX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano XT BR-M8220, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1011,7 +1944,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll/cube-stereo-hybrid-one44-ex-800-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Cube Stereo Hybrid ONE44 EX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT520, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Cube Stereo Hybrid ONE44 EX 800 ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT520, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1066,7 +1999,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-jam2-6-9-800-wh-29-zoll/focus-jam2-6-9-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Jam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Jam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1121,7 +2054,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-jam2-6-8-800-wh-29-zoll/focus-jam2-6-8-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Jam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Jam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1176,7 +2109,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-thron2-6-8-abs-800-wh-29-zoll/focus-thron2-6-8-abs-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Thron2 6.8 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP Trail EVO, 4-Kolben, hydraulische Scheibenbremse, ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Thron2 6.8 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP Trail EVO, 4-Kolben, hydraulische Scheibenbremse, ABS.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1231,7 +2164,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-thron2-6-7-600-wh-29-zoll/focus-thron2-6-7-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Focus Thron2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Thron2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1286,7 +2219,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-thron2-6-8-eqp-abs-600-wh-29-zoll/focus-thron2-6-8-eqp-abs-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Gen4, 600 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Thron2 6.8 EQP ABS ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura CT-ABS, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Thron2 6.8 EQP ABS ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura CT-ABS, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1341,7 +2274,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-jam2-6-7-600-wh-29-zoll/focus-jam2-6-7-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Focus Jam2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro Gemini SL, 4-Kolben,* / Sram DB8, 4-Kolben,* hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Jam2 6.7 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro Gemini SL, 4-Kolben,* / Sram DB8, 4-Kolben,* hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1396,7 +2329,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-sam2-6-8-800-wh-29-zoll/focus-sam2-6-8-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Sam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-M6120, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Sam2 6.8 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-M6120, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1451,7 +2384,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-sam2-6-9-800-wh-29/focus-sam2-6-9-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Sam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Sam2 6.9 ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: TRP DH-R EVO Pro, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1506,7 +2439,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-thron2-6-9-abs-800-wh-29-zoll/focus-thron2-6-9-abs-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Focus Thron2 6.9 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT-C, 4-Kolben, hydraulische Scheibenbremse, ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Thron2 6.9 ABS ist ein E-Mountainbike von Focus. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT-C, 4-Kolben, hydraulische Scheibenbremse, ABS.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1561,7 +2494,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/focus-thron2-6-7-eqp-600-wh-29-zoll/focus-thron2-6-7-eqp-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Gen4, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Focus Thron2 6.7 EQP ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Focus Thron2 6.7 EQP ist ein Trekking E-Bike von Focus. Es hat Bosch Performance Line CX Gen4 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1616,7 +2549,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 500 Wh Akku, 7-Gang Nabenschaltung (Rücktrittbremse).",
-    "description": "Das Gazelle Miss Grace C7+ RT 500 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Miss Grace C7+ RT 500 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1671,7 +2604,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll/gazelle-miss-grace-c7-plus-rt-400-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 400 Wh Akku, 7-Gang Nabenschaltung (Rücktrittbremse).",
-    "description": "Das Gazelle Miss Grace C7+ RT 400 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Miss Grace C7+ RT 400 Wh 28 Zoll ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1726,7 +2659,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-heavydutynl-c7-plus-500-wh-28-zoll/gazelle-heavydutynl-c7-plus-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 500 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Gazelle HeavyDutyNL C7+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle HeavyDutyNL C7+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1781,7 +2714,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-grenoble-c5-600-wh-28-zoll/gazelle-grenoble-c5-600-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 600 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Gazelle Grenoble C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Grenoble C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1836,7 +2769,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-easyflow-c7-630-wh-24-zoll/gazelle-easyflow-c7-630-wh-24-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Shimano STEPS EP5, 630 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Gazelle Easyflow C7 ist ein Trekking E-Bike von Gazelle. Es hat Shimano STEPS EP5 und einen 630 Wh Akku. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Easyflow C7 ist ein Trekking E-Bike von Gazelle. Es hat Shimano STEPS EP5 und einen 630 Wh Akku. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1889,7 +2822,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll/gazelle-arroyo-c8-elite-rt-600-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 600 Wh Akku, 8-Gang Nabenschaltung (Rücktrittbremse).",
-    "description": "Das Gazelle Arroyo C8 Elite RT ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Arroyo C8 Elite RT ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1944,7 +2877,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-easyflow-c8-630-wh-24-zoll/gazelle-easyflow-c8-630-wh-24-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Shimano STEPS E5100, 630 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Gazelle Easyflow C8 ist ein City E-Bike von Gazelle. Es hat Shimano STEPS E5100 und einen 630 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, Hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Easyflow C8 ist ein City E-Bike von Gazelle. Es hat Shimano STEPS E5100 und einen 630 Wh Akku. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-R280, Hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -1998,7 +2931,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-heavydutynl-c5-500-wh-28-zoll/gazelle-heavydutynl-c5-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 500 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Gazelle HeavyDutyNL C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle HeavyDutyNL C5 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2053,7 +2986,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-grenoble-c8-600-wh-28-zoll/gazelle-grenoble-c8-600-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 600 Wh Akku, 8-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Gazelle Grenoble C8 ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Grenoble C8 ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 600 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2108,7 +3041,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-avignon-c380-600-wh-28-zoll/gazelle-avignon-c380-600-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Gazelle Avignon C380 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T3021, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Avignon C380 ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T3021, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2163,7 +3096,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll/ghost-e-asx-abs-low-eq-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Ghost E-ASX ABS LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Ghost E-ASX ABS LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2218,7 +3151,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ghost-e-asx-abs-eq-800-wh-29/ghost-e-asx-abs-eq-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Ghost E-ASX ABS EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Ghost E-ASX ABS EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4-Kolben, 203 mm.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2273,7 +3206,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ghost-e-asx-universal-800-wh-29/ghost-e-asx-universal-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Ghost E-ASX Universal ist ein E-Mountainbike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Ghost E-ASX Universal ist ein E-Mountainbike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2328,7 +3261,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ghost-e-asx-universal-eq-800-wh-29/ghost-e-asx-universal-eq-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Ghost E-ASX Universal EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Ghost E-ASX Universal EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4-Kolben, Resin-Pad, 203 mm.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2383,7 +3316,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll/ghost-e-asx-essential-low-eq-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Ghost E-ASX Essential LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro Orion HD-M750, 4-Kolben, Resin-Pad, 203 mm. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Ghost E-ASX Essential LOW EQ ist ein Trekking E-Bike von Ghost. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro Orion HD-M750, 4-Kolben, Resin-Pad, 203 mm.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2438,7 +3371,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-talon-e-plus-gen2-430-wh-29-zoll/giant-talon-e-plus-gen2-430-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Giant SyncDrive Sport 2, 430 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Giant Talon E+ Gen2 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Talon E+ Gen2 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2493,7 +3426,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-fathom-e-plus-ex-750-wh-29-zoll/giant-fathom-e-plus-ex-750-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 750 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Giant Fathom E+ EX ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 750 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Fathom E+ EX ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 750 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2548,7 +3481,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-explore-e-plus-2-625-wh-28-zoll/giant-explore-e-plus-2-625-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Giant Explore E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Explore E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2603,7 +3536,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-explore-e-plus-1-800-wh-28-zoll/giant-explore-e-plus-1-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Giant Explore E+ 1 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Explore E+ 1 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2658,7 +3591,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-explore-e-plus-0-800-wh-28-zoll/giant-explore-e-plus-0-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung (Freilauf).",
-    "description": "Das Giant Explore E+ 0 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung (Freilauf). Die Bremsanlage: Shimano Deore XT BR-M8120, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Explore E+ 0 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Pro 2 (Powered by Yamaha) 250 Wa und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung (Freilauf). Die Bremsanlage: Shimano Deore XT BR-M8120, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2713,7 +3646,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-talon-e-plus-ex-gen2-430-wh-29-zoll/giant-talon-e-plus-ex-gen2-430-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Giant SyncDrive Sport 2, 430 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Giant Talon E+ EX Gen2 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Talon E+ EX Gen2 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 430 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2768,7 +3701,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-stance-e-plus-1-800-wh-29-zoll/giant-stance-e-plus-1-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Giant SyncDrive Pro 3X, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Giant Stance E+ 1 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Pro 3X und einen 800 Wh Akku, das Drehmoment beträgt 100 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Stance E+ 1 ist ein E-Mountainbike von Giant. Es hat Giant SyncDrive Pro 3X und einen 800 Wh Akku, das Drehmoment beträgt 100 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2823,7 +3756,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-anytour-e-plus-2-625-wh-28-zoll/giant-anytour-e-plus-2-625-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Giant AnyTour E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant AnyTour E+ 2 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT420, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2878,7 +3811,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-anytour-e-plus-3-625-wh-28-zoll/giant-anytour-e-plus-3-625-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Giant SyncDrive Sport 2, 625 Wh Akku, 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Giant AnyTour E+ 3 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant AnyTour E+ 3 ist ein City E-Bike von Giant. Es hat Giant SyncDrive Sport 2 und einen 625 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2933,7 +3866,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/giant-anytour-x-e-plus-3-625-wh-27-5-zoll/giant-anytour-x-e-plus-3-625-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Giant SyncDrive Sport 3, 625 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Giant Anytour X E+ 3 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 3 und einen 625 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Giant Anytour X E+ 3 ist ein Trekking E-Bike von Giant. Es hat Giant SyncDrive Sport 3 und einen 625 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -2988,7 +3921,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-allmtn-4-800-wh-29/haibike-allmtn-4-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Allmtn 4 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8 Stealth, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Allmtn 4 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8 Stealth, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3043,7 +3976,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-trekking-9-abs-800-wh-27-5-zoll/haibike-trekking-9-abs-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Haibike Trekking 9 ABS ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Trekking 9 ABS ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3098,7 +4031,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-allmtn-6-800-wh-29/haibike-allmtn-6-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Allmtn 6 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-M6120, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Allmtn 6 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-M6120, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3153,7 +4086,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-adventr-8-5-low-800-wh-27-5-zoll/haibike-adventr-8-5-low-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Haibike Adventr 8.5 Low ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Adventr 8.5 Low ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3208,7 +4141,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-allmtn-cf-9-800-wh-29/haibike-allmtn-cf-9-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Allmtn CF 9 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8 Stealth, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Allmtn CF 9 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB8 Stealth, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3263,7 +4196,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrail-6-800-wh-29/haibike-alltrail-6-800-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrail 6 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrail 6 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3318,7 +4251,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrail-8-29-800-wh-29-zoll/haibike-alltrail-8-29-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrail 8 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrail 8 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M535, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3373,7 +4306,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-trekking-6-5-600-wh-27-5-zoll/haibike-trekking-6-5-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Haibike Trekking 6.5 ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Trekking 6.5 ist ein Trekking E-Bike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3428,7 +4361,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-lyke-cf-11-430-wh-29-zoll/haibike-lyke-cf-11-430-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Fazua Ride 60, 430 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Lyke CF 11 ist ein E-Mountainbike von Haibike. Es hat Fazua Ride 60 und einen 430 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore XT BR-M8120, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Lyke CF 11 ist ein E-Mountainbike von Haibike. Es hat Fazua Ride 60 und einen 430 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore XT BR-M8120, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3483,7 +4416,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrack-11-abs-29-800-wh-29-zoll/haibike-alltrack-11-abs-29-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrack 11 ABS 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrack 11 ABS 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3538,7 +4471,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrack-10-29-800-wh-29-zoll/haibike-alltrack-10-29-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrack 10 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB4 Stealth A-MAJIG, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrack 10 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB4 Stealth A-MAJIG, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3593,7 +4526,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrack-6-5-29-600-wh-29-zoll/haibike-alltrack-6-5-29-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrack 6.5 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrack 6.5 29 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3648,7 +4581,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/haibike-alltrack-11-abs-27-5-800-wh-27-5-zoll/haibike-alltrack-11-abs-27-5-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Haibike Alltrack 11 ABS 27.5 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Haibike Alltrack 11 ABS 27.5 ist ein E-Mountainbike von Haibike. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT C Allroad ABS, 4 Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3703,7 +4636,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-5-season-625-wh-29-zoll/kalkhoff-image-5-season-625-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart Gen5, 625 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Kalkhoff Image 5 Season ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 625 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T280, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image 5 Season ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 625 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T280, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3758,7 +4691,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-5-season-2-800-wh-29-zoll/kalkhoff-entice-5-season-2-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 5 Season 2 ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Tektro T280, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 5 Season 2 ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Tektro T280, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3813,7 +4746,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-endeavour-l-excite-400-wh-29-zoll/kalkhoff-endeavour-l-excite-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Endeavour L Excite ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT30, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Endeavour L Excite ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Magura MT30, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3868,7 +4801,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-l-advance-400-wh-27-5-zoll/kalkhoff-entice-l-advance-400-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice L Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice L Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3923,7 +4856,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-7-excite-plus-abs-800-wh-27-5-zoll/kalkhoff-entice-7-excite-plus-abs-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 7 Excite+ ABS ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT C ABS, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 7 Excite+ ABS ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT C ABS, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -3978,7 +4911,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-7-advance-plus-800-wh-29-zoll/kalkhoff-entice-7-advance-plus-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 7 Advance+ 800 Wh 29 Zoll ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 7 Advance+ 800 Wh 29 Zoll ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4033,7 +4966,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-endeavour-season-400-wh-29-zoll/kalkhoff-endeavour-season-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Endeavour Season ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Endeavour Season ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4088,7 +5021,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-7-advance-plus-800-wh-27-5-zoll/kalkhoff-entice-7-advance-plus-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 7 Advance+ 800 Wh 27,5 Zoll ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 7 Advance+ 800 Wh 27,5 Zoll ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4143,7 +5076,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-5-plus-advance-kiox-300-800-wh/kalkhoff-image-5-plus-advance-kiox-300-800-wh-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 300 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Kalkhoff Image 5+ Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line PX Smart und einen 300 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image 5+ Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line PX Smart und einen 300 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4198,7 +5131,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-5-plus-move-purion-200-800-wh/kalkhoff-image-5-plus-move-purion-200-800-wh-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line PX Smart, 200 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Kalkhoff Image 5+ Move ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line PX Smart und einen 200 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image 5+ Move ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line PX Smart und einen 200 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4253,7 +5186,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-l-advance-400-wh-29-zoll/kalkhoff-image-l-advance-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 7-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Kalkhoff Image L Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 7-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image L Advance ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 7-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4308,7 +5241,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-endeavour-l-move-400-wh-29-zoll/kalkhoff-endeavour-l-move-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Endeavour L Move ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Endeavour L Move ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4363,7 +5296,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-5-advance-plus-800-wh-29-zoll/kalkhoff-entice-5-advance-plus-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 5 Advance+ ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 5 Advance+ ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4418,7 +5351,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-l-season-400-wh-29-zoll/kalkhoff-image-l-season-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Kalkhoff Image L Season ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image L Season ist ein Trekking E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4473,7 +5406,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-image-l-excite-400-wh-29-zoll/kalkhoff-image-l-excite-400-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Kalkhoff Image L Excite ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Image L Excite ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4528,7 +5461,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-city-820-xl-belt-800-wh-28-zoll/ktm-macina-city-820-xl-belt-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das KTM Macina City 820 XL Belt ist ein City E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina City 820 XL Belt ist ein City E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4583,7 +5516,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll/ktm-macina-sport-sx-elite-di2-400-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Sport SX Elite Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Sport SX Elite Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4638,7 +5571,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-sport-sx-20-400-wh-28-zoll/ktm-macina-sport-sx-20-400-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Sport SX 20 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT201 / MT200 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Sport SX 20 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT201 / MT200 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4693,7 +5626,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-style-820-xl-800-wh-28-zoll/ktm-macina-style-820-xl-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Style 820 XL ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro TKD-139 / HD-E730 4-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Style 820 XL ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Tektro TKD-139 / HD-E730 4-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4748,7 +5681,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-superbelt-sx-400-wh-28-zoll/ktm-macina-superbelt-sx-400-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das KTM Macina Superbelt SX ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Superbelt SX ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 8-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4803,7 +5736,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-gran-820-800-wh-28-zoll/ktm-macina-gran-820-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Gran 820 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Gran 820 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-T390 / E390 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4858,7 +5791,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-sport-sx-10-di2-400-wh-28-zoll/ktm-macina-sport-sx-10-di2-400-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Sport SX 10 Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Sport SX 10 Di2 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT402 (3-F) / MT410 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4913,7 +5846,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/ktm-macina-tour-px-810-800-wh-28-zoll/ktm-macina-tour-px-810-800-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 800 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Tour Px 810 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200 / MT200 2-Kolben. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das KTM Macina Tour Px 810 ist ein Trekking E-Bike von KTM. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200 / MT200 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -4968,7 +5901,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-swing5-silent-500-wh-28-zoll/riese-und-mueller-swing5-silent-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 500 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Swing5 silent ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Swing5 silent ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5023,7 +5956,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-nevo5-vario-800-wh-27-5-zoll/riese-und-mueller-nevo5-vario-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Nevo5 vario ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Nevo5 vario ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5078,7 +6011,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-charger5-rohloff-800-wh-27-5-zoll/riese-und-mueller-charger5-rohloff-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Charger5 rohloff ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Charger5 rohloff ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5133,7 +6066,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-nevo5-rohloff-800-wh-27-5-zoll/riese-und-mueller-nevo5-rohloff-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Nevo5 rohloff ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Nevo5 rohloff ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 14-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5188,7 +6121,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-charger5-vario-core-600-wh-27-5-zoll/riese-und-mueller-charger5-vario-core-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Charger5 vario CORE ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Charger5 vario CORE ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5243,7 +6176,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-nevo5-vario-core-600-wh-27-5-zoll/riese-und-mueller-nevo5-vario-core-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Nevo5 vario CORE ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Nevo5 vario CORE ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5298,7 +6231,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-charger5-pinion-800-wh-27-5-zoll/riese-und-mueller-charger5-pinion-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Pinion MGU E1.12, 800 Wh Akku, 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Charger5 pinion ist ein Trekking E-Bike von Riese & Müller. Es hat Pinion MGU E1.12 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Charger5 pinion ist ein Trekking E-Bike von Riese & Müller. Es hat Pinion MGU E1.12 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5353,7 +6286,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-nevo5-pinion-800-wh-27-5-zoll/riese-und-mueller-nevo5-pinion-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Pinion MGU E1.12, 800 Wh Akku, 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Nevo5 pinion ist ein City E-Bike von Riese & Müller. Es hat Pinion MGU E1.12 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Nevo5 pinion ist ein City E-Bike von Riese & Müller. Es hat Pinion MGU E1.12 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Getriebeschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5407,7 +6340,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-swing5-ruecktritt-500-wh-28-zoll/riese-und-mueller-swing5-ruecktritt-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 500 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Rücktrittbremse).",
-    "description": "Das Riese & Müller Swing5 rücktritt ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Rücktrittbremse). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Swing5 rücktritt ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Rücktrittbremse). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5462,7 +6395,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-swing5-vario-500-wh-28-zoll/riese-und-mueller-swing5-vario-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 500 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Riese & Müller Swing5 vario ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Swing5 vario ist ein City E-Bike von Riese & Müller. Es hat Bosch Performance Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura HS22, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5517,7 +6450,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/riese-und-mueller-nevo5-touring-core-600-wh-27-5-zoll/riese-und-mueller-nevo5-touring-core-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Riese & Müller Nevo5 touring CORE ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Riese & Müller Nevo5 touring CORE ist ein Trekking E-Bike von Riese & Müller. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT5, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5572,7 +6505,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-expert-carbon-g4-840-wh-29/specialized-turbo-levo-expert-carbon-g4-840-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo Expert Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo Expert Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5627,7 +6560,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-comp-alloy-g4-840-wh-29/specialized-turbo-levo-comp-alloy-g4-840-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo Comp Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Bronze, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo Comp Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Bronze, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5682,7 +6615,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-alloy-g4-840-wh-29/specialized-turbo-levo-alloy-g4-840-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM DB8 Stealth, 4-piston caliper, hydraulic disc, 220mm Centerline rotor. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo Alloy G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM DB8 Stealth, 4-piston caliper, hydraulic disc, 220mm Centerline rotor.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5737,7 +6670,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll/specialized-turbo-vado-sl-2-4-0-eq-st-520-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Specialized 1.2 SL Custom Rx Trail tuned, 250W, 520 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Vado SL 2 4.0 EQ ST ist ein Trekking E-Bike von Specialized. Es hat Specialized 1.2 SL Custom Rx Trail tuned, 250W und einen 520 Wh Akku. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-R285, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Vado SL 2 4.0 EQ ST ist ein Trekking E-Bike von Specialized. Es hat Specialized 1.2 SL Custom Rx Trail tuned, 250W und einen 520 Wh Akku. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-R285, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5790,7 +6723,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-s-works-turbo-levo-carbon-g4-840-wh-29/specialized-s-works-turbo-levo-carbon-g4-840-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1 S-Works, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized S-Works Turbo Levo Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 S-Works und einen 840 Wh Akku, das Drehmoment beträgt 111 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Maven Ultimate, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized S-Works Turbo Levo Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 S-Works und einen 840 Wh Akku, das Drehmoment beträgt 111 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Maven Ultimate, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5845,7 +6778,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-r-comp-840-wh-29-zoll/specialized-turbo-levo-r-comp-840-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo R Comp ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo R Comp ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5899,7 +6832,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-r-expert-840-wh-29-zoll/specialized-turbo-levo-r-expert-840-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo R Expert ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo R Expert ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: SRAM Motive Bronze, 4-Kolben-Bremssattel, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -5932,60 +6865,6 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
-    "id": "specialized-turbo-porto-4-0-710-wh-24-zoll",
-    "slug": "specialized-turbo-porto-4-0-710-wh-24-zoll",
-    "name": "Specialized Turbo Porto 4.0",
-    "brand": "Specialized",
-    "category": "Cargo-E-Bike",
-    "price": 4974.01,
-    "originalPrice": 4999,
-    "inStock": true,
-    "stockCount": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
-    "torqueNm": 90,
-    "batteryStandardWh": 710,
-    "rangeKm": 0,
-    "weightKg": 0,
-    "image": "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp",
-    "gallery": [
-      "/products/specialized-turbo-porto-4-0-710-wh-24-zoll/specialized-turbo-porto-4-0-710-wh-24-zoll-v1-1.webp"
-    ],
-    "shortDescription": "Cargo E-Bike mit Specialized 2.2 Custom tuned, 250W, 90Nm, 710 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Specialized Turbo Porto 4.0 ist ein Cargo E-Bike von Specialized. Es hat Specialized 2.2 Custom tuned, 250W, 90Nm und einen 710 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro Dorado, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
-    "options": {
-      "frameSizes": [
-        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
-      ],
-      "batteries": [
-        {
-          "label": "Akku 710 Wh",
-          "capacityWh": 710,
-          "priceDelta": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
-          "hex": "#888888"
-        }
-      ]
-    },
-    "specs": {
-      "Motor": "Specialized 2.2 Custom tuned, 250W, 90Nm",
-      "Drehmoment": "90 Nm",
-      "Akku": "Specialized U2-710, integrierter Akku, Ladezustandsanzeige, 710 Wh, UL",
-      "Display": "MasterMind TCD, mit Lenkerfernbedienung, integrierter Diebstahlsicherung, Bluetooth-Konnektivität, anpassbaren Display-Seiten",
-      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
-      "Bremsen": "Tektro Dorado, hydraulische Scheibenbremse",
-      "Gabel": "Fero Disc",
-      "Rahmen": "Aluminium",
-      "Laufradgröße": "24 Zoll"
-    },
-    "isFeatured": false
-  },
-  {
     "id": "specialized-turbo-levo-pro-carbon-g4-840-wh-29",
     "slug": "specialized-turbo-levo-pro-carbon-g4-840-wh-29",
     "name": "Specialized Turbo Levo Pro Carbon G4",
@@ -6007,7 +6886,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/specialized-turbo-levo-pro-carbon-g4-840-wh-29/specialized-turbo-levo-pro-carbon-g4-840-wh-29-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Specialized 3.1, 840 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Specialized Turbo Levo Pro Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Specialized Turbo Levo Pro Carbon G4 ist ein E-Mountainbike von Specialized. Es hat Specialized 3.1 und einen 840 Wh Akku, das Drehmoment beträgt 105 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Maven Silver, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6062,7 +6941,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-rail-plus-9-7-gen-5-800-wh-29-zoll/trek-rail-plus-9-7-gen-5-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Trek Rail+ 9.7 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Rail+ 9.7 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6117,7 +6996,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll/trek-fuel-plus-ex-5-gen-2-580-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit TQ HPR60, 580 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Trek Fuel+ EX 5 Gen 2 ist ein E-Mountainbike von Trek. Es hat TQ HPR60 und einen 580 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Fuel+ EX 5 Gen 2 ist ein E-Mountainbike von Trek. Es hat TQ HPR60 und einen 580 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6171,7 +7050,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll/trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Trek Powerfly+ FS 6 Gen 4 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano M6120, 4-Kolben, Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Powerfly+ FS 6 Gen 4 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano M6120, 4-Kolben, Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6225,7 +7104,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-powerfly-plus-4-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-gen-5-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Trek Powerfly+ 4 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Powerfly+ 4 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6279,7 +7158,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll/trek-powerfly-plus-4-equipped-gen-5-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Trek Powerfly+ 4 Equipped Gen 5 ist ein Trekking E-Bike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Powerfly+ 4 Equipped Gen 5 ist ein Trekking E-Bike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M275, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6333,7 +7212,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-rail-plus-8-gen-5-800-wh-29-zoll/trek-rail-plus-8-gen-5-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Trek Rail+ 8 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Rail+ 8 Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram DB 8, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6388,7 +7267,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll/trek-rail-plus-9-8-gx-axs-t-type-gen-5-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Trek Rail+ 9.8 GX AXS T-Type Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Code Bronze, 4-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Rail+ 9.8 GX AXS T-Type Gen 5 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Code Bronze, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6443,7 +7322,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll/trek-district-plus-4-coaster-lowstep-545-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, 5-Gang Nabenschaltung (Rücktrittbremse).",
-    "description": "Das Trek District+ 4 Coaster Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek District+ 4 Coaster Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung (Rücktrittbremse). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6498,7 +7377,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-district-plus-2-lowstep-400-wh-27-5-zoll/trek-district-plus-2-lowstep-400-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus, 400 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Trek District+ 2 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Active Line Plus und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek District+ 2 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Active Line Plus und einen 400 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6552,7 +7431,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-district-plus-4-lowstep-545-wh-28-zoll/trek-district-plus-4-lowstep-545-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 545 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Trek District+ 4 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek District+ 4 Lowstep ist ein City E-Bike von Trek. Es hat Bosch Performance Line Smart und einen 545 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6607,7 +7486,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-sinus-fs-x12-800-wh-27-5-zoll/winora-sinus-fs-x12-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Winora Sinus FS X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Sinus FS X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano MT420, 203mm Bremsscheibendurchmesser.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6662,7 +7541,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yucatan-x10-800-wh-27-5-zoll/winora-yucatan-x10-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Winora Yucatan X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yucatan X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 800 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore BR-MT410, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6717,7 +7596,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll/winora-sinus-fs-r5f-pro-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Winora Sinus FS R5f Pro ist ein City E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura, hydraulische Scheibenbremse, MT-C ABS. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Sinus FS R5f Pro ist ein City E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura, hydraulische Scheibenbremse, MT-C ABS.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6772,7 +7651,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yakun-x10-800-wh-27-5-zoll/winora-yakun-x10-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Winora Yakun X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yakun X10 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6827,7 +7706,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yakun-r5-pro-800-wh-27-5-zoll/winora-yakun-r5-pro-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Winora Yakun R5 Pro ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yakun R5 Pro ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6882,7 +7761,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yucatan-x9-600-wh-27-5-zoll/winora-yucatan-x9-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line PX Smart, 600 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Winora Yucatan X9 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, 2-Kolben, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yucatan X9 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line PX Smart und einen 600 Wh Akku, das Drehmoment beträgt 90 Nm. Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6937,7 +7816,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-sinus-as-800-wh-27-5-zoll/winora-sinus-as-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Pinion MGU E1.9, 800 Wh Akku, 9-Gang Getriebeschaltung (Freilauf).",
-    "description": "Das Winora Sinus AS ist ein City E-Bike von Winora. Es hat Pinion MGU E1.9 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 9-Gang Getriebeschaltung (Freilauf). Die Bremsanlage: Magura MT5. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Sinus AS ist ein City E-Bike von Winora. Es hat Pinion MGU E1.9 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 9-Gang Getriebeschaltung (Freilauf). Die Bremsanlage: Magura MT5.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -6992,7 +7871,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-tria-x7-500-wh-28-zoll/winora-tria-x7-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Active Line Smart, 500 Wh Akku, 7-Gang Kettenschaltung.",
-    "description": "Das Winora Tria X7 ist ein Trekking E-Bike von Winora. Es hat Bosch Active Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 40 Nm. Geschaltet wird über 7-Gang Kettenschaltung. Die Bremsanlage: Alhonga HT474, hydraulische Scheibenbremse. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Tria X7 ist ein Trekking E-Bike von Winora. Es hat Bosch Active Line Smart und einen 500 Wh Akku, das Drehmoment beträgt 40 Nm. Geschaltet wird über 7-Gang Kettenschaltung. Die Bremsanlage: Alhonga HT474, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -7047,7 +7926,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yakun-x12-800-wh-27-5-zoll/winora-yakun-x12-800-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 800 Wh Akku, 12-Gang Kettenschaltung.",
-    "description": "Das Winora Yakun X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yakun X12 ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Deore 4P, 203mm Bremsscheibendurchmesser.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -7102,7 +7981,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/winora-yakun-x10e-600-wh-27-5-zoll/winora-yakun-x10e-600-wh-27-5-zoll-v1-1.webp"
     ],
     "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Winora Yakun X10E ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser. Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Winora Yakun X10E ist ein Trekking E-Bike von Winora. Es hat Bosch Performance Line CX Smart und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano MT410, 203mm Bremsscheibendurchmesser.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"

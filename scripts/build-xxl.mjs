@@ -20,7 +20,9 @@ const numOf = (s) => { const m = String(s || '').match(/(\d{2,3})\s*Nm/i); retur
 
 const files = fs.readdirSync('.image-work').filter((f) => /^xxl-.*\.json$/.test(f));
 let items = files.flatMap((f) => JSON.parse(fs.readFileSync(path.join('.image-work', f), 'utf8')));
-items = items.filter((m) => !SKIP.has(m.slug));
+items = items.filter((m) => !SKIP.has(m.slug) && !/testrad|demo/i.test(m.name + ' ' + m.parts.join(' ')));
+// one product per slug (a model can appear in a brand run and a category run)
+items = items.filter((m, i, a) => a.findIndex((x) => x.slug === m.slug) === i);
 
 const norm = (n) => n.replace(/^Riese und Müller/, 'Riese & Müller').replace(/\s+\+/g, '+').replace(/\s+/g, ' ').trim();
 const counts = {};
@@ -33,7 +35,7 @@ for (const m of items) {
   const zoll = m.parts.find((p) => /Zoll/.test(p)) || '';
   let name = norm(m.name);
   if (counts[name] > 1) name = `${name} ${wh} Wh ${zoll}`.replace(/\s+/g, ' ').trim();
-  const brand = m.brand === 'Riese & Müller' ? 'Riese & Müller' : m.brand;
+  const brand = m.brand === 'Riese und Müller' ? 'Riese & Müller' : m.brand;
   const cat = m.brand === 'Brompton' ? 'Falt-E-Bike' : m.cat || (/image|entice/i.test(m.name) ? 'E-City' : 'E-Trekking');
   const s = m.specs || {};
   const motor = (s.Motor || '').replace(/Mittelmotor\s*/i, '').replace(/\s*\d+\s*Watt.*$/i, '').trim() || 'Mittelmotor';
@@ -72,7 +74,7 @@ for (const m of items) {
     inStock: true, stockCount: 0, rating: 0, reviewsCount: 0,
     motor, torqueNm: numOf(s.Drehmoment), batteryStandardWh: wh, rangeKm: 0, weightKg: Number.isFinite(kg) && kg > 0 && kg < 60 ? kg : 0,
     image: img, gallery: [img], shortDescription: short,
-    description: `Das ${name} ist ein ${catDe} von ${brand}. Es hat ${motor} und einen ${wh} Wh Akku${s.Drehmoment ? `, das Drehmoment beträgt ${s.Drehmoment}` : ''}.${gears ? ` Geschaltet wird über ${gears}.` : ''}${brakes ? ` Die Bremsanlage: ${brakes}.` : ''} Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.`,
+    description: `Das ${name} ist ein ${catDe} von ${brand}. Es hat ${motor} und einen ${wh} Wh Akku${s.Drehmoment ? `, das Drehmoment beträgt ${s.Drehmoment}` : ''}.${gears ? ` Geschaltet wird über ${gears}.` : ''}${brakes ? ` Die Bremsanlage: ${brakes}.` : ''} ${cat === 'Speed-Pedelec' ? ' Als S-Pedelec bis 45 km/h braucht es Versicherungskennzeichen, Führerschein Klasse AM und Helm.' : ''} Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.`,
     options: {
       frameSizes: ['Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt'],
       batteries: [{ label: `Akku ${wh} Wh`, capacityWh: wh, priceDelta: 0 }],

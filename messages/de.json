@@ -177,7 +177,8 @@
       "speed": "S-Pedelecs",
       "cargo": "Cargo E-Bikes",
       "all": "Alle E-Bikes",
-      "acc": "Zubehör"
+      "acc": "Zubehör",
+      "falt": "Falt E-Bikes"
     },
     "newTitle": "Neu im Sortiment",
     "newSub": "Frisch aufgenommene Modelle mit geprüften Daten und Studiofotos.",

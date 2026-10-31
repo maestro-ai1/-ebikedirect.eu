@@ -177,7 +177,8 @@
       "speed": "S-Pedelec",
       "cargo": "E-bike cargo",
       "all": "Tutte le e-bike",
-      "acc": "Accessori"
+      "acc": "Accessori",
+      "falt": "E-bike pieghevoli"
     },
     "newTitle": "Novità",
     "newSub": "Modelli appena aggiunti con dati verificati e foto in studio.",
