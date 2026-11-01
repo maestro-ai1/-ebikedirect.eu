@@ -116,7 +116,7 @@ export default function AboutPage() {
               href="/contact"
               className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition-colors"
             >
-              Showroom in München besuchen
+              Kontakt aufnehmen
             </Link>
           </div>
         </div>

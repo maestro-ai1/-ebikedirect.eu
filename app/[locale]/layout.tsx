@@ -7,7 +7,7 @@ import { I18nProvider } from '@/context/i18n-context';
 import { CartProvider } from '@/context/cart-context';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { CartDrawer } from '@/components/layout/cart-drawer';
+import { CartToast } from '@/components/layout/cart-toast';
 import { RecentSalesPopup } from '@/components/home/recent-sales-popup';
 import { StoreJsonLd } from '@/components/seo/json-ld';
 import { HreflangTags } from '@/components/seo/hreflang-tags';
@@ -56,8 +56,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       siteName: 'ebikedirect.eu',
+      images: [{ url: `${SITE_URL}/lifestyle/e-bike-kaufen.webp`, alt: primary }],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [`${SITE_URL}/lifestyle/e-bike-kaufen.webp`] },
     robots: isIndexed(locale)
       ? { index: true, follow: true, googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 } }
       : { index: false, follow: true },
@@ -91,7 +92,7 @@ export default async function LocaleLayout({
               <main className="flex-1">
                 {children}
               </main>
-              <CartDrawer />
+              <CartToast />
               <RecentSalesPopup />
               <Footer />
             </CartProvider>

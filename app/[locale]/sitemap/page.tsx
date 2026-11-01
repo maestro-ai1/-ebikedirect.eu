@@ -66,7 +66,7 @@ export default function SitemapPage() {
               </li>
               <li>
                 <Link href="/contact" className="hover:text-[#FF5722] transition-colors">
-                  Kontakt & Showroom (/contact)
+                  Kontakt (/contact)
                 </Link>
               </li>
               <li>

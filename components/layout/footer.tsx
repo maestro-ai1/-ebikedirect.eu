@@ -102,7 +102,11 @@ export function Footer() {
             <div className="space-y-1.5 text-xs text-gray-300">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-gray-500" />
-                <span>Radlerstraße 42, 80331 München, Deutschland</span>
+                <span>Kollwitzstraße 47, 10405 Berlin, Deutschland</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-3.5 h-3.5 text-gray-500" />
+                <a href="mailto:sales@ebikedirect.eu" className="hover:text-[#FF5722] transition-colors">sales@ebikedirect.eu</a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-gray-500" />
@@ -123,9 +127,9 @@ export function Footer() {
 
           {/* E-Bike Sortiment */}
           <div>
-            <h3 className="font-bold text-white text-xs uppercase tracking-wider mb-3">
+            <p className="font-bold text-white text-xs uppercase tracking-wider mb-3">
               {t('footer.assortment', 'Sortiment')}
-            </h3>
+            </p>
             <ul className="space-y-2">
               <li>
                 <Link href={getLocalizedHref('/shop?category=E-MTB')} className="hover:text-[#FF5722] transition-colors">
@@ -162,9 +166,9 @@ export function Footer() {
 
           {/* Service & Navigation */}
           <div>
-            <h3 className="font-bold text-white text-xs uppercase tracking-wider mb-3">
+            <p className="font-bold text-white text-xs uppercase tracking-wider mb-3">
               {t('footer.service', 'Service & Shop')}
-            </h3>
+            </p>
             <ul className="space-y-2">
               <li>
                 <Link href={getLocalizedHref('/about')} className="hover:text-[#FF5722] transition-colors">
@@ -191,9 +195,9 @@ export function Footer() {
 
           {/* Policies & Legal */}
           <div>
-            <h3 className="font-bold text-white text-xs uppercase tracking-wider mb-3">
+            <p className="font-bold text-white text-xs uppercase tracking-wider mb-3">
               {t('footer.legal', 'Rechtliches & Richtlinien')}
-            </h3>
+            </p>
             <ul className="space-y-2">
               <li>
                 <Link href={getLocalizedHref('/policies/returns')} className="hover:text-[#FF5722] transition-colors">

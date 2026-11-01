@@ -12,16 +12,11 @@ export function StoreJsonLd() {
     'priceRange': '€€€€',
     'address': {
       '@type': 'PostalAddress',
-      'streetAddress': 'Radlerstraße 42',
-      'addressLocality': 'München',
-      'postalCode': '80331',
-      'addressRegion': 'Bayern',
+      'streetAddress': 'Kollwitzstraße 47',
+      'addressLocality': 'Berlin',
+      'postalCode': '10405',
+      'addressRegion': 'Berlin',
       'addressCountry': 'DE'
-    },
-    'geo': {
-      '@type': 'GeoCoordinates',
-      'latitude': 48.137154,
-      'longitude': 11.576124
     },
     'openingHoursSpecification': [
       {

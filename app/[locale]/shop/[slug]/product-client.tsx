@@ -127,7 +127,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                   </span>
                   <span className="flex items-center gap-1.5 text-xs font-bold text-[#009624] bg-[#E8F8F0] px-2.5 py-1 rounded-full border border-[#00C853]/40">
                     <span className="w-2 h-2 rounded-full bg-[#00C853] animate-pulse" />
-                    {product.stockCount > 0 ? `Sofort lieferbar (${product.stockCount} verfügbar)` : 'Auf Anfrage lieferbar'}
+                    {product.stockCount > 0 ? `Sofort lieferbar (${product.stockCount} verfügbar)` : 'Ab Lager lieferbar'}
                   </span>
                 </div>
 

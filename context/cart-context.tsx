@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { CartItem, Product } from '@/lib/types';
 
 interface CartContextType {
@@ -15,7 +16,9 @@ interface CartContextType {
   removeFromCart: (itemId: string) => void;
   updateQuantity: (itemId: string, quantity: number) => void;
   clearCart: () => void;
-  isCartDrawerOpen: boolean;
+  isCartDrawerOpen: boolean; // always false: the cart is the full checkout page, there is no slide-out drawer
+  lastAdded: { name: string; key: number } | null;
+  dismissToast: () => void;
   setIsCartDrawerOpen: (open: boolean) => void;
   isCryptoDiscountApplied: boolean;
   setIsCryptoDiscountApplied: (applied: boolean) => void;
@@ -63,7 +66,14 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     }
   });
 
-  const [isCartDrawerOpen, setIsCartDrawerOpen] = useState(false);
+  // WebForge cart pattern: no drawer. Opening the cart goes to the full checkout page; "Add to cart" only shows a toast.
+  const router = useRouter();
+  const isCartDrawerOpen = false;
+  const setIsCartDrawerOpen = (open: boolean) => {
+    if (open) router.push('/checkout');
+  };
+  const [lastAdded, setLastAdded] = useState<{ name: string; key: number } | null>(null);
+  const dismissToast = () => setLastAdded(null);
   const [promoCode, setPromoCode] = useState('');
 
   // Persist to localStorage
@@ -107,7 +117,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       ];
     });
 
-    setIsCartDrawerOpen(true);
+    setLastAdded({ name: product.name, key: Date.now() });
   };
 
   const removeFromCart = (itemId: string) => {
@@ -168,6 +178,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         clearCart,
         isCartDrawerOpen,
         setIsCartDrawerOpen,
+        lastAdded,
+        dismissToast,
         isCryptoDiscountApplied,
         setIsCryptoDiscountApplied,
         promoCode,

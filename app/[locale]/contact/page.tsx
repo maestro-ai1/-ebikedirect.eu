@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { MapPin, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from '@/components/ui/icons';
+import { MapPin, Mail, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from '@/components/ui/icons';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -21,7 +21,7 @@ export default function ContactPage() {
 
   return (
     <div className="bg-[#F8F9FA] pb-16">
-      <Breadcrumbs items={[{ label: 'Kontakt & Showroom', href: '/contact' }]} />
+      <Breadcrumbs items={[{ label: 'Kontakt', href: '/contact' }]} />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
         <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
@@ -50,10 +50,29 @@ export default function ContactPage() {
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
-                    <strong className="block text-gray-900 font-bold">Showroom & Werkstatt München:</strong>
-                    <span>Radlerstraße 42, 80331 München, Deutschland</span>
+                    <strong className="block text-gray-900 font-bold">Firmensitz:</strong>
+                    <span>LEKKER Bikes Germany GmbH, Kollwitzstraße 47, 10405 Berlin, Deutschland</span>
                   </div>
                 </div>
+
+                <div className="flex items-start gap-3">
+
+                  <div className="w-8 h-8 rounded-lg bg-gray-100 text-gray-600 flex items-center justify-center shrink-0 mt-0.5">
+
+                    <Mail className="w-4 h-4" />
+
+                  </div>
+
+                  <div>
+
+                    <strong className="block text-gray-900 font-bold">E-Mail:</strong>
+
+                    <a href="mailto:sales@ebikedirect.eu" className="text-[#FF5722] font-semibold">sales@ebikedirect.eu</a>
+
+                  </div>
+
+                </div>
+
 
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-gray-100 text-gray-600 flex items-center justify-center shrink-0 mt-0.5">

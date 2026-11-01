@@ -36,8 +36,9 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-slate max-w-none text-xs sm:text-sm text-gray-700 leading-relaxed space-y-4 border-t border-gray-100 pt-6">
             <h2 className="text-base font-bold text-[#131A22]">1. Verantwortlicher</h2>
             <p>
-              ebikedirect.eu GmbH<br />
-              Radlerstraße 42, 80331 München, Deutschland<br />
+              LEKKER Bikes Germany GmbH<br />
+              Kollwitzstraße 47, 10405 Berlin, Deutschland<br />
+              E-Mail: sales@ebikedirect.eu<br />
             </p>
 
             <h2 className="text-base font-bold text-[#131A22]">2. Erhebung und Speicherung personenbezogener Daten</h2>

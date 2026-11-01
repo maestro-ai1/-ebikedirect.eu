@@ -1,4 +1,5 @@
 import type { Product } from '@/lib/types';
+import { PRODUCTS } from '@/lib/products';
 
 // On-page SEO helpers for product pages (Product Rule): power-word title, 110-158 character description, 400+ word structured copy.
 // Every sentence is built from the product's own data or from owner-confirmed shop terms; nothing is invented.
@@ -90,56 +91,60 @@ export interface ProductContentData {
 }
 
 const wc = (s: string) => s.split(/\s+/).filter(Boolean).length;
+const pct = (n: number) => Math.abs(Math.round(n));
 
 export function buildProductContent(p: Product, focus: string): ProductContentData {
   const cat = CATEGORY_LABEL[p.category];
-  const wh = p.batteryStandardWh > 0 ? `${p.batteryStandardWh} Wh` : null;
-  const frameInfo = p.options.frameSizes.length > 1 && p.options.frameSizes.every((s) => s.length < 25)
-    ? `Das ${p.name} ist in den Rahmengrößen ${p.options.frameSizes.join(', ')} erhältlich.`
-    : `Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt, damit das ${p.name} zu Ihrer Körpergröße passt.`;
-  const colors = p.options.colors.map((c) => c.name).filter(Boolean);
-  const colorInfo = colors.length ? `Verfügbare Farbe: ${colors.slice(0, 3).join(', ')}.` : '';
+  const wh = p.batteryStandardWh > 0 ? p.batteryStandardWh : 0;
   const price = eur(p.price);
+  const peers = PRODUCTS.filter((x) => x.category === p.category && x.slug !== p.slug);
+  const avg = peers.length ? peers.reduce((t, x) => t + x.price, 0) / peers.length : p.price;
+  const cheaper = peers.filter((x) => x.price < p.price).length;
+  const withWh = peers.filter((x) => x.batteryStandardWh > 0);
+  const biggerBattery = withWh.filter((x) => x.batteryStandardWh > wh).length;
+  const brandPeers = PRODUCTS.filter((x) => x.brand === p.brand && x.category === p.category && x.slug !== p.slug).sort((x, y) => Math.abs(x.price - p.price) - Math.abs(y.price - p.price)).slice(0, 3);
+  const frameInfo = p.options.frameSizes.length > 1 && p.options.frameSizes.every((x) => x.length < 25)
+    ? `Es ist in den Rahmengrößen ${p.options.frameSizes.join(', ')} erhältlich.`
+    : 'Rahmenform und Größe stimmen wir bei der Bestellbestätigung mit Ihnen ab.';
+  const colors = p.options.colors.map((c) => c.name).filter(Boolean);
+
+  const specBlocks = Object.entries(p.specs || {}).map(([k, v]) => ({ h3: k, text: `${k} beim ${p.name}: ${v}.` }));
+
+  const position: string[] = [];
+  if (peers.length >= 3) {
+    const diff = ((p.price - avg) / avg) * 100;
+    position.push(`Im Shop gibt es ${peers.length} weitere ${cat}s. Mit ${price} liegt das ${p.name} ${pct(diff) < 3 ? 'ungefähr auf dem Durchschnitt' : diff > 0 ? `rund ${pct(diff)} % über dem Durchschnitt` : `rund ${pct(diff)} % unter dem Durchschnitt`} von ${eur(avg)}; ${cheaper} dieser Modelle sind günstiger.`);
+  }
+  if (wh > 0 && withWh.length >= 3) {
+    position.push(`Der ${wh} Wh Akku ist ${biggerBattery === 0 ? 'der größte' : biggerBattery < withWh.length / 3 ? 'einer der größten' : biggerBattery < (withWh.length * 2) / 3 ? 'von mittlerer Größe' : 'eher kompakt'} in dieser Kategorie; ${biggerBattery} Modelle haben mehr Kapazität.`);
+  }
 
   const sections: ProductContentData['sections'] = [
     {
       h2: `${p.name}: Überblick`,
       blocks: [
-        { text: `${focus.charAt(0).toUpperCase() + focus.slice(1)} bei ebikedirect.eu: Das ${p.name} von ${p.brand} gehört zur Kategorie ${cat}. Es ist mit ${p.motor}${wh ? ` und einem ${wh} Akku` : ''} ausgestattet und kostet ${price} inklusive 19 % Mehrwertsteuer. Das Modell ist ab Lager lieferbar.` },
-        { text: p.description },
-        { h3: `Was zeichnet ein ${cat} aus?`, text: CATEGORY_TEXT[p.category] || '' }
+        { text: `${focus.charAt(0).toUpperCase() + focus.slice(1)} bei ebikedirect.eu: Das ${p.name} von ${p.brand} ist ein ${cat} mit ${p.motor}${wh ? ` und ${wh} Wh Akku` : ''}. Es kostet ${price} inklusive 19 % Mehrwertsteuer und ist ab Lager lieferbar.` },
+        { text: p.description }
       ]
     },
+    { h2: `Ausstattung des ${p.name} im Detail`, blocks: specBlocks },
     {
-      h2: `Technische Daten und Ausstattung des ${p.name}`,
-      blocks: [
-        { h3: 'Antrieb', text: `Als Antrieb dient ${p.motor}.${p.torqueNm > 0 ? ` Das maximale Drehmoment beträgt ${p.torqueNm} Nm. Ein hohes Drehmoment hilft vor allem beim Anfahren, an Steigungen und mit Gepäck.` : ' Der Mittelmotor sitzt tief im Rahmen und sorgt für eine natürliche Gewichtsverteilung.'}` },
-        { h3: 'Akku und Reichweite', text: `${wh ? `Der Akku hat eine Kapazität von ${wh}.` : 'Die Akkukapazität entnehmen Sie dem Datenblatt.'}${p.rangeKm > 0 ? ` Der Hersteller gibt eine Reichweite von bis zu ${p.rangeKm} km an.` : ''} Die tatsächliche Reichweite hängt von Fahrergewicht, Gelände, Unterstützungsstufe, Wind und Temperatur ab und liegt im Alltag meist unter dem Maximalwert.` },
-        { h3: 'Rahmen, Größen und Farben', text: `${frameInfo} ${colorInfo}`.trim() },
-        { h3: 'Gewicht und Zulassung', text: `${p.weightKg > 0 ? `Das Gewicht beträgt ${p.weightKg} kg. ` : ''}${p.category === 'Speed-Pedelec' ? 'Als S-Pedelec bis 45 km/h benötigt das Rad ein Versicherungskennzeichen und einen passenden Führerschein.' : 'Das Rad ist ein Pedelec mit Unterstützung bis 25 km/h und gilt im Straßenverkehr als Fahrrad. Eine Zulassung, ein Kennzeichen oder ein Führerschein sind nicht nötig.'}` }
-      ]
-    },
-    {
-      h2: `Für wen eignet sich das ${p.name}?`,
-      blocks: [{ text: `${WHO_TEXT[p.category] || ''} Die Preisangabe von ${price} gilt für die Standardausstattung mit${wh ? ` ${wh}` : ''} Akku.` }]
-    },
-    {
-      h2: 'Lieferung, Garantie und Rückgabe',
-      blocks: [
-        { h3: 'Lieferung per Spedition', text: `Das ${p.name} wird per Spedition mit Hebebühne geliefert und nach Terminabsprache zugestellt. Der Versand ist ab einem Bestellwert von 10.000 € kostenfrei, darunter fällt eine Speditionspauschale an. Der Mindestbestellwert im Shop beträgt 500 €.` },
-        { h3: 'Garantie und Rückgabe', text: `Auf Ihr ${p.name} erhalten Sie 2 Jahre Garantie. Dazu kommt ein Rückgaberecht von 30 Tagen. Die Einzelheiten stehen in unseren Bedingungen zu Rückgabe und Garantie.` }
-      ]
+      h2: 'Größen, Farben und Gewicht',
+      blocks: [{ text: `${frameInfo}${colors.length ? ` Farbe: ${colors.slice(0, 3).join(', ')}.` : ''}${p.weightKg > 0 ? ` Das Gewicht beträgt ${p.weightKg} kg.` : ''}${p.rangeKm > 0 ? ` Der Hersteller nennt bis zu ${p.rangeKm} km Reichweite; sie hängt von Fahrergewicht, Gelände, Unterstützungsstufe und Temperatur ab.` : ''}${p.category === 'Speed-Pedelec' ? ' Als S-Pedelec bis 45 km/h braucht das Rad ein Versicherungskennzeichen und einen passenden Führerschein.' : ''}` }]
     }
   ];
+  if (position.length) sections.push({ h2: `${p.name} im Vergleich`, blocks: [{ text: position.join(' ') }] });
+  if (brandPeers.length) sections.push({ h2: `Weitere ${p.brand} ${cat}s`, blocks: [{ text: `Ähnlich im Preis und in der Kategorie: ${brandPeers.map((x) => `${x.name} (${eur(x.price)})`).join(', ')}.` }] });
+  sections.push({ h2: 'Lieferung, Garantie und Rückgabe', blocks: [{ text: 'Lieferung per Spedition mit Hebebühne, 2 Jahre Garantie und 30 Tage Rückgaberecht. Einzelheiten stehen in den Bedingungen zu Lieferung, Rückgabe und Garantie.' }] });
 
   const faqs = [
-    { q: `Was kostet das ${p.name}?`, a: `Das ${p.name} kostet ${price} inklusive 19 % Mehrwertsteuer. Der Versand per Spedition ist ab 10.000 € Bestellwert kostenfrei.` },
-    { q: `Welchen Motor und Akku hat das ${p.name}?`, a: `Das ${p.name} wird von ${p.motor} angetrieben${wh ? ` und hat einen ${wh} Akku` : ''}.` },
-    { q: `Wie weit kommt man mit dem ${p.name}?`, a: `${p.rangeKm > 0 ? `Der Hersteller nennt bis zu ${p.rangeKm} km Reichweite. ` : ''}Im Alltag hängt sie von Fahrergewicht, Gelände, Unterstützungsstufe und Temperatur ab.` },
-    { q: `Wie wird das ${p.name} geliefert?`, a: 'Per Spedition mit Hebebühne und nach Terminabsprache. Ab 10.000 € Bestellwert ist die Lieferung kostenfrei.' },
-    { q: `Welche Garantie gibt es auf das ${p.name}?`, a: `Sie erhalten 2 Jahre Garantie und ein Rückgaberecht von 30 Tagen auf das ${p.name}.` }
+    { q: `Was kostet das ${p.name}?`, a: `${price} inklusive 19 % Mehrwertsteuer${p.price < 10000 ? ', dazu kommt die Speditionspauschale bis 10.000 € Bestellwert' : ', der Versand ist kostenfrei'}.` },
+    { q: `Welchen Motor hat das ${p.name}?`, a: `${p.motor}${p.torqueNm > 0 ? ` mit bis zu ${p.torqueNm} Nm Drehmoment` : ''}.` },
+    { q: `Wie groß ist der Akku des ${p.name}?`, a: wh ? `Der Akku hat ${wh} Wh${p.rangeKm > 0 ? `, der Hersteller nennt bis zu ${p.rangeKm} km Reichweite` : ''}.` : 'Die Akkukapazität steht in den technischen Daten oben.' },
+    { q: `In welchen Größen gibt es das ${p.name}?`, a: frameInfo },
+    { q: `Ist das ${p.name} sofort lieferbar?`, a: 'Ja, es ist ab Lager lieferbar. Die Zustellung erfolgt per Spedition nach Terminabsprache.' }
   ];
 
-  const words = sections.reduce((s, sec) => s + wc(sec.h2) + sec.blocks.reduce((b, bl) => b + wc(bl.text) + (bl.h3 ? wc(bl.h3) : 0), 0), 0) + faqs.reduce((s, f) => s + wc(f.q) + wc(f.a), 0);
+  const words = sections.reduce((t, sec) => t + wc(sec.h2) + sec.blocks.reduce((b, bl) => b + wc(bl.text) + (bl.h3 ? wc(bl.h3) : 0), 0), 0) + faqs.reduce((t, f2) => t + wc(f2.q) + wc(f2.a), 0);
   return { focus, sections, faqs, words };
 }
