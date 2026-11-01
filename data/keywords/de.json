@@ -1492,10 +1492,10 @@
      "intent": "T"
     },
     {
-     "keyword": "cube lastenrad",
-     "volume": 2400,
-     "kd": 23,
-     "intent": "C"
+     "keyword": "fahrrad cube damen",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -1506,28 +1506,28 @@
      "intent": "N"
     },
     {
-     "keyword": "cube rennrad",
-     "volume": 12100,
-     "kd": 30,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube fahrradfabrik",
-     "volume": 6600,
-     "kd": 29,
-     "intent": "I"
-    },
-    {
      "keyword": "cube e bike fully",
      "volume": 5400,
      "kd": 27,
      "intent": "I"
     },
     {
-     "keyword": "cube kinderfahrrad",
-     "volume": 4400,
+     "keyword": "cube fahrräder",
+     "volume": 2900,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube mtb",
+     "volume": 2900,
      "kd": 24,
-     "intent": "-"
+     "intent": "N"
+    },
+    {
+     "keyword": "cube trekking e bike",
+     "volume": 1900,
+     "kd": 18,
+     "intent": "N"
     }
    ]
   },
@@ -1607,6 +1607,81 @@
    ]
   },
   {
+   "url": "/marken/ktm/",
+   "type": "brand",
+   "name": "KTM",
+   "primary": {
+    "keyword": "ktm ebike",
+    "volume": 4400,
+    "kd": 27,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "e bikes ktm damen",
+     "volume": 1900,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "ktm e bike herren",
+     "volume": 1600,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "ktm e-bikes für damen",
+     "volume": 1600,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "ktm e bike fully",
+     "volume": 1000,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "ktm fahrrad damen",
+     "volume": 880,
+     "kd": 28,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm e bike",
+     "volume": 18100,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e bike damenrad",
+     "volume": 720,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm trekking e bike",
+     "volume": 590,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e bike gebraucht",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm elektro bike",
+     "volume": 320,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  {
    "url": "/marken/haibike/",
    "type": "brand",
    "name": "Haibike",
@@ -1650,33 +1725,33 @@
    ],
    "faq": [
     {
-     "keyword": "haibike electric bicycles",
-     "volume": 1900,
-     "kd": 27,
-     "intent": "N"
-    },
-    {
-     "keyword": "haibike allmtn",
-     "volume": 1900,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike sduro",
-     "volume": 1900,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
      "keyword": "haibike e-bike",
      "volume": 1000,
      "kd": 26,
      "intent": "N"
     },
     {
-     "keyword": "haibike hardseven",
-     "volume": 590,
-     "kd": 11,
+     "keyword": "haibike e bike damen",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "haibike e bike gebraucht",
+     "volume": 170,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "haibike damen",
+     "volume": 140,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "haibike erfahrungen",
+     "volume": 140,
+     "kd": 19,
      "intent": "I"
     }
    ]
@@ -1686,28 +1761,16 @@
    "type": "brand",
    "name": "Riese & Müller",
    "primary": {
-    "keyword": "riese und müller lastenrad",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "T"
+    "keyword": "e bike riese müller",
+    "volume": 1300,
+    "kd": 22,
+    "intent": "N"
    },
    "secondary": [
-    {
-     "keyword": "fahrräder von riese und müller",
-     "volume": 720,
-     "kd": 28,
-     "intent": "T"
-    },
     {
      "keyword": "riese und müller e bike damen",
      "volume": 590,
      "kd": 27,
-     "intent": "T"
-    },
-    {
-     "keyword": "riese müller multicharger",
-     "volume": 590,
-     "kd": 19,
      "intent": "T"
     },
     {
@@ -1721,15 +1784,21 @@
      "volume": 480,
      "kd": 28,
      "intent": "T"
+    },
+    {
+     "keyword": "riese müller ebike",
+     "volume": 320,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "riese und müller e bike gebraucht",
+     "volume": 260,
+     "kd": 15,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "e bike riese müller",
-     "volume": 1300,
-     "kd": 22,
-     "intent": "N"
-    },
     {
      "keyword": "riese und müller fahrräder",
      "volume": 1000,
@@ -1737,247 +1806,103 @@
      "intent": "N"
     },
     {
-     "keyword": "riese und müller werksverkauf",
-     "volume": 1000,
-     "kd": 25,
+     "keyword": "riese und mueller",
+     "volume": 590,
+     "kd": 29,
      "intent": "N"
     },
     {
-     "keyword": "riese müller lastenrad",
-     "volume": 1000,
-     "kd": 15,
+     "keyword": "riese&müller",
+     "volume": 390,
+     "kd": 23,
      "intent": "N"
     },
     {
-     "keyword": "e bikes von riese und müller",
-     "volume": 880,
+     "keyword": "riese and muller electric bikes",
+     "volume": 210,
      "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "rise müller",
+     "volume": 210,
+     "kd": 25,
      "intent": "N"
     }
    ]
   },
   {
-   "url": "/marken/ktm/",
+   "url": "/marken/cannondale/",
    "type": "brand",
-   "name": "KTM",
+   "name": "Cannondale",
    "primary": {
-    "keyword": "ktm ebike",
-    "volume": 4400,
+    "keyword": "cannondale",
+    "volume": 33100,
     "kd": 27,
     "intent": "N"
    },
    "secondary": [
     {
-     "keyword": "e bikes ktm damen",
-     "volume": 1900,
-     "kd": 18,
+     "keyword": "cannondale mtb",
+     "volume": 480,
+     "kd": 27,
      "intent": "C"
     },
     {
-     "keyword": "ktm e bike herren",
-     "volume": 1600,
-     "kd": 12,
+     "keyword": "gravel bike cannondale",
+     "volume": 480,
+     "kd": 24,
      "intent": "T"
     },
     {
-     "keyword": "ktm e-bikes für damen",
-     "volume": 1600,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm e bike fully",
-     "volume": 1000,
-     "kd": 14,
+     "keyword": "mountain cannondale bikes",
+     "volume": 390,
+     "kd": 26,
      "intent": "T"
     },
     {
-     "keyword": "ktm e bike macina",
-     "volume": 880,
-     "kd": 16,
-     "intent": "C"
+     "keyword": "cannondale trail",
+     "volume": 390,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale hardtail",
+     "volume": 320,
+     "kd": 26,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "ktm e bike",
-     "volume": 18100,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e bike damenrad",
-     "volume": 720,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm trekking e bike",
-     "volume": 590,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm ebike macina",
-     "volume": 480,
-     "kd": 21,
+     "keyword": "cannondale e bike",
+     "volume": 2400,
+     "kd": 25,
      "intent": "N"
     },
     {
-     "keyword": "ktm e bike gebraucht",
-     "volume": 390,
-     "kd": 11,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/kalkhoff/",
-   "type": "brand",
-   "name": "Kalkhoff",
-   "primary": {
-    "keyword": "kalkhoff e bikes",
-    "volume": 590,
-    "kd": 28,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "image kalkhoff",
-     "volume": 480,
-     "kd": 28,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bikes kalkhoff gebraucht",
-     "volume": 480,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "kalkhoff emstek",
-     "volume": 480,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "kalkhoff e bike riemenantrieb",
-     "volume": 390,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "kalkhoff händler in meiner nähe",
-     "volume": 390,
-     "kd": 21,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "kalkhoff endeavour",
-     "volume": 4400,
-     "kd": 23,
-     "intent": "-"
-    },
-    {
-     "keyword": "kalkhoff e bike damen",
-     "volume": 2900,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "kalkhoff fahrrad",
-     "volume": 2900,
-     "kd": 28,
-     "intent": "-"
-    },
-    {
-     "keyword": "kalkhoff electric bicycles",
-     "volume": 1600,
-     "kd": 29,
-     "intent": "I"
-    },
-    {
-     "keyword": "kalkhoff entice",
-     "volume": 1600,
-     "kd": 22,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/fischer/",
-   "type": "brand",
-   "name": "Fischer",
-   "primary": {
-    "keyword": "fischer e bike damen",
-    "volume": 1600,
-    "kd": 25,
-    "intent": "C"
-   },
-   "secondary": [
-    {
-     "keyword": "e bike von fischer",
-     "volume": 1000,
-     "kd": 28,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike fischer herren",
-     "volume": 720,
-     "kd": 28,
-     "intent": "C"
-    },
-    {
-     "keyword": "ebike fischer",
-     "volume": 590,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "akku für fischer fahrrad",
-     "volume": 260,
-     "kd": 24,
-     "intent": "C"
-    },
-    {
-     "keyword": "fischer trekking e bike",
-     "volume": 260,
-     "kd": 22,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "fischer fahrradhelm",
-     "volume": 1000,
-     "kd": 27,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrradhelme von fischer",
-     "volume": 1000,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrrad von fischer",
+     "keyword": "cannondale ebike",
      "volume": 880,
-     "kd": 22,
-     "intent": "I"
+     "kd": 25,
+     "intent": "N"
     },
     {
-     "keyword": "fischer e bike akku",
-     "volume": 590,
-     "kd": 17,
-     "intent": "I"
+     "keyword": "cannondale mountainbike",
+     "volume": 720,
+     "kd": 24,
+     "intent": "N"
     },
     {
-     "keyword": "fahrradträger von fischer",
+     "keyword": "cannondale fully",
      "volume": 480,
-     "kd": 28,
-     "intent": "I"
+     "kd": 20,
+     "intent": "N"
+    },
+    {
+     "keyword": "cannondale mtb bike",
+     "volume": 390,
+     "kd": 26,
+     "intent": "N"
     }
    ]
   },
@@ -1999,37 +1924,31 @@
      "intent": "C"
     },
     {
-     "keyword": "kinderfahrrad von puky",
-     "volume": 720,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "puky mit stützrädern",
-     "volume": 480,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "puky bicycle",
-     "volume": 390,
+     "keyword": "bike puky",
+     "volume": 320,
      "kd": 24,
      "intent": "T"
     },
     {
-     "keyword": "puky youke",
-     "volume": 390,
+     "keyword": "puky ebike",
+     "volume": 210,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "puky mountainbike",
+     "volume": 140,
      "kd": 23,
      "intent": "T"
+    },
+    {
+     "keyword": "fahrrad puky gebraucht",
+     "volume": 110,
+     "kd": 21,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "puky kinderfahrrad",
-     "volume": 2400,
-     "kd": 21,
-     "intent": "N"
-    },
     {
      "keyword": "puky de",
      "volume": 320,
@@ -2037,22 +1956,160 @@
      "intent": "N"
     },
     {
-     "keyword": "puky kinderrad",
-     "volume": 260,
-     "kd": 28,
+     "keyword": "puky räder",
+     "volume": 140,
+     "kd": 23,
+     "intent": "N"
+    }
+   ]
+  },
+  {
+   "url": "/marken/orbea/",
+   "type": "brand",
+   "name": "Orbea",
+   "primary": {
+    "keyword": "orbea bikes",
+    "volume": 12100,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "orbea e bike",
+     "volume": 1900,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "orbea ebike",
+     "volume": 880,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "orbea mtb",
+     "volume": 720,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "orbea mountainbike",
+     "volume": 590,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "orbea electric mountain bikes",
+     "volume": 480,
+     "kd": 15,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "orbea fahrrad",
+     "volume": 1600,
+     "kd": 30,
      "intent": "N"
     },
     {
-     "keyword": "laufrad puky gebraucht",
-     "volume": 260,
+     "keyword": "orbea e bike fully",
+     "volume": 590,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "orbea e mtb",
+     "volume": 590,
      "kd": 22,
+     "intent": "N"
+    },
+    {
+     "keyword": "orbea fully",
+     "volume": 480,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "orbea händler",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/kalkhoff/",
+   "type": "brand",
+   "name": "Kalkhoff",
+   "primary": {
+    "keyword": "kalkhoff e bikes",
+    "volume": 590,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "e bikes kalkhoff gebraucht",
+     "volume": 480,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "gebrauchte e bike kalkhoff",
+     "volume": 320,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "kalkhoff damenrad",
+     "volume": 260,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "kalkhoff händler",
+     "volume": 210,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bike kaufen kalkhoff",
+     "volume": 140,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "kalkhoff e bike damen",
+     "volume": 2900,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "puky fahrad",
-     "volume": 210,
-     "kd": 23,
+     "keyword": "kalkhoff fahrrad",
+     "volume": 2900,
+     "kd": 28,
+     "intent": "-"
+    },
+    {
+     "keyword": "ebike kalkhoff",
+     "volume": 880,
+     "kd": 30,
      "intent": "N"
+    },
+    {
+     "keyword": "kalkhoff e bike herren",
+     "volume": 720,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "kalkhoff damen fahrräder",
+     "volume": 720,
+     "kd": 21,
+     "intent": "I"
     }
    ]
   },
@@ -2086,35 +2143,29 @@
      "intent": "C"
     },
     {
-     "keyword": "gazelle miss grace e bike",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
      "keyword": "gazelle bike",
      "volume": 590,
      "kd": 27,
      "intent": "T"
+    },
+    {
+     "keyword": "gazelle damenrad",
+     "volume": 590,
+     "kd": 21,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "damenfahrrad gazelle",
-     "volume": 1000,
-     "kd": 24,
-     "intent": "I"
-    },
-    {
-     "keyword": "gazelle fahrradteile",
-     "volume": 1000,
-     "kd": 20,
-     "intent": "N"
-    },
-    {
      "keyword": "gazelle e bike herren",
      "volume": 480,
      "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "gazelle damen",
+     "volume": 260,
+     "kd": 23,
      "intent": "I"
     },
     {
@@ -2124,9 +2175,15 @@
      "intent": "I"
     },
     {
-     "keyword": "gazelle fahrradkorb vorne",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "gazelle kinder",
+     "volume": 140,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike gazelle herren",
+     "volume": 110,
+     "kd": 17,
      "intent": "I"
     }
    ]
@@ -2149,12 +2206,6 @@
      "intent": "C"
     },
     {
-     "keyword": "e bike diamantrahmen",
-     "volume": 480,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
      "keyword": "diamant fahrrad herren",
      "volume": 390,
      "kd": 11,
@@ -2171,6 +2222,12 @@
      "volume": 170,
      "kd": 20,
      "intent": "C"
+    },
+    {
+     "keyword": "diamant fahrrad händler",
+     "volume": 110,
+     "kd": 10,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2193,91 +2250,16 @@
      "intent": "I"
     },
     {
-     "keyword": "e bike von diamant",
-     "volume": 880,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
      "keyword": "diamant ebike",
      "volume": 880,
      "kd": 20,
      "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/conway/",
-   "type": "brand",
-   "name": "Conway",
-   "primary": {
-    "keyword": "conway e bike",
-    "volume": 3600,
-    "kd": 27,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "conway bicycle",
-     "volume": 2900,
-     "kd": 26,
-     "intent": "T"
     },
     {
-     "keyword": "conway e bike fully",
-     "volume": 720,
-     "kd": 17,
-     "intent": "T"
-    },
-    {
-     "keyword": "conway mountainbike",
-     "volume": 390,
-     "kd": 17,
-     "intent": "T"
-    },
-    {
-     "keyword": "conway mtb",
-     "volume": 170,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "conway e mountainbike",
-     "volume": 140,
-     "kd": 15,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "conway",
-     "volume": 6600,
-     "kd": 23,
-     "intent": "N"
-    },
-    {
-     "keyword": "conway bikes",
-     "volume": 2900,
-     "kd": 20,
-     "intent": "N"
-    },
-    {
-     "keyword": "conway fahrrad",
-     "volume": 2400,
-     "kd": 23,
-     "intent": "N"
-    },
-    {
-     "keyword": "fahrräder von conway",
-     "volume": 1900,
-     "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "conway ebike",
-     "volume": 1300,
-     "kd": 23,
-     "intent": "N"
+     "keyword": "diamant e bike damen",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I"
     }
    ]
   },
@@ -2317,30 +2299,18 @@
      "intent": "T"
     },
     {
-     "keyword": "fahrräder von specialized",
-     "volume": 880,
-     "kd": 25,
-     "intent": "T"
+     "keyword": "specialized e mtb",
+     "volume": 720,
+     "kd": 18,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "specialized fahrradladen",
-     "volume": 1300,
-     "kd": 30,
-     "intent": "N"
-    },
     {
      "keyword": "specialized bikes e bike",
      "volume": 1300,
      "kd": 18,
      "intent": "I"
-    },
-    {
-     "keyword": "fahrradhändler specialized",
-     "volume": 480,
-     "kd": 28,
-     "intent": "N"
     },
     {
      "keyword": "specialized e bike damen",
@@ -2349,136 +2319,97 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized emtb",
-     "volume": 260,
-     "kd": 21,
+     "keyword": "specialized e mtb fully",
+     "volume": 170,
+     "kd": 16,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrräder specialized",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike specialized mountain bike",
+     "volume": 140,
+     "kd": 16,
      "intent": "N"
     }
    ]
   },
   {
-   "url": "/marken/zuendapp/",
+   "url": "/marken/conway/",
    "type": "brand",
-   "name": "Zündapp",
+   "name": "Conway",
    "primary": {
-    "keyword": "zuendapp e bike",
-    "volume": 880,
-    "kd": 10,
+    "keyword": "conway e bike",
+    "volume": 3600,
+    "kd": 27,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "zündapp fahrrad werkstatt in der nähe",
-     "volume": 140,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "zündapp e bike",
-     "volume": 6600,
-     "kd": 22,
-     "intent": "I"
+     "keyword": "conway e bike fully",
+     "volume": 720,
+     "kd": 17,
+     "intent": "T"
     },
     {
-     "keyword": "e-bikes von zündapp",
-     "volume": 2900,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "zündapp ebike",
-     "volume": 590,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "zündapp e bike damen",
+     "keyword": "conway mountainbike",
      "volume": 390,
      "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "klapprad zündapp",
-     "volume": 320,
-     "kd": 25,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/focus/",
-   "type": "brand",
-   "name": "Focus",
-   "primary": {
-    "keyword": "focus fahrrad",
-    "volume": 2900,
-    "kd": 19,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "focus räder",
-     "volume": 260,
-     "kd": 27,
      "intent": "T"
     },
     {
-     "keyword": "focus e bike damen",
-     "volume": 260,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "focus trekkingrad",
+     "keyword": "conway mtb",
      "volume": 170,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "focus e mtb fully",
-     "volume": 110,
      "kd": 16,
      "intent": "T"
     },
     {
-     "keyword": "focus light e mtb",
-     "volume": 110,
-     "kd": 17,
+     "keyword": "conway e mountainbike",
+     "volume": 140,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "mountain bike conway",
+     "volume": 140,
+     "kd": 27,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "focus e bike",
-     "volume": 3600,
-     "kd": 28,
+     "keyword": "conway",
+     "volume": 6600,
+     "kd": 23,
      "intent": "N"
     },
     {
-     "keyword": "focus rennrad",
-     "volume": 1900,
-     "kd": 12,
+     "keyword": "conway bikes",
+     "volume": 2900,
+     "kd": 20,
      "intent": "N"
     },
     {
-     "keyword": "focus ebike",
-     "volume": 1600,
-     "kd": 24,
+     "keyword": "conway fahrrad",
+     "volume": 2400,
+     "kd": 23,
      "intent": "N"
     },
     {
-     "keyword": "focus e bike fully",
+     "keyword": "conway ebike",
      "volume": 1300,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "conway fahrräder",
+     "volume": 880,
      "kd": 19,
      "intent": "N"
-    },
-    {
-     "keyword": "focus fahrradmarke",
-     "volume": 1000,
-     "kd": 22,
-     "intent": "I"
     }
    ]
   },
@@ -2506,22 +2437,16 @@
      "intent": "C"
     },
     {
-     "keyword": "flyer e-bike auslaufmodelle",
-     "volume": 320,
-     "kd": 11,
-     "intent": "C"
+     "keyword": "flyer pedelec",
+     "volume": 170,
+     "kd": 17,
+     "intent": "T"
     },
     {
      "keyword": "flyer e bike herren",
      "volume": 140,
      "kd": 16,
      "intent": "T"
-    },
-    {
-     "keyword": "akku für flyer fahrrad",
-     "volume": 110,
-     "kd": 9,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -2550,83 +2475,265 @@
      "intent": "I"
     },
     {
-     "keyword": "fahrräder von flyer",
-     "volume": 590,
-     "kd": 18,
-     "intent": "N"
+     "keyword": "gebrauchte e bike flyer",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
     }
    ]
   },
   {
-   "url": "/marken/bulls/",
+   "url": "/marken/fischer/",
    "type": "brand",
-   "name": "Bulls",
+   "name": "Fischer",
    "primary": {
-    "keyword": "bulls e bike",
-    "volume": 5400,
-    "kd": 24,
+    "keyword": "fischer e bike damen",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "e bike fischer herren",
+     "volume": 720,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike fischer",
+     "volume": 590,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "fischer trekking e bike",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "fischer e bikes",
+     "volume": 210,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "fischer e mtb",
+     "volume": 210,
+     "kd": 27,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fischer e bike mountainbike",
+     "volume": 170,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "fischer e bike erfahrungen",
+     "volume": 170,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "erfahrungen mit fischer e bike",
+     "volume": 170,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "fischer klapprad",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "fischer e bike test",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/focus/",
+   "type": "brand",
+   "name": "Focus",
+   "primary": {
+    "keyword": "focus fahrrad",
+    "volume": 2900,
+    "kd": 19,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "bulls ebike",
-     "volume": 1300,
+     "keyword": "focus räder",
+     "volume": 260,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "focus e bike damen",
+     "volume": 260,
      "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "bulls fahrradhersteller",
-     "volume": 1300,
-     "kd": 26,
+     "keyword": "focus e mtb fully",
+     "volume": 110,
+     "kd": 16,
      "intent": "T"
     },
     {
-     "keyword": "bulls e bike fully",
-     "volume": 880,
-     "kd": 19,
+     "keyword": "focus light e mtb",
+     "volume": 110,
+     "kd": 17,
      "intent": "T"
     },
     {
-     "keyword": "bulls rennrad",
-     "volume": 720,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "rennräder von bulls",
-     "volume": 720,
-     "kd": 19,
+     "keyword": "focus ebike fully",
+     "volume": 90,
+     "kd": 11,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "fahrräder von bulls",
-     "volume": 2400,
-     "kd": 26,
-     "intent": "N"
-    },
-    {
-     "keyword": "fahrrad bulls",
-     "volume": 880,
-     "kd": 22,
-     "intent": "N"
-    },
-    {
-     "keyword": "fahrradmarke bulls",
-     "volume": 590,
+     "keyword": "focus e bike",
+     "volume": 3600,
      "kd": 28,
      "intent": "N"
     },
     {
-     "keyword": "bulls fahrräder",
-     "volume": 480,
+     "keyword": "focus ebike",
+     "volume": 1600,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "focus e bike fully",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "focus fahrräder",
+     "volume": 590,
      "kd": 27,
      "intent": "N"
     },
     {
-     "keyword": "bulls e bike herren",
+     "keyword": "focus fahrrad mtb",
+     "volume": 390,
+     "kd": 21,
+     "intent": "N"
+    }
+   ]
+  },
+  {
+   "url": "/marken/zuendapp/",
+   "type": "brand",
+   "name": "Zündapp",
+   "primary": {
+    "keyword": "zuendapp e bike",
+    "volume": 880,
+    "kd": 10,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "zündapp e bike",
+     "volume": 6600,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "zündapp ebike",
+     "volume": 590,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "zündapp e bike damen",
+     "volume": 390,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "klapprad zündapp",
+     "volume": 320,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "zündapp mountainbike",
      "volume": 260,
+     "kd": 24,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/tenways/",
+   "type": "brand",
+   "name": "Tenways",
+   "primary": {
+    "keyword": "tenways e bike",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "tenways ebike",
+     "volume": 1300,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "tenways fahrrad",
+     "volume": 1000,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "tenways electric bike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "tenways bike",
+     "volume": 320,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "tenways e bike damen",
+     "volume": 210,
+     "kd": 29,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "tenways",
+     "volume": 12100,
+     "kd": 30,
+     "intent": "N"
+    },
+    {
+     "keyword": "tenways erfahrungen",
+     "volume": 320,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "tenways e-bike erfahrungen",
+     "volume": 140,
      "kd": 17,
      "intent": "I"
     }
@@ -2644,18 +2751,6 @@
    },
    "secondary": [
     {
-     "keyword": "fahrräder von winora",
-     "volume": 590,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "winora de gewinnspiel",
-     "volume": 480,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
      "keyword": "winora electric bike",
      "volume": 480,
      "kd": 23,
@@ -2668,9 +2763,21 @@
      "intent": "T"
     },
     {
-     "keyword": "winora fahrradmarke",
-     "volume": 480,
-     "kd": 25,
+     "keyword": "winora fahrrad damen",
+     "volume": 260,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "winora e bike herren",
+     "volume": 110,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "winora händler",
+     "volume": 110,
+     "kd": 16,
      "intent": "T"
     }
    ],
@@ -2708,456 +2815,6 @@
    ]
   },
   {
-   "url": "/marken/trek/",
-   "type": "brand",
-   "name": "Trek",
-   "primary": {
-    "keyword": "trek ebike",
-    "volume": 1900,
-    "kd": 24,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "trek e bike damen",
-     "volume": 1000,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
-     "keyword": "trek bikes e bike",
-     "volume": 590,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike trek",
-     "volume": 480,
-     "kd": 22,
-     "intent": "C"
-    },
-    {
-     "keyword": "trek fahhrad",
-     "volume": 320,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "trek aero rennrad",
-     "volume": 210,
-     "kd": 18,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "trek fahrrad",
-     "volume": 2900,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "rennrad trek",
-     "volume": 2400,
-     "kd": 30,
-     "intent": "I"
-    },
-    {
-     "keyword": "fully e bike trek",
-     "volume": 1000,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrräder von trek",
-     "volume": 880,
-     "kd": 30,
-     "intent": "N"
-    },
-    {
-     "keyword": "trek rennrad carbon",
-     "volume": 590,
-     "kd": 22,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/tenways/",
-   "type": "brand",
-   "name": "Tenways",
-   "primary": {
-    "keyword": "tenways e bike",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "N"
-   },
-   "secondary": [
-    {
-     "keyword": "tenways ebike",
-     "volume": 1300,
-     "kd": 26,
-     "intent": "C"
-    },
-    {
-     "keyword": "tenways fahrrad",
-     "volume": 1000,
-     "kd": 28,
-     "intent": "C"
-    },
-    {
-     "keyword": "tenways electric bike",
-     "volume": 880,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "tenways ago air",
-     "volume": 320,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "tenways bike",
-     "volume": 320,
-     "kd": 26,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "tenways",
-     "volume": 12100,
-     "kd": 30,
-     "intent": "N"
-    },
-    {
-     "keyword": "tenways ago t",
-     "volume": 590,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "tenways longtail duo",
-     "volume": 390,
-     "kd": 23,
-     "intent": "I"
-    },
-    {
-     "keyword": "tenways erfahrungen",
-     "volume": 320,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "tenways cargo one",
-     "volume": 210,
-     "kd": 18,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/victoria/",
-   "type": "brand",
-   "name": "Victoria",
-   "primary": {
-    "keyword": "victoria fahrrad",
-    "volume": 1900,
-    "kd": 16,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "victoria e bike",
-     "volume": 2900,
-     "kd": 16,
-     "intent": "C"
-    },
-    {
-     "keyword": "victoria e bike damen",
-     "volume": 720,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "fahrräder von victoria",
-     "volume": 590,
-     "kd": 11,
-     "intent": "C"
-    },
-    {
-     "keyword": "victoria fahrräder",
-     "volume": 480,
-     "kd": 15,
-     "intent": "T"
-    },
-    {
-     "keyword": "victoria e bike werksverkauf",
-     "volume": 390,
-     "kd": 16,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "e victoria fahrrad",
-     "volume": 1600,
-     "kd": 18,
-     "intent": "N"
-    },
-    {
-     "keyword": "victoria fahrradzubehör",
-     "volume": 1600,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "victoria ebike",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "fahrrad victoria e bike",
-     "volume": 1000,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "victoria fahrräder damen",
-     "volume": 260,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/kettler/",
-   "type": "brand",
-   "name": "Kettler",
-   "primary": {
-    "keyword": "kettler fahrrad",
-    "volume": 3600,
-    "kd": 20,
-    "intent": "N"
-   },
-   "secondary": [
-    {
-     "keyword": "e-bikes von kettler",
-     "volume": 2400,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "damenfahrrad kettler",
-     "volume": 210,
-     "kd": 14,
-     "intent": "C"
-    },
-    {
-     "keyword": "damen fahrrad kettler",
-     "volume": 210,
-     "kd": 20,
-     "intent": "C"
-    },
-    {
-     "keyword": "damenfahrrad von kettler",
-     "volume": 210,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
-     "keyword": "kettler fahrrad alte modelle",
-     "volume": 170,
-     "kd": 15,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "kettler e bike",
-     "volume": 2900,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "kettler ebike",
-     "volume": 1600,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "kettler alu rad",
-     "volume": 880,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "kettler e bike damen",
-     "volume": 590,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "kettler alurad",
-     "volume": 590,
-     "kd": 21,
-     "intent": "N"
-    }
-   ]
-  },
-  {
-   "url": "/marken/bergamont/",
-   "type": "brand",
-   "name": "Bergamont",
-   "primary": {
-    "keyword": "bergamont fahrrad",
-    "volume": 4400,
-    "kd": 25,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "fahrräder von bergamont",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "bergamont fahrräder",
-     "volume": 590,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "bergamonte fahrräder",
-     "volume": 390,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "bergamont fahrrad damen",
-     "volume": 320,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "bergamont trekkingrad",
-     "volume": 210,
-     "kd": 18,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "bergamont e bike",
-     "volume": 2900,
-     "kd": 23,
-     "intent": "N"
-    },
-    {
-     "keyword": "bergamonte fahrrad",
-     "volume": 2900,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "bergamont fahrradmarke",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "bergamont ebike",
-     "volume": 880,
-     "kd": 27,
-     "intent": "N"
-    },
-    {
-     "keyword": "bergamont e bike damen",
-     "volume": 480,
-     "kd": 19,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/cannondale/",
-   "type": "brand",
-   "name": "Cannondale",
-   "primary": {
-    "keyword": "cannondale synapse bike",
-    "volume": 2400,
-    "kd": 25,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "rennräder cannondale",
-     "volume": 880,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "cannondale mtb",
-     "volume": 480,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
-     "keyword": "mountain cannondale bikes",
-     "volume": 390,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "cannondale e mtb",
-     "volume": 260,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "cannondale fully e bike",
-     "volume": 170,
-     "kd": 25,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "cannondale rennrad",
-     "volume": 2900,
-     "kd": 26,
-     "intent": "-"
-    },
-    {
-     "keyword": "cannondale e bike",
-     "volume": 2400,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "cannondale ebike",
-     "volume": 880,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "cannondale mtb bike",
-     "volume": 390,
-     "kd": 26,
-     "intent": "N"
-    },
-    {
-     "keyword": "cannondale e bike damen",
-     "volume": 210,
-     "kd": 25,
-     "intent": "N"
-    }
-   ]
-  },
-  {
    "url": "/marken/scott/",
    "type": "brand",
    "name": "Scott",
@@ -3175,28 +2832,28 @@
      "intent": "T"
     },
     {
-     "keyword": "scott fahrradhelm",
-     "volume": 480,
-     "kd": 18,
-     "intent": "C"
-    },
-    {
      "keyword": "scott trekking e bike",
      "volume": 260,
      "kd": 22,
      "intent": "C"
     },
     {
-     "keyword": "scott trekkingrad",
-     "volume": 210,
-     "kd": 17,
+     "keyword": "e bike scott herren",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bike scott",
+     "volume": 1600,
+     "kd": 30,
      "intent": "C"
     },
     {
-     "keyword": "scott emtb",
-     "volume": 170,
-     "kd": 22,
-     "intent": "T"
+     "keyword": "scott räder",
+     "volume": 140,
+     "kd": 30,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -3233,397 +2890,352 @@
    ]
   },
   {
-   "url": "/marken/prophete/",
+   "url": "/marken/bulls/",
    "type": "brand",
-   "name": "Prophete",
+   "name": "Bulls",
    "primary": {
-    "keyword": "prophete fahrradmarke",
-    "volume": 2900,
-    "kd": 27,
+    "keyword": "bulls e bike",
+    "volume": 5400,
+    "kd": 24,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "prophete e-bike",
+     "keyword": "bulls ebike",
      "volume": 1300,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "fahrrad von prophete",
-     "volume": 880,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "fahrräder von prophete",
-     "volume": 880,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "prophete bike werksverkauf",
-     "volume": 720,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "prophete e bike damen",
-     "volume": 480,
-     "kd": 28,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "fahrräder prophete",
-     "volume": 590,
-     "kd": 29,
-     "intent": "N"
-    },
-    {
-     "keyword": "prophete klapprad",
-     "volume": 260,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "prophete e bike test",
-     "volume": 210,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "erfahrungen prophete e bike",
-     "volume": 170,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "prophete e-bike display bedienungsanleitung",
-     "volume": 170,
-     "kd": 16,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/raymon/",
-   "type": "brand",
-   "name": "Raymon",
-   "primary": {
-    "keyword": "raymon fahrrad",
-    "volume": 1600,
-    "kd": 21,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "raymon gravel",
-     "volume": 110,
-     "kd": 14,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "raymon e bike",
-     "volume": 2900,
-     "kd": 20,
-     "intent": "N"
-    },
-    {
-     "keyword": "raymon bikes",
-     "volume": 2900,
-     "kd": 28,
-     "intent": "N"
-    },
-    {
-     "keyword": "raymon ebike",
-     "volume": 1300,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "raymons",
-     "volume": 880,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "raymon e bike fully",
-     "volume": 590,
-     "kd": 18,
-     "intent": "N"
-    }
-   ]
-  },
-  {
-   "url": "/marken/giant/",
-   "type": "brand",
-   "name": "Giant",
-   "primary": {
-    "keyword": "giant e-bike",
-    "volume": 480,
-    "kd": 23,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "giant e mtb",
-     "volume": 390,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant liv e bike",
-     "volume": 210,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant e bike ladegerät",
-     "volume": 210,
-     "kd": 6,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant live e bike",
-     "volume": 170,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant fahrräder damen",
-     "volume": 170,
      "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "bulls e bike fully",
+     "volume": 880,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "bulls e bike damen",
+     "volume": 480,
+     "kd": 18,
      "intent": "C"
+    },
+    {
+     "keyword": "bulls e mtb",
+     "volume": 260,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "bulls e bike mtb",
+     "volume": 210,
+     "kd": 17,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "giant fahrradhändler",
-     "volume": 1000,
-     "kd": 29,
-     "intent": "N"
-    },
-    {
-     "keyword": "giant e bike fully",
+     "keyword": "fahrrad bulls",
      "volume": 880,
      "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrrad giant",
-     "volume": 480,
-     "kd": 28,
      "intent": "N"
     },
     {
-     "keyword": "giant e bike damen",
+     "keyword": "bulls fahrräder",
      "volume": 480,
-     "kd": 28,
-     "intent": "I"
+     "kd": 27,
+     "intent": "N"
     },
     {
-     "keyword": "giant trekking e bike",
+     "keyword": "bulls e bike herren",
      "volume": 260,
-     "kd": 27,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/canyon/",
-   "type": "brand",
-   "name": "Canyon",
-   "primary": {
-    "keyword": "canyon e bikes",
-    "volume": 2400,
-    "kd": 25,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "canyon rennrad herren",
-     "volume": 1600,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
-     "keyword": "canyon e bike fully",
-     "volume": 1300,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon damen rennrad",
-     "volume": 590,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon kinderfahrrad",
-     "volume": 480,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon e bike damen",
-     "volume": 390,
-     "kd": 24,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "canyon jobrad",
-     "volume": 720,
-     "kd": 14,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "canyon e mtb",
-     "volume": 590,
-     "kd": 26,
+     "keyword": "bulls e mtb fully",
+     "volume": 110,
+     "kd": 16,
      "intent": "N"
     },
     {
-     "keyword": "canyon dienstrad",
-     "volume": 320,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "canyon e bike herren",
-     "volume": 170,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "canyon fahrräder händler",
-     "volume": 140,
-     "kd": 26,
+     "keyword": "bulls rad",
+     "volume": 110,
+     "kd": 25,
      "intent": "N"
     }
    ]
   },
   {
-   "url": "/marken/qio/",
+   "url": "/marken/trek/",
    "type": "brand",
-   "name": "QiO",
+   "name": "Trek",
    "primary": {
-    "keyword": "qio e bike",
+    "keyword": "trek ebike",
     "volume": 1900,
     "kd": 24,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "qio bike gebraucht",
-     "volume": 260,
-     "kd": 18,
+     "keyword": "trek e bike damen",
+     "volume": 1000,
+     "kd": 27,
      "intent": "C"
     },
     {
-     "keyword": "qio bike werksverkauf",
+     "keyword": "trek bikes e bike",
+     "volume": 590,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike trek",
+     "volume": 480,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "trek e bikes test",
+     "volume": 90,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "bike mtb trek",
+     "volume": 390,
+     "kd": 29,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "trek fahrrad",
+     "volume": 2900,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "fully e bike trek",
+     "volume": 1000,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mountainbike trek",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek e mtb",
+     "volume": 320,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mtb trek",
+     "volume": 260,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/victoria/",
+   "type": "brand",
+   "name": "Victoria",
+   "primary": {
+    "keyword": "victoria fahrrad",
+    "volume": 1900,
+    "kd": 16,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "victoria e bike",
+     "volume": 2900,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "victoria e bike damen",
+     "volume": 720,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "victoria fahrräder",
+     "volume": 480,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "victoria fahrrad damen",
      "volume": 260,
      "kd": 10,
-     "intent": "C"
+     "intent": "T"
     },
     {
-     "keyword": "qio fahrräder",
-     "volume": 210,
-     "kd": 22,
+     "keyword": "victoria e bike gebraucht",
+     "volume": 170,
+     "kd": 10,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "qio bike",
-     "volume": 3600,
+     "keyword": "e victoria fahrrad",
+     "volume": 1600,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "victoria ebike",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrrad victoria e bike",
+     "volume": 1000,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "victoria fahrräder damen",
+     "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "victoria e bike trekking",
+     "volume": 210,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/bergamont/",
+   "type": "brand",
+   "name": "Bergamont",
+   "primary": {
+    "keyword": "bergamont fahrrad",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bergamont fahrräder",
+     "volume": 590,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "bergamonte fahrräder",
+     "volume": 390,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "bergamont fahrrad damen",
+     "volume": 320,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "bergamont fahrrad e bike",
+     "volume": 140,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "bergamont e bike herren",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bergamont e bike",
+     "volume": 2900,
      "kd": 23,
      "intent": "N"
     },
     {
-     "keyword": "qio",
-     "volume": 1900,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "qio electric bike",
-     "volume": 1600,
-     "kd": 29,
-     "intent": "N"
-    },
-    {
-     "keyword": "qio fahrrad",
-     "volume": 880,
+     "keyword": "bergamonte fahrrad",
+     "volume": 2900,
      "kd": 21,
      "intent": "N"
     },
     {
-     "keyword": "qio zubehör",
-     "volume": 590,
+     "keyword": "bergamont ebike",
+     "volume": 880,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "bergamont e bike damen",
+     "volume": 480,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bergamonte bike",
+     "volume": 140,
      "kd": 17,
      "intent": "N"
     }
    ]
   },
   {
-   "url": "/marken/husqvarna/",
+   "url": "/marken/kettler/",
    "type": "brand",
-   "name": "Husqvarna",
+   "name": "Kettler",
    "primary": {
-    "keyword": "husqvarna ebike",
-    "volume": 1000,
+    "keyword": "kettler fahrrad",
+    "volume": 3600,
     "kd": 20,
-    "intent": "T"
+    "intent": "N"
    },
    "secondary": [
     {
-     "keyword": "husqvarna fahrrad",
-     "volume": 880,
-     "kd": 16,
-     "intent": "T"
+     "keyword": "damen fahrrad kettler",
+     "volume": 210,
+     "kd": 20,
+     "intent": "C"
     },
     {
-     "keyword": "husqvarna motor",
-     "volume": 110,
-     "kd": 14,
-     "intent": "T"
+     "keyword": "kettler damenrad",
+     "volume": 140,
+     "kd": 13,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "husqvarna e bike",
+     "keyword": "kettler e bike",
      "volume": 2900,
-     "kd": 22,
+     "kd": 21,
      "intent": "I"
     },
     {
-     "keyword": "husqvarna electric bicycle",
-     "volume": 2900,
-     "kd": 12,
+     "keyword": "kettler ebike",
+     "volume": 1600,
+     "kd": 21,
      "intent": "I"
     },
     {
-     "keyword": "husqvarna elektro bike",
-     "volume": 1900,
-     "kd": 16,
-     "intent": "I"
+     "keyword": "kettler alu rad",
+     "volume": 880,
+     "kd": 25,
+     "intent": "N"
     },
     {
-     "keyword": "husqvarna electric bike",
-     "volume": 720,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "husqvarna e bike fully",
-     "volume": 480,
-     "kd": 11,
+     "keyword": "kettler e bike damen",
+     "volume": 590,
+     "kd": 19,
      "intent": "I"
     }
    ]
@@ -3704,177 +3316,222 @@
    ]
   },
   {
-   "url": "/marken/ghost/",
+   "url": "/marken/raymon/",
    "type": "brand",
-   "name": "Ghost",
+   "name": "Raymon",
    "primary": {
-    "keyword": "ghost e bike fully",
-    "volume": 880,
-    "kd": 19,
+    "keyword": "raymon fahrrad",
+    "volume": 1600,
+    "kd": 21,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "ghost e bike damen",
-     "volume": 140,
-     "kd": 19,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "ghost e bike",
-     "volume": 2900,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "ghost fahrradmarke",
-     "volume": 1900,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "ghost ebike",
-     "volume": 1300,
-     "kd": 27,
-     "intent": "N"
-    },
-    {
-     "keyword": "ghost fahrräder",
-     "volume": 880,
-     "kd": 30,
-     "intent": "N"
-    },
-    {
-     "keyword": "ghost fahrradhersteller",
-     "volume": 720,
-     "kd": 15,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/hercules/",
-   "type": "brand",
-   "name": "Hercules",
-   "primary": {
-    "keyword": "hercules e bike damen",
-    "volume": 480,
-    "kd": 10,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "hercules damenfahrrad",
-     "volume": 320,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "hercules damenrad",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "hercules e bike herren",
-     "volume": 140,
-     "kd": 25,
+     "keyword": "raymon gravel",
+     "volume": 110,
+     "kd": 14,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "hercules e bike",
+     "keyword": "raymon e bike",
      "volume": 2900,
-     "kd": 16,
-     "intent": "I"
+     "kd": 20,
+     "intent": "N"
     },
     {
-     "keyword": "hercules elektro bike",
-     "volume": 1000,
-     "kd": 23,
-     "intent": "I"
+     "keyword": "raymon",
+     "volume": 2900,
+     "kd": 29,
+     "intent": "N"
     },
     {
-     "keyword": "hercules fahrradhersteller",
-     "volume": 880,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "hercules ebike",
-     "volume": 590,
+     "keyword": "raymon bikes",
+     "volume": 2900,
      "kd": 28,
      "intent": "N"
     },
     {
-     "keyword": "hercules fahrräder",
+     "keyword": "raymon ebike",
+     "volume": 1300,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "raymon e bike fully",
      "volume": 590,
-     "kd": 29,
+     "kd": 18,
      "intent": "N"
     }
    ]
   },
   {
-   "url": "/marken/bmw/",
+   "url": "/marken/qio/",
    "type": "brand",
-   "name": "BMW",
+   "name": "QiO",
    "primary": {
-    "keyword": "bmw fahrrad",
-    "volume": 1600,
-    "kd": 15,
+    "keyword": "qio e bike",
+    "volume": 1900,
+    "kd": 24,
     "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "bicycle of bmw",
-     "volume": 1600,
-     "kd": 20,
-     "intent": "T"
+     "keyword": "qio bike gebraucht",
+     "volume": 260,
+     "kd": 18,
+     "intent": "C"
     },
     {
-     "keyword": "bmw ebike",
-     "volume": 720,
-     "kd": 14,
-     "intent": "T"
-    },
-    {
-     "keyword": "bmw bicycle",
-     "volume": 720,
+     "keyword": "qio fahrräder",
+     "volume": 210,
      "kd": 22,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "qio bike",
+     "volume": 3600,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "qio",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "qio electric bike",
+     "volume": 1600,
+     "kd": 29,
+     "intent": "N"
+    },
+    {
+     "keyword": "qio fahrrad",
+     "volume": 880,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "qio bike erfahrungen",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/giant/",
+   "type": "brand",
+   "name": "Giant",
+   "primary": {
+    "keyword": "giant e-bike",
+    "volume": 480,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "giant e mtb",
+     "volume": 390,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant fahrräder damen",
+     "volume": 170,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "mountain e bike giant",
+     "volume": 110,
+     "kd": 27,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "bmw e bike",
-     "volume": 1000,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrrad von bmw",
+     "keyword": "giant e bike fully",
      "volume": 880,
-     "kd": 12,
+     "kd": 22,
      "intent": "I"
     },
     {
-     "keyword": "bmw e bicycle",
-     "volume": 590,
-     "kd": 15,
+     "keyword": "fahrrad giant",
+     "volume": 480,
+     "kd": 28,
+     "intent": "N"
+    },
+    {
+     "keyword": "giant e bike damen",
+     "volume": 480,
+     "kd": 28,
      "intent": "I"
     },
     {
-     "keyword": "bmw kidsbike",
-     "volume": 590,
-     "kd": 19,
+     "keyword": "giant trekking e bike",
+     "volume": 260,
+     "kd": 27,
      "intent": "I"
     },
     {
-     "keyword": "bmw e cycle",
-     "volume": 590,
+     "keyword": "giant e bike herren",
+     "volume": 260,
+     "kd": 28,
+     "intent": "N"
+    }
+   ]
+  },
+  {
+   "url": "/marken/husqvarna/",
+   "type": "brand",
+   "name": "Husqvarna",
+   "primary": {
+    "keyword": "husqvarna ebike",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "husqvarna fahrrad",
+     "volume": 880,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "husqvarna e bike",
+     "volume": 2900,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "husqvarna elektro bike",
+     "volume": 1900,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "husqvarna electric bike",
+     "volume": 720,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "husqvarna e bike fully",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike husqvarna",
+     "volume": 480,
      "kd": 15,
      "intent": "I"
     }
@@ -3912,12 +3569,6 @@
      "intent": "I"
     },
     {
-     "keyword": "hepha e-bike erfahrung",
-     "volume": 320,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
      "keyword": "hepha fahrrad",
      "volume": 260,
      "kd": 25,
@@ -3928,80 +3579,119 @@
      "volume": 260,
      "kd": 18,
      "intent": "I"
+    },
+    {
+     "keyword": "hepha e bike erfahrungen",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
     }
    ]
   },
   {
-   "url": "/marken/orbea/",
+   "url": "/marken/hercules/",
    "type": "brand",
-   "name": "Orbea",
+   "name": "Hercules",
    "primary": {
-    "keyword": "orbea e bike",
-    "volume": 1900,
-    "kd": 20,
-    "intent": "C"
+    "keyword": "hercules e bike damen",
+    "volume": 480,
+    "kd": 10,
+    "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "orbea ebike",
-     "volume": 880,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "orbea elektrobike",
-     "volume": 260,
-     "kd": 20,
-     "intent": "C"
-    },
-    {
-     "keyword": "orbea light e mtb",
+     "keyword": "hercules damenrad",
      "volume": 210,
-     "kd": 17,
+     "kd": 23,
      "intent": "C"
     },
     {
-     "keyword": "orbea bikes e-bike",
+     "keyword": "hercules e bike herren",
      "volume": 140,
-     "kd": 17,
-     "intent": "C"
-    },
-    {
-     "keyword": "orbea emtb",
-     "volume": 140,
-     "kd": 21,
+     "kd": 25,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "orbea fahrrad",
-     "volume": 1600,
+     "keyword": "hercules e bike",
+     "volume": 2900,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "hercules elektro bike",
+     "volume": 1000,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "hercules ebike",
+     "volume": 590,
+     "kd": 28,
+     "intent": "N"
+    },
+    {
+     "keyword": "hercules fahrräder",
+     "volume": 590,
+     "kd": 29,
+     "intent": "N"
+    },
+    {
+     "keyword": "hercules fahrrad damen",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/ghost/",
+   "type": "brand",
+   "name": "Ghost",
+   "primary": {
+    "keyword": "ghost e bike fully",
+    "volume": 880,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "ghost e bike damen",
+     "volume": 140,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ghost e bike",
+     "volume": 2900,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "ghost ebike",
+     "volume": 1300,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "ghost fahrräder",
+     "volume": 880,
      "kd": 30,
      "intent": "N"
     },
     {
-     "keyword": "orbea e bike fully",
-     "volume": 590,
-     "kd": 18,
+     "keyword": "fahrrad ghost",
+     "volume": 480,
+     "kd": 27,
      "intent": "N"
     },
     {
-     "keyword": "orbea e mtb",
-     "volume": 590,
-     "kd": 22,
-     "intent": "N"
-    },
-    {
-     "keyword": "orbea fahrradhändler",
-     "volume": 590,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "orbea fahrradmarke",
-     "volume": 320,
-     "kd": 24,
+     "keyword": "ghost e mtb",
+     "volume": 260,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -4040,12 +3730,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "isy klappräder",
-     "volume": 70,
-     "kd": 13,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -4062,204 +3746,9 @@
      "intent": "I"
     },
     {
-     "keyword": "isy kompaktrad",
-     "volume": 170,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "isy ebike gebraucht",
      "volume": 70,
      "kd": 10,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/porsche/",
-   "type": "brand",
-   "name": "Porsche eBike",
-   "primary": {
-    "keyword": "fahrrad von porsche",
-    "volume": 720,
-    "kd": 23,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "porsche fahrrad",
-     "volume": 1900,
-     "kd": 30,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "porsche ebike",
-     "volume": 1600,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "porsche e bike",
-     "volume": 1600,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "fazua porsche",
-     "volume": 590,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "porsche fahrräder",
-     "volume": 590,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "porsche ebike performance gmbh",
-     "volume": 390,
-     "kd": 17,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/babboe/",
-   "type": "brand",
-   "name": "Babboe",
-   "primary": {
-    "keyword": "lastenrad babboe",
-    "volume": 880,
-    "kd": 26,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "babboe fahrrad",
-     "volume": 480,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "lastenräder babboe",
-     "volume": 390,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "babboe kindersitz",
-     "volume": 390,
-     "kd": 12,
-     "intent": "T"
-    },
-    {
-     "keyword": "babboe lastenfahrrad",
-     "volume": 260,
-     "kd": 27,
-     "intent": "T"
-    },
-    {
-     "keyword": "babboe lastenrad gebraucht",
-     "volume": 260,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "babboe big",
-     "volume": 390,
-     "kd": 17,
-     "intent": "N"
-    },
-    {
-     "keyword": "babboe bike",
-     "volume": 170,
-     "kd": 15,
-     "intent": "N"
-    },
-    {
-     "keyword": "babboe dog e gebraucht",
-     "volume": 70,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "babboe e bike gebraucht",
-     "volume": 70,
-     "kd": 8,
-     "intent": "I"
-    },
-    {
-     "keyword": "babboe e lastenrad gebraucht",
-     "volume": 70,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/liv/",
-   "type": "brand",
-   "name": "Liv",
-   "primary": {
-    "keyword": "liv e bike",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "liv fahrrad",
-     "volume": 1600,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "liv e-bike damen",
-     "volume": 320,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "liv fahrräder",
-     "volume": 320,
-     "kd": 25,
-     "intent": "C"
-    },
-    {
-     "keyword": "liv rennrad damen",
-     "volume": 320,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "liv fahrradmarke",
-     "volume": 260,
-     "kd": 18,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "liv rennrad",
-     "volume": 1600,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "liv ebike",
-     "volume": 390,
-     "kd": 22,
-     "intent": "N"
-    },
-    {
-     "keyword": "liv fahrrad gravel",
-     "volume": 110,
-     "kd": 20,
      "intent": "I"
     }
    ]
@@ -4322,77 +3811,236 @@
    ]
   },
   {
-   "url": "/marken/rose/",
+   "url": "/marken/canyon/",
    "type": "brand",
-   "name": "Rose",
+   "name": "Canyon",
    "primary": {
-    "keyword": "rose bike shop",
-    "volume": 1300,
-    "kd": 27,
-    "intent": "N"
+    "keyword": "canyon e bikes",
+    "volume": 2400,
+    "kd": 25,
+    "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "rose rennräder damen",
-     "volume": 320,
-     "kd": 15,
+     "keyword": "canyon e bike fully",
+     "volume": 1300,
+     "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "rennrad rose gebraucht",
-     "volume": 140,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "rose bike gebraucht",
-     "volume": 110,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "rose e bike gebraucht",
-     "volume": 70,
-     "kd": 11,
-     "intent": "C"
-    },
-    {
-     "keyword": "rose bike osnabrück",
-     "volume": 70,
+     "keyword": "canyon e bike damen",
+     "volume": 390,
      "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon e bike gebraucht",
+     "volume": 140,
+     "kd": 22,
      "intent": "C"
+    },
+    {
+     "keyword": "canyon damenrad",
+     "volume": 140,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon e bike mtb",
+     "volume": 90,
+     "kd": 23,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "rose fahrradversand",
-     "volume": 3600,
+     "keyword": "canyon e mtb",
+     "volume": 590,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "canyon e bike herren",
+     "volume": 170,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "canyon fahrräder händler",
+     "volume": 140,
+     "kd": 26,
+     "intent": "N"
+    }
+   ]
+  },
+  {
+   "url": "/marken/prophete/",
+   "type": "brand",
+   "name": "Prophete",
+   "primary": {
+    "keyword": "prophete e-bike",
+    "volume": 1300,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "prophete e bike damen",
+     "volume": 480,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "prophete bike",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "fahrrad prophete damen",
+     "volume": 140,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "ebikes prophete",
+     "volume": 110,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "prophete trekking e bike",
+     "volume": 110,
+     "kd": 26,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fahrräder prophete",
+     "volume": 590,
      "kd": 29,
      "intent": "N"
     },
     {
-     "keyword": "rose fahrradtasche",
+     "keyword": "prophete klapprad",
      "volume": 260,
-     "kd": 29,
-     "intent": "N"
+     "kd": 25,
+     "intent": "I"
     },
     {
-     "keyword": "rose e-bike",
+     "keyword": "prophete e bike test",
+     "volume": 210,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "erfahrungen prophete e bike",
      "volume": 170,
      "kd": 14,
      "intent": "I"
     },
     {
-     "keyword": "rose jobrad",
+     "keyword": "e bike prophete herren",
      "volume": 170,
+     "kd": 27,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/porsche/",
+   "type": "brand",
+   "name": "Porsche eBike",
+   "primary": {
+    "keyword": "porsche elektro bike",
+    "volume": 260,
+    "kd": 19,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "porsche fahrrad",
+     "volume": 1900,
+     "kd": 30,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "porsche ebike",
+     "volume": 1600,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "porsche e bike",
+     "volume": 1600,
      "kd": 21,
      "intent": "I"
     },
     {
-     "keyword": "rose bike frankfurt",
+     "keyword": "porsche fahrräder",
+     "volume": 590,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/liv/",
+   "type": "brand",
+   "name": "Liv",
+   "primary": {
+    "keyword": "liv e bike",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "liv fahrrad",
+     "volume": 1600,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "liv e-bike damen",
+     "volume": 320,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "liv fahrräder",
+     "volume": 320,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "liv fahrrad damen",
+     "volume": 260,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "liv rad",
      "volume": 140,
-     "kd": 24,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "liv ebike",
+     "volume": 390,
+     "kd": 22,
      "intent": "N"
+    },
+    {
+     "keyword": "liv fahrrad gravel",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
     }
    ]
   },
@@ -4429,6 +4077,45 @@
    ]
   },
   {
+   "url": "/marken/bmw/",
+   "type": "brand",
+   "name": "BMW",
+   "primary": {
+    "keyword": "bmw fahrrad",
+    "volume": 1600,
+    "kd": 15,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bmw ebike",
+     "volume": 720,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bmw e bike",
+     "volume": 1000,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bmw mountainbike",
+     "volume": 110,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bmw klapprad",
+     "volume": 90,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  {
    "url": "/marken/telefunken/",
    "type": "brand",
    "name": "Telefunken",
@@ -4453,129 +4140,9 @@
      "intent": "I"
     },
     {
-     "keyword": "telefunken e-bike probleme",
-     "volume": 210,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "telefunken e bike akku",
-     "volume": 210,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "telefunken e bike ersatzteile",
-     "volume": 210,
-     "kd": 9,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marken/stromer/",
-   "type": "brand",
-   "name": "Stromer",
-   "primary": {
-    "keyword": "s pedelec stromer",
-    "volume": 260,
-    "kd": 23,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "stromer electric bicycles",
-     "volume": 320,
-     "kd": 26,
-     "intent": "C"
-    },
-    {
-     "keyword": "speed pedelec stromer",
-     "volume": 210,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "stromer gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "stromer landstraße",
-     "volume": 1000,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "stromere",
-     "volume": 320,
-     "kd": 21,
-     "intent": "-"
-    },
-    {
-     "keyword": "stromer bicycles",
-     "volume": 260,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "superstromer",
-     "volume": 210,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "dorfstromer",
-     "volume": 170,
-     "kd": 20,
-     "intent": "N"
-    }
-   ]
-  },
-  {
-   "url": "/marken/radon/",
-   "type": "brand",
-   "name": "Radon",
-   "primary": {
-    "keyword": "radon e bike",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "N"
-   },
-   "secondary": [
-    {
-     "keyword": "radon e bike fully",
-     "volume": 210,
-     "kd": 21,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "radon fahrrad",
-     "volume": 720,
-     "kd": 26,
-     "intent": "N"
-    },
-    {
-     "keyword": "radon fahrräder",
-     "volume": 480,
-     "kd": 26,
-     "intent": "N"
-    },
-    {
-     "keyword": "fahrradmarke radon",
+     "keyword": "telefunken fahrräder",
      "volume": 140,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "radon rennräder",
-     "volume": 90,
-     "kd": 25,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -4625,6 +4192,39 @@
    ]
   },
   {
+   "url": "/marken/radon/",
+   "type": "brand",
+   "name": "Radon",
+   "primary": {
+    "keyword": "radon e bike",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "radon e bike fully",
+     "volume": 210,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "radon fahrrad",
+     "volume": 720,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "radon fahrräder",
+     "volume": 480,
+     "kd": 26,
+     "intent": "N"
+    }
+   ]
+  },
+  {
    "url": "/marken/jeep/",
    "type": "brand",
    "name": "Jeep",
@@ -4649,117 +4249,87 @@
      "intent": "I"
     },
     {
-     "keyword": "jeep e-bike insolvenzverfahren",
-     "volume": 140,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
      "keyword": "jeep fahrräder",
      "volume": 140,
      "kd": 13,
      "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marken/stromer/",
+   "type": "brand",
+   "name": "Stromer",
+   "primary": {
+    "keyword": "speed pedelec stromer",
+    "volume": 210,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "stromer gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "stromere",
+     "volume": 320,
+     "kd": 21,
+     "intent": "-"
     },
     {
-     "keyword": "motorized jeep",
+     "keyword": "stromer ebike",
      "volume": 110,
-     "kd": 22,
+     "kd": 30,
+     "intent": "-"
+    },
+    {
+     "keyword": "stromer e-bike",
+     "volume": 70,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "citystromer",
+     "volume": 70,
+     "kd": 8,
      "intent": "I"
     }
    ]
   },
   {
-   "url": "/marken/urban-arrow/",
+   "url": "/marken/rose/",
    "type": "brand",
-   "name": "Urban Arrow",
+   "name": "Rose",
    "primary": {
-    "keyword": "urban arrow lastenrad",
-    "volume": 1900,
-    "kd": 23,
-    "intent": "T"
+    "keyword": "rose bike shop",
+    "volume": 1300,
+    "kd": 27,
+    "intent": "N"
    },
    "secondary": [
     {
-     "keyword": "lastenfahrrad urban arrow",
-     "volume": 260,
+     "keyword": "rose bike gebraucht",
+     "volume": 110,
      "kd": 19,
-     "intent": "T"
+     "intent": "C"
     },
     {
-     "keyword": "fahrrad urban arrow",
-     "volume": 70,
-     "kd": 20,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "urban arrow lastenrad gebraucht",
-     "volume": 110,
-     "kd": 16,
-     "intent": "N"
-    }
-   ]
-  },
-  {
-   "url": "/marken/stevens/",
-   "type": "brand",
-   "name": "Stevens",
-   "primary": {
-    "keyword": "testbericht stevens e bike",
-    "volume": 110,
-    "kd": 18,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "stevens e bike riemenantrieb",
-     "volume": 110,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "stevens fahrrad gebraucht",
+     "keyword": "rose e bike gebraucht",
      "volume": 70,
      "kd": 11,
      "intent": "C"
-    },
-    {
-     "keyword": "stevens rennrad gebraucht",
-     "volume": 70,
-     "kd": 21,
-     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "stevens fahrräder e bike",
-     "volume": 320,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "stevens e-bike",
+     "keyword": "rose e-bike",
      "volume": 170,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "stevens e bike testsieger",
-     "volume": 140,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "test e bike stevens",
-     "volume": 140,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "stevens e bike testberichte",
-     "volume": 110,
-     "kd": 18,
+     "kd": 14,
      "intent": "I"
     }
    ]
@@ -4785,90 +4355,84 @@
    ]
   },
   {
-   "url": "/marken/woom/",
+   "url": "/marken/babboe/",
    "type": "brand",
-   "name": "Woom",
+   "name": "Babboe",
    "primary": {
-    "keyword": "woom kinderfahrrad gebraucht",
-    "volume": 90,
-    "kd": 16,
-    "intent": "C"
+    "keyword": "babboe fahrrad",
+    "volume": 480,
+    "kd": 18,
+    "intent": "T"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "babboe cargo bike",
+     "volume": 170,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "babboe gebraucht",
+     "volume": 110,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "babboe fahrräder",
+     "volume": 70,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "babboe e bike",
+     "volume": 170,
+     "kd": 30,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
-     "keyword": "woom alternative",
-     "volume": 480,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "whizzy oder woom",
-     "volume": 320,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "woom welche größe",
+     "keyword": "babboe bike",
      "volume": 170,
-     "kd": 24,
-     "intent": "I"
+     "kd": 15,
+     "intent": "N"
     },
     {
-     "keyword": "alternative zu woom",
-     "volume": 170,
-     "kd": 11,
+     "keyword": "babboe e bike gebraucht",
+     "volume": 70,
+     "kd": 8,
      "intent": "I"
     }
    ]
   },
   {
-   "url": "/marken/pegasus/",
+   "url": "/marken/stevens/",
    "type": "brand",
-   "name": "Pegasus",
+   "name": "Stevens",
    "primary": {
-    "keyword": "pegasus e bike damen tiefeinsteiger",
-    "volume": 110,
-    "kd": 10,
+    "keyword": "stevens fahrrad gebraucht",
+    "volume": 70,
+    "kd": 11,
     "intent": "C"
    },
-   "secondary": [
-    {
-     "keyword": "pegasus fahrrad gebraucht",
-     "volume": 70,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
-     "keyword": "pegasus fahrrad ersatzteile shop",
-     "volume": 260,
-     "kd": 13,
+     "keyword": "stevens fahrräder e bike",
+     "volume": 320,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "pegasus klapprad",
-     "volume": 210,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ersatzteile für pegasus fahrrad",
+     "keyword": "stevens e-bike",
      "volume": 170,
-     "kd": 13,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "ersatzteile pegasus fahrrad",
-     "volume": 170,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "pegasus klappräder",
-     "volume": 70,
-     "kd": 10,
+     "keyword": "test e bike stevens",
+     "volume": 140,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -4885,39 +4449,6 @@
    },
    "secondary": [],
    "faq": []
-  },
-  {
-   "url": "/marken/kreidler/",
-   "type": "brand",
-   "name": "Kreidler",
-   "primary": {
-    "keyword": "e-bikes von kreidler",
-    "volume": 720,
-    "kd": 18,
-    "intent": "C"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/merida/",
-   "type": "brand",
-   "name": "Merida",
-   "primary": {
-    "keyword": "merida elektrobike",
-    "volume": 260,
-    "kd": 25,
-    "intent": "C"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "merida e bike fully",
-     "volume": 140,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
   },
   {
    "url": "/marken/mondraker/",
@@ -4953,86 +4484,34 @@
    "faq": []
   },
   {
-   "url": "/marken/mifa/",
+   "url": "/marken/pegasus/",
    "type": "brand",
-   "name": "Mifa",
+   "name": "Pegasus",
    "primary": {
-    "keyword": "ddr mifa klapprad",
-    "volume": 260,
-    "kd": 17,
-    "intent": "I"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/batavus/",
-   "type": "brand",
-   "name": "Batavus",
-   "primary": {
-    "keyword": "batavus finez e-go",
-    "volume": 140,
+    "keyword": "pegasus fahrrad gebraucht",
+    "volume": 70,
     "kd": 10,
     "intent": "C"
    },
    "secondary": [],
    "faq": [
     {
-     "keyword": "batavus lastenrad",
-     "volume": 90,
-     "kd": 13,
+     "keyword": "pegasus klapprad",
+     "volume": 210,
+     "kd": 10,
      "intent": "I"
     }
    ]
   },
   {
-   "url": "/marken/qwic/",
+   "url": "/marken/merida/",
    "type": "brand",
-   "name": "QWIC",
+   "name": "Merida",
    "primary": {
-    "keyword": "qwic akku",
+    "keyword": "merida e bike fully",
     "volume": 140,
-    "kd": 13,
+    "kd": 10,
     "intent": "I"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/engwe/",
-   "type": "brand",
-   "name": "Engwe",
-   "primary": {
-    "keyword": "engwe ersatzteile",
-    "volume": 140,
-    "kd": 15,
-    "intent": "T"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/vanmoof/",
-   "type": "brand",
-   "name": "VanMoof",
-   "primary": {
-    "keyword": "vanmoof jobrad",
-    "volume": 110,
-    "kd": 21,
-    "intent": "T"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/koga/",
-   "type": "brand",
-   "name": "Koga",
-   "primary": {
-    "keyword": "koga rennräder",
-    "volume": 110,
-    "kd": 18,
-    "intent": "T"
    },
    "secondary": [],
    "faq": []
@@ -5051,27 +4530,14 @@
    "faq": []
   },
   {
-   "url": "/marken/blaupunkt/",
+   "url": "/marken/urban-arrow/",
    "type": "brand",
-   "name": "Blaupunkt",
+   "name": "Urban Arrow",
    "primary": {
-    "keyword": "blaupunkt e bike display",
-    "volume": 90,
-    "kd": 7,
-    "intent": "I"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marken/fiido/",
-   "type": "brand",
-   "name": "Fiido",
-   "primary": {
-    "keyword": "fiido jobrad",
-    "volume": 90,
-    "kd": 19,
-    "intent": "I"
+    "keyword": "fahrrad urban arrow",
+    "volume": 70,
+    "kd": 20,
+    "intent": "T"
    },
    "secondary": [],
    "faq": []

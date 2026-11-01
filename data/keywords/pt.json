@@ -30,6 +30,19 @@
    ]
   },
   {
+   "url": "/bicicletas-eletricas/bicicleta-eletrica-dobravel/",
+   "type": "category",
+   "name": "Bicicletas elétricas dobráveis",
+   "primary": {
+    "keyword": "bicicleta dobravel eletrica",
+    "volume": 1300,
+    "kd": 14,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
    "url": "/promocoes/",
    "type": "category",
    "name": "Promoções & saldos",
@@ -117,6 +130,12 @@
      "volume": 20,
      "kd": 10,
      "intent": "I"
+    },
+    {
+     "keyword": "kit de motor elétrico para bicicleta",
+     "volume": 10,
+     "kd": 14,
+     "intent": "I"
     }
    ]
   },
@@ -169,12 +188,6 @@
      "volume": 480,
      "kd": 18,
      "intent": "I"
-    },
-    {
-     "keyword": "bicicleta elétrica ktm usada",
-     "volume": 10,
-     "kd": 14,
-     "intent": "I"
     }
    ]
   },
@@ -183,18 +196,12 @@
    "type": "brand",
    "name": "Specialized",
    "primary": {
-    "keyword": "bicicleta estrada specialized",
-    "volume": 210,
-    "kd": 23,
+    "keyword": "ebikes specialized",
+    "volume": 110,
+    "kd": 28,
     "intent": "T"
    },
    "secondary": [
-    {
-     "keyword": "ebikes specialized",
-     "volume": 110,
-     "kd": 28,
-     "intent": "T"
-    },
     {
      "keyword": "specialised e bike",
      "volume": 110,
@@ -205,12 +212,6 @@
      "keyword": "specialized e bike",
      "volume": 110,
      "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "capacete bicicleta specialized",
-     "volume": 20,
-     "kd": 16,
      "intent": "T"
     }
    ],
@@ -234,14 +235,7 @@
      "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "capacete bicicleta trek",
-     "volume": 20,
-     "kd": 17,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   {
    "url": "/marcas/scott/",

@@ -54,7 +54,19 @@
    },
    "secondary": [
     {
+     "keyword": "usato biciclette elettriche",
+     "volume": 4400,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
      "keyword": "biciclette elettrica usata",
+     "volume": 1900,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "usato bicicletta elettrica",
      "volume": 1900,
      "kd": 22,
      "intent": "C"
@@ -70,18 +82,6 @@
      "volume": 590,
      "kd": 16,
      "intent": "C"
-    },
-    {
-     "keyword": "bici elettrica usate vendita",
-     "volume": 390,
-     "kd": 8,
-     "intent": "C"
-    },
-    {
-     "keyword": "bicicletta elettrica usate",
-     "volume": 390,
-     "kd": 15,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -98,6 +98,12 @@
      "intent": "I"
     },
     {
+     "keyword": "usato bici elettriche",
+     "volume": 4400,
+     "kd": 25,
+     "intent": "-"
+    },
+    {
      "keyword": "bici elettriche usate",
      "volume": 3600,
      "kd": 24,
@@ -108,11 +114,80 @@
      "volume": 2900,
      "kd": 21,
      "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/biciclette-elettriche/mountain-bike-elettrica/",
+   "type": "category",
+   "name": "Mountain bike elettriche",
+   "primary": {
+    "keyword": "e mtb electric bike",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "mtb elettrica",
+     "volume": 3600,
+     "kd": 25,
+     "intent": "C"
     },
     {
-     "keyword": "biciclette elettriche usate",
-     "volume": 2400,
+     "keyword": "electric mountain bike",
+     "volume": 1600,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike mtb",
+     "volume": 1300,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "mountain bike elettrica usata",
+     "volume": 880,
+     "kd": 8,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici elettrica mountain bike",
+     "volume": 880,
+     "kd": 20,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "mountain bike elettrica",
+     "volume": 5400,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mtb",
+     "volume": 1900,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb elettrica usata",
+     "volume": 1300,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "electric mtb",
+     "volume": 1300,
      "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicletta elettrica mountain bike",
+     "volume": 720,
+     "kd": 15,
      "intent": "I"
     }
    ]
@@ -193,81 +268,6 @@
    ]
   },
   {
-   "url": "/biciclette-elettriche/mountain-bike-elettrica/",
-   "type": "category",
-   "name": "Mountain bike elettriche",
-   "primary": {
-    "keyword": "e bikes mountain",
-    "volume": 210,
-    "kd": 9,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "mtb elettrica",
-     "volume": 3600,
-     "kd": 25,
-     "intent": "C"
-    },
-    {
-     "keyword": "ebike mtb",
-     "volume": 1300,
-     "kd": 18,
-     "intent": "C"
-    },
-    {
-     "keyword": "mountain bike elettrica usata",
-     "volume": 880,
-     "kd": 8,
-     "intent": "C"
-    },
-    {
-     "keyword": "bici elettrica mountain bike",
-     "volume": 880,
-     "kd": 20,
-     "intent": "C"
-    },
-    {
-     "keyword": "bici elettrica mtb",
-     "volume": 720,
-     "kd": 17,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "mountain bike elettrica",
-     "volume": 5400,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "e bike mtb",
-     "volume": 1900,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "mtb elettrica usata",
-     "volume": 1300,
-     "kd": 9,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta elettrica mountain bike",
-     "volume": 720,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "biciclette elettriche mountain bike",
-     "volume": 720,
-     "kd": 17,
-     "intent": "I"
-    }
-   ]
-  },
-  {
    "url": "/biciclette-elettriche/",
    "type": "category",
    "name": "Biciclette elettriche (categoria principale)",
@@ -280,6 +280,24 @@
    "secondary": [],
    "faq": [
     {
+     "keyword": "electric bike",
+     "volume": 4400,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike electric bike",
+     "volume": 2900,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "electric bike electric bike",
+     "volume": 1000,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
      "keyword": "ebike elettrica",
      "volume": 880,
      "kd": 25,
@@ -290,24 +308,6 @@
      "volume": 720,
      "kd": 25,
      "intent": "I"
-    },
-    {
-     "keyword": "kit e bike",
-     "volume": 260,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici elettrica ebike",
-     "volume": 210,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "kit bicicletta elettrica",
-     "volume": 170,
-     "kd": 10,
-     "intent": "I"
     }
    ]
   },
@@ -316,10 +316,10 @@
    "type": "category",
    "name": "Bici elettriche da donna",
    "primary": {
-    "keyword": "bici elettriche da donna",
-    "volume": 1000,
-    "kd": 11,
-    "intent": "T"
+    "keyword": "biciclette donna elettriche",
+    "volume": 1300,
+    "kd": 15,
+    "intent": "C"
    },
    "secondary": [
     {
@@ -337,27 +337,27 @@
      "intent": "I"
     },
     {
+     "keyword": "bici da donna elettriche",
+     "volume": 1900,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
      "keyword": "bici elettrica da donna",
      "volume": 1900,
      "kd": 12,
      "intent": "I"
     },
     {
+     "keyword": "bici donna elettriche",
+     "volume": 1300,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
      "keyword": "bicicletta elettrica donna",
      "volume": 1300,
      "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici elettriche donna",
-     "volume": 1000,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta elettrica da donna",
-     "volume": 880,
-     "kd": 13,
      "intent": "I"
     }
    ]
@@ -386,6 +386,12 @@
      "intent": "C"
     },
     {
+     "keyword": "electric bike pieghevole",
+     "volume": 590,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
      "keyword": "e bike pieghevole",
      "volume": 480,
      "kd": 14,
@@ -395,12 +401,6 @@
      "keyword": "ebike pieghevole",
      "volume": 480,
      "kd": 15,
-     "intent": "C"
-    },
-    {
-     "keyword": "pieghevole bici elettriche",
-     "volume": 170,
-     "kd": 14,
      "intent": "C"
     }
    ],
@@ -457,6 +457,12 @@
      "intent": "I"
     },
     {
+     "keyword": "biciclette uomo elettriche",
+     "volume": 1000,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
      "keyword": "bicicletta elettrica per uomo",
      "volume": 880,
      "kd": 18,
@@ -472,12 +478,6 @@
      "keyword": "biciclette elettriche da uomo",
      "volume": 720,
      "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "biciclette elettriche uomo",
-     "volume": 720,
-     "kd": 19,
      "intent": "I"
     }
    ]
@@ -527,6 +527,176 @@
    "faq": []
   },
   {
+   "url": "/biciclette-elettriche/bici-elettrica-city/",
+   "type": "category",
+   "name": "City bike & bici elettriche urbane",
+   "primary": {
+    "keyword": "city bike elettrica",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "city ebike",
+     "volume": 320,
+     "kd": 9,
+     "intent": "C"
+    },
+    {
+     "keyword": "city bike elettrica usata",
+     "volume": 210,
+     "kd": 9,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici elettrica city bike",
+     "volume": 170,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "migliore city bike elettrica",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "migliori city bike elettriche",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "city bike elettriche",
+     "volume": 1000,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "city bike elettrica donna",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "city bike elettrica uomo",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "city bike elettriche donna",
+     "volume": 320,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "city e bike",
+     "volume": 260,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/biciclette-elettriche/motore-batteria/",
+   "type": "category",
+   "name": "Motore & batteria",
+   "primary": {
+    "keyword": "bicicletta con motore elettrico",
+    "volume": 1000,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicletta elettrica motore",
+     "volume": 320,
+     "kd": 12,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici motore elettrico",
+     "volume": 1600,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici con motore elettrico",
+     "volume": 1000,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "motore elettrico per biciclette",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit motore elettrico bicicletta",
+     "volume": 390,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit motore elettrico per bicicletta",
+     "volume": 320,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/biciclette-elettriche/bici-elettrica-gravel-corsa/",
+   "type": "category",
+   "name": "Gravel & bici elettriche da corsa",
+   "primary": {
+    "keyword": "bicicletta da corsa elettrica usata",
+    "volume": 110,
+    "kd": 8,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bici da corsa elettrica",
+     "volume": 1000,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "biciclette da corsa elettriche",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici da corsa elettriche",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici corsa elettrica",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicletta elettrica corsa",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
+  },
+  {
    "url": "/biciclette-elettriche/bici-elettrica-trekking/",
    "type": "category",
    "name": "Bici elettriche trekking & touring",
@@ -558,9 +728,15 @@
      "intent": "I"
     },
     {
-     "keyword": "bici elettrica da trekking",
+     "keyword": "bici da trekking elettrica",
      "volume": 260,
-     "kd": 11,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici da trekking elettriche",
+     "volume": 260,
+     "kd": 10,
      "intent": "I"
     },
     {
@@ -568,11 +744,49 @@
      "volume": 260,
      "kd": 11,
      "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/biciclette-elettriche/cargo-bike-elettrica/",
+   "type": "category",
+   "name": "Cargo bike elettriche",
+   "primary": {
+    "keyword": "cargo bike elettrica",
+    "volume": 880,
+    "kd": 14,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bici cargo elettrica",
+     "volume": 720,
+     "kd": 11,
+     "intent": "I"
     },
     {
-     "keyword": "e bike trekking uomo",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "bicicletta cargo elettrica",
+     "volume": 390,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargo e bike",
+     "volume": 390,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargo ebike",
+     "volume": 390,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "electric cargo bike",
+     "volume": 390,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -596,32 +810,6 @@
     }
    ],
    "faq": []
-  },
-  {
-   "url": "/biciclette-elettriche/motore-batteria/",
-   "type": "category",
-   "name": "Motore & batteria",
-   "primary": {
-    "keyword": "bicicletta elettrica motore",
-    "volume": 320,
-    "kd": 12,
-    "intent": "T"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "motore per bicicletta elettrica",
-     "volume": 320,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "motore per biciclette elettriche",
-     "volume": 210,
-     "kd": 13,
-     "intent": "I"
-    }
-   ]
   },
   {
    "url": "/marchi/scott/",
@@ -667,12 +855,6 @@
    ],
    "faq": [
     {
-     "keyword": "mtb scott s",
-     "volume": 720,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
      "keyword": "mountain e bike scott",
      "volume": 320,
      "kd": 23,
@@ -695,80 +877,11 @@
      "volume": 210,
      "kd": 28,
      "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marchi/atala/",
-   "type": "brand",
-   "name": "Atala",
-   "primary": {
-    "keyword": "bici atala",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "N"
-   },
-   "secondary": [
-    {
-     "keyword": "atala ebike",
-     "volume": 1000,
-     "kd": 19,
-     "intent": "T"
     },
     {
-     "keyword": "atala e bike",
-     "volume": 880,
-     "kd": 9,
-     "intent": "T"
-    },
-    {
-     "keyword": "bicicletta atala",
-     "volume": 590,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "biciclette atala elettriche",
-     "volume": 320,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "bici elettriche atala",
-     "volume": 320,
-     "kd": 21,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "atala elettrica bici",
-     "volume": 1600,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici atala elettrica usata",
-     "volume": 390,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta atala elettrica",
-     "volume": 320,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta elettrica atala usata",
-     "volume": 320,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta atala donna",
-     "volume": 320,
-     "kd": 15,
+     "keyword": "bicicleta mountain bike scott",
+     "volume": 110,
+     "kd": 24,
      "intent": "I"
     }
    ]
@@ -797,12 +910,6 @@
      "intent": "T"
     },
     {
-     "keyword": "stereo cube bike",
-     "volume": 320,
-     "kd": 17,
-     "intent": "C"
-    },
-    {
      "keyword": "e bike cube usata",
      "volume": 260,
      "kd": 7,
@@ -812,6 +919,12 @@
      "keyword": "bici cube elettriche",
      "volume": 260,
      "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicletas cube mtb",
+     "volume": 260,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -844,6 +957,75 @@
      "keyword": "e bike cube offerta",
      "volume": 260,
      "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/marchi/atala/",
+   "type": "brand",
+   "name": "Atala",
+   "primary": {
+    "keyword": "bici atala",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "atala ebike",
+     "volume": 1000,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "atala e bike",
+     "volume": 880,
+     "kd": 9,
+     "intent": "T"
+    },
+    {
+     "keyword": "biciclette atala elettriche",
+     "volume": 320,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici elettriche atala",
+     "volume": 320,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "mountain bike atala",
+     "volume": 320,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "atala elettrica bici",
+     "volume": 1600,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici atala elettrica usata",
+     "volume": 390,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici elettrica atala donna",
+     "volume": 260,
+     "kd": 4,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici elettriche atala offerte",
+     "volume": 140,
+     "kd": 9,
      "intent": "I"
     }
    ]
@@ -908,12 +1090,6 @@
      "volume": 170,
      "kd": 8,
      "intent": "I"
-    },
-    {
-     "keyword": "casco bici specialized",
-     "volume": 140,
-     "kd": 10,
-     "intent": "N"
     }
    ]
   },
@@ -922,28 +1098,16 @@
    "type": "brand",
    "name": "KTM",
    "primary": {
-    "keyword": "ktm bicicletta elettrica",
-    "volume": 390,
-    "kd": 10,
+    "keyword": "ktm biciclette elettriche",
+    "volume": 260,
+    "kd": 14,
     "intent": "C"
    },
    "secondary": [
     {
-     "keyword": "ktm biciclette elettriche",
-     "volume": 260,
-     "kd": 14,
-     "intent": "C"
-    },
-    {
      "keyword": "bici elettrica ktm prezzo",
      "volume": 110,
      "kd": 9,
-     "intent": "T"
-    },
-    {
-     "keyword": "bici elettrica ktm bambino",
-     "volume": 70,
-     "kd": 19,
      "intent": "T"
     },
     {
@@ -1044,90 +1208,6 @@
    ]
   },
   {
-   "url": "/marchi/canyon/",
-   "type": "brand",
-   "name": "Canyon",
-   "primary": {
-    "keyword": "bicicletă canyon",
-    "volume": 880,
-    "kd": 28,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "canyon e bike",
-     "volume": 720,
-     "kd": 27,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon elektrobike",
-     "volume": 720,
-     "kd": 27,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon ebike",
-     "volume": 390,
-     "kd": 27,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon bikes factory outlet",
-     "volume": 320,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "canyon electric bikes",
-     "volume": 210,
-     "kd": 25,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "canyon mtb",
-     "volume": 1300,
-     "kd": 25,
-     "intent": "N"
-    }
-   ]
-  },
-  {
-   "url": "/marchi/ortler/",
-   "type": "brand",
-   "name": "Ortler",
-   "primary": {
-    "keyword": "sportler bike",
-    "volume": 4400,
-    "kd": 25,
-    "intent": "N"
-   },
-   "secondary": [
-    {
-     "keyword": "sportler bike bolzano",
-     "volume": 590,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "sportler e bike",
-     "volume": 260,
-     "kd": 21,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "sportler bici",
-     "volume": 320,
-     "kd": 25,
-     "intent": "N"
-    }
-   ]
-  },
-  {
    "url": "/marchi/trek/",
    "type": "brand",
    "name": "Trek",
@@ -1138,12 +1218,6 @@
     "intent": "T"
    },
    "secondary": [
-    {
-     "keyword": "bicicletta elettrica trek",
-     "volume": 170,
-     "kd": 26,
-     "intent": "T"
-    },
     {
      "keyword": "trek e-bike",
      "volume": 140,
@@ -1166,6 +1240,51 @@
    "faq": []
   },
   {
+   "url": "/marchi/canyon/",
+   "type": "brand",
+   "name": "Canyon",
+   "primary": {
+    "keyword": "bicicletă canyon",
+    "volume": 880,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "canyon e bike",
+     "volume": 720,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon ebike",
+     "volume": 390,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon electric bikes",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon mountain bike",
+     "volume": 210,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "canyon mtb",
+     "volume": 1300,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
+  },
+  {
    "url": "/marchi/cannondale/",
    "type": "brand",
    "name": "Cannondale",
@@ -1177,34 +1296,22 @@
    },
    "secondary": [
     {
-     "keyword": "bicycle cannondale mountain bike",
-     "volume": 590,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
      "keyword": "mountain bike cannondale",
      "volume": 210,
      "kd": 25,
      "intent": "T"
     },
     {
-     "keyword": "bicicletta elettrica cannondale",
-     "volume": 140,
-     "kd": 14,
-     "intent": "T"
-    },
-    {
-     "keyword": "e bike cannondale mavaro",
-     "volume": 140,
-     "kd": 16,
-     "intent": "C"
-    },
-    {
      "keyword": "cannondale mtb bike",
      "volume": 110,
      "kd": 26,
      "intent": "T"
+    },
+    {
+     "keyword": "cannondale e-bike usata",
+     "volume": 50,
+     "kd": 8,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1228,21 +1335,9 @@
    },
    "secondary": [
     {
-     "keyword": "bicicletta elettrica bianchi",
-     "volume": 480,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
      "keyword": "biciclette elettriche bianchi",
      "volume": 480,
      "kd": 22,
-     "intent": "C"
-    },
-    {
-     "keyword": "bici bianchi da corsa usata",
-     "volume": 320,
-     "kd": 7,
      "intent": "C"
     },
     {
@@ -1255,6 +1350,18 @@
      "keyword": "bianchi bici elettriche prezzi",
      "volume": 90,
      "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici elettrica bianchi prezzo",
+     "volume": 90,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici elettriche bianchi prezzo",
+     "volume": 70,
+     "kd": 8,
      "intent": "T"
     }
    ],
@@ -1269,12 +1376,6 @@
      "keyword": "bici elettrica bianchi uomo",
      "volume": 110,
      "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici elettrica bianchi da donna",
-     "volume": 70,
-     "kd": 10,
      "intent": "I"
     }
    ]
@@ -1317,21 +1418,9 @@
    ],
    "faq": [
     {
-     "keyword": "bicicletta lombardo elettrica",
-     "volume": 480,
-     "kd": 16,
-     "intent": "N"
-    },
-    {
      "keyword": "lombardo biciclette elettriche",
      "volume": 390,
      "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici elettrica lombardo motore bosch",
-     "volume": 110,
-     "kd": 4,
      "intent": "I"
     },
     {
@@ -1343,50 +1432,6 @@
    ]
   },
   {
-   "url": "/marchi/giant/",
-   "type": "brand",
-   "name": "Giant",
-   "primary": {
-    "keyword": "giant bicycles e bike",
-    "volume": 720,
-    "kd": 26,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "giant electric bike",
-     "volume": 320,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "biciclette giant elettriche",
-     "volume": 110,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant e bike",
-     "volume": 720,
-     "kd": 29,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant ebike",
-     "volume": 390,
-     "kd": 29,
-     "intent": "T"
-    },
-    {
-     "keyword": "bicicletta elettrica giant",
-     "volume": 320,
-     "kd": 29,
-     "intent": "T"
-    }
-   ],
-   "faq": []
-  },
-  {
    "url": "/marchi/focus/",
    "type": "brand",
    "name": "Focus",
@@ -1396,20 +1441,7 @@
     "kd": 23,
     "intent": "N"
    },
-   "secondary": [
-    {
-     "keyword": "noleggio bici e-bike garda focus",
-     "volume": 210,
-     "kd": 13,
-     "intent": "T"
-    },
-    {
-     "keyword": "bicicletta elettrica focus",
-     "volume": 140,
-     "kd": 13,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "biciclette elettriche focus",
@@ -1430,6 +1462,44 @@
      "intent": "I"
     }
    ]
+  },
+  {
+   "url": "/marchi/giant/",
+   "type": "brand",
+   "name": "Giant",
+   "primary": {
+    "keyword": "giant electric bike",
+    "volume": 320,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "biciclette giant elettriche",
+     "volume": 110,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant e bike",
+     "volume": 720,
+     "kd": 29,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant ebike",
+     "volume": 390,
+     "kd": 29,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant bici elettrica",
+     "volume": 320,
+     "kd": 29,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
    "url": "/marchi/ducati/",
@@ -1453,61 +1523,9 @@
      "volume": 110,
      "kd": 11,
      "intent": "T"
-    },
-    {
-     "keyword": "bici elettrica ducati bambino",
-     "volume": 90,
-     "kd": 12,
-     "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "bicicletta elettrica ducati",
-     "volume": 210,
-     "kd": 26,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marchi/olympia/",
-   "type": "brand",
-   "name": "Olympia",
-   "primary": {
-    "keyword": "e bike olympia",
-    "volume": 480,
-    "kd": 19,
-    "intent": "T"
-   },
-   "secondary": [
-    {
-     "keyword": "bici elettrica olympia uomo",
-     "volume": 50,
-     "kd": 9,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "bicicletta elettrica olympia",
-     "volume": 320,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "biciclette elettriche olympia",
-     "volume": 260,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "bici elettrica olympia donna",
-     "volume": 70,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   {
    "url": "/marchi/orbea/",
@@ -1569,6 +1587,39 @@
    "faq": []
   },
   {
+   "url": "/marchi/olympia/",
+   "type": "brand",
+   "name": "Olympia",
+   "primary": {
+    "keyword": "e bike olympia",
+    "volume": 480,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici elettrica olympia uomo",
+     "volume": 50,
+     "kd": 9,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "biciclette elettriche olympia",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici elettrica olympia donna",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  {
    "url": "/marchi/merida/",
    "type": "brand",
    "name": "Merida",
@@ -1609,71 +1660,6 @@
    ]
   },
   {
-   "url": "/marchi/jeep/",
-   "type": "brand",
-   "name": "Jeep",
-   "primary": {
-    "keyword": "bici elettrica jeep prezzo",
-    "volume": 110,
-    "kd": 10,
-    "intent": "T"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "biciclette elettriche jeep",
-     "volume": 210,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "bicicletta elettrica jeep",
-     "volume": 170,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "e bike jeep",
-     "volume": 140,
-     "kd": 11,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/marchi/porsche/",
-   "type": "brand",
-   "name": "Porsche eBike",
-   "primary": {
-    "keyword": "boxster porsche usata",
-    "volume": 720,
-    "kd": 24,
-    "intent": "C"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  {
-   "url": "/marchi/brompton/",
-   "type": "brand",
-   "name": "Brompton",
-   "primary": {
-    "keyword": "brompton bicicletta pieghevole",
-    "volume": 390,
-    "kd": 25,
-    "intent": "I"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "brompton bike usata",
-     "volume": 260,
-     "kd": 20,
-     "intent": "I"
-    }
-   ]
-  },
-  {
    "url": "/marchi/husqvarna/",
    "type": "brand",
    "name": "Husqvarna",
@@ -1698,6 +1684,45 @@
    },
    "secondary": [],
    "faq": []
+  },
+  {
+   "url": "/marchi/megamo/",
+   "type": "brand",
+   "name": "Megamo",
+   "primary": {
+    "keyword": "megamo e bike",
+    "volume": 320,
+    "kd": 20,
+    "intent": "N"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/marchi/jeep/",
+   "type": "brand",
+   "name": "Jeep",
+   "primary": {
+    "keyword": "bici elettrica jeep prezzo",
+    "volume": 110,
+    "kd": 10,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "biciclette elettriche jeep",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike jeep",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
    "url": "/marchi/lapierre/",
@@ -1772,26 +1797,6 @@
    "faq": []
   },
   {
-   "url": "/marchi/bmw/",
-   "type": "brand",
-   "name": "BMW",
-   "primary": {
-    "keyword": "bmw r bike",
-    "volume": 170,
-    "kd": 18,
-    "intent": "I"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "e bike bmw",
-     "volume": 110,
-     "kd": 23,
-     "intent": "I"
-    }
-   ]
-  },
-  {
    "url": "/marchi/kettler/",
    "type": "brand",
    "name": "Kettler",
@@ -1813,6 +1818,19 @@
     "volume": 140,
     "kd": 17,
     "intent": "T"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/marchi/brompton/",
+   "type": "brand",
+   "name": "Brompton",
+   "primary": {
+    "keyword": "brompton bike usata",
+    "volume": 260,
+    "kd": 20,
+    "intent": "I"
    },
    "secondary": [],
    "faq": []
@@ -1862,6 +1880,19 @@
    "name": "Fiido",
    "primary": {
     "keyword": "fiido cargo bike",
+    "volume": 110,
+    "kd": 23,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/marchi/bmw/",
+   "type": "brand",
+   "name": "BMW",
+   "primary": {
+    "keyword": "e bike bmw",
     "volume": 110,
     "kd": 23,
     "intent": "I"
