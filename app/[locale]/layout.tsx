@@ -37,8 +37,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!isLocale(locale)) return {};
   const home = getKeywordPage(locale, '/');
   const primary = home?.primary.keyword || MESSAGES[locale].seo.home;
-  const title = buildTitle(locale, primary);
-  const description = buildDescription(locale, primary);
+  // an owner-approved title and description (data/keywords) wins over the generated pair
+  const title = home?.metaTitle || buildTitle(locale, primary);
+  const description = home?.metaDescription || buildDescription(locale, primary);
 
   return {
     metadataBase: new URL(SITE_URL),

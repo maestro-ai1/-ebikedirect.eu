@@ -1,203 +1,500 @@
 {
  "locale": "pt",
  "market": "PT",
- "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "status": "map-v1.0-draft",
  "pages": [
   {
    "url": "/",
    "type": "home",
-   "name": "Home",
+   "name": "Início",
    "primary": {
     "keyword": "bicicleta elétrica",
-    "intent": "I",
     "volume": 8100,
-    "kd": 17
+    "kd": 17,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "e bike",
+     "volume": 4400,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/bicicletas-eletricas/",
+   "type": "category",
+   "name": "Bicicletas elétricas (categoria principal)",
+   "primary": {
+    "keyword": "comprar bicicleta eletrica",
+    "volume": 170,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bicicleta eletrica em portugal",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit bicicleta eletrica",
+     "volume": 260,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike eletrica",
+     "volume": 140,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit para bicicleta elétrica",
+     "volume": 70,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit conversão bicicleta elétrica",
+     "volume": 20,
+     "kd": 6,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/promocoes/",
+   "type": "category",
+   "name": "Promoções & saldos",
+   "primary": {
+    "keyword": "bicicleta eletrica preço",
+    "volume": 480,
+    "kd": 10,
+    "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "e bike portugal",
-     "intent": "C",
-     "volume": 720,
-     "kd": 14
+     "keyword": "bicicleta elétrica barata",
+     "volume": 260,
+     "kd": 15,
+     "intent": "T"
     },
     {
-     "keyword": "melhor bicicleta eletrica portugal",
-     "intent": "C",
-     "volume": 590,
-     "kd": 14
+     "keyword": "preço de bicicleta elétrica",
+     "volume": 110,
+     "kd": 9,
+     "intent": "T"
     },
     {
-     "keyword": "bicicleta eletrica preço",
-     "intent": "T",
-     "volume": 480,
-     "kd": 10
+     "keyword": "bicicletas elétricas preços portugal",
+     "volume": 30,
+     "kd": 6,
+     "intent": "T"
     },
     {
-     "keyword": "preço bicicleta eletrica",
-     "intent": "T",
-     "volume": 480,
-     "kd": 10
+     "keyword": "bicicleta elétrica mais barata",
+     "volume": 20,
+     "kd": 16,
+     "intent": "C"
     },
     {
-     "keyword": "bicicleta elétrica ktm",
-     "intent": "T",
-     "volume": 390,
-     "kd": 8
+     "keyword": "bicicleta elétrica vortex preço",
+     "volume": 20,
+     "kd": 3,
+     "intent": "T"
     }
    ],
-   "held": []
-  }
- ],
- "pool": [
-  {
-   "keyword": "e bike portugal",
-   "intent": "C",
-   "volume": 720,
-   "kd": 14
+   "faq": []
   },
   {
-   "keyword": "melhor bicicleta eletrica portugal",
-   "intent": "C",
-   "volume": 590,
-   "kd": 14
+   "url": "/bicicletas-eletricas/bicicleta-eletrica-usada/",
+   "type": "category",
+   "name": "Bicicletas elétricas usadas",
+   "primary": {
+    "keyword": "bicicleta elétrica usada à venda",
+    "volume": 20,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bicicleta eletrica usada",
+     "volume": 320,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta eletrica preço",
-   "intent": "T",
-   "volume": 480,
-   "kd": 10
+   "url": "/bicicletas-eletricas/motor-bateria/",
+   "type": "category",
+   "name": "Motor & bateria",
+   "primary": {
+    "keyword": "motor bicicleta eletrica",
+    "volume": 110,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "motor para bicicleta eletrica",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "kit motor bicicleta elétrica",
+     "volume": 20,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "preço bicicleta eletrica",
-   "intent": "T",
-   "volume": 480,
-   "kd": 10
+   "url": "/marcas/canyon/",
+   "type": "brand",
+   "name": "Canyon",
+   "primary": {
+    "keyword": "canyon bikes portugal",
+    "volume": 210,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "canyon e bike",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon bikes",
+     "volume": 2400,
+     "kd": 29,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "bicicleta elétrica ktm",
-   "intent": "T",
-   "volume": 390,
-   "kd": 8
+   "url": "/marcas/ktm/",
+   "type": "brand",
+   "name": "KTM",
+   "primary": {
+    "keyword": "bicicleta elétrica ktm",
+    "volume": 390,
+    "kd": 8,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm e bike",
+     "volume": 480,
+     "kd": 14,
+     "intent": "N"
+    },
+    {
+     "keyword": "ktm ebike",
+     "volume": 480,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta elétrica ktm usada",
+     "volume": 10,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta elétrica barata",
-   "intent": "T",
-   "volume": 260,
-   "kd": 10
+   "url": "/marcas/specialized/",
+   "type": "brand",
+   "name": "Specialized",
+   "primary": {
+    "keyword": "bicicleta estrada specialized",
+    "volume": 210,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "ebikes specialized",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialised e bike",
+     "volume": 110,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized e bike",
+     "volume": 110,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "capacete bicicleta specialized",
+     "volume": 20,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "bicicleta eletrica barata",
-   "intent": "C",
-   "volume": 210,
-   "kd": 14
+   "url": "/marcas/trek/",
+   "type": "brand",
+   "name": "Trek",
+   "primary": {
+    "keyword": "trek electric bike",
+    "volume": 170,
+    "kd": 21,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicleta eletrica trek",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "capacete bicicleta trek",
+     "volume": 20,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "e bike lisboa",
-   "intent": "C",
-   "volume": 210,
-   "kd": 23
+   "url": "/marcas/scott/",
+   "type": "brand",
+   "name": "Scott",
+   "primary": {
+    "keyword": "bicicleta elétrica scott",
+    "volume": 110,
+    "kd": 13,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "ebike lisboa",
-   "intent": "C",
-   "volume": 210,
-   "kd": 15
+   "url": "/acessorios/capacetes/",
+   "type": "accessory",
+   "name": "Capacetes",
+   "primary": {
+    "keyword": "capacete bicicleta",
+    "volume": 1600,
+    "kd": 15,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicleta elétrica precisa de capacete",
+     "volume": 30,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "capacete bebe bicicleta",
+     "volume": 30,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "capacete bicicleta cidade",
+     "volume": 30,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "capacete bicicleta preço",
+     "volume": 30,
+     "kd": 6,
+     "intent": "C"
+    },
+    {
+     "keyword": "capacete de bicicleta para crianças",
+     "volume": 30,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "capacete bicicleta crianca",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "capacete de bicicleta",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "capacete bicicleta estrada",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "capacete infantil bicicleta",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "capacete para bicicleta",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "comprar bicicleta eletrica",
-   "intent": "T",
-   "volume": 170,
-   "kd": 13
+   "url": "/acessorios/cadeados/",
+   "type": "accessory",
+   "name": "Cadeados",
+   "primary": {
+    "keyword": "cadeado bicicleta",
+    "volume": 720,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "cadeado de bicicleta",
+     "volume": 90,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cadeado para bicicleta u lock",
+     "volume": 30,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "cadeado bicicleta kryptonite",
+     "volume": 20,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cadeado bicicleta sport zone",
+     "volume": 20,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "cadeado bicicleta u",
+     "volume": 20,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cadeado para bicicleta",
+     "volume": 720,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cadeado abus bicicleta",
+     "volume": 30,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cadeado bicicleta com alarme",
+     "volume": 30,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cadeado corrente bicicleta",
+     "volume": 30,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "corrente com cadeado para bicicleta",
+     "volume": 30,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta eletrica comprar",
-   "intent": "T",
-   "volume": 170,
-   "kd": 13
+   "url": "/acessorios/baterias/",
+   "type": "accessory",
+   "name": "Baterias",
+   "primary": {
+    "keyword": "bateria de lítio para bicicleta elétrica",
+    "volume": 20,
+    "kd": 6,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bateria para bicicleta elétrica",
+     "volume": 90,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "bateria de bicicleta elétrica",
+     "volume": 10,
+     "kd": 6,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta elétrica onde comprar",
-   "intent": "T",
-   "volume": 170,
-   "kd": 12
-  },
-  {
-   "keyword": "bicicleta eletrica urbana",
-   "intent": "C",
-   "volume": 140,
-   "kd": 8
-  },
-  {
-   "keyword": "bicicleta elétrica 3 rodas",
-   "intent": "T",
-   "volume": 140,
-   "kd": 4
-  },
-  {
-   "keyword": "bicicleta eletrica trek",
-   "intent": "T",
-   "volume": 140,
-   "kd": 19
-  },
-  {
-   "keyword": "ktm bicicleta eletrica",
-   "intent": "T",
-   "volume": 140,
-   "kd": 8
-  },
-  {
-   "keyword": "ebikes portugal",
-   "intent": "C",
-   "volume": 110,
-   "kd": 12
-  },
-  {
-   "keyword": "motor bicicleta eletrica",
-   "intent": "T",
-   "volume": 110,
-   "kd": 11
-  },
-  {
-   "keyword": "preço de bicicleta elétrica",
-   "intent": "T",
-   "volume": 110,
-   "kd": 9
-  },
-  {
-   "keyword": "bicicleta eletrica melhor",
-   "intent": "C",
-   "volume": 110,
-   "kd": 11
-  },
-  {
-   "keyword": "canyon e bike",
-   "intent": "T",
-   "volume": 110,
-   "kd": 22
-  },
-  {
-   "keyword": "ebikes specialized",
-   "intent": "T",
-   "volume": 110,
-   "kd": 28
-  },
-  {
-   "keyword": "motor para bicicleta eletrica",
-   "intent": "T",
-   "volume": 110,
-   "kd": 18
-  },
-  {
-   "keyword": "specialised e bike",
-   "intent": "T",
-   "volume": 110,
-   "kd": 19
-  },
-  {
-   "keyword": "specialized e bike",
-   "intent": "T",
-   "volume": 110,
-   "kd": 26
+   "url": "/acessorios/ecras-eletronica/",
+   "type": "accessory",
+   "name": "Ecrãs & eletrónica",
+   "primary": {
+    "keyword": "kit elétrico bicicleta",
+    "volume": 10,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "kit elétrico para bicicleta",
+     "volume": 20,
+     "kd": 15,
+     "intent": "N"
+    },
+    {
+     "keyword": "kit elétrico para bicicleta barato",
+     "volume": 10,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   }
  ]
 }

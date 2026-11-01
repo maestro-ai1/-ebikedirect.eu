@@ -1,413 +1,2979 @@
 {
  "locale": "nl",
- "market": "NL",
- "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "market": "NL (also serves BE-nl)",
+ "status": "map-v1.0-draft",
  "pages": [
   {
    "url": "/",
    "type": "home",
    "name": "Home",
    "primary": {
-    "keyword": "elektrische fiets aanbieding",
-    "intent": "T",
-    "volume": 4400,
-    "kd": 27
+    "keyword": "elektrische fietsen",
+    "volume": 3600,
+    "kd": 24,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/elektrische-fietsen/elektrische-bakfiets/",
+   "type": "category",
+   "name": "Elektrische bakfietsen",
+   "primary": {
+    "keyword": "elektrische bakfiets 3 wielen",
+    "volume": 320,
+    "kd": 10,
+    "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "urban arrow bakfiets",
-     "intent": "T",
-     "volume": 8100,
-     "kd": 25
-    },
-    {
-     "keyword": "lovens bakfiets",
-     "intent": "T",
-     "volume": 5400,
-     "kd": 25
-    },
-    {
-     "keyword": "babboe bakfiets",
-     "intent": "T",
-     "volume": 2400,
-     "kd": 23
-    },
-    {
      "keyword": "bakfiets huren",
-     "intent": "C",
      "volume": 2400,
-     "kd": 14
+     "kd": 14,
+     "intent": "C"
     },
     {
-     "keyword": "trek elektrische fiets",
-     "intent": "C",
-     "volume": 2400,
-     "kd": 28
+     "keyword": "bakfiets tweedehands",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "bakfiets elektrisch aanbieding",
+     "volume": 320,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "bakfiets kopen tweedehands",
+     "volume": 140,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "beste bakfiets 3 wielen",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
     }
    ],
-   "held": []
-  }
- ],
- "pool": [
-  {
-   "keyword": "urban arrow bakfiets",
-   "intent": "T",
-   "volume": 8100,
-   "kd": 25
+   "faq": [
+    {
+     "keyword": "bakfiets",
+     "volume": 14800,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "vogue bakfiets",
+     "volume": 1900,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "bakfiets leasen",
+     "volume": 1300,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische bakfiets tweedehands",
+     "volume": 1000,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "bakfiets 3 wielen",
+     "volume": 880,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "lovens bakfiets",
-   "intent": "T",
-   "volume": 5400,
-   "kd": 25
+   "url": "/elektrische-fietsen/beste-elektrische-fiets/",
+   "type": "category",
+   "name": "Beste elektrische fietsen & koopgids",
+   "primary": {
+    "keyword": "beste koop elektrische fiets",
+    "volume": 590,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "beste ebike 2025",
+     "volume": 390,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike test",
+     "volume": 320,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "beste koop e bike",
+     "volume": 110,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "elektrische fiets beste koop 2025",
+     "volume": 110,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "beste electrische fietsen",
+     "volume": 110,
+     "kd": 26,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "beste elektrische fiets",
+     "volume": 5400,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische fiets 2025",
+     "volume": 1000,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste e bike 2025",
+     "volume": 880,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische fiets 2026",
+     "volume": 880,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "wat is de beste elektrische fiets",
+     "volume": 720,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "babboe bakfiets",
-   "intent": "T",
-   "volume": 2400,
-   "kd": 23
+   "url": "/elektrische-fietsen/elektrische-vouwfiets/",
+   "type": "category",
+   "name": "Elektrische vouwfietsen",
+   "primary": {
+    "keyword": "aanbieding elektrische vouwfiets",
+    "volume": 480,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets vouwfiets",
+     "volume": 210,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische vouwfiets 20 inch",
+     "volume": 210,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "tweedehands elektrische vouwfiets",
+     "volume": 170,
+     "kd": 8,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische vouwfiets huren",
+     "volume": 110,
+     "kd": 9,
+     "intent": "C"
+    },
+    {
+     "keyword": "beste elektrische vouwfiets 2026",
+     "volume": 90,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "beste elektrische vouwfiets",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische vouwfiets 2025",
+     "volume": 260,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische vouwfiets lage instap",
+     "volume": 260,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische vouwfiets met lage instap",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische vouwfiets test",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets huren",
-   "intent": "C",
-   "volume": 2400,
-   "kd": 14
+   "url": "/aanbiedingen/",
+   "type": "category",
+   "name": "Aanbiedingen & uitverkoop",
+   "primary": {
+    "keyword": "elektrische fiets aanbieding",
+    "volume": 4400,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets dames aanbieding",
+     "volume": 1900,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets goedkoop",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike aanbieding",
+     "volume": 720,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fietsen aanbieding",
+     "volume": 720,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets middenmotor dames aanbieding",
+     "volume": 590,
+     "kd": 23,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "aanbieding electrische fietsen",
+     "volume": 140,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike dames aanbieding",
+     "volume": 90,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "trek elektrische fiets",
-   "intent": "C",
-   "volume": 2400,
-   "kd": 28
+   "url": "/elektrische-fietsen/motor-accu/",
+   "type": "category",
+   "name": "Motor & accu",
+   "primary": {
+    "keyword": "cortina elektrische fiets dames middenmotor",
+    "volume": 880,
+    "kd": 28,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets dames middenmotor",
+     "volume": 590,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets met middenmotor",
+     "volume": 590,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "goedkope elektrische fiets met middenmotor",
+     "volume": 480,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "vogue elektrische fiets middenmotor",
+     "volume": 480,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "goedkope elektrische fietsen met middenmotor",
+     "volume": 390,
+     "kd": 25,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische fiets middenmotor",
+     "volume": 1600,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische fiets met middenmotor",
+     "volume": 880,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets motor",
+     "volume": 390,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "motor voor elektrische fiets",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike dames middenmotor",
+     "volume": 210,
+     "kd": 25,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets dolly",
-   "intent": "T",
-   "volume": 1900,
-   "kd": 29
+   "url": "/elektrische-fietsen/elektrische-fiets-dames/",
+   "type": "category",
+   "name": "Elektrische damesfietsen",
+   "primary": {
+    "keyword": "elektrische fiets dames beste koop",
+    "volume": 170,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "beste elektrische fiets dames",
+     "volume": 320,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "sportieve e bike dames",
+     "volume": 210,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets 28 inch dames",
+     "volume": 170,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike dames 28 inch",
+     "volume": 140,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike lage instap dames",
+     "volume": 50,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cortina elektrische fiets dames",
+     "volume": 3600,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "sportieve elektrische fiets dames",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets dames lage instap",
+     "volume": 260,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "vogue elektrische fiets dames",
+     "volume": 140,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische fiets dames 2026",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "veloretti elektrische fiets",
-   "intent": "T",
-   "volume": 1900,
-   "kd": 21
+   "url": "/elektrische-fietsen/elektrische-mountainbike/",
+   "type": "category",
+   "name": "Elektrische mountainbikes",
+   "primary": {
+    "keyword": "elektrische mountainbike kopen",
+    "volume": 260,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische mountainbike aanbieding",
+     "volume": 210,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische mountainbike dames",
+     "volume": 170,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische mountainbike huren",
+     "volume": 140,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische mountainbike",
+     "volume": 5400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets mountainbike",
+     "volume": 320,
+     "kd": 29,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische mountainbike",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mountainbike",
+     "volume": 210,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike mountainbike",
+     "volume": 110,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets babboe",
-   "intent": "C",
-   "volume": 1600,
-   "kd": 20
+   "url": "/elektrische-fietsen/elektrische-racefiets-gravel/",
+   "type": "category",
+   "name": "Elektrische racefietsen & gravelbikes",
+   "primary": {
+    "keyword": "racefiets kopen tweedehands",
+    "volume": 260,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "tweedehands racefiets",
+     "volume": 1000,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische racefiets",
+     "volume": 1000,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische racefiets dames",
+     "volume": 70,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische racefiets heren",
+     "volume": 70,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische racefiets middenmotor",
+     "volume": 50,
+     "kd": 9,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrisch racefiets",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische racefiets",
+     "volume": 50,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische racefiets huren",
+     "volume": 50,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets urban arrow",
-   "intent": "T",
-   "volume": 1600,
-   "kd": 30
+   "url": "/elektrische-fietsen/speed-pedelec/",
+   "type": "category",
+   "name": "Speed pedelec (45 km/u)",
+   "primary": {
+    "keyword": "speed pedelec kopen",
+    "volume": 720,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "speed pedelec aanbieding",
+     "volume": 390,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "speed pedelec dames",
+     "volume": 170,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets 45 km",
+     "volume": 110,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "speed pedelec fiets",
+     "volume": 110,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "speed pedelec tweedehands",
+     "volume": 110,
+     "kd": 9,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "wat is een speed pedelec",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste speed pedelec",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "speed pedelec leasen",
+     "volume": 210,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "speed pedelec huren",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "wat kost een speed pedelec",
+     "volume": 110,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "accu elektrische fiets",
-   "intent": "C",
-   "volume": 1600,
-   "kd": 19
+   "url": "/financiering-lease/",
+   "type": "category",
+   "name": "Financiering, lease & fietsplan",
+   "primary": {
+    "keyword": "elektrische fiets leasen",
+    "volume": 2400,
+    "kd": 21,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "elektrische fiets dames leasen",
+     "volume": 70,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets met lage instap voor ouderen middenmotor",
-   "intent": "T",
-   "volume": 1600,
-   "kd": 22
+   "url": "/elektrische-fietsen/elektrische-fiets-tweedehands/",
+   "type": "category",
+   "name": "Tweedehands elektrische fietsen",
+   "primary": {
+    "keyword": "elektrische fiets kopen tweedehands",
+    "volume": 170,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "tweedehands elektrische fiets dames",
+     "volume": 480,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets goedkoop tweedehands",
+     "volume": 170,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets heren tweedehands",
+     "volume": 170,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "tweedehands elektrische fietsen dames",
+     "volume": 110,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "tweedehands elektrische fiets met middenmotor",
+     "volume": 210,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cortina elektrische fiets tweedehands",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "tweedehands elektrische fiets middenmotor",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "tweedehands elektrische fiets met middenmotor dames",
+     "volume": 70,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets qwic",
-   "intent": "T",
-   "volume": 1600,
-   "kd": 14
+   "url": "/elektrische-fietsen/elektrische-fiets-heren/",
+   "type": "category",
+   "name": "Elektrische herenfietsen",
+   "primary": {
+    "keyword": "cortina elektrische fiets heren",
+    "volume": 590,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "sportieve elektrische fiets heren",
+     "volume": 320,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "elektrische fiets heren 800 euro",
+     "volume": 70,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "beste elektrische fiets heren 2026",
+     "volume": 50,
+     "kd": 8,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets heren beste koop",
+     "volume": 50,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "beste elektrische fiets heren",
+     "volume": 90,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste elektrische fiets heren 2025",
+     "volume": 50,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "qwic elektrische fiets",
-   "intent": "T",
-   "volume": 1600,
-   "kd": 13
+   "url": "/merken/gazelle/",
+   "type": "brand",
+   "name": "Gazelle",
+   "primary": {
+    "keyword": "elektrische fiets gazelle",
+    "volume": 2400,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "gazelle ebike",
+     "volume": 2400,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "bakfiets gazelle",
+     "volume": 1300,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "gazelle damesfiets",
+     "volume": 1300,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "aanbiedingen gazelle elektrische fietsen",
+     "volume": 1000,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "elektrische fiets aanbieding gazelle",
+     "volume": 1000,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "gazelle fietsen",
+     "volume": 3600,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "fietsen gazelle elektrisch",
+     "volume": 1600,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "gazelle elektrische fietsen",
+     "volume": 1300,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "gazelle fiets dames",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "gazelle fietstassen",
+     "volume": 1300,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets gazelle",
-   "intent": "T",
-   "volume": 1300,
-   "kd": 25
+   "url": "/merken/cube/",
+   "type": "brand",
+   "name": "Cube",
+   "primary": {
+    "keyword": "cube bikes",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "cube elektrische fiets dames",
+     "volume": 1300,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube elektrische fietsen middenmotor",
+     "volume": 590,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube e bike met riemaandrijving",
+     "volume": 480,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube herenfiets",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "fietsmerk cube",
+     "volume": 170,
+     "kd": 27,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube elektrische fiets",
+     "volume": 6600,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fiets",
+     "volume": 2400,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube bike e bike",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fietsen elektrisch",
+     "volume": 1900,
+     "kd": 28,
+     "intent": "-"
+    },
+    {
+     "keyword": "cube e bike",
+     "volume": 1600,
+     "kd": 22,
+     "intent": "-"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets hond",
-   "intent": "T",
-   "volume": 1300,
-   "kd": 11
+   "url": "/merken/batavus/",
+   "type": "brand",
+   "name": "Batavus",
+   "primary": {
+    "keyword": "batavus fietsen",
+    "volume": 1600,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "batavus electric bike",
+     "volume": 1300,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "batavus bakfiets",
+     "volume": 590,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "batavus damesfiets",
+     "volume": 480,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "batavus fiets dames",
+     "volume": 480,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "batavus e bike dames",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "batavus elektrische fiets dames",
+     "volume": 1300,
+     "kd": 11,
+     "intent": "N"
+    },
+    {
+     "keyword": "elektrische fiets batavus",
+     "volume": 1300,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "batavus finez e go power exclusive",
+     "volume": 480,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "batavus wayz e go",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "batavus dinsdag e go",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets tweedehands",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 19
+   "url": "/merken/sparta/",
+   "type": "brand",
+   "name": "Sparta",
+   "primary": {
+    "keyword": "sparta elektrische fiets dames",
+    "volume": 1300,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "sparta elektrische fiets middenmotor",
+     "volume": 320,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "sparta vouwfiets elektrisch",
+     "volume": 140,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "sparta elektrische fiets",
+     "volume": 4400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "sparta fiets elektrisch",
+     "volume": 1300,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "sparta elektrische fiets oud model",
+     "volume": 390,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "sparta pick up elektrische fiets",
+     "volume": 320,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met lage instap voor ouderen sparta",
+     "volume": 210,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "gazelle bakfiets",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 30
+   "url": "/merken/urban-arrow/",
+   "type": "brand",
+   "name": "Urban Arrow",
+   "primary": {
+    "keyword": "urban arrow bakfiets",
+    "volume": 8100,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische bakfiets urban arrow",
+     "volume": 320,
+     "kd": 21,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "urban arrow bakfiets aanbieding",
+     "volume": 260,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "urban arrow bakfiets tweedehands",
+     "volume": 210,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "urban arrow bakfiets leasen",
+     "volume": 140,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "peuterschaal bakfiets urban arrow",
+     "volume": 110,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "tweedehands bakfiets",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 16
+   "url": "/merken/qwic/",
+   "type": "brand",
+   "name": "QWIC",
+   "primary": {
+    "keyword": "elektrische fiets qwic",
+    "volume": 1600,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "qwic elektrische fietsen",
+     "volume": 480,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "qwic elektrische fiets dames",
+     "volume": 320,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "qwic dealers",
+     "volume": 260,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "qwic premium",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "qwic fietsen dames",
+     "volume": 210,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "klachten qwic fietsen",
+     "volume": 260,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "qwic fietsen review",
+     "volume": 260,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietsen qwic",
+     "volume": 140,
+     "kd": 30,
+     "intent": "N"
+    },
+    {
+     "keyword": "qwic bikes",
+     "volume": 110,
+     "kd": 29,
+     "intent": "N"
+    },
+    {
+     "keyword": "qwic premium q",
+     "volume": 110,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "cube elektrische fiets dames",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 22
+   "url": "/merken/bosch/",
+   "type": "brand",
+   "name": "Bosch (motor brand)",
+   "primary": {
+    "keyword": "bosch elektrische fiets motor",
+    "volume": 590,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets opvoeren bosch",
+     "volume": 170,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
+     "keyword": "tweedehands fietsen den bosch",
+     "volume": 140,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische vouwfiets met middenmotor bosch",
+     "volume": 140,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
+     "keyword": "tweedehands elektrische fiets met middenmotor bosch",
+     "volume": 110,
+     "kd": 6,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets met bosch middenmotor kopen",
+     "volume": 110,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bosch elektrische fiets",
+     "volume": 720,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met bosch motor",
+     "volume": 590,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike store den bosch",
+     "volume": 390,
+     "kd": 30,
+     "intent": "N"
+    },
+    {
+     "keyword": "elektrische fiets met bosch middenmotor",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets middenmotor bosch",
+     "volume": 320,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "e bikes to go",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 25
+   "url": "/merken/trek/",
+   "type": "brand",
+   "name": "Trek",
+   "primary": {
+    "keyword": "trek elektrische fiets",
+    "volume": 2400,
+    "kd": 28,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "trek elektrische fiets dames",
+     "volume": 320,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "trek fiets elektrisch",
+     "volume": 210,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "trek elektrische mountainbike",
+     "volume": 210,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "trek mountainbike elektrisch",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "trek speed pedelec",
+     "volume": 110,
+     "kd": 17,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "trek bakfiets",
+     "volume": 210,
+     "kd": 24,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "ebike holland",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 25
+   "url": "/merken/babboe/",
+   "type": "brand",
+   "name": "Babboe",
+   "primary": {
+    "keyword": "babboe bakfiets",
+    "volume": 2400,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "babboe bakfiets elektrisch",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "babboe elektrische bakfiets",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "babboe big bakfiets",
+     "volume": 110,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "batavus elektrische fiets dames",
-   "intent": "T",
-   "volume": 1300,
-   "kd": 27
+   "url": "/merken/tenways/",
+   "type": "brand",
+   "name": "Tenways",
+   "primary": {
+    "keyword": "tenways e bike",
+    "volume": 1300,
+    "kd": 23,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "tenways bakfiets",
+     "volume": 480,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "tenways aanbieding",
+     "volume": 170,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "tenways elektrische fietsen",
+     "volume": 170,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "tenways fiets elektrisch",
+     "volume": 170,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "tenways kopen",
+     "volume": 140,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "tenways elektrische fiets",
+     "volume": 1300,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "tenways damesfiets",
+     "volume": 170,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "tenways elektrische fiets dames",
+     "volume": 110,
+     "kd": 17,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "lease elektrische fiets",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 20
+   "url": "/merken/koga/",
+   "type": "brand",
+   "name": "Koga",
+   "primary": {
+    "keyword": "koga elektrische fiets dames",
+    "volume": 480,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets koga miyata",
+     "volume": 320,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "lichtgewicht elektrische fiets koga",
+     "volume": 260,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "koga elektrische fiets tweedehands",
+     "volume": 110,
+     "kd": 9,
+     "intent": "C"
+    },
+    {
+     "keyword": "koga elektrische fiets aanbieding",
+     "volume": 90,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "koga fiets elektrisch",
+     "volume": 260,
+     "kd": 30,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische koga fiets",
+     "volume": 1300,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "koga elektrische fiets problemen",
+     "volume": 260,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "koga elektrische fiets lage instap",
+     "volume": 110,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "sparta elektrische fiets dames",
-   "intent": "T",
-   "volume": 1300,
-   "kd": 23
+   "url": "/merken/pegasus/",
+   "type": "brand",
+   "name": "Pegasus",
+   "primary": {
+    "keyword": "pegasus elektrische fiets",
+    "volume": 1000,
+    "kd": 17,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "pegasus ebike",
+     "volume": 390,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "pegasus elektrische fietsen",
+     "volume": 390,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "pegasus elektrische fiets aanbieding",
+     "volume": 110,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "pegasus electrische fiets",
+     "volume": 110,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "pegasus elektrische fiets dames",
+     "volume": 110,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pegasus fiets elektrisch",
+     "volume": 140,
+     "kd": 14,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "bakfiets huren amsterdam",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 13
+   "url": "/merken/giant/",
+   "type": "brand",
+   "name": "Giant",
+   "primary": {
+    "keyword": "giant elektrische mountainbike",
+    "volume": 210,
+    "kd": 24,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "giant elektrische fiets middenmotor dames",
+     "volume": 50,
+     "kd": 26,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant elektrische fiets dames",
+     "volume": 720,
+     "kd": 30,
+     "intent": "N"
+    },
+    {
+     "keyword": "giant dames fiets",
+     "volume": 260,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant elektrische fiets heren",
+     "volume": 210,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "giant elektrische fietsen problemen",
+     "volume": 210,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant twist elektrische fiets",
+     "volume": 170,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "carqon bakfiets",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 25
+   "url": "/merken/canyon/",
+   "type": "brand",
+   "name": "Canyon",
+   "primary": {
+    "keyword": "canyon e bike",
+    "volume": 590,
+    "kd": 26,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "canyon mountain bikes",
+     "volume": 390,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon mountainbike",
+     "volume": 390,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon ebike",
+     "volume": 320,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon elektrische fiets",
+     "volume": 210,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon fietshelm",
+     "volume": 50,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "canyon fiets",
+     "volume": 590,
+     "kd": 30,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "aanbiedingen gazelle elektrische fietsen",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 28
+   "url": "/merken/flyer/",
+   "type": "brand",
+   "name": "Flyer",
+   "primary": {
+    "keyword": "flyer elektrische fiets",
+    "volume": 1300,
+    "kd": 19,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "flyer elektrische fiets problemen",
+     "volume": 260,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "flyer elektrische fiets lage instap",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "flyer elektrische vouwfiets",
+     "volume": 90,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "flyer vouwfiets elektrisch",
+     "volume": 90,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "flyer elektrische fiets dames",
+     "volume": 70,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets aanbieding gazelle",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 28
+   "url": "/merken/victoria/",
+   "type": "brand",
+   "name": "Victoria",
+   "primary": {
+    "keyword": "victoria elektrische fiets",
+    "volume": 880,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "victoria elektrische fiets met bosch motor",
+     "volume": 210,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "victoria elektrische fiets dames",
+     "volume": 110,
+     "kd": 24,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "accu van elektrische fiets",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 18
+   "url": "/merken/specialized/",
+   "type": "brand",
+   "name": "Specialized",
+   "primary": {
+    "keyword": "specialized elektrische fiets",
+    "volume": 590,
+    "kd": 16,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "fietshelm specialized",
+     "volume": 210,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized elektrische fiets dames",
+     "volume": 140,
+     "kd": 15,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische fiets specialised",
+     "volume": 170,
+     "kd": 16,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "accu voor elektrische fiets",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 21
+   "url": "/merken/riese-und-mueller/",
+   "type": "brand",
+   "name": "Riese & Müller",
+   "primary": {
+    "keyword": "elektrische fiets riese muller",
+    "volume": 260,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "riese und muller elektrische bakfiets",
+     "volume": 140,
+     "kd": 27,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "riese muller bakfiets",
+     "volume": 390,
+     "kd": 16,
+     "intent": "N"
+    },
+    {
+     "keyword": "riese en muller elektrische fiets",
+     "volume": 210,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "riese muller speed pedelec",
+     "volume": 210,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "riese und muller bakfiets",
+     "volume": 170,
+     "kd": 26,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets puch",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 11
+   "url": "/merken/cowboy/",
+   "type": "brand",
+   "name": "Cowboy",
+   "primary": {
+    "keyword": "cowboy elektrische fiets",
+    "volume": 1000,
+    "kd": 23,
+    "intent": "N"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets spatbord colorway",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 13
+   "url": "/merken/winora/",
+   "type": "brand",
+   "name": "Winora",
+   "primary": {
+    "keyword": "winora bakfiets",
+    "volume": 720,
+    "kd": 18,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "winora elektrische fiets",
+     "volume": 480,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "winora fiets",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets vogue",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 18
+   "url": "/merken/kalkhoff/",
+   "type": "brand",
+   "name": "Kalkhoff",
+   "primary": {
+    "keyword": "kalkhoff elektrische fiets dames",
+    "volume": 170,
+    "kd": 19,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "kalkhoff elektrische fiets",
+     "volume": 880,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "kalkhoff elektrische fiets heren",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "fongers elektrische fiets",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 27
+   "url": "/merken/carqon/",
+   "type": "brand",
+   "name": "Carqon",
+   "primary": {
+    "keyword": "carqon bakfiets",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "carqon elektrische bakfiets",
+     "volume": 140,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "pegasus elektrische fiets",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 17
+   "url": "/merken/scott/",
+   "type": "brand",
+   "name": "Scott",
+   "primary": {
+    "keyword": "scott elektrische fiets",
+    "volume": 480,
+    "kd": 11,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "scott elektrische fiets dames",
+     "volume": 90,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "scott fietshelm",
+     "volume": 50,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "puch elektrische fiets",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 13
+   "url": "/merken/ktm/",
+   "type": "brand",
+   "name": "KTM",
+   "primary": {
+    "keyword": "ktm elektrische fiets",
+    "volume": 480,
+    "kd": 12,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "rivena elektrische fiets",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 6
+   "url": "/merken/raleigh/",
+   "type": "brand",
+   "name": "Raleigh",
+   "primary": {
+    "keyword": "raleigh elektrische fiets",
+    "volume": 320,
+    "kd": 15,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "raleigh one fiets",
+     "volume": 110,
+     "kd": 14,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "gazelle elektrische fiets aanbieding",
-   "intent": "C",
-   "volume": 880,
-   "kd": 27
+   "url": "/merken/fiido/",
+   "type": "brand",
+   "name": "Fiido",
+   "primary": {
+    "keyword": "fiido nl",
+    "volume": 210,
+    "kd": 18,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "fiido elektrische vouwfiets",
+     "volume": 90,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "fiido vouwfiets elektrisch",
+     "volume": 50,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fiido winkel nederland",
+     "volume": 170,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "fiido nederland",
+     "volume": 110,
+     "kd": 23,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "bikkel elektrische fiets",
-   "intent": "T",
-   "volume": 880,
-   "kd": 11
+   "url": "/merken/brompton/",
+   "type": "brand",
+   "name": "Brompton",
+   "primary": {
+    "keyword": "brompton elektrische vouwfiets",
+    "volume": 260,
+    "kd": 16,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "brompton vouwfiets elektrisch",
+     "volume": 260,
+     "kd": 20,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "cortina elektrische fiets dames middenmotor",
-   "intent": "C",
-   "volume": 880,
-   "kd": 30
+   "url": "/merken/cannondale/",
+   "type": "brand",
+   "name": "Cannondale",
+   "primary": {
+    "keyword": "elektrische fiets cannondale",
+    "volume": 390,
+    "kd": 24,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale elektrische fiets dames",
+     "volume": 50,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "driewieler elektrische fiets",
-   "intent": "T",
-   "volume": 880,
-   "kd": 25
+   "url": "/merken/hercules/",
+   "type": "brand",
+   "name": "Hercules",
+   "primary": {
+    "keyword": "hercules elektrische fiets",
+    "volume": 260,
+    "kd": 16,
+    "intent": "N"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets accu",
-   "intent": "C",
-   "volume": 880,
-   "kd": 20
+   "url": "/merken/zuendapp/",
+   "type": "brand",
+   "name": "Zündapp",
+   "primary": {
+    "keyword": "zundapp elektrische fiets",
+    "volume": 260,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets driewieler",
-   "intent": "T",
-   "volume": 880,
-   "kd": 23
+   "url": "/merken/merida/",
+   "type": "brand",
+   "name": "Merida",
+   "primary": {
+    "keyword": "merida elektrische fiets",
+    "volume": 210,
+    "kd": 16,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "merida elektrische fiets heren",
+     "volume": 50,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "elektrische fiets opvouwbaar",
-   "intent": "C",
-   "volume": 880,
-   "kd": 26
+   "url": "/merken/yamaha-motor/",
+   "type": "brand",
+   "name": "Yamaha (motor brand)",
+   "primary": {
+    "keyword": "yamaha elektrische fiets",
+    "volume": 260,
+    "kd": 15,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets pegasus",
-   "intent": "C",
-   "volume": 880,
-   "kd": 18
+   "url": "/merken/stromer/",
+   "type": "brand",
+   "name": "Stromer",
+   "primary": {
+    "keyword": "speed pedelec stromer",
+    "volume": 390,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "victoria elektrische fiets",
-   "intent": "T",
-   "volume": 880,
-   "kd": 17
+   "url": "/merken/stevens/",
+   "type": "brand",
+   "name": "Stevens",
+   "primary": {
+    "keyword": "stevens elektrische fiets",
+    "volume": 210,
+    "kd": 16,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "winora bakfiets",
-   "intent": "C",
-   "volume": 720,
-   "kd": 18
+   "url": "/merken/husqvarna/",
+   "type": "brand",
+   "name": "Husqvarna",
+   "primary": {
+    "keyword": "husqvarna elektrische fiets",
+    "volume": 320,
+    "kd": 12,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "e bike aanbieding",
-   "intent": "C",
-   "volume": 720,
-   "kd": 23
+   "url": "/merken/kreidler/",
+   "type": "brand",
+   "name": "Kreidler",
+   "primary": {
+    "keyword": "kreidler elektrische fiets",
+    "volume": 210,
+    "kd": 11,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets onder 1000 euro",
-   "intent": "C",
-   "volume": 720,
-   "kd": 20
+   "url": "/merken/vanmoof/",
+   "type": "brand",
+   "name": "VanMoof",
+   "primary": {
+    "keyword": "vanmoof elektrische fiets",
+    "volume": 170,
+    "kd": 27,
+    "intent": "N"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets sportief",
-   "intent": "C",
-   "volume": 720,
-   "kd": 12
+   "url": "/merken/btwin-elops/",
+   "type": "brand",
+   "name": "Elops",
+   "primary": {
+    "keyword": "elops elektrische fiets",
+    "volume": 260,
+    "kd": 21,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fietsen aanbieding",
-   "intent": "C",
-   "volume": 720,
-   "kd": 27
+   "url": "/merken/bulls/",
+   "type": "brand",
+   "name": "Bulls",
+   "primary": {
+    "keyword": "bulls elektrische fiets",
+    "volume": 210,
+    "kd": 20,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "gazelle elektrische fiets heren",
-   "intent": "C",
-   "volume": 720,
-   "kd": 29
+   "url": "/merken/fischer/",
+   "type": "brand",
+   "name": "Fischer",
+   "primary": {
+    "keyword": "fischer elektrische fiets",
+    "volume": 210,
+    "kd": 12,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "rental e-bike",
-   "intent": "C",
-   "volume": 720,
-   "kd": 25
+   "url": "/merken/shimano/",
+   "type": "brand",
+   "name": "Shimano STEPS (motor brand)",
+   "primary": {
+    "keyword": "shimano elektrische fiets",
+    "volume": 170,
+    "kd": 18,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "elektrische fiets 3 wielen",
-   "intent": "C",
-   "volume": 720,
-   "kd": 15
+   "url": "/merken/engwe/",
+   "type": "brand",
+   "name": "Engwe",
+   "primary": {
+    "keyword": "engwe elektrische fiets",
+    "volume": 110,
+    "kd": 22,
+    "intent": "N"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "engwe vouwfiets elektrisch",
+     "volume": 50,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "fietstas elektrische fiets",
-   "intent": "C",
-   "volume": 720,
-   "kd": 11
+   "url": "/merken/carrera/",
+   "type": "brand",
+   "name": "Carrera",
+   "primary": {
+    "keyword": "carrera bike",
+    "volume": 110,
+    "kd": 23,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "longtail elektrische fiets",
-   "intent": "C",
-   "volume": 720,
-   "kd": 13
+   "url": "/merken/porsche/",
+   "type": "brand",
+   "name": "Porsche eBike",
+   "primary": {
+    "keyword": "uit welk land komt porsche",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "oplader elektrische fiets",
-   "intent": "C",
-   "volume": 720,
-   "kd": 12
+   "url": "/merken/bergamont/",
+   "type": "brand",
+   "name": "Bergamont",
+   "primary": {
+    "keyword": "bergamont elektrische fiets",
+    "volume": 110,
+    "kd": 10,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "qwic e bike",
-   "intent": "T",
-   "volume": 720,
-   "kd": 30
+   "url": "/merken/kettler/",
+   "type": "brand",
+   "name": "Kettler",
+   "primary": {
+    "keyword": "kettler elektrische fiets",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "stokvis elektrische fiets",
-   "intent": "C",
-   "volume": 720,
-   "kd": 21
+   "url": "/accessoires/helmen/",
+   "type": "accessory",
+   "name": "Helmen",
+   "primary": {
+    "keyword": "abus fietshelm",
+    "volume": 3600,
+    "kd": 18,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "fietshelm heren",
+     "volume": 4400,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "fietshelm voor baby's",
+     "volume": 880,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "fietshelm kopen",
+     "volume": 590,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "fietshelm met vizier",
+     "volume": 480,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "fietshelm vizier",
+     "volume": 390,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fietshelm dames",
+     "volume": 6600,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietshelm kind",
+     "volume": 2400,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietshelm baby",
+     "volume": 1000,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste fietshelm",
+     "volume": 720,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietshelm kinderen",
+     "volume": 590,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "speed pedelec kopen",
-   "intent": "T",
-   "volume": 720,
-   "kd": 28
+   "url": "/accessoires/dragers-kinderzitjes/",
+   "type": "accessory",
+   "name": "Dragers, kinderzitjes & aanhangers",
+   "primary": {
+    "keyword": "bagagedrager elektrische fiets",
+    "volume": 210,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "fietsendrager voor elektrische fiets",
+     "volume": 590,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrisch fiets met kinderzitje",
+     "volume": 480,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "fietsendrager voor elektrische fiets met middenmotor",
+     "volume": 260,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets dames met kinderzitje",
+     "volume": 140,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "fietsendrager voor 1 elektrische fiets",
+     "volume": 110,
+     "kd": 8,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische fiets op fietsendrager",
+     "volume": 2400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "fiets kinderzitje",
+     "volume": 1900,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietsendrager elektrische fiets",
+     "volume": 1900,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met kinderzitje",
+     "volume": 1300,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "kinderzitje elektrische fiets",
+     "volume": 1300,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/accus/",
+   "type": "accessory",
+   "name": "Accu’s",
+   "primary": {
+    "keyword": "accu elektrische fiets kopen",
+    "volume": 170,
+    "kd": 21,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "accu elektrische fiets",
+     "volume": 1600,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "fiets met accu",
+     "volume": 1300,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "accu van elektrische fiets",
+     "volume": 1000,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "accu voor elektrische fiets",
+     "volume": 1000,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "accu elektrische fiets reviseren",
+     "volume": 480,
+     "kd": 23,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "elektrische fiets accu in frame",
+     "volume": 320,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "revisie accu elektrische fiets",
+     "volume": 320,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "batterij van elektrische fiets",
+     "volume": 320,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met accu in frame",
+     "volume": 210,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "accu elektrische fiets vervangen",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/tassen-manden/",
+   "type": "accessory",
+   "name": "Tassen & manden",
+   "primary": {
+    "keyword": "dubbele fietstas elektrische fiets",
+    "volume": 480,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "fietstas elektrische fiets",
+     "volume": 720,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "elektrische fiets met mand",
+     "volume": 590,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "fietstas enkel elektrische fiets",
+     "volume": 320,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "dubbele fietstas voor elektrische fiets",
+     "volume": 260,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "fietsmand voorop elektrische fiets",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fietstassen voor elektrische fiets",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietstassen elektrische fiets",
+     "volume": 1300,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietstassen op elektrische fiets",
+     "volume": 1000,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietstas op elektrische fiets",
+     "volume": 590,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietstassen voor een elektrische fiets",
+     "volume": 390,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/sloten/",
+   "type": "accessory",
+   "name": "Sloten",
+   "primary": {
+    "keyword": "abus fietsslot",
+    "volume": 720,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "walfort fietsslot",
+     "volume": 590,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "accuslot elektrische fiets",
+     "volume": 260,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "slot elektrische fiets",
+     "volume": 210,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "axa fietsslot ketting",
+     "volume": 140,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "karwei fietsslot",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "beste fietsslot consumentenbond",
+     "volume": 390,
+     "kd": 11,
+     "intent": "N"
+    },
+    {
+     "keyword": "openbreken fietsslot",
+     "volume": 320,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "beste fietsslot 2025",
+     "volume": 210,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietsslot met alarm",
+     "volume": 210,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietsslot elektrische fiets",
+     "volume": 140,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/displays-elektronica/",
+   "type": "accessory",
+   "name": "Displays & elektronica",
+   "primary": {
+    "keyword": "ombouwset elektrische fiets",
+    "volume": 880,
+    "kd": 13,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "display elektrische fiets",
+     "volume": 720,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets opvoeren via display",
+     "volume": 590,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "display elektrische fiets doet het niet",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "display voor elektrische fiets",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "bosch elektrische fiets display",
+     "volume": 320,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/banden/",
+   "type": "accessory",
+   "name": "Banden & binnenbanden",
+   "primary": {
+    "keyword": "elektrische fiets dikke banden kopen",
+    "volume": 210,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets dikke banden",
+     "volume": 390,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bandenspanning elektrische fiets",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met dikke banden",
+     "volume": 320,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "hoeveel bar in fietsband elektrische fiets",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets brede banden",
+     "volume": 260,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met brede banden",
+     "volume": 260,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/gereedschap-onderhoud/",
+   "type": "accessory",
+   "name": "Gereedschap & onderhoud",
+   "primary": {
+    "keyword": "reparatie elektrische fiets",
+    "volume": 260,
+    "kd": 23,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "bakfiets onderhoud",
+     "volume": 140,
+     "kd": 14,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "onderhoud elektrische fiets",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "onderhoudsbeurt elektrische fiets",
+     "volume": 320,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "onderhoudsbeurt elektrische fiets kosten",
+     "volume": 260,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fietspomp racefiets",
+     "volume": 170,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets pomp",
+     "volume": 110,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/laders/",
+   "type": "accessory",
+   "name": "Laders",
+   "primary": {
+    "keyword": "oplader elektrische fiets",
+    "volume": 720,
+    "kd": 12,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "elektrische fiets lader",
+     "volume": 210,
+     "kd": 9,
+     "intent": "C"
+    },
+    {
+     "keyword": "lader voor elektrische fiets",
+     "volume": 210,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "acculader elektrische fiets",
+     "volume": 170,
+     "kd": 8,
+     "intent": "C"
+    },
+    {
+     "keyword": "acculader voor elektrische fiets",
+     "volume": 140,
+     "kd": 12,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "universele oplader elektrische fiets 36v",
+     "volume": 140,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/remmen-aandrijving/",
+   "type": "accessory",
+   "name": "Remmen & aandrijving",
+   "primary": {
+    "keyword": "hydraulische remmen elektrische fiets afstellen",
+    "volume": 260,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "elektrische fiets met terugtraprem",
+     "volume": 390,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets terugtraprem",
+     "volume": 260,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "ketting spannen elektrische fiets",
+     "volume": 170,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "ketting spannen elektrische fiets met middenmotor",
+     "volume": 140,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets met terugtraprem en lage instap",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/spatborden-standaards/",
+   "type": "accessory",
+   "name": "Spatborden & standaards",
+   "primary": {
+    "keyword": "elektrische fiets spatbord colorway",
+    "volume": 1000,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "fietsstandaard elektrische fiets",
+     "volume": 210,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "dubbele standaard elektrische fiets",
+     "volume": 110,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/regen-kleding/",
+   "type": "accessory",
+   "name": "Regenbescherming & kleding",
+   "primary": {
+    "keyword": "regenhoes voor bakfiets",
+    "volume": 210,
+    "kd": 5,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "regenhoes bakfiets",
+     "volume": 320,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietshoes elektrische fiets",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "fietshoes voor elektrische fiets",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/",
+   "type": "accessory",
+   "name": "Accessoires (overzicht)",
+   "primary": {
+    "keyword": "bakfiets accessoires",
+    "volume": 260,
+    "kd": 11,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "accessoires voor elektrische fiets",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "elektrische fiets accessoires",
+     "volume": 140,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/zadels-sturen/",
+   "type": "accessory",
+   "name": "Zadels, sturen & grepen",
+   "primary": {
+    "keyword": "zadelhoes fiets",
+    "volume": 260,
+    "kd": 10,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "verende zadelpen elektrische fiets",
+     "volume": 260,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "zadelhoogte elektrische fiets",
+     "volume": 140,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "url": "/accessoires/telefoonhouders/",
+   "type": "accessory",
+   "name": "Telefoonhouders",
+   "primary": {
+    "keyword": "telefoonhouder elektrische fiets",
+    "volume": 110,
+    "kd": 15,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": []
   }
  ]
 }

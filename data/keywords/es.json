@@ -1,413 +1,2707 @@
 {
  "locale": "es",
  "market": "ES",
- "status": "seed-only: no page map yet, needs Semrush head terms + stock check",
+ "status": "map-v1.0-draft",
  "pages": [
   {
    "url": "/",
    "type": "home",
-   "name": "Home",
+   "name": "Inicio",
    "primary": {
-    "keyword": "bicicleta electrica plegable",
-    "intent": "C",
-    "volume": 3600,
-    "kd": 16
+    "keyword": "comprar bicicleta eléctrica",
+    "volume": 720,
+    "kd": 17,
+    "intent": "T"
    },
    "secondary": [
     {
-     "keyword": "bicicleta eléctrica plegable",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 19
-    },
-    {
-     "keyword": "bici electrica niño",
-     "intent": "C",
+     "keyword": "bici eléctrica",
      "volume": 1600,
-     "kd": 15
+     "kd": 19,
+     "intent": "C"
     },
     {
-     "keyword": "bici eléctrica baratas",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 22
-    },
-    {
-     "keyword": "bicicleta eléctrica barata",
-     "intent": "C",
-     "volume": 1000,
-     "kd": 21
-    },
-    {
-     "keyword": "bici electrica precio",
-     "intent": "T",
-     "volume": 1000,
-     "kd": 29
+     "keyword": "e-bikes",
+     "volume": 590,
+     "kd": 19,
+     "intent": "C"
     }
    ],
-   "held": []
-  }
- ],
- "pool": [
-  {
-   "keyword": "bicicleta eléctrica plegable",
-   "intent": "C",
-   "volume": 1900,
-   "kd": 19
+   "faq": [
+    {
+     "keyword": "ebike",
+     "volume": 5400,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electricas",
+     "volume": 390,
+     "kd": 29,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica niño",
-   "intent": "C",
-   "volume": 1600,
-   "kd": 15
+   "url": "/bicicletas-electricas/bicicleta-electrica-montana/",
+   "type": "category",
+   "name": "Bicicletas eléctricas de montaña",
+   "primary": {
+    "keyword": "ebike mtb",
+    "volume": 590,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicletas electricas de montaña",
+     "volume": 2400,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "mtb electrica",
+     "volume": 1300,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejores bicicletas eléctricas de montaña calidad precio",
+     "volume": 170,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor bicicleta electrica de montaña",
+     "volume": 170,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicicletas eléctricas de montaña baratas",
+     "volume": 140,
+     "kd": 14,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici electrica montaña",
+     "volume": 2900,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica montaña",
+     "volume": 2900,
+     "kd": 24,
+     "intent": "-"
+    },
+    {
+     "keyword": "bici electrica de montaña",
+     "volume": 1000,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica mtb",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica doble suspension",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici eléctrica baratas",
-   "intent": "C",
-   "volume": 1300,
-   "kd": 22
+   "url": "/ofertas/",
+   "type": "category",
+   "name": "Ofertas & rebajas",
+   "primary": {
+    "keyword": "precio bicicleta electrica",
+    "volume": 720,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici eléctrica baratas",
+     "volume": 1300,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor bicicleta electrica calidad precio",
+     "volume": 880,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejores bicicletas eléctricas calidad precio",
+     "volume": 720,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "precio bici electrica",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "precio de bicicletas eléctricas",
+     "volume": 320,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicleta electrica barata",
+     "volume": 1600,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicletas electricas ofertas",
+     "volume": 880,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "oferta bici electrica",
+     "volume": 880,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike oferta",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike ofertas",
+     "volume": 210,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta eléctrica barata",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 21
+   "url": "/bicicletas-electricas/",
+   "type": "category",
+   "name": "Bicicletas eléctricas (categoría principal)",
+   "primary": {
+    "keyword": "comprar ebike",
+    "volume": 170,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "comprar una bicicleta electrica",
+     "volume": 140,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "kit bicicleta electrica",
+     "volume": 1600,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit bici electrica",
+     "volume": 1600,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike electrica",
+     "volume": 720,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit para bicicleta electrica",
+     "volume": 390,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit conversion bici electrica",
+     "volume": 390,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica precio",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 29
+   "url": "/bicicletas-electricas/bicicleta-electrica-segunda-mano/",
+   "type": "category",
+   "name": "Bicicletas eléctricas de segunda mano",
+   "primary": {
+    "keyword": "comprar bicicleta electrica segunda mano",
+    "volume": 140,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "e bike segunda mano",
+     "volume": 390,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici eléctrica de segunda mano",
+     "volume": 260,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "comprar bici electrica segunda mano",
+     "volume": 140,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici electrica segunda mano",
+     "volume": 2900,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta eléctrica segunda mano",
+     "volume": 2400,
+     "kd": 13,
+     "intent": "-"
+    },
+    {
+     "keyword": "bicicletas eléctricas de segunda mano",
+     "volume": 880,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike segunda mano",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta eléctrica mujer segunda mano",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica montana",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 25
+   "url": "/bicicletas-electricas/bicicleta-electrica-plegable/",
+   "type": "category",
+   "name": "Bicicletas eléctricas plegables",
+   "primary": {
+    "keyword": "bicicleta electrica plegable",
+    "volume": 3600,
+    "kd": 16,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "bici electrica plegable barata",
+     "volume": 260,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicicleta electrica plegable barata",
+     "volume": 210,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor bicicleta electrica plegable",
+     "volume": 210,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor bicicleta eléctrica plegable calidad precio",
+     "volume": 110,
+     "kd": 9,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici electrica plegable",
+     "volume": 2400,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica plegable segunda mano",
+     "volume": 260,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica plegable segunda mano",
+     "volume": 210,
+     "kd": 14,
+     "intent": "N"
+    },
+    {
+     "keyword": "ebike plegable",
+     "volume": 210,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica plegable 20 pulgadas",
+     "volume": 110,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica de montana",
-   "intent": "C",
-   "volume": 1000,
-   "kd": 17
+   "url": "/bicicletas-electricas/bicicleta-electrica-ninos/",
+   "type": "category",
+   "name": "Bicicletas eléctricas para niños",
+   "primary": {
+    "keyword": "bici electrica niños",
+    "volume": 210,
+    "kd": 8,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bicicletas electricas niños",
+     "volume": 1300,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicletas electricas para ninos",
+     "volume": 720,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica para niños",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "cube bike",
-   "intent": "T",
-   "volume": 1000,
-   "kd": 25
+   "url": "/bicicletas-electricas/bicicleta-electrica-ciudad/",
+   "type": "category",
+   "name": "Bicicletas eléctricas urbanas & híbridas",
+   "primary": {
+    "keyword": "bicicleta electrica paseo mujer",
+    "volume": 90,
+    "kd": 16,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bici electrica de paseo",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica paseo",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica de paseo",
+     "volume": 480,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica paseo",
+     "volume": 480,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica paseo mujer",
+     "volume": 110,
+     "kd": 7,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "mejor bicicleta electrica calidad precio",
-   "intent": "C",
-   "volume": 880,
-   "kd": 13
+   "url": "/bicicletas-electricas/motor-bateria/",
+   "type": "category",
+   "name": "Motor & batería",
+   "primary": {
+    "keyword": "kit motor bicicleta eléctrica",
+    "volume": 210,
+    "kd": 7,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "ebike motor",
+     "volume": 50,
+     "kd": 15,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "motor bicicleta electrica",
+     "volume": 590,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici electrica motor",
+     "volume": 320,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "motor para bicicleta electrica",
+     "volume": 320,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "motor de bicicleta electrica",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "motor de bici electrica",
+     "volume": 170,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica media markt",
-   "intent": "T",
-   "volume": 880,
-   "kd": 29
+   "url": "/bicicletas-electricas/bicicleta-electrica-gravel-carretera/",
+   "type": "category",
+   "name": "Gravel & bicicletas eléctricas de carretera",
+   "primary": {
+    "keyword": "bicicletas electricas de carretera",
+    "volume": 390,
+    "kd": 15,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "bici electrica carretera",
+     "volume": 320,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici electrica de carretera",
+     "volume": 210,
+     "kd": 11,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicleta electrica carretera",
+     "volume": 720,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike carretera",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike carretera",
+     "volume": 170,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "precio bicicleta electrica",
-   "intent": "T",
-   "volume": 720,
-   "kd": 17
+   "url": "/bicicletas-electricas/mejores-bicicletas-electricas/",
+   "type": "category",
+   "name": "Mejores bicicletas eléctricas & guía de compra",
+   "primary": {
+    "keyword": "mejores bicicletas electricas",
+    "volume": 590,
+    "kd": 13,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "mejor bicicleta electrica",
+     "volume": 390,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor bici eléctrica",
+     "volume": 260,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejores bici electricas",
+     "volume": 110,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor ebike",
+     "volume": 90,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "mejor ebike 2025",
+     "volume": 90,
+     "kd": 16,
+     "intent": "C"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "mejor bicicleta eléctrica calidad precio",
-   "intent": "C",
-   "volume": 720,
-   "kd": 12
+   "url": "/bicicletas-electricas/bicicleta-electrica-mujer/",
+   "type": "category",
+   "name": "Bicicletas eléctricas de mujer",
+   "primary": {
+    "keyword": "bicicleta electrica mujer",
+    "volume": 720,
+    "kd": 13,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bici electrica mujer",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicletas electricas para mujer",
+     "volume": 140,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta eléctrica de mujer",
+     "volume": 70,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike mujer",
+     "volume": 70,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "cube e bike",
-   "intent": "T",
-   "volume": 720,
-   "kd": 24
+   "url": "/marcas/cube/",
+   "type": "brand",
+   "name": "Cube",
+   "primary": {
+    "keyword": "cube bikes",
+    "volume": 6600,
+    "kd": 26,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "cube e bike",
+     "volume": 720,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici cube carretera",
+     "volume": 590,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube bicicleta carretera",
+     "volume": 480,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "electric bikes cube",
+     "volume": 320,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountain bike",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici cube",
+     "volume": 1300,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicicletas cube",
+     "volume": 1300,
+     "kd": 22,
+     "intent": "N"
+    },
+    {
+     "keyword": "bici electrica cube",
+     "volume": 590,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica cube",
+     "volume": 480,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike cube",
+     "volume": 390,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "e bikes",
-   "intent": "T",
-   "volume": 720,
-   "kd": 29
+   "url": "/marcas/orbea/",
+   "type": "brand",
+   "name": "Orbea",
+   "primary": {
+    "keyword": "bici orbea montaña",
+    "volume": 1000,
+    "kd": 23,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "orbea bikes",
+     "volume": 1300,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicicleta orbea montaña",
+     "volume": 720,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica orbea",
+     "volume": 480,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici electrica orbea",
+     "volume": 480,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici carretera orbea",
+     "volume": 480,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici orbea",
+     "volume": 1600,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "orbea bicikli",
+     "volume": 480,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "e bike orbea",
+     "volume": 390,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicicletas de montaña orbea",
+     "volume": 320,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "orbea electrica mtb",
+     "volume": 320,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "madridebike-bici-electricas",
-   "intent": "C",
-   "volume": 720,
-   "kd": 27
+   "url": "/marcas/merida/",
+   "type": "brand",
+   "name": "Merida",
+   "primary": {
+    "keyword": "bici merida",
+    "volume": 1600,
+    "kd": 24,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicletas merida carretera",
+     "volume": 480,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta merida montaña",
+     "volume": 320,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bike merida",
+     "volume": 210,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici electrica merida",
+     "volume": 170,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicicleta merida electrica",
+     "volume": 170,
+     "kd": 12,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "merida bike",
+     "volume": 1000,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicicletas merida",
+     "volume": 720,
+     "kd": 16,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicis carretera merida",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicis merida montaña",
+     "volume": 320,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "merida mtb",
+     "volume": 110,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica bh",
-   "intent": "T",
-   "volume": 720,
-   "kd": 27
+   "url": "/marcas/giant/",
+   "type": "brand",
+   "name": "Giant",
+   "primary": {
+    "keyword": "bicicleta giant",
+    "volume": 880,
+    "kd": 25,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "giant electric bike",
+     "volume": 320,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica giant",
+     "volume": 260,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicis giant carretera",
+     "volume": 260,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant e bike",
+     "volume": 260,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant bikes e bike",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant bike",
+     "volume": 880,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicicleta giant carretera",
+     "volume": 390,
+     "kd": 26,
+     "intent": "N"
+    },
+    {
+     "keyword": "giant bici",
+     "volume": 390,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "giant gravel bike",
+     "volume": 260,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "bicis giant electricas",
+     "volume": 260,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica pequeña",
-   "intent": "T",
-   "volume": 590,
-   "kd": 22
+   "url": "/marcas/trek/",
+   "type": "brand",
+   "name": "Trek",
+   "primary": {
+    "keyword": "bicicleta trek",
+    "volume": 1900,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "trek bikes e bike",
+     "volume": 590,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica trek",
+     "volume": 480,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici electrica trek",
+     "volume": 480,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "trek gravel bike",
+     "volume": 260,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta gravel trek",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicletas trek montaña",
+     "volume": 720,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek e bike",
+     "volume": 390,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek bicis",
+     "volume": 170,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "trek bici de montaña",
+     "volume": 90,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek ebike.",
+     "volume": 70,
+     "kd": 29,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "ebike mtb",
-   "intent": "T",
-   "volume": 590,
-   "kd": 22
+   "url": "/marcas/haibike/",
+   "type": "brand",
+   "name": "Haibike",
+   "primary": {
+    "keyword": "bikes haibike",
+    "volume": 2400,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "haibike usa",
+     "volume": 590,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica haibike",
+     "volume": 260,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici haibike",
+     "volume": 210,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici electrica haibike",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "haibike e bike",
+     "volume": 210,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "motor bici electrica",
-   "intent": "T",
-   "volume": 590,
-   "kd": 30
+   "url": "/marcas/focus/",
+   "type": "brand",
+   "name": "Focus",
+   "primary": {
+    "keyword": "focus bikes",
+    "volume": 1600,
+    "kd": 23,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "focus bici",
+     "volume": 590,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici electrica focus",
+     "volume": 210,
+     "kd": 10,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicleta focus",
+     "volume": 480,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike focus",
+     "volume": 320,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike focus",
+     "volume": 320,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica focus",
+     "volume": 260,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta focus carretera",
+     "volume": 140,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "e-bikes",
-   "intent": "C",
-   "volume": 590,
-   "kd": 19
+   "url": "/marcas/carrera/",
+   "type": "brand",
+   "name": "Carrera",
+   "primary": {
+    "keyword": "bicicletas de carreras",
+    "volume": 320,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicletas carreras baratas",
+     "volume": 320,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicicletas de carreras baratas",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicis de carrera de segunda mano",
+     "volume": 720,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicis de carreras segunda mano",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta de carrera carbono",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici carrera",
+     "volume": 260,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta carreras",
+     "volume": 210,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "kit para bici electrica",
-   "intent": "T",
-   "volume": 590,
-   "kd": 8
+   "url": "/marcas/canyon/",
+   "type": "brand",
+   "name": "Canyon",
+   "primary": {
+    "keyword": "canyon mtb",
+    "volume": 390,
+    "kd": 27,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "canyon gravel bike",
+     "volume": 320,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon mountain bikes",
+     "volume": 260,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "canyon ebike",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta gravel canyon",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici gravel canyon",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "bicicleta electrica cecotec",
-   "intent": "C",
-   "volume": 590,
-   "kd": 22
+   "url": "/marcas/cannondale/",
+   "type": "brand",
+   "name": "Cannondale",
+   "primary": {
+    "keyword": "cannondale bicicleta",
+    "volume": 480,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici cannondale",
+     "volume": 390,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bike cannondale",
+     "volume": 320,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica cannondale",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale gravel bike",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "ebike cannondale",
+     "volume": 140,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cannondale mtb",
+     "volume": 170,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica precio",
-   "intent": "T",
-   "volume": 480,
-   "kd": 16
+   "url": "/marcas/ghost/",
+   "type": "brand",
+   "name": "Ghost",
+   "primary": {
+    "keyword": "ghost bikes",
+    "volume": 880,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici ghost",
+     "volume": 390,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta electrica ghost",
+     "volume": 110,
+     "kd": 8,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicleta ghost",
+     "volume": 480,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "bici electrica ghost",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ghost e bike",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica mountain bike",
-   "intent": "T",
-   "volume": 480,
-   "kd": 9
+   "url": "/marcas/lapierre/",
+   "type": "brand",
+   "name": "Lapierre",
+   "primary": {
+    "keyword": "bicicleta lapierre",
+    "volume": 390,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici lapierre",
+     "volume": 320,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici electrica lapierre",
+     "volume": 110,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicletas electricas lapierre",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicicleta lapierre carretera",
+     "volume": 110,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "lapierre mountain bike",
+     "volume": 110,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "lapierre bikes",
+     "volume": 480,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "lapierre mtb",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
+    },
+    {
+     "keyword": "lapierre mtb bikes",
+     "volume": 140,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicis lapierre carretera",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica orbea",
-   "intent": "T",
-   "volume": 480,
-   "kd": 22
+   "url": "/marcas/shimano/",
+   "type": "brand",
+   "name": "Shimano STEPS (motor brand)",
+   "primary": {
+    "keyword": "zapatillas shimano mtb",
+    "volume": 1000,
+    "kd": 28,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "pedales mtb shimano",
+     "volume": 260,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cambios de bicicleta shimano",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "bici shimano",
+     "volume": 110,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cambios de bici shimano",
+     "volume": 110,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica de montaña",
-   "intent": "C",
-   "volume": 480,
-   "kd": 12
+   "url": "/marcas/fiido/",
+   "type": "brand",
+   "name": "Fiido",
+   "primary": {
+    "keyword": "fiido bikes",
+    "volume": 720,
+    "kd": 9,
+    "intent": "N"
+   },
+   "secondary": [
+    {
+     "keyword": "bicicleta electrica fiido",
+     "volume": 320,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "fiido bici",
+     "volume": 210,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "fiido electric bikes",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "fiido barcelona",
+     "volume": 70,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "fiido e bikes",
+     "volume": 90,
+     "kd": 30,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicleta fiido",
+     "volume": 390,
+     "kd": 12,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica orbea",
-   "intent": "T",
-   "volume": 480,
-   "kd": 18
+   "url": "/marcas/scott/",
+   "type": "brand",
+   "name": "Scott",
+   "primary": {
+    "keyword": "bicicleta electrica scott",
+    "volume": 480,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "scott ebike",
+     "volume": 260,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott electrica mtb",
+     "volume": 110,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott bici electrica",
+     "volume": 90,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "casco bicicleta scott",
+     "volume": 90,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici electrica scott montaña",
+     "volume": 50,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica trek",
-   "intent": "T",
-   "volume": 480,
-   "kd": 28
+   "url": "/marcas/stevens/",
+   "type": "brand",
+   "name": "Stevens",
+   "primary": {
+    "keyword": "bike stevens",
+    "volume": 480,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bicicletas stevens",
+     "volume": 170,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bici stevens",
+     "volume": 170,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "orbea ebike",
-   "intent": "T",
-   "volume": 480,
-   "kd": 20
+   "url": "/marcas/bh-bikes/",
+   "type": "brand",
+   "name": "BH Bikes",
+   "primary": {
+    "keyword": "bh e bike",
+    "volume": 260,
+    "kd": 24,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bh ebike",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bh bike electric",
+     "volume": 390,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "bh bike",
+     "volume": 170,
+     "kd": 24,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "megamo ebike",
-   "intent": "T",
-   "volume": 480,
-   "kd": 20
+   "url": "/marcas/bosch/",
+   "type": "brand",
+   "name": "Bosch (motor brand)",
+   "primary": {
+    "keyword": "bicicleta electrica bosch",
+    "volume": 210,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bici electrica bosch",
+     "volume": 170,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": []
   },
   {
-   "keyword": "bici electrica precios",
-   "intent": "T",
-   "volume": 390,
-   "kd": 24
+   "url": "/marcas/zuendapp/",
+   "type": "brand",
+   "name": "Zündapp",
+   "primary": {
+    "keyword": "zündapp bicicleta eléctrica de montaña",
+    "volume": 320,
+    "kd": 11,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": []
   },
   {
-   "keyword": "precio bici electrica",
-   "intent": "T",
-   "volume": 390,
-   "kd": 23
+   "url": "/marcas/specialized/",
+   "type": "brand",
+   "name": "Specialized",
+   "primary": {
+    "keyword": "casco bicicleta specialized",
+    "volume": 140,
+    "kd": 24,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cascos bici specialized",
+     "volume": 140,
+     "kd": 20,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "mejores bicicleta electrica",
-   "intent": "C",
-   "volume": 390,
-   "kd": 13
+   "url": "/marcas/liv/",
+   "type": "brand",
+   "name": "Liv",
+   "primary": {
+    "keyword": "bicicleta liv mujer",
+    "volume": 110,
+    "kd": 21,
+    "intent": "T"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "bicis liv mujer",
+     "volume": 50,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
   },
   {
-   "keyword": "e bike segunda mano",
-   "intent": "C",
-   "volume": 390,
-   "kd": 12
+   "url": "/accesorios/cascos/",
+   "type": "accessory",
+   "name": "Cascos",
+   "primary": {
+    "keyword": "casco de bicicleta",
+    "volume": 1900,
+    "kd": 28,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "cascos bici",
+     "volume": 2900,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "cascos bicicleta",
+     "volume": 2400,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "casco de bici",
+     "volume": 1600,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "casco bicicleta carretera",
+     "volume": 1300,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "casco bicicletas mujer",
+     "volume": 590,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "casco mtb",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "casco bici carretera",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "casco integral mountain bike",
+     "volume": 1300,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "casco enduro mtb",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cascos bicicleta montaña",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "mini bici electrica",
-   "intent": "C",
-   "volume": 390,
-   "kd": 19
+   "url": "/accesorios/frenos-transmision/",
+   "type": "accessory",
+   "name": "Frenos & transmisión",
+   "primary": {
+    "keyword": "pedales bici",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "pedales bicicleta",
+     "volume": 1300,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "cadena de bici",
+     "volume": 720,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicis freno de disco",
+     "volume": 590,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "pedales bici carretera",
+     "volume": 480,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "pedal automático mtb",
+     "volume": 480,
+     "kd": 12,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici sin pedales",
+     "volume": 2400,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta sin pedales",
+     "volume": 1900,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "cadena bici",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "pedales mtb",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta electrica sin pedales",
+     "volume": 720,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica moma",
-   "intent": "T",
-   "volume": 390,
-   "kd": 25
+   "url": "/accesorios/sillines-manillares/",
+   "type": "accessory",
+   "name": "Sillines, manillares & puños",
+   "primary": {
+    "keyword": "sillin bici",
+    "volume": 1600,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "sillin bicicleta",
+     "volume": 1900,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "manillar bicicleta",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "bolsa manillar bici",
+     "volume": 590,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "sillin de bicicleta",
+     "volume": 590,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "mtb puños",
+     "volume": 590,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bici manillar",
+     "volume": 1300,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "puños bicicleta",
+     "volume": 880,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "puños bici",
+     "volume": 880,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "bolso manillar bici",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bolsa manillar bicicleta",
+     "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica moma",
-   "intent": "T",
-   "volume": 390,
-   "kd": 29
+   "url": "/accesorios/guardabarros-caballetes/",
+   "type": "accessory",
+   "name": "Guardabarros & caballetes",
+   "primary": {
+    "keyword": "soporte bici",
+    "volume": 1000,
+    "kd": 14,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "soporte bicicletas pared",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "caballete bici",
+     "volume": 720,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "soporte bicicletas taller",
+     "volume": 590,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "soporte bici taller",
+     "volume": 590,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "soporte bicicleta para pared",
+     "volume": 480,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "aparcabicis",
+     "volume": 3600,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte bicicleta",
+     "volume": 2400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte bici pared",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte bicicleta suelo",
+     "volume": 1300,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte bici suelo",
+     "volume": 1300,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "moto bici electrica",
-   "intent": "T",
-   "volume": 390,
-   "kd": 11
+   "url": "/accesorios/luces/",
+   "type": "accessory",
+   "name": "Luces",
+   "primary": {
+    "keyword": "luz bici",
+    "volume": 720,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "luces bici",
+     "volume": 720,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "luz delantera bici",
+     "volume": 720,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "luces de bici",
+     "volume": 320,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "luz trasera bicicleta carretera",
+     "volume": 260,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
+     "keyword": "luces para la bici",
+     "volume": 210,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "luz trasera bici",
+     "volume": 1600,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "luz trasera bicicleta",
+     "volume": 1600,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "luces bicicleta",
+     "volume": 1000,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "luz bicicleta",
+     "volume": 880,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "luz delantera bicicleta",
+     "volume": 880,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "e bike ocasion",
-   "intent": "C",
-   "volume": 390,
-   "kd": 25
+   "url": "/accesorios/neumaticos-camaras/",
+   "type": "accessory",
+   "name": "Neumáticos & cámaras",
+   "primary": {
+    "keyword": "neumatico mtb",
+    "volume": 140,
+    "kd": 13,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "cubiertas mtb",
+     "volume": 1000,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "neumaticos bicis",
+     "volume": 480,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "neumaticos bicicleta",
+     "volume": 390,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "cubierta de bicicleta",
+     "volume": 390,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "cubiertas de bici",
+     "volume": 320,
+     "kd": 21,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cubiertas mtb 29",
+     "volume": 880,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "cubiertas bicicleta carretera",
+     "volume": 880,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cubiertas bici carretera",
+     "volume": 880,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cubiertas bici",
+     "volume": 590,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta cubiertas",
+     "volume": 590,
+     "kd": 25,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "mejor bicicleta electrica",
-   "intent": "C",
-   "volume": 390,
-   "kd": 12
+   "url": "/accesorios/candados/",
+   "type": "accessory",
+   "name": "Candados",
+   "primary": {
+    "keyword": "candado para bicis",
+    "volume": 590,
+    "kd": 9,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "candado bicicleta",
+     "volume": 2900,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "candado para bicicleta",
+     "volume": 880,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "candado de bicicleta",
+     "volume": 480,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "antirrobo bicicleta",
+     "volume": 260,
+     "kd": 9,
+     "intent": "T"
+    },
+    {
+     "keyword": "candado para la bici",
+     "volume": 110,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "candado bici",
+     "volume": 2400,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "candado de bici",
+     "volume": 390,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "antirrobo bici",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "candado bicicleta abus",
+     "volume": 210,
+     "kd": 15,
+     "intent": "N"
+    },
+    {
+     "keyword": "candado bicicleta irrompible",
+     "volume": 140,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "ebike ocasion",
-   "intent": "T",
-   "volume": 390,
-   "kd": 21
+   "url": "/accesorios/herramientas-cuidado/",
+   "type": "accessory",
+   "name": "Herramientas & cuidado",
+   "primary": {
+    "keyword": "bomba bicicleta",
+    "volume": 480,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bomba de aire para bicis",
+     "volume": 320,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "bomba para bicis",
+     "volume": 260,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "bomba aire bicicleta",
+     "volume": 210,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "bombas de pie bicicleta",
+     "volume": 140,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "bomba inflar bici",
+     "volume": 140,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bomba bici",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "herramientas bicicleta",
+     "volume": 480,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bomba de aire para bicicleta",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "herramientas bici",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bomba bici mini",
+     "volume": 390,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "cecotec bicicleta electrica",
-   "intent": "C",
-   "volume": 390,
-   "kd": 24
+   "url": "/accesorios/pantallas-electronica/",
+   "type": "accessory",
+   "name": "Pantallas & electrónica",
+   "primary": {
+    "keyword": "bike gps system",
+    "volume": 210,
+    "kd": 16,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "gps bici",
+     "volume": 1300,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "gps para bici",
+     "volume": 590,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "ciclocomputador bicicleta",
+     "volume": 210,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "gps for mtb",
+     "volume": 170,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "kit electrico de bicicleta",
+     "volume": 140,
+     "kd": 8,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicicletas gps",
+     "volume": 1600,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit electrico bicicleta",
+     "volume": 720,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "gps para bicicletas",
+     "volume": 720,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "gps para la bicicleta",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "kit electrico para bicicleta",
+     "volume": 320,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta eléctrica media markt",
-   "intent": "T",
-   "volume": 390,
-   "kd": 27
+   "url": "/accesorios/baterias/",
+   "type": "accessory",
+   "name": "Baterías",
+   "primary": {
+    "keyword": "bateria de bici electrica",
+    "volume": 260,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "bateria bicicleta electrica",
+     "volume": 720,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "bateria de bicicleta electrica",
+     "volume": 260,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "bateria para bicicleta",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "bateria bici",
+     "volume": 90,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
+     "keyword": "bateria bicicleta",
+     "volume": 90,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bateria bici electrica",
+     "volume": 720,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta con bateria electrica",
+     "volume": 590,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "bateria para bici electrica",
+     "volume": 320,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "bateria para bicicleta electrica",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "bicicleta de batería",
+     "volume": 210,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "canyon e bike",
-   "intent": "T",
-   "volume": 390,
-   "kd": 30
+   "url": "/accesorios/alforjas-cestas/",
+   "type": "accessory",
+   "name": "Alforjas & cestas",
+   "primary": {
+    "keyword": "bolsa bicicleta cuadro",
+    "volume": 140,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "alforjas bicicleta",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "alforjas bici",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "alforjas para bicicleta",
+     "volume": 390,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "bici con cesta",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bolsa bicicleta",
+     "volume": 590,
+     "kd": 20,
+     "intent": "-"
+    },
+    {
+     "keyword": "bolsa bici manillar",
+     "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "alforjas para la bici",
+     "volume": 480,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "alforjas para bici",
+     "volume": 480,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "bolsa para bicicleta",
+     "volume": 480,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica megamo",
-   "intent": "T",
-   "volume": 390,
-   "kd": 19
+   "url": "/accesorios/portaequipajes-remolques/",
+   "type": "accessory",
+   "name": "Portaequipajes, sillas & remolques",
+   "primary": {
+    "keyword": "portabicicletas maletero",
+    "volume": 320,
+    "kd": 25,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "portabicicletas bola 3 bicis",
+     "volume": 260,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "portabicicletas bola 2 bicicletas",
+     "volume": 210,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "portabicicletas con bola",
+     "volume": 170,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "porta bicis techo",
+     "volume": 170,
+     "kd": 15,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "portabicicletas bola",
+     "volume": 1600,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "portabicicletas techo",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "portabicicletas de bola",
+     "volume": 480,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "portabicicletas porton",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "portabicicletas bola 4 bicicletas",
+     "volume": 390,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica barata",
-   "intent": "C",
-   "volume": 320,
-   "kd": 15
+   "url": "/accesorios/",
+   "type": "accessory",
+   "name": "Accesorios (resumen)",
+   "primary": {
+    "keyword": "accesorios de bicicletas",
+    "volume": 170,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "accesorios bicicletas",
+     "volume": 880,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "accesorios bici",
+     "volume": 590,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "accesorios para bici",
+     "volume": 170,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "accesorios de bici",
+     "volume": 140,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "accesorios para bicicletas",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "accesorios mtb",
+     "volume": 210,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "accesorios bici montaña",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "accesorios para bicicletas de montaña",
+     "volume": 140,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "accesorios bicicletas montaña",
+     "volume": 140,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bici electrica carretera",
-   "intent": "C",
-   "volume": 320,
-   "kd": 12
+   "url": "/accesorios/soportes-movil/",
+   "type": "accessory",
+   "name": "Soportes para móvil",
+   "primary": {
+    "keyword": "soporte movil para bicicletas",
+    "volume": 390,
+    "kd": 11,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "soporte movil bici",
+     "volume": 1300,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte movil bicicleta",
+     "volume": 1000,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte movil para bici",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte telefono bicicleta",
+     "volume": 170,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "soporte telefono bici",
+     "volume": 170,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica trekking",
-   "intent": "C",
-   "volume": 320,
-   "kd": 15
+   "url": "/accesorios/cargadores/",
+   "type": "accessory",
+   "name": "Cargadores",
+   "primary": {
+    "keyword": "cargador bici electrica",
+    "volume": 210,
+    "kd": 10,
+    "intent": "I"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cargador bicicleta electrica",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargadores bicicletas electricas",
+     "volume": 170,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargador de bicicleta eléctrica",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargador batería bicicleta eléctrica",
+     "volume": 50,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   {
-   "keyword": "bicicleta electrica media markt",
-   "intent": "T",
-   "volume": 320,
-   "kd": 27
-  },
-  {
-   "keyword": "bicicleta eléctrica el corte inglés",
-   "intent": "T",
-   "volume": 320,
-   "kd": 30
-  },
-  {
-   "keyword": "e bike cube",
-   "intent": "C",
-   "volume": 320,
-   "kd": 25
-  },
-  {
-   "keyword": "bicicleta electrica tipo moto",
-   "intent": "T",
-   "volume": 320,
-   "kd": 7
-  },
-  {
-   "keyword": "ebike bh",
-   "intent": "T",
-   "volume": 320,
-   "kd": 30
-  },
-  {
-   "keyword": "e bike cannondale",
-   "intent": "T",
-   "volume": 320,
-   "kd": 25
-  },
-  {
-   "keyword": "bicicleta electrica barata y buena",
-   "intent": "C",
-   "volume": 260,
-   "kd": 10
-  },
-  {
-   "keyword": "bici electrica plegable barata",
-   "intent": "C",
-   "volume": 260,
-   "kd": 19
-  },
-  {
-   "keyword": "bicicleta eléctrica precio",
-   "intent": "T",
-   "volume": 260,
-   "kd": 15
-  },
-  {
-   "keyword": "precio bicicleta eléctrica",
-   "intent": "T",
-   "volume": 260,
-   "kd": 19
-  },
-  {
-   "keyword": "bicicleta electrica oferta",
-   "intent": "C",
-   "volume": 260,
-   "kd": 14
-  },
-  {
-   "keyword": "precios de bici electrica",
-   "intent": "T",
-   "volume": 260,
-   "kd": 29
+   "url": "/accesorios/lluvia-ropa/",
+   "type": "accessory",
+   "name": "Lluvia & ropa",
+   "primary": {
+    "keyword": "culottes mtb",
+    "volume": 140,
+    "kd": 9,
+    "intent": "C"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "funda movil bicicleta",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "funda movil bici",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   }
  ]
 }

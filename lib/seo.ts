@@ -19,6 +19,9 @@ export interface KeywordPage {
   name: string;
   primary: KeywordRef;
   secondary: KeywordRef[];
+  faq?: KeywordRef[];
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 const BANK: Record<string, { pages: KeywordPage[] }> = {
