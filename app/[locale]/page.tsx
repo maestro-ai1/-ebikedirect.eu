@@ -6,6 +6,7 @@ import { BrandStrip } from '@/components/home/brand-strip';
 import { CategoryTiles } from '@/components/home/category-tiles';
 import { ServiceBand } from '@/components/home/service-band';
 import { GuideTeaser } from '@/components/home/guide-teaser';
+import { HomeFaq } from '@/components/home/home-faq';
 import { isLocale, DEFAULT_LOCALE, MESSAGES, getLocalizedPath } from '@/lib/i18n';
 import { PRODUCTS } from '@/lib/products';
 import { getKeywordPage, buildTitle } from '@/lib/seo';
@@ -43,6 +44,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <TrustpilotWidget />
       <GuideTeaser locale={locale} />
       <BrandStrip locale={locale} />
+      {locale === 'de' && <HomeFaq />}
     </>
   );
 }

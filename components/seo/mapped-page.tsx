@@ -13,6 +13,8 @@ import { ProductCard } from '@/components/shop/product-card';
 import { CatalogNav } from '@/components/shop/catalog-nav';
 import { productFocusKeyword } from '@/lib/product-keywords';
 import { familiesOfBrand } from '@/lib/families';
+import { buildMappedFaqs } from '@/lib/mapped-faq';
+import { FaqAccordion } from '@/components/ui/faq-accordion';
 
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
@@ -83,6 +85,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
   if (pageNum < 1 || pageNum > total) notFound();
   const items = all.slice((pageNum - 1) * PER_PAGE, pageNum * PER_PAGE);
   const first = pageNum === 1;
+  const faqs = first ? buildMappedFaqs(def, page.name, (page.faq || []).slice(0, 5).map((k) => k.keyword), all) : [];
   const h1base = capitalize(page.primary.keyword);
   const h1 = first ? h1base : `${h1base}: Seite ${pageNum}`;
   const banner = BANNERS[path];
@@ -189,6 +192,14 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {faqs.length > 0 && (
+          <section aria-labelledby="faq" className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 space-y-4">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }) }} />
+            <h2 id="faq" className="text-xl font-black text-[#131A22]">Häufige Fragen: {page.name}</h2>
+            <FaqAccordion items={faqs} />
           </section>
         )}
 
