@@ -13,6 +13,7 @@ export const CATEGORY_LABEL: Record<Product['category'], string> = {
   'Cargo-E-Bike': 'Cargo-E-Bike',
   'Falt-E-Bike': 'Falt-E-Bike',
   'E-Gravel': 'E-Gravel-Bike',
+  'E-Kinder': 'Kinder-E-Bike',
   'Zubehör': 'Zubehör'
 };
 
@@ -24,6 +25,7 @@ export const CATEGORY_PATH: Record<string, string> = {
   'Cargo-E-Bike': '/e-bikes/cargo-bikes',
   'Falt-E-Bike': '/e-bikes/falt-e-bikes',
   'E-Gravel': '/e-bikes/e-rennrad-gravel',
+  'E-Kinder': '/e-bikes/kinder-jugend',
   'Zubehör': '/zubehoer'
 };
 
@@ -65,6 +67,7 @@ const CATEGORY_TEXT: Record<string, string> = {
   'Speed-Pedelec': 'S-Pedelecs unterstützen bis 45 km/h und gelten rechtlich als Kleinkrafträder. Dafür sind ein Versicherungskennzeichen, mindestens der Führerschein der Klasse AM und ein Helm nötig. Sie sind die schnellste Art, mit Muskelkraft und Motor längere Pendelstrecken in kurzer Zeit zu fahren.',
   'Cargo-E-Bike': 'Cargo-E-Bikes transportieren Kinder, Einkäufe oder Lasten mit Motorunterstützung. Der lange Radstand und der stabile Rahmen sorgen für sicheren Stand, der Motor gleicht das Gewicht aus. Sie ersetzen im Alltag oft ein Zweitauto auf kurzen Strecken.',
   'Falt-E-Bike': 'Falt-E-Bikes lassen sich klein zusammenlegen und passen in Bahn, Kofferraum oder Wohnung. Kleine Laufräder und ein kompakter Rahmen machen sie wendig in der Stadt, der Motor unterstützt auch bei Anstiegen und Gegenwind.',
+  'E-Kinder': 'Kinder- und Jugend-E-Bikes haben einen kleineren Rahmen, kleinere Laufräder und einen sanft einsetzenden Motor, damit Kinder ab dem Schulalter sicher mit Unterstützung fahren. Wichtig sind ein niedriges Gewicht, zuverlässige Bremsen und die richtige Rahmengröße. Der Akku ist meist kleiner als bei Erwachsenenrädern, was das Rad leicht hält.',
   'E-Gravel': 'E-Rennräder und E-Gravelbikes verbinden einen leichten Rahmen mit Rennlenker, schmalen bis mittelbreiten Reifen und einem kompakten Motor. Sie sind schneller und sportlicher als ein Trekkingrad und eignen sich für Asphalt, Feldwege und lange Touren. Viele Modelle haben einen kleinen, leichten Akku, damit das Fahrgefühl eines normalen Rennrads erhalten bleibt.',
 };
 
@@ -75,6 +78,7 @@ const WHO_TEXT: Record<string, string> = {
   'Speed-Pedelec': 'Das Modell passt zu Pendlern, die längere Strecken zügig fahren möchten und die rechtlichen Voraussetzungen für ein S-Pedelec erfüllen.',
   'Cargo-E-Bike': 'Das Modell passt zu Familien und Gewerbetreibenden, die Kinder oder Lasten sicher mit dem Rad transportieren möchten.',
   'Falt-E-Bike': 'Das Modell passt zu Menschen, die Bahn, Auto und Rad kombinieren und wenig Platz zum Abstellen haben.',
+  'E-Kinder': 'Das Modell passt zu Kindern und Jugendlichen, die mit Motorunterstützung sicher Rad fahren möchten, und zu Eltern, die auf Gewicht, Bremsen und die passende Rahmengröße achten.',
   'E-Gravel': 'Das Modell passt zu sportlichen Fahrerinnen und Fahrern, die längere Strecken auf Asphalt und Schotter fahren möchten und dabei Unterstützung am Berg und bei Gegenwind schätzen.',
 };
 

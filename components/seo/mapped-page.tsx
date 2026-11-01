@@ -25,6 +25,7 @@ const BANNERS: Record<string, string> = {
   '/e-bikes/cargo-bikes': 'cargo-e-bike-kaufen',
   '/e-bikes/falt-e-bikes': 'falt-e-bike-kaufen',
   '/e-bikes/e-rennrad-gravel': 'e-rennrad-gravel-kaufen',
+  '/e-bikes/kinder-jugend': 'kinder-e-bike-kaufen',
   '/zubehoer': 'e-bike-zubehoer-kaufen'
 };
 
@@ -95,7 +96,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
   const crumbs = [...parent, { label: page.name, href: path }, ...(first ? [] : [{ label: `Seite ${pageNum}`, href: listingUrl(path, pageNum) }])];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
   const ACC = MAPPED_PAGES.filter((m) => m.type === 'accessory').map((m) => m.path);
-  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? MAPPED_PAGES.filter((m) => m.type === 'brand' && (m.brand || m.motor)).map((m) => m.path) : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes', '/e-bikes/e-rennrad-gravel'])
+  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? MAPPED_PAGES.filter((m) => m.type === 'brand' && (m.brand || m.motor)).map((m) => m.path) : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes', '/e-bikes/e-rennrad-gravel', '/e-bikes/kinder-jugend'])
     .filter((s) => s !== path)
     .map((s) => ({ path: s, name: pageFor(s)?.name || getKeywordPage('de', s)?.name || s }));
 

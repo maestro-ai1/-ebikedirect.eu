@@ -932,6 +932,76 @@
    "secondary": [],
    "faq": []
   },
+  "woom-explore-e-6-171-wh-26-zoll": {
+   "name": "Woom Explore e 6",
+   "brand": "Woom",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "woom explore e 6 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "woom-explore-e-5-171-wh-24-zoll": {
+   "name": "Woom Explore e 5",
+   "brand": "Woom",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "woom explore e 5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-mini-me-sx-24-400-wh-24-zoll": {
+   "name": "KTM Macina Mini Me SX 24",
+   "brand": "KTM",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "ktm macina mini me sx 24 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll": {
+   "name": "Cube Acid 240 Hybrid Rookie Pro 400x",
+   "brand": "Cube",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "cube acid 240 hybrid rookie pro 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll": {
+   "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
+   "brand": "Cube",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "cube acid 240 hybrid rookie slx 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
   "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll": {
    "name": "Cube Kathmandu Hybrid 750 45 km/h",
    "brand": "Cube",
@@ -1905,20 +1975,6 @@
    "secondary": [],
    "faq": []
   },
-  "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll": {
-   "name": "Cube Acid 240 Hybrid Rookie Pro 400x",
-   "brand": "Cube",
-   "category": "E-MTB",
-   "primary": {
-    "keyword": "cube acid 240 hybrid rookie pro 400x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
   "cube-stereo-hybrid-one44-hpc-pro-800-800-wh-29-zoll": {
    "name": "Cube Stereo Hybrid ONE44 HPC Pro 800 800 Wh 29 Zoll",
    "brand": "Cube",
@@ -1939,20 +1995,6 @@
    "category": "E-MTB",
    "primary": {
     "keyword": "cube reaction hybrid performance 720 720 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll": {
-   "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
-   "brand": "Cube",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "cube acid 240 hybrid rookie slx 400x kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -5538,20 +5580,6 @@
    "category": "E-MTB",
    "primary": {
     "keyword": "ktm macina prowler prestige cx-r di2 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "ktm-macina-mini-me-sx-24-400-wh-24-zoll": {
-   "name": "KTM Macina Mini Me SX 24",
-   "brand": "KTM",
-   "category": "E-MTB",
-   "primary": {
-    "keyword": "ktm macina mini me sx 24 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",

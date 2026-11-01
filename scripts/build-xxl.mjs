@@ -13,7 +13,7 @@ const SKIP = new Set([
   'specialized-turbo-creo-sl-e5-comp-320-wh-28-zoll', // road/gravel e-bike: no matching category yet
   'brompton-electric-g-line-e-motiq-urban-demo-345-wh-20-zoll', // demo unit
 ]);
-const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec', 'E-Gravel': 'E-Gravel-Bike', 'Falt-E-Bike': 'Klapp E-Bike' };
+const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec', 'E-Gravel': 'E-Gravel-Bike', 'E-Kinder': 'Kinder-E-Bike', 'Falt-E-Bike': 'Klapp E-Bike' };
 const slugKey = (s) => s;
 const q2 = (n) => Math.round(n * 100) / 100;
 const numOf = (s) => { const m = String(s || '').match(/(\d{2,3})\s*Nm/i); return m ? Number(m[1]) : 0; };
@@ -38,6 +38,8 @@ const MTB = /fully|hardtail|trail|enduro|reaction|stereo|levo|kenevo|\bwild\b|\b
 function inferCat(m) {
   const t = m.name + ' ' + m.parts.join(' ');
   if (m.brand === 'Brompton' || /\bfold\b|falt/i.test(t)) return 'Falt-E-Bike';
+  if (m._catrun && m.cat === 'E-Kinder') return 'E-Kinder';
+  if (/mini me|rookie|woom|acid 240/i.test(t)) return 'E-Kinder';
   if (m._catrun && m.cat === 'E-Gravel') return 'E-Gravel';
   if (ROAD.test(t)) return 'E-Gravel';
   if (CARGO_BRANDS.has(m.brand) || CARGO.test(t)) return 'Cargo-E-Bike';

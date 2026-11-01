@@ -2395,6 +2395,279 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
+    "id": "woom-explore-e-6-171-wh-26-zoll",
+    "slug": "woom-explore-e-6-171-wh-26-zoll",
+    "name": "Woom Explore e 6",
+    "brand": "Woom",
+    "category": "E-Kinder",
+    "price": 1839.76,
+    "originalPrice": 1849,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Mahle X20 Hinterradmotor",
+    "torqueNm": 50,
+    "batteryStandardWh": 171,
+    "rangeKm": 0,
+    "weightKg": 13.2,
+    "image": "/products/woom-explore-e-6-171-wh-26-zoll/woom-explore-e-6-171-wh-26-zoll-v1-1.webp",
+    "gallery": [
+      "/products/woom-explore-e-6-171-wh-26-zoll/woom-explore-e-6-171-wh-26-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Kinder-E-Bike mit Mahle X20 Hinterradmotor, 171 Wh Akku, 8-Gang Kettenschaltung.",
+    "description": "Das Woom Explore e 6 ist ein Kinder-E-Bike von Woom. Es hat Mahle X20 Hinterradmotor und einen 171 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Kettenschaltung. Die Bremsanlage: hydraulische Flatmount-Scheibenbremsen von Promax.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 171 Wh",
+          "capacityWh": 171,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Mahle X20 Hinterradmotor 250 Watt",
+      "Drehmoment": "50 Nm",
+      "Akku": "Mahle 171Wh Akku",
+      "Schaltung": "8-Gang Kettenschaltung",
+      "Bremsen": "hydraulische Flatmount-Scheibenbremsen von Promax",
+      "Gabel": "Leichte Unicrown-Gabel aus Aluminium",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Billy Bonkers 26x2.0 Zoll, Faltreifen mit Reflexstreifen",
+      "Laufradgröße": "26 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "woom-explore-e-5-171-wh-24-zoll",
+    "slug": "woom-explore-e-5-171-wh-24-zoll",
+    "name": "Woom Explore e 5",
+    "brand": "Woom",
+    "category": "E-Kinder",
+    "price": 1740.26,
+    "originalPrice": 1749,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Mahle X20 Hinterradmotor",
+    "torqueNm": 50,
+    "batteryStandardWh": 171,
+    "rangeKm": 0,
+    "weightKg": 12.7,
+    "image": "/products/woom-explore-e-5-171-wh-24-zoll/woom-explore-e-5-171-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/woom-explore-e-5-171-wh-24-zoll/woom-explore-e-5-171-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Kinder-E-Bike mit Mahle X20 Hinterradmotor, 171 Wh Akku, 8-Gang Kettenschaltung.",
+    "description": "Das Woom Explore e 5 ist ein Kinder-E-Bike von Woom. Es hat Mahle X20 Hinterradmotor und einen 171 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 8-Gang Kettenschaltung. Die Bremsanlage: hydraulische Flatmount-Scheibenbremsen von Promax.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 171 Wh",
+          "capacityWh": 171,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Mahle X20 Hinterradmotor 250 Watt",
+      "Drehmoment": "50 Nm",
+      "Akku": "Mahle 171Wh Akku",
+      "Schaltung": "8-Gang Kettenschaltung",
+      "Bremsen": "hydraulische Flatmount-Scheibenbremsen von Promax",
+      "Gabel": "Leichte Unicrown-Gabel aus Aluminium",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Billy Bonkers 24x2.0 Zoll, Faltreifen mit Reflexstreifen",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-mini-me-sx-24-400-wh-24-zoll",
+    "slug": "ktm-macina-mini-me-sx-24-400-wh-24-zoll",
+    "name": "KTM Macina Mini Me SX 24",
+    "brand": "KTM",
+    "category": "E-Kinder",
+    "price": 3183.01,
+    "originalPrice": 3199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 17.2,
+    "image": "/products/ktm-macina-mini-me-sx-24-400-wh-24-zoll/ktm-macina-mini-me-sx-24-400-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-mini-me-sx-24-400-wh-24-zoll/ktm-macina-mini-me-sx-24-400-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Kinder-E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Mini Me SX 24 ist ein Kinder-E-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT201 / MT200 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Display": "Bosch INTUVIA 100 LCD Display",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT201 / MT200 2-Kolben",
+      "Gabel": "Suntour XCR 34 Air 24&quot; LOR 80mm 15x110",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rekon 57-507",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll",
+    "slug": "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll",
+    "name": "Cube Acid 240 Hybrid Rookie Pro 400x",
+    "brand": "Cube",
+    "category": "E-Kinder",
+    "price": 2188.01,
+    "originalPrice": 2199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 17.6,
+    "image": "/products/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Kinder-E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Cube Acid 240 Hybrid Rookie Pro 400x ist ein Kinder-E-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
+      "Gabel": "Suntour XCT DS, Straight, Federweg: 80mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Rocket Ron Kevlar, 2.1",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll",
+    "slug": "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll",
+    "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
+    "brand": "Cube",
+    "category": "E-Kinder",
+    "price": 2486.51,
+    "originalPrice": 2499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 18.2,
+    "image": "/products/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Kinder-E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Cube Acid 240 Hybrid Rookie SLX 400x ist ein Kinder-E-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT Thirty, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch Purion 200 mit integrierten Display",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Magura MT Thirty, hydraulische Scheibenbremse",
+      "Gabel": "Suntour Raidon34 2CR Air, Tapered, 15x110, Federweg: 80mm",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Schwalbe Hans Dampf, Addix Performance, Kevlar, 2.35",
+      "Laufradgröße": "24 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
     "slug": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
     "name": "Cube Kathmandu Hybrid 750 45 km/h",
@@ -5693,61 +5966,6 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
-    "id": "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll",
-    "slug": "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll",
-    "name": "Cube Acid 240 Hybrid Rookie Pro 400x",
-    "brand": "Cube",
-    "category": "E-MTB",
-    "price": 2188.01,
-    "originalPrice": 2199,
-    "inStock": true,
-    "stockCount": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "motor": "Bosch Performance Line SX Smart",
-    "torqueNm": 55,
-    "batteryStandardWh": 400,
-    "rangeKm": 0,
-    "weightKg": 17.6,
-    "image": "/products/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll-v1-1.webp",
-    "gallery": [
-      "/products/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll-v1-1.webp"
-    ],
-    "shortDescription": "E-Mountainbike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das Cube Acid 240 Hybrid Rookie Pro 400x ist ein E-Mountainbike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
-    "options": {
-      "frameSizes": [
-        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
-      ],
-      "batteries": [
-        {
-          "label": "Akku 400 Wh",
-          "capacityWh": 400,
-          "priceDelta": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
-          "hex": "#888888"
-        }
-      ]
-    },
-    "specs": {
-      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
-      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
-      "Akku": "Bosch CompactTube 400",
-      "Display": "Bosch Purion 200 mit integrierten Display",
-      "Schaltung": "9-Gang Kettenschaltung",
-      "Bremsen": "Shimano BR-MT200, hydraulische Scheibenbremse",
-      "Gabel": "Suntour XCT DS, Straight, Federweg: 80mm",
-      "Rahmen": "Aluminium, Diamant",
-      "Reifen": "Schwalbe Rocket Ron Kevlar, 2.1",
-      "Laufradgröße": "24 Zoll"
-    },
-    "isFeatured": false
-  },
-  {
     "id": "cube-stereo-hybrid-one44-hpc-pro-800-800-wh-29-zoll",
     "slug": "cube-stereo-hybrid-one44-hpc-pro-800-800-wh-29-zoll",
     "name": "Cube Stereo Hybrid ONE44 HPC Pro 800 800 Wh 29 Zoll",
@@ -5853,61 +6071,6 @@ export const XXL_PRODUCTS: Product[] = [
       "Rahmen": "Aluminium, Diamant",
       "Reifen": "Schwalbe Smart Sam, Active, 2.6",
       "Laufradgröße": "29 Zoll"
-    },
-    "isFeatured": false
-  },
-  {
-    "id": "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll",
-    "slug": "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll",
-    "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
-    "brand": "Cube",
-    "category": "E-Trekking",
-    "price": 2486.51,
-    "originalPrice": 2499,
-    "inStock": true,
-    "stockCount": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "motor": "Bosch Performance Line SX Smart",
-    "torqueNm": 55,
-    "batteryStandardWh": 400,
-    "rangeKm": 0,
-    "weightKg": 18.2,
-    "image": "/products/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll-v1-1.webp",
-    "gallery": [
-      "/products/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll/cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll-v1-1.webp"
-    ],
-    "shortDescription": "Trekking E-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
-    "description": "Das Cube Acid 240 Hybrid Rookie SLX 400x ist ein Trekking E-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Magura MT Thirty, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
-    "options": {
-      "frameSizes": [
-        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
-      ],
-      "batteries": [
-        {
-          "label": "Akku 400 Wh",
-          "capacityWh": 400,
-          "priceDelta": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
-          "hex": "#888888"
-        }
-      ]
-    },
-    "specs": {
-      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
-      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
-      "Akku": "Bosch CompactTube 400",
-      "Display": "Bosch Purion 200 mit integrierten Display",
-      "Schaltung": "11-Gang Kettenschaltung",
-      "Bremsen": "Magura MT Thirty, hydraulische Scheibenbremse",
-      "Gabel": "Suntour Raidon34 2CR Air, Tapered, 15x110, Federweg: 80mm",
-      "Rahmen": "Aluminium, Diamant",
-      "Reifen": "Schwalbe Hans Dampf, Addix Performance, Kevlar, 2.35",
-      "Laufradgröße": "24 Zoll"
     },
     "isFeatured": false
   },
@@ -18965,61 +19128,6 @@ export const XXL_PRODUCTS: Product[] = [
       "Rahmen": "Carbon, Fully",
       "Reifen": "Schwalbe Magic Mary Evo SuperTrail TLE 65-622",
       "Laufradgröße": "27,5 Zoll"
-    },
-    "isFeatured": false
-  },
-  {
-    "id": "ktm-macina-mini-me-sx-24-400-wh-24-zoll",
-    "slug": "ktm-macina-mini-me-sx-24-400-wh-24-zoll",
-    "name": "KTM Macina Mini Me SX 24",
-    "brand": "KTM",
-    "category": "E-MTB",
-    "price": 3183.01,
-    "originalPrice": 3199,
-    "inStock": true,
-    "stockCount": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "motor": "Bosch Performance Line SX Smart",
-    "torqueNm": 55,
-    "batteryStandardWh": 400,
-    "rangeKm": 0,
-    "weightKg": 17.2,
-    "image": "/products/ktm-macina-mini-me-sx-24-400-wh-24-zoll/ktm-macina-mini-me-sx-24-400-wh-24-zoll-v1-1.webp",
-    "gallery": [
-      "/products/ktm-macina-mini-me-sx-24-400-wh-24-zoll/ktm-macina-mini-me-sx-24-400-wh-24-zoll-v1-1.webp"
-    ],
-    "shortDescription": "E-Mountainbike mit Bosch Performance Line SX Smart, 400 Wh Akku, 9-Gang Kettenschaltung.",
-    "description": "Das KTM Macina Mini Me SX 24 ist ein E-Mountainbike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT201 / MT200 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
-    "options": {
-      "frameSizes": [
-        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
-      ],
-      "batteries": [
-        {
-          "label": "Akku 400 Wh",
-          "capacityWh": 400,
-          "priceDelta": 0
-        }
-      ],
-      "colors": [
-        {
-          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
-          "hex": "#888888"
-        }
-      ]
-    },
-    "specs": {
-      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
-      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
-      "Akku": "Bosch CompactTUBE 400Wh",
-      "Display": "Bosch INTUVIA 100 LCD Display",
-      "Schaltung": "9-Gang Kettenschaltung",
-      "Bremsen": "Shimano MT201 / MT200 2-Kolben",
-      "Gabel": "Suntour XCR 34 Air 24&quot; LOR 80mm 15x110",
-      "Rahmen": "Aluminium, Diamant",
-      "Reifen": "Maxxis Rekon 57-507",
-      "Laufradgröße": "24 Zoll"
     },
     "isFeatured": false
   },

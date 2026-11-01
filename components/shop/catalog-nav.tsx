@@ -13,6 +13,7 @@ const CATEGORY_LINKS = [
   { path: '/e-bikes/cargo-bikes', label: 'Cargo-E-Bikes' },
   { path: '/e-bikes/falt-e-bikes', label: 'Falt-E-Bikes' },
   { path: '/e-bikes/e-rennrad-gravel', label: 'E-Rennrad & Gravel' },
+  { path: '/e-bikes/kinder-jugend', label: 'Kinder- & Jugend-E-Bikes' },
   { path: '/zubehoer', label: 'Zubehör' }
 ];
 
