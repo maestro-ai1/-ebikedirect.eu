@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { PRODUCTS } from '@/lib/products';
 import { ProductJsonLd } from '@/components/seo/json-ld';
+import { ProductLinks } from '@/components/seo/product-links';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { ProductDetailClient } from './product-client';
 
@@ -71,6 +72,7 @@ export default async function ProductDetailPage({ params }: Props) {
         ]}
       />
       <ProductDetailClient product={product} />
+      {product.category !== 'Zubehör' && <ProductLinks brand={product.brand} category={product.category} motor={product.motor} />}
     </>
   );
 }
