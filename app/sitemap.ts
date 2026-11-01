@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { PRODUCTS } from '@/lib/products';
 import { localesForPath, getLocalizedPath, getHreflangAlternates } from '@/lib/i18n';
 import { getAllPosts } from '@/lib/blog-content';
-import { MAPPED_PAGES } from '@/lib/mapped-pages';
+import { MAPPED_PAGES, listingPageCount, listingUrl } from '@/lib/mapped-pages';
 
 type Entry = { path: string; priority: number; changeFrequency: 'daily' | 'weekly' | 'monthly' };
 
@@ -30,6 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getAllPosts().map((p): Entry => ({ path: `/blog/${p.slug}`, priority: 0.8, changeFrequency: 'monthly' })),
     ...Array.from({ length: Math.max(0, Math.ceil(getAllPosts().length / 12) - 1) }, (_, i): Entry => ({ path: `/blog/page/${i + 2}`, priority: 0.5, changeFrequency: 'weekly' })),
     ...MAPPED_PAGES.map((p): Entry => ({ path: p.path, priority: p.type === 'category' ? 0.9 : 0.8, changeFrequency: 'weekly' })),
+    // numbered listing pages (9 products per page): page 2 onward
+    ...MAPPED_PAGES.flatMap((p) =>
+      Array.from({ length: Math.max(0, listingPageCount(p.path) - 1) }, (_, i): Entry => ({ path: listingUrl(p.path, i + 2), priority: 0.5, changeFrequency: 'weekly' }))
+    ),
   ];
 
   return routes.flatMap((route) => {

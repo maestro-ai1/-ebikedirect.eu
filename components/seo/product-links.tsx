@@ -19,7 +19,15 @@ const BRAND_SITES: Record<string, { label: string; href: string }> = {
   Brompton: { label: 'Brompton: Hersteller', href: 'https://brompton.com/' },
   Babboe: { label: 'Babboe: Hersteller', href: 'https://babboe.com/' },
   'Urban Arrow': { label: 'Urban Arrow: Hersteller', href: 'https://www.urbanarrow.com/' },
-  Flyer: { label: 'Flyer: Hersteller', href: 'https://www.flyer-bikes.com/' }
+  Flyer: { label: 'Flyer: Hersteller', href: 'https://www.flyer-bikes.com/' },
+  Kettler: { label: 'Kettler Alu-Rad: Hersteller', href: 'https://www.kettler-alu-rad.de/' },
+  Hercules: { label: 'Hercules: Hersteller', href: 'https://www.hercules-bikes.de/' },
+  Conway: { label: 'Conway: Hersteller', href: 'https://www.conway-bikes.de/' },
+  Koga: { label: 'Koga: Hersteller', href: 'https://www.koga.com/' },
+  Bergamont: { label: 'Bergamont: Hersteller', href: 'https://www.bergamont.com/' },
+  Cannondale: { label: 'Cannondale: Hersteller', href: 'https://www.cannondale.com/de-de' },
+  Scott: { label: 'Scott Sports: Hersteller', href: 'https://www.scott-sports.com/de/de' },
+  Merida: { label: 'Merida: Hersteller', href: 'https://www.merida-bikes.com/de-de' }
 };
 
 export function ProductLinks({ brand, category, motor }: { brand: string; category: string; motor: string }) {

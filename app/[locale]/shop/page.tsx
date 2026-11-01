@@ -19,6 +19,7 @@ import {
   ChevronRight
 } from '@/components/ui/icons';
 import { PRODUCTS } from '@/lib/products';
+import { ProductCard } from '@/components/shop/product-card';
 import { Product } from '@/lib/types';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { useCart } from '@/context/cart-context';
@@ -47,10 +48,10 @@ function ShopContent() {
   const [onlyInStock, setOnlyInStock] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc' | 'rating'>('featured');
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 9;
 
   const categories = ['all', 'E-MTB', 'E-Trekking', 'E-City', 'Speed-Pedelec', 'Cargo-E-Bike', 'Falt-E-Bike', 'Zubehör'];
-  const brands = ['all', 'Cube', 'Specialized', 'Riese & Müller', 'Haibike', 'Kalkhoff', 'Gazelle', 'Tenways', 'Focus', 'Winora', 'Ghost', 'KTM', 'Trek', 'Giant', 'ABUS'];
+  const brands = ['all', ...Array.from(new Set(PRODUCTS.filter((p) => p.category !== 'Zubehör').map((p) => p.brand))).sort((a, b) => a.localeCompare(b, 'de'))];
   const motors = ['all', 'Bosch', 'Shimano', 'Yamaha', 'Specialized'];
 
   // Filter products
@@ -307,7 +308,7 @@ function ShopContent() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {paginatedProducts.map((product) => (
-                  <ShopProductCard key={product.id} product={product} />
+                  <ProductCard key={product.id} product={product} alt={`${product.name} kaufen`} />
                 ))}
               </div>
             )}
@@ -351,131 +352,6 @@ function ShopContent() {
               </div>
             )}
           </main>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function ShopProductCard({ product }: { product: Product }) {
-  const router = useRouter();
-  const { addToCart } = useCart();
-  const [selectedFrame, setSelectedFrame] = useState(product.options.frameSizes[0]);
-  const [selectedBattery, setSelectedBattery] = useState(product.options.batteries[0]);
-  const [selectedColor, setSelectedColor] = useState(product.options.colors[0]);
-
-  const currentPrice = product.price + selectedBattery.priceDelta;
-  const cryptoPrice = currentPrice * 0.9;
-
-  return (
-    <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
-      {/* Top Image */}
-      <div className="relative aspect-4/3 bg-gray-100 overflow-hidden group">
-        <Link href={`/shop/${product.slug}`} className="block w-full h-full">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
-            referrerPolicy="no-referrer"
-          />
-        </Link>
-        <span className="absolute top-3 left-3 px-2 py-0.5 bg-[#131A22] text-white text-[10px] font-bold rounded">
-          {product.brand}
-        </span>
-        <span className="absolute top-3 right-3 px-2 py-0.5 bg-amber-50 border border-amber-300 text-amber-900 text-[10px] font-black rounded flex items-center gap-1">
-          <Bitcoin className="w-3 h-3 text-[#FF5722]" />
-          -10% Krypto
-        </span>
-      </div>
-
-      {/* Body */}
-      <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-        <div>
-          <div className="text-[11px] font-bold text-gray-500 uppercase">{product.category}</div>
-          <Link
-            href={`/shop/${product.slug}`}
-            className="text-sm font-bold text-[#131A22] hover:text-[#FF5722] transition-colors line-clamp-1 mt-0.5"
-          >
-            {product.name}
-          </Link>
-          <p className="text-xs text-gray-500 line-clamp-2 mt-1">
-            {product.shortDescription}
-          </p>
-        </div>
-
-        {/* Specs */}
-        <div className="grid grid-cols-2 gap-2 text-[11px] text-gray-600 bg-gray-50 p-2 rounded-md">
-          <div className="flex items-center gap-1 truncate">
-            <Gauge className="w-3.5 h-3.5 text-[#FF5722] shrink-0" />
-            <span className="truncate">{product.motor}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <Battery className="w-3.5 h-3.5 text-[#00C853] shrink-0" />
-            <span>{product.rangeKm > 0 ? `bis ${product.rangeKm} km` : product.batteryStandardWh > 0 ? `${product.batteryStandardWh} Wh Akku` : 'Akku siehe Daten'}</span>
-          </div>
-        </div>
-
-        {/* Option Selector: Frame Size */}
-        <div>
-          <label className="block text-[10px] font-semibold text-gray-600 mb-1">
-            Rahmen: <strong className="text-gray-900">{selectedFrame}</strong>
-          </label>
-          <div className="flex flex-wrap gap-1">
-            {product.options.frameSizes.map((size) => (
-              <button
-                key={size}
-                type="button"
-                onClick={() => setSelectedFrame(size)}
-                className={`px-2 py-0.5 text-[10px] rounded border transition-colors ${
-                  selectedFrame === size
-                    ? 'border-[#FF5722] bg-orange-50 text-[#FF5722] font-bold'
-                    : 'border-gray-200 text-gray-700 bg-white'
-                }`}
-              >
-                {size}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Pricing & Actions */}
-        <div className="pt-3 border-t border-gray-100 space-y-2">
-          <div className="flex items-baseline justify-between">
-            <div>
-              <div className="text-lg font-black text-[#131A22]">
-                {currentPrice.toLocaleString('de-DE', { minimumFractionDigits: 2 })} €
-              </div>
-              <div className="text-[10px] text-gray-400">inkl. 19% MwSt.</div>
-            </div>
-            <div className="text-right">
-              <div className="text-xs font-bold text-[#009624]">
-                {cryptoPrice.toLocaleString('de-DE', { minimumFractionDigits: 2 })} €
-              </div>
-              <div className="text-[9px] text-gray-400">mit 10% Krypto-Skonto</div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              onClick={() => addToCart(product, selectedFrame, selectedBattery, selectedColor, 1)}
-              className="py-2 px-2.5 rounded-lg border border-[#FF5722] text-[#FF5722] hover:bg-[#FF5722] hover:text-white text-xs font-bold transition-all flex items-center justify-center gap-1"
-            >
-              <ShoppingBag className="w-3.5 h-3.5" />
-              <span>Warenkorb</span>
-            </button>
-            <button
-              onClick={() => {
-                addToCart(product, selectedFrame, selectedBattery, selectedColor, 1);
-                router.push('/checkout');
-              }}
-              className="py-2 px-2.5 rounded-lg bg-[#FF5722] hover:bg-[#E64A19] text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-xs"
-            >
-              <Zap className="w-3.5 h-3.5" />
-              <span>Direkt Kaufen</span>
-            </button>
-          </div>
         </div>
       </div>
     </div>

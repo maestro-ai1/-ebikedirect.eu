@@ -1,4 +1,5 @@
 import type { Product } from '@/lib/types';
+import { PRODUCTS } from '@/lib/products';
 
 // Pages built from the approved-draft German keyword map (data/keywords/de.json).
 // Stock check: a page exists only when the catalogue really holds what it names.
@@ -13,7 +14,7 @@ export interface MappedPageDef {
   motor?: string; // regular expression source matched against product.motor (motor-maker hubs)
 }
 
-export const MAPPED_PAGES: MappedPageDef[] = [
+const STATIC_PAGES: MappedPageDef[] = [
   { path: '/e-bikes', type: 'category' },
   { path: '/e-bikes/e-mountainbikes', type: 'category', category: 'E-MTB' },
   { path: '/e-bikes/trekking-e-bikes', type: 'category', category: 'E-Trekking' },
@@ -50,7 +51,48 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/marken/yamaha-motor', type: 'brand', motor: 'yamaha' },
 ];
 
+/** URL slug of a brand: Riese & Müller -> riese-und-mueller. */
+export function brandSlug(brand: string): string {
+  return brand
+    .toLowerCase()
+    .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+    .replace(/&/g, ' und ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+// Every brand that has at least one bike in the catalogue gets its own hub page (stock is confirmed by the owner).
+const KNOWN = new Set(STATIC_PAGES.map((p) => p.path));
+const DYNAMIC_BRANDS = [...new Set(PRODUCTS.filter((p) => p.category !== 'Zubehör').map((p) => p.brand))]
+  .map((brand): MappedPageDef => ({ path: `/marken/${brandSlug(brand)}`, type: 'brand', brand }))
+  .filter((p) => !KNOWN.has(p.path));
+
+export const MAPPED_PAGES: MappedPageDef[] = [...STATIC_PAGES, ...DYNAMIC_BRANDS];
+
 export function getMappedPage(path: string): MappedPageDef | undefined {
   const p = path.replace(/\/$/, '') || '/';
   return MAPPED_PAGES.find((m) => m.path === p);
+}
+
+export const PER_PAGE = 9;
+
+/** Products shown on a mapped landing page (category, brand, motor maker or accessory group). */
+export function productsForPath(path: string): Product[] {
+  const def = getMappedPage(path);
+  if (!def) return [];
+  if (def.motor) return PRODUCTS.filter((p) => p.category !== 'Zubehör' && new RegExp(def.motor!, 'i').test(p.motor));
+  if (def.brand) return PRODUCTS.filter((p) => p.brand === def.brand);
+  if (def.accessory) return PRODUCTS.filter((p) => p.accessory === def.accessory);
+  if (def.type === 'accessory') return PRODUCTS.filter((p) => p.category === 'Zubehör');
+  if (def.category) return PRODUCTS.filter((p) => p.category === def.category);
+  return PRODUCTS.filter((p) => p.category !== 'Zubehör');
+}
+
+export function listingPageCount(path: string): number {
+  return Math.max(1, Math.ceil(productsForPath(path).length / PER_PAGE));
+}
+
+/** URL of listing page n (page 1 keeps the plain path). */
+export function listingUrl(path: string, n: number): string {
+  return n <= 1 ? path : `${path}/page/${n}`;
 }

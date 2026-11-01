@@ -50,6 +50,7 @@ export function ArticleBody({ body, locale }: { body: string; locale: Locale }) 
   const nodes: React.ReactNode[] = [];
   let i = 0;
   let k = 0;
+  let inFaq = false;
 
   while (i < lines.length) {
     const line = lines[i];
@@ -57,12 +58,30 @@ export function ArticleBody({ body, locale }: { body: string; locale: Locale }) 
 
     if (line.startsWith('## ')) {
       const text = line.replace(/^##\s+/, '').trim();
+      inFaq = /faq|häufige fragen/i.test(text);
       nodes.push(
         <h2 key={k++} id={slugify(text)} className="scroll-mt-24 text-xl sm:text-2xl font-black text-[#131A22] mt-10 mb-3 tracking-tight">
           {text}
         </h2>
       );
       i++; continue;
+    }
+    if (inFaq && line.startsWith('### ')) {
+      // FAQ question: click-to-open drop-down (native details element, answer stays in the HTML for search engines)
+      const question = line.replace(/^###\s+/, '').trim();
+      const answer: string[] = [];
+      i++;
+      while (i < lines.length && !/^#{2,3} /.test(lines[i])) { if (lines[i].trim()) answer.push(lines[i].trim()); i++; }
+      nodes.push(
+        <details key={k++} className="group border border-gray-200 rounded-xl bg-white my-2 open:shadow-xs">
+          <summary className="cursor-pointer list-none flex items-center justify-between gap-4 px-4 py-3 font-bold text-[#131A22] [&::-webkit-details-marker]:hidden">
+            <h3 className="text-base font-bold">{question}</h3>
+            <span aria-hidden="true" className="shrink-0 text-[#FF5722] text-xl leading-none transition-transform group-open:rotate-45">+</span>
+          </summary>
+          <div className="px-4 pb-4 text-gray-700 leading-relaxed">{renderInline(answer.join(' '), locale, `faq${k}`)}</div>
+        </details>
+      );
+      continue;
     }
     if (line.startsWith('### ')) {
       const text = line.replace(/^###\s+/, '').trim();

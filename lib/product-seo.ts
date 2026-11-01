@@ -30,7 +30,10 @@ const BRAND_PATH: Record<string, string> = {
   Kalkhoff: '/marken/kalkhoff', Gazelle: '/marken/gazelle', Canyon: '/marken/canyon', Tenways: '/marken/tenways', Focus: '/marken/focus',
   Winora: '/marken/winora', Ghost: '/marken/ghost', KTM: '/marken/ktm', Trek: '/marken/trek', Giant: '/marken/giant'
 };
-export const brandPath = (brand: string): string | undefined => BRAND_PATH[brand];
+// every brand with a bike in the catalogue has a hub page /marken/<slug>
+export const brandPath = (brand: string): string | undefined =>
+  BRAND_PATH[brand] ||
+  '/marken/' + brand.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/&/g, ' und ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 /** Title starts with the product name and ends with a power word; the longest variant that fits 60 characters wins. */
 export function productTitle(name: string): string {

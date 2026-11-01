@@ -79,7 +79,7 @@ function parseFile(file: string): Post {
     date: meta.date,
     updated: meta.updated || meta.date,
     readTime: `${Math.max(1, Math.round(words / 220))} Min. Lesezeit`,
-    cover: meta.cover || `/blog/covers/${slug}.svg`,
+    cover: meta.cover || `/blog/covers/${slug}.webp`,
     body,
     faqs: extractFaqs(body),
     words,

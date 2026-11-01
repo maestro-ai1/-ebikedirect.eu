@@ -4,44 +4,85 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { PRODUCTS } from '@/lib/products';
-import { getMappedPage } from '@/lib/mapped-pages';
-import { getKeywordPage, capitalize, buildTitle, buildDescription } from '@/lib/seo';
+import { getMappedPage, MAPPED_PAGES, productsForPath, listingPageCount, listingUrl, PER_PAGE } from '@/lib/mapped-pages';
+import { getKeywordPage, capitalize, buildTitle, buildDescription, type KeywordPage } from '@/lib/seo';
 import { getAllPosts } from '@/lib/blog-content';
 import { getLocalizedPath } from '@/lib/i18n';
 import { BRAND_LOGOS } from '@/lib/brand-logos';
 import { ProductCard } from '@/components/shop/product-card';
+import { CatalogNav } from '@/components/shop/catalog-nav';
 import { productFocusKeyword } from '@/lib/product-keywords';
 
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
-function productsFor(path: string) {
+// Colour lifestyle photo (1200 x 800) for the landing pages that have one.
+const BANNERS: Record<string, string> = {
+  '/e-bikes': 'e-bike-kaufen',
+  '/e-bikes/e-mountainbikes': 'e-mountainbike-kaufen',
+  '/e-bikes/trekking-e-bikes': 'trekking-e-bike-kaufen',
+  '/e-bikes/city-e-bikes': 'city-e-bike-kaufen',
+  '/e-bikes/s-pedelec': 's-pedelec-kaufen',
+  '/e-bikes/cargo-bikes': 'cargo-e-bike-kaufen',
+  '/e-bikes/falt-e-bikes': 'falt-e-bike-kaufen',
+  '/zubehoer': 'e-bike-zubehoer-kaufen'
+};
+
+// A brand hub without its own entry in the keyword map still gets a page (brand name plus "e-bike kaufen") until the map covers it.
+function pageFor(path: string): KeywordPage | null {
+  const found = getKeywordPage('de', path);
+  if (found && found.primary) return found;
   const def = getMappedPage(path);
-  if (!def) return [];
-  if (def.motor) return PRODUCTS.filter((p) => p.category !== 'Zubehör' && new RegExp(def.motor!, 'i').test(p.motor));
-  if (def.brand) return PRODUCTS.filter((p) => p.brand === def.brand);
-  if (def.accessory) return PRODUCTS.filter((p) => p.accessory === def.accessory);
-  if (def.type === 'accessory') return PRODUCTS.filter((p) => p.category === 'Zubehör');
-  if (def.category) return PRODUCTS.filter((p) => p.category === def.category);
-  return PRODUCTS.filter((p) => p.category !== 'Zubehör');
+  if (!def || !def.brand) return null;
+  return { url: path, type: 'brand', name: def.brand, primary: { keyword: `${def.brand.toLowerCase()} e-bike kaufen`, volume: 0, kd: null, intent: 'T' }, secondary: [] };
 }
 
-export function mappedMetadata(path: string): Metadata {
-  const page = getKeywordPage('de', path);
-  if (!page || !getMappedPage(path)) return { title: 'Seite nicht gefunden' };
-  return {
-    title: { absolute: buildTitle('de', page.primary.keyword) },
-    description: buildDescription('de', page.primary.keyword),
-  };
+export function mappedMetadata(path: string, pageNum = 1): Metadata {
+  const page = pageFor(path);
+  if (!page || !page.primary || !getMappedPage(path)) return { title: 'Seite nicht gefunden' };
+  if (pageNum <= 1) {
+    return {
+      title: { absolute: page.metaTitle || buildTitle('de', page.primary.keyword) },
+      description: page.metaDescription || buildDescription('de', page.primary.keyword),
+    };
+  }
+  // page 2 onward: own title and description, no repetition of page 1 copy
+  const total = listingPageCount(path);
+  const head = `${capitalize(page.primary.keyword)}: Seite ${pageNum}`;
+  const title = `${head} | ebikedirect.eu`.length <= 60 ? `${head} | ebikedirect.eu` : `${page.name}: Seite ${pageNum} | ebikedirect.eu`.slice(0, 60);
+  let description = `${page.name}, Seite ${pageNum} von ${total}: weitere lieferbare Modelle mit Preis, Motor und Akku. Jetzt vergleichen und bei ebikedirect.eu online bestellen.`;
+  if (description.length > 158) description = `${page.name}, Seite ${pageNum} von ${total}: weitere Modelle mit Preis, Motor und Akku. Jetzt online bestellen.`;
+  if (description.length < 110) description += ' Lieferung per Spedition, 2 Jahre Garantie.';
+  return { title: { absolute: title }, description };
 }
 
-export function MappedPage({ path }: { path: string }) {
-  const def = getMappedPage(path);
-  const page = getKeywordPage('de', path);
-  if (!def || !page) notFound();
+function Pagination({ path, page, total }: { path: string; page: number; total: number }) {
+  if (total <= 1) return null;
+  const nums = Array.from({ length: total }, (_, i) => i + 1);
+  const item = 'inline-flex items-center justify-center min-w-10 h-10 px-3 rounded-lg border text-sm font-bold';
+  return (
+    <nav aria-label="Seitennavigation" className="flex flex-wrap items-center justify-center gap-2 pt-4">
+      {page > 1 && <Link href={listingUrl(path, page - 1)} rel="prev" className={`${item} border-gray-300 bg-white text-[#131A22] hover:border-[#131A22]`}>Zurück</Link>}
+      {nums.map((n) => (
+        <Link key={n} href={listingUrl(path, n)} aria-current={n === page ? 'page' : undefined} aria-label={`Seite ${n}`} className={`${item} ${n === page ? 'border-[#FF5722] bg-[#FF5722] text-white' : 'border-gray-300 bg-white text-[#131A22] hover:border-[#131A22]'}`}>{n}</Link>
+      ))}
+      {page < total && <Link href={listingUrl(path, page + 1)} rel="next" className={`${item} border-gray-300 bg-white text-[#131A22] hover:border-[#131A22]`}>Weiter</Link>}
+    </nav>
+  );
+}
 
-  const items = productsFor(path);
-  const h1 = capitalize(page.primary.keyword);
+export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: number }) {
+  const def = getMappedPage(path);
+  const page = pageFor(path);
+  if (!def || !page || !page.primary) notFound();
+
+  const all = productsForPath(path);
+  const total = listingPageCount(path);
+  if (pageNum < 1 || pageNum > total) notFound();
+  const items = all.slice((pageNum - 1) * PER_PAGE, pageNum * PER_PAGE);
+  const first = pageNum === 1;
+  const h1base = capitalize(page.primary.keyword);
+  const h1 = first ? h1base : `${h1base}: Seite ${pageNum}`;
+  const banner = BANNERS[path];
   const parent =
     def.type === 'brand'
       ? [{ label: 'Marken', href: '/marken' }]
@@ -50,28 +91,41 @@ export function MappedPage({ path }: { path: string }) {
         : path === '/e-bikes'
           ? []
           : [{ label: 'E-Bikes', href: '/e-bikes' }];
+  const crumbs = [...parent, { label: page.name, href: path }, ...(first ? [] : [{ label: `Seite ${pageNum}`, href: listingUrl(path, pageNum) }])];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
-  const ACC = ['/zubehoer', '/zubehoer/schloesser', '/zubehoer/helme', '/zubehoer/taschen-koerbe', '/zubehoer/gepaecktraeger-anhaenger', '/zubehoer/schutzbleche-staender', '/zubehoer/handyhalter', '/zubehoer/werkzeug-pflege', '/zubehoer/regenschutz-bekleidung', '/zubehoer/beleuchtung', '/zubehoer/sattel-lenker'];
-  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? ['/marken/cube', '/marken/specialized', '/marken/riese-und-mueller', '/marken/haibike', '/marken/kalkhoff', '/marken/gazelle', '/marken/bosch', '/marken/tenways', '/marken/focus', '/marken/winora', '/marken/ghost', '/marken/ktm', '/marken/trek', '/marken/giant'] : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes'])
+  const ACC = MAPPED_PAGES.filter((m) => m.type === 'accessory').map((m) => m.path);
+  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? MAPPED_PAGES.filter((m) => m.type === 'brand' && (m.brand || m.motor)).map((m) => m.path) : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes'])
     .filter((s) => s !== path)
-    .map((s) => ({ path: s, name: getKeywordPage('de', s)?.name || s }));
+    .map((s) => ({ path: s, name: pageFor(s)?.name || getKeywordPage('de', s)?.name || s }));
 
   return (
     <div className="bg-[#F8F9FA] pb-16">
-      <Breadcrumbs items={[...parent, { label: page.name, href: path }]} />
+      <Breadcrumbs items={crumbs} />
+      <CatalogNav current={path} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 space-y-10">
-        <header className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-10 space-y-3">
-          {def.type === 'brand' && BRAND_LOGOS.find((b) => b.name === def.brand) && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={BRAND_LOGOS.find((b) => b.name === def.brand)!.logo} alt={`${def.brand} Logo`} className="h-10 w-auto max-w-[220px] object-contain" />
+        <header className={`bg-white rounded-2xl border border-gray-200 overflow-hidden ${banner && first ? 'grid grid-cols-1 md:grid-cols-5' : ''}`}>
+          <div className={`p-8 sm:p-10 space-y-3 ${banner && first ? 'md:col-span-3' : ''}`}>
+            {def.type === 'brand' && BRAND_LOGOS.find((b) => b.name === def.brand) && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={BRAND_LOGOS.find((b) => b.name === def.brand)!.logo} alt={`${def.brand} Logo`} className="h-10 w-auto max-w-[220px] object-contain" />
+            )}
+            <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
+            <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
+            {first ? (
+              <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
+                {def.type === 'accessory'
+                  ? `${h1}: Hier finden Sie ${all.length === 1 ? 'den aktuell lieferbaren Artikel' : `die ${all.length} aktuell lieferbaren Artikel`} aus dem Bereich ${page.name}, mit Preis und Angabe, für welche Räder sie passen. Bestellen Sie Zubehör für Ihr E-Bike direkt online.`
+                  : `${h1}: Hier finden Sie ${all.length === 1 ? 'das aktuell lieferbare Modell' : `die ${all.length} aktuell lieferbaren Modelle`} aus dem Bereich ${page.name}, mit Preis, Motor und Akkukapazität auf einen Blick. Vergleichen Sie die Ausstattung und bestellen Sie Ihr E-Bike online mit Speditionslieferung nach Hause.`}
+              </p>
+            ) : (
+              <p className="text-sm text-gray-600">Seite {pageNum} von {total}: Modelle {(pageNum - 1) * PER_PAGE + 1} bis {Math.min(pageNum * PER_PAGE, all.length)} von {all.length}.</p>
+            )}
+          </div>
+          {banner && first && (
+            <div className="relative aspect-3/2 md:aspect-auto md:col-span-2 min-h-56">
+              <Image src={`/lifestyle/${banner}.webp`} alt={page.primary.keyword} fill priority sizes="(max-width: 768px) 100vw, 40vw" className="object-cover" />
+            </div>
           )}
-          <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
-          <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
-          <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
-            {def.type === 'accessory'
-              ? `${h1}: Hier finden Sie ${items.length === 1 ? 'den aktuell lieferbaren Artikel' : `die ${items.length} aktuell lieferbaren Artikel`} aus dem Bereich ${page.name}, mit Preis und Angabe, für welche Räder sie passen. Bestellen Sie Zubehör für Ihr E-Bike direkt online.`
-              : `${h1}: Hier finden Sie ${items.length === 1 ? 'das aktuell lieferbare Modell' : `die ${items.length} aktuell lieferbaren Modelle`} aus dem Bereich ${page.name}, mit Preis, Motor und Akkukapazität auf einen Blick. Vergleichen Sie die Ausstattung und bestellen Sie Ihr E-Bike online mit Speditionslieferung nach Hause.`}
-          </p>
         </header>
 
         <section aria-labelledby="models" className="space-y-4">
@@ -102,9 +156,10 @@ export function MappedPage({ path }: { path: string }) {
               ))}
             </ul>
           )}
+          <Pagination path={path} page={pageNum} total={total} />
         </section>
 
-        {page.secondary.length > 0 && (
+        {first && page.secondary.length > 0 && (
           <section aria-labelledby="topics" className="bg-white rounded-2xl border border-gray-200 p-8 space-y-5">
             <h2 id="topics" className="text-xl font-black text-[#131A22]">Worauf Käufer bei {page.name} achten</h2>
             <p className="text-sm text-gray-700 max-w-3xl">

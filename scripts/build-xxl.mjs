@@ -19,8 +19,33 @@ const q2 = (n) => Math.round(n * 100) / 100;
 const numOf = (s) => { const m = String(s || '').match(/(\d{2,3})\s*Nm/i); return m ? Number(m[1]) : 0; };
 
 const files = fs.readdirSync('.image-work').filter((f) => /^xxl-.*\.json$/.test(f));
-let items = files.flatMap((f) => JSON.parse(fs.readFileSync(path.join('.image-work', f), 'utf8')));
+let items = files.flatMap((f) => JSON.parse(fs.readFileSync(path.join('.image-work', f), 'utf8')).map((m) => ({ ...m, _catrun: f.startsWith('xxl-cat-') })));
+// the dealer's cargo listing also shows ordinary bikes: a category-run model only counts as cargo when its name says so
+const CARGO = /cargo|longtail|long p\d|load|family|breeze|multitinker|multicharger|porto|cabby|makki|packster|carry|transport|urbanator|curve|go mountain|compact p|cross p|e-truck/i;
+items = items.filter((m) => !(m._catrun && m.cat === 'Cargo-E-Bike' && !CARGO.test(m.name + ' ' + m.parts.join(' '))));
+// A brand page the dealer does not carry lists other brands' bikes, which the fetch labels with the requested brand:
+// keep a model only when its dealer page address starts with the brand name.
+const bslug = (b) => b.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/&/g, ' und ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+items = items.filter((m) => {
+  const ps = String(m.page || '').split('/').pop().toLowerCase();
+  const bk = bslug(m.brand === 'Riese & Müller' ? 'Riese und Müller' : m.brand);
+  return ps.startsWith(bk) || ps.startsWith(bk.replace(/-/g, ''));
+});
+// The dealer's category lists overlap, so the category is decided from the model name first.
+const CARGO_BRANDS = new Set(['Babboe', 'Carqon', 'Urban Arrow', 'QiO']);
+const MTB = /fully|hardtail|trail|enduro|reaction|stereo|levo|kenevo|\bwild\b|\brise\b|urrun|patron|alltrack|alltrail|allmtn|\bjam|thron|talon|fathom|stance|moterra|e-revox|revox|durok|korak|tarok|ravor|\bams\b|\bnuride\b|powerfly|\brail\b|fuel/i;
+function inferCat(m) {
+  const t = m.name + ' ' + m.parts.join(' ');
+  if (m.brand === 'Brompton' || /\bfold\b|falt/i.test(t)) return 'Falt-E-Bike';
+  if (CARGO_BRANDS.has(m.brand) || CARGO.test(t)) return 'Cargo-E-Bike';
+  if (/45\s?km|\bHS\b|speed pedelec|vado s\b/i.test(t)) return 'Speed-Pedelec';
+  if (MTB.test(t)) return 'E-MTB';
+  if (m.cat && m.cat !== 'Cargo-E-Bike') return m.cat;
+  return /image|entice|carpe|city|suv/i.test(t) ? 'E-City' : 'E-Trekking';
+}
 items = items.filter((m) => !SKIP.has(m.slug) && !/testrad|demo/i.test(m.name + ' ' + m.parts.join(' ')));
+// road and gravel e-bikes have no category on the site yet (the dealer lists some of them as cargo or trekking), so they wait for their own category
+items = items.filter((m) => !/gravel|solace|fastlane|esilex|topstone|synapse|addict|speedster|\borca\b|\bgain\b|creo|defy|denna|norza|checkpoint|revolt|contend|nuroad|domane|endurace/i.test(m.name + ' ' + m.parts.join(' ')));
 // one product per slug (a model can appear in a brand run and a category run)
 items = items.filter((m, i, a) => a.findIndex((x) => x.slug === m.slug) === i);
 
@@ -36,7 +61,7 @@ for (const m of items) {
   let name = norm(m.name);
   if (counts[name] > 1) name = `${name} ${wh} Wh ${zoll}`.replace(/\s+/g, ' ').trim();
   const brand = m.brand === 'Riese und Müller' ? 'Riese & Müller' : m.brand;
-  const cat = m.brand === 'Brompton' ? 'Falt-E-Bike' : m.cat || (/image|entice/i.test(m.name) ? 'E-City' : 'E-Trekking');
+  const cat = inferCat(m);
   const s = m.specs || {};
   const motor = (s.Motor || '').replace(/Mittelmotor\s*/i, '').replace(/\s*\d+\s*Watt.*$/i, '').trim() || 'Mittelmotor';
 

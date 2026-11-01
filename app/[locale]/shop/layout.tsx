@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import React from 'react';
+import { CatalogNav } from '@/components/shop/catalog-nav';
 
 export const metadata: Metadata = {
   title: 'Sortiment: E-Bikes im Überblick',
@@ -7,5 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <CatalogNav current="/shop" />
+      {children}
+    </>
+  );
 }

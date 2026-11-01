@@ -4,6 +4,7 @@ import type { Product } from '@/lib/types';
 import { PRODUCTS } from '@/lib/products';
 import { buildProductContent, CATEGORY_LABEL, CATEGORY_PATH, brandPath } from '@/lib/product-seo';
 import { productFocusKeyword } from '@/lib/product-keywords';
+import { FaqAccordion } from '@/components/ui/faq-accordion';
 
 const MOTOR_HUBS: { re: RegExp; path: string; label: string }[] = [
   { re: /bosch/i, path: '/marken/bosch', label: 'Bosch E-Bikes' },
@@ -57,14 +58,7 @@ export function ProductContent({ product }: { product: Product }) {
 
         <div className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">Häufige Fragen zum {product.name}</h2>
-          <div className="divide-y divide-gray-100">
-            {content.faqs.map((f) => (
-              <div key={f.q} className="py-3">
-                <h3 className="text-base font-bold text-[#131A22]">{f.q}</h3>
-                <p className="text-sm sm:text-base text-gray-700 mt-1 max-w-4xl">{f.a}</p>
-              </div>
-            ))}
-          </div>
+          <FaqAccordion items={content.faqs} />
         </div>
 
         <div className="space-y-3">
