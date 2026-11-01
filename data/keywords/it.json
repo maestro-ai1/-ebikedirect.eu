@@ -8,10 +8,10 @@
    "type": "home",
    "name": "Home",
    "primary": {
-    "keyword": "bici elettrica",
-    "volume": 90500,
-    "kd": 27,
-    "intent": "I"
+    "keyword": "biciclette elettriche",
+    "volume": 5400,
+    "kd": 28,
+    "intent": "T"
    },
    "secondary": [
     {
@@ -25,15 +25,15 @@
      "volume": 8100,
      "kd": 22,
      "intent": "C"
-    },
-    {
-     "keyword": "biciclette elettriche",
-     "volume": 5400,
-     "kd": 28,
-     "intent": "T"
     }
    ],
    "faq": [
+    {
+     "keyword": "bici elettrica",
+     "volume": 90500,
+     "kd": 27,
+     "intent": "I"
+    },
     {
      "keyword": "e bike",
      "volume": 12100,

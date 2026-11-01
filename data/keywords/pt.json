@@ -8,27 +8,7 @@
    "type": "home",
    "name": "Início",
    "primary": {
-    "keyword": "bicicleta elétrica",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "I"
-   },
-   "secondary": [],
-   "faq": [
-    {
-     "keyword": "e bike",
-     "volume": 4400,
-     "kd": 26,
-     "intent": "I"
-    }
-   ]
-  },
-  {
-   "url": "/bicicletas-eletricas/",
-   "type": "category",
-   "name": "Bicicletas elétricas (categoria principal)",
-   "primary": {
-    "keyword": "comprar bicicleta eletrica",
+    "keyword": "comprar bicicleta elétrica",
     "volume": 170,
     "kd": 13,
     "intent": "T"
@@ -36,33 +16,15 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "bicicleta eletrica em portugal",
-     "volume": 320,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "kit bicicleta eletrica",
-     "volume": 260,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "e bike eletrica",
-     "volume": 140,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "kit para bicicleta elétrica",
-     "volume": 70,
+     "keyword": "bicicleta elétrica",
+     "volume": 8100,
      "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "kit conversão bicicleta elétrica",
-     "volume": 20,
-     "kd": 6,
+     "keyword": "e bike",
+     "volume": 4400,
+     "kd": 26,
      "intent": "I"
     }
    ]
