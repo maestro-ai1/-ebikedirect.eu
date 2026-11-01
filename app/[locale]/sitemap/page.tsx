@@ -79,11 +79,6 @@ export default function SitemapPage() {
                   Kasse & Versand (/checkout)
                 </Link>
               </li>
-              <li>
-                <Link href="/checkout/crypto" className="text-[#009624] font-bold hover:underline">
-                  Krypto-Checkout 10% Rabatt (/checkout/crypto)
-                </Link>
-              </li>
             </ul>
           </div>
 

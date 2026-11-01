@@ -84,14 +84,6 @@ export function Header() {
           </div>
 
           <div className="hidden lg:flex items-center gap-5 text-gray-400 text-[11px]">
-            <Link
-              href={getLocalizedHref('/checkout/crypto')}
-              className="hover:text-[#00C853] transition-colors flex items-center gap-1 font-semibold text-white"
-            >
-              <span className="w-2 h-2 rounded-full bg-[#00C853] inline-block animate-ping" />
-              {t('nav.cryptoAdvantage', '10% Krypto-Vorteil')}
-            </Link>
-            <span>·</span>
             <span className="flex items-center gap-1 font-medium text-gray-300">
               <span>{localeInfo.label} / € EUR</span>
             </span>
@@ -172,14 +164,6 @@ export function Header() {
               <Search className="w-5 h-5" />
             </button>
 
-            {/* Crypto Direct CTA */}
-            <Link
-              href={getLocalizedHref('/checkout/crypto')}
-              className="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#E8F8F0] border border-[#00C853]/40 text-[#009624] text-xs font-bold hover:bg-[#00C853] hover:text-white transition-all shadow-xs"
-            >
-              <Bitcoin className="w-4 h-4" />
-              <span>{t('nav.cryptoAdvantage', '10% Krypto-Vorteil')}</span>
-            </Link>
 
             {/* Cart Trigger */}
             <button
@@ -280,14 +264,6 @@ export function Header() {
             </div>
 
             <div className="pt-3 border-t border-gray-100 flex flex-col gap-2.5">
-              <Link
-                href={getLocalizedHref('/checkout/crypto')}
-                onClick={closeAllMenus}
-                className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-lg bg-[#E8F8F0] border border-[#00C853]/40 text-[#009624] font-bold text-sm"
-              >
-                <Bitcoin className="w-4 h-4" />
-                {t('nav.cryptoAdvantage', '10% Krypto-Rabatt (USDT / BTC)')}
-              </Link>
               <div className="text-xs text-gray-500 text-center pt-1">
                 Mindestbestellwert: 500 € · Frei Haus ab 10.000 €
               </div>

@@ -357,17 +357,6 @@ export function CartDrawer() {
                       <ArrowRight className="w-4 h-4" />
                     </Link>
 
-                    <Link
-                      href={getLocalizedHref('/checkout/crypto')}
-                      onClick={() => {
-                        setIsCryptoDiscountApplied(true);
-                        setIsCartDrawerOpen(false);
-                      }}
-                      className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-[#131A22] hover:bg-[#1D2633] text-white text-xs font-bold transition-all border border-gray-700"
-                    >
-                      <Bitcoin className="w-4 h-4 text-[#00C853]" />
-                      <span>{t('cart.payCrypto', 'Mit Krypto zahlen & 10% sparen')}</span>
-                    </Link>
                   </>
                 ) : (
                   <div className="space-y-2">

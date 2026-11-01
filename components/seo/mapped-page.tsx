@@ -10,6 +10,8 @@ import { getKeywordPage, capitalize, buildTitle, buildDescription } from '@/lib/
 import { getAllPosts } from '@/lib/blog-content';
 import { getLocalizedPath } from '@/lib/i18n';
 import { BRAND_LOGOS } from '@/lib/brand-logos';
+import { ProductCard } from '@/components/shop/product-card';
+import { productFocusKeyword } from '@/lib/product-keywords';
 
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
@@ -78,18 +80,23 @@ export function MappedPage({ path }: { path: string }) {
           ) : (
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {items.map((p) => (
-                <li key={p.id} className="bg-white rounded-2xl border border-gray-200 overflow-hidden flex flex-col">
-                  <Link href={`/shop/${p.slug}`} className="block relative aspect-4/3 bg-[#F8F9FA]">
-                    <Image src={p.image} alt={`${p.name} kaufen`} fill sizes="(max-width: 1024px) 100vw, 400px" className="object-cover" referrerPolicy="no-referrer" />
-                  </Link>
-                  <div className="p-5 flex flex-col gap-2 flex-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">{p.brand} · {p.category}</span>
-                    <h3 className="text-base font-bold text-[#131A22] leading-snug">
-                      <Link href={`/shop/${p.slug}`} className="hover:text-[#FF5722]">{p.name}</Link>
-                    </h3>
-                    <p className="text-xs text-gray-600 flex-1">{p.motor}{p.batteryStandardWh > 0 ? `, ${p.batteryStandardWh} Wh Akku` : ''}{p.rangeKm > 0 ? `, bis ${p.rangeKm} km Reichweite` : ''}</p>
-                    <div className="text-lg font-black text-[#131A22]">{eur.format(p.price)}</div>
-                  </div>
+                <li key={p.id}>
+                  {p.category === 'Zubehör' ? (
+                    <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden flex flex-col h-full">
+                      <Link href={`/shop/${p.slug}`} className="block relative aspect-square bg-white border-b border-gray-100">
+                        <Image src={p.image} alt={productFocusKeyword(p.slug, p.name)} fill sizes="(max-width: 1024px) 100vw, 400px" className="object-contain p-4" />
+                      </Link>
+                      <div className="p-5 flex flex-col gap-2 flex-1">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">{p.brand} · {p.category}</span>
+                        <h3 className="text-base font-bold text-[#131A22] leading-snug">
+                          <Link href={`/shop/${p.slug}`} className="hover:text-[#FF5722]">{p.name}</Link>
+                        </h3>
+                        <div className="text-lg font-black text-[#131A22] mt-auto">{eur.format(p.price)}</div>
+                      </div>
+                    </div>
+                  ) : (
+                    <ProductCard product={p} alt={productFocusKeyword(p.slug, p.name)} />
+                  )}
                 </li>
               ))}
             </ul>

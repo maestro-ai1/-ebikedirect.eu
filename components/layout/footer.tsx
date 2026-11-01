@@ -186,11 +186,6 @@ export function Footer() {
                   {t('nav.contact', 'Kontakt')}
                 </Link>
               </li>
-              <li>
-                <Link href={getLocalizedHref('/checkout/crypto')} className="text-[#00C853] font-bold hover:underline flex items-center gap-1">
-                  {t('nav.cryptoAdvantage', '10% Krypto-Kasse')}
-                </Link>
-              </li>
             </ul>
           </div>
 

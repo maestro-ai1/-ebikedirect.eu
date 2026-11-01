@@ -343,14 +343,6 @@ export default function CartPage() {
                         <ArrowRight className="w-4 h-4" />
                       </Link>
 
-                      <Link
-                        href="/checkout/crypto"
-                        onClick={() => setIsCryptoDiscountApplied(true)}
-                        className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-[#131A22] hover:bg-[#1D2633] text-white text-xs font-bold border border-gray-700 transition-all"
-                      >
-                        <Bitcoin className="w-4 h-4 text-[#00C853]" />
-                        <span>Krypto-Express Checkout (-10%)</span>
-                      </Link>
                     </>
                   ) : (
                     <div className="space-y-2 text-center">
