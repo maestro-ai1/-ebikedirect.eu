@@ -4,32 +4,14 @@ import { Metadata } from 'next';
 import { PRODUCTS } from '@/lib/products';
 import { ProductJsonLd } from '@/components/seo/json-ld';
 import { ProductLinks } from '@/components/seo/product-links';
+import { ProductContent } from '@/components/seo/product-content';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { ProductDetailClient } from './product-client';
+import { productTitle, productDescription } from '@/lib/product-seo';
+import { productFocusKeyword } from '@/lib/product-keywords';
 
 interface Props {
   params: Promise<{ slug: string }>;
-}
-
-// Product Rule: title starts with the product name (focus keyword) and fits 60 characters;
-// meta description 110 to 158 characters with price and a call to action.
-function productTitle(name: string): string {
-  const full = `${name} kaufen | ebikedirect.eu`;
-  if (full.length <= 60) return full;
-  const short = `${name} | ebikedirect.eu`;
-  return short.length <= 60 ? short : name.slice(0, 60);
-}
-
-function productDescription(p: { name: string; price: number; motor: string; batteryStandardWh: number; rangeKm: number }): string {
-  const price = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(p.price);
-  const spec = `${p.motor}${p.batteryStandardWh > 0 ? `, ${p.batteryStandardWh} Wh` : ''}${p.rangeKm > 0 ? `, bis ${p.rangeKm} km Reichweite` : ''}.`;
-  const parts = [`${p.name} kaufen:`, spec, `Preis ${price}.`, 'Lieferung per Spedition. Jetzt online bestellen.'];
-  let text = parts.join(' ');
-  if (text.length > 158) text = [parts[0], `${p.motor}, ${p.batteryStandardWh} Wh.`, parts[2], parts[3]].join(' ');
-  if (text.length > 158) text = [parts[0], `${p.batteryStandardWh} Wh Akku.`, parts[2], parts[3]].join(' ');
-  if (text.length < 110) text = `${text} Alle Preise inklusive Mehrwertsteuer.`;
-  if (text.length > 158) text = text.slice(0, 157).replace(/\s+\S*$/, '') + '.';
-  return text;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -40,13 +22,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = process.env.APP_URL || 'https://ebikedirect.eu';
+  const title = productTitle(product.name);
+  const description = productDescription(product);
 
   return {
-    title: { absolute: productTitle(product.name) },
-    description: productDescription(product),
+    title: { absolute: title },
+    description,
     openGraph: {
-      title: productTitle(product.name),
-      description: productDescription(product),
+      title,
+      description,
       images: [{ url: product.image }],
       url: `${siteUrl}/shop/${product.slug}`
     }
@@ -71,7 +55,8 @@ export default async function ProductDetailPage({ params }: Props) {
           { label: product.name, href: `/shop/${product.slug}` }
         ]}
       />
-      <ProductDetailClient product={product} />
+      <ProductDetailClient product={product} focusKeyword={productFocusKeyword(product.slug, product.name)} />
+      {product.category !== 'Zubehör' && <ProductContent product={product} />}
       {product.category !== 'Zubehör' && <ProductLinks brand={product.brand} category={product.category} motor={product.motor} />}
     </>
   );

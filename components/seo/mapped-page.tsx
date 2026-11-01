@@ -18,6 +18,7 @@ const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR',
 function productsFor(path: string) {
   const def = getMappedPage(path);
   if (!def) return [];
+  if (def.motor) return PRODUCTS.filter((p) => p.category !== 'Zubehör' && new RegExp(def.motor!, 'i').test(p.motor));
   if (def.brand) return PRODUCTS.filter((p) => p.brand === def.brand);
   if (def.accessory) return PRODUCTS.filter((p) => p.accessory === def.accessory);
   if (def.type === 'accessory') return PRODUCTS.filter((p) => p.category === 'Zubehör');

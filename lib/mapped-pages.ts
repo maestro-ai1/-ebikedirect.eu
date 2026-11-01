@@ -10,6 +10,7 @@ export interface MappedPageDef {
   category?: Product['category'];
   brand?: string; // value of product.brand
   accessory?: string; // value of product.accessory
+  motor?: string; // regular expression source matched against product.motor (motor-maker hubs)
 }
 
 export const MAPPED_PAGES: MappedPageDef[] = [
@@ -45,6 +46,9 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/marken/ktm', type: 'brand', brand: 'KTM' },
   { path: '/marken/trek', type: 'brand', brand: 'Trek' },
   { path: '/marken/giant', type: 'brand', brand: 'Giant' },
+  { path: '/marken/bosch', type: 'brand', motor: 'bosch' },
+  { path: '/marken/shimano', type: 'brand', motor: 'shimano' },
+  { path: '/marken/yamaha-motor', type: 'brand', motor: 'yamaha' },
 ];
 
 export function getMappedPage(path: string): MappedPageDef | undefined {

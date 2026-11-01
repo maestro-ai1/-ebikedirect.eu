@@ -20,7 +20,7 @@ import {
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 
-export function ProductDetailClient({ product }: { product: Product }) {
+export function ProductDetailClient({ product, focusKeyword }: { product: Product; focusKeyword: string }) {
   const router = useRouter();
   const { addToCart } = useCart();
 
@@ -51,14 +51,14 @@ export function ProductDetailClient({ product }: { product: Product }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
             {/* Left 6 Cols: Photo Gallery */}
             <div className="lg:col-span-6 space-y-4">
-              <div className="relative aspect-4/3 bg-gray-100 rounded-xl overflow-hidden border border-gray-200">
+              <div className="relative aspect-square bg-white rounded-xl overflow-hidden border border-gray-200">
                 <Image
                   src={activeImage}
-                  alt={product.name}
+                  alt={focusKeyword}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
+                  className="object-contain p-4"
                   referrerPolicy="no-referrer"
                 />
 
@@ -85,10 +85,10 @@ export function ProductDetailClient({ product }: { product: Product }) {
                     >
                       <Image
                         src={img}
-                        alt={`${product.name} Ansicht ${i + 1}`}
+                        alt={`${focusKeyword} - Ansicht ${i + 1}`}
                         fill
                         sizes="80px"
-                        className="object-cover"
+                        className="object-contain p-1 bg-white"
                         referrerPolicy="no-referrer"
                       />
                     </button>
