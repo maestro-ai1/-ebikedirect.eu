@@ -41,12 +41,6 @@ export const BRAND_LOGOS: BrandLogo[] = [
     "logo": "/brands/gazelle.svg"
   },
   {
-    "name": "Canyon",
-    "slug": "canyon",
-    "hub": "/marken/canyon",
-    "logo": "/brands/canyon.svg"
-  },
-  {
     "name": "Tenways",
     "slug": "tenways",
     "hub": "/marken/tenways",

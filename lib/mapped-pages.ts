@@ -38,7 +38,6 @@ export const MAPPED_PAGES: MappedPageDef[] = [
   { path: '/marken/haibike', type: 'brand', brand: 'Haibike' },
   { path: '/marken/kalkhoff', type: 'brand', brand: 'Kalkhoff' },
   { path: '/marken/gazelle', type: 'brand', brand: 'Gazelle' },
-  { path: '/marken/canyon', type: 'brand', brand: 'Canyon' },
   { path: '/marken/tenways', type: 'brand', brand: 'Tenways' },
   { path: '/marken/focus', type: 'brand', brand: 'Focus' },
   { path: '/marken/winora', type: 'brand', brand: 'Winora' },
