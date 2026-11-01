@@ -1,0 +1,305 @@
+{
+ "status": "family pages pilot, 8 families, 2026-11-01",
+ "families": [
+  {
+   "path": "/marken/ktm/macina",
+   "slug": "macina",
+   "brand": "KTM",
+   "brandSlug": "ktm",
+   "name": "KTM Macina",
+   "match": "^KTM Macina",
+   "primary": {
+    "keyword": "ktm macina",
+    "volume": 5400,
+    "kd": 17,
+    "intent": "I",
+    "heldNowBy": "ktm-macina-gran-820-800-wh-28-zoll (secondary/FAQ)"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm e bike macina",
+     "volume": 880,
+     "kd": 16,
+     "intent": "C",
+     "heldNowBy": "ktm-macina-gran-820-800-wh-28-zoll (secondary/FAQ)"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm ebike macina",
+     "volume": 480,
+     "kd": 21,
+     "intent": "N",
+     "heldNowBy": "ktm-macina-gran-820-800-wh-28-zoll (primary)"
+    },
+    {
+     "keyword": "ktm e bikes macina",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I",
+     "heldNowBy": "ktm-macina-joy-400-wh-29-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "ktm macina modelle 2026",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I",
+     "heldNowBy": null
+    }
+   ],
+   "candidates": 5
+  },
+  {
+   "path": "/marken/orbea/wild",
+   "slug": "wild",
+   "brand": "Orbea",
+   "brandSlug": "orbea",
+   "name": "Orbea Wild",
+   "match": "^Orbea Wild",
+   "primary": {
+    "keyword": "orbea wild",
+    "volume": 2900,
+    "kd": 16,
+    "intent": "I",
+    "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (primary)"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "orbea wild 2025",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I",
+     "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "orbea wild 2026",
+     "volume": 480,
+     "kd": 13,
+     "intent": "I",
+     "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
+    }
+   ],
+   "candidates": 3
+  },
+  {
+   "path": "/marken/kalkhoff/endeavour",
+   "slug": "endeavour",
+   "brand": "Kalkhoff",
+   "brandSlug": "kalkhoff",
+   "name": "Kalkhoff Endeavour",
+   "match": "^Kalkhoff Endeavour",
+   "primary": {
+    "keyword": "kalkhoff endeavour",
+    "volume": 4400,
+    "kd": 23,
+    "intent": "-",
+    "heldNowBy": "kalkhoff-endeavour-season-400-wh-29-zoll (secondary/FAQ)"
+   },
+   "secondary": [
+    {
+     "keyword": "kalkhoff e bike endeavour",
+     "volume": 170,
+     "kd": 22,
+     "intent": "C",
+     "heldNowBy": "kalkhoff-endeavour-season-400-wh-29-zoll (primary)"
+    },
+    {
+     "keyword": "ebike kalkhoff endeavour",
+     "volume": 110,
+     "kd": 18,
+     "intent": "C",
+     "heldNowBy": "kalkhoff-endeavour-season-400-wh-29-zoll (secondary/FAQ)"
+    }
+   ],
+   "faq": [],
+   "candidates": 3
+  },
+  {
+   "path": "/marken/conway/xyron",
+   "slug": "xyron",
+   "brand": "Conway",
+   "brandSlug": "conway",
+   "name": "Conway Xyron",
+   "match": "^Conway Xyron",
+   "primary": {
+    "keyword": "conway xyron",
+    "volume": 720,
+    "kd": 20,
+    "intent": "N",
+    "heldNowBy": "conway-xyron-suv-4-0-800-wh-29-zoll (primary)"
+   },
+   "secondary": [],
+   "faq": [],
+   "candidates": 1
+  },
+  {
+   "path": "/marken/cube/nuroad",
+   "slug": "nuroad",
+   "brand": "Cube",
+   "brandSlug": "cube",
+   "name": "Cube Nuroad",
+   "match": "^Cube Nuroad",
+   "primary": {
+    "keyword": "cube nuroad",
+    "volume": 27100,
+    "kd": 22,
+    "intent": "N",
+    "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (primary)"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nuroad hybrid",
+     "volume": 1300,
+     "kd": 20,
+     "intent": "T",
+     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "cube nuroad 2025",
+     "volume": 590,
+     "kd": 19,
+     "intent": "C",
+     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "cube nuroad e bike",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T",
+     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "cube nuroad gebraucht",
+     "volume": 170,
+     "kd": 11,
+     "intent": "C",
+     "heldNowBy": null
+    },
+    {
+     "keyword": "cube nuroad ebike",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T",
+     "heldNowBy": null
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube nuroad 2026",
+     "volume": 1300,
+     "kd": 25,
+     "intent": "I",
+     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "cube nuroad 2024",
+     "volume": 210,
+     "kd": 7,
+     "intent": "I",
+     "heldNowBy": null
+    },
+    {
+     "keyword": "cube nuroad test",
+     "volume": 170,
+     "kd": 12,
+     "intent": "I",
+     "heldNowBy": null
+    }
+   ],
+   "candidates": 9
+  },
+  {
+   "path": "/marken/cube/reaction-hybrid",
+   "slug": "reaction-hybrid",
+   "brand": "Cube",
+   "brandSlug": "cube",
+   "name": "Cube Reaction Hybrid",
+   "match": "^Cube Reaction Hybrid",
+   "primary": {
+    "keyword": "cube reaction hybrid",
+    "volume": 9900,
+    "kd": 21,
+    "intent": "I",
+    "heldNowBy": "cube-reaction-hybrid-one-800-800-wh-29-zoll (secondary/FAQ)"
+   },
+   "secondary": [
+    {
+     "keyword": "cube reaction hybrid gebraucht",
+     "volume": 90,
+     "kd": 10,
+     "intent": "C",
+     "heldNowBy": null
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube e bike reaction hybrid",
+     "volume": 140,
+     "kd": 19,
+     "intent": "I",
+     "heldNowBy": "cube-reaction-hybrid-one-600-600-wh-29-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "cube reaction hybrid 2025",
+     "volume": 110,
+     "kd": 19,
+     "intent": "I",
+     "heldNowBy": null
+    },
+    {
+     "keyword": "cube ebike reaction hybrid",
+     "volume": 110,
+     "kd": 20,
+     "intent": "N",
+     "heldNowBy": "cube-reaction-hybrid-one-600-600-wh-29-zoll (secondary/FAQ)"
+    }
+   ],
+   "candidates": 5
+  },
+  {
+   "path": "/marken/kalkhoff/entice",
+   "slug": "entice",
+   "brand": "Kalkhoff",
+   "brandSlug": "kalkhoff",
+   "name": "Kalkhoff Entice",
+   "match": "^Kalkhoff Entice",
+   "primary": {
+    "keyword": "kalkhoff entice",
+    "volume": 1600,
+    "kd": 22,
+    "intent": "I",
+    "heldNowBy": "kalkhoff-entice-7-advance-plus-800-wh-29-zoll (primary)"
+   },
+   "secondary": [],
+   "faq": [],
+   "candidates": 1
+  },
+  {
+   "path": "/marken/focus/jam2",
+   "slug": "jam2",
+   "brand": "Focus",
+   "brandSlug": "focus",
+   "name": "Focus Jam2",
+   "match": "^Focus Jam2",
+   "primary": {
+    "keyword": "focus jam2",
+    "volume": 1600,
+    "kd": 18,
+    "intent": "T",
+    "heldNowBy": "focus-jam2-6-9-800-wh-29-zoll (primary)"
+   },
+   "secondary": [
+    {
+     "keyword": "e bike focus jam2",
+     "volume": 50,
+     "kd": 10,
+     "intent": "T",
+     "heldNowBy": "focus-jam2-6-9-800-wh-29-zoll (secondary/FAQ)"
+    }
+   ],
+   "faq": [],
+   "candidates": 2
+  }
+ ]
+}

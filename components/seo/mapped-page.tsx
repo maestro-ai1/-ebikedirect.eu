@@ -12,6 +12,7 @@ import { BRAND_LOGOS } from '@/lib/brand-logos';
 import { ProductCard } from '@/components/shop/product-card';
 import { CatalogNav } from '@/components/shop/catalog-nav';
 import { productFocusKeyword } from '@/lib/product-keywords';
+import { familiesOfBrand } from '@/lib/families';
 
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
@@ -160,6 +161,17 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
           )}
           <Pagination path={path} page={pageNum} total={total} />
         </section>
+
+        {first && def.type === 'brand' && def.brand && familiesOfBrand(def.brand).length > 0 && (
+          <section aria-labelledby="families" className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 space-y-3">
+            <h2 id="families" className="text-xl font-black text-[#131A22]">Modellreihen von {def.brand}</h2>
+            <ul className="flex flex-wrap gap-2">
+              {familiesOfBrand(def.brand).map((fm) => (
+                <li key={fm.path}><Link href={fm.path} className="inline-block px-3 py-1.5 rounded-full border border-gray-300 text-sm font-semibold text-[#131A22] hover:border-[#FF5722] hover:text-[#FF5722] transition-colors">{fm.name}</Link></li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {first && page.secondary.length > 0 && (
           <section aria-labelledby="topics" className="bg-white rounded-2xl border border-gray-200 p-8 space-y-5">

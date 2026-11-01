@@ -17,6 +17,16 @@ function claim(kw, url, role) {
 for (const p of de.pages) {
   if (p.primary) claim(p.primary.keyword, p.url, 'primary');
   (p.secondary || []).forEach((s) => claim(s.keyword, p.url, 'secondary'));
+  (p.faq || []).forEach((s) => claim(s.keyword, p.url, 'faq'));
+}
+// model-family pages: main, secondary and FAQ keywords
+const famFile = 'data/keywords/families.json';
+if (fs.existsSync(famFile)) {
+  for (const f of JSON.parse(fs.readFileSync(famFile, 'utf8')).families) {
+    claim(f.primary.keyword, f.path, 'family primary');
+    f.secondary.forEach((s) => claim(s.keyword, f.path, 'family secondary'));
+    f.faq.forEach((s) => claim(s.keyword, f.path, 'family faq'));
+  }
 }
 let noPrimary = 0, bankPrimary = 0, nameOnly = 0, withSec = 0;
 const missing = [];
@@ -27,6 +37,7 @@ for (const p of products.filter((x) => x.category !== 'Zubehör')) {
   if (e.primary.source === 'bank') { bankPrimary++; claim(e.primary.keyword, '/shop/' + p.slug, 'product primary'); } else nameOnly++;
   if (e.secondary && e.secondary.length) withSec++;
   (e.secondary || []).forEach((s) => claim(s.keyword, '/shop/' + p.slug, 'product secondary'));
+  (e.faq || []).forEach((s) => claim(s.keyword, '/shop/' + p.slug, 'product faq'));
 }
 const brands = [...new Set(products.filter((x) => x.category !== 'Zubehör').map((x) => x.brand))];
 const slug = (b) => b.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/&/g, ' und ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

@@ -64,7 +64,7 @@ Auch die Geometrie zählt. Ein flacher Lenkwinkel und ein langer Radstand geben 
 
 ## Marken und Modelle
 
-Bekannte Hersteller für E-Bike Fullys sind [Cube](/marken/cube/), [Haibike](/marken/haibike/), [Specialized](/marken/specialized/) und [Canyon](/marken/canyon/). Sie bieten Modelle für alle Einsatzbereiche von Tour bis Enduro. Beim Vergleich sollten Sie nicht nur auf den Preis, sondern auch auf Garantie, Ersatzteile und Servicepartner achten. Im [Sortiment](/shop) sehen Sie die aktuell lieferbaren Fullys mit Motor, Akku und Federweg.
+Bekannte Hersteller für E-Bike Fullys sind [Cube](/marken/cube/), [Haibike](/marken/haibike/), [Specialized](/marken/specialized/) und Canyon. Sie bieten Modelle für alle Einsatzbereiche von Tour bis Enduro. Beim Vergleich sollten Sie nicht nur auf den Preis, sondern auch auf Garantie, Ersatzteile und Servicepartner achten. Im [Sortiment](/shop) sehen Sie die aktuell lieferbaren Fullys mit Motor, Akku und Federweg.
 
 ## Wartung und Pflege
 

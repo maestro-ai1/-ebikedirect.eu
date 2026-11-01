@@ -85,19 +85,18 @@ export default async function LocaleLayout({
         </Suspense>
       </head>
       <body className="min-h-screen flex flex-col bg-[#F8F9FA] text-[#131A22] antialiased selection:bg-[#FF5722] selection:text-white" suppressHydrationWarning>
-        <Suspense fallback={null}>
-          <I18nProvider locale={locale}>
-            <CartProvider>
-              <Header />
-              <main className="flex-1">
-                {children}
-              </main>
-              <CartToast />
-              <RecentSalesPopup />
-              <Footer />
-            </CartProvider>
-          </I18nProvider>
-        </Suspense>
+        {/* No Suspense around the page: it would send "200 OK" before the page is resolved, so unknown URLs could never return a real 404. */}
+        <I18nProvider locale={locale}>
+          <CartProvider>
+            <Header />
+            <main className="flex-1">
+              {children}
+            </main>
+            <CartToast />
+            <RecentSalesPopup />
+            <Footer />
+          </CartProvider>
+        </I18nProvider>
       </body>
     </html>
   );

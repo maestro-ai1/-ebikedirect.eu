@@ -734,41 +734,17 @@
    "brand": "Cube",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "cube nuroad",
-    "volume": 27100,
+    "keyword": "cube nuroad c:62",
+    "volume": 1600,
     "kd": 22,
-    "intent": "N",
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube nuroad c:62",
-     "volume": 1600,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube nuroad hybrid",
-     "volume": 1300,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube nuroad 2025",
-     "volume": 590,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
      "keyword": "cube nuroad hybrid c 62",
      "volume": 480,
      "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube nuroad e bike",
-     "volume": 260,
-     "kd": 22,
      "intent": "T"
     }
    ],
@@ -783,12 +759,6 @@
      "keyword": "cube nuroad race 2026",
      "volume": 1900,
      "kd": 24,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube nuroad 2026",
-     "volume": 1300,
-     "kd": 25,
      "intent": "I"
     },
     {
@@ -1908,20 +1878,13 @@
    "brand": "Conway",
    "category": "E-MTB",
    "primary": {
-    "keyword": "conway xyron",
-    "volume": 720,
-    "kd": 20,
-    "intent": "N",
+    "keyword": "conway mtb fully",
+    "volume": 110,
+    "kd": 15,
+    "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "conway mtb fully",
-     "volume": 110,
-     "kd": 15,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "conway-xyron-c-2-0-800-wh-29-zoll": {
@@ -2256,12 +2219,6 @@
     }
    ],
    "faq": [
-    {
-     "keyword": "cube reaction hybrid",
-     "volume": 9900,
-     "kd": 21,
-     "intent": "I"
-    },
     {
      "keyword": "cube hybrid",
      "volume": 1900,
@@ -3046,18 +3003,6 @@
      "volume": 390,
      "kd": 14,
      "intent": "I"
-    },
-    {
-     "keyword": "cube e bike reaction hybrid",
-     "volume": 140,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube ebike reaction hybrid",
-     "volume": 110,
-     "kd": 20,
-     "intent": "N"
     }
    ]
   },
@@ -4074,25 +4019,13 @@
    "brand": "Focus",
    "category": "E-MTB",
    "primary": {
-    "keyword": "focus jam2",
-    "volume": 1600,
-    "kd": 18,
+    "keyword": "focus mtb",
+    "volume": 590,
+    "kd": 22,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "e bike focus jam2",
-     "volume": 50,
-     "kd": 10,
-     "intent": "T"
-    },
-    {
-     "keyword": "focus mtb",
-     "volume": 590,
-     "kd": 22,
-     "intent": "T"
-    },
     {
      "keyword": "fully mtb focus",
      "volume": 170,
@@ -6658,20 +6591,13 @@
    "brand": "Kalkhoff",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "kalkhoff entice",
-    "volume": 1600,
-    "kd": 22,
-    "intent": "I",
+    "keyword": "kalkhoff trekkingrad herren",
+    "volume": 70,
+    "kd": 12,
+    "intent": "C",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "kalkhoff trekkingrad herren",
-     "volume": 70,
-     "kd": 12,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "kalkhoff entice 7",
@@ -6727,27 +6653,14 @@
    "brand": "Kalkhoff",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "kalkhoff e bike endeavour",
-    "volume": 170,
-    "kd": 22,
-    "intent": "C",
-    "source": "bank"
+    "keyword": "kalkhoff endeavour season kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
    },
-   "secondary": [
-    {
-     "keyword": "ebike kalkhoff endeavour",
-     "volume": 110,
-     "kd": 18,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
-    {
-     "keyword": "kalkhoff endeavour",
-     "volume": 4400,
-     "kd": 23,
-     "intent": "-"
-    },
     {
      "keyword": "kalkhoff endeavour 30",
      "volume": 320,
@@ -7795,25 +7708,13 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm ebike macina",
-    "volume": 480,
-    "kd": 21,
-    "intent": "N",
+    "keyword": "ktm macina gran",
+    "volume": 390,
+    "kd": 13,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "ktm e bike macina",
-     "volume": 880,
-     "kd": 16,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm macina gran",
-     "volume": 390,
-     "kd": 13,
-     "intent": "C"
-    },
     {
      "keyword": "ktm macina gran 810",
      "volume": 210,
@@ -7834,12 +7735,6 @@
     }
    ],
    "faq": [
-    {
-     "keyword": "ktm macina",
-     "volume": 5400,
-     "kd": 17,
-     "intent": "I"
-    },
     {
      "keyword": "ktm macina gran 610",
      "volume": 2400,
@@ -8538,14 +8433,7 @@
      "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "ktm e bikes macina",
-     "volume": 170,
-     "kd": 14,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-team-893-800-wh-29-zoll": {
    "name": "KTM Macina Team 893",
@@ -8831,37 +8719,18 @@
    "brand": "Orbea",
    "category": "E-MTB",
    "primary": {
-    "keyword": "orbea wild",
-    "volume": 2900,
-    "kd": 16,
-    "intent": "I",
+    "keyword": "orbea fully mountainbike",
+    "volume": 170,
+    "kd": 21,
+    "intent": "C",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "orbea fully mountainbike",
-     "volume": 170,
-     "kd": 21,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "orbea wild h20",
      "volume": 720,
      "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "orbea wild 2025",
-     "volume": 590,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "orbea wild 2026",
-     "volume": 480,
-     "kd": 13,
      "intent": "I"
     },
     {

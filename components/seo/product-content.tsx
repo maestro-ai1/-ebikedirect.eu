@@ -4,6 +4,7 @@ import type { Product } from '@/lib/types';
 import { PRODUCTS } from '@/lib/products';
 import { buildProductContent, CATEGORY_LABEL, CATEGORY_PATH, brandPath } from '@/lib/product-seo';
 import { productFocusKeyword } from '@/lib/product-keywords';
+import { familyOfProduct, familyMembers } from '@/lib/families';
 import { FaqAccordion } from '@/components/ui/faq-accordion';
 
 const MOTOR_HUBS: { re: RegExp; path: string; label: string }[] = [
@@ -18,6 +19,8 @@ export function productTags(p: Product): { label: string; href: string }[] {
   const bp = brandPath(p.brand);
   if (bp) tags.push({ label: `${p.brand} E-Bikes`, href: bp });
   const hub = MOTOR_HUBS.find((h) => h.re.test(p.motor));
+  const fam = familyOfProduct(p);
+  if (fam && familyMembers(fam).length >= 2) tags.push({ label: `${fam.name} Modelle`, href: fam.path });
   if (hub) tags.push({ label: hub.label, href: hub.path });
   if (CATEGORY_PATH[p.category]) tags.push({ label: `${CATEGORY_LABEL[p.category]}s`.replace('ss', 's'), href: CATEGORY_PATH[p.category] });
   tags.push({ label: 'Alle E-Bikes', href: '/e-bikes' });

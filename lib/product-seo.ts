@@ -44,7 +44,8 @@ export const brandPath = (brand: string): string | undefined =>
 /** Title starts with the product name and ends with a power word; the longest variant that fits 60 characters wins. */
 /** "kalkhoff endeavour 5" -> "Kalkhoff Endeavour 5": keyword as it is written in a heading, title or question. */
 const SMALL = new Set(['und', 'für', 'mit', 'von', 'der', 'die', 'das', 'im', 'in', 'bei', 'zu', 'oder']);
-export const titleCase = (kw: string) => kw.split(' ').map((w, i) => (i > 0 && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+const BRAND_CASE: Record<string, string> = { ktm: 'KTM', qio: 'QiO' };
+export const titleCase = (kw: string) => kw.split(' ').map((w, i) => (BRAND_CASE[w] ? BRAND_CASE[w] : i > 0 && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
 
 // The title starts with the mapped primary keyword when it is not simply the product name (Golden Keyword Rule section 5).
 export function productTitle(name: string, focus?: string): string {
