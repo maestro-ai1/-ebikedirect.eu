@@ -178,7 +178,8 @@
       "cargo": "Bicicletas eléctricas de carga",
       "all": "Todas las bicicletas eléctricas",
       "acc": "Accesorios",
-      "falt": "Bicicletas eléctricas plegables"
+      "falt": "Bicicletas eléctricas plegables",
+      "gravel": "Bicicletas eléctricas gravel y carretera"
     },
     "newTitle": "Novedades",
     "newSub": "Modelos añadidos recientemente con datos verificados y fotos de estudio.",

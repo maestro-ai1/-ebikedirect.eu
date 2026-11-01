@@ -178,7 +178,8 @@
       "cargo": "Cargo e-bikes",
       "all": "All e-bikes",
       "acc": "Accessories",
-      "falt": "Folding e-bikes"
+      "falt": "Folding e-bikes",
+      "gravel": "Road & gravel e-bikes"
     },
     "newTitle": "New in the range",
     "newSub": "Recently added models with checked data and studio photos.",

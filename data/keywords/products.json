@@ -477,6 +477,461 @@
     }
    ]
   },
+  "cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 Race 400X FE",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 race 400x fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 Race 400X",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 race 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "merida-esilex-400-237-wh-28-zoll": {
+   "name": "Merida eSilex 400",
+   "brand": "Merida",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "merida esilex 400 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 EXC 400X",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad e bike",
+    "volume": 260,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nuroad ebike",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 SLT 400X",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 slt 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 SLX 400X",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 slx 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 SLX 400X FE",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 slx 400x fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "merida-esilex-plus-600-237-wh-28-zoll": {
+   "name": "Merida eSilex+ 600",
+   "brand": "Merida",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "merida esilex+ 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "desiknio-dopamine-peak-236-wh-28-zoll": {
+   "name": "Desiknio Dopamine Peak",
+   "brand": "Desiknio",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "desiknio dopamine peak kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-gravelator-sx-20-400-wh-28-zoll": {
+   "name": "KTM Macina Gravelator SX 20",
+   "brand": "KTM",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ktm macina gravelator sx 20 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll": {
+   "name": "Cube Nuroad Hybrid C:62 EXC 400X FE",
+   "brand": "Cube",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cube nuroad hybrid c:62 exc 400x fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-denna-h50-420-wh-28-zoll": {
+   "name": "Orbea Denna H50",
+   "brand": "Orbea",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "orbea denna h50 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-denna-h40-420-wh-28-zoll": {
+   "name": "Orbea Denna H40",
+   "brand": "Orbea",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "orbea denna h40 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ridley-e-astr-apex-xplr-axs-290-wh-28-zoll": {
+   "name": "Ridley E-ASTR Apex XPLR AXS",
+   "brand": "Ridley",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ridley e-astr apex xplr axs kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-lande-400-wh-28-zoll": {
+   "name": "Megamo Lande",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo lande kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ridley-e-kanzo-adventure-apex-xplr-600-wh": {
+   "name": "Ridley E-Kanzo Adventure",
+   "brand": "Ridley",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ridley e-kanzo adventure kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "my-esel-egravel-performance-250-wh-28-zoll": {
+   "name": "My Esel eGravel Performance",
+   "brand": "My Esel",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "my esel egravel performance kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-along-10-600-wh-28-zoll": {
+   "name": "Megamo Along 10",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo along 10 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "raymon-norza-comp-400-wh-28-zoll": {
+   "name": "Raymon Norza Comp",
+   "brand": "Raymon",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "raymon norza comp kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-creo-2-comp-320-wh-28-zoll": {
+   "name": "Specialized Turbo Creo 2 Comp",
+   "brand": "Specialized",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "specialized turbo creo 2 comp kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-upon-20-600-wh-28-zoll": {
+   "name": "Megamo Upon 20",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo upon 20 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "trek-checkpoint-plus-sl-5-360-wh-28-zoll": {
+   "name": "Trek Checkpoint+ SL 5",
+   "brand": "Trek",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "trek checkpoint+ sl 5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll": {
+   "name": "Liv Avail Advanced E+ Elite AR",
+   "brand": "Liv",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "liv avail advanced e+ elite ar kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-along-03-600-wh-28-zoll": {
+   "name": "Megamo Along 03",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo along 03 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-along-03-cw-600-wh-28-zoll": {
+   "name": "Megamo Along 03 CW",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo along 03 cw kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "scott-solace-gravel-20-360-wh-28-zoll": {
+   "name": "Scott Solace Gravel 20",
+   "brand": "Scott",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "scott solace gravel 20 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-along-01-600-wh-28-zoll": {
+   "name": "Megamo Along 01",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo along 01 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "scott-fastlane-20-290-wh-28-zoll": {
+   "name": "Scott Fastlane 20",
+   "brand": "Scott",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "scott fastlane 20 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "trek-domane-plus-alr-5-360-wh-28-zoll": {
+   "name": "Trek Domane+ ALR 5",
+   "brand": "Trek",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "trek domane+ alr 5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-upon-05-600-wh-28-zoll": {
+   "name": "Megamo Upon 05",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo upon 05 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "megamo-upon-15-cw-600-wh-28-zoll": {
+   "name": "Megamo Upon 15 CW",
+   "brand": "Megamo",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "megamo upon 15 cw kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll": {
+   "name": "Giant Defy Advanced E+ Elite 2",
+   "brand": "Giant",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "giant defy advanced e+ elite 2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
   "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll": {
    "name": "Cube Kathmandu Hybrid 750 45 km/h",
    "brand": "Cube",

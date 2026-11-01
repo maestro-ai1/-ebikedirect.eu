@@ -659,6 +659,1742 @@ export const XXL_PRODUCTS: Product[] = [
     "isFeatured": false
   },
   {
+    "id": "cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 Race 400X FE",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 4178.01,
+    "originalPrice": 4199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 15.6,
+    "image": "/products/cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 Race 400X FE ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One Allround, Kevlar, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 Race 400X",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 14.2,
+    "image": "/products/cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 Race 400X ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One Allround, Kevlar, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "merida-esilex-400-237-wh-28-zoll",
+    "slug": "merida-esilex-400-237-wh-28-zoll",
+    "name": "Merida eSilex 400",
+    "brand": "Merida",
+    "category": "E-Gravel",
+    "price": 2685.51,
+    "originalPrice": 2699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Mahle X30 Hinterradmotor",
+    "torqueNm": 45,
+    "batteryStandardWh": 237,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/merida-esilex-400-237-wh-28-zoll/merida-esilex-400-237-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/merida-esilex-400-237-wh-28-zoll/merida-esilex-400-237-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Mahle X30 Hinterradmotor, 237 Wh Akku, 20-Gang Kettenschaltung.",
+    "description": "Das Merida eSilex 400 ist ein E-Gravel-Bike von Merida. Es hat Mahle X30 Hinterradmotor und einen 237 Wh Akku, das Drehmoment beträgt 45 Nm. Geschaltet wird über 20-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX400, 2-Kolben hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 237 Wh",
+          "capacityWh": 237,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Mahle X30 Hinterradmotor 250 Watt",
+      "Drehmoment": "45 Nm",
+      "Akku": "Mahle ix2 237Wh",
+      "Schaltung": "20-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX400, 2-Kolben hydraulische Scheibenbremse",
+      "Gabel": "Merida SILEX CF2, Carbon, max. 700x42C / 700x35C (mit Schutzblech) / max. 50x650B Radgröße",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rambler, 700Cx40, fold, EXO",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 EXC 400X",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 4476.51,
+    "originalPrice": 4499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 14.1,
+    "image": "/products/cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-exc-400x-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 EXC 400X ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Rival AXS E1, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival AXS E1, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One RS Pro, TLR, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 SLT 400X",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 13.1,
+    "image": "/products/cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slt-400x-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 SLT 400X ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Force AXS E1 HRD, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Force AXS E1 HRD, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Continental Terra Speed, ProTection, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 SLX 400X",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 14.5,
+    "image": "/products/cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slx-400x-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 SLX 400X ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Continental Terra Adventure, Trail Grip, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 SLX 400X FE",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 5173.01,
+    "originalPrice": 5199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 14.9,
+    "image": "/products/cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-slx-400x-fe-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 SLX 400X FE ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX BR-RX820, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Continental Terra Adventure, Trail Grip, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "merida-esilex-plus-600-237-wh-28-zoll",
+    "slug": "merida-esilex-plus-600-237-wh-28-zoll",
+    "name": "Merida eSilex+ 600",
+    "brand": "Merida",
+    "category": "E-Gravel",
+    "price": 2984.01,
+    "originalPrice": 2999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Mahle X30 Hinterradmotor",
+    "torqueNm": 45,
+    "batteryStandardWh": 237,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/merida-esilex-plus-600-237-wh-28-zoll/merida-esilex-plus-600-237-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/merida-esilex-plus-600-237-wh-28-zoll/merida-esilex-plus-600-237-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Mahle X30 Hinterradmotor, 237 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Merida eSilex+ 600 ist ein E-Gravel-Bike von Merida. Es hat Mahle X30 Hinterradmotor und einen 237 Wh Akku, das Drehmoment beträgt 45 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Apex, Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 237 Wh",
+          "capacityWh": 237,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Mahle X30 Hinterradmotor 250 Watt",
+      "Drehmoment": "45 Nm",
+      "Akku": "Mahle ix2 237Wh",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Apex, Scheibenbremse",
+      "Gabel": "Merida SILEX CF2, Carbon, max. 700x42C / 700x35C (mit Schutzblech) / max. 50x650B Radgröße",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Maxxis Rambler, 650Bx47, ShieldWall / TLR",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "desiknio-dopamine-peak-236-wh-28-zoll",
+    "slug": "desiknio-dopamine-peak-236-wh-28-zoll",
+    "name": "Desiknio Dopamine Peak",
+    "brand": "Desiknio",
+    "category": "E-Gravel",
+    "price": 3481.51,
+    "originalPrice": 3499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Mahle X30 Hinterradmotor",
+    "torqueNm": 45,
+    "batteryStandardWh": 236,
+    "rangeKm": 0,
+    "weightKg": 14.5,
+    "image": "/products/desiknio-dopamine-peak-236-wh-28-zoll/desiknio-dopamine-peak-236-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/desiknio-dopamine-peak-236-wh-28-zoll/desiknio-dopamine-peak-236-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Mahle X30 Hinterradmotor, 236 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Desiknio Dopamine Peak ist ein E-Gravel-Bike von Desiknio. Es hat Mahle X30 Hinterradmotor und einen 236 Wh Akku, das Drehmoment beträgt 45 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano UR300, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 236 Wh",
+          "capacityWh": 236,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Mahle X30 Hinterradmotor 250 Watt",
+      "Drehmoment": "45 Nm",
+      "Akku": "X2 236 Wh",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano UR300, hydraulische Scheibenbremse",
+      "Gabel": "Starrgabel Aluminium",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Kenda ALLUVIUM Black 40-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ktm-macina-gravelator-sx-20-400-wh-28-zoll",
+    "slug": "ktm-macina-gravelator-sx-20-400-wh-28-zoll",
+    "name": "KTM Macina Gravelator SX 20",
+    "brand": "KTM",
+    "category": "E-Gravel",
+    "price": 3780.01,
+    "originalPrice": 3799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 17.1,
+    "image": "/products/ktm-macina-gravelator-sx-20-400-wh-28-zoll/ktm-macina-gravelator-sx-20-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ktm-macina-gravelator-sx-20-400-wh-28-zoll/ktm-macina-gravelator-sx-20-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das KTM Macina Gravelator SX 20 ist ein E-Gravel-Bike von KTM. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano CUES U6030 2-Kolben.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTUBE 400Wh",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano CUES U6030 2-Kolben",
+      "Gabel": "X-Strada Gravel Perf. Carbon w/mount F14",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Continental Terra Adventure TL 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll",
+    "slug": "cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll",
+    "name": "Cube Nuroad Hybrid C:62 EXC 400X FE",
+    "brand": "Cube",
+    "category": "E-Gravel",
+    "price": 4675.51,
+    "originalPrice": 4699,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 15.5,
+    "image": "/products/cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll/cube-nuroad-hybrid-c-62-exc-400x-fe-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Cube Nuroad Hybrid C:62 EXC 400X FE ist ein E-Gravel-Bike von Cube. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Rival AXS E1, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch System Control, inklusive Mini Remote",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival AXS E1, hydraulische Scheibenbremse, Flat Mount",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One RS Pro, TLR, 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "orbea-denna-h50-420-wh-28-zoll",
+    "slug": "orbea-denna-h50-420-wh-28-zoll",
+    "name": "Orbea Denna H50",
+    "brand": "Orbea",
+    "category": "E-Gravel",
+    "price": 3780.01,
+    "originalPrice": 3799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Shimano STEPS EP6",
+    "torqueNm": 85,
+    "batteryStandardWh": 420,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/orbea-denna-h50-420-wh-28-zoll/orbea-denna-h50-420-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/orbea-denna-h50-420-wh-28-zoll/orbea-denna-h50-420-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Shimano STEPS EP6, 420 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Orbea Denna H50 ist ein E-Gravel-Bike von Orbea. Es hat Shimano STEPS EP6 und einen 420 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Shimano RS405, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 420 Wh",
+          "capacityWh": 420,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Shimano STEPS EP6 250 Watt, 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Orbea Internal 420Wh",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Shimano RS405, hydraulische Scheibenbremse",
+      "Gabel": "Orbea Denna OMR ICR, full carbon, 1-1/8&quot; - 1,5&quot; tappered head tube compatible, Thru axle 12x100mm, thread M12xP1",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Vittoria Terreno Dry Gravel G2.0 TLR 700x45c",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "orbea-denna-h40-420-wh-28-zoll",
+    "slug": "orbea-denna-h40-420-wh-28-zoll",
+    "name": "Orbea Denna H40",
+    "brand": "Orbea",
+    "category": "E-Gravel",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Shimano STEPS EP6",
+    "torqueNm": 85,
+    "batteryStandardWh": 420,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/orbea-denna-h40-420-wh-28-zoll/orbea-denna-h40-420-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/orbea-denna-h40-420-wh-28-zoll/orbea-denna-h40-420-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Shimano STEPS EP6, 420 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Orbea Denna H40 ist ein E-Gravel-Bike von Orbea. Es hat Shimano STEPS EP6 und einen 420 Wh Akku, das Drehmoment beträgt 85 Nm. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano RS405, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 420 Wh",
+          "capacityWh": 420,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Shimano STEPS EP6 250 Watt, 85 Nm",
+      "Drehmoment": "85 Nm",
+      "Akku": "Orbea Internal 420Wh",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano RS405, hydraulische Scheibenbremse",
+      "Gabel": "Orbea Denna OMR ICR, full carbon, 1-1/8&quot; - 1,5&quot; tappered head tube compatible, Thru axle 12x100mm, thread M12xP1",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Vittoria Terreno Dry Gravel G2.0 TLR 700x45c",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ridley-e-astr-apex-xplr-axs-290-wh-28-zoll",
+    "slug": "ridley-e-astr-apex-xplr-axs-290-wh-28-zoll",
+    "name": "Ridley E-ASTR Apex XPLR AXS",
+    "brand": "Ridley",
+    "category": "E-Gravel",
+    "price": 7163.01,
+    "originalPrice": 7199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR 40",
+    "torqueNm": 0,
+    "batteryStandardWh": 290,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/ridley-e-astr-apex-xplr-axs-290-wh-28-zoll/ridley-e-astr-apex-xplr-axs-290-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/ridley-e-astr-apex-xplr-axs-290-wh-28-zoll/ridley-e-astr-apex-xplr-axs-290-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit TQ HPR 40, 290 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ridley E-ASTR Apex XPLR AXS ist ein E-Gravel-Bike von Ridley. Es hat TQ HPR 40 und einen 290 Wh Akku. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram, Flat Mount, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 290 Wh",
+          "capacityWh": 290,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR 40 Mittelmotor 250 Watt, 40Nm",
+      "Akku": "TQ - integriert, Lithium-Ionen, 290 Wh",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram, Flat Mount, hydraulische Scheibenbremse",
+      "Gabel": "E-Astr 7E9/EAS26D2s",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Terreno T50, 700x50c, TLR, Black-Black",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-lande-400-wh-28-zoll",
+    "slug": "megamo-lande-400-wh-28-zoll",
+    "name": "Megamo Lande",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-lande-400-wh-28-zoll/megamo-lande-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-lande-400-wh-28-zoll/megamo-lande-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Megamo Lande ist ein E-Gravel-Bike von Megamo. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Apex, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube 400",
+      "Display": "Bosch Kiox 300 + Mini Remote",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Apex, hydraulische Scheibenbremse",
+      "Gabel": "Gravel Carbon Starrgabel",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Riddler 700 Gravel 700 x 45c Tan Sidewall",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "ridley-e-kanzo-adventure-apex-xplr-600-wh",
+    "slug": "ridley-e-kanzo-adventure-apex-xplr-600-wh",
+    "name": "Ridley E-Kanzo Adventure",
+    "brand": "Ridley",
+    "category": "E-Gravel",
+    "price": 6765.01,
+    "originalPrice": 6799,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 0,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/ridley-e-kanzo-adventure-apex-xplr-600-wh/ridley-e-kanzo-adventure-apex-xplr-600-wh-v1-1.webp",
+    "gallery": [
+      "/products/ridley-e-kanzo-adventure-apex-xplr-600-wh/ridley-e-kanzo-adventure-apex-xplr-600-wh-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line CX Smart Gen5, 0 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Ridley E-Kanzo Adventure ist ein E-Gravel-Bike von Ridley. Es hat Bosch Performance Line CX Smart Gen5 und einen 0 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Apex, hydraulische Scheibenbremse, Flat Mount.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 0 Wh",
+          "capacityWh": 0,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch Battery Powertube 600",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Apex, hydraulische Scheibenbremse, Flat Mount",
+      "Gabel": "4ZA Gravel 54-435 Disc 7E9/EAC01Bs",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Mezcal III 29x2.1/TLR/Tan-Blk-Blk",
+      "Laufradgröße": "29 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "my-esel-egravel-performance-250-wh-28-zoll",
+    "slug": "my-esel-egravel-performance-250-wh-28-zoll",
+    "name": "My Esel eGravel Performance",
+    "brand": "My Esel",
+    "category": "E-Gravel",
+    "price": 6616.75,
+    "originalPrice": 6650,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Hinterradmotor 36V",
+    "torqueNm": 0,
+    "batteryStandardWh": 250,
+    "rangeKm": 0,
+    "weightKg": 15.8,
+    "image": "/products/my-esel-egravel-performance-250-wh-28-zoll/my-esel-egravel-performance-250-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/my-esel-egravel-performance-250-wh-28-zoll/my-esel-egravel-performance-250-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Hinterradmotor 36V, 250 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das My Esel eGravel Performance ist ein E-Gravel-Bike von My Esel. Es hat Hinterradmotor 36V und einen 250 Wh Akku. Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX 815, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 250 Wh",
+          "capacityWh": 250,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Hinterradmotor 36V 250 Watt",
+      "Akku": "Samsung 350 Wh",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX 815, hydraulische Scheibenbremse",
+      "Gabel": "My Esel, Carbon",
+      "Rahmen": "Holz, Diamant",
+      "Reifen": "Schwalbe G-ONE 45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-along-10-600-wh-28-zoll",
+    "slug": "megamo-along-10-600-wh-28-zoll",
+    "name": "Megamo Along 10",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2",
+    "torqueNm": 110,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-along-10-600-wh-28-zoll/megamo-along-10-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-along-10-600-wh-28-zoll/megamo-along-10-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2, 600 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Megamo Along 10 ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2 und einen 600 Wh Akku, das Drehmoment beträgt 110 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX RX610, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2 Mittelmotor 250 Watt",
+      "Drehmoment": "110 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX RX610, hydraulische Scheibenbremse",
+      "Gabel": "Along Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Terreno T50 Mixed 50-622 (700x50C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "raymon-norza-comp-400-wh-28-zoll",
+    "slug": "raymon-norza-comp-400-wh-28-zoll",
+    "name": "Raymon Norza Comp",
+    "brand": "Raymon",
+    "category": "E-Gravel",
+    "price": 3979.01,
+    "originalPrice": 3999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line SX Smart",
+    "torqueNm": 55,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 15.9,
+    "image": "/products/raymon-norza-comp-400-wh-28-zoll/raymon-norza-comp-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/raymon-norza-comp-400-wh-28-zoll/raymon-norza-comp-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Bosch Performance Line SX Smart, 400 Wh Akku, 11-Gang Kettenschaltung.",
+    "description": "Das Raymon Norza Comp ist ein E-Gravel-Bike von Raymon. Es hat Bosch Performance Line SX Smart und einen 400 Wh Akku, das Drehmoment beträgt 55 Nm (mit Update bis zu 60 Nm). Geschaltet wird über 11-Gang Kettenschaltung. Die Bremsanlage: Shimano Cues BR-U6030, 2-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line SX Smart 250 Watt",
+      "Drehmoment": "55 Nm (mit Update bis zu 60 Nm)",
+      "Akku": "Bosch CompactTube, 400 Wh, 36 V",
+      "Schaltung": "11-Gang Kettenschaltung",
+      "Bremsen": "Shimano Cues BR-U6030, 2-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "Carbon Gravel Disc",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Continental Terra Trail ,45-622",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "specialized-turbo-creo-2-comp-320-wh-28-zoll",
+    "slug": "specialized-turbo-creo-2-comp-320-wh-28-zoll",
+    "name": "Specialized Turbo Creo 2 Comp",
+    "brand": "Specialized",
+    "category": "E-Gravel",
+    "price": 5471.51,
+    "originalPrice": 5499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Specialized 1.2 SL Custom Rx Trail tuned, 250W",
+    "torqueNm": 0,
+    "batteryStandardWh": 320,
+    "rangeKm": 0,
+    "weightKg": 14.65,
+    "image": "/products/specialized-turbo-creo-2-comp-320-wh-28-zoll/specialized-turbo-creo-2-comp-320-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/specialized-turbo-creo-2-comp-320-wh-28-zoll/specialized-turbo-creo-2-comp-320-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Specialized 1.2 SL Custom Rx Trail tuned, 250W, 320 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Specialized Turbo Creo 2 Comp ist ein E-Gravel-Bike von Specialized. Es hat Specialized 1.2 SL Custom Rx Trail tuned, 250W und einen 320 Wh Akku. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX RX410, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 320 Wh",
+          "capacityWh": 320,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Specialized 1.2 SL Custom Rx Trail tuned, 250W",
+      "Akku": "Specialized SL1-320, vollintegriert, 320Wh",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX RX410, hydraulische Scheibenbremse",
+      "Gabel": "Future Shock 3.2 mit Smooth Boot, 12x100mm Steckachse, Flat-Mount-Scheibenbremsaufnahme",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Tracer TLR All Terrain Gravel Reifen, 700x50c, Tubeless Ready",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-upon-20-600-wh-28-zoll",
+    "slug": "megamo-upon-20-600-wh-28-zoll",
+    "name": "Megamo Upon 20",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2",
+    "torqueNm": 110,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-upon-20-600-wh-28-zoll/megamo-upon-20-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-upon-20-600-wh-28-zoll/megamo-upon-20-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2, 600 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Megamo Upon 20 ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2 und einen 600 Wh Akku, das Drehmoment beträgt 110 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano 105 R7120, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2 Mittelmotor 250 Watt",
+      "Drehmoment": "110 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano 105 R7120, hydraulische Scheibenbremse",
+      "Gabel": "Upon Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Corsa Pro Control 42-622 (700x42C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-checkpoint-plus-sl-5-360-wh-28-zoll",
+    "slug": "trek-checkpoint-plus-sl-5-360-wh-28-zoll",
+    "name": "Trek Checkpoint+ SL 5",
+    "brand": "Trek",
+    "category": "E-Gravel",
+    "price": 4974.01,
+    "originalPrice": 4999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR60",
+    "torqueNm": 60,
+    "batteryStandardWh": 360,
+    "rangeKm": 0,
+    "weightKg": 13.81,
+    "image": "/products/trek-checkpoint-plus-sl-5-360-wh-28-zoll/trek-checkpoint-plus-sl-5-360-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-checkpoint-plus-sl-5-360-wh-28-zoll/trek-checkpoint-plus-sl-5-360-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit TQ HPR60, 360 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Checkpoint+ SL 5 ist ein E-Gravel-Bike von Trek. Es hat TQ HPR60 und einen 360 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano GRX RX822, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 360 Wh",
+          "capacityWh": 360,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR60 Mittelmotor 250 Watt 60 Nm",
+      "Drehmoment": "60 Nm",
+      "Akku": "TQ 360 Wh",
+      "Display": "TQ LED-Display mit Bluetooth- & ANT+-Konnektivität",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano GRX RX822, hydraulische Scheibenbremse",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Bontrager Girona Pro, Tubeless Ready, GR Pannenschutz, Aramid-Kern, 700x42mm",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll",
+    "slug": "liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll",
+    "name": "Liv Avail Advanced E+ Elite AR",
+    "brand": "Liv",
+    "category": "E-Gravel",
+    "price": 5870.5,
+    "originalPrice": 5900,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Move Plus Hinterradmotor",
+    "torqueNm": 75,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll/liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll/liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Giant SyncDrive Move Plus Hinterradmotor, 400 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Liv Avail Advanced E+ Elite AR ist ein E-Gravel-Bike von Liv. Es hat Giant SyncDrive Move Plus Hinterradmotor und einen 400 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Rival eTap AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Move Plus Hinterradmotor 250Watt, 75 Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "Giant EnergyPak Smart, 400 Wh",
+      "Display": "Giant SG Display kompatibel",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival eTap AXS, hydraulische Scheibenbremse",
+      "Gabel": "Liv Advanced Vollcarbon Gabel OD Aero",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One Allround, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-along-03-600-wh-28-zoll",
+    "slug": "megamo-along-03-600-wh-28-zoll",
+    "name": "Megamo Along 03",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 5272.51,
+    "originalPrice": 5299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2S",
+    "torqueNm": 130,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-along-03-600-wh-28-zoll/megamo-along-03-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-along-03-600-wh-28-zoll/megamo-along-03-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2S, 600 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Megamo Along 03 ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2S und einen 600 Wh Akku, das Drehmoment beträgt 130 Nm. Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Rival AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2S Mittelmotor 250 Watt",
+      "Drehmoment": "130 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival AXS, hydraulische Scheibenbremse",
+      "Gabel": "Along Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Terreno T50 Mixed 50-622 (700x50C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-along-03-cw-600-wh-28-zoll",
+    "slug": "megamo-along-03-cw-600-wh-28-zoll",
+    "name": "Megamo Along 03 CW",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2S",
+    "torqueNm": 130,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-along-03-cw-600-wh-28-zoll/megamo-along-03-cw-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-along-03-cw-600-wh-28-zoll/megamo-along-03-cw-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2S, 600 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Megamo Along 03 CW ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2S und einen 600 Wh Akku, das Drehmoment beträgt 130 Nm. Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Rival AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2S Mittelmotor 250 Watt",
+      "Drehmoment": "130 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival AXS, hydraulische Scheibenbremse",
+      "Gabel": "Along Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Terreno T50 Mixed 50-622 (700x50C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "scott-solace-gravel-20-360-wh-28-zoll",
+    "slug": "scott-solace-gravel-20-360-wh-28-zoll",
+    "name": "Scott Solace Gravel 20",
+    "brand": "Scott",
+    "category": "E-Gravel",
+    "price": 7461.51,
+    "originalPrice": 7499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR60",
+    "torqueNm": 60,
+    "batteryStandardWh": 360,
+    "rangeKm": 0,
+    "weightKg": 13.8,
+    "image": "/products/scott-solace-gravel-20-360-wh-28-zoll/scott-solace-gravel-20-360-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/scott-solace-gravel-20-360-wh-28-zoll/scott-solace-gravel-20-360-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit TQ HPR60, 360 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Scott Solace Gravel 20 ist ein E-Gravel-Bike von Scott. Es hat TQ HPR60 und einen 360 Wh Akku, das Drehmoment beträgt 60 Nm. Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: SRAM Rival AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 360 Wh",
+          "capacityWh": 360,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR60 Mittelmotor 250 Watt 60 Nm",
+      "Drehmoment": "60 Nm",
+      "Akku": "TQ Internal 360Wh",
+      "Display": "TQ HPR, Bluetooth, ANT+, dedizierte Smartphone-App",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "SRAM Rival AXS, hydraulische Scheibenbremse",
+      "Gabel": "Solace eRIDE HMF Flatmount Disc, 1 1/4&quot;-1 1/2&quot; exzentrischer Carbon-Gabelschaft",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe G-One Overland PRO Evo, 700x50C",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-along-01-600-wh-28-zoll",
+    "slug": "megamo-along-01-600-wh-28-zoll",
+    "name": "Megamo Along 01",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 7959.01,
+    "originalPrice": 7999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2S",
+    "torqueNm": 130,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-along-01-600-wh-28-zoll/megamo-along-01-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-along-01-600-wh-28-zoll/megamo-along-01-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2S, 600 Wh Akku, 13-Gang Kettenschaltung.",
+    "description": "Das Megamo Along 01 ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2S und einen 600 Wh Akku, das Drehmoment beträgt 130 Nm. Geschaltet wird über 13-Gang Kettenschaltung. Die Bremsanlage: Sram Force AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2S Mittelmotor 250 Watt",
+      "Drehmoment": "130 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "13-Gang Kettenschaltung",
+      "Bremsen": "Sram Force AXS, hydraulische Scheibenbremse",
+      "Gabel": "DT Swiss F132 ONE, Federweg: 40mm, Push Control",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Terreno T50 Mixed 50-622 (700x50C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "scott-fastlane-20-290-wh-28-zoll",
+    "slug": "scott-fastlane-20-290-wh-28-zoll",
+    "name": "Scott Fastlane 20",
+    "brand": "Scott",
+    "category": "E-Gravel",
+    "price": 6964.01,
+    "originalPrice": 6999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR 40",
+    "torqueNm": 0,
+    "batteryStandardWh": 290,
+    "rangeKm": 0,
+    "weightKg": 11.1,
+    "image": "/products/scott-fastlane-20-290-wh-28-zoll/scott-fastlane-20-290-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/scott-fastlane-20-290-wh-28-zoll/scott-fastlane-20-290-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit TQ HPR 40, 290 Wh Akku, 24-Gang Kettenschaltung.",
+    "description": "Das Scott Fastlane 20 ist ein E-Gravel-Bike von Scott. Es hat TQ HPR 40 und einen 290 Wh Akku. Geschaltet wird über 24-Gang Kettenschaltung. Die Bremsanlage: Shimano BR-R7170, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 290 Wh",
+          "capacityWh": 290,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR 40 Mittelmotor 250 Watt, 40Nm",
+      "Akku": "TQ Internal 290Wh",
+      "Display": "TQ Bar-End-Display, Bluetooth, ANT+, dedizierte Smartphone-App",
+      "Schaltung": "24-Gang Kettenschaltung",
+      "Bremsen": "Shimano BR-R7170, hydraulische Scheibenbremse",
+      "Gabel": "Fastlane Road HMX Flatmount Disc, 27.2mm exzentrischer Carbon-Gabelschaft",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Schwalbe PRO ONE Faltreifen, 700x34C",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "trek-domane-plus-alr-5-360-wh-28-zoll",
+    "slug": "trek-domane-plus-alr-5-360-wh-28-zoll",
+    "name": "Trek Domane+ ALR 5",
+    "brand": "Trek",
+    "category": "E-Gravel",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "TQ HPR 50",
+    "torqueNm": 50,
+    "batteryStandardWh": 360,
+    "rangeKm": 0,
+    "weightKg": 14.39,
+    "image": "/products/trek-domane-plus-alr-5-360-wh-28-zoll/trek-domane-plus-alr-5-360-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/trek-domane-plus-alr-5-360-wh-28-zoll/trek-domane-plus-alr-5-360-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit TQ HPR 50, 360 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Trek Domane+ ALR 5 ist ein E-Gravel-Bike von Trek. Es hat TQ HPR 50 und einen 360 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Sram Apex XPLR, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 360 Wh",
+          "capacityWh": 360,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "TQ HPR 50 Mittelmotor 250 Watt, 50Nm",
+      "Drehmoment": "50 Nm",
+      "Akku": "TQ 360 Wh",
+      "Display": "TQ LED-Display mit Bluetooth- & ANT+-Konnektivität",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Sram Apex XPLR, hydraulische Scheibenbremse",
+      "Rahmen": "Aluminium, Diamant",
+      "Reifen": "Bontrager Kwaremont Pro GR, Tubeless-Ready, faltbarer Wulstkern, Dual Compound Gummimischung, 120 TPI, 700 x 32 mm",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-upon-05-600-wh-28-zoll",
+    "slug": "megamo-upon-05-600-wh-28-zoll",
+    "name": "Megamo Upon 05",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 6466.51,
+    "originalPrice": 6499,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2S",
+    "torqueNm": 130,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-upon-05-600-wh-28-zoll/megamo-upon-05-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-upon-05-600-wh-28-zoll/megamo-upon-05-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2S, 600 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Megamo Upon 05 ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2S und einen 600 Wh Akku, das Drehmoment beträgt 130 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano Ultegra Di2 R8170, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2S Mittelmotor 250 Watt",
+      "Drehmoment": "130 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano Ultegra Di2 R8170, hydraulische Scheibenbremse",
+      "Gabel": "Upon Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Corsa Pro Control 42-622 (700x42C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "megamo-upon-15-cw-600-wh-28-zoll",
+    "slug": "megamo-upon-15-cw-600-wh-28-zoll",
+    "name": "Megamo Upon 15 CW",
+    "brand": "Megamo",
+    "category": "E-Gravel",
+    "price": 5969.01,
+    "originalPrice": 5999,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Avinox M2S",
+    "torqueNm": 130,
+    "batteryStandardWh": 600,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/megamo-upon-15-cw-600-wh-28-zoll/megamo-upon-15-cw-600-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/megamo-upon-15-cw-600-wh-28-zoll/megamo-upon-15-cw-600-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Avinox M2S, 600 Wh Akku, 12-Gang Kettenschaltung.",
+    "description": "Das Megamo Upon 15 CW ist ein E-Gravel-Bike von Megamo. Es hat Avinox M2S und einen 600 Wh Akku, das Drehmoment beträgt 130 Nm. Geschaltet wird über 12-Gang Kettenschaltung. Die Bremsanlage: Shimano 105 Di2 R7170, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 600 Wh",
+          "capacityWh": 600,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Avinox M2S Mittelmotor 250 Watt",
+      "Drehmoment": "130 Nm",
+      "Akku": "Avinox 600 Wh, Intube-Akku",
+      "Display": "Avinox DPC100",
+      "Schaltung": "12-Gang Kettenschaltung",
+      "Bremsen": "Shimano 105 Di2 R7170, hydraulische Scheibenbremse",
+      "Gabel": "Upon Carbon Disc Fork, interne Leitungsführung, Flat Mount Disc, Achsaufnahme: 12x100mm, Starrgabel",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Vittoria Corsa Pro Control 42-622 (700x42C)",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll",
+    "slug": "giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll",
+    "name": "Giant Defy Advanced E+ Elite 2",
+    "brand": "Giant",
+    "category": "E-Gravel",
+    "price": 6467.5,
+    "originalPrice": 6500,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Giant SyncDrive Move Plus Hinterradmotor",
+    "torqueNm": 75,
+    "batteryStandardWh": 400,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll/giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll-v1-1.webp",
+    "gallery": [
+      "/products/giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll/giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll-v1-1.webp"
+    ],
+    "shortDescription": "E-Gravel-Bike mit Giant SyncDrive Move Plus Hinterradmotor, 400 Wh Akku, 24-Gang Kettenschaltung.",
+    "description": "Das Giant Defy Advanced E+ Elite 2 ist ein E-Gravel-Bike von Giant. Es hat Giant SyncDrive Move Plus Hinterradmotor und einen 400 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 24-Gang Kettenschaltung. Die Bremsanlage: Sram Rival eTap AXS, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 400 Wh",
+          "capacityWh": 400,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Giant SyncDrive Move Plus Hinterradmotor 250Watt, 75 Nm",
+      "Drehmoment": "75 Nm",
+      "Akku": "Giant EnergyPak Smart, 400 Wh",
+      "Display": "Giant SG Display kompatibel",
+      "Schaltung": "24-Gang Kettenschaltung",
+      "Bremsen": "Sram Rival eTap AXS, hydraulische Scheibenbremse",
+      "Gabel": "Giant Advanced Vollcarbon Gabel OD Aero",
+      "Rahmen": "Carbon, Diamant",
+      "Reifen": "Giant Gavia Fondo 0, Pannenschutz",
+      "Laufradgröße": "28 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
     "id": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
     "slug": "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll",
     "name": "Cube Kathmandu Hybrid 750 45 km/h",

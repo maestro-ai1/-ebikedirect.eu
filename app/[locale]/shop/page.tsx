@@ -50,7 +50,7 @@ function ShopContent() {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const itemsPerPage = 9;
 
-  const categories = ['all', 'E-MTB', 'E-Trekking', 'E-City', 'Speed-Pedelec', 'Cargo-E-Bike', 'Falt-E-Bike', 'Zubehör'];
+  const categories = ['all', 'E-MTB', 'E-Trekking', 'E-City', 'Speed-Pedelec', 'Cargo-E-Bike', 'Falt-E-Bike', 'E-Gravel', 'Zubehör'];
   const brands = ['all', ...Array.from(new Set(PRODUCTS.filter((p) => p.category !== 'Zubehör').map((p) => p.brand))).sort((a, b) => a.localeCompare(b, 'de'))];
   const motors = ['all', 'Bosch', 'Shimano', 'Yamaha', 'Specialized'];
 

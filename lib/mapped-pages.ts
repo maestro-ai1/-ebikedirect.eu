@@ -22,6 +22,7 @@ const STATIC_PAGES: MappedPageDef[] = [
   { path: '/e-bikes/s-pedelec', type: 'category', category: 'Speed-Pedelec' },
   { path: '/e-bikes/cargo-bikes', type: 'category', category: 'Cargo-E-Bike' },
   { path: '/e-bikes/falt-e-bikes', type: 'category', category: 'Falt-E-Bike' },
+  { path: '/e-bikes/e-rennrad-gravel', type: 'category', category: 'E-Gravel' },
   { path: '/zubehoer', type: 'accessory' },
   { path: '/zubehoer/schloesser', type: 'accessory', accessory: 'schloesser' },
   { path: '/zubehoer/helme', type: 'accessory', accessory: 'helme' },

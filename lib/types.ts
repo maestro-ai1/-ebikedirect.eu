@@ -9,7 +9,7 @@ export interface Product {
   slug: string;
   name: string;
   brand: string;
-  category: 'E-MTB' | 'E-Trekking' | 'E-City' | 'Speed-Pedelec' | 'Cargo-E-Bike' | 'Falt-E-Bike' | 'Zubehör';
+  category: 'E-MTB' | 'E-Trekking' | 'E-City' | 'Speed-Pedelec' | 'Cargo-E-Bike' | 'Falt-E-Bike' | 'E-Gravel' | 'Zubehör';
   /** Accessory group, matches /zubehoer/<group> (only for category Zubehör). */
   accessory?: string;
   price: number;

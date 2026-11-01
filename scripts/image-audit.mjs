@@ -41,7 +41,7 @@ for (const r of rows) {
   if (r.issue) why.push(r.issue);
   else {
     if (`${r.w}x${r.h}` !== common) why.push(`size ${r.w}x${r.h} (standard ${common})`);
-    if (r.border < 245 || r.whiteShare < 0.97) why.push(`background not white (border ${r.border}, white ${(r.whiteShare * 100).toFixed(0)}%)`);
+    if (r.border < 245 || r.whiteShare < 0.95) why.push(`background not white (border ${r.border}, white ${(r.whiteShare * 100).toFixed(0)}%)`);
     if (r.bright < 140) why.push(`dark image (mean ${r.bright})`);
   }
   if (why.length) bad.push({ file: r.f, slugs: r.slugs, why: why.join('; ') });

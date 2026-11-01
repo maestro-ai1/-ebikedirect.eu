@@ -13,6 +13,7 @@ const TILES: { key: string; path: string; category?: string; photo: string; alt:
   { key: 'speed', path: '/e-bikes/s-pedelec', category: 'Speed-Pedelec', photo: 's-pedelec-kaufen', alt: 'S-Pedelec kaufen' },
   { key: 'cargo', path: '/e-bikes/cargo-bikes', category: 'Cargo-E-Bike', photo: 'cargo-e-bike-kaufen', alt: 'Cargo-E-Bike kaufen' },
   { key: 'falt', path: '/e-bikes/falt-e-bikes', category: 'Falt-E-Bike', photo: 'falt-e-bike-kaufen', alt: 'Falt-E-Bike kaufen' },
+  { key: 'gravel', path: '/e-bikes/e-rennrad-gravel', category: 'E-Gravel', photo: 'e-rennrad-gravel-kaufen', alt: 'E-Rennrad und Gravel E-Bike kaufen' },
   { key: 'all', path: '/e-bikes', photo: 'e-bike-kaufen', alt: 'E-Bike kaufen' },
   { key: 'acc', path: '/zubehoer', category: 'Zubehör', photo: 'e-bike-zubehoer-kaufen', alt: 'E-Bike Zubehör kaufen' }
 ];
@@ -26,7 +27,7 @@ export function CategoryTiles({ locale }: { locale: Locale }) {
           <h2 id="cat-heading" className="font-display text-3xl sm:text-5xl font-bold text-[#131A22] tracking-tight leading-[1.05]">{m.catTitle}</h2>
           <p className="mt-3 text-sm sm:text-base text-gray-600">{m.catSub}</p>
         </div>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           {TILES.map((t) => {
             const count = t.category ? PRODUCTS.filter((p) => p.category === t.category).length : PRODUCTS.filter((p) => p.category !== 'Zubehör').length;
             return (

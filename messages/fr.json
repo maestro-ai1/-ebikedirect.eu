@@ -178,7 +178,8 @@
       "cargo": "Vélos cargo électriques",
       "all": "Tous les vélos électriques",
       "acc": "Accessoires",
-      "falt": "Vélos électriques pliants"
+      "falt": "Vélos électriques pliants",
+      "gravel": "Vélos électriques gravel et route"
     },
     "newTitle": "Nouveautés",
     "newSub": "Modèles récemment ajoutés, avec données vérifiées et photos de studio.",

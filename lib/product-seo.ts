@@ -12,6 +12,7 @@ export const CATEGORY_LABEL: Record<Product['category'], string> = {
   'Speed-Pedelec': 'S-Pedelec',
   'Cargo-E-Bike': 'Cargo-E-Bike',
   'Falt-E-Bike': 'Falt-E-Bike',
+  'E-Gravel': 'E-Gravel-Bike',
   'Zubehör': 'Zubehör'
 };
 
@@ -22,6 +23,7 @@ export const CATEGORY_PATH: Record<string, string> = {
   'Speed-Pedelec': '/e-bikes/s-pedelec',
   'Cargo-E-Bike': '/e-bikes/cargo-bikes',
   'Falt-E-Bike': '/e-bikes/falt-e-bikes',
+  'E-Gravel': '/e-bikes/e-rennrad-gravel',
   'Zubehör': '/zubehoer'
 };
 
@@ -62,7 +64,8 @@ const CATEGORY_TEXT: Record<string, string> = {
   'E-City': 'City-E-Bikes machen den Alltag in der Stadt leichter: aufrechte Sitzposition, Schutzbleche, Licht und oft ein tiefer Einstieg zum bequemen Auf- und Absteigen. Sie sind auf Komfort, Sicherheit und wartungsarmen Betrieb ausgelegt und eignen sich für Pendler, Einkäufe und Ausflüge.',
   'Speed-Pedelec': 'S-Pedelecs unterstützen bis 45 km/h und gelten rechtlich als Kleinkrafträder. Dafür sind ein Versicherungskennzeichen, mindestens der Führerschein der Klasse AM und ein Helm nötig. Sie sind die schnellste Art, mit Muskelkraft und Motor längere Pendelstrecken in kurzer Zeit zu fahren.',
   'Cargo-E-Bike': 'Cargo-E-Bikes transportieren Kinder, Einkäufe oder Lasten mit Motorunterstützung. Der lange Radstand und der stabile Rahmen sorgen für sicheren Stand, der Motor gleicht das Gewicht aus. Sie ersetzen im Alltag oft ein Zweitauto auf kurzen Strecken.',
-  'Falt-E-Bike': 'Falt-E-Bikes lassen sich klein zusammenlegen und passen in Bahn, Kofferraum oder Wohnung. Kleine Laufräder und ein kompakter Rahmen machen sie wendig in der Stadt, der Motor unterstützt auch bei Anstiegen und Gegenwind.'
+  'Falt-E-Bike': 'Falt-E-Bikes lassen sich klein zusammenlegen und passen in Bahn, Kofferraum oder Wohnung. Kleine Laufräder und ein kompakter Rahmen machen sie wendig in der Stadt, der Motor unterstützt auch bei Anstiegen und Gegenwind.',
+  'E-Gravel': 'E-Rennräder und E-Gravelbikes verbinden einen leichten Rahmen mit Rennlenker, schmalen bis mittelbreiten Reifen und einem kompakten Motor. Sie sind schneller und sportlicher als ein Trekkingrad und eignen sich für Asphalt, Feldwege und lange Touren. Viele Modelle haben einen kleinen, leichten Akku, damit das Fahrgefühl eines normalen Rennrads erhalten bleibt.',
 };
 
 const WHO_TEXT: Record<string, string> = {
@@ -71,7 +74,8 @@ const WHO_TEXT: Record<string, string> = {
   'E-City': 'Das Modell passt zu allen, die in der Stadt und im Umland komfortabel, sicher und ohne Schweiß ankommen wollen.',
   'Speed-Pedelec': 'Das Modell passt zu Pendlern, die längere Strecken zügig fahren möchten und die rechtlichen Voraussetzungen für ein S-Pedelec erfüllen.',
   'Cargo-E-Bike': 'Das Modell passt zu Familien und Gewerbetreibenden, die Kinder oder Lasten sicher mit dem Rad transportieren möchten.',
-  'Falt-E-Bike': 'Das Modell passt zu Menschen, die Bahn, Auto und Rad kombinieren und wenig Platz zum Abstellen haben.'
+  'Falt-E-Bike': 'Das Modell passt zu Menschen, die Bahn, Auto und Rad kombinieren und wenig Platz zum Abstellen haben.',
+  'E-Gravel': 'Das Modell passt zu sportlichen Fahrerinnen und Fahrern, die längere Strecken auf Asphalt und Schotter fahren möchten und dabei Unterstützung am Berg und bei Gegenwind schätzen.',
 };
 
 export interface ProductContentData {

@@ -13,7 +13,7 @@ const SKIP = new Set([
   'specialized-turbo-creo-sl-e5-comp-320-wh-28-zoll', // road/gravel e-bike: no matching category yet
   'brompton-electric-g-line-e-motiq-urban-demo-345-wh-20-zoll', // demo unit
 ]);
-const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec', 'Falt-E-Bike': 'Klapp E-Bike' };
+const CAT_DE = { 'E-MTB': 'E-Mountainbike', 'E-Trekking': 'Trekking E-Bike', 'E-City': 'City E-Bike', 'Cargo-E-Bike': 'Cargo E-Bike', 'Speed-Pedelec': 'S-Pedelec', 'E-Gravel': 'E-Gravel-Bike', 'Falt-E-Bike': 'Klapp E-Bike' };
 const slugKey = (s) => s;
 const q2 = (n) => Math.round(n * 100) / 100;
 const numOf = (s) => { const m = String(s || '').match(/(\d{2,3})\s*Nm/i); return m ? Number(m[1]) : 0; };
@@ -32,11 +32,14 @@ items = items.filter((m) => {
   return ps.startsWith(bk) || ps.startsWith(bk.replace(/-/g, ''));
 });
 // The dealer's category lists overlap, so the category is decided from the model name first.
+const ROAD = /gravel|solace|esilex|topstone|synapse|addict|speedster|\borca\b|\bgain\b|creo|defy|denna|norza|checkpoint|revolt|contend|nuroad|domane|endurace|\bavail\b|e-astr|kanzo|e-?gravel/i;
 const CARGO_BRANDS = new Set(['Babboe', 'Carqon', 'Urban Arrow', 'QiO']);
 const MTB = /fully|hardtail|trail|enduro|reaction|stereo|levo|kenevo|\bwild\b|\brise\b|urrun|patron|alltrack|alltrail|allmtn|\bjam|thron|talon|fathom|stance|moterra|e-revox|revox|durok|korak|tarok|ravor|\bams\b|\bnuride\b|powerfly|\brail\b|fuel/i;
 function inferCat(m) {
   const t = m.name + ' ' + m.parts.join(' ');
   if (m.brand === 'Brompton' || /\bfold\b|falt/i.test(t)) return 'Falt-E-Bike';
+  if (m._catrun && m.cat === 'E-Gravel') return 'E-Gravel';
+  if (ROAD.test(t)) return 'E-Gravel';
   if (CARGO_BRANDS.has(m.brand) || CARGO.test(t)) return 'Cargo-E-Bike';
   if (/45\s?km|\bHS\b|speed pedelec|vado s\b/i.test(t)) return 'Speed-Pedelec';
   if (MTB.test(t)) return 'E-MTB';
@@ -45,7 +48,8 @@ function inferCat(m) {
 }
 items = items.filter((m) => !SKIP.has(m.slug) && !/testrad|demo/i.test(m.name + ' ' + m.parts.join(' ')));
 // road and gravel e-bikes have no category on the site yet (the dealer lists some of them as cargo or trekking), so they wait for their own category
-items = items.filter((m) => !/gravel|solace|fastlane|esilex|topstone|synapse|addict|speedster|\borca\b|\bgain\b|creo|defy|denna|norza|checkpoint|revolt|contend|nuroad|domane|endurace/i.test(m.name + ' ' + m.parts.join(' ')));
+// ordinary bikes that the road listing also shows are not road or gravel bikes
+items = items.filter((m) => !(m._catrun && m.cat === 'E-Gravel' && /urbanator|endeavour|touring/i.test(m.name)));
 // one product per slug (a model can appear in a brand run and a category run)
 items = items.filter((m, i, a) => a.findIndex((x) => x.slug === m.slug) === i);
 

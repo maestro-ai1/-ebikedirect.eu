@@ -12,6 +12,7 @@ const CATEGORY_LINKS = [
   { path: '/e-bikes/s-pedelec', label: 'S-Pedelecs (45 km/h)' },
   { path: '/e-bikes/cargo-bikes', label: 'Cargo-E-Bikes' },
   { path: '/e-bikes/falt-e-bikes', label: 'Falt-E-Bikes' },
+  { path: '/e-bikes/e-rennrad-gravel', label: 'E-Rennrad & Gravel' },
   { path: '/zubehoer', label: 'Zubehör' }
 ];
 

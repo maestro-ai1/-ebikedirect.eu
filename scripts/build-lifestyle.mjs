@@ -23,7 +23,8 @@ const CATEGORY = [
   ['e-bike-nachruestsatz-kaufen', 'e bike kit.jpg'],
   ['e-bike-kindersitz-kaufen', 'electric bike with child seat australia.avif'],
   ['dreirad-e-bike-kaufen', 'best electric tricycle for adults australia.webp'],
-  ['cruiser-e-bike-kaufen', 'electric beach cruisers.webp']
+  ['cruiser-e-bike-kaufen', 'electric beach cruisers.webp'],
+  ['e-rennrad-gravel-kaufen', 'cheap ebike.png']
 ];
 const BLOG = [
   ['s-pedelec-fuehrerschein-kennzeichen-kosten', 'throttle ebikes.jpg'],
