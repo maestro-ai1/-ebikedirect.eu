@@ -78,7 +78,7 @@ export function ProductContent({ product }: { product: Product }) {
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-sm">
               {rel.map((r) => (
                 <li key={r.slug}>
-                  <Link href={`/shop/${r.slug}`} className="font-semibold text-[#FF5722] hover:underline">{r.name} kaufen</Link>
+                  <Link href={`/shop/${r.slug}`} className="font-semibold text-[#FF5722] hover:underline">{r.name}</Link>
                   <span className="text-gray-500">{' '}({r.brand})</span>
                 </li>
               ))}

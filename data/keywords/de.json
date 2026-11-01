@@ -2447,6 +2447,12 @@
      "volume": 140,
      "kd": 16,
      "intent": "T"
+    },
+    {
+     "keyword": "flyer electric bike",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2736,6 +2742,18 @@
      "volume": 140,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "e bike tenways",
+     "volume": 390,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "tenways bikes",
+     "volume": 260,
+     "kd": 27,
+     "intent": "N"
     }
    ]
   },
@@ -3211,6 +3229,24 @@
      "volume": 140,
      "kd": 13,
      "intent": "C"
+    },
+    {
+     "keyword": "e-bikes von kettler",
+     "volume": 2400,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike kettler",
+     "volume": 1600,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike von kettler",
+     "volume": 880,
+     "kd": 12,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -3235,6 +3271,12 @@
     {
      "keyword": "kettler e bike damen",
      "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "kettler e-bike",
+     "volume": 720,
      "kd": 19,
      "intent": "I"
     }
@@ -3331,6 +3373,24 @@
      "volume": 110,
      "kd": 14,
      "intent": "T"
+    },
+    {
+     "keyword": "raymon gravel bike",
+     "volume": 480,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bikes raymon",
+     "volume": 320,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "raymon fully e bike",
+     "volume": 110,
+     "kd": 14,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -3386,6 +3446,12 @@
     {
      "keyword": "qio fahrräder",
      "volume": 210,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike qio",
+     "volume": 170,
      "kd": 22,
      "intent": "C"
     }
@@ -3451,6 +3517,18 @@
      "volume": 110,
      "kd": 27,
      "intent": "T"
+    },
+    {
+     "keyword": "bike giant mtb",
+     "volume": 480,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant händler",
+     "volume": 480,
+     "kd": 28,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -3502,6 +3580,30 @@
      "volume": 880,
      "kd": 16,
      "intent": "T"
+    },
+    {
+     "keyword": "husqvarna e-bike",
+     "volume": 320,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "ebike husqvarna",
+     "volume": 210,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "husqvarna online shop",
+     "volume": 210,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "husqvarna e-bike fully",
+     "volume": 140,
+     "kd": 14,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -3610,6 +3712,24 @@
      "volume": 140,
      "kd": 25,
      "intent": "T"
+    },
+    {
+     "keyword": "e bike hercules",
+     "volume": 720,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "hercules e bikes",
+     "volume": 720,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "fahrrad damen hercules",
+     "volume": 390,
+     "kd": 12,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -3661,6 +3781,30 @@
      "volume": 140,
      "kd": 19,
      "intent": "C"
+    },
+    {
+     "keyword": "e bike ghost",
+     "volume": 590,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "ghost electric bike",
+     "volume": 480,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "mountainbike ghost fully",
+     "volume": 390,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "ghost e-bike",
+     "volume": 320,
+     "kd": 24,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -4041,6 +4185,24 @@
      "volume": 110,
      "kd": 20,
      "intent": "I"
+    },
+    {
+     "keyword": "liv rennrad",
+     "volume": 1600,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "liv city",
+     "volume": 880,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "rennrad liv",
+     "volume": 480,
+     "kd": 21,
+     "intent": "N"
     }
    ]
   },
@@ -4388,6 +4550,12 @@
      "volume": 170,
      "kd": 30,
      "intent": "T"
+    },
+    {
+     "keyword": "lastenrad babboe",
+     "volume": 880,
+     "kd": 26,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -4402,6 +4570,24 @@
      "volume": 70,
      "kd": 8,
      "intent": "I"
+    },
+    {
+     "keyword": "babboe-lastenrad",
+     "volume": 140,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "lastenrad babboe gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargo bike babboe",
+     "volume": 110,
+     "kd": 19,
+     "intent": "N"
     }
    ]
   },
@@ -4447,8 +4633,70 @@
     "kd": 25,
     "intent": "T"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "e brompton bike",
+     "volume": 880,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "brompton bikes",
+     "volume": 590,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "e brompton",
+     "volume": 480,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "brompton ebike",
+     "volume": 210,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike brompton",
+     "volume": 140,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "brompton brompton",
+     "volume": 1900,
+     "kd": 20,
+     "intent": "N"
+    },
+    {
+     "keyword": "faltrad brompton",
+     "volume": 1600,
+     "kd": 28,
+     "intent": "N"
+    },
+    {
+     "keyword": "brompton gebraucht",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "brompton faltrad gebraucht",
+     "volume": 320,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "faltrad gebraucht brompton",
+     "volume": 320,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
    "url": "/marken/mondraker/",
@@ -4513,8 +4761,70 @@
     "kd": 10,
     "intent": "I"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "rennrad merida",
+     "volume": 1300,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "merida e bike",
+     "volume": 1000,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "merida gravel bike",
+     "volume": 1000,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "electric bike merida",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "merida city",
+     "volume": 880,
+     "kd": 27,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "merida rennrad",
+     "volume": 2400,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike merida",
+     "volume": 720,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrräder merida",
+     "volume": 720,
+     "kd": 27,
+     "intent": "N"
+    },
+    {
+     "keyword": "merida fahrräder",
+     "volume": 590,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "merida gravel",
+     "volume": 320,
+     "kd": 22,
+     "intent": "N"
+    }
+   ]
   },
   {
    "url": "/marken/coboc/",
@@ -4539,8 +4849,70 @@
     "kd": 20,
     "intent": "T"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "urban arrow",
+     "volume": 5400,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "urban arrow lastenrad",
+     "volume": 1900,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "urban arrow lastenräder",
+     "volume": 1000,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "urban bike electric",
+     "volume": 390,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "lastenrad urban arrow",
+     "volume": 390,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "urban bike",
+     "volume": 1900,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "urban bikes",
+     "volume": 1000,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike urban",
+     "volume": 880,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "urban bike herren",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "electric bike urban",
+     "volume": 390,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   {
    "url": "/zubehoer/helme/",

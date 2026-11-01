@@ -22,8 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = process.env.APP_URL || 'https://ebikedirect.eu';
-  const title = productTitle(product.name);
-  const description = productDescription(product);
+  const focus = productFocusKeyword(product.slug, product.name);
+  const title = productTitle(product.name, focus);
+  const description = productDescription(product, focus);
 
   return {
     title: { absolute: title },
