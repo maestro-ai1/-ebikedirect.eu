@@ -596,20 +596,6 @@
    "secondary": [],
    "faq": []
   },
-  "desiknio-dopamine-peak-236-wh-28-zoll": {
-   "name": "Desiknio Dopamine Peak",
-   "brand": "Desiknio",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "desiknio dopamine peak kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
   "ktm-macina-gravelator-sx-20-400-wh-28-zoll": {
    "name": "KTM Macina Gravelator SX 20",
    "brand": "KTM",
@@ -666,76 +652,6 @@
    "secondary": [],
    "faq": []
   },
-  "ridley-e-astr-apex-xplr-axs-290-wh-28-zoll": {
-   "name": "Ridley E-ASTR Apex XPLR AXS",
-   "brand": "Ridley",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "ridley e-astr apex xplr axs kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-lande-400-wh-28-zoll": {
-   "name": "Megamo Lande",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo lande kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "ridley-e-kanzo-adventure-apex-xplr-600-wh": {
-   "name": "Ridley E-Kanzo Adventure",
-   "brand": "Ridley",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "ridley e-kanzo adventure kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "my-esel-egravel-performance-250-wh-28-zoll": {
-   "name": "My Esel eGravel Performance",
-   "brand": "My Esel",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "my esel egravel performance kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-along-10-600-wh-28-zoll": {
-   "name": "Megamo Along 10",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo along 10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
   "raymon-norza-comp-400-wh-28-zoll": {
    "name": "Raymon Norza Comp",
    "brand": "Raymon",
@@ -756,20 +672,6 @@
    "category": "E-Gravel",
    "primary": {
     "keyword": "specialized turbo creo 2 comp kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-upon-20-600-wh-28-zoll": {
-   "name": "Megamo Upon 20",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo upon 20 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -806,54 +708,12 @@
    "secondary": [],
    "faq": []
   },
-  "megamo-along-03-600-wh-28-zoll": {
-   "name": "Megamo Along 03",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo along 03 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-along-03-cw-600-wh-28-zoll": {
-   "name": "Megamo Along 03 CW",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo along 03 cw kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
   "scott-solace-gravel-20-360-wh-28-zoll": {
    "name": "Scott Solace Gravel 20",
    "brand": "Scott",
    "category": "E-Gravel",
    "primary": {
     "keyword": "scott solace gravel 20 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-along-01-600-wh-28-zoll": {
-   "name": "Megamo Along 01",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo along 01 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -890,68 +750,12 @@
    "secondary": [],
    "faq": []
   },
-  "megamo-upon-05-600-wh-28-zoll": {
-   "name": "Megamo Upon 05",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo upon 05 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "megamo-upon-15-cw-600-wh-28-zoll": {
-   "name": "Megamo Upon 15 CW",
-   "brand": "Megamo",
-   "category": "E-Gravel",
-   "primary": {
-    "keyword": "megamo upon 15 cw kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
   "giant-defy-advanced-e-plus-elite-2-400-wh-28-zoll": {
    "name": "Giant Defy Advanced E+ Elite 2",
    "brand": "Giant",
    "category": "E-Gravel",
    "primary": {
     "keyword": "giant defy advanced e+ elite 2 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "woom-explore-e-6-171-wh-26-zoll": {
-   "name": "Woom Explore e 6",
-   "brand": "Woom",
-   "category": "E-Kinder",
-   "primary": {
-    "keyword": "woom explore e 6 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "woom-explore-e-5-171-wh-24-zoll": {
-   "name": "Woom Explore e 5",
-   "brand": "Woom",
-   "category": "E-Kinder",
-   "primary": {
-    "keyword": "woom explore e 5 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -5230,90 +5034,6 @@
    "category": "E-Trekking",
    "primary": {
     "keyword": "kettler e-comfort px5 fl kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-pace-b05-625-wh-27-5-zoll": {
-   "name": "Koga Pace B05",
-   "brand": "Koga",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "koga pace b05 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-e-worldtraveller-suspension-750-wh-28-zoll": {
-   "name": "Koga E-Worldtraveller Suspension",
-   "brand": "Koga",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "koga e-worldtraveller suspension kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-pace-b10-750-wh-27-5-zoll": {
-   "name": "Koga Pace B10",
-   "brand": "Koga",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "koga pace b10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-e-worldtraveller-rigid-750-wh-28-zoll": {
-   "name": "Koga E-Worldtraveller Rigid",
-   "brand": "Koga",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "koga e-worldtraveller rigid kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-e-f3-6-0-400-wh-28-zoll": {
-   "name": "Koga E-F3 6.0",
-   "brand": "Koga",
-   "category": "E-City",
-   "primary": {
-    "keyword": "koga e-f3 6.0 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "koga-e-supermetro-400-wh-28-zoll": {
-   "name": "Koga E-Supermetro",
-   "brand": "Koga",
-   "category": "E-City",
-   "primary": {
-    "keyword": "koga e-supermetro kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",

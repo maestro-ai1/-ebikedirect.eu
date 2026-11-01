@@ -23,7 +23,6 @@ const BRAND_SITES: Record<string, { label: string; href: string }> = {
   Kettler: { label: 'Kettler Alu-Rad: Hersteller', href: 'https://www.kettler-alu-rad.de/' },
   Hercules: { label: 'Hercules: Hersteller', href: 'https://www.hercules-bikes.de/' },
   Conway: { label: 'Conway: Hersteller', href: 'https://www.conway-bikes.de/' },
-  Koga: { label: 'Koga: Hersteller', href: 'https://www.koga.com/' },
   Bergamont: { label: 'Bergamont: Hersteller', href: 'https://www.bergamont.com/' },
   Cannondale: { label: 'Cannondale: Hersteller', href: 'https://www.cannondale.com/de-de' },
   Scott: { label: 'Scott Sports: Hersteller', href: 'https://www.scott-sports.com/de/de' },

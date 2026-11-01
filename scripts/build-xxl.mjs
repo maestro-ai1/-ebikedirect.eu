@@ -55,6 +55,13 @@ items = items.filter((m) => !(m._catrun && m.cat === 'E-Gravel' && /urbanator|en
 // one product per slug (a model can appear in a brand run and a category run)
 items = items.filter((m, i, a) => a.findIndex((x) => x.slug === m.slug) === i);
 
+// Owner rule 2026-11-01: brands that are not in the keyword bank are dropped (no brand hub can be mapped for them).
+const DROPPED_BRANDS = ['Desiknio', 'Ridley', 'Megamo', 'My Esel', 'Woom', 'Koga'];
+const droppedItems = items.filter((m) => DROPPED_BRANDS.includes(m.brand));
+for (const m of droppedItems) fs.rmSync(path.join('public', 'products', m.slug), { recursive: true, force: true });
+items = items.filter((m) => !DROPPED_BRANDS.includes(m.brand));
+console.log('dropped brands:', DROPPED_BRANDS.join(', '), '-', droppedItems.length, 'products');
+
 const norm = (n) => n.replace(/^Riese und Müller/, 'Riese & Müller').replace(/\s+\+/g, '+').replace(/\s+/g, ' ').trim();
 const counts = {};
 for (const m of items) counts[norm(m.name)] = (counts[norm(m.name)] || 0) + 1;
