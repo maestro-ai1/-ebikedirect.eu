@@ -39138,5 +39138,158 @@
    "store": "stromerbike.com/de",
    "fetched": "2026-11-02"
   }
+ ],
+ "gazelle-paris-c7": [
+  {
+   "file": "gazelle-paris-c7-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/c19a7c2e-7274-4c39-a761-d27127268f4b/ParisC7HMBlightolivemat_1283-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/paris-c7",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-paris-c7plus": [
+  {
+   "file": "gazelle-paris-c7plus-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/43346520-42be-4236-916a-7f20b962545e/ParisC7plusHMBanthracitegreymat_1232-1_Hpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/paris-c7plus",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-paris-c8": [
+  {
+   "file": "gazelle-paris-c8-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/d9c6700f-18dd-479d-8f89-a0e8e40f49ae/ParisC8blackmat_1372-1_Lpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/paris-c8",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-ultimate-c380": [
+  {
+   "file": "gazelle-ultimate-c380-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/111aa53c-2d66-45ac-97b2-1bfb5048925b/UltimateC380tealgreymat_1493-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/ultimate-c380",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-ultimate-t11": [
+  {
+   "file": "gazelle-ultimate-t11-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/ee63a22b-cb9c-4147-8d45-e1142b812fa7/UltimateT11twilightgreenmat_1501-2_Lpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/ultimate-t11",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-miss-grace-c5": [
+  {
+   "file": "gazelle-miss-grace-c5-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/b722ecaf-c4fa-4ec5-8dab-63bd23314b22/MissGraceC5lightolivegloss_1489-2_Lpsvs?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/miss-grace-c5",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-chamonix-c5": [
+  {
+   "file": "gazelle-chamonix-c5-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/ce559d93-26bb-4c92-8877-360b8c1f103b/ChamonixC5HMSclaygreengloss_1636-2_Lpfss?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/chamonix-c5",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-bloom-c7": [
+  {
+   "file": "gazelle-bloom-c7-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/5a879ce4-4d76-41d9-9bba-361afaecc031/BloomC7thundergrey_1202-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/bloom-c7",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-bloom-c310": [
+  {
+   "file": "gazelle-bloom-c310-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/e62cb59d-a136-44c7-bdbd-4a98859396a2/BloomC310claygreen_1205-2_Lpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/bloom-c310",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-esprit-c7": [
+  {
+   "file": "gazelle-esprit-c7-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/8005b02f-d0ff-4643-8804-a51fd1fee0cb/EspritC7HMSlegionbluemat_1395-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/esprit-c7",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-makki-travel": [
+  {
+   "file": "gazelle-makki-travel-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/53e44fa2-87dc-4e50-b085-9716e9f0fb12/MakkiTravelblackmat_967-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/makki-travel",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-makki-urban": [
+  {
+   "file": "gazelle-makki-urban-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/fc2adf98-952b-4608-9339-ed3f8a9f2e14/MakkiUrbanblackpinegreenmat_1483-2_Lpsvs-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/makki-urban",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-orange-c8": [
+  {
+   "file": "gazelle-orange-c8-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/1dba2f3a-a2e1-422d-b8d5-614a5cee12f5/OrangeC8HMBIvorywhitemat_1404-2_Lpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/orange-c8",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-orange-c8plus": [
+  {
+   "file": "gazelle-orange-c8plus-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/677bc96e-b744-4673-9be1-ad44ad5038a7/OrangeC8plusHMBblackmat_1398-1_Hpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/orange-c8plus",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-grenoble-c310": [
+  {
+   "file": "gazelle-grenoble-c310-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/ab17afa6-3911-4e28-b3d6-0ad1e2660a80/GrenobleC310dewgreenmat_1561-2_Lpsvs?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/grenoble-c310",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-arroyo-c5plus-elite": [
+  {
+   "file": "gazelle-arroyo-c5plus-elite-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/bfe2889b-c5de-43be-9867-7a97737c9c58/ArroyoC5plusElitefrozenwhitegloss_1563-2_Lpsvs?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/arroyo-c5plus-elite",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "gazelle-heavydutynl-c7": [
+  {
+   "file": "gazelle-heavydutynl-c7-v1-1.webp",
+   "source": "https://resource.pon.bike/by/transform/5a0a3fcd-f16d-4222-aa96-667adf688e28/HeavyDutyNLC7HMBblackmat_1224-1_Hpfss-tif?io=transform:fit,width:2560,height:1810&format=webp",
+   "page": "https://www.gazelle.de/ebikes/heavydutynl-c7",
+   "store": "gazelle.de",
+   "fetched": "2026-11-02"
+  }
  ]
 }

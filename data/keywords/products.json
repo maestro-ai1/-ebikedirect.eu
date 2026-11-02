@@ -4515,21 +4515,14 @@
    "brand": "Gazelle",
    "category": "E-City",
    "primary": {
-    "keyword": "gazelle arroyo c5",
-    "volume": 390,
-    "kd": 16,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "gazelle arroyo c5 elite rt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "gazelle arroyo c5 elite",
-     "volume": 260,
-     "kd": 18,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "gazelle-miss-grace-c7-500-wh-28-zoll": {
    "name": "Gazelle Miss Grace C7 500 Wh 28 Zoll",
@@ -4719,6 +4712,20 @@
    "category": "E-Trekking",
    "primary": {
     "keyword": "gazelle curb t9 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-grenoble-c5-plus-540-wh-28-zoll": {
+   "name": "Gazelle Grenoble C5+",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle grenoble c5+ kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -6859,6 +6866,20 @@
     }
    ]
   },
+  "kalkhoff-endeavour-c-move-plus-545-wh-20-zoll": {
+   "name": "Kalkhoff Endeavour C Move+",
+   "brand": "Kalkhoff",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "kalkhoff endeavour c move+ kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
   "kalkhoff-image-3-excite-600-wh-29-zoll": {
    "name": "Kalkhoff Image 3 Excite 600 Wh 29 Zoll",
    "brand": "Kalkhoff",
@@ -6869,6 +6890,34 @@
     "kd": 19,
     "intent": "T",
     "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "kalkhoff-entice-5-plus-advance-800-wh-29-zoll": {
+   "name": "Kalkhoff Entice 5+ Advance",
+   "brand": "Kalkhoff",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "kalkhoff entice 5+ advance kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "kalkhoff-entice-7-plus-move-720-wh-27-5-zoll": {
+   "name": "Kalkhoff Entice 7+ Move",
+   "brand": "Kalkhoff",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "kalkhoff entice 7+ move kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
    "faq": []
@@ -11555,6 +11604,20 @@
    "secondary": [],
    "faq": []
   },
+  "trek-powerfly-fs-plus-6-gen-4-800-wh-29-zoll": {
+   "name": "Trek Powerfly FS+ 6 Gen 4",
+   "brand": "Trek",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "trek powerfly fs+ 6 gen 4 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
   "trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll": {
    "name": "Trek Powerfly FS+ 4 Gen 4",
    "brand": "Trek",
@@ -11589,6 +11652,20 @@
    "category": "E-Trekking",
    "primary": {
     "keyword": "trek charter+ 4 nexus 5 belt lowstep kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "trek-powerfly-plus-fs-4-gen-4-600-wh-29-zoll": {
+   "name": "Trek Powerfly+ FS 4 Gen 4",
+   "brand": "Trek",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "trek powerfly+ fs 4 gen 4 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
@@ -12681,6 +12758,20 @@
    "secondary": [],
    "faq": []
   },
+  "cannondale-moterra-4": {
+   "name": "Cannondale Moterra 4",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 4 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
   "cannondale-tesoro-carbon-3": {
    "name": "Cannondale Tesoro Carbon 3",
    "brand": "Cannondale",
@@ -12813,6 +12904,279 @@
    "category": "Speed-Pedelec",
    "primary": {
     "keyword": "stromer st7 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-paris-c7": {
+   "name": "Gazelle Paris C7",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle paris",
+    "volume": 260,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "gazelle paris c7",
+     "volume": 390,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "gazelle-paris-c7plus": {
+   "name": "Gazelle Paris C7+",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle paris c7+ kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-paris-c8": {
+   "name": "Gazelle Paris C8",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle paris c8",
+    "volume": 170,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-ultimate-c380": {
+   "name": "Gazelle Ultimate C380",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle ultimate c380",
+    "volume": 390,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-ultimate-t11": {
+   "name": "Gazelle Ultimate T11",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle ultimate t11 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-miss-grace-c5": {
+   "name": "Gazelle Miss Grace C5",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle miss grace c5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-chamonix-c5": {
+   "name": "Gazelle Chamonix C5",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle chamonix",
+    "volume": 390,
+    "kd": 19,
+    "intent": "C",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "gazelle chamonix c5",
+     "volume": 260,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
+  },
+  "gazelle-bloom-c7": {
+   "name": "Gazelle Bloom C7",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle bloom",
+    "volume": 320,
+    "kd": 16,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "gazelle bloom c7",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "gazelle-bloom-c310": {
+   "name": "Gazelle Bloom C310",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle bloom c310 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-esprit-c7": {
+   "name": "Gazelle Esprit C7",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle esprit",
+    "volume": 480,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-makki-travel": {
+   "name": "Gazelle Makki Travel",
+   "brand": "Gazelle",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "gazelle makki travel kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-makki-urban": {
+   "name": "Gazelle Makki Urban",
+   "brand": "Gazelle",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "gazelle makki urban kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-orange-c8": {
+   "name": "Gazelle Orange C8",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle orange",
+    "volume": 320,
+    "kd": 19,
+    "intent": "C",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "gazelle orange c8",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "gazelle-orange-c8plus": {
+   "name": "Gazelle Orange C8+",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle orange c8+ kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-grenoble-c310": {
+   "name": "Gazelle Grenoble C310",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle grenoble c310 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "gazelle-arroyo-c5plus-elite": {
+   "name": "Gazelle Arroyo C5+ Elite",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle arroyo c5",
+    "volume": 390,
+    "kd": 16,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "gazelle arroyo c5 elite",
+     "volume": 260,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "gazelle-heavydutynl-c7": {
+   "name": "Gazelle HeavyDutyNL C7",
+   "brand": "Gazelle",
+   "category": "E-City",
+   "primary": {
+    "keyword": "gazelle heavydutynl c7 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
