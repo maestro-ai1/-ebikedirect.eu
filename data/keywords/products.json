@@ -1032,12 +1032,6 @@
      "volume": 720,
      "kd": 15,
      "intent": "C"
-    },
-    {
-     "keyword": "rennrad ktm",
-     "volume": 720,
-     "kd": 14,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -1484,12 +1478,6 @@
      "intent": "T"
     },
     {
-     "keyword": "giant advanced",
-     "volume": 210,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
      "keyword": "giant bikes defy",
      "volume": 170,
      "kd": 21,
@@ -1507,12 +1495,6 @@
      "keyword": "giant defy advanced 2",
      "volume": 880,
      "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "advanced 2 giant",
-     "volume": 110,
-     "kd": 15,
      "intent": "I"
     }
    ]
@@ -4767,16 +4749,10 @@
      "intent": "T"
     },
     {
-     "keyword": "giant downhill mtb",
-     "volume": 170,
-     "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant hardtail",
-     "volume": 140,
-     "kd": 23,
-     "intent": "T"
+     "keyword": "enduro bike giant",
+     "volume": 110,
+     "kd": 21,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -4797,12 +4773,6 @@
      "volume": 720,
      "kd": 25,
      "intent": "I"
-    },
-    {
-     "keyword": "giant mountainbike fully",
-     "volume": 110,
-     "kd": 23,
-     "intent": "I"
     }
    ]
   },
@@ -4822,12 +4792,6 @@
      "keyword": "giant fathom e+",
      "volume": 210,
      "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant emtb",
-     "volume": 140,
-     "kd": 28,
      "intent": "T"
     }
    ],
@@ -4851,9 +4815,9 @@
      "intent": "I"
     },
     {
-     "keyword": "mtb enduro giant",
-     "volume": 140,
-     "kd": 22,
+     "keyword": "giant mountainbike fully",
+     "volume": 110,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -4956,14 +4920,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "giant bikes hardtail",
-     "volume": 140,
-     "kd": 28,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "giant talon e+ ex",
@@ -4975,12 +4932,6 @@
      "keyword": "giant mtb fully",
      "volume": 260,
      "kd": 24,
-     "intent": "I"
-    },
-    {
-     "keyword": "bike giant downhill",
-     "volume": 110,
-     "kd": 23,
      "intent": "I"
     }
    ]
@@ -5016,15 +4967,15 @@
      "intent": "T"
     },
     {
-     "keyword": "giant downhill",
-     "volume": 140,
-     "kd": 23,
+     "keyword": "giant stance e+ 1 pro",
+     "volume": 110,
+     "kd": 25,
      "intent": "T"
     },
     {
-     "keyword": "downhill mountain bike giant",
+     "keyword": "giant stance e+ pro",
      "volume": 110,
-     "kd": 23,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -5119,46 +5070,14 @@
    "brand": "Giant",
    "category": "E-MTB",
    "primary": {
-    "keyword": "giant talon e+ 2",
-    "volume": 170,
-    "kd": 19,
+    "keyword": "giant talon e+ 2 ex kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "giant downhill mountain bikes",
-     "volume": 170,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "giant enduro",
-     "volume": 140,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "enduro bike giant",
-     "volume": 110,
-     "kd": 21,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "giant talon 2",
-     "volume": 210,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "bike giant talon 2",
-     "volume": 140,
-     "kd": 26,
-     "intent": "I"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "giant-anytour-x-e-plus-1-800-wh-27-5-zoll": {
    "name": "Giant Anytour X E+ 1",
@@ -7236,56 +7155,19 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm city e bike",
-     "volume": 90,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm macina city 610 belt test",
-     "volume": 90,
-     "kd": 11,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e bike tiefeinsteiger",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
-     "keyword": "ktm macina city 610 belt",
-     "volume": 260,
-     "kd": 10,
+     "keyword": "ktm e bike damen tiefeinsteiger",
+     "volume": 170,
+     "kd": 15,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina city 710 belt",
-     "volume": 210,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina city 810 belt",
-     "volume": 210,
-     "kd": 8,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina city 810 belt test",
-     "volume": 140,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina city",
-     "volume": 140,
-     "kd": 18,
-     "intent": "I"
+     "keyword": "ktm tiefeinsteiger",
+     "volume": 110,
+     "kd": 12,
+     "intent": "N"
     }
    ]
   },
@@ -7318,12 +7200,6 @@
      "volume": 720,
      "kd": 15,
      "intent": "C"
-    },
-    {
-     "keyword": "ktm trekkingrad e bike",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -7337,6 +7213,12 @@
      "keyword": "ktm macina sport sx elite di2",
      "volume": 320,
      "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e-bikes tiefeinsteiger",
+     "volume": 90,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -7430,24 +7312,6 @@
    },
    "secondary": [
     {
-     "keyword": "ktm macina style 810",
-     "volume": 170,
-     "kd": 11,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm macina style 720 test",
-     "volume": 90,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm trekkingrad herren",
-     "volume": 170,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
      "keyword": "ktm trekkingrad herren 28 zoll",
      "volume": 90,
      "kd": 18,
@@ -7456,33 +7320,27 @@
    ],
    "faq": [
     {
-     "keyword": "ktm macina style 720",
-     "volume": 1600,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style 730",
-     "volume": 880,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style",
-     "volume": 590,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
      "keyword": "ktm macina style xl",
      "volume": 590,
      "kd": 22,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina style 820",
-     "volume": 480,
-     "kd": 11,
+     "keyword": "ktm macina xl",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style xl 2025",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike ktm trekking",
+     "volume": 590,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -7498,7 +7356,14 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm trekkingrad herren",
+     "volume": 170,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm macina superbelt sx 2026",
@@ -7511,18 +7376,6 @@
      "volume": 140,
      "kd": 10,
      "intent": "I"
-    },
-    {
-     "keyword": "ebike ktm trekking",
-     "volume": 590,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm tiefeinsteiger",
-     "volume": 110,
-     "kd": 12,
-     "intent": "N"
     }
    ]
   },
@@ -7604,15 +7457,9 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm e bike damen tiefeinsteiger",
+     "keyword": "ktm damen trekking",
      "volume": 170,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e-bikes tiefeinsteiger",
-     "volume": 90,
-     "kd": 10,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -7631,16 +7478,10 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "ktm damen trekking",
-     "volume": 170,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm trekking fahrräder",
-     "volume": 90,
-     "kd": 19,
-     "intent": "I"
+     "keyword": "ktm bike trekking",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -7649,9 +7490,9 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina style 820 di2",
-    "volume": 590,
-    "kd": 15,
+    "keyword": "ktm macina style 820 xl di2",
+    "volume": 170,
+    "kd": 11,
     "intent": "I",
     "source": "bank"
    },
@@ -7661,46 +7502,9 @@
      "volume": 140,
      "kd": 13,
      "intent": "C"
-    },
-    {
-     "keyword": "ktm e bike herren trekking",
-     "volume": 70,
-     "kd": 10,
-     "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "ktm macina style 810 di2 2025",
-     "volume": 210,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style 810 di2",
-     "volume": 210,
-     "kd": 8,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm style 820 di2",
-     "volume": 210,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style 820 xl di2",
-     "volume": 170,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style 810 di2 test",
-     "volume": 140,
-     "kd": 14,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-tour-cx-830-800-wh-28-zoll": {
    "name": "KTM Macina Tour CX 830",
@@ -7713,7 +7517,14 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm trekking bikes",
+     "volume": 140,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm macina tour cx 610",
@@ -7731,18 +7542,6 @@
      "keyword": "ktm macina tour cx 830",
      "volume": 140,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm bike trekking",
-     "volume": 140,
-     "kd": 17,
-     "intent": "N"
-    },
-    {
-     "keyword": "ktm tourenrad",
-     "volume": 70,
-     "kd": 13,
      "intent": "I"
     }
    ]
@@ -7774,10 +7573,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm trekking bikes",
+     "keyword": "ktm e bike tiefeinsteiger",
      "volume": 140,
-     "kd": 19,
-     "intent": "C"
+     "kd": 18,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7806,76 +7605,14 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm kapoho",
-    "volume": 260,
-    "kd": 11,
+    "keyword": "ktm macina kapoho 8972 di2 kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "ktm kapoho 7973",
-     "volume": 210,
-     "kd": 12,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm enduro",
-     "volume": 1600,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike mountainbike ktm",
-     "volume": 320,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e cross",
-     "volume": 140,
-     "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e cross e bike",
-     "volume": 70,
-     "kd": 11,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "ktm macina kapoho",
-     "volume": 390,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina kapoho 7973",
-     "volume": 390,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina kapoho 8973",
-     "volume": 140,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm kapoho 7972",
-     "volume": 110,
-     "kd": 9,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina kapoho 7971",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "ktm-macina-gran-830-800-wh-28-zoll": {
    "name": "KTM Macina Gran 830",
@@ -7904,35 +7641,17 @@
    },
    "secondary": [
     {
-     "keyword": "ktm mountainbike",
-     "volume": 880,
-     "kd": 15,
+     "keyword": "ktm enduro",
+     "volume": 1600,
+     "kd": 19,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "mountain bikes ktm",
-     "volume": 390,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm cross bikes",
-     "volume": 260,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm elektro enduro",
-     "volume": 110,
-     "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina cross lfc",
-     "volume": 110,
-     "kd": 17,
+     "keyword": "fully mtb ktm",
+     "volume": 170,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -8005,64 +7724,14 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "690 ktm r",
-    "volume": 1600,
-    "kd": 25,
+    "keyword": "ktm macina prowler prestige cx-r di2 kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "ktm e mountainbike",
-     "volume": 480,
-     "kd": 13,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm ebike mountainbike",
-     "volume": 320,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm ebike fully",
-     "volume": 110,
-     "kd": 14,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "ktm 990 r",
-     "volume": 170,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm 950 r",
-     "volume": 140,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm 390 r",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm 890 r",
-     "volume": 110,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina prowler prestige",
-     "volume": 110,
-     "kd": 12,
-     "intent": "I"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "ktm-macina-lycan-892-800-wh-29-zoll": {
    "name": "KTM Macina Lycan 892",
@@ -8083,36 +7752,18 @@
      "intent": "T"
     },
     {
-     "keyword": "ktm e mountain bikes",
-     "volume": 480,
-     "kd": 13,
+     "keyword": "ktm mountainbike",
+     "volume": 880,
+     "kd": 15,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "ktm e mountainbikes",
-     "volume": 320,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm mtb bikes",
-     "volume": 210,
-     "kd": 23,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm hardtail",
-     "volume": 110,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e fully",
-     "volume": 70,
-     "kd": 12,
-     "intent": "I"
+     "keyword": "ktm emtb",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -8135,16 +7786,10 @@
      "intent": "T"
     },
     {
-     "keyword": "ktm e mtb",
-     "volume": 390,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "mountain e bike ktm",
-     "volume": 320,
-     "kd": 19,
-     "intent": "C"
+     "keyword": "ktm e mountainbike",
+     "volume": 480,
+     "kd": 13,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8161,15 +7806,9 @@
      "intent": "I"
     },
     {
-     "keyword": "mountainbike ktm fully",
-     "volume": 170,
-     "kd": 8,
-     "intent": "I"
-    },
-    {
-     "keyword": "e cross bike ktm",
-     "volume": 90,
-     "kd": 19,
+     "keyword": "ktm mountainbike 29 zoll",
+     "volume": 140,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -8283,32 +7922,19 @@
      "intent": "T"
     },
     {
-     "keyword": "ktm e mtb bike",
-     "volume": 390,
+     "keyword": "ktm e mountain bikes",
+     "volume": 480,
      "kd": 13,
      "intent": "C"
     },
     {
-     "keyword": "ktm fully",
-     "volume": 320,
-     "kd": 13,
-     "intent": "T"
+     "keyword": "ktm ebike fully",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "fully mtb ktm",
-     "volume": 170,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "e enduro ktm",
-     "volume": 90,
-     "kd": 15,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-superbelt-sx-10-di2-400-wh-28-zoll": {
    "name": "KTM Macina Superbelt SX 10 Di2",
@@ -8351,10 +7977,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm bike mountain",
+     "keyword": "ktm e mtb",
      "volume": 390,
-     "kd": 16,
-     "intent": "T"
+     "kd": 12,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -8365,21 +7991,9 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm macina cross",
-     "volume": 320,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm emtb",
-     "volume": 140,
-     "kd": 17,
-     "intent": "N"
-    },
-    {
-     "keyword": "ktm e mountainbike fully",
-     "volume": 90,
-     "kd": 12,
+     "keyword": "ktm elektro enduro",
+     "volume": 110,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -8395,30 +8009,19 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm e mtb bike",
+     "volume": 390,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
-     "keyword": "ktm mtb",
-     "volume": 390,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm cross bike",
-     "volume": 260,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm mountainbike 29 zoll",
-     "volume": 140,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina fully",
-     "volume": 90,
-     "kd": 14,
+     "keyword": "ktm hardtail",
+     "volume": 110,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -10191,9 +9794,9 @@
      "intent": "T"
     },
     {
-     "keyword": "bike specialized mtb",
-     "volume": 590,
-     "kd": 19,
+     "keyword": "downhill mtb specialized",
+     "volume": 210,
+     "kd": 28,
      "intent": "T"
     }
    ],
@@ -10202,12 +9805,6 @@
      "keyword": "specialized mountainbike",
      "volume": 1300,
      "kd": 28,
-     "intent": "I"
-    },
-    {
-     "keyword": "mountainbike fully specialized",
-     "volume": 170,
-     "kd": 23,
      "intent": "I"
     }
    ]
@@ -10228,12 +9825,6 @@
      "keyword": "specialized enduro",
      "volume": 1300,
      "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "specialized enduro comp",
-     "volume": 320,
-     "kd": 28,
      "intent": "T"
     }
    ],
@@ -10257,9 +9848,9 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized e fully",
-     "volume": 110,
-     "kd": 19,
+     "keyword": "specialized e mountain bike",
+     "volume": 210,
+     "kd": 17,
      "intent": "N"
     }
    ]
@@ -10345,58 +9936,14 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "specialized sl",
-    "volume": 170,
-    "kd": 12,
+    "keyword": "specialized turbo vado sl 2 4.0 eq st kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "specialized turbo vado sl 4.0 eq",
-     "volume": 140,
-     "kd": 5,
-     "intent": "T"
-    },
-    {
-     "keyword": "specialized trekking",
-     "volume": 170,
-     "kd": 26,
-     "intent": "C"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "specialized turbo vado sl",
-     "volume": 480,
-     "kd": 7,
-     "intent": "I"
-    },
-    {
-     "keyword": "specialized vado sl",
-     "volume": 480,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "specialized turbo vado sl 4.0",
-     "volume": 210,
-     "kd": 10,
-     "intent": "N"
-    },
-    {
-     "keyword": "specialized turbo vado sl 2",
-     "volume": 90,
-     "kd": 16,
-     "intent": "N"
-    },
-    {
-     "keyword": "specialized turbo vado sl 2.0",
-     "volume": 90,
-     "kd": 10,
-     "intent": "N"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "specialized-s-works-turbo-levo-carbon-g4-840-wh-29": {
    "name": "Specialized S-Works Turbo Levo Carbon G4",
@@ -10429,12 +9976,6 @@
      "volume": 210,
      "kd": 9,
      "intent": "T"
-    },
-    {
-     "keyword": "specialized e mountainbike",
-     "volume": 320,
-     "kd": 18,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -10457,10 +9998,10 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized e mountainbike fully",
-     "volume": 90,
-     "kd": 14,
-     "intent": "I"
+     "keyword": "specialized e mountainbikes",
+     "volume": 170,
+     "kd": 20,
+     "intent": "N"
     }
    ]
   },
@@ -10481,19 +10022,13 @@
      "volume": 1000,
      "kd": 26,
      "intent": "T"
-    },
-    {
-     "keyword": "bike downhill specialized",
-     "volume": 260,
-     "kd": 24,
-     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "specialized enduro expert",
-     "volume": 140,
-     "kd": 25,
+     "keyword": "mountainbike fully specialized",
+     "volume": 170,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -10529,26 +10064,14 @@
      "volume": 720,
      "kd": 22,
      "intent": "T"
-    },
-    {
-     "keyword": "specialized e mountain bikes",
-     "volume": 70,
-     "kd": 15,
-     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "specialized turbo levo pro",
-     "volume": 90,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "specialized mtb fully",
-     "volume": 260,
-     "kd": 22,
-     "intent": "I"
+     "keyword": "specialized e fully",
+     "volume": 110,
+     "kd": 19,
+     "intent": "N"
     }
    ]
   },
@@ -10563,14 +10086,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "specialized e bike fully carbon",
-     "volume": 70,
-     "kd": 13,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "specialized turbo levo comp carbon",
@@ -10585,10 +10101,10 @@
      "intent": "N"
     },
     {
-     "keyword": "specialized emtb",
-     "volume": 260,
-     "kd": 21,
-     "intent": "N"
+     "keyword": "specialized e mountainbike fully",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
     }
    ]
   },
@@ -10603,7 +10119,14 @@
     "intent": "N",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "specialized trekking",
+     "volume": 170,
+     "kd": 26,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "specialized como 4.0",
@@ -10686,16 +10209,10 @@
    },
    "secondary": [
     {
-     "keyword": "downhill mtb specialized",
-     "volume": 210,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "specialized ebike fully",
+     "keyword": "specialized e mountain bikes",
      "volume": 70,
-     "kd": 9,
-     "intent": "T"
+     "kd": 15,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -10775,6 +10292,12 @@
      "intent": "T"
     },
     {
+     "keyword": "specialized e bike fully carbon",
+     "volume": 70,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
      "keyword": "specialized turbo levo 4 comp carbon",
      "volume": 50,
      "kd": 9,
@@ -10799,12 +10322,6 @@
      "volume": 110,
      "kd": 9,
      "intent": "I"
-    },
-    {
-     "keyword": "specialized e mountain bike",
-     "volume": 210,
-     "kd": 17,
-     "intent": "N"
     }
    ]
   },
@@ -10937,16 +10454,10 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized e mountainbikes",
-     "volume": 170,
-     "kd": 20,
-     "intent": "N"
-    },
-    {
-     "keyword": "specialized turbo levo e mountain bike",
-     "volume": 50,
-     "kd": 8,
-     "intent": "N"
+     "keyword": "specialized enduro expert",
+     "volume": 140,
+     "kd": 25,
+     "intent": "I"
     }
    ]
   },
@@ -15248,6 +14759,2536 @@
    "category": "Cargo-E-Bike",
    "primary": {
     "keyword": "cube trike flatbed hybrid 750 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-kapoho-exonic-cx-r": {
+   "name": "KTM Macina Kapoho Exonic CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "690 ktm r",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm bike mountain",
+     "volume": 390,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm 990 r",
+     "volume": 170,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm 950 r",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm 390 r",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm 890 r",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "e enduro ktm",
+     "volume": 90,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-kapoho-prime-cx-r": {
+   "name": "KTM Macina Kapoho Prime CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina kapoho prime cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-kapoho-master-cx-r-di2": {
+   "name": "KTM Macina Kapoho Master CX-R Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina kapoho master cx-r di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-kapoho-master-cx-r": {
+   "name": "KTM Macina Kapoho Master CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina kapoho master cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-kapoho-elite-cx-r": {
+   "name": "KTM Macina Kapoho Elite CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina kapoho elite",
+    "volume": 110,
+    "kd": 12,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm mtb",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e mountainbike fully",
+     "volume": 90,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-kapoho-8973": {
+   "name": "KTM Macina Kapoho 8973",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm kapoho",
+    "volume": 260,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm kapoho 7973",
+     "volume": 210,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "e bike mountainbike ktm",
+     "volume": 320,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina kapoho",
+     "volume": 390,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina kapoho 7973",
+     "volume": 390,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina kapoho 8973",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm kapoho 7972",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina kapoho 7971",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-lycan-exonic-cx-r-di2": {
+   "name": "KTM Macina Lycan Exonic CX-R Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina lycan exonic cx-r di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-lycan-master-cx-r-di2": {
+   "name": "KTM Macina Lycan Master CX-R Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina lycan master cx-r di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-lycan-master-cx-r": {
+   "name": "KTM Macina Lycan Master CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina lycan master cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-lycan-elite-cx-r": {
+   "name": "KTM Macina Lycan Elite CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina lycan elite cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-prowler-prestige-cx-r": {
+   "name": "KTM Macina Prowler Prestige CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina prowler prestige",
+    "volume": 110,
+    "kd": 12,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "mountain bikes ktm",
+     "volume": 390,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina fully",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-prowler-master-cx-r": {
+   "name": "KTM Macina Prowler Master CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina prowler master cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-prowler-elite-cx-r": {
+   "name": "KTM Macina Prowler Elite CX-R",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina prowler elite cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-fs-prime-lfc-di2": {
+   "name": "KTM Macina Aera FS Prime LFC Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera fs prime lfc",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm macina aera fs prime lfc di2",
+     "volume": 110,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e mountainbikes",
+     "volume": 320,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina cross lfc",
+     "volume": 110,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-chacana-prime-l-di2": {
+   "name": "KTM Macina Chacana Prime L Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana prime l di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-chacana-891-xl-lfc": {
+   "name": "KTM Macina Chacana 891 XL LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana 891 xl lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-chacana-master": {
+   "name": "KTM Macina Chacana Master",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana master kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-chacana-elite": {
+   "name": "KTM Macina Chacana Elite",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana elite kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-chacana-892-lfc": {
+   "name": "KTM Macina Chacana 892 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana lfc",
+    "volume": 140,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm ebike mountainbike",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm e fully",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-chacana-cx-720-lfc": {
+   "name": "KTM Macina Chacana CX 720 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana cx 720 lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-chacana-cx-720": {
+   "name": "KTM Macina Chacana CX 720",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina chacana cx 720 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-871-lfc-di2": {
+   "name": "KTM Macina Aera 871 LFC Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera 871 lfc di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-872-lfc-di2": {
+   "name": "KTM Macina Aera 872 LFC Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera 872 lfc di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-873-lfc": {
+   "name": "KTM Macina Aera 873 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera 873 lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-pts-893-lfc": {
+   "name": "KTM Macina Aera PTS 893 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera pts 893 lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-pts-cx-720-lfc": {
+   "name": "KTM Macina Aera PTS CX 720 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera pts cx 720 lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-aera-cx-720-lfc": {
+   "name": "KTM Macina Aera CX 720 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina aera cx 720 lfc kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-892-xl-pts": {
+   "name": "KTM Macina Team 892 XL PTS",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 892 xl pts kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-891": {
+   "name": "KTM Macina Team 891",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 891 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-872": {
+   "name": "KTM Macina Team 872",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 872 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-892": {
+   "name": "KTM Macina Team 892",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 892 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-893-lfc": {
+   "name": "KTM Macina Team 893 LFC",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team lfc",
+    "volume": 140,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "mountain e bike ktm",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
+   "faq": []
+  },
+  "ktm-macina-team-873": {
+   "name": "KTM Macina Team 873",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 873 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-750-lfc-ltd": {
+   "name": "KTM Macina Team 750 LFC LTD",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 750 lfc ltd kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-team-750-ltd": {
+   "name": "KTM Macina Team 750 LTD",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina team 750 ltd kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-fs-prime-di2": {
+   "name": "KTM Macina Style FS Prime Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style fs prime di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-fs-elite-di2": {
+   "name": "KTM Macina Style FS Elite Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style fs elite di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-fs-elite": {
+   "name": "KTM Macina Style FS Elite",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style fs elite kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-810-di2": {
+   "name": "KTM Macina Style 810 Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style 820 di2",
+    "volume": 590,
+    "kd": 15,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm trekkingrad e bike",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina style 810 di2 2025",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 810 di2",
+     "volume": 210,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm style 820 di2",
+     "volume": 210,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 810 di2 test",
+     "volume": 140,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 820 di2 2026",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-style-820-di2": {
+   "name": "KTM Macina Style 820 Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style 820 di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-830": {
+   "name": "KTM Macina Style 830",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style 810",
+    "volume": 170,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm macina style 720 test",
+     "volume": 90,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "ktm e bike herren trekking",
+     "volume": 70,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina style 720",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 730",
+     "volume": 880,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 820",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 830",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-style-840": {
+   "name": "KTM Macina Style 840",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style 840 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-style-cx-720": {
+   "name": "KTM Macina Style CX 720",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style cx 720 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-gran-violo": {
+   "name": "KTM Macina Gran Violo",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina gran violo kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-gran-810-di2": {
+   "name": "KTM Macina Gran 810 Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina gran 810 di2",
+    "volume": 260,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm trekking fahrräder",
+     "volume": 90,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-tour-px-720-2": {
+   "name": "KTM Macina Tour PX 720-2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina tour px 720-2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-tour-p720": {
+   "name": "KTM Macina Tour P720",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina tour p720 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-city-810-belt": {
+   "name": "KTM Macina City 810 Belt",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city 610 belt test",
+    "volume": 90,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm city e bike",
+     "volume": 90,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina city 610 belt",
+     "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina city 710 belt",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina city 810 belt",
+     "volume": 210,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina city 810 belt test",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina city",
+     "volume": 140,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-city-px-810-belt-di2": {
+   "name": "KTM Macina City PX 810 Belt Di2",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city px 810 belt di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-city-px-810-belt-rt": {
+   "name": "KTM Macina City PX 810 Belt RT",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city px 810 belt rt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-city-px-810-belt": {
+   "name": "KTM Macina City PX 810 Belt",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city px 810 belt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-city-px-720-belt": {
+   "name": "KTM Macina City PX 720 Belt",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city px 720 belt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-city-p720-belt": {
+   "name": "KTM Macina City P720 Belt",
+   "brand": "KTM",
+   "category": "E-City",
+   "primary": {
+    "keyword": "ktm macina city p720 belt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-scarp-sx-exonic": {
+   "name": "KTM Macina Scarp SX Exonic",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm scarp",
+    "volume": 210,
+    "kd": 9,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm fully",
+     "volume": 320,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina scarp sx",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-scarp-sx-prestige-di2": {
+   "name": "KTM Macina Scarp SX Prestige Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina scarp sx prestige di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-scarp-sx-prime": {
+   "name": "KTM Macina Scarp SX Prime",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina scarp sx prime",
+    "volume": 140,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm mtb bikes",
+     "volume": 210,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-scarp-sx-master-di2": {
+   "name": "KTM Macina Scarp SX Master Di2",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina scarp sx master",
+    "volume": 140,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "mountainbike ktm fully",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-scarp-sx-elite": {
+   "name": "KTM Macina Scarp SX Elite",
+   "brand": "KTM",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "ktm macina scarp sx elite kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-revelator-sx-prime-di2": {
+   "name": "KTM Macina Revelator SX Prime Di2",
+   "brand": "KTM",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ktm revelator",
+    "volume": 260,
+    "kd": 12,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm revelator 10",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravel bike",
+     "volume": 2400,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravel",
+     "volume": 590,
+     "kd": 22,
+     "intent": "N"
+    }
+   ]
+  },
+  "ktm-macina-sport-sx-master-di2": {
+   "name": "KTM Macina Sport SX Master Di2",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina sport sx master di2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-sport-sx-pro": {
+   "name": "KTM Macina Sport SX Pro",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina sport pro",
+    "volume": 110,
+    "kd": 14,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm tourenrad",
+     "volume": 70,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-cross-sx-elite": {
+   "name": "KTM Macina Cross SX Elite",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina cross sx elite",
+    "volume": 320,
+    "kd": 13,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm e cross",
+     "volume": 140,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "ktm e cross e bike",
+     "volume": 70,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "125 ktm cross",
+     "volume": 320,
+     "kd": 20,
+     "intent": "N"
+    },
+    {
+     "keyword": "ktm macina cross",
+     "volume": 320,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm cross bike",
+     "volume": 260,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm cross bikes",
+     "volume": 260,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm cross 30",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-gravelator-sx-elite": {
+   "name": "KTM Macina Gravelator SX Elite",
+   "brand": "KTM",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ktm gravelator elite",
+    "volume": 390,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "ktm rennrad",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e gravel bike",
+     "volume": 110,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  "ktm-macina-gravelator-sx-10": {
+   "name": "KTM Macina Gravelator SX 10",
+   "brand": "KTM",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "ktm macina gravelator sx 10 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "ktm-macina-mini-me-sx-26": {
+   "name": "KTM Macina Mini Me SX 26",
+   "brand": "KTM",
+   "category": "E-Kinder",
+   "primary": {
+    "keyword": "ktm macina mini me sx 26 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-reign-advanced-eplus-0": {
+   "name": "Giant Reign Advanced E+ 0",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant reign e+",
+    "volume": 480,
+    "kd": 18,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant advanced",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant reign e+ 2026",
+     "volume": 140,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant downhill mountain bikes",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant reign",
+     "volume": 1300,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant reign advanced",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-reign-advanced-eplus-1": {
+   "name": "Giant Reign Advanced E+ 1",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant reign e+ 1",
+    "volume": 210,
+    "kd": 20,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant downhill mtb",
+     "volume": 170,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant reign 1",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-reign-advanced-eplus-2": {
+   "name": "Giant Reign Advanced E+ 2",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant reign 2",
+    "volume": 320,
+    "kd": 23,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant reign e+ 2",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant emtb",
+     "volume": 140,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "advanced 2 giant",
+     "volume": 110,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-trance-advanced-eplus-0": {
+   "name": "Giant Trance Advanced E+ 0",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant trance",
+    "volume": 1000,
+    "kd": 26,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike giant trance",
+     "volume": 320,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant bikes trance",
+     "volume": 260,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant trance e",
+     "volume": 210,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant bikes hardtail",
+     "volume": 140,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "giant-trance-advanced-eplus-1": {
+   "name": "Giant Trance Advanced E+ 1",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant trance 1",
+    "volume": 210,
+    "kd": 11,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant advanced pro",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "giant-trance-advanced-eplus-se": {
+   "name": "Giant Trance Advanced E+ SE",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant trance advanced e+ se kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-trance-advanced-eplus-2": {
+   "name": "Giant Trance Advanced E+ 2",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant trance 2",
+    "volume": 480,
+    "kd": 14,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant downhill",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant bikes trance 2",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant syncdrive pro 2",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-anytour-x-eplus-0": {
+   "name": "Giant AnyTour X E+ 0",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant anytour x e+ 0",
+    "volume": 210,
+    "kd": 21,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-anytour-x-eplus-2": {
+   "name": "Giant AnyTour X E+ 2",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant anytour x e+ 2",
+    "volume": 140,
+    "kd": 15,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-newtour-eplus-1-lst": {
+   "name": "Giant NewTour E+ 1 LST",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant newtour e+ 1 lst kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-newtour-eplus-1-lst-rt": {
+   "name": "Giant NewTour E+ 1 LST RT",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant newtour e+ 1 lst rt kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-newtour-eplus-2-lst": {
+   "name": "Giant NewTour E+ 2 LST",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant newtour e+ 2 lst kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-anytour-eplus-0-lst": {
+   "name": "Giant AnyTour E+ 0 LST",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant anytour e+ 0 lst kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-anytour-eplus-1-lst": {
+   "name": "Giant AnyTour E+ 1 LST",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant anytour e+ 1 lst kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-anytour-eplus-4-lst": {
+   "name": "Giant AnyTour E+ 4 LST",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant anytour e+ 4 lst kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-fathom-eplus-1-ex": {
+   "name": "Giant Fathom E+ 1 EX",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant fathom e+ 1 ex kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-fathom-eplus-1": {
+   "name": "Giant Fathom E+ 1",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant fathom e+ 1",
+    "volume": 210,
+    "kd": 13,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant enduro",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "giant-fathom-eplus-2": {
+   "name": "Giant Fathom E+ 2",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant fathom e+ 2",
+    "volume": 880,
+    "kd": 18,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant hardtail",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant fathom 2",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant fathom e+ 2 pro",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-talon-eplus-1": {
+   "name": "Giant Talon E+ 1",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant bikes talon 1",
+    "volume": 210,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "giant talon 1",
+     "volume": 260,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb enduro giant",
+     "volume": 140,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-talon-eplus-2": {
+   "name": "Giant Talon E+ 2",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant talon e+ 2",
+    "volume": 170,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "giant talon 2",
+     "volume": 210,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike giant talon 2",
+     "volume": 140,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike giant downhill",
+     "volume": 110,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-stance-eplus-2": {
+   "name": "Giant Stance E+ 2",
+   "brand": "Giant",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "giant stance 2",
+    "volume": 720,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "downhill mountain bike giant",
+     "volume": 110,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant stance e+ 2",
+     "volume": 390,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  "giant-defy-advanced-eplus-elite-0": {
+   "name": "Giant Defy Advanced E+ Elite 0",
+   "brand": "Giant",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "giant defy advanced 0",
+    "volume": 480,
+    "kd": 24,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-defy-advanced-eplus-elite-1": {
+   "name": "Giant Defy Advanced E+ Elite 1",
+   "brand": "Giant",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "giant defy advanced 1",
+    "volume": 480,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-3-pro-dd": {
+   "name": "Giant Explore E+ 3 Pro DD",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+ 3 pro dd kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-3-pro-sta": {
+   "name": "Giant Explore E+ 3 Pro STA",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+ 3 pro sta kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-3-dd": {
+   "name": "Giant Explore E+ 3 DD",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+3",
+    "volume": 170,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-3-sta": {
+   "name": "Giant Explore E+ 3 STA",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+ 3 sta kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-4-dd": {
+   "name": "Giant Explore E+ 4 DD",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+ 4 dd kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "giant-explore-eplus-4-sta": {
+   "name": "Giant Explore E+ 4 STA",
+   "brand": "Giant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "giant explore e+ 4 sta kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-sl-2-6-0-carbon": {
+   "name": "Specialized Turbo Vado SL 2 6.0 Carbon",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 2 6.0 carbon kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-kenevo-sl-2-expert": {
+   "name": "Specialized Turbo Kenevo SL 2 Expert",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo kenevo expert",
+    "volume": 110,
+    "kd": 12,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike specialized mtb",
+     "volume": 590,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized ebike fully",
+     "volume": 70,
+     "kd": 9,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "specialized-turbo-kenevo-sl-2-comp": {
+   "name": "Specialized Turbo Kenevo SL 2 Comp",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo kenevo comp",
+    "volume": 70,
+    "kd": 6,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized enduro comp",
+     "volume": 320,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "specialized-turbo-levo-4-comp-alloy": {
+   "name": "Specialized Turbo Levo 4 Comp Alloy",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo 4 comp alloy",
+    "volume": 320,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized e mountainbike",
+     "volume": 320,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "specialized turbo levo 4 comp alloy 2026",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized turbo levo e mountain bike",
+     "volume": 50,
+     "kd": 8,
+     "intent": "N"
+    }
+   ]
+  },
+  "specialized-turbo-levo-4-alloy": {
+   "name": "Specialized Turbo Levo 4 Alloy",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo 4 alloy",
+    "volume": 260,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike downhill specialized",
+     "volume": 260,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "specialized-turbo-creo-2-expert": {
+   "name": "Specialized Turbo Creo 2 Expert",
+   "brand": "Specialized",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "specialized turbo creo 2 expert",
+    "volume": 110,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized e gravel",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized creo sl",
+     "volume": 210,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized gravel e bike",
+     "volume": 210,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized turbo creo sl",
+     "volume": 110,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "specialized turbo creo 2 expert 2026",
+     "volume": 50,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized motor",
+     "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "specialized-turbo-tero-x-6-0": {
+   "name": "Specialized Turbo Tero X 6.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo tero x 6.0",
+    "volume": 480,
+    "kd": 7,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized turbo tero x 6",
+     "volume": 210,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized turbo tero x",
+     "volume": 170,
+     "kd": 9,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "specialized-turbo-tero-x-5-0": {
+   "name": "Specialized Turbo Tero X 5.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo tero x 5.0",
+    "volume": 590,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "specialized turbo tero x 5",
+     "volume": 260,
+     "kd": 7,
+     "intent": "I"
+    }
+   ]
+  },
+  "specialized-turbo-vado-2-5-0-igh": {
+   "name": "Specialized Turbo Vado 2 5.0 IGH",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 5.0 igh kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-2-5-0-igh-step-through": {
+   "name": "Specialized Turbo Vado 2 5.0 IGH Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 5.0 igh step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-2-4-0": {
+   "name": "Specialized Turbo Vado 2 4.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 4.0 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-2-4-0-step-through": {
+   "name": "Specialized Turbo Vado 2 4.0 Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 4.0 step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-sl-2-6-0-eq-carbon": {
+   "name": "Specialized Turbo Vado SL 2 6.0 EQ Carbon",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 2 6.0 eq carbon",
+    "volume": 110,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-kenevo-sl-2": {
+   "name": "Specialized Turbo Kenevo SL 2",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized sl",
+    "volume": 170,
+    "kd": 12,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "specialized turbo kenevo",
+     "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized mtb fully",
+     "volume": 260,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
+  },
+  "specialized-turbo-tero-4-0-eq": {
+   "name": "Specialized Turbo Tero 4.0 EQ",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo tero 4.0",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "specialized turbo tero 4.0 eq",
+     "volume": 110,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  "specialized-turbo-vado-2-5-0": {
+   "name": "Specialized Turbo Vado 2 5.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 5.0 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-tero-5-0-eq-step-through": {
+   "name": "Specialized Turbo Tero 5.0 EQ Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo tero 5.0 eq step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-2-4-0-igh-step-through": {
+   "name": "Specialized Turbo Vado 2 4.0 IGH Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 2 4.0 igh step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-tero-4-0-step-through": {
+   "name": "Specialized Turbo Tero 4.0 Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo tero 4.0 step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-levo-4-pro": {
+   "name": "Specialized Turbo Levo 4 Pro",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized levo 4 pro",
+    "volume": 70,
+    "kd": 11,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "specialized turbo levo 4 pro",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized turbo levo pro",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized emtb",
+     "volume": 260,
+     "kd": 21,
+     "intent": "N"
+    }
+   ]
+  },
+  "specialized-turbo-vado-sl-2-4-0-eq": {
+   "name": "Specialized Turbo Vado SL 2 4.0 EQ",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 4.0 eq",
+    "volume": 140,
+    "kd": 5,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-sl-2-5-0-eq": {
+   "name": "Specialized Turbo Vado SL 2 5.0 EQ",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 5.0",
+    "volume": 90,
+    "kd": 17,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized turbo vado sl 5 eq",
+     "volume": 70,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "specialized turbo vado sl 5.0 eq",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized turbo vado sl 2 5.0 eq",
+     "volume": 70,
+     "kd": 10,
+     "intent": "N"
+    }
+   ]
+  },
+  "specialized-turbo-vado-sl-2-4-0-step-through-eq": {
+   "name": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 2 4.0 step-through eq kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-sl-2-5-0-step-through-eq": {
+   "name": "Specialized Turbo Vado SL 2 5.0 Step-Through EQ",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 2 5.0 step-through eq kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-3-evo-4-0": {
+   "name": "Specialized Turbo Vado 3 EVO 4.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 3 evo 4.0 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-3-6-0-igh": {
+   "name": "Specialized Turbo Vado 3 6.0 IGH",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado 6.0 igh",
+    "volume": 50,
+    "kd": 6,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-levo-4-evo-pro": {
+   "name": "Specialized Turbo Levo 4 EVO Pro",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo 4 evo pro kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-levo-4-evo-comp": {
+   "name": "Specialized Turbo Levo 4 EVO Comp",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo 4 evo comp kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-vado-sl-2-4-0": {
+   "name": "Specialized Turbo Vado SL 2 4.0",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 4.0",
+    "volume": 210,
+    "kd": 10,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "specialized turbo vado sl",
+     "volume": 480,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized vado sl",
+     "volume": 480,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized turbo vado sl 2",
+     "volume": 90,
+     "kd": 16,
+     "intent": "N"
+    },
+    {
+     "keyword": "specialized turbo vado sl 2.0",
+     "volume": 90,
+     "kd": 10,
+     "intent": "N"
+    }
+   ]
+  },
+  "specialized-turbo-vado-sl-2-4-0-step-through": {
+   "name": "Specialized Turbo Vado SL 2 4.0 Step-Through",
+   "brand": "Specialized",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "specialized turbo vado sl 2 4.0 step-through kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-levo-r-pro": {
+   "name": "Specialized Turbo Levo R Pro",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo r pro kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "specialized-turbo-levo-4-evo-comp-alloy": {
+   "name": "Specialized Turbo Levo 4 EVO Comp Alloy",
+   "brand": "Specialized",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "specialized turbo levo 4 evo comp alloy kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
