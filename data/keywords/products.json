@@ -1014,12 +1014,6 @@
      "volume": 140,
      "kd": 10,
      "intent": "T"
-    },
-    {
-     "keyword": "ktm gravelbike",
-     "volume": 720,
-     "kd": 15,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -1030,27 +1024,27 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm gravelator 15",
-     "volume": 1300,
+     "keyword": "ktm sx",
+     "volume": 480,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravelator 2026",
+     "volume": 110,
+     "kd": 20,
+     "intent": "N"
+    },
+    {
+     "keyword": "ktm macina sx 20",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravel bike",
+     "volume": 2400,
      "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm gravelator 25",
-     "volume": 1000,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm gravelator 30",
-     "volume": 880,
-     "kd": 24,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm gravelator 10",
-     "volume": 720,
-     "kd": 21,
      "intent": "I"
     }
    ]
@@ -1492,39 +1486,14 @@
    "brand": "KTM",
    "category": "E-Kinder",
    "primary": {
-    "keyword": "ktm mini 50 sx",
-    "volume": 260,
-    "kd": 8,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "ktm macina mini me sx 24 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "ktm 50 mini",
-     "volume": 140,
-     "kd": 6,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm 24",
-     "volume": 320,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "ktm 24 zoll",
-     "volume": 170,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "24 zoll ktm fahrrad",
-     "volume": 90,
-     "kd": 18,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "cube-acid-240-hybrid-rookie-pro-400x-400-wh-24-zoll": {
    "name": "Cube Acid 240 Hybrid Rookie Pro 400x",
@@ -7152,10 +7121,10 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm tiefeinsteiger",
-     "volume": 110,
-     "kd": 12,
-     "intent": "N"
+     "keyword": "ktm e-bikes tiefeinsteiger",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
     }
    ]
   },
@@ -7188,6 +7157,12 @@
      "volume": 720,
      "kd": 15,
      "intent": "C"
+    },
+    {
+     "keyword": "ktm trekkingrad herren 28 zoll",
+     "volume": 90,
+     "kd": 18,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -7201,12 +7176,6 @@
      "keyword": "ktm macina sport sx elite di2",
      "volume": 320,
      "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e-bikes tiefeinsteiger",
-     "volume": 90,
-     "kd": 10,
      "intent": "I"
     }
    ]
@@ -7224,18 +7193,6 @@
    },
    "secondary": [
     {
-     "keyword": "ktm macina sport sx 10",
-     "volume": 320,
-     "kd": 9,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm macina sport 720",
-     "volume": 210,
-     "kd": 14,
-     "intent": "T"
-    },
-    {
      "keyword": "ktm macina sport sx 20 test",
      "volume": 170,
      "kd": 13,
@@ -7246,12 +7203,6 @@
      "volume": 90,
      "kd": 12,
      "intent": "T"
-    },
-    {
-     "keyword": "ktm trekkingrad damen",
-     "volume": 260,
-     "kd": 15,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -7268,21 +7219,15 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm macina sport 610",
-     "volume": 140,
-     "kd": 12,
+     "keyword": "e bike ktm macina sport sx 20",
+     "volume": 90,
+     "kd": 7,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina sport 630",
-     "volume": 110,
-     "kd": 9,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina sport 710",
-     "volume": 110,
-     "kd": 9,
+     "keyword": "ebike ktm trekking",
+     "volume": 590,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -7300,9 +7245,9 @@
    },
    "secondary": [
     {
-     "keyword": "ktm trekkingrad herren 28 zoll",
-     "volume": 90,
-     "kd": 18,
+     "keyword": "ktm trekkingrad damen",
+     "volume": 260,
+     "kd": 15,
      "intent": "C"
     }
    ],
@@ -7311,6 +7256,12 @@
      "keyword": "ktm macina style xl",
      "volume": 590,
      "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 820",
+     "volume": 480,
+     "kd": 11,
      "intent": "I"
     },
     {
@@ -7323,12 +7274,6 @@
      "keyword": "ktm macina style xl 2025",
      "volume": 90,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ebike ktm trekking",
-     "volume": 590,
-     "kd": 18,
      "intent": "I"
     }
    ]
@@ -7380,31 +7325,25 @@
    },
    "secondary": [
     {
-     "keyword": "ktm macina gran 810",
-     "volume": 210,
-     "kd": 10,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm macina gran 610 herren",
-     "volume": 140,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
      "keyword": "ktm macina damen",
      "volume": 110,
      "kd": 10,
      "intent": "C"
+    },
+    {
+     "keyword": "ktm gran 820",
+     "volume": 110,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "ktm trekking damen",
+     "volume": 170,
+     "kd": 21,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "ktm macina gran 610",
-     "volume": 2400,
-     "kd": 14,
-     "intent": "I"
-    },
     {
      "keyword": "ktm macina gran 820",
      "volume": 390,
@@ -7418,9 +7357,9 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm macina gran 610 damen",
-     "volume": 210,
-     "kd": 15,
+     "keyword": "ktm macina 820",
+     "volume": 110,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -7430,14 +7369,20 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina sport sx 10 di2 2026",
-    "volume": 140,
+    "keyword": "ktm macina sport sx 10",
+    "volume": 320,
     "kd": 9,
-    "intent": "I",
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [],
    "faq": [
+    {
+     "keyword": "ktm macina sport sx 10 di2 2026",
+     "volume": 140,
+     "kd": 9,
+     "intent": "I"
+    },
     {
      "keyword": "ktm macina sport sx 10 di2",
      "volume": 110,
@@ -7445,10 +7390,10 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm damen trekking",
-     "volume": 170,
-     "kd": 13,
-     "intent": "I"
+     "keyword": "ktm bike trekking",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -7463,15 +7408,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "ktm bike trekking",
+     "keyword": "ktm trekking herren",
      "volume": 140,
-     "kd": 17,
-     "intent": "N"
+     "kd": 13,
+     "intent": "C"
     }
-   ]
+   ],
+   "faq": []
   },
   "ktm-macina-style-820-xl-di2-800-wh-28-zoll": {
    "name": "KTM Macina Style 820 XL Di2",
@@ -7486,10 +7431,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm trekking herren",
+     "keyword": "ktm e bike tiefeinsteiger",
      "volume": 140,
-     "kd": 13,
-     "intent": "C"
+     "kd": 18,
+     "intent": "T"
     }
    ],
    "faq": []
@@ -7499,8 +7444,8 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina tour cx 510",
-    "volume": 390,
+    "keyword": "ktm cx bike",
+    "volume": 320,
     "kd": 12,
     "intent": "I",
     "source": "bank"
@@ -7515,18 +7460,6 @@
    ],
    "faq": [
     {
-     "keyword": "ktm macina tour cx 610",
-     "volume": 390,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm cx bike",
-     "volume": 320,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
      "keyword": "ktm macina tour cx 830",
      "volume": 140,
      "kd": 10,
@@ -7539,13 +7472,20 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina gran 810 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ktm macina gran 810",
+    "volume": 210,
+    "kd": 10,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm trekkingrad e bike",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
    "faq": []
   },
   "ktm-macina-aera-872-lfc-800-wh-27-5-zoll": {
@@ -7559,21 +7499,8 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm e bike tiefeinsteiger",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
-    {
-     "keyword": "ktm macina aera 671 lfc",
-     "volume": 590,
-     "kd": 11,
-     "intent": "I"
-    },
     {
      "keyword": "ktm macina aera",
      "volume": 170,
@@ -7581,10 +7508,10 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm macina aera 772 lfc",
+     "keyword": "ktm tiefeinsteiger",
      "volume": 110,
-     "kd": 14,
-     "intent": "I"
+     "kd": 12,
+     "intent": "N"
     }
    ]
   },
@@ -7637,10 +7564,10 @@
    ],
    "faq": [
     {
-     "keyword": "ktm emtb",
-     "volume": 140,
-     "kd": 17,
-     "intent": "N"
+     "keyword": "mountainbike ktm fully",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
     }
    ]
   },
@@ -7719,64 +7646,32 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina lycan 771",
-    "volume": 210,
-    "kd": 15,
+    "keyword": "ktm macina lycan 892 kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "ktm macina lycan 772",
-     "volume": 210,
-     "kd": 10,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e mountainbike",
-     "volume": 480,
-     "kd": 13,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "ktm mountainbike 29 zoll",
-     "volume": 140,
-     "kd": 13,
-     "intent": "I"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "ktm-macina-race-sx-10-400-wh-29-zoll": {
    "name": "KTM Macina Race SX 10",
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina race 592",
-    "volume": 170,
-    "kd": 12,
+    "keyword": "ktm macina race sx",
+    "volume": 140,
+    "kd": 11,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "ktm macina race sx",
-     "volume": 140,
-     "kd": 11,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e mountain bikes",
+     "keyword": "ktm e mountainbike",
      "volume": 480,
      "kd": 13,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm ebike fully",
-     "volume": 110,
-     "kd": 14,
-     "intent": "C"
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7790,6 +7685,12 @@
      "keyword": "ktm macina race sx 10",
      "volume": 140,
      "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "fully mtb ktm",
+     "volume": 170,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -7848,14 +7749,7 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "ktm 400",
-     "volume": 110,
-     "kd": 15,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-joy-400-wh-29-zoll": {
    "name": "KTM Macina JOY",
@@ -7883,38 +7777,26 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina team 792",
+    "keyword": "ktm macina team",
     "volume": 110,
-    "kd": 10,
-    "intent": "T",
+    "kd": 12,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "ktm macina team",
-     "volume": 110,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm macina team 793",
-     "volume": 110,
-     "kd": 10,
-     "intent": "T"
-    },
-    {
-     "keyword": "ktm e mtb",
-     "volume": 390,
-     "kd": 12,
+     "keyword": "ktm e mountain bikes",
+     "volume": 480,
+     "kd": 13,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "ktm hardtail",
-     "volume": 110,
-     "kd": 11,
-     "intent": "I"
+     "keyword": "ktm emtb",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -7959,23 +7841,17 @@
    },
    "secondary": [
     {
-     "keyword": "ktm e mtb bike",
+     "keyword": "ktm e mtb",
      "volume": 390,
-     "kd": 13,
+     "kd": 12,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "ktm macina chacana 792",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e mountainbike fully",
-     "volume": 90,
-     "kd": 12,
+     "keyword": "ktm mountainbike 29 zoll",
+     "volume": 140,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -7993,20 +7869,19 @@
    },
    "secondary": [
     {
-     "keyword": "ktm bike mountain",
+     "keyword": "ktm e mtb bike",
      "volume": 390,
-     "kd": 16,
-     "intent": "T"
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "ktm ebike fully",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "ktm macina fully",
-     "volume": 90,
-     "kd": 14,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-lycan-prime-cx-r-di2-800-wh-29-zoll": {
    "name": "KTM Macina Lycan Prime CX-R Di2",
@@ -14754,27 +14629,14 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm 950 r",
-    "volume": 140,
-    "kd": 13,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "ktm macina kapoho exonic cx-r kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "ktm mtb",
-     "volume": 390,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e fully",
-     "volume": 70,
-     "kd": 12,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-kapoho-prime-cx-r": {
    "name": "KTM Macina Kapoho Prime CX-R",
@@ -14829,12 +14691,19 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "mountain bikes ktm",
+     "keyword": "ktm bike mountain",
      "volume": 390,
      "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm hardtail",
+     "volume": 110,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -14850,31 +14719,12 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm kapoho 7973",
-     "volume": 210,
-     "kd": 12,
-     "intent": "T"
-    },
-    {
-     "keyword": "e bike mountainbike ktm",
-     "volume": 320,
-     "kd": 16,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "ktm macina kapoho",
      "volume": 390,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina kapoho 7973",
-     "volume": 390,
-     "kd": 12,
      "intent": "I"
     },
     {
@@ -14884,15 +14734,15 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm kapoho 7972",
-     "volume": 110,
-     "kd": 9,
+     "keyword": "ktm mtb",
+     "volume": 390,
+     "kd": 26,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina kapoho 7971",
-     "volume": 110,
-     "kd": 10,
+     "keyword": "ktm e mountainbike fully",
+     "volume": 90,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -14967,9 +14817,15 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "ktm e mountainbikes",
-     "volume": 320,
+     "keyword": "mountain bikes ktm",
+     "volume": 390,
      "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina fully",
+     "volume": 90,
+     "kd": 14,
      "intent": "I"
     }
    ]
@@ -15013,19 +14869,18 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm ebike mountainbike",
-     "volume": 320,
-     "kd": 19,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "ktm macina aera fs prime lfc di2",
      "volume": 110,
      "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e mountainbikes",
+     "volume": 320,
+     "kd": 16,
      "intent": "I"
     },
     {
@@ -15105,13 +14960,20 @@
    },
    "secondary": [
     {
-     "keyword": "mountain e bike ktm",
+     "keyword": "e bike mountainbike ktm",
      "volume": 320,
-     "kd": 19,
-     "intent": "C"
+     "kd": 16,
+     "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "ktm e fully",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-chacana-cx-720-lfc": {
    "name": "KTM Macina Chacana CX 720 LFC",
@@ -15294,10 +15156,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm fully",
+     "keyword": "ktm ebike mountainbike",
      "volume": 320,
-     "kd": 13,
-     "intent": "T"
+     "kd": 19,
+     "intent": "C"
     }
    ],
    "faq": []
@@ -15391,20 +15253,13 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina style 820 di2",
-    "volume": 590,
-    "kd": 15,
-    "intent": "I",
+    "keyword": "ktm macina style 810",
+    "volume": 170,
+    "kd": 11,
+    "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm trekkingrad e bike",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "ktm macina style 810 di2 2025",
@@ -15419,21 +15274,15 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm style 820 di2",
-     "volume": 210,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
      "keyword": "ktm macina style 810 di2 test",
      "volume": 140,
      "kd": 14,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina style 820 di2 2026",
-     "volume": 140,
-     "kd": 10,
+     "keyword": "ktm trekking fahrräder",
+     "volume": 90,
+     "kd": 19,
      "intent": "I"
     }
    ]
@@ -15443,33 +15292,13 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina style 820 di2 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "ktm-macina-style-830": {
-   "name": "KTM Macina Style 830",
-   "brand": "KTM",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "ktm macina style 810",
-    "volume": 170,
-    "kd": 11,
-    "intent": "T",
+    "keyword": "ktm macina style 820 di2",
+    "volume": 590,
+    "kd": 15,
+    "intent": "I",
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "ktm macina style 720 test",
-     "volume": 90,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "ktm e bike herren trekking",
      "volume": 70,
@@ -15479,33 +15308,48 @@
    ],
    "faq": [
     {
-     "keyword": "ktm macina style 720",
-     "volume": 1600,
-     "kd": 14,
+     "keyword": "ktm style 820 di2",
+     "volume": 210,
+     "kd": 12,
      "intent": "I"
     },
     {
-     "keyword": "ktm macina style 730",
-     "volume": 880,
+     "keyword": "ktm macina style 820 di2 2026",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style 820 di2 test",
+     "volume": 70,
      "kd": 13,
      "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style",
-     "volume": 590,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina style 820",
-     "volume": 480,
-     "kd": 11,
-     "intent": "I"
-    },
+    }
+   ]
+  },
+  "ktm-macina-style-830": {
+   "name": "KTM Macina Style 830",
+   "brand": "KTM",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "ktm macina style",
+    "volume": 590,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
     {
      "keyword": "ktm macina style 830",
      "volume": 480,
      "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm tourenrad",
+     "volume": 70,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -15529,14 +15373,21 @@
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina style cx 720 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ktm macina style 720 test",
+    "volume": 90,
+    "kd": 19,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "ktm macina style 720",
+     "volume": 1600,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-gran-violo": {
    "name": "KTM Macina Gran Violo",
@@ -15564,14 +15415,7 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "ktm trekking fahrräder",
-     "volume": 90,
-     "kd": 19,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-tour-px-720-2": {
    "name": "KTM Macina Tour PX 720-2",
@@ -15606,33 +15450,14 @@
    "brand": "KTM",
    "category": "E-City",
    "primary": {
-    "keyword": "ktm macina city 610 belt test",
+    "keyword": "ktm city e bike",
     "volume": 90,
-    "kd": 11,
-    "intent": "T",
+    "kd": 10,
+    "intent": "C",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm city e bike",
-     "volume": 90,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
-    {
-     "keyword": "ktm macina city 610 belt",
-     "volume": 260,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina city 710 belt",
-     "volume": 210,
-     "kd": 10,
-     "intent": "I"
-    },
     {
      "keyword": "ktm macina city 810 belt",
      "volume": 210,
@@ -15734,18 +15559,19 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "mountain e bike ktm",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm macina scarp sx",
      "volume": 170,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm mtb bikes",
-     "volume": 210,
-     "kd": 23,
      "intent": "I"
     }
    ]
@@ -15775,15 +15601,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "mountainbike ktm fully",
-     "volume": 170,
-     "kd": 8,
-     "intent": "I"
+     "keyword": "ktm fully",
+     "volume": 320,
+     "kd": 13,
+     "intent": "T"
     }
-   ]
+   ],
+   "faq": []
   },
   "ktm-macina-scarp-sx-master-di2": {
    "name": "KTM Macina Scarp SX Master Di2",
@@ -15799,9 +15625,9 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "fully mtb ktm",
-     "volume": 170,
-     "kd": 11,
+     "keyword": "ktm mtb bikes",
+     "volume": 210,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -15834,22 +15660,16 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "ktm revelator 10",
-     "volume": 140,
-     "kd": 11,
+     "keyword": "ktm rennrad",
+     "volume": 1000,
+     "kd": 15,
      "intent": "I"
     },
     {
-     "keyword": "ktm gravel bike",
-     "volume": 2400,
-     "kd": 22,
+     "keyword": "ktm e gravel bike",
+     "volume": 110,
+     "kd": 8,
      "intent": "I"
-    },
-    {
-     "keyword": "ktm gravel",
-     "volume": 590,
-     "kd": 22,
-     "intent": "N"
     }
    ]
   },
@@ -15879,14 +15699,7 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "ktm tourenrad",
-     "volume": 70,
-     "kd": 13,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-cross-sx-elite": {
    "name": "KTM Macina Cross SX Elite",
@@ -15933,15 +15746,9 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm cross 30",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina cross 720",
-     "volume": 110,
-     "kd": 21,
+     "keyword": "e cross bike ktm",
+     "volume": 90,
+     "kd": 19,
      "intent": "I"
     }
    ]
@@ -15957,35 +15764,48 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "ktm rennrad",
-     "volume": 1000,
+     "keyword": "ktm gravelbike",
+     "volume": 720,
      "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e gravel bike",
-     "volume": 110,
-     "kd": 8,
-     "intent": "I"
+     "intent": "C"
     }
-   ]
+   ],
+   "faq": []
   },
   "ktm-macina-gravelator-sx-10": {
    "name": "KTM Macina Gravelator SX 10",
    "brand": "KTM",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "ktm macina gravelator sx 10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "ktm gravelator 10",
+    "volume": 720,
+    "kd": 21,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "ktm macina gravelator sx 10",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravelator sx 10",
+     "volume": 110,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm gravel",
+     "volume": 590,
+     "kd": 22,
+     "intent": "N"
+    }
+   ]
   },
   "ktm-macina-mini-me-sx-26": {
    "name": "KTM Macina Mini Me SX 26",
