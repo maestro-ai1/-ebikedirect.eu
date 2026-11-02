@@ -623,12 +623,6 @@
      "intent": "T"
     },
     {
-     "keyword": "cube fe",
-     "volume": 210,
-     "kd": 13,
-     "intent": "T"
-    },
-    {
      "keyword": "cube nuroad fe 2025",
      "volume": 210,
      "kd": 16,
@@ -639,6 +633,12 @@
      "volume": 210,
      "kd": 13,
      "intent": "T"
+    },
+    {
+     "keyword": "gravel bike cube",
+     "volume": 5400,
+     "kd": 23,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -661,15 +661,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube race fe",
-     "volume": 140,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
      "keyword": "cube nuroad hybrid fe",
      "volume": 140,
      "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuroad race fe 2023",
+     "volume": 140,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -766,16 +766,16 @@
    },
    "secondary": [
     {
-     "keyword": "cube e gravel",
-     "volume": 390,
+     "keyword": "carbon cube rennrad",
+     "volume": 320,
      "kd": 21,
      "intent": "T"
     },
     {
-     "keyword": "cube gravelbike damen",
+     "keyword": "cube gravelbike nuroad",
      "volume": 320,
-     "kd": 18,
-     "intent": "C"
+     "kd": 24,
+     "intent": "T"
     },
     {
      "keyword": "cube nuroad carbon",
@@ -784,35 +784,29 @@
      "intent": "T"
     },
     {
-     "keyword": "rennrad cube gebraucht",
-     "volume": 170,
-     "kd": 12,
+     "keyword": "cube carbon gravel",
+     "volume": 110,
+     "kd": 22,
      "intent": "C"
-    },
-    {
-     "keyword": "cube rennrad kaufen",
-     "volume": 140,
-     "kd": 21,
-     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube gravel bike",
-     "volume": 22200,
+     "keyword": "cube gravel",
+     "volume": 3600,
+     "kd": 22,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube gravel bike damen",
+     "volume": 2400,
      "kd": 24,
      "intent": "N"
     },
     {
-     "keyword": "cube gravelbike",
-     "volume": 2900,
+     "keyword": "cube e gravel bike",
+     "volume": 720,
      "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube gravel bikes",
-     "volume": 1000,
-     "kd": 24,
      "intent": "N"
     },
     {
@@ -842,53 +836,41 @@
    },
    "secondary": [
     {
-     "keyword": "carbon cube rennrad",
-     "volume": 320,
-     "kd": 21,
+     "keyword": "rennrad von cube",
+     "volume": 720,
+     "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "cube gravelbike nuroad",
+     "keyword": "cube gravelbike damen",
      "volume": 320,
-     "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube fahrrad damen 28 zoll",
-     "volume": 170,
-     "kd": 21,
+     "kd": 18,
      "intent": "C"
     },
     {
-     "keyword": "cube gravel nuroad",
-     "volume": 170,
-     "kd": 17,
+     "keyword": "cube rennrad kaufen",
+     "volume": 140,
+     "kd": 21,
      "intent": "T"
     },
     {
-     "keyword": "cube fahrrad 28 zoll herren",
+     "keyword": "cube gravel bike e bike",
      "volume": 110,
-     "kd": 15,
-     "intent": "C"
+     "kd": 16,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube gravel",
-     "volume": 3600,
-     "kd": 22,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube gravel bike damen",
-     "volume": 2400,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube e gravel bike",
-     "volume": 720,
+     "keyword": "cube gravelbike",
+     "volume": 2900,
      "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube gravel bikes",
+     "volume": 1000,
+     "kd": 24,
      "intent": "N"
     },
     {
@@ -898,9 +880,15 @@
      "intent": "N"
     },
     {
-     "keyword": "cube fahrrad 28 zoll",
+     "keyword": "cube nuroad gravel",
      "volume": 390,
-     "kd": 17,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube rennrad gebraucht",
+     "volume": 260,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -936,15 +924,15 @@
      "intent": "C"
     },
     {
-     "keyword": "rennrad von cube",
-     "volume": 720,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
      "keyword": "cube gravel bike carbon",
      "volume": 390,
      "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e gravel",
+     "volume": 390,
+     "kd": 21,
      "intent": "T"
     }
    ],
@@ -1663,73 +1651,55 @@
    "brand": "Cube",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "cube hybrid kathmandu",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "N",
+    "keyword": "e bike 45 km h cube",
+    "volume": 140,
+    "kd": 21,
+    "intent": "I",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube e bike kathmandu",
-     "volume": 590,
-     "kd": 18,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube kathmandu 2026",
-     "volume": 320,
-     "kd": 17,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube kathmandu hybrid 800",
-     "volume": 260,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube kathmandu 2025",
-     "volume": 210,
-     "kd": 15,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube kathmandu gebraucht",
+     "keyword": "cube fahrrad damen 28 zoll",
      "volume": 170,
-     "kd": 11,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube speed pedelec",
+     "volume": 140,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube fahrrad 28 zoll herren",
+     "volume": 110,
+     "kd": 15,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "cube kathmandu",
-     "volume": 18100,
-     "kd": 26,
-     "intent": "-"
-    },
-    {
-     "keyword": "cube kathmandu 800",
+     "keyword": "cube fahrrad 28 zoll",
      "volume": 390,
-     "kd": 13,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "cube kathmandu damen",
-     "volume": 260,
-     "kd": 18,
-     "intent": "N"
-    },
-    {
-     "keyword": "e bike 45 km h cube",
-     "volume": 140,
-     "kd": 21,
+     "keyword": "cube 28 zoll",
+     "volume": 210,
+     "kd": 16,
      "intent": "I"
     },
     {
-     "keyword": "cube kathmandu hybrid 45",
-     "volume": 140,
-     "kd": 13,
+     "keyword": "cube 28 zoll damen",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube speed pedelec 45 km h",
+     "volume": 110,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -2067,42 +2037,30 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mountain bike carbon",
-     "volume": 210,
-     "kd": 22,
+     "keyword": "cube mtb 29 zoll",
+     "volume": 260,
+     "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "cube ebike mountainbike damen",
-     "volume": 70,
-     "kd": 25,
-     "intent": "T"
+     "keyword": "mtb cube carbon",
+     "volume": 170,
+     "kd": 26,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "cube downhill",
-     "volume": 880,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube enduro",
-     "volume": 390,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube mountain bikes",
-     "volume": 140,
+     "keyword": "cube fully 29 zoll",
+     "volume": 720,
      "kd": 21,
      "intent": "N"
     },
     {
-     "keyword": "cube 29",
+     "keyword": "cube hardtail 29 zoll",
      "volume": 110,
-     "kd": 10,
-     "intent": "I"
+     "kd": 15,
+     "intent": "N"
     }
    ]
   },
@@ -2145,31 +2103,19 @@
      "intent": "T"
     },
     {
-     "keyword": "cube e bike hybrid",
-     "volume": 170,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube hybrid 800",
-     "volume": 140,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube hybrid 500",
+     "keyword": "cube reaction hybrid one 800 test",
      "volume": 110,
-     "kd": 12,
+     "kd": 10,
      "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbike 29 zoll",
+     "volume": 1300,
+     "kd": 24,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "cube hybrid",
-     "volume": 1900,
-     "kd": 22,
-     "intent": "I"
-    },
     {
      "keyword": "cube reaction hybrid one 800",
      "volume": 1600,
@@ -2186,6 +2132,12 @@
      "keyword": "cube reaction hybrid one 625",
      "volume": 480,
      "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube reaction e bikes",
+     "volume": 390,
+     "kd": 14,
      "intent": "I"
     }
    ]
@@ -2221,15 +2173,15 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mountainbike 29 zoll",
+     "keyword": "cube mountainbike herren",
      "volume": 1300,
      "kd": 24,
-     "intent": "C"
+     "intent": "T"
     },
     {
-     "keyword": "cube ebike fully",
-     "volume": 720,
-     "kd": 22,
+     "keyword": "cube downhill bike",
+     "volume": 590,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -2279,16 +2231,22 @@
    },
    "secondary": [
     {
-     "keyword": "cube cross",
-     "volume": 390,
-     "kd": 20,
+     "keyword": "cube e mountainbike damen",
+     "volume": 210,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube e mountainbike hardtail",
+     "volume": 140,
+     "kd": 15,
      "intent": "T"
     },
     {
-     "keyword": "mountain bike cube",
-     "volume": 170,
-     "kd": 20,
-     "intent": "T"
+     "keyword": "cube e bike fully gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2305,21 +2263,9 @@
      "intent": "N"
     },
     {
-     "keyword": "cube fully 29 zoll",
-     "volume": 720,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube all mountain",
-     "volume": 140,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube fahrrad 29 zoll herren",
-     "volume": 110,
-     "kd": 21,
+     "keyword": "cube fahrrad 29 zoll",
+     "volume": 590,
+     "kd": 16,
      "intent": "I"
     }
    ]
@@ -2355,14 +2301,14 @@
      "intent": "T"
     },
     {
-     "keyword": "cube e mtb fully",
-     "volume": 720,
-     "kd": 22,
+     "keyword": "cube hardtail mountain bikes",
+     "volume": 140,
+     "kd": 18,
      "intent": "T"
     },
     {
-     "keyword": "cube downhill bikes",
-     "volume": 320,
+     "keyword": "cube e bike herren mountainbike",
+     "volume": 110,
      "kd": 28,
      "intent": "T"
     }
@@ -2387,15 +2333,15 @@
      "intent": "N"
     },
     {
-     "keyword": "cube stereo fully",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "emtb fully cube",
+     "volume": 590,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "cube cross pro",
+     "keyword": "cube stereo fully",
      "volume": 210,
-     "kd": 19,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -2425,22 +2371,22 @@
      "intent": "C"
     },
     {
-     "keyword": "cube e mountainbike herren",
-     "volume": 260,
-     "kd": 28,
+     "keyword": "cube 29 zoll",
+     "volume": 590,
+     "kd": 24,
      "intent": "T"
-    },
-    {
-     "keyword": "cube fully gebraucht",
-     "volume": 170,
-     "kd": 14,
-     "intent": "C"
     },
     {
      "keyword": "cube e bike damen mountainbike",
      "volume": 140,
      "kd": 24,
      "intent": "C"
+    },
+    {
+     "keyword": "cube ebike mountainbike damen",
+     "volume": 70,
+     "kd": 25,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2469,9 +2415,9 @@
      "intent": "N"
     },
     {
-     "keyword": "cube fahrrad 29 zoll",
-     "volume": 590,
-     "kd": 16,
+     "keyword": "cube cross pro",
+     "volume": 210,
+     "kd": 19,
      "intent": "I"
     }
    ]
@@ -2489,21 +2435,15 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbike fully",
-     "volume": 590,
-     "kd": 15,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube mountainbike kinder",
-     "volume": 260,
+     "keyword": "cube e mountainbikes",
+     "volume": 480,
      "kd": 22,
      "intent": "T"
     },
     {
-     "keyword": "cube e bike fully damen",
-     "volume": 110,
-     "kd": 26,
+     "keyword": "cube mountain bike carbon",
+     "volume": 210,
+     "kd": 22,
      "intent": "T"
     }
    ],
@@ -2527,15 +2467,15 @@
      "intent": "N"
     },
     {
-     "keyword": "mountainbike carbon cube",
-     "volume": 170,
-     "kd": 19,
-     "intent": "N"
-    },
-    {
      "keyword": "cube hardtail carbon",
      "volume": 140,
      "kd": 17,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube damen fully",
+     "volume": 70,
+     "kd": 18,
      "intent": "N"
     }
    ]
@@ -2571,15 +2511,15 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mountainbike herren",
-     "volume": 1300,
-     "kd": 24,
+     "keyword": "mtb cube hardtail",
+     "volume": 880,
+     "kd": 21,
      "intent": "T"
     },
     {
-     "keyword": "cube downhill bike",
-     "volume": 590,
-     "kd": 20,
+     "keyword": "cube mountainbikes herren",
+     "volume": 390,
+     "kd": 23,
      "intent": "T"
     }
    ],
@@ -2643,16 +2583,10 @@
    },
    "secondary": [
     {
-     "keyword": "hardtail bike cube",
-     "volume": 260,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "mtb cube carbon",
+     "keyword": "mountain bike cube",
      "volume": 170,
-     "kd": 26,
-     "intent": "C"
+     "kd": 20,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2663,21 +2597,15 @@
      "intent": "N"
     },
     {
-     "keyword": "emtb fully cube",
-     "volume": 590,
-     "kd": 17,
+     "keyword": "cube e fully",
+     "volume": 480,
+     "kd": 22,
      "intent": "I"
     },
     {
      "keyword": "cube cross country",
      "volume": 140,
      "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube downhill fully",
-     "volume": 110,
-     "kd": 15,
      "intent": "N"
     }
    ]
@@ -2715,28 +2643,28 @@
      "intent": "T"
     },
     {
-     "keyword": "mtb cube hardtail",
+     "keyword": "cube mountain bike hardtail",
      "volume": 880,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube 29 zoll",
-     "volume": 590,
-     "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube mtb 29 zoll",
-     "volume": 260,
      "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "cube ebike mountainbike",
+     "keyword": "cube cross",
+     "volume": 390,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike 29 zoll",
      "volume": 170,
-     "kd": 23,
-     "intent": "T"
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube mountainbike gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2785,21 +2713,9 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbikes",
-     "volume": 480,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube elektro mountainbike damen",
+     "keyword": "cube fully gebraucht",
      "volume": 170,
-     "kd": 26,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube mountainbike gebraucht",
-     "volume": 110,
-     "kd": 10,
+     "kd": 14,
      "intent": "C"
     }
    ],
@@ -2823,16 +2739,16 @@
      "intent": "N"
     },
     {
-     "keyword": "cube e mountain bike",
-     "volume": 210,
-     "kd": 25,
-     "intent": "N"
+     "keyword": "cube cross bike",
+     "volume": 480,
+     "kd": 20,
+     "intent": "I"
     },
     {
-     "keyword": "cube hardtail 29 zoll",
+     "keyword": "cube damen mtb",
      "volume": 110,
-     "kd": 15,
-     "intent": "N"
+     "kd": 22,
+     "intent": "I"
     }
    ]
   },
@@ -2847,26 +2763,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "cube e mountainbike damen",
-     "volume": 210,
-     "kd": 26,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube e mtb hardtail",
-     "volume": 170,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike fully gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "mtb fully cube",
@@ -2875,15 +2772,21 @@
      "intent": "I"
     },
     {
-     "keyword": "cube e fully",
-     "volume": 480,
-     "kd": 22,
-     "intent": "I"
+     "keyword": "cube enduro",
+     "volume": 390,
+     "kd": 24,
+     "intent": "N"
     },
     {
-     "keyword": "cube damen mtb",
+     "keyword": "mountainbike carbon cube",
+     "volume": 170,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube 29",
      "volume": 110,
-     "kd": 22,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -2942,14 +2845,7 @@
     "source": "name"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "cube reaction e bikes",
-     "volume": 390,
-     "kd": 14,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "cube-reaction-hybrid-one-800-800-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid ONE 800 800 Wh 27,5 Zoll",
@@ -3008,21 +2904,9 @@
      "intent": "I"
     },
     {
-     "keyword": "cube cx bike",
-     "volume": 480,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
      "keyword": "fully bike cube",
      "volume": 110,
      "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube damen fully",
-     "volume": 70,
-     "kd": 18,
      "intent": "N"
     }
    ]
@@ -3074,27 +2958,15 @@
      "intent": "T"
     },
     {
-     "keyword": "cube mountain bike hardtail",
-     "volume": 880,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e mountainbike hardtail",
-     "volume": 140,
-     "kd": 15,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube mountainbike 29 zoll herren",
-     "volume": 110,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike herren mountainbike",
-     "volume": 110,
+     "keyword": "cube downhill bikes",
+     "volume": 320,
      "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube ebike mountainbike",
+     "volume": 170,
+     "kd": 23,
      "intent": "T"
     }
    ],
@@ -3118,15 +2990,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube cross bike",
-     "volume": 480,
-     "kd": 20,
-     "intent": "I"
+     "keyword": "mountainbike cube hardtail",
+     "volume": 880,
+     "kd": 21,
+     "intent": "N"
     },
     {
-     "keyword": "cube 800",
-     "volume": 210,
-     "kd": 25,
+     "keyword": "cube fahrrad 29 zoll herren",
+     "volume": 110,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -3192,41 +3064,29 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube exc",
-    "volume": 260,
-    "kd": 26,
+    "keyword": "cube stereo hybrid one44 exc 800 test",
+    "volume": 110,
+    "kd": 10,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube stereo hybrid one44 exc 800 test",
-     "volume": 110,
-     "kd": 10,
+     "keyword": "cube e mountainbike herren",
+     "volume": 260,
+     "kd": 28,
      "intent": "T"
     },
     {
-     "keyword": "cube mountainbikes herren",
-     "volume": 390,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike 29 zoll",
+     "keyword": "cube elektro mountainbike damen",
      "volume": 170,
-     "kd": 15,
+     "kd": 26,
      "intent": "C"
     },
     {
-     "keyword": "cube hardtail mountain bikes",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube trail bike",
+     "keyword": "cube mountainbike 29 zoll herren",
      "volume": 110,
-     "kd": 22,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -3244,22 +3104,16 @@
      "intent": "I"
     },
     {
-     "keyword": "cube exc 800",
-     "volume": 170,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
      "keyword": "cube one44 exc",
      "volume": 170,
      "kd": 21,
      "intent": "I"
     },
     {
-     "keyword": "mountainbike cube hardtail",
+     "keyword": "cube downhill",
      "volume": 880,
-     "kd": 21,
-     "intent": "N"
+     "kd": 25,
+     "intent": "I"
     }
    ]
   },
@@ -13467,6 +13321,1933 @@
    "category": "E-MTB",
    "primary": {
     "keyword": "haibike adventr 9 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-reaction-hybrid-slx-800-fe": {
+   "name": "Cube Reaction Hybrid SLX 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube fe",
+    "volume": 210,
+    "kd": 13,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube ebike fully",
+     "volume": 720,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbike kinder",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e mtb hardtail",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trail bike",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube reaction hybrid slx 800 fe 2026",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-reaction-hybrid-race-800-fe": {
+   "name": "Cube Reaction Hybrid Race 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube race fe",
+    "volume": 140,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube e mtb fully",
+     "volume": 720,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "hardtail bike cube",
+     "volume": 260,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube mountain bikes",
+     "volume": 140,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube downhill fully",
+     "volume": 110,
+     "kd": 15,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-reaction-hybrid-pro-800-fe": {
+   "name": "Cube Reaction Hybrid Pro 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube reaction hybrid pro 800 fe",
+    "volume": 260,
+    "kd": 12,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube e mountainbike fully",
+     "volume": 590,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike fully damen",
+     "volume": 110,
+     "kd": 26,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube reaction hybrid pro 800 fe 2026",
+     "volume": 210,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube e mountain bike",
+     "volume": 210,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube all mountain",
+     "volume": 140,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-reaction-hybrid-one-720-fe": {
+   "name": "Cube Reaction Hybrid ONE 720 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube reaction hybrid one 720 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-reaction-hybrid-performance-720-fe": {
+   "name": "Cube Reaction Hybrid Performance 720 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube reaction hybrid performance 720 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one44-hpc-super-tm-800": {
+   "name": "Cube Stereo Hybrid ONE44 HPC Super TM 800",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one44 hpc super tm 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one44-slx-800-fe": {
+   "name": "Cube Stereo Hybrid ONE44 SLX 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one44 slx 800 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one44-hpc-exc-800": {
+   "name": "Cube Stereo Hybrid ONE44 HPC EXC 800",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one44 hpc exc 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one22-slx-800-fe": {
+   "name": "Cube Stereo Hybrid ONE22 SLX 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one22 slx 800 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one44-pro-800-fe": {
+   "name": "Cube Stereo Hybrid ONE44 Pro 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one44 pro 800 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-stereo-hybrid-one22-pro-800-fe": {
+   "name": "Cube Stereo Hybrid ONE22 Pro 800 FE",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid one22 pro 800 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-ams-hybrid-one44-c-68x-slt-400x": {
+   "name": "Cube AMS Hybrid ONE44 C:68X SLT 400X",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube ams hybrid one44 c:68x slt 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-touring-hybrid-deluxe-slx-800": {
+   "name": "Cube Touring Hybrid Deluxe SLX 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube touring hybrid deluxe slx 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-touring-hybrid-pro-800": {
+   "name": "Cube Touring Hybrid Pro 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube touring hybrid",
+    "volume": 1000,
+    "kd": 23,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube touring",
+     "volume": 1300,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube touring hybrid pro",
+     "volume": 390,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube touring hybrid pro 625 damen",
+     "volume": 170,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube touring hybrid pro 800 test",
+     "volume": 170,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube touring pro damen",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube touring hybrid pro 625",
+     "volume": 2400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring pro",
+     "volume": 1000,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring hybrid pro 625 2025",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring pro 2025",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "trekkingrad herren cube",
+     "volume": 320,
+     "kd": 21,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-touring-hybrid-one-600": {
+   "name": "Cube Touring Hybrid ONE 600",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube touring hybrid one 600 test",
+    "volume": 110,
+    "kd": 10,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube touring hybrid one",
+     "volume": 590,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "trekkingrad von cube",
+     "volume": 1900,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube trekking damen",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube touring hybrid one 625",
+     "volume": 1600,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring one",
+     "volume": 1300,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring hybrid one 500",
+     "volume": 1000,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring hybrid one 600",
+     "volume": 390,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring one 2026",
+     "volume": 170,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-one11-hpc-slt-800": {
+   "name": "Cube Kathmandu Hybrid ONE11 HPC SLT 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid one11 hpc slt 800",
+    "volume": 140,
+    "kd": 15,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube trekkingrad",
+     "volume": 1900,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trekking e bike damen",
+     "volume": 140,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-deluxe-slx-800": {
+   "name": "Cube Kathmandu Hybrid Deluxe SLX 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid deluxe slx 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-c-62-slt-400x": {
+   "name": "Cube Kathmandu Hybrid C:62 SLT 400X",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid c 62",
+    "volume": 390,
+    "kd": 19,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube trekkingrad damen",
+     "volume": 720,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube damen trekkingrad e bike",
+     "volume": 110,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid c 62 slt 400x",
+     "volume": 260,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-one11-hpc-slx-800": {
+   "name": "Cube Kathmandu Hybrid ONE11 HPC SLX 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid one11 hpc slx 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-slt-800": {
+   "name": "Cube Kathmandu Hybrid SLT 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu slt",
+    "volume": 480,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube kathmandu hybrid 800 slt 2026",
+     "volume": 140,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "trekking bikes cube",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid slt 800",
+     "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid slt",
+     "volume": 170,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube kathmandu slt 800",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube cx bike",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-deluxe-exc-800": {
+   "name": "Cube Kathmandu Hybrid Deluxe EXC 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid deluxe exc 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-slx-800": {
+   "name": "Cube Kathmandu Hybrid SLX 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid slx 800 test",
+    "volume": 210,
+    "kd": 10,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube trekking",
+     "volume": 480,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trekkingbike",
+     "volume": 110,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid slx 800",
+     "volume": 1900,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu slx 800",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu slx 2025",
+     "volume": 170,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid slx",
+     "volume": 170,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid slx 800 2026",
+     "volume": 140,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-one11-hpc-pro-800": {
+   "name": "Cube Kathmandu Hybrid ONE11 HPC Pro 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid one11 hpc pro 800",
+    "volume": 210,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube trekking bike",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube ebike herren trekking",
+     "volume": 110,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-c-62-slx-400x": {
+   "name": "Cube Kathmandu Hybrid C:62 SLX 400X",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid c:62 slx 400x",
+    "volume": 480,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube kathmandu c 62 slx",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid c 62 slx",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid c 62 slx 400x test",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube trekkingrad e-bike",
+     "volume": 260,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-exc-800": {
+   "name": "Cube Kathmandu Hybrid EXC 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu exc 800",
+    "volume": 480,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube kathmandu hybrid exc",
+     "volume": 320,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube exc",
+     "volume": 260,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid exc 800 test",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trekking ebike",
+     "volume": 260,
+     "kd": 16,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid exc 800",
+     "volume": 2400,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu exc",
+     "volume": 1000,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid exc 800 2025",
+     "volume": 720,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid exc 750",
+     "volume": 480,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube exc 800",
+     "volume": 170,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-deluxe-pro-800": {
+   "name": "Cube Kathmandu Hybrid Deluxe Pro 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid deluxe pro 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-pro-800": {
+   "name": "Cube Kathmandu Hybrid Pro 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu pro",
+    "volume": 2400,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube kathmandu hybrid pro 800 2026",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu pro 2026",
+     "volume": 210,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro 800 damen",
+     "volume": 110,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube trekking fahrrad",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid pro 800",
+     "volume": 14800,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro 750",
+     "volume": 2400,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro 625",
+     "volume": 1000,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro 800 2025",
+     "volume": 880,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro",
+     "volume": 880,
+     "kd": 25,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-c-62-pro-400x": {
+   "name": "Cube Kathmandu Hybrid C:62 Pro 400X",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu hybrid c:62 pro 400x kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-kathmandu-hybrid-one-800": {
+   "name": "Cube Kathmandu Hybrid ONE 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube kathmandu one",
+    "volume": 720,
+    "kd": 24,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube kathmandu hybrid one 800",
+     "volume": 2400,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one",
+     "volume": 480,
+     "kd": 19,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one 800 test",
+     "volume": 260,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid one 625",
+     "volume": 1300,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one 750",
+     "volume": 320,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu one 800",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one 800 2025",
+     "volume": 170,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube 800",
+     "volume": 210,
+     "kd": 25,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-nuride-hybrid-one11-hpc-slx-800": {
+   "name": "Cube Nuride Hybrid ONE11 HPC SLX 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube nuride hybrid slx 800",
+    "volume": 210,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube e bike trekking herren",
+     "volume": 170,
+     "kd": 23,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube nuride slx 800",
+     "volume": 110,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-nuride-hybrid-exc-800": {
+   "name": "Cube Nuride Hybrid EXC 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube nuride",
+    "volume": 1600,
+    "kd": 21,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nuride hybrid exc 800",
+     "volume": 260,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike nuride",
+     "volume": 110,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube trekking herren",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube nuride hybrid",
+     "volume": 1000,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube nuride hybrid exc",
+     "volume": 140,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride exc",
+     "volume": 110,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride exc 800",
+     "volume": 110,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride 800",
+     "volume": 110,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-nuride-hybrid-pro-800": {
+   "name": "Cube Nuride Hybrid Pro 800",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube nuride pro",
+    "volume": 140,
+    "kd": 15,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cube nuride hybrid pro 800",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride hybrid pro",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride hybrid pro 625",
+     "volume": 140,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube e trekkingbike",
+     "volume": 140,
+     "kd": 20,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-nuride-hybrid-performance-720": {
+   "name": "Cube Nuride Hybrid Performance 720",
+   "brand": "Cube",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cube nuride hybrid performance 720 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-editor-hybrid-slt-400x-fe": {
+   "name": "Cube Editor Hybrid SLT 400X FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube editor hybrid slt 400x",
+    "volume": 320,
+    "kd": 15,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube citybike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube editor hybrid slt 400x fe",
+     "volume": 210,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid slt",
+     "volume": 210,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-editor-hybrid-slx-400x-fe": {
+   "name": "Cube Editor Hybrid SLX 400X FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube editor slx",
+    "volume": 480,
+    "kd": 22,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube city e bike",
+     "volume": 480,
+     "kd": 26,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube editor hybrid slx 400x",
+     "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid slx fe 400x",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid slx",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-editor-hybrid-pro-360-fe": {
+   "name": "Cube Editor Hybrid Pro 360 FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube editor fe",
+    "volume": 170,
+    "kd": 16,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube editor",
+     "volume": 2400,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube editor hybrid pro",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube editor hybrid",
+     "volume": 1600,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor pro",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid fe",
+     "volume": 110,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube city bike",
+     "volume": 390,
+     "kd": 27,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-editor-hybrid-one-360-fe": {
+   "name": "Cube Editor Hybrid ONE 360 FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube editor hybrid one 360 fe kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-nulane-hybrid-c-62-slx-400x-fe": {
+   "name": "Cube Nulane Hybrid C:62 SLX 400X FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube nulane fe",
+    "volume": 390,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nulane slx fe",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube urban bike",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube nulane hybrid fe",
+     "volume": 140,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-nulane-hybrid-c-62-slx-400x": {
+   "name": "Cube Nulane Hybrid C:62 SLX 400X",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube nulane",
+    "volume": 5400,
+    "kd": 20,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nulane c 62",
+     "volume": 590,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nulane slx",
+     "volume": 480,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nulane hybrid test",
+     "volume": 210,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nulane e bike",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nulane damen",
+     "volume": 140,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube nulane hybrid",
+     "volume": 1300,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nulane c:62 slx",
+     "volume": 880,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nulane 2025",
+     "volume": 140,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nulane hybrid slx",
+     "volume": 110,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nulane test",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-nulane-hybrid-c-62-race-400x-fe": {
+   "name": "Cube Nulane Hybrid C:62 Race 400X FE",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube nulane hybrid c 62 race fe 400x",
+    "volume": 140,
+    "kd": 12,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "citybike damen cube",
+     "volume": 170,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-nulane-hybrid-c-62-race-400x": {
+   "name": "Cube Nulane Hybrid C:62 Race 400X",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube nulane race",
+    "volume": 720,
+    "kd": 23,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube nulane hybrid c:62 race 400x",
+     "volume": 210,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-supreme-hybrid-c-62-deluxe-slt-600": {
+   "name": "Cube Supreme Hybrid C:62 Deluxe SLT 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid c:62 deluxe slt 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-c-62-deluxe-slx-600": {
+   "name": "Cube Supreme Hybrid C:62 Deluxe SLX 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid c:62 deluxe slx 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-deluxe-slt-600": {
+   "name": "Cube Supreme Hybrid Deluxe SLT 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid",
+    "volume": 390,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-deluxe-slx-600": {
+   "name": "Cube Supreme Hybrid Deluxe SLX 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid deluxe slx 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-deluxe-pro-600": {
+   "name": "Cube Supreme Hybrid Deluxe Pro 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid deluxe pro 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-comfort-pro-600": {
+   "name": "Cube Supreme Hybrid Comfort Pro 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid comfort pro 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-rt-hybrid-deluxe-ex-600": {
+   "name": "Cube Supreme RT Hybrid Deluxe EX 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme rt hybrid deluxe ex 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-deluxe-one-600": {
+   "name": "Cube Supreme Hybrid Deluxe ONE 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid one 500",
+    "volume": 720,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-rt-hybrid-comfort-ex-600": {
+   "name": "Cube Supreme RT Hybrid Comfort EX 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme rt hybrid comfort ex 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-supreme-hybrid-comfort-one-600": {
+   "name": "Cube Supreme Hybrid Comfort ONE 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube supreme hybrid comfort one 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-aruba-hybrid-600": {
+   "name": "Cube Aruba Hybrid 600",
+   "brand": "Cube",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cube e bike hybrid",
+    "volume": 170,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube hybrid 800",
+     "volume": 140,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube hybrid 500",
+     "volume": 110,
+     "kd": 12,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube hybrid",
+     "volume": 1900,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube aruba hybrid",
+     "volume": 170,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube aruba 200",
+     "volume": 140,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-kathmandu-hybrid-45-800": {
+   "name": "Cube Kathmandu Hybrid 45 800",
+   "brand": "Cube",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "cube hybrid kathmandu",
+    "volume": 1300,
+    "kd": 19,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube e bike kathmandu",
+     "volume": 590,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube kathmandu 2026",
+     "volume": 320,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid 800",
+     "volume": 260,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu 2025",
+     "volume": 210,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube kathmandu gebraucht",
+     "volume": 170,
+     "kd": 11,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube kathmandu",
+     "volume": 18100,
+     "kd": 26,
+     "intent": "-"
+    },
+    {
+     "keyword": "cube kathmandu 800",
+     "volume": 390,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu damen",
+     "volume": 260,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube kathmandu hybrid 45",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid 2026",
+     "volume": 110,
+     "kd": 24,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-compact-hybrid-deluxe-540": {
+   "name": "Cube Compact Hybrid Deluxe 540",
+   "brand": "Cube",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "cube compact hybrid deluxe 540 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-compact-hybrid-540": {
+   "name": "Cube Compact Hybrid 540",
+   "brand": "Cube",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "cube compact",
+    "volume": 390,
+    "kd": 13,
+    "intent": "C",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-fold-hybrid-deluxe-540": {
+   "name": "Cube Fold Hybrid Deluxe 540",
+   "brand": "Cube",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "cube fold hybrid deluxe 540 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-fold-hybrid-540": {
+   "name": "Cube Fold Hybrid 540",
+   "brand": "Cube",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "cube fold hybrid 500",
+    "volume": 260,
+    "kd": 10,
+    "intent": "C",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cube fold hybrid",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fold",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-cargo-hybrid-comfort-slx-800": {
+   "name": "Cube Cargo Hybrid Comfort SLX 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube cargo hybrid comfort slx 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-cargo-hybrid-comfort-pro-family-800": {
+   "name": "Cube Cargo Hybrid Comfort Pro Family 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube cargo hybrid comfort pro family 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-cargo-hybrid-comfort-pro-800": {
+   "name": "Cube Cargo Hybrid Comfort Pro 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube cargo hybrid comfort pro 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-cargo-hybrid-800": {
+   "name": "Cube Cargo Hybrid 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube cargo",
+    "volume": 720,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube cargo hybrid 500",
+     "volume": 170,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube cargo bike",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube cargo hybrid",
+     "volume": 480,
+     "kd": 18,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-longtail-hybrid-deluxe-family-800": {
+   "name": "Cube Longtail Hybrid Deluxe Family 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube longtail hybrid deluxe family 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-longtail-hybrid-deluxe-800": {
+   "name": "Cube Longtail Hybrid Deluxe 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube longtail hybrid deluxe 800 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-longtail-hybrid-family-800": {
+   "name": "Cube Longtail Hybrid Family 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube longtail hybrid family",
+    "volume": 210,
+    "kd": 21,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube longtail family",
+     "volume": 170,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube longtail hybrid family 800",
+     "volume": 110,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-longtail-hybrid-800": {
+   "name": "Cube Longtail Hybrid 800",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube longtail",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-trike-family-hybrid-1500": {
+   "name": "Cube Trike Family Hybrid 1500",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube trike",
+    "volume": 590,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube trike hybrid",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trike family",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cube-trike-cargo-hybrid-1500": {
+   "name": "Cube Trike Cargo Hybrid 1500",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube trike cargo hybrid 1500",
+    "volume": 110,
+    "kd": 10,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cube trike cargo",
+     "volume": 170,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
+  },
+  "cube-trike-family-hybrid-750": {
+   "name": "Cube Trike Family Hybrid 750",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube trike family hybrid 750 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-trike-cargo-hybrid-750": {
+   "name": "Cube Trike Cargo Hybrid 750",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube trike cargo hybrid 750 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cube-trike-flatbed-hybrid-750": {
+   "name": "Cube Trike Flatbed Hybrid 750",
+   "brand": "Cube",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cube trike flatbed hybrid 750 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
