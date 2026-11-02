@@ -582,10 +582,10 @@
    "brand": "Cannondale",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cannondale moterra",
-    "volume": 1900,
-    "kd": 24,
-    "intent": "T",
+    "keyword": "cannondale moterra carbon sl 2",
+    "volume": 140,
+    "kd": 26,
+    "intent": "I",
     "source": "bank"
    },
    "secondary": [
@@ -594,64 +594,9 @@
      "volume": 260,
      "kd": 23,
      "intent": "C"
-    },
-    {
-     "keyword": "cannondale fully e bike",
-     "volume": 170,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
-     "keyword": "cannondale mtb hardtail",
-     "volume": 170,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cannondale e mountain bikes",
-     "volume": 170,
-     "kd": 22,
-     "intent": "C"
-    },
-    {
-     "keyword": "cannondale e mtb fully",
-     "volume": 170,
-     "kd": 25,
-     "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "cannondale moterra sl",
-     "volume": 1000,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "cannondale moterra sl 2",
-     "volume": 590,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cannondale moterra 2",
-     "volume": 210,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "cannondale moterra carbon sl 2",
-     "volume": 140,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "cannondale trail 2",
-     "volume": 140,
-     "kd": 17,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll": {
    "name": "Cube Nuroad Hybrid C:62 Race 400X FE",
@@ -12037,6 +11982,771 @@
     "kd": null,
     "intent": "T",
     "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-moterra-eq": {
+   "name": "Cannondale Moterra EQ",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra",
+    "volume": 1900,
+    "kd": 24,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale fully e bike",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cannondale moterra eq",
+     "volume": 260,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
+  },
+  "cannondale-moterra-sl-lab71-c65165u": {
+   "name": "Cannondale Moterra SL LAB71 C65165U",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra sl lab71 c65165u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-moterra-sl-lab71-c65054u": {
+   "name": "Cannondale Moterra SL LAB71 C65054U",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra sl lab71 c65054u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-habit-neo-1": {
+   "name": "Cannondale Habit Neo 1",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale habit",
+    "volume": 880,
+    "kd": 28,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale mtb hardtail",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale trail 1",
+     "volume": 110,
+     "kd": 15,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-habit-neo-2": {
+   "name": "Cannondale Habit Neo 2",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale habit 2",
+    "volume": 110,
+    "kd": 20,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale e mountain bikes",
+     "volume": 170,
+     "kd": 22,
+     "intent": "C"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-moterra-sl-1-c65104u": {
+   "name": "Cannondale Moterra SL 1 C65104U",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra sl 1",
+    "volume": 720,
+    "kd": 15,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale e mtb fully",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-moterra-1-c6501gu-smu": {
+   "name": "Cannondale Moterra 1 C6501GU SMU",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 1 c6501gu smu kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-moterra-1-c65014u": {
+   "name": "Cannondale Moterra 1 C65014U",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 1",
+    "volume": 390,
+    "kd": 21,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale e mountainbike",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-moterra-sl-1-c65195u": {
+   "name": "Cannondale Moterra SL 1 C65195U",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra sl 1 c65195u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-synapse-neo": {
+   "name": "Cannondale Synapse Neo",
+   "brand": "Cannondale",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cannondale synapse bike",
+    "volume": 2400,
+    "kd": 25,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale bikes synapse",
+     "volume": 260,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale synapse 2025",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale gravel e bike",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cannondale synapse neo",
+     "volume": 140,
+     "kd": 23,
+     "intent": "N"
+    },
+    {
+     "keyword": "cannondale rennrad",
+     "volume": 2900,
+     "kd": 26,
+     "intent": "-"
+    }
+   ]
+  },
+  "cannondale-moterra-lt-1": {
+   "name": "Cannondale Moterra LT 1",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra lt",
+    "volume": 390,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale enduro",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-habit-neo-3": {
+   "name": "Cannondale Habit Neo 3",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale habit 3",
+    "volume": 480,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cannondale downhill",
+     "volume": 110,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
+  },
+  "cannondale-synapse-neo-allroad-1": {
+   "name": "Cannondale Synapse Neo Allroad 1",
+   "brand": "Cannondale",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cannondale synapse neo allroad 1",
+    "volume": 320,
+    "kd": 21,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale gravel bike herren",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cannondale gravelbike",
+     "volume": 590,
+     "kd": 25,
+     "intent": "N"
+    }
+   ]
+  },
+  "cannondale-moterra-sl-2": {
+   "name": "Cannondale Moterra SL 2",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra sl",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cannondale moterra sl 2",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cannondale trail 2",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "cannondale-moterra-2": {
+   "name": "Cannondale Moterra 2",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 2",
+    "volume": 210,
+    "kd": 15,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale enduro bike",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-wonderwagen-neo-1": {
+   "name": "Cannondale Wonderwagen Neo 1",
+   "brand": "Cannondale",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cannondale wonderwagen neo 1 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-automatiq-low-stepthru-headshok": {
+   "name": "Cannondale Tesoro Automatiq Low StepThru HeadShok",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro automatiq low stepthru headshok kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-automatiq-headshok": {
+   "name": "Cannondale Tesoro Automatiq HeadShok",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro automatiq headshok kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-automatiq": {
+   "name": "Cannondale Tesoro Automatiq",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro",
+    "volume": 590,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale tesoro automatiq",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-mavaro-1-c64014u": {
+   "name": "Cannondale Mavaro 1 C64014U",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 1 c64014u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-1-low-stepthru": {
+   "name": "Cannondale Mavaro 1 Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 1 low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-cargowagen-neo-1": {
+   "name": "Cannondale Cargowagen Neo 1",
+   "brand": "Cannondale",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cannondale cargowagen neo 1 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-wonderwagen-neo-2": {
+   "name": "Cannondale Wonderwagen Neo 2",
+   "brand": "Cannondale",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cannondale wonderwagen neo 2",
+    "volume": 110,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-1-c66112m": {
+   "name": "Cannondale Mavaro 1 C66112M",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 1 c66112m kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-1-low-stepthru": {
+   "name": "Cannondale Tesoro 1 Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 1 low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-2-low-stepthru": {
+   "name": "Cannondale Mavaro 2 Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 2 low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-2-c64034u": {
+   "name": "Cannondale Mavaro 2 C64034U",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 2 c64034u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-1-headshok": {
+   "name": "Cannondale Tesoro 1 HeadShok",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 1 headshok kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-1": {
+   "name": "Cannondale Tesoro 1",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 1 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-carbon-2": {
+   "name": "Cannondale Tesoro Carbon 2",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro carbon 2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-flyingv-1": {
+   "name": "Cannondale FlyingV 1",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale flyingv 1 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-moterra-3": {
+   "name": "Cannondale Moterra 3",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 3",
+    "volume": 170,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "mtb enduro cannondale",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-cargowagen-neo-2": {
+   "name": "Cannondale Cargowagen Neo 2",
+   "brand": "Cannondale",
+   "category": "Cargo-E-Bike",
+   "primary": {
+    "keyword": "cannondale cargowagen neo 2",
+    "volume": 140,
+    "kd": 24,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-synapse-neo-allroad-2": {
+   "name": "Cannondale Synapse Neo Allroad 2",
+   "brand": "Cannondale",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "cannondale synapse neo allroad 2",
+    "volume": 210,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale e gravel",
+     "volume": 140,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "cannondale-tesoro-2": {
+   "name": "Cannondale Tesoro 2",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-2-low-stepthru": {
+   "name": "Cannondale Tesoro 2 Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 2 low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-2-c64212u": {
+   "name": "Cannondale Mavaro 2 C64212U",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 2 c64212u kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-flyingv-2": {
+   "name": "Cannondale FlyingV 2",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale flyingv 2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-moterra-4-plus": {
+   "name": "Cannondale Moterra 4+",
+   "brand": "Cannondale",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cannondale moterra 4",
+    "volume": 140,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-carbon-3": {
+   "name": "Cannondale Tesoro Carbon 3",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro carbon 3 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-3-plus-low-stepthru": {
+   "name": "Cannondale Tesoro 3+ Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 3+ low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-tesoro-3-plus": {
+   "name": "Cannondale Tesoro 3+",
+   "brand": "Cannondale",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "cannondale tesoro 3+ kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-4-low-stepthru": {
+   "name": "Cannondale Mavaro 4 Low StepThru",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro 4 low stepthru kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "cannondale-mavaro-4": {
+   "name": "Cannondale Mavaro 4",
+   "brand": "Cannondale",
+   "category": "E-City",
+   "primary": {
+    "keyword": "cannondale mavaro",
+    "volume": 320,
+    "kd": 20,
+    "intent": "T",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
