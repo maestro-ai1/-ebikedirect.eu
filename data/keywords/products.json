@@ -5364,12 +5364,6 @@
      "volume": 110,
      "kd": 9,
      "intent": "I"
-    },
-    {
-     "keyword": "haibike e downhill",
-     "volume": 110,
-     "kd": 18,
-     "intent": "I"
     }
    ]
   },
@@ -5411,12 +5405,6 @@
      "volume": 590,
      "kd": 21,
      "intent": "T"
-    },
-    {
-     "keyword": "mountainbike fully haibike",
-     "volume": 110,
-     "kd": 18,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -5445,12 +5433,6 @@
      "volume": 390,
      "kd": 23,
      "intent": "T"
-    },
-    {
-     "keyword": "haibike fully gebraucht",
-     "volume": 110,
-     "kd": 11,
-     "intent": "C"
     }
    ],
    "faq": []
@@ -5576,9 +5558,9 @@
    "brand": "Haibike",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "haibike trekking 5",
-    "volume": 1300,
-    "kd": 20,
+    "keyword": "haibike trekking 6",
+    "volume": 590,
+    "kd": 12,
     "intent": "I",
     "source": "bank"
    },
@@ -5590,14 +5572,7 @@
      "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "haibike trekking 6",
-     "volume": 590,
-     "kd": 12,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "haibike-alltrack-11-abs-29-800-wh-29-zoll": {
    "name": "Haibike Alltrack 11 ABS 29",
@@ -13177,6 +13152,321 @@
    "category": "E-City",
    "primary": {
     "keyword": "gazelle heavydutynl c7 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-trekking-5": {
+   "name": "Haibike Trekking 5",
+   "brand": "Haibike",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "haibike trekking 5",
+    "volume": 1300,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "haibike yamaha",
+     "volume": 140,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
+  "haibike-trekking-3": {
+   "name": "Haibike Trekking 3",
+   "brand": "Haibike",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "haibike trekking 3",
+    "volume": 260,
+    "kd": 17,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-nduro-8-freeride": {
+   "name": "Haibike Nduro 8 Freeride",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike nduro 8",
+    "volume": 480,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "haibike e downhill",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "haibike-nduro-7": {
+   "name": "Haibike Nduro 7",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike nduro",
+    "volume": 320,
+    "kd": 20,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "mountainbike fully haibike",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "haibike nduro 7",
+     "volume": 480,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
+  },
+  "haibike-nduro-6": {
+   "name": "Haibike Nduro 6",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike nduro 6",
+    "volume": 210,
+    "kd": 20,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "haibike fully gebraucht",
+     "volume": 110,
+     "kd": 11,
+     "intent": "C"
+    }
+   ],
+   "faq": []
+  },
+  "haibike-lyke-cf-se": {
+   "name": "Haibike Lyke CF SE",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike lyke cf se kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-lyke-cf-10": {
+   "name": "Haibike Lyke CF 10",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike lyke cf 10 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-hybe-cf-9": {
+   "name": "Haibike Hybe CF 9",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike hybe cf 9",
+    "volume": 210,
+    "kd": 23,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-hybe-cf-11": {
+   "name": "Haibike Hybe CF 11",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike hybe 11",
+    "volume": 170,
+    "kd": 22,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "haibike hybe",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "haibike hybe cf 11",
+     "volume": 210,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
+  },
+  "haibike-hybe-10-5": {
+   "name": "Haibike Hybe 10.5",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike hybe 10.5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-alltrail-5": {
+   "name": "Haibike Alltrail 5",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike alltrail 5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-alltrail-4": {
+   "name": "Haibike Alltrail 4",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike alltrail 4",
+    "volume": 720,
+    "kd": 15,
+    "intent": "C",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-alltrail-3": {
+   "name": "Haibike Alltrail 3",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike alltrail 3",
+    "volume": 390,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-alltrail-10-5-abs": {
+   "name": "Haibike Alltrail 10.5 ABS",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike alltrail 10.5 abs kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-alltrack-4": {
+   "name": "Haibike Alltrack 4",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike alltrack 4",
+    "volume": 170,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-allmtn-7": {
+   "name": "Haibike Allmtn 7",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike allmtn 7",
+    "volume": 720,
+    "kd": 18,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-allmtn-3": {
+   "name": "Haibike Allmtn 3",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike allmtn 3",
+    "volume": 480,
+    "kd": 22,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-adventr-se": {
+   "name": "Haibike Adventr SE",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike adventr se",
+    "volume": 260,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "haibike-adventr-9": {
+   "name": "Haibike Adventr 9",
+   "brand": "Haibike",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "haibike adventr 9 kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
