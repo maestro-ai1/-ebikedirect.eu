@@ -12750,6 +12750,76 @@
    },
    "secondary": [],
    "faq": []
+  },
+  "stromer-st1": {
+   "name": "Stromer ST1",
+   "brand": "Stromer",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "stromer st1",
+    "volume": 390,
+    "kd": 17,
+    "intent": "-",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "stromer-st2": {
+   "name": "Stromer ST2",
+   "brand": "Stromer",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "stromer st2 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "stromer-st3": {
+   "name": "Stromer ST3",
+   "brand": "Stromer",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "stromer st3 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "stromer-st5": {
+   "name": "Stromer ST5",
+   "brand": "Stromer",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "stromer st5 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "stromer-st7": {
+   "name": "Stromer ST7",
+   "brand": "Stromer",
+   "category": "Speed-Pedelec",
+   "primary": {
+    "keyword": "stromer st7 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
   }
  }
 }

@@ -39044,5 +39044,99 @@
    "store": "cannondale.com/de-de",
    "fetched": "2026-11-02"
   }
+ ],
+ "stromer-st1": [
+  {
+   "file": "stromer-st1-v1-1.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/40ff052b242ce71555d9760ea15b62cca9efb1f6-1414x942.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st1",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "stromer-st2": [
+  {
+   "file": "stromer-st2-v1-1.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/bb5054823b5a47eb7ceaffd9352ade8179b67ce8-1441x960.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st2",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st2-v1-2.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/fe1aa6d17faea29ed9de9068684dc3fc16f9cdf7-1526x1017.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st2",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st2-v1-3.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/0d11db98b1966378fcbf79a6cbda51b37db3907a-1474x982.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st2",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "stromer-st3": [
+  {
+   "file": "stromer-st3-v1-1.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/b7f4dd3f77a2feebf41a8f400d2ef02c67e48480-2844x1896.png?rect=1,0,2843,1896&w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st3",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st3-v1-2.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/d201c1b9a5807103057c8b909d9c6fe35e0e38b4-1348x898.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st3",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st3-v1-3.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/9cf573e157467219a3844c6ca23861f5fd588cc0-1447x965.jpg?w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st3",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "stromer-st5": [
+  {
+   "file": "stromer-st5-v1-1.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/990d1e1b01b30da7d5143746d92ecd454d087cce-3500x2333.png?rect=1,0,3498,2333&w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st5",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st5-v1-2.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/7c2450b1be29ee38bc260e602424415603fc1142-3500x2333.png?rect=1,0,3498,2333&w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st5",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st5-v1-3.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/1525491e29b8711927480263c50826eefb96ab63-3500x2333.png?rect=1,0,3498,2333&w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st5",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "stromer-st7": [
+  {
+   "file": "stromer-st7-v1-1.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/43935053d83e031b258e4ad41f27e637e43b9939-1350x900.jpg?w=1600&h=1067&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st7",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  },
+  {
+   "file": "stromer-st7-v1-2.webp",
+   "source": "https://cdn.sanity.io/images/odfp6kjd/production/24a40bf6c46471595314472ea4c0412639fb4fe0-1583x1055.jpg?w=1600&h=1066&auto=format",
+   "page": "https://www.stromerbike.com/de/bikes/st7",
+   "store": "stromerbike.com/de",
+   "fetched": "2026-11-02"
+  }
  ]
 }
