@@ -48,7 +48,8 @@ const BRAND_CASE: Record<string, string> = { ktm: 'KTM', qio: 'QiO' };
 export const titleCase = (kw: string) => kw.split(' ').map((w, i) => (BRAND_CASE[w] ? BRAND_CASE[w] : i > 0 && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
 
 // The title starts with the mapped primary keyword when it is not simply the product name (Golden Keyword Rule section 5).
-export function productTitle(name: string, focus?: string): string {
+export function productTitle(name: string, focus0?: string): string {
+  const focus = focus0 ? focus0.replace(/\s+kaufen$/i, '') : focus0; // name-based keywords already end in "kaufen"; the templates add it once
   const lead = focus && !name.toLowerCase().startsWith(focus.toLowerCase()) ? titleCase(focus) : '';
   const keyed = lead ? [`${lead} kaufen: ${name} | ebikedirect.eu`, `${lead}: ${name} | ebikedirect.eu`, `${lead} kaufen | ebikedirect.eu`, `${lead} | ebikedirect.eu`] : [];
   const keyedHit = keyed.find((v) => v.length <= 60);
@@ -57,7 +58,8 @@ export function productTitle(name: string, focus?: string): string {
   return variants.find((v) => v.length <= 60) || name.slice(0, 60);
 }
 
-export function productDescription(p: Pick<Product, 'name' | 'price' | 'motor' | 'batteryStandardWh' | 'rangeKm'>, focus?: string): string {
+export function productDescription(p: Pick<Product, 'name' | 'price' | 'motor' | 'batteryStandardWh' | 'rangeKm'>, focus0?: string): string {
+  const focus = focus0 ? focus0.replace(/\s+kaufen$/i, '') : focus0;
   const price = eur(p.price);
   const wh = p.batteryStandardWh > 0 ? `, ${p.batteryStandardWh} Wh` : '';
   const keyedTries = focus && !p.name.toLowerCase().startsWith(focus.toLowerCase()) ? [
