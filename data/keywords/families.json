@@ -253,9 +253,23 @@
      "kd": 20,
      "intent": "N",
      "heldNowBy": null
+    },
+    {
+     "keyword": "cube reaction hybrid 2026",
+     "volume": 110,
+     "kd": 12,
+     "intent": "I",
+     "heldNowBy": null
+    },
+    {
+     "keyword": "cube reaction hybrid 2023",
+     "volume": 70,
+     "kd": 13,
+     "intent": "I",
+     "heldNowBy": null
     }
    ],
-   "candidates": 5
+   "candidates": 7
   },
   {
    "path": "/marken/kalkhoff/entice",

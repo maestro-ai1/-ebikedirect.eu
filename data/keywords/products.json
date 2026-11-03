@@ -581,6 +581,18 @@
      "volume": 260,
      "kd": 23,
      "intent": "C"
+    },
+    {
+     "keyword": "cannondale fully e bike",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "cannondale e mtb fully",
+     "volume": 170,
+     "kd": 25,
+     "intent": "T"
     }
    ],
    "faq": []
@@ -1549,6 +1561,12 @@
      "intent": "I"
     },
     {
+     "keyword": "cube kathmandu hybrid 45 750",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
      "keyword": "cube fahrrad 28 zoll",
      "volume": 390,
      "kd": 17,
@@ -1558,12 +1576,6 @@
      "keyword": "cube 28 zoll",
      "volume": 210,
      "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube 28 zoll damen",
-     "volume": 110,
-     "kd": 20,
      "intent": "I"
     }
    ]
@@ -1881,38 +1893,74 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc race 800 2026",
-    "volume": 320,
-    "kd": 21,
-    "intent": "I",
+    "keyword": "cube stereo hybrid one44 hpc",
+    "volume": 480,
+    "kd": 15,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube mountainbike",
-     "volume": 6600,
-     "kd": 25,
-     "intent": "C"
+     "keyword": "cube stereo hybrid one 44 hpc",
+     "volume": 320,
+     "kd": 14,
+     "intent": "T"
     },
     {
-     "keyword": "cube mountain bike carbon",
-     "volume": 210,
-     "kd": 22,
+     "keyword": "cube stereo hybrid one44 hpc race",
+     "volume": 260,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube one44 race",
+     "volume": 110,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc 800",
+     "volume": 90,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo one44 hpc",
+     "volume": 70,
+     "kd": 5,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube fahrrad 29 zoll",
-     "volume": 590,
-     "kd": 16,
+     "keyword": "cube stereo hybrid one44 hpc race 800",
+     "volume": 1900,
+     "kd": 10,
      "intent": "I"
     },
     {
-     "keyword": "cube hardtail carbon",
-     "volume": 140,
-     "kd": 17,
+     "keyword": "cube stereo hybrid one 44 hpc race 800",
+     "volume": 590,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc race 800 2026",
+     "volume": 320,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one 44 race",
+     "volume": 260,
+     "kd": 12,
      "intent": "N"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc race 800 2025",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
     }
    ]
   },
@@ -1921,14 +1969,70 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc slx 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo hybrid one44 hpc slx 800",
+    "volume": 5400,
+    "kd": 14,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube one 44 hpc slx 800",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbike",
+     "volume": 6600,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube mtb 29 zoll",
+     "volume": 260,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube bikes fully",
+     "volume": 70,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one44 hpc slx 800 2026",
+     "volume": 880,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc slx",
+     "volume": 480,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc slx 800 test",
+     "volume": 480,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one 44 hpc slx",
+     "volume": 390,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one 44 hpc slx",
+     "volume": 260,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-one-800-800-wh-29-zoll": {
    "name": "Cube Reaction Hybrid ONE 800 800 Wh 29 Zoll",
@@ -1955,16 +2059,16 @@
      "intent": "T"
     },
     {
+     "keyword": "cube reaction hybrid damen",
+     "volume": 70,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
      "keyword": "cube mountainbike 29 zoll",
      "volume": 1300,
      "kd": 24,
      "intent": "C"
-    },
-    {
-     "keyword": "cube downhill bike",
-     "volume": 590,
-     "kd": 20,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -1987,9 +2091,9 @@
      "intent": "I"
     },
     {
-     "keyword": "cube reaction one",
-     "volume": 320,
-     "kd": 11,
+     "keyword": "cube reaction hybrid one 800 2025",
+     "volume": 260,
+     "kd": 14,
      "intent": "I"
     }
    ]
@@ -2013,14 +2117,14 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mountainbike herren",
-     "volume": 1300,
-     "kd": 24,
+     "keyword": "cube reaction pro 2024",
+     "volume": 90,
+     "kd": 11,
      "intent": "T"
     },
     {
-     "keyword": "cube 29 zoll",
-     "volume": 590,
+     "keyword": "cube mountainbike herren",
+     "volume": 1300,
      "kd": 24,
      "intent": "T"
     },
@@ -2031,8 +2135,8 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mountainbike gebraucht",
-     "volume": 110,
+     "keyword": "cube cross country mountain bike",
+     "volume": 70,
      "kd": 10,
      "intent": "C"
     }
@@ -2083,63 +2187,23 @@
    },
    "secondary": [
     {
-     "keyword": "mountain bike cube",
+     "keyword": "cube ebike mountainbike",
      "volume": 170,
-     "kd": 20,
+     "kd": 23,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube fully",
-     "volume": 4400,
-     "kd": 18,
-     "intent": "N"
-    },
-    {
-     "keyword": "emtb fully cube",
-     "volume": 590,
-     "kd": 17,
+     "keyword": "cube reaction hybrid performance 600",
+     "volume": 170,
+     "kd": 10,
      "intent": "I"
     },
     {
-     "keyword": "cube damen mtb",
+     "keyword": "cube reaction hybrid 600",
      "volume": 110,
-     "kd": 22,
-     "intent": "I"
-    }
-   ]
-  },
-  "cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll": {
-   "name": "Cube Stereo Hybrid ONE22 Pro 800 800 Wh 29 Zoll",
-   "brand": "Cube",
-   "category": "E-MTB",
-   "primary": {
-    "keyword": "bike cube stereo",
-    "volume": 2400,
-    "kd": 25,
-    "intent": "T",
-    "source": "bank"
-   },
-   "secondary": [
-    {
-     "keyword": "cube stereo hybrid gebraucht",
-     "volume": 140,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube e mountainbikes",
-     "volume": 480,
-     "kd": 22,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "cube stereo e bike",
-     "volume": 170,
-     "kd": 22,
+     "kd": 10,
      "intent": "I"
     },
     {
@@ -2149,16 +2213,86 @@
      "intent": "N"
     },
     {
-     "keyword": "cube stereo fully",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "cube hardtail 29 zoll",
+     "volume": 110,
+     "kd": 15,
+     "intent": "N"
+    }
+   ]
+  },
+  "cube-stereo-hybrid-one22-pro-800-800-wh-29-zoll": {
+   "name": "Cube Stereo Hybrid ONE22 Pro 800 800 Wh 29 Zoll",
+   "brand": "Cube",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "cube stereo hybrid",
+    "volume": 8100,
+    "kd": 14,
+    "intent": "N",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike cube stereo",
+     "volume": 2400,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid one22 pro",
+     "volume": 260,
+     "kd": 9,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid gebraucht",
+     "volume": 140,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube ebike stereo hybrid",
+     "volume": 140,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube one 22 pro",
+     "volume": 140,
+     "kd": 9,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo",
+     "volume": 4400,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube stereo hybrid one22 pro 800",
+     "volume": 1300,
+     "kd": 17,
      "intent": "I"
     },
     {
-     "keyword": "cube 29",
-     "volume": 110,
-     "kd": 10,
+     "keyword": "cube stereo one22",
+     "volume": 1000,
+     "kd": 9,
      "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one 22",
+     "volume": 720,
+     "kd": 17,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube stereo hybrid one22",
+     "volume": 720,
+     "kd": 12,
+     "intent": "N"
     }
    ]
   },
@@ -2167,13 +2301,25 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 pro 800",
-    "volume": 1000,
-    "kd": 20,
-    "intent": "T",
+    "keyword": "cube stereo hybrid one44",
+    "volume": 4400,
+    "kd": 15,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "cube stereo hybrid one44 pro 800",
+     "volume": 1000,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 800",
+     "volume": 210,
+     "kd": 10,
+     "intent": "T"
+    },
     {
      "keyword": "cube stereo hybrid one44 pro 800 test",
      "volume": 170,
@@ -2187,48 +2333,42 @@
      "intent": "C"
     },
     {
-     "keyword": "cube fully gebraucht",
-     "volume": 170,
-     "kd": 14,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube mountainbike 29 zoll herren",
+     "keyword": "one44 cube",
      "volume": 110,
-     "kd": 20,
+     "kd": 9,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube stereo hybrid one44 pro",
-     "volume": 210,
-     "kd": 21,
+     "keyword": "cube stereo hybrid one 44",
+     "volume": 2400,
+     "kd": 16,
      "intent": "I"
     },
     {
-     "keyword": "cube stereo hybrid one44 pro 800 2025",
-     "volume": 140,
-     "kd": 10,
+     "keyword": "cube one 44",
+     "volume": 1300,
+     "kd": 19,
      "intent": "I"
     },
     {
-     "keyword": "cube stereo one44 pro",
-     "volume": 140,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube hardtail",
-     "volume": 1600,
-     "kd": 20,
+     "keyword": "cube stereo one44",
+     "volume": 1000,
+     "kd": 13,
      "intent": "N"
     },
     {
-     "keyword": "cube e fully",
-     "volume": 480,
-     "kd": 22,
-     "intent": "I"
+     "keyword": "cube stereo one 44",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube hybrid one44",
+     "volume": 590,
+     "kd": 15,
+     "intent": "N"
     }
    ]
   },
@@ -2237,17 +2377,41 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one77 hpc slx 800 2026",
-    "volume": 140,
-    "kd": 15,
+    "keyword": "cube one 77",
+    "volume": 1000,
+    "kd": 10,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube trail bike",
-     "volume": 110,
-     "kd": 22,
+     "keyword": "cube one 77 hybrid",
+     "volume": 260,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube one77 slx",
+     "volume": 210,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube one 77 slx",
+     "volume": 170,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 hpc slx 800 2026",
+     "volume": 140,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid one 77 hpc slx 800",
+     "volume": 90,
+     "kd": 4,
      "intent": "T"
     }
    ],
@@ -2259,28 +2423,28 @@
      "intent": "I"
     },
     {
-     "keyword": "cube hybrid one77",
-     "volume": 110,
-     "kd": 16,
+     "keyword": "cube one77",
+     "volume": 1000,
+     "kd": 14,
      "intent": "I"
     },
     {
-     "keyword": "cube emtb",
-     "volume": 1300,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube cross bike",
-     "volume": 480,
-     "kd": 20,
+     "keyword": "cube stereo hybrid one 77",
+     "volume": 880,
+     "kd": 13,
      "intent": "I"
     },
     {
-     "keyword": "mountainbike carbon cube",
-     "volume": 170,
-     "kd": 19,
-     "intent": "N"
+     "keyword": "cube stereo hybrid one77",
+     "volume": 880,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 hpc slx 800 2025",
+     "volume": 880,
+     "kd": 12,
+     "intent": "I"
     }
    ]
   },
@@ -2321,10 +2485,10 @@
      "intent": "T"
     },
     {
-     "keyword": "cube mountainbikes herren",
-     "volume": 390,
-     "kd": 23,
-     "intent": "T"
+     "keyword": "cube elektro mountainbike damen",
+     "volume": 170,
+     "kd": 26,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2387,30 +2551,48 @@
    },
    "secondary": [
     {
-     "keyword": "mtb cube carbon",
-     "volume": 170,
-     "kd": 26,
-     "intent": "C"
+     "keyword": "cube ebike fully",
+     "volume": 720,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountain bike carbon",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube cross race",
-     "volume": 2900,
-     "kd": 18,
-     "intent": "N"
+     "keyword": "cube stereo one77 race",
+     "volume": 260,
+     "kd": 14,
+     "intent": "I"
     },
     {
-     "keyword": "cube enduro",
-     "volume": 390,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "fully bike cube",
+     "keyword": "cube one 77 race",
      "volume": 110,
-     "kd": 19,
-     "intent": "N"
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo one 77 race",
+     "volume": 110,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 hpc race",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 race",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
     }
    ]
   },
@@ -2419,14 +2601,39 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc slx evo 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo hybrid one44 hpc slx evo 800 test",
+    "volume": 110,
+    "kd": 16,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one44 hpc slx evo 800",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc slx evo",
+     "volume": 90,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fully",
+     "volume": 4400,
+     "kd": 18,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube stereo fully",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-slx-800-800-wh-29-zoll": {
    "name": "Cube Reaction Hybrid SLX 800 800 Wh 29 Zoll",
@@ -2441,6 +2648,18 @@
    },
    "secondary": [
     {
+     "keyword": "cube slx",
+     "volume": 1000,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube slx 800",
+     "volume": 480,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
      "keyword": "cube reaction hybrid slx",
      "volume": 320,
      "kd": 21,
@@ -2453,21 +2672,9 @@
      "intent": "T"
     },
     {
-     "keyword": "cube cross",
-     "volume": 390,
-     "kd": 20,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube ebike mountainbike",
+     "keyword": "cube e mtb hardtail",
      "volume": 170,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike fully damen",
-     "volume": 110,
-     "kd": 26,
+     "kd": 18,
      "intent": "T"
     }
    ],
@@ -2476,12 +2683,6 @@
      "keyword": "cube reaction slx",
      "volume": 720,
      "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "slx cube",
-     "volume": 390,
-     "kd": 10,
      "intent": "I"
     },
     {
@@ -2501,6 +2702,12 @@
      "volume": 140,
      "kd": 18,
      "intent": "I"
+    },
+    {
+     "keyword": "cube reaction slx 800",
+     "volume": 140,
+     "kd": 16,
+     "intent": "I"
     }
    ]
   },
@@ -2517,15 +2724,9 @@
    },
    "secondary": [
     {
-     "keyword": "cube downhill bikes",
-     "volume": 320,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube elektro mountainbike damen",
+     "keyword": "cube fully gebraucht",
      "volume": 170,
-     "kd": 26,
+     "kd": 14,
      "intent": "C"
     }
    ],
@@ -2543,16 +2744,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube mountainbike fully",
-     "volume": 1000,
+     "keyword": "cube emtb",
+     "volume": 1300,
      "kd": 24,
      "intent": "N"
-    },
-    {
-     "keyword": "cube fahrrad 29 zoll herren",
-     "volume": 110,
-     "kd": 21,
-     "intent": "I"
     }
    ]
   },
@@ -2561,38 +2756,56 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc at 800 2025",
-    "volume": 140,
-    "kd": 13,
-    "intent": "I",
+    "keyword": "cube stereo hybrid one44 hpc at 800 2026",
+    "volume": 90,
+    "kd": 10,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbike herren",
-     "volume": 260,
-     "kd": 28,
+     "keyword": "cube e mtb fully",
+     "volume": 720,
+     "kd": 22,
      "intent": "T"
     },
     {
-     "keyword": "cube e mtb hardtail",
+     "keyword": "mtb cube carbon",
      "volume": 170,
-     "kd": 18,
-     "intent": "T"
+     "kd": 26,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "mtb fully cube",
-     "volume": 1000,
-     "kd": 21,
+     "keyword": "cube stereo hybrid one44 hpc at 800",
+     "volume": 720,
+     "kd": 13,
      "intent": "I"
     },
     {
-     "keyword": "cube hardtail 29 zoll",
+     "keyword": "cube stereo hybrid one44 hpc at 800 2025",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one44 at",
      "volume": 110,
-     "kd": 15,
-     "intent": "N"
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 at",
+     "volume": 110,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc at",
+     "volume": 110,
+     "kd": 7,
+     "intent": "I"
     }
    ]
   },
@@ -2601,14 +2814,70 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc tm 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube one 44 tm",
+    "volume": 140,
+    "kd": 16,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube stereo hybrid one 44 hpc tm 800",
+     "volume": 140,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube tm",
+     "volume": 110,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e mountainbike fully",
+     "volume": 590,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike damen mountainbike",
+     "volume": 140,
+     "kd": 24,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one44 hpc tm 800",
+     "volume": 880,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc tm",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 tm",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 hpc tm 800 test",
+     "volume": 90,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 tm 800",
+     "volume": 90,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-pro-800-800-wh-27-5-zoll": {
    "name": "Cube Stereo Hybrid ONE44 Pro 800 800 Wh 27,5 Zoll",
@@ -2629,14 +2898,76 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one22 race 800 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo race",
+    "volume": 320,
+    "kd": 15,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube stereo hybrid one22 race 800",
+     "volume": 720,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube stereo hybrid one 22 race",
+     "volume": 170,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube stereo hybrid race",
+     "volume": 110,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube race cross",
+     "volume": 590,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbike gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo one22 race",
+     "volume": 590,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo one 22 race",
+     "volume": 480,
+     "kd": 10,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube one22 race",
+     "volume": 170,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one22 race",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one 22 race 800",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-one-600-600-wh-29-zoll": {
    "name": "Cube Reaction Hybrid ONE 600",
@@ -2649,20 +2980,13 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "cube mountainbike kinder",
-     "volume": 260,
-     "kd": 22,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
-     "keyword": "cube mountainbike damen",
-     "volume": 880,
-     "kd": 24,
-     "intent": "I"
+     "keyword": "cube hardtail",
+     "volume": 1600,
+     "kd": 20,
+     "intent": "N"
     },
     {
      "keyword": "cube mountain bikes",
@@ -2671,10 +2995,10 @@
      "intent": "N"
     },
     {
-     "keyword": "cube downhill fully",
-     "volume": 110,
-     "kd": 15,
-     "intent": "N"
+     "keyword": "cube emtb hardtail",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
     }
    ]
   },
@@ -2713,12 +3037,6 @@
      "volume": 390,
      "kd": 15,
      "intent": "T"
-    },
-    {
-     "keyword": "cube fully 27 5 zoll",
-     "volume": 390,
-     "kd": 21,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -2729,15 +3047,15 @@
      "intent": "I"
     },
     {
-     "keyword": "mountainbike cube hardtail",
+     "keyword": "cube mountainbike damen",
      "volume": 880,
-     "kd": 21,
-     "intent": "N"
+     "kd": 24,
+     "intent": "I"
     },
     {
-     "keyword": "cube damen fully",
+     "keyword": "cube hardtail reaction",
      "volume": 70,
-     "kd": 18,
+     "kd": 12,
      "intent": "N"
     }
    ]
@@ -2747,14 +3065,52 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one77 hpc tm 800 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube stereo hybrid one77 hpc tm 800",
+    "volume": 390,
+    "kd": 6,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cross country cube",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube one 77 tm",
+     "volume": 140,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one77 tm",
+     "volume": 140,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 tm",
+     "volume": 140,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 hpc tm",
+     "volume": 70,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube mountainbike fully",
+     "volume": 1000,
+     "kd": 24,
+     "intent": "N"
+    }
+   ]
   },
   "cube-reaction-hybrid-pro-800-800-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid Pro 800 800 Wh 27,5 Zoll",
@@ -2789,16 +3145,16 @@
      "intent": "T"
     },
     {
-     "keyword": "hardtail bike cube",
-     "volume": 260,
-     "kd": 19,
+     "keyword": "cube e mountainbike hardtail",
+     "volume": 140,
+     "kd": 15,
      "intent": "T"
     },
     {
-     "keyword": "cube e bike fully gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
+     "keyword": "cube reaction mtb",
+     "volume": 70,
+     "kd": 16,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2821,15 +3177,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube downhill",
-     "volume": 880,
-     "kd": 25,
+     "keyword": "cube reaction hybrid slt 800 2025",
+     "volume": 110,
+     "kd": 9,
      "intent": "I"
     },
     {
-     "keyword": "cube all mountain",
-     "volume": 140,
-     "kd": 25,
+     "keyword": "mountainbike cube hardtail",
+     "volume": 880,
+     "kd": 21,
      "intent": "N"
     }
    ]
@@ -2839,28 +3195,98 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one77 c:62 at 600x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube ams hybrid one77",
+    "volume": 90,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube cross race c:62",
+     "volume": 210,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube cross race c 62 race",
+     "volume": 110,
+     "kd": 27,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "mtb fully cube",
+     "volume": 1000,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one22-slx-800-800-wh-29-zoll": {
    "name": "Cube Stereo Hybrid ONE22 SLX 800 800 Wh 29 Zoll",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one22 slx 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo hybrid one22 slx",
+    "volume": 320,
+    "kd": 14,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube one22 slx",
+     "volume": 110,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube downhill bike",
+     "volume": 590,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbike 29 zoll herren",
+     "volume": 110,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one22 slx 800",
+     "volume": 880,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one22 slx 800 2025",
+     "volume": 170,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one 22 slx",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid slx",
+     "volume": 110,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one22 slx 800 test",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "cube-ams-hybrid-one77-c-62-tm-600x-600-wh-29": {
    "name": "Cube AMS Hybrid ONE77 C:62 TM 600X",
@@ -2881,14 +3307,33 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one22 pro 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "name"
+    "keyword": "cube stereo hybrid one22 pro 600",
+    "volume": 140,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube downhill",
+     "volume": 880,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube cross pro",
+     "volume": 210,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo pro fully",
+     "volume": 70,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-exc-800-800-wh-29-zoll": {
    "name": "Cube Stereo Hybrid ONE44 EXC 800",
@@ -2901,26 +3346,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "cube mtb 29 zoll",
-     "volume": 260,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e mountainbike hardtail",
-     "volume": 140,
-     "kd": 15,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike herren mountainbike",
-     "volume": 110,
-     "kd": 28,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "cube stereo hybrid one44 exc 800",
@@ -2945,6 +3371,12 @@
      "volume": 720,
      "kd": 21,
      "intent": "N"
+    },
+    {
+     "keyword": "cube all mountain",
+     "volume": 140,
+     "kd": 25,
+     "intent": "N"
     }
    ]
   },
@@ -2967,14 +3399,45 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 hpc slt 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube stereo hybrid one44 hpc slt 800",
+    "volume": 210,
+    "kd": 7,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube one44 slt",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 slt",
+     "volume": 110,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fahrrad 29 zoll",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "mountainbike carbon cube",
+     "volume": 170,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube stereo race fully",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-slx-800-800-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid SLX 800 800 Wh 27,5 Zoll",
@@ -3009,28 +3472,85 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one77 hpc at 800 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube one 77 at",
+    "volume": 90,
+    "kd": 5,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one77 hpc at 800",
+     "volume": 320,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 at",
+     "volume": 110,
+     "kd": 9,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube stereo hybrid one77 hpc at",
+     "volume": 70,
+     "kd": 4,
+     "intent": "I"
+    },
+    {
+     "keyword": "emtb fully cube",
+     "volume": 590,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "country cube",
+     "volume": 140,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one22-slt-800-800-wh-29-zoll": {
    "name": "Cube Stereo Hybrid ONE22 SLT 800",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one22 slt 800 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube stereo hybrid one22 slt 800",
+    "volume": 140,
+    "kd": 8,
+    "intent": "N",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube one22 slt",
+     "volume": 70,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube 29 zoll",
+     "volume": 590,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one22 slt",
+     "volume": 110,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube damen mtb",
+     "volume": 110,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-race-800-800-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid Race 800 800 Wh 27,5 Zoll",
@@ -3051,14 +3571,34 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:68x super tm 400x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube ams hybrid one44 c 68x super tm 400x",
+    "volume": 210,
+    "kd": 6,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube e mountainbikes",
+     "volume": 480,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube ams hybrid one44 super tm",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube 29",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-hpc-slx-evo-800-800-wh-27-5-zoll": {
    "name": "Cube Stereo Hybrid ONE44 HPC SLX Evo 800 800 Wh 27,5 Zoll",
@@ -3121,28 +3661,110 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:62 pro 400x kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube ams hybrid one 44",
+    "volume": 1300,
+    "kd": 8,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube ams one 44",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube ams one44",
+     "volume": 90,
+     "kd": 16,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube ams hybrid one44",
+     "volume": 1900,
+     "kd": 10,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube e fully",
+     "volume": 480,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube fahrrad 29 zoll herren",
+     "volume": 110,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-slx-800-800-wh-29-zoll": {
    "name": "Cube Stereo Hybrid ONE44 SLX 800 800 Wh 29 Zoll",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 slx 800 800 wh 29 zoll kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo one44 slx",
+    "volume": 140,
+    "kd": 7,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube stereo one 44 slx",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube mountainbikes herren",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trail bike",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube one44 slx",
+     "volume": 590,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 slx",
+     "volume": 480,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one 44 slx",
+     "volume": 210,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube stereo hybrid one44 slx 800",
+     "volume": 210,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube one44 slx 800",
+     "volume": 110,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
   },
   "cube-reaction-hybrid-performance-720-720-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid Performance 720 720 Wh 27,5 Zoll",
@@ -3191,42 +3813,112 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:68x slx 400x kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube ams hybrid one44 slx",
+    "volume": 390,
+    "kd": 9,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube ams hybrid one44 c:68x slx 400x",
+     "volume": 320,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube ams hybrid one44 c 68x",
+     "volume": 170,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube ams hybrid one44 c 68x slx",
+     "volume": 90,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube cross bike",
+     "volume": 480,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "fully bike cube",
+     "volume": 110,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   "cube-ams-hybrid-one44-c-62-race-400x-400-wh-29-zoll": {
    "name": "Cube AMS Hybrid ONE44 C:62 Race 400X",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:62 race 400x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube ams hybrid one44 race",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube enduro",
+     "volume": 390,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube downhill fully",
+     "volume": 110,
+     "kd": 15,
+     "intent": "N"
+    }
+   ]
   },
   "cube-stereo-hybrid-one77-hpc-slt-800-800-wh-29": {
    "name": "Cube Stereo Hybrid ONE77 HPC SLT 800",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one77 hpc slt 800 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube one 77 slt",
+    "volume": 70,
+    "kd": 8,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube e bike fully damen",
+     "volume": 110,
+     "kd": 26,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube stereo hybrid one77 hpc slt 800",
+     "volume": 110,
+     "kd": 7,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube one77 slt",
+     "volume": 70,
+     "kd": 6,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube cx bike",
+     "volume": 480,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-hpc-pro-800-800-wh-27-5-zoll": {
    "name": "Cube Stereo Hybrid ONE44 HPC Pro 800 800 Wh 27,5 Zoll",
@@ -3261,14 +3953,52 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid 177 c:62 at 600x kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ams cube bike",
+    "volume": 720,
+    "kd": 18,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube ams hybrid",
+     "volume": 320,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube cross",
+     "volume": 390,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube ams",
+     "volume": 880,
+     "kd": 11,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube ams hybrid 177",
+     "volume": 720,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube ams 177",
+     "volume": 90,
+     "kd": 6,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube 177",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one22-slx-800-800-wh-27-5-zoll": {
    "name": "Cube Stereo Hybrid ONE22 SLX 800 800 Wh 27,5 Zoll",
@@ -3331,14 +4061,40 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:68x tm 400x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube ams hybrid one44 tm",
+    "volume": 210,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube downhill bikes",
+     "volume": 320,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike fully gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube ams hybrid one44 c 68x tm",
+     "volume": 110,
+     "kd": 4,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube ams hybrid one44 c 68x tm 400x",
+     "volume": 110,
+     "kd": 6,
+     "intent": "I"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-hpc-slt-800-800-wh-27-5-zoll": {
    "name": "Cube Stereo Hybrid ONE44 HPC SLT 800 800 Wh 27,5 Zoll",
@@ -3637,8 +4393,8 @@
      "intent": "C"
     },
     {
-     "keyword": "focus hardtail",
-     "volume": 140,
+     "keyword": "focus mountainbike 29 zoll",
+     "volume": 110,
      "kd": 12,
      "intent": "C"
     }
@@ -4467,15 +5223,15 @@
      "intent": "T"
     },
     {
-     "keyword": "hardtail ghost",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
      "keyword": "downhill ghost",
      "volume": 140,
      "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "enduro ghost",
+     "volume": 140,
+     "kd": 18,
      "intent": "T"
     }
    ],
@@ -4579,8 +5335,8 @@
      "intent": "I"
     },
     {
-     "keyword": "giant fully",
-     "volume": 720,
+     "keyword": "giant e mountainbike",
+     "volume": 320,
      "kd": 25,
      "intent": "I"
     }
@@ -4603,6 +5359,12 @@
      "volume": 210,
      "kd": 18,
      "intent": "T"
+    },
+    {
+     "keyword": "giant e mountainbikes",
+     "volume": 210,
+     "kd": 28,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -4616,18 +5378,6 @@
      "keyword": "giant fathom e+ ex",
      "volume": 140,
      "kd": 21,
-     "intent": "I"
-    },
-    {
-     "keyword": "giant e mountainbike",
-     "volume": 320,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "giant mountainbike fully",
-     "volume": 110,
-     "kd": 23,
      "intent": "I"
     }
    ]
@@ -4730,18 +5480,19 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "giant downhill mountain bikes",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "giant talon e+ ex",
      "volume": 110,
      "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "giant mtb fully",
-     "volume": 260,
-     "kd": 24,
      "intent": "I"
     }
    ]
@@ -4771,12 +5522,6 @@
      "intent": "T"
     },
     {
-     "keyword": "giant e mountainbikes",
-     "volume": 210,
-     "kd": 28,
-     "intent": "T"
-    },
-    {
      "keyword": "giant stance e+ 1 pro",
      "volume": 110,
      "kd": 25,
@@ -4795,6 +5540,18 @@
      "volume": 170,
      "kd": 25,
      "intent": "N"
+    },
+    {
+     "keyword": "giant fully",
+     "volume": 720,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant mountainbike fully",
+     "volume": 110,
+     "kd": 23,
+     "intent": "I"
     }
    ]
   },
@@ -5418,15 +6175,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "haibike hardtail",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "haibike downhill e bike",
+     "volume": 110,
+     "kd": 25,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "haibike-alltrail-10-5-low-abs-27-5-800-wh-27-5-zoll": {
    "name": "Haibike Alltrail 10.5 Low ABS 27.5",
@@ -5456,9 +6213,9 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "haibike downhill e bike",
+     "keyword": "haibike e downhill",
      "volume": 110,
-     "kd": 25,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -5548,15 +6305,15 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "haibike e downhill",
+     "keyword": "mountainbike fully haibike",
      "volume": 110,
      "kd": 18,
-     "intent": "I"
+     "intent": "T"
     }
-   ]
+   ],
+   "faq": []
   },
   "haibike-adventr-4-low-600-wh-27-5-zoll": {
    "name": "Haibike Adventr 4 Low",
@@ -5648,10 +6405,10 @@
    },
    "secondary": [
     {
-     "keyword": "mountainbike fully haibike",
+     "keyword": "haibike fully gebraucht",
      "volume": 110,
-     "kd": 18,
-     "intent": "T"
+     "kd": 11,
+     "intent": "C"
     }
    ],
    "faq": []
@@ -6952,6 +7709,12 @@
    "secondary": [],
    "faq": [
     {
+     "keyword": "ktm macina city 820 xl belt",
+     "volume": 90,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
      "keyword": "ktm e bike damen tiefeinsteiger",
      "volume": 170,
      "kd": 15,
@@ -7110,6 +7873,12 @@
     {
      "keyword": "ktm macina style xl 2025",
      "volume": 90,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina style xl 2024",
+     "volume": 70,
      "kd": 10,
      "intent": "I"
     }
@@ -7345,6 +8114,12 @@
      "intent": "I"
     },
     {
+     "keyword": "ktm aera",
+     "volume": 90,
+     "kd": 5,
+     "intent": "I"
+    },
+    {
      "keyword": "ktm tiefeinsteiger",
      "volume": 110,
      "kd": 12,
@@ -7393,6 +8168,12 @@
    },
    "secondary": [
     {
+     "keyword": "ktm macina aera fs elite lfc 2026",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
      "keyword": "ktm mountainbike",
      "volume": 880,
      "kd": 15,
@@ -7401,9 +8182,9 @@
    ],
    "faq": [
     {
-     "keyword": "mountainbike ktm fully",
-     "volume": 170,
-     "kd": 8,
+     "keyword": "ktm mountainbike 29 zoll",
+     "volume": 140,
+     "kd": 13,
      "intent": "I"
     }
    ]
@@ -7413,14 +8194,28 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina kapoho pro ltd kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "ktm macina pro",
+    "volume": 70,
+    "kd": 13,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "ktm e mountainbike",
+     "volume": 480,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm macina fully",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-fold-20-500-wh-20-zoll": {
    "name": "KTM Macina Fold 20",
@@ -7483,14 +8278,34 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina lycan 892 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "ktm macina lycan",
+    "volume": 90,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "ktm e mountain bikes",
+     "volume": 480,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm lycan",
+     "volume": 70,
+     "kd": 6,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e fully",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-race-sx-10-400-wh-29-zoll": {
    "name": "KTM Macina Race SX 10",
@@ -7505,10 +8320,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm e mountainbike",
-     "volume": 480,
-     "kd": 13,
-     "intent": "T"
+     "keyword": "ktm e mtb",
+     "volume": 390,
+     "kd": 12,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -7522,12 +8337,6 @@
      "keyword": "ktm macina race sx 10",
      "volume": 140,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "fully mtb ktm",
-     "volume": 170,
-     "kd": 11,
      "intent": "I"
     }
    ]
@@ -7622,20 +8431,13 @@
    },
    "secondary": [
     {
-     "keyword": "ktm e mountain bikes",
-     "volume": 480,
+     "keyword": "ktm e mtb bike",
+     "volume": 390,
      "kd": 13,
      "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "ktm emtb",
-     "volume": 140,
-     "kd": 17,
-     "intent": "N"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-superbelt-sx-10-di2-400-wh-28-zoll": {
    "name": "KTM Macina Superbelt SX 10 Di2",
@@ -7678,17 +8480,17 @@
    },
    "secondary": [
     {
-     "keyword": "ktm e mtb",
+     "keyword": "ktm bike mountain",
      "volume": 390,
-     "kd": 12,
-     "intent": "C"
+     "kd": 16,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "ktm mountainbike 29 zoll",
-     "volume": 140,
-     "kd": 13,
+     "keyword": "ktm chacana",
+     "volume": 90,
+     "kd": 9,
      "intent": "I"
     }
    ]
@@ -7704,21 +8506,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "ktm e mtb bike",
+     "keyword": "ktm mtb",
      "volume": 390,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
-     "keyword": "ktm ebike fully",
-     "volume": 110,
-     "kd": 14,
-     "intent": "C"
+     "kd": 26,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "ktm-macina-lycan-prime-cx-r-di2-800-wh-29-zoll": {
    "name": "KTM Macina Lycan Prime CX-R Di2",
@@ -7874,9 +8670,15 @@
    },
    "secondary": [
     {
-     "keyword": "orbea mtb fully",
-     "volume": 170,
-     "kd": 10,
+     "keyword": "orbea emtb",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "orbea mtb hardtail",
+     "volume": 140,
+     "kd": 19,
      "intent": "C"
     }
    ],
@@ -7908,10 +8710,10 @@
      "intent": "C"
     },
     {
-     "keyword": "orbea emtb",
-     "volume": 140,
-     "kd": 21,
-     "intent": "T"
+     "keyword": "orbea mtb fully",
+     "volume": 170,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -7940,7 +8742,14 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "orbea hardtail mountain bikes",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "orbea downhill bike",
@@ -7998,9 +8807,9 @@
    },
    "secondary": [
     {
-     "keyword": "orbea mtb hardtail",
+     "keyword": "orbea enduro",
      "volume": 140,
-     "kd": 19,
+     "kd": 18,
      "intent": "C"
     }
    ],
@@ -8026,9 +8835,9 @@
    },
    "secondary": [
     {
-     "keyword": "orbea hardtail mountain bikes",
-     "volume": 140,
-     "kd": 18,
+     "keyword": "orbea e mtb fully",
+     "volume": 110,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -8066,14 +8875,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "orbea enduro",
-     "volume": 140,
-     "kd": 18,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "orbea rise h20",
@@ -8142,14 +8944,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "orbea e mtb fully",
-     "volume": 110,
-     "kd": 20,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "orbea wild h10 2025",
@@ -9422,12 +10217,6 @@
      "volume": 50,
      "kd": 11,
      "intent": "T"
-    },
-    {
-     "keyword": "downhill mtb specialized",
-     "volume": 210,
-     "kd": 28,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -9436,6 +10225,12 @@
      "volume": 1300,
      "kd": 28,
      "intent": "I"
+    },
+    {
+     "keyword": "specialized e mountain bike",
+     "volume": 210,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -9478,9 +10273,9 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized e mountain bike",
-     "volume": 210,
-     "kd": 17,
+     "keyword": "specialized e mountainbikes",
+     "volume": 170,
+     "kd": 20,
      "intent": "N"
     }
    ]
@@ -9628,10 +10423,10 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized e mountainbikes",
+     "keyword": "mountainbike fully specialized",
      "volume": 170,
-     "kd": 20,
-     "intent": "N"
+     "kd": 23,
+     "intent": "I"
     }
    ]
   },
@@ -9656,9 +10451,9 @@
    ],
    "faq": [
     {
-     "keyword": "mountainbike fully specialized",
-     "volume": 170,
-     "kd": 23,
+     "keyword": "specialized enduro expert",
+     "volume": 140,
+     "kd": 25,
      "intent": "I"
     }
    ]
@@ -10010,6 +10805,12 @@
    },
    "secondary": [
     {
+     "keyword": "specialized vado 3.0",
+     "volume": 90,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
      "keyword": "specialized turbo vado 3",
      "volume": 70,
      "kd": 6,
@@ -10030,6 +10831,12 @@
      "intent": "I"
     },
     {
+     "keyword": "specialized vado 4.0",
+     "volume": 590,
+     "kd": 13,
+     "intent": "N"
+    },
+    {
      "keyword": "e bike specialized vado",
      "volume": 90,
      "kd": 9,
@@ -10048,14 +10855,21 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "specialized turbo vado 5.0",
+    "keyword": "specialized vado 5.0",
     "volume": 390,
-    "kd": 11,
-    "intent": "N",
+    "kd": 20,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "specialized turbo vado 5.0",
+     "volume": 390,
+     "kd": 11,
+     "intent": "N"
+    }
+   ]
   },
   "specialized-turbo-levo-4-expert-840-wh-29": {
    "name": "Specialized Turbo Levo 4 Expert",
@@ -10070,9 +10884,15 @@
    },
    "secondary": [
     {
-     "keyword": "specialized hardtail",
+     "keyword": "mtb bikes specialized",
      "volume": 590,
-     "kd": 18,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized ebike fully",
+     "volume": 70,
+     "kd": 9,
      "intent": "T"
     }
    ],
@@ -10081,12 +10901,6 @@
      "keyword": "specialized levo 4 expert",
      "volume": 110,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "specialized enduro expert",
-     "volume": 140,
-     "kd": 25,
      "intent": "I"
     }
    ]
@@ -10185,9 +10999,9 @@
      "intent": "T"
     },
     {
-     "keyword": "mtb bikes specialized",
+     "keyword": "bike specialized mtb",
      "volume": 590,
-     "kd": 25,
+     "kd": 19,
      "intent": "T"
     },
     {
@@ -10277,16 +11091,16 @@
      "intent": "T"
     },
     {
-     "keyword": "trek hardtail",
-     "volume": 390,
-     "kd": 25,
-     "intent": "C"
+     "keyword": "trek e mountainbike",
+     "volume": 210,
+     "kd": 26,
+     "intent": "T"
     },
     {
-     "keyword": "trek bikes hardtail",
-     "volume": 260,
-     "kd": 24,
-     "intent": "C"
+     "keyword": "trek e mountain bike",
+     "volume": 210,
+     "kd": 28,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -11039,10 +11853,10 @@
    },
    "secondary": [
     {
-     "keyword": "cannondale fully e bike",
+     "keyword": "cannondale e mountain bikes",
      "volume": 170,
-     "kd": 25,
-     "intent": "T"
+     "kd": 22,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -11095,15 +11909,9 @@
    },
    "secondary": [
     {
-     "keyword": "cannondale mtb hardtail",
+     "keyword": "cannondale e mountainbike",
      "volume": 170,
      "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "cannondale trail 1",
-     "volume": 110,
-     "kd": 15,
      "intent": "T"
     }
    ],
@@ -11120,15 +11928,15 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "cannondale e mountain bikes",
-     "volume": 170,
-     "kd": 22,
-     "intent": "C"
+     "keyword": "cannondale trail 2",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "cannondale-moterra-sl-1-c65104u": {
    "name": "Cannondale Moterra SL 1 C65104U",
@@ -11143,9 +11951,9 @@
    },
    "secondary": [
     {
-     "keyword": "cannondale e mtb fully",
-     "volume": 170,
-     "kd": 25,
+     "keyword": "cannondale enduro",
+     "volume": 140,
+     "kd": 18,
      "intent": "T"
     }
    ],
@@ -11176,15 +11984,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "cannondale e mountainbike",
-     "volume": 170,
+     "keyword": "cannondale downhill",
+     "volume": 110,
      "kd": 23,
-     "intent": "T"
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "cannondale-moterra-sl-1-c65195u": {
    "name": "Cannondale Moterra SL 1 C65195U",
@@ -11259,9 +12067,9 @@
    },
    "secondary": [
     {
-     "keyword": "cannondale enduro",
-     "volume": 140,
-     "kd": 18,
+     "keyword": "cannondale trail 1",
+     "volume": 110,
+     "kd": 15,
      "intent": "T"
     }
    ],
@@ -11278,15 +12086,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "cannondale downhill",
+     "keyword": "cannondale enduro bike",
      "volume": 110,
-     "kd": 23,
-     "intent": "I"
+     "kd": 22,
+     "intent": "T"
     }
-   ]
+   ],
+   "faq": []
   },
   "cannondale-synapse-neo-allroad-1": {
    "name": "Cannondale Synapse Neo Allroad 1",
@@ -11327,18 +12135,19 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "mtb enduro cannondale",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "cannondale moterra sl 2",
      "volume": 590,
      "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cannondale trail 2",
-     "volume": 140,
-     "kd": 17,
      "intent": "I"
     }
    ]
@@ -11354,14 +12163,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "cannondale enduro bike",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "cannondale-wonderwagen-neo-1": {
@@ -11606,14 +12408,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "mtb enduro cannondale",
-     "volume": 110,
-     "kd": 28,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "cannondale-cargowagen-neo-2": {
@@ -12194,14 +12989,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "haibike fully gebraucht",
-     "volume": 110,
-     "kd": 11,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "haibike-nduro-7": {
@@ -12462,21 +13250,15 @@
    },
    "secondary": [
     {
-     "keyword": "cube ebike fully",
-     "volume": 720,
-     "kd": 22,
+     "keyword": "cube e mountainbike herren",
+     "volume": 260,
+     "kd": 28,
      "intent": "T"
     },
     {
      "keyword": "cube hardtail mountain bikes",
      "volume": 140,
      "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube ebike mountainbike damen",
-     "volume": 70,
-     "kd": 25,
      "intent": "T"
     }
    ],
@@ -12488,10 +13270,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube e mountain bike",
-     "volume": 210,
-     "kd": 25,
-     "intent": "N"
+     "keyword": "mountain bike cube reaction",
+     "volume": 70,
+     "kd": 16,
+     "intent": "I"
     }
    ]
   },
@@ -12508,23 +13290,35 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mtb fully",
-     "volume": 720,
+     "keyword": "cube mountainbike kinder",
+     "volume": 260,
      "kd": 22,
      "intent": "T"
     },
     {
-     "keyword": "cube e mountainbike damen",
-     "volume": 210,
-     "kd": 26,
-     "intent": "C"
+     "keyword": "cube e bike herren mountainbike",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "cube cross country",
-     "volume": 140,
-     "kd": 19,
+     "keyword": "cube reaction hybrid race 800 fe",
+     "volume": 70,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube reaction hybrid race 800 fe 2026",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "mountainbike cube reaction",
+     "volume": 70,
+     "kd": 9,
      "intent": "N"
     }
    ]
@@ -12542,16 +13336,16 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbike fully",
-     "volume": 590,
-     "kd": 15,
+     "keyword": "hardtail bike cube",
+     "volume": 260,
+     "kd": 19,
      "intent": "T"
     },
     {
-     "keyword": "cube e bike damen mountainbike",
-     "volume": 140,
-     "kd": 24,
-     "intent": "C"
+     "keyword": "cube ebike hardtail",
+     "volume": 90,
+     "kd": 9,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -12562,9 +13356,9 @@
      "intent": "I"
     },
     {
-     "keyword": "cube cross pro",
-     "volume": 210,
-     "kd": 19,
+     "keyword": "cube reaction hybrid pro fe",
+     "volume": 70,
+     "kd": 6,
      "intent": "I"
     }
    ]
@@ -12644,28 +13438,61 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one22 slx 800 fe kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube stereo hybrid one22 slx 800 fe 2026",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube e mountain bike",
+     "volume": 210,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrräder cube fully",
+     "volume": 110,
+     "kd": 12,
+     "intent": "N"
+    }
+   ]
   },
   "cube-stereo-hybrid-one44-pro-800-fe": {
    "name": "Cube Stereo Hybrid ONE44 Pro 800 FE",
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube stereo hybrid one44 pro 800 fe kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube stereo hybrid one44 pro 800 fe",
+    "volume": 70,
+    "kd": 4,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube stereo hybrid one44 pro 800 fe 2026",
+     "volume": 70,
+     "kd": 13,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e mountainbike damen",
+     "volume": 210,
+     "kd": 26,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube damen fully",
+     "volume": 70,
+     "kd": 18,
+     "intent": "N"
+    }
+   ]
   },
   "cube-stereo-hybrid-one22-pro-800-fe": {
    "name": "Cube Stereo Hybrid ONE22 Pro 800 FE",
@@ -12686,13 +13513,26 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube ams hybrid one44 c:68x slt 400x kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube ams hybrid one44 slt",
+    "volume": 210,
+    "kd": 7,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "mountain bike cube",
+     "volume": 170,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube ebike mountainbike damen",
+     "volume": 70,
+     "kd": 25,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "cube-touring-hybrid-deluxe-slx-800": {
@@ -12764,6 +13604,12 @@
      "volume": 110,
      "kd": 9,
      "intent": "I"
+    },
+    {
+     "keyword": "cube fahrrad trekking damen",
+     "volume": 90,
+     "kd": 10,
+     "intent": "N"
     }
    ]
   },
@@ -12780,12 +13626,6 @@
    },
    "secondary": [
     {
-     "keyword": "cube touring hybrid one",
-     "volume": 590,
-     "kd": 19,
-     "intent": "C"
-    },
-    {
      "keyword": "cube trekkingrad",
      "volume": 1900,
      "kd": 26,
@@ -12800,27 +13640,9 @@
    ],
    "faq": [
     {
-     "keyword": "cube touring one",
-     "volume": 1300,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
      "keyword": "cube touring hybrid one 600",
      "volume": 390,
      "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube touring one 2026",
-     "volume": 170,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube touring one damen",
-     "volume": 140,
-     "kd": 21,
      "intent": "I"
     }
    ]
@@ -12830,10 +13652,10 @@
    "brand": "Cube",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "cube kathmandu hybrid one11 hpc slt 800",
+    "keyword": "cube kathmandu hybrid one11",
     "volume": 140,
-    "kd": 15,
-    "intent": "I",
+    "kd": 10,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
@@ -12850,7 +13672,38 @@
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid one 11",
+     "volume": 210,
+     "kd": 9,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one11 hpc slt 800",
+     "volume": 140,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu one 11",
+     "volume": 140,
+     "kd": 6,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu one11",
+     "volume": 140,
+     "kd": 15,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube kathmandu hybrid one 11 2026",
+     "volume": 90,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
   },
   "cube-kathmandu-hybrid-deluxe-slx-800": {
    "name": "Cube Kathmandu Hybrid Deluxe SLX 800",
@@ -12897,6 +13750,12 @@
      "volume": 260,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid c 62 slt",
+     "volume": 70,
+     "kd": 15,
+     "intent": "I"
     }
    ]
   },
@@ -12933,6 +13792,12 @@
      "intent": "T"
     },
     {
+     "keyword": "cube trekking",
+     "volume": 480,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
      "keyword": "trekking bikes cube",
      "volume": 110,
      "kd": 22,
@@ -12953,14 +13818,14 @@
      "intent": "N"
     },
     {
-     "keyword": "cube kathmandu slt 800",
-     "volume": 140,
-     "kd": 17,
+     "keyword": "cube kathmandu slt 2026",
+     "volume": 170,
+     "kd": 8,
      "intent": "I"
     },
     {
-     "keyword": "cube cx bike",
-     "volume": 480,
+     "keyword": "cube kathmandu slt 800",
+     "volume": 140,
      "kd": 17,
      "intent": "I"
     }
@@ -12993,9 +13858,9 @@
    },
    "secondary": [
     {
-     "keyword": "cube trekking",
-     "volume": 480,
-     "kd": 28,
+     "keyword": "cube trekking bike",
+     "volume": 390,
+     "kd": 23,
      "intent": "T"
     },
     {
@@ -13051,19 +13916,26 @@
    },
    "secondary": [
     {
-     "keyword": "cube trekking bike",
-     "volume": 390,
-     "kd": 23,
-     "intent": "T"
-    },
-    {
      "keyword": "cube ebike herren trekking",
      "volume": 110,
      "kd": 24,
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube kathmandu hybrid one 11 hpc pro 800",
+     "volume": 90,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube trekkingrad e-bike",
+     "volume": 260,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   "cube-kathmandu-hybrid-c-62-slx-400x": {
    "name": "Cube Kathmandu Hybrid C:62 SLX 400X",
@@ -13094,13 +13966,25 @@
      "volume": 110,
      "kd": 17,
      "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu hybrid c 62 slx 400x 2026",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trekking ebike",
+     "volume": 260,
+     "kd": 16,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "cube trekkingrad e-bike",
-     "volume": 260,
-     "kd": 19,
+     "keyword": "tourenrad cube",
+     "volume": 90,
+     "kd": 17,
      "intent": "N"
     }
    ]
@@ -13136,9 +14020,15 @@
      "intent": "T"
     },
     {
-     "keyword": "cube trekking ebike",
+     "keyword": "cube trekking fahrrad",
      "volume": 260,
-     "kd": 16,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trekkingbike damen",
+     "volume": 70,
+     "kd": 22,
      "intent": "C"
     }
    ],
@@ -13220,9 +14110,15 @@
      "intent": "C"
     },
     {
-     "keyword": "cube trekking fahrrad",
-     "volume": 260,
-     "kd": 22,
+     "keyword": "cube kathmandu pro 2024",
+     "volume": 70,
+     "kd": 9,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kathmandu pro test",
+     "volume": 70,
+     "kd": 10,
      "intent": "T"
     }
    ],
@@ -13278,9 +14174,9 @@
    "brand": "Cube",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "cube kathmandu one",
-    "volume": 720,
-    "kd": 24,
+    "keyword": "cube kathmandu hybrid one 800 test",
+    "volume": 260,
+    "kd": 19,
     "intent": "T",
     "source": "bank"
    },
@@ -13290,18 +14186,6 @@
      "volume": 2400,
      "kd": 22,
      "intent": "C"
-    },
-    {
-     "keyword": "cube kathmandu hybrid one",
-     "volume": 480,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube kathmandu hybrid one 800 test",
-     "volume": 260,
-     "kd": 19,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -13752,6 +14636,12 @@
      "volume": 210,
      "kd": 18,
      "intent": "T"
+    },
+    {
+     "keyword": "cube city e bike damen",
+     "volume": 70,
+     "kd": 7,
+     "intent": "C"
     }
    ],
    "faq": []
@@ -13789,14 +14679,21 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme hybrid",
+    "keyword": "cube supreme",
     "volume": 390,
-    "kd": 19,
-    "intent": "I",
+    "kd": 13,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube supreme hybrid",
+     "volume": 390,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
   },
   "cube-supreme-hybrid-deluxe-slx-600": {
    "name": "Cube Supreme Hybrid Deluxe SLX 600",
@@ -13831,11 +14728,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme hybrid comfort pro 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube supreme hybrid comfort pro 600",
+    "volume": 70,
+    "kd": 11,
+    "intent": "N",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -13845,11 +14742,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme rt hybrid deluxe ex 600 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube supreme rt hybrid deluxe ex 600",
+    "volume": 140,
+    "kd": 8,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -13859,11 +14756,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme hybrid deluxe one 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube supreme hybrid deluxe one 600",
+    "volume": 70,
+    "kd": 9,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -13873,11 +14770,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme rt hybrid comfort ex 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube supreme rt hybrid comfort ex 600",
+    "volume": 70,
+    "kd": 8,
+    "intent": "N",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -13887,11 +14784,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme hybrid comfort one 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube supreme hybrid comfort one 600",
+    "volume": 90,
+    "kd": 8,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14224,6 +15121,18 @@
      "volume": 140,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "cube trike family hybrid 1500",
+     "volume": 90,
+     "kd": 5,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube trike family hybrid",
+     "volume": 70,
+     "kd": 10,
+     "intent": "T"
     }
    ],
    "faq": []
@@ -14358,19 +15267,12 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "ktm bike mountain",
-     "volume": 390,
-     "kd": 16,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
-     "keyword": "ktm hardtail",
-     "volume": 110,
-     "kd": 11,
+     "keyword": "mountain bikes ktm",
+     "volume": 390,
+     "kd": 16,
      "intent": "I"
     }
    ]
@@ -14401,15 +15303,9 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm mtb",
-     "volume": 390,
-     "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e mountainbike fully",
-     "volume": 90,
-     "kd": 12,
+     "keyword": "ktm e mountainbikes",
+     "volume": 320,
+     "kd": 16,
      "intent": "I"
     }
    ]
@@ -14481,34 +15377,35 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "mountain bikes ktm",
-     "volume": 390,
+     "keyword": "e bike mountainbike ktm",
+     "volume": 320,
      "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm macina fully",
-     "volume": 90,
-     "kd": 14,
-     "intent": "I"
+     "intent": "T"
     }
-   ]
+   ],
+   "faq": []
   },
   "ktm-macina-prowler-master-cx-r": {
    "name": "KTM Macina Prowler Master CX-R",
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina prowler master cx-r kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "ktm macina prowler master",
+    "volume": 90,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm ebike mountainbike",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
    "faq": []
   },
   "ktm-macina-prowler-elite-cx-r": {
@@ -14536,18 +15433,19 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "mountain e bike ktm",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm macina aera fs prime lfc di2",
      "volume": 110,
      "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "ktm e mountainbikes",
-     "volume": 320,
-     "kd": 16,
      "intent": "I"
     },
     {
@@ -14577,13 +15475,20 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina chacana 891 xl lfc kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ktm macina chacana 891 lfc",
+    "volume": 90,
+    "kd": 7,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm fully",
+     "volume": 320,
+     "kd": 13,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "ktm-macina-chacana-master": {
@@ -14625,19 +15530,12 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "e bike mountainbike ktm",
-     "volume": 320,
-     "kd": 16,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
-     "keyword": "ktm e fully",
-     "volume": 70,
-     "kd": 12,
+     "keyword": "ktm mtb bikes",
+     "volume": 210,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -14661,14 +15559,27 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina chacana cx 720 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ktm macina 720",
+    "volume": 90,
+    "kd": 18,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "mountainbike ktm fully",
+     "volume": 170,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina cross 720",
+     "volume": 110,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-aera-871-lfc-di2": {
    "name": "KTM Macina Aera 871 LFC Di2",
@@ -14821,15 +15732,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "ktm ebike mountainbike",
-     "volume": 320,
-     "kd": 19,
-     "intent": "C"
+     "keyword": "ktm emtb",
+     "volume": 140,
+     "kd": 17,
+     "intent": "N"
     }
-   ],
-   "faq": []
+   ]
   },
   "ktm-macina-team-873": {
    "name": "KTM Macina Team 873",
@@ -15117,13 +16028,20 @@
    "brand": "KTM",
    "category": "E-City",
    "primary": {
-    "keyword": "ktm city e bike",
+    "keyword": "ktm macina city 810 belt 2026",
     "volume": 90,
-    "kd": 10,
-    "intent": "C",
+    "kd": 5,
+    "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm city e bike",
+     "volume": 90,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm macina city 810 belt",
@@ -15141,6 +16059,12 @@
      "keyword": "ktm macina city",
      "volume": 140,
      "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm macina city 810 belt 2025",
+     "volume": 70,
+     "kd": 6,
      "intent": "I"
     }
    ]
@@ -15226,19 +16150,18 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "mountain e bike ktm",
-     "volume": 320,
-     "kd": 19,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "ktm macina scarp sx",
      "volume": 170,
      "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "fully mtb ktm",
+     "volume": 170,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -15270,10 +16193,10 @@
    },
    "secondary": [
     {
-     "keyword": "ktm fully",
-     "volume": 320,
-     "kd": 13,
-     "intent": "T"
+     "keyword": "ktm ebike fully",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
     }
    ],
    "faq": []
@@ -15292,9 +16215,9 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "ktm mtb bikes",
-     "volume": 210,
-     "kd": 23,
+     "keyword": "ktm e mountainbike fully",
+     "volume": 90,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -15511,12 +16434,6 @@
      "volume": 140,
      "kd": 13,
      "intent": "T"
-    },
-    {
-     "keyword": "giant downhill mountain bikes",
-     "volume": 170,
-     "kd": 23,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -15530,6 +16447,12 @@
      "keyword": "giant reign advanced",
      "volume": 140,
      "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant mtb fully",
+     "volume": 260,
+     "kd": 24,
      "intent": "I"
     }
    ]
@@ -15627,9 +16550,9 @@
      "intent": "T"
     },
     {
-     "keyword": "giant bikes hardtail",
+     "keyword": "giant advanced pro",
      "volume": 140,
-     "kd": 28,
+     "kd": 21,
      "intent": "T"
     }
    ],
@@ -15648,9 +16571,9 @@
    },
    "secondary": [
     {
-     "keyword": "giant advanced pro",
+     "keyword": "giant downhill",
      "volume": 140,
-     "kd": 21,
+     "kd": 23,
      "intent": "T"
     }
    ],
@@ -15683,9 +16606,9 @@
    },
    "secondary": [
     {
-     "keyword": "giant downhill",
+     "keyword": "giant enduro",
      "volume": 140,
-     "kd": 23,
+     "kd": 21,
      "intent": "T"
     }
    ],
@@ -15843,9 +16766,9 @@
    },
    "secondary": [
     {
-     "keyword": "giant enduro",
+     "keyword": "giant bikes hardtail",
      "volume": 140,
-     "kd": 21,
+     "kd": 28,
      "intent": "T"
     }
    ],
@@ -16112,16 +17035,10 @@
    },
    "secondary": [
     {
-     "keyword": "bike specialized mtb",
-     "volume": 590,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
-     "keyword": "specialized ebike fully",
-     "volume": 70,
-     "kd": 9,
-     "intent": "T"
+     "keyword": "specialized e mountainbike",
+     "volume": 320,
+     "kd": 18,
+     "intent": "C"
     }
    ],
    "faq": []
@@ -16160,13 +17077,19 @@
    },
    "secondary": [
     {
-     "keyword": "specialized e mountainbike",
-     "volume": 320,
-     "kd": 18,
-     "intent": "C"
+     "keyword": "bike downhill specialized",
+     "volume": 260,
+     "kd": 24,
+     "intent": "T"
     }
    ],
    "faq": [
+    {
+     "keyword": "specialized levo 4 comp alloy",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    },
     {
      "keyword": "specialized turbo levo 4 comp alloy 2026",
      "volume": 70,
@@ -16192,15 +17115,21 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "bike downhill specialized",
+     "keyword": "specialized levo 4 alloy",
+     "volume": 140,
+     "kd": 4,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized mtb fully",
      "volume": 260,
-     "kd": 24,
-     "intent": "T"
+     "kd": 22,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "specialized-turbo-creo-2-expert": {
    "name": "Specialized Turbo Creo 2 Expert",
@@ -16392,10 +17321,10 @@
      "intent": "I"
     },
     {
-     "keyword": "specialized mtb fully",
+     "keyword": "specialized emtb",
      "volume": 260,
-     "kd": 22,
-     "intent": "I"
+     "kd": 21,
+     "intent": "N"
     }
    ]
   },
@@ -16487,7 +17416,14 @@
     "intent": "N",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "downhill mtb specialized",
+     "volume": 210,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "specialized turbo levo 4 pro",
@@ -16500,12 +17436,6 @@
      "volume": 90,
      "kd": 10,
      "intent": "I"
-    },
-    {
-     "keyword": "specialized emtb",
-     "volume": 260,
-     "kd": 21,
-     "intent": "N"
     }
    ]
   },
@@ -16547,6 +17477,12 @@
      "keyword": "specialized turbo vado sl 5.0 eq",
      "volume": 210,
      "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized vado sl 5.0",
+     "volume": 170,
+     "kd": 10,
      "intent": "I"
     },
     {
@@ -16665,6 +17601,12 @@
      "volume": 480,
      "kd": 10,
      "intent": "I"
+    },
+    {
+     "keyword": "specialized vado sl 4.0",
+     "volume": 140,
+     "kd": 8,
+     "intent": "N"
     },
     {
      "keyword": "specialized turbo vado sl 2",
