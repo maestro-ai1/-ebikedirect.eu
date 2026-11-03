@@ -42024,5 +42024,95 @@
    "store": "specialized.com/de",
    "fetched": "2026-11-02"
   }
+ ],
+ "orbea-rise-lt-m20-630wh": [
+  {
+   "file": "orbea-rise-lt-m20-630wh-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T335-SZ-01-side-RISE-LT-M20-01.jpg",
+   "page": "https://www.mount7.com/orbea-rise-lt-m20-630wh-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-rise-lt-h10": [
+  {
+   "file": "orbea-rise-lt-h10-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T330-ST-01-side-RISE-LT-H10.jpg",
+   "page": "https://www.mount7.com/orbea-rise-lt-h10-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-rise-lt-m10-630wh": [
+  {
+   "file": "orbea-rise-lt-m10-630wh-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T336-SY-01-side-RISE-LT-M10.jpg",
+   "page": "https://www.mount7.com/orbea-rise-lt-m10-630wh-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-lt-h-team": [
+  {
+   "file": "orbea-wild-lt-h-team-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/U308-XA-SIDE-WILD-LT-H-TEAM.jpg",
+   "page": "https://www.mount7.com/orbea-wild-lt-h-team-2027.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-lt-h10-mullet": [
+  {
+   "file": "orbea-wild-lt-h10-mullet-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/U310-X9-SIDE-WILD-LT-H10.jpg",
+   "page": "https://www.mount7.com/orbea-wild-lt-h10-mullet-2027.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-lt-h-team-mullet": [
+  {
+   "file": "orbea-wild-lt-h-team-mullet-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/U311-X9-SIDE-WILD-LT-H-TEAM.jpg",
+   "page": "https://www.mount7.com/orbea-wild-lt-h-team-mullet-2027.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-m10": [
+  {
+   "file": "orbea-wild-m10-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T346-X2-01-side-WILD-M10.jpg",
+   "page": "https://www.mount7.com/orbea-wild-m10-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-m-ltd": [
+  {
+   "file": "orbea-wild-m-ltd-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T348-X4-01-side-WILD-MLTD.jpg",
+   "page": "https://www.mount7.com/orbea-wild-m-ltd-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-m-team": [
+  {
+   "file": "orbea-wild-m-team-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T347-X4-01-side-WILD-MTEAM.jpg",
+   "page": "https://www.mount7.com/orbea-wild-m-team-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
+ ],
+ "orbea-wild-m20-mullet": [
+  {
+   "file": "orbea-wild-m20-mullet-v1-1.webp",
+   "source": "https://www.mount7.com/out/pictures/master/product/1/T345-X1-01-side-WILD-M20.jpg",
+   "page": "https://www.mount7.com/orbea-wild-m20-mullet-2026.html",
+   "store": "mount7.com",
+   "fetched": "2026-11-02"
+  }
  ]
 }

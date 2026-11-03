@@ -238,7 +238,7 @@
      "volume": 140,
      "kd": 19,
      "intent": "I",
-     "heldNowBy": "cube-reaction-hybrid-one-600-600-wh-29-zoll (secondary/FAQ)"
+     "heldNowBy": null
     },
     {
      "keyword": "cube reaction hybrid 2025",
@@ -252,7 +252,7 @@
      "volume": 110,
      "kd": 20,
      "intent": "N",
-     "heldNowBy": "cube-reaction-hybrid-one-600-600-wh-29-zoll (secondary/FAQ)"
+     "heldNowBy": null
     }
    ],
    "candidates": 5

@@ -229,21 +229,14 @@
    "brand": "Tenways",
    "category": "E-City",
    "primary": {
-    "keyword": "tenways cgo 600",
-    "volume": 110,
-    "kd": 17,
-    "intent": "T",
+    "keyword": "tenways cgo compact",
+    "volume": 140,
+    "kd": 19,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "tenways cgo compact",
-     "volume": 140,
-     "kd": 19,
-     "intent": "N"
-    }
-   ]
+   "faq": []
   },
   "tenways-cgo600": {
    "name": "Tenways CGO600",
@@ -410,12 +403,6 @@
     {
      "keyword": "bergamont e revox",
      "volume": 140,
-     "kd": 17,
-     "intent": "T"
-    },
-    {
-     "keyword": "bergamont revox 24",
-     "volume": 110,
      "kd": 17,
      "intent": "T"
     },
@@ -734,12 +721,6 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "merida esilex 600",
-     "volume": 260,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
      "keyword": "merida esilex",
      "volume": 110,
      "kd": 19,
@@ -988,11 +969,11 @@
    "brand": "Merida",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "merida esilex+ 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "merida esilex 600",
+    "volume": 260,
+    "kd": 22,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -1500,76 +1481,14 @@
    "brand": "Cube",
    "category": "E-Kinder",
    "primary": {
-    "keyword": "cube acid 20 zoll",
-    "volume": 1000,
-    "kd": 19,
+    "keyword": "cube acid 240 hybrid rookie pro 400x kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
-   "secondary": [
-    {
-     "keyword": "cube acid 26",
-     "volume": 210,
-     "kd": 21,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube acid 20",
-     "volume": 110,
-     "kd": 13,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube fahrrad 24 zoll",
-     "volume": 1900,
-     "kd": 24,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube fahrrad kinder 24 zoll",
-     "volume": 390,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube kids",
-     "volume": 210,
-     "kd": 28,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "cube acid 200",
-     "volume": 3600,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube acid 26 zoll",
-     "volume": 590,
-     "kd": 23,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube acid 200 20 zoll",
-     "volume": 390,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube 24 zoll",
-     "volume": 3600,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube 24 zoll sale",
-     "volume": 170,
-     "kd": 14,
-     "intent": "I"
-    }
-   ]
+   "secondary": [],
+   "faq": []
   },
   "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll": {
    "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
@@ -1618,6 +1537,18 @@
    ],
    "faq": [
     {
+     "keyword": "cube kathmandu hybrid 750",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu 750",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
      "keyword": "cube fahrrad 28 zoll",
      "volume": 390,
      "kd": 17,
@@ -1633,12 +1564,6 @@
      "keyword": "cube 28 zoll damen",
      "volume": 110,
      "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube speed pedelec 45 km h",
-     "volume": 110,
-     "kd": 10,
      "intent": "I"
     }
    ]
@@ -1781,12 +1706,6 @@
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "conway cairon c 2.0 625",
-     "volume": 140,
-     "kd": 14,
-     "intent": "T"
-    },
     {
      "keyword": "conway cairon 2.0",
      "volume": 110,
@@ -1976,29 +1895,23 @@
      "intent": "C"
     },
     {
-     "keyword": "cube mtb 29 zoll",
-     "volume": 260,
-     "kd": 23,
+     "keyword": "cube mountain bike carbon",
+     "volume": 210,
+     "kd": 22,
      "intent": "T"
-    },
-    {
-     "keyword": "mtb cube carbon",
-     "volume": 170,
-     "kd": 26,
-     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "cube fully 29 zoll",
-     "volume": 720,
-     "kd": 21,
-     "intent": "N"
+     "keyword": "cube fahrrad 29 zoll",
+     "volume": 590,
+     "kd": 16,
+     "intent": "I"
     },
     {
-     "keyword": "cube hardtail 29 zoll",
-     "volume": 110,
-     "kd": 15,
+     "keyword": "cube hardtail carbon",
+     "volume": 140,
+     "kd": 17,
      "intent": "N"
     }
    ]
@@ -2036,12 +1949,6 @@
      "intent": "T"
     },
     {
-     "keyword": "cube reaction hybrid 500",
-     "volume": 320,
-     "kd": 17,
-     "intent": "T"
-    },
-    {
      "keyword": "cube reaction hybrid one 800 test",
      "volume": 110,
      "kd": 10,
@@ -2052,6 +1959,12 @@
      "volume": 1300,
      "kd": 24,
      "intent": "C"
+    },
+    {
+     "keyword": "cube downhill bike",
+     "volume": 590,
+     "kd": 20,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2068,15 +1981,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube reaction hybrid one 625",
-     "volume": 480,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "cube reaction e bikes",
      "volume": 390,
      "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube reaction one",
+     "volume": 320,
+     "kd": 11,
      "intent": "I"
     }
    ]
@@ -2086,25 +1999,13 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube hybrid pro 625",
-    "volume": 720,
-    "kd": 16,
+    "keyword": "cube reaction hybrid pro 800 test",
+    "volume": 210,
+    "kd": 13,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "cube reaction hybrid pro 500",
-     "volume": 720,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube reaction hybrid pro 800 test",
-     "volume": 210,
-     "kd": 13,
-     "intent": "T"
-    },
     {
      "keyword": "cube hybrid pro",
      "volume": 170,
@@ -2118,10 +2019,22 @@
      "intent": "T"
     },
     {
-     "keyword": "cube downhill bike",
+     "keyword": "cube 29 zoll",
      "volume": 590,
-     "kd": 20,
+     "kd": 24,
      "intent": "T"
+    },
+    {
+     "keyword": "cube e bike 29 zoll",
+     "volume": 170,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube mountainbike gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2138,12 +2051,6 @@
      "intent": "I"
     },
     {
-     "keyword": "cube reaction hybrid pro 625",
-     "volume": 2900,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
      "keyword": "cube hybrid pro 800",
      "volume": 1600,
      "kd": 23,
@@ -2154,6 +2061,12 @@
      "volume": 1600,
      "kd": 27,
      "intent": "I"
+    },
+    {
+     "keyword": "cube reaction hybrid pro 800 2025",
+     "volume": 720,
+     "kd": 18,
+     "intent": "I"
     }
    ]
   },
@@ -2162,39 +2075,21 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube reaction hybrid performance 500",
-    "volume": 480,
-    "kd": 13,
+    "keyword": "cube reaction hybrid performance",
+    "volume": 320,
+    "kd": 15,
     "intent": "I",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbike damen",
-     "volume": 210,
-     "kd": 26,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube e mountainbike hardtail",
-     "volume": 140,
-     "kd": 15,
+     "keyword": "mountain bike cube",
+     "volume": 170,
+     "kd": 20,
      "intent": "T"
-    },
-    {
-     "keyword": "cube e bike fully gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "cube reaction hybrid performance",
-     "volume": 320,
-     "kd": 15,
-     "intent": "I"
-    },
     {
      "keyword": "cube fully",
      "volume": 4400,
@@ -2202,9 +2097,15 @@
      "intent": "N"
     },
     {
-     "keyword": "cube fahrrad 29 zoll",
+     "keyword": "emtb fully cube",
      "volume": 590,
-     "kd": 16,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube damen mtb",
+     "volume": 110,
+     "kd": 22,
      "intent": "I"
     }
    ]
@@ -2222,43 +2123,19 @@
    },
    "secondary": [
     {
-     "keyword": "cube stereo 240 pro",
-     "volume": 210,
-     "kd": 25,
-     "intent": "T"
-    },
-    {
      "keyword": "cube stereo hybrid gebraucht",
      "volume": 140,
      "kd": 13,
      "intent": "C"
     },
     {
-     "keyword": "cube stereo hybrid 44",
-     "volume": 140,
+     "keyword": "cube e mountainbikes",
+     "volume": 480,
      "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube hardtail mountain bikes",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike herren mountainbike",
-     "volume": 110,
-     "kd": 28,
      "intent": "T"
     }
    ],
    "faq": [
-    {
-     "keyword": "cube stereo 240",
-     "volume": 320,
-     "kd": 25,
-     "intent": "I"
-    },
     {
      "keyword": "cube stereo e bike",
      "volume": 170,
@@ -2272,14 +2149,14 @@
      "intent": "N"
     },
     {
-     "keyword": "emtb fully cube",
-     "volume": 590,
-     "kd": 17,
+     "keyword": "cube stereo fully",
+     "volume": 210,
+     "kd": 10,
      "intent": "I"
     },
     {
-     "keyword": "cube stereo fully",
-     "volume": 210,
+     "keyword": "cube 29",
+     "volume": 110,
      "kd": 10,
      "intent": "I"
     }
@@ -2310,21 +2187,15 @@
      "intent": "C"
     },
     {
-     "keyword": "cube 29 zoll",
-     "volume": 590,
-     "kd": 24,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e bike damen mountainbike",
-     "volume": 140,
-     "kd": 24,
+     "keyword": "cube fully gebraucht",
+     "volume": 170,
+     "kd": 14,
      "intent": "C"
     },
     {
-     "keyword": "cube ebike mountainbike damen",
-     "volume": 70,
-     "kd": 25,
+     "keyword": "cube mountainbike 29 zoll herren",
+     "volume": 110,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -2354,9 +2225,9 @@
      "intent": "N"
     },
     {
-     "keyword": "cube cross pro",
-     "volume": 210,
-     "kd": 19,
+     "keyword": "cube e fully",
+     "volume": 480,
+     "kd": 22,
      "intent": "I"
     }
    ]
@@ -2374,14 +2245,8 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbikes",
-     "volume": 480,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube mountain bike carbon",
-     "volume": 210,
+     "keyword": "cube trail bike",
+     "volume": 110,
      "kd": 22,
      "intent": "T"
     }
@@ -2406,15 +2271,15 @@
      "intent": "N"
     },
     {
-     "keyword": "cube hardtail carbon",
-     "volume": 140,
-     "kd": 17,
-     "intent": "N"
+     "keyword": "cube cross bike",
+     "volume": 480,
+     "kd": 20,
+     "intent": "I"
     },
     {
-     "keyword": "cube damen fully",
-     "volume": 70,
-     "kd": 18,
+     "keyword": "mountainbike carbon cube",
+     "volume": 170,
+     "kd": 19,
      "intent": "N"
     }
    ]
@@ -2424,10 +2289,10 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube race 200",
-    "volume": 480,
-    "kd": 23,
-    "intent": "T",
+    "keyword": "cube race",
+    "volume": 880,
+    "kd": 25,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [
@@ -2470,18 +2335,6 @@
      "intent": "I"
     },
     {
-     "keyword": "cube reaction hybrid race 750",
-     "volume": 1000,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube race",
-     "volume": 880,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
      "keyword": "cube reaction hybrid race",
      "volume": 720,
      "kd": 12,
@@ -2492,6 +2345,18 @@
      "volume": 590,
      "kd": 22,
      "intent": "N"
+    },
+    {
+     "keyword": "cube reaction hybrid race 800 2025",
+     "volume": 480,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube reaction race 800",
+     "volume": 260,
+     "kd": 21,
+     "intent": "I"
     }
    ]
   },
@@ -2522,10 +2387,10 @@
    },
    "secondary": [
     {
-     "keyword": "mountain bike cube",
+     "keyword": "mtb cube carbon",
      "volume": 170,
-     "kd": 20,
-     "intent": "T"
+     "kd": 26,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2536,14 +2401,14 @@
      "intent": "N"
     },
     {
-     "keyword": "cube e fully",
-     "volume": 480,
-     "kd": 22,
-     "intent": "I"
+     "keyword": "cube enduro",
+     "volume": 390,
+     "kd": 24,
+     "intent": "N"
     },
     {
-     "keyword": "cube cross country",
-     "volume": 140,
+     "keyword": "fully bike cube",
+     "volume": 110,
      "kd": 19,
      "intent": "N"
     }
@@ -2594,16 +2459,16 @@
      "intent": "T"
     },
     {
-     "keyword": "cube e bike 29 zoll",
+     "keyword": "cube ebike mountainbike",
      "volume": 170,
-     "kd": 15,
-     "intent": "C"
+     "kd": 23,
+     "intent": "T"
     },
     {
-     "keyword": "cube mountainbike gebraucht",
+     "keyword": "cube e bike fully damen",
      "volume": 110,
-     "kd": 10,
-     "intent": "C"
+     "kd": 26,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2652,9 +2517,15 @@
    },
    "secondary": [
     {
-     "keyword": "cube fully gebraucht",
+     "keyword": "cube downhill bikes",
+     "volume": 320,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube elektro mountainbike damen",
      "volume": 170,
-     "kd": 14,
+     "kd": 26,
      "intent": "C"
     }
    ],
@@ -2678,15 +2549,9 @@
      "intent": "N"
     },
     {
-     "keyword": "cube cross bike",
-     "volume": 480,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube damen mtb",
+     "keyword": "cube fahrrad 29 zoll herren",
      "volume": 110,
-     "kd": 22,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -2702,7 +2567,20 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "cube e mountainbike herren",
+     "volume": 260,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e mtb hardtail",
+     "volume": 170,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "mtb fully cube",
@@ -2711,22 +2589,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube enduro",
-     "volume": 390,
-     "kd": 24,
-     "intent": "N"
-    },
-    {
-     "keyword": "mountainbike carbon cube",
-     "volume": 170,
-     "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube 29",
+     "keyword": "cube hardtail 29 zoll",
      "volume": 110,
-     "kd": 10,
-     "intent": "I"
+     "kd": 15,
+     "intent": "N"
     }
    ]
   },
@@ -2777,14 +2643,40 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "cube reaction hybrid one 600 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "name"
+    "keyword": "cube reaction hybrid one 600",
+    "volume": 320,
+    "kd": 22,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube mountainbike kinder",
+     "volume": 260,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube mountainbike damen",
+     "volume": 880,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube mountain bikes",
+     "volume": 140,
+     "kd": 21,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube downhill fully",
+     "volume": 110,
+     "kd": 15,
+     "intent": "N"
+    }
+   ]
   },
   "cube-reaction-hybrid-one-800-800-wh-27-5-zoll": {
    "name": "Cube Reaction Hybrid ONE 800 800 Wh 27,5 Zoll",
@@ -2837,15 +2729,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube mountainbike damen",
+     "keyword": "mountainbike cube hardtail",
      "volume": 880,
-     "kd": 24,
-     "intent": "I"
+     "kd": 21,
+     "intent": "N"
     },
     {
-     "keyword": "fully bike cube",
-     "volume": 110,
-     "kd": 19,
+     "keyword": "cube damen fully",
+     "volume": 70,
+     "kd": 18,
      "intent": "N"
     }
    ]
@@ -2897,16 +2789,16 @@
      "intent": "T"
     },
     {
-     "keyword": "cube downhill bikes",
-     "volume": 320,
-     "kd": 28,
+     "keyword": "hardtail bike cube",
+     "volume": 260,
+     "kd": 19,
      "intent": "T"
     },
     {
-     "keyword": "cube ebike mountainbike",
-     "volume": 170,
-     "kd": 23,
-     "intent": "T"
+     "keyword": "cube e bike fully gebraucht",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -2929,16 +2821,16 @@
      "intent": "I"
     },
     {
-     "keyword": "mountainbike cube hardtail",
+     "keyword": "cube downhill",
      "volume": 880,
-     "kd": 21,
-     "intent": "N"
+     "kd": 25,
+     "intent": "I"
     },
     {
-     "keyword": "cube fahrrad 29 zoll herren",
-     "volume": 110,
-     "kd": 21,
-     "intent": "I"
+     "keyword": "cube all mountain",
+     "volume": 140,
+     "kd": 25,
+     "intent": "N"
     }
    ]
   },
@@ -3011,21 +2903,21 @@
    },
    "secondary": [
     {
-     "keyword": "cube e mountainbike herren",
+     "keyword": "cube mtb 29 zoll",
      "volume": 260,
-     "kd": 28,
+     "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "cube elektro mountainbike damen",
-     "volume": 170,
-     "kd": 26,
-     "intent": "C"
+     "keyword": "cube e mountainbike hardtail",
+     "volume": 140,
+     "kd": 15,
+     "intent": "T"
     },
     {
-     "keyword": "cube mountainbike 29 zoll herren",
+     "keyword": "cube e bike herren mountainbike",
      "volume": 110,
-     "kd": 20,
+     "kd": 28,
      "intent": "T"
     }
    ],
@@ -3049,10 +2941,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube downhill",
-     "volume": 880,
-     "kd": 25,
-     "intent": "I"
+     "keyword": "cube fully 29 zoll",
+     "volume": 720,
+     "kd": 21,
+     "intent": "N"
     }
    ]
   },
@@ -3481,27 +3373,14 @@
    "brand": "Flyer",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "flyer upstreet 7.10",
-    "volume": 320,
-    "kd": 11,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "flyer g1 upstreet tr:cf 7.63 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "flyer upstreet 7.23",
-     "volume": 320,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "flyer upstreet 7.43",
-     "volume": 170,
-     "kd": 11,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "flyer-g1-goroc-tr-7-33-800-wh-29-zoll": {
    "name": "Flyer G1 Goroc TR 7.33 800 Wh 29 Zoll",
@@ -3570,12 +3449,6 @@
      "volume": 210,
      "kd": 10,
      "intent": "I"
-    },
-    {
-     "keyword": "flyer upstreet 5.10",
-     "volume": 110,
-     "kd": 11,
-     "intent": "I"
     }
    ]
   },
@@ -3623,12 +3496,6 @@
      "keyword": "flyer gotour 7.23",
      "volume": 480,
      "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "flyer gotour 7.10",
-     "volume": 260,
-     "kd": 10,
      "intent": "I"
     }
    ]
@@ -3743,14 +3610,7 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "flyer gotour 5.43",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "focus-jam2-6-9-800-wh-29-zoll": {
    "name": "Focus Jam2 6.9",
@@ -4441,14 +4301,7 @@
      "intent": "T"
     }
    ],
-   "faq": [
-    {
-     "keyword": "gazelle ultimate 380",
-     "volume": 170,
-     "kd": 16,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "gazelle-cabby-c380-l-24-se-545-wh-24-zoll": {
    "name": "Gazelle Cabby C380 L 24\" SE 545 Wh 24 Zoll",
@@ -4628,12 +4481,6 @@
    ],
    "faq": [
     {
-     "keyword": "ghost e asx 160",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "ghost fully",
      "volume": 1300,
      "kd": 21,
@@ -4654,6 +4501,12 @@
     {
      "keyword": "ghost mountain bikes",
      "volume": 480,
+     "kd": 19,
+     "intent": "N"
+    },
+    {
+     "keyword": "ghost mtb fully",
+     "volume": 390,
      "kd": 19,
      "intent": "N"
     }
@@ -5062,10 +4915,10 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike allmtn 10",
-    "volume": 720,
+    "keyword": "haibike allmtn",
+    "volume": 1900,
     "kd": 22,
-    "intent": "T",
+    "intent": "I",
     "source": "bank"
    },
    "secondary": [
@@ -5077,12 +4930,6 @@
     }
    ],
    "faq": [
-    {
-     "keyword": "haibike allmtn",
-     "volume": 1900,
-     "kd": 22,
-     "intent": "I"
-    },
     {
      "keyword": "haibike allmtn 4",
      "volume": 880,
@@ -5194,21 +5041,9 @@
      "intent": "I"
     },
     {
-     "keyword": "haibike allmtn cf 11",
-     "volume": 390,
-     "kd": 23,
-     "intent": "I"
-    },
-    {
      "keyword": "haibike cf 9",
      "volume": 170,
      "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike allmtn cf 10",
-     "volume": 140,
-     "kd": 18,
      "intent": "I"
     }
    ]
@@ -5309,13 +5144,20 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike alltrack 11 abs 29 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "haibike alltrack 11",
+    "volume": 110,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "all mountain haibike",
+     "volume": 210,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "haibike-alltrack-10-29-800-wh-29-zoll": {
@@ -5331,7 +5173,7 @@
    },
    "secondary": [
     {
-     "keyword": "all mountain haibike",
+     "keyword": "haibike e bike mountainbike",
      "volume": 210,
      "kd": 19,
      "intent": "T"
@@ -5342,12 +5184,6 @@
      "keyword": "haibike alltrack 10",
      "volume": 260,
      "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike alltrack 11",
-     "volume": 110,
-     "kd": 10,
      "intent": "I"
     }
    ]
@@ -5365,7 +5201,7 @@
    },
    "secondary": [
     {
-     "keyword": "haibike e bike mountainbike",
+     "keyword": "haibike mtb e bike",
      "volume": 210,
      "kd": 19,
      "intent": "T"
@@ -5392,13 +5228,19 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike allmtn trn/iq",
-    "volume": 210,
-    "kd": 20,
+    "keyword": "haibike allmtn 10",
+    "volume": 720,
+    "kd": 22,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "haibike allmtn trn/iq",
+     "volume": 210,
+     "kd": 20,
+     "intent": "T"
+    },
     {
      "keyword": "haibike pinion",
      "volume": 260,
@@ -5414,7 +5256,7 @@
    ],
    "faq": [
     {
-     "keyword": "haibike allmtn cf 11 trn/iq",
+     "keyword": "haibike allmtn cf 10",
      "volume": 140,
      "kd": 18,
      "intent": "I"
@@ -5432,14 +5274,28 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike allmtn cf 11 trn/iq kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "haibike allmtn cf 11",
+    "volume": 390,
+    "kd": 23,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "haibike mtb",
+     "volume": 210,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "haibike allmtn cf 11 trn/iq",
+     "volume": 140,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   "haibike-adventr-10-low-800-wh-27-5-zoll": {
    "name": "Haibike Adventr 10 Low",
@@ -5454,9 +5310,9 @@
    },
    "secondary": [
     {
-     "keyword": "haibike mtb e bike",
-     "volume": 210,
-     "kd": 19,
+     "keyword": "haibike e mtb fully",
+     "volume": 170,
+     "kd": 18,
      "intent": "T"
     }
    ],
@@ -5472,12 +5328,6 @@
      "volume": 260,
      "kd": 16,
      "intent": "I"
-    },
-    {
-     "keyword": "haibike adventr 11",
-     "volume": 110,
-     "kd": 14,
-     "intent": "I"
     }
    ]
   },
@@ -5492,20 +5342,19 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "haibike mtb",
-     "volume": 210,
-     "kd": 20,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "haibike alltrail 10",
      "volume": 590,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "haibike downhill",
+     "volume": 140,
+     "kd": 25,
+     "intent": "N"
     }
    ]
   },
@@ -5522,8 +5371,8 @@
    },
    "secondary": [
     {
-     "keyword": "haibike e mtb fully",
-     "volume": 170,
+     "keyword": "haibike e mountainbike fully",
+     "volume": 140,
      "kd": 18,
      "intent": "T"
     }
@@ -5541,13 +5390,20 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "haibike mtb fully",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
-     "keyword": "haibike downhill",
-     "volume": 140,
-     "kd": 25,
-     "intent": "N"
+     "keyword": "haibike adventr 11",
+     "volume": 110,
+     "kd": 14,
+     "intent": "I"
     }
    ]
   },
@@ -5564,9 +5420,9 @@
    },
    "secondary": [
     {
-     "keyword": "haibike e mountainbike fully",
+     "keyword": "haibike hardtail",
      "volume": 140,
-     "kd": 18,
+     "kd": 19,
      "intent": "T"
     }
    ],
@@ -5597,15 +5453,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "haibike mtb fully",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
+     "keyword": "haibike downhill e bike",
+     "volume": 110,
+     "kd": 25,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "haibike-alltrack-6-5-27-5-600-wh-27-5-zoll": {
    "name": "Haibike Alltrack 6.5 27.5",
@@ -5674,18 +5530,6 @@
      "intent": "I"
     },
     {
-     "keyword": "haibike trekking 10",
-     "volume": 720,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike trekking 11",
-     "volume": 480,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
      "keyword": "haibike trekking 7 2025",
      "volume": 110,
      "kd": 17,
@@ -5704,15 +5548,15 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "haibike hardtail",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "haibike e downhill",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "haibike-adventr-4-low-600-wh-27-5-zoll": {
    "name": "Haibike Adventr 4 Low",
@@ -5802,15 +5646,15 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "haibike downhill e bike",
+     "keyword": "mountainbike fully haibike",
      "volume": 110,
-     "kd": 25,
-     "intent": "I"
+     "kd": 18,
+     "intent": "T"
     }
-   ]
+   ],
+   "faq": []
   },
   "hercules-nos-suv-3-1-630-wh-29-zoll": {
    "name": "Hercules Nos SUV 3.1",
@@ -6317,14 +6161,7 @@
     "source": "name"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "kalkhoff endeavour 30",
-     "volume": 320,
-     "kd": 11,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "kalkhoff-image-5-plus-move-purion-200-800-wh": {
    "name": "Kalkhoff Image 5+ Move 200 Wh 29 Zoll",
@@ -7988,12 +7825,6 @@
      "volume": 320,
      "kd": 17,
      "intent": "I"
-    },
-    {
-     "keyword": "orbea muga 10",
-     "volume": 170,
-     "kd": 18,
-     "intent": "I"
     }
    ]
   },
@@ -8051,27 +7882,9 @@
    ],
    "faq": [
     {
-     "keyword": "orbea urrun 10",
-     "volume": 390,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
      "keyword": "orbea urrun 30",
      "volume": 260,
      "kd": 18,
-     "intent": "I"
-    },
-    {
-     "keyword": "orbea urrun 20",
-     "volume": 210,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
-     "keyword": "orbea urrun 40",
-     "volume": 140,
-     "kd": 11,
      "intent": "I"
     }
    ]
@@ -8121,50 +7934,8 @@
    "brand": "Orbea",
    "category": "E-MTB",
    "primary": {
-    "keyword": "orbea urrun 20 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
-   },
-   "secondary": [],
-   "faq": []
-  },
-  "orbea-kemen-adv-20-630-wh-28-zoll": {
-   "name": "Orbea Kemen ADV 20",
-   "brand": "Orbea",
-   "category": "E-Trekking",
-   "primary": {
-    "keyword": "orbea kemen",
-    "volume": 480,
-    "kd": 23,
-    "intent": "T",
-    "source": "bank"
-   },
-   "secondary": [
-    {
-     "keyword": "orbea kemen adv 10",
-     "volume": 210,
-     "kd": 23,
-     "intent": "T"
-    }
-   ],
-   "faq": [
-    {
-     "keyword": "orbea kemen 10",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    }
-   ]
-  },
-  "orbea-wild-st-h20-750-wh-29-zoll": {
-   "name": "Orbea Wild ST H20",
-   "brand": "Orbea",
-   "category": "E-MTB",
-   "primary": {
-    "keyword": "orbea wild st h20",
-    "volume": 260,
+    "keyword": "orbea urrun 20",
+    "volume": 210,
     "kd": 17,
     "intent": "I",
     "source": "bank"
@@ -8179,6 +7950,41 @@
     }
    ]
   },
+  "orbea-kemen-adv-20-630-wh-28-zoll": {
+   "name": "Orbea Kemen ADV 20",
+   "brand": "Orbea",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "orbea kemen",
+    "volume": 480,
+    "kd": 23,
+    "intent": "T",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-st-h20-750-wh-29-zoll": {
+   "name": "Orbea Wild ST H20",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild st h20",
+    "volume": 260,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "orbea bikes fully",
+     "volume": 140,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
+   "faq": []
+  },
   "orbea-rise-sl-m20-630w-630-wh-29-zoll": {
    "name": "Orbea Rise SL M20 630W",
    "brand": "Orbea",
@@ -8192,10 +7998,10 @@
    },
    "secondary": [
     {
-     "keyword": "orbea bikes fully",
+     "keyword": "orbea mtb hardtail",
      "volume": 140,
-     "kd": 14,
-     "intent": "T"
+     "kd": 19,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -8220,10 +8026,10 @@
    },
    "secondary": [
     {
-     "keyword": "orbea mtb hardtail",
+     "keyword": "orbea hardtail mountain bikes",
      "volume": 140,
-     "kd": 19,
-     "intent": "C"
+     "kd": 18,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8262,10 +8068,10 @@
    },
    "secondary": [
     {
-     "keyword": "orbea hardtail mountain bikes",
+     "keyword": "orbea enduro",
      "volume": 140,
      "kd": 18,
-     "intent": "T"
+     "intent": "C"
     }
    ],
    "faq": [
@@ -8338,10 +8144,10 @@
    },
    "secondary": [
     {
-     "keyword": "orbea enduro",
-     "volume": 140,
-     "kd": 18,
-     "intent": "C"
+     "keyword": "orbea e mtb fully",
+     "volume": 110,
+     "kd": 20,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8364,14 +8170,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "orbea e mtb fully",
-     "volume": 110,
-     "kd": 20,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "orbea-wild-lt-h10-800-wh-29-zoll": {
@@ -8456,25 +8255,18 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "orbea carpe 10",
-     "volume": 110,
-     "kd": 12,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "orbea-carpe-10-420-wh-28-zoll": {
    "name": "Orbea Carpe 10",
    "brand": "Orbea",
    "category": "E-City",
    "primary": {
-    "keyword": "orbea carpe 10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "orbea carpe 10",
+    "volume": 110,
+    "kd": 12,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -8484,21 +8276,14 @@
    "brand": "Orbea",
    "category": "E-MTB",
    "primary": {
-    "keyword": "orbea wild m 20",
-    "volume": 260,
-    "kd": 17,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "orbea wild lt m-ltd rs mullet kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "orbea wild m-ltd",
-     "volume": 140,
-     "kd": 18,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "orbea-wild-lt-m20-mullet-800-wh-29": {
    "name": "Orbea Wild LT M20 Mullet",
@@ -8519,27 +8304,14 @@
    "brand": "Orbea",
    "category": "E-MTB",
    "primary": {
-    "keyword": "orbea wild m10",
-    "volume": 720,
-    "kd": 13,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "orbea wild lt m10 mullet kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "orbea wild m10 2025",
-     "volume": 170,
-     "kd": 9,
-     "intent": "I"
-    },
-    {
-     "keyword": "orbea wild m10 2026",
-     "volume": 110,
-     "kd": 6,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "orbea-wild-tr-m20-750-wh-29-zoll": {
    "name": "Orbea Wild TR M20",
@@ -8695,12 +8467,6 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "raymon trailray 170",
-     "volume": 170,
-     "kd": 17,
-     "intent": "I"
-    },
-    {
      "keyword": "raymon fully",
      "volume": 140,
      "kd": 18,
@@ -8713,11 +8479,11 @@
    "brand": "Raymon",
    "category": "E-MTB",
    "primary": {
-    "keyword": "raymon trailray 170 pro",
-    "volume": 110,
-    "kd": 18,
+    "keyword": "raymon trailray 150 pro kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
    "faq": []
@@ -8755,14 +8521,21 @@
    "brand": "Raymon",
    "category": "E-MTB",
    "primary": {
-    "keyword": "raymon trailray 170 pro kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "raymon trailray 170 pro",
+    "volume": 110,
+    "kd": 18,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "raymon trailray 170",
+     "volume": 170,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   "raymon-tarok-pro-700-wh-29": {
    "name": "Raymon Tarok Pro",
@@ -9731,12 +9504,6 @@
      "intent": "T"
     },
     {
-     "keyword": "specialized turbo levo 2021",
-     "volume": 170,
-     "kd": 8,
-     "intent": "T"
-    },
-    {
      "keyword": "specialized levo alloy",
      "volume": 110,
      "kd": 10,
@@ -9752,6 +9519,12 @@
      "keyword": "specialized levo 2024",
      "volume": 90,
      "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "specialized turbo levo 2025",
+     "volume": 90,
+     "kd": 18,
      "intent": "T"
     }
    ],
@@ -11174,21 +10947,14 @@
    "brand": "Winora",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "winora tria 10",
-    "volume": 140,
-    "kd": 9,
+    "keyword": "winora tria x7 kaufen",
+    "volume": 0,
+    "kd": null,
     "intent": "T",
-    "source": "bank"
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
-   "faq": [
-    {
-     "keyword": "fahrrad winora 28 zoll",
-     "volume": 90,
-     "kd": 14,
-     "intent": "N"
-    }
-   ]
+   "faq": []
   },
   "winora-yakun-x12-800-wh-27-5-zoll": {
    "name": "Winora Yakun X12",
@@ -12428,15 +12194,15 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "haibike e downhill",
+     "keyword": "haibike fully gebraucht",
      "volume": 110,
-     "kd": 18,
-     "intent": "I"
+     "kd": 11,
+     "intent": "C"
     }
-   ]
+   ],
+   "faq": []
   },
   "haibike-nduro-7": {
    "name": "Haibike Nduro 7",
@@ -12449,14 +12215,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "mountainbike fully haibike",
-     "volume": 110,
-     "kd": 18,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "haibike nduro 7",
@@ -12477,14 +12236,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "haibike fully gebraucht",
-     "volume": 110,
-     "kd": 11,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   "haibike-lyke-cf-se": {
@@ -12716,21 +12468,15 @@
      "intent": "T"
     },
     {
-     "keyword": "cube mountainbike kinder",
-     "volume": 260,
-     "kd": 22,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube e mtb hardtail",
-     "volume": 170,
+     "keyword": "cube hardtail mountain bikes",
+     "volume": 140,
      "kd": 18,
      "intent": "T"
     },
     {
-     "keyword": "cube trail bike",
-     "volume": 110,
-     "kd": 22,
+     "keyword": "cube ebike mountainbike damen",
+     "volume": 70,
+     "kd": 25,
      "intent": "T"
     }
    ],
@@ -12740,6 +12486,12 @@
      "volume": 140,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "cube e mountain bike",
+     "volume": 210,
+     "kd": 25,
+     "intent": "N"
     }
    ]
   },
@@ -12762,23 +12514,17 @@
      "intent": "T"
     },
     {
-     "keyword": "hardtail bike cube",
-     "volume": 260,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "cube e mountainbike damen",
+     "volume": 210,
+     "kd": 26,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "cube mountain bikes",
+     "keyword": "cube cross country",
      "volume": 140,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube downhill fully",
-     "volume": 110,
-     "kd": 15,
+     "kd": 19,
      "intent": "N"
     }
    ]
@@ -12802,10 +12548,10 @@
      "intent": "T"
     },
     {
-     "keyword": "cube e bike fully damen",
-     "volume": 110,
-     "kd": 26,
-     "intent": "T"
+     "keyword": "cube e bike damen mountainbike",
+     "volume": 140,
+     "kd": 24,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -12816,16 +12562,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube e mountain bike",
+     "keyword": "cube cross pro",
      "volume": 210,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube all mountain",
-     "volume": 140,
-     "kd": 25,
-     "intent": "N"
+     "kd": 19,
+     "intent": "I"
     }
    ]
   },
@@ -12994,12 +12734,6 @@
      "intent": "C"
     },
     {
-     "keyword": "cube touring hybrid pro 625 damen",
-     "volume": 170,
-     "kd": 13,
-     "intent": "C"
-    },
-    {
      "keyword": "cube touring hybrid pro 800 test",
      "volume": 170,
      "kd": 12,
@@ -13010,15 +12744,15 @@
      "volume": 140,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "trekkingrad von cube",
+     "volume": 1900,
+     "kd": 21,
+     "intent": "C"
     }
    ],
    "faq": [
-    {
-     "keyword": "cube touring hybrid pro 625",
-     "volume": 2400,
-     "kd": 16,
-     "intent": "I"
-    },
     {
      "keyword": "cube touring pro",
      "volume": 1000,
@@ -13026,22 +12760,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cube touring hybrid pro 625 2025",
-     "volume": 210,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
      "keyword": "cube touring pro 2025",
      "volume": 110,
      "kd": 9,
      "intent": "I"
-    },
-    {
-     "keyword": "trekkingrad herren cube",
-     "volume": 320,
-     "kd": 21,
-     "intent": "N"
     }
    ]
   },
@@ -13064,10 +12786,10 @@
      "intent": "C"
     },
     {
-     "keyword": "trekkingrad von cube",
+     "keyword": "cube trekkingrad",
      "volume": 1900,
-     "kd": 21,
-     "intent": "C"
+     "kd": 26,
+     "intent": "T"
     },
     {
      "keyword": "cube trekking damen",
@@ -13078,21 +12800,9 @@
    ],
    "faq": [
     {
-     "keyword": "cube touring hybrid one 625",
-     "volume": 1600,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
      "keyword": "cube touring one",
      "volume": 1300,
      "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube touring hybrid one 500",
-     "volume": 1000,
-     "kd": 21,
      "intent": "I"
     },
     {
@@ -13105,6 +12815,12 @@
      "keyword": "cube touring one 2026",
      "volume": 170,
      "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube touring one damen",
+     "volume": 140,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -13122,9 +12838,9 @@
    },
    "secondary": [
     {
-     "keyword": "cube trekkingrad",
-     "volume": 1900,
-     "kd": 26,
+     "keyword": "cube trekkingrad damen",
+     "volume": 720,
+     "kd": 20,
      "intent": "T"
     },
     {
@@ -13163,9 +12879,9 @@
    },
    "secondary": [
     {
-     "keyword": "cube trekkingrad damen",
-     "volume": 720,
-     "kd": 20,
+     "keyword": "cube trekkingrad herren",
+     "volume": 480,
+     "kd": 24,
      "intent": "T"
     },
     {
@@ -13446,15 +13162,15 @@
      "intent": "I"
     },
     {
-     "keyword": "cube kathmandu hybrid exc 750",
-     "volume": 480,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
      "keyword": "cube exc 800",
      "volume": 170,
      "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu exc 2026",
+     "volume": 140,
+     "kd": 27,
      "intent": "I"
     }
    ]
@@ -13518,18 +13234,6 @@
      "intent": "I"
     },
     {
-     "keyword": "cube kathmandu hybrid pro 750",
-     "volume": 2400,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube kathmandu hybrid pro 625",
-     "volume": 1000,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
      "keyword": "cube kathmandu hybrid pro 800 2025",
      "volume": 880,
      "kd": 15,
@@ -13539,6 +13243,18 @@
      "keyword": "cube kathmandu hybrid pro",
      "volume": 880,
      "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu hybrid pro 800 test",
+     "volume": 590,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube kathmandu pro 800",
+     "volume": 320,
+     "kd": 15,
      "intent": "I"
     }
    ]
@@ -13589,18 +13305,6 @@
     }
    ],
    "faq": [
-    {
-     "keyword": "cube kathmandu hybrid one 625",
-     "volume": 1300,
-     "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube kathmandu hybrid one 750",
-     "volume": 320,
-     "kd": 15,
-     "intent": "I"
-    },
     {
      "keyword": "cube kathmandu one 800",
      "volume": 260,
@@ -13736,12 +13440,6 @@
      "keyword": "cube nuride hybrid pro",
      "volume": 170,
      "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube nuride hybrid pro 625",
-     "volume": 140,
-     "kd": 19,
      "intent": "I"
     },
     {
@@ -14161,11 +13859,11 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube supreme hybrid one 500",
-    "volume": 720,
-    "kd": 20,
-    "intent": "I",
-    "source": "bank"
+    "keyword": "cube supreme hybrid deluxe one 600 kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
    },
    "secondary": [],
    "faq": []
@@ -14209,20 +13907,7 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "cube hybrid 800",
-     "volume": 140,
-     "kd": 16,
-     "intent": "T"
-    },
-    {
-     "keyword": "cube hybrid 500",
-     "volume": 110,
-     "kd": 12,
-     "intent": "T"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "cube hybrid",
@@ -14234,12 +13919,6 @@
      "keyword": "cube aruba hybrid",
      "volume": 170,
      "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube aruba 200",
-     "volume": 140,
-     "kd": 22,
      "intent": "I"
     }
    ]
@@ -14367,20 +14046,14 @@
    "brand": "Cube",
    "category": "Falt-E-Bike",
    "primary": {
-    "keyword": "cube fold hybrid 500",
-    "volume": 260,
+    "keyword": "cube fold hybrid",
+    "volume": 320,
     "kd": 10,
-    "intent": "C",
+    "intent": "I",
     "source": "bank"
    },
    "secondary": [],
    "faq": [
-    {
-     "keyword": "cube fold hybrid",
-     "volume": 320,
-     "kd": 10,
-     "intent": "I"
-    },
     {
      "keyword": "cube fold",
      "volume": 320,
@@ -14443,12 +14116,6 @@
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "cube cargo hybrid 500",
-     "volume": 170,
-     "kd": 17,
-     "intent": "T"
-    },
     {
      "keyword": "cube cargo bike",
      "volume": 110,
@@ -17047,6 +16714,166 @@
    "category": "E-MTB",
    "primary": {
     "keyword": "specialized turbo levo 4 evo comp alloy kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-rise-lt-m20-630wh": {
+   "name": "Orbea Rise LT M20 630Wh",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea rise lt m20",
+    "volume": 390,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-rise-lt-h10": {
+   "name": "Orbea Rise LT H10",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea rise lt h10",
+    "volume": 590,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-rise-lt-m10-630wh": {
+   "name": "Orbea Rise LT M10 630Wh",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea rise lt m10",
+    "volume": 720,
+    "kd": 12,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "orbea rise m10",
+     "volume": 720,
+     "kd": 24,
+     "intent": "I"
+    }
+   ]
+  },
+  "orbea-wild-lt-h-team": {
+   "name": "Orbea Wild LT H-Team",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild lt h-team kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-lt-h10-mullet": {
+   "name": "Orbea Wild LT H10 Mullet",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild lt h10 mullet kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-lt-h-team-mullet": {
+   "name": "Orbea Wild LT H-Team Mullet",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild lt h-team mullet kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "product name, no bank keyword"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-m10": {
+   "name": "Orbea Wild M10",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild m10",
+    "volume": 720,
+    "kd": 13,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "orbea wild m10 2025",
+     "volume": 170,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "orbea wild m10 2026",
+     "volume": 110,
+     "kd": 6,
+     "intent": "I"
+    }
+   ]
+  },
+  "orbea-wild-m-ltd": {
+   "name": "Orbea Wild M-LTD",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild m-ltd",
+    "volume": 140,
+    "kd": 18,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-m-team": {
+   "name": "Orbea Wild M-Team",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild m team",
+    "volume": 260,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "orbea-wild-m20-mullet": {
+   "name": "Orbea Wild M20 Mullet",
+   "brand": "Orbea",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "orbea wild m20 mullet kaufen",
     "volume": 0,
     "kd": null,
     "intent": "T",
