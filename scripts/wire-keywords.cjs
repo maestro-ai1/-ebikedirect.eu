@@ -39,14 +39,19 @@ const nk = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').repla
 const taken = new Set();
 for (const p of pages) { if (p.primary) taken.add(nk(p.primary.keyword)); (p.secondary || []).forEach(k => taken.add(nk(k.keyword))); (p.faq || []).forEach(k => taken.add(nk(k.keyword))); }
 for (const d of Object.values(draft)) for (const k of [d.primary, ...d.secondary, ...d.faq]) taken.add(nk(k.k));
+// frame form: "damen"/"tiefeinsteiger" keywords only on bikes whose name shows a low-step frame, "herren"/"diamant" only on a diamond frame (same rule as map_products_v2.js)
+const strip0 = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const LOWW = /\b(low|lowstep|step|stepthru|stepthrough|through|wave|trapez|tiefeinsteiger|tiefeinstieg|fe|lst|sta|miss|us|easy)\b/;
+const HIGHW = /\b(diamant|diamond|herren|dd|high|gent|classic)\b/;
+const genderBadName = (name, keyword) => { const nm = strip0(name).replace(/[^a-z0-9]+/g, ' '); const kt = strip0(keyword).replace(/[^a-z0-9]+/g, ' ').split(' '); const dam = kt.some((t) => ['damen', 'damenrad', 'damenfahrrad', 'tiefeinsteiger', 'frauen', 'lady'].includes(t)); const her = kt.some((t) => ['herren', 'herrenrad', 'herrenfahrrad', 'diamant', 'manner', 'maenner'].includes(t)); return (dam && !LOWW.test(nm)) || (her && !HIGHW.test(nm)); };
 let n = 0, stripped = 0, reverted = 0;
 for (const [slug, e] of Object.entries(prod.products)) {
   const d = draft[slug];
   if (d) { prod.products[slug] = { name: d.name, brand: d.brand, category: d.category, primary: { ...ref(d.primary), source: 'bank' }, secondary: d.secondary.map(ref), faq: d.faq.map(ref) }; n++; continue; }
   // not in the new map: keep the old entry without keywords that are now used elsewhere
-  const keep = arr => (arr || []).filter(k => { if (taken.has(nk(k.keyword))) { stripped++; return false; } taken.add(nk(k.keyword)); return true; });
+  const keep = arr => (arr || []).filter(k => { if (taken.has(nk(k.keyword)) || genderBadName(e.name, k.keyword)) { stripped++; return false; } taken.add(nk(k.keyword)); return true; });
   if (e.primary && e.primary.source === 'bank') {
-    if (taken.has(nk(e.primary.keyword))) { e.primary = { keyword: (e.name + ' kaufen').toLowerCase(), volume: 0, kd: null, intent: 'T', source: 'name' }; reverted++; }
+    if (taken.has(nk(e.primary.keyword)) || genderBadName(e.name, e.primary.keyword)) { e.primary = { keyword: (e.name + ' kaufen').toLowerCase(), volume: 0, kd: null, intent: 'T', source: 'name' }; reverted++; }
     else taken.add(nk(e.primary.keyword));
   }
   e.secondary = keep(e.secondary);

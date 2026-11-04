@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "/c/electric bikes europe/ebikedirect-site"
 rm -f .image-work/a-done.txt
-node ../02-site-architecture/classify-round1.cjs > .image-work/classify.txt 2>&1
+CLASSIFY_SEEDS="$(cat .image-work/seeds-2a.txt)" CLASSIFY_LABEL=round2a CLASSIFY_DATE=2026-11-04 node ../02-site-architecture/classify-round1.cjs > .image-work/classify.txt 2>&1
 npm run build > .image-work/build.log 2>&1
 echo "BUILD-ERRORS: $(grep -ciE 'failed|error' .image-work/build.log)" > .image-work/verify-status.txt
 grep "Generating static pages" .image-work/build.log | tail -1 >> .image-work/verify-status.txt

@@ -61,9 +61,17 @@
     "volume": 2900,
     "kd": 16,
     "intent": "I",
-    "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (primary)"
+    "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "orbea wild bikes",
+     "volume": 50,
+     "kd": 21,
+     "intent": "T",
+     "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
+    }
+   ],
    "faq": [
     {
      "keyword": "orbea wild 2025",
@@ -78,9 +86,16 @@
      "kd": 13,
      "intent": "I",
      "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
+    },
+    {
+     "keyword": "orbea wild 2024",
+     "volume": 50,
+     "kd": 15,
+     "intent": "I",
+     "heldNowBy": null
     }
    ],
-   "candidates": 3
+   "candidates": 5
   },
   {
    "path": "/marken/kalkhoff/endeavour",

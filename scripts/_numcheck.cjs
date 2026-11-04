@@ -17,3 +17,12 @@ for (const [s, e] of Object.entries(prods)) {
 }
 console.log('keywords checked', tot, '| number not in the bike name: PRIMARY', primBad, 'secondary/faq', secBad);
 for (const r of rows.slice(0, 40)) console.log(r.join(' | '));
+
+// SEQCHECK: main keywords whose numbers do not follow the same word as in the bike name
+{
+  const seqOk = (kt, seq) => { for (let i = 1; i < kt.length; i++) { const t = kt[i]; if (!/^\d+$/.test(t) || (+t >= 2022 && +t <= 2028)) continue; const p = kt[i - 1]; let ok = false; for (let j = 0; j + 1 < seq.length; j++) if (seq[j] === p && seq[j + 1] === t) { ok = true; break; } if (!ok) return false; } return true; };
+  const bad = [];
+  for (const e of Object.values(prods)) { if (e.primary.source !== 'bank') continue; const kt = tok(e.primary.keyword); const seq = tok(e.name); const brandless = kt; if (!seqOk(brandless, seq)) bad.push([e.brand, e.name, e.primary.keyword, e.primary.volume]); }
+  console.log('main keywords whose numbers do not follow the same word as in the bike name:', bad.length);
+  for (const b of bad.slice(0, 30)) console.log('  ', b.join(' | '));
+}

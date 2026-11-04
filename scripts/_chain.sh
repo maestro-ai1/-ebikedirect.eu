@@ -21,5 +21,7 @@ echo "--- tsc"; npx tsc --noEmit 2>&1 | tail -5; echo "tsc exit done"
 node scripts/_moto-check.cjs > .image-work/moto12.txt 2>&1
 node scripts/_numcheck.cjs > .image-work/num12.txt 2>&1
 node scripts/_fit-check.cjs > .image-work/fit12.txt 2>&1
+node scripts/_tier3-list.cjs > .image-work/tier3-list.txt 2>&1
+node scripts/_gender-check.cjs > .image-work/gender12.txt 2>&1
 node scripts/_intent-check.cjs > .image-work/intent-after.txt 2>&1
 echo done > .image-work/chain-done.txt
