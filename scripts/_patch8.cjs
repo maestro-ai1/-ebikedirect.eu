@@ -1,0 +1,4 @@
+const fs = require('fs');
+let t = fs.readFileSync('lib/seo.ts', 'utf8');
+t = t.replace("const BANK: Record<string, { pages: KeywordPage[] }> = {\n  de: deKw as any,", "// Word guard for page keywords (owner audit 2026-11-04): secondary and FAQ keywords never carry test/review/spec words or a model year up to 2025.\n// The used-bike landing page keeps its own words because that is its topic.\nconst GUARD = /(^|[\s-])(test|tests|testbericht|review|reviews|bewertung|bewertungen|erfahrung|erfahrungen|idealo|specs|datenblatt|2019|2020|2021|2022|2023|2024|2025)($|[\s-])/i;\nconst guardPages = (bank: any) => ({ ...bank, pages: bank.pages.map((p: any) => /gebraucht/.test(p.url) ? p : { ...p, secondary: (p.secondary || []).filter((k: any) => !GUARD.test(k.keyword)), faq: p.faq ? p.faq.filter((k: any) => !GUARD.test(k.keyword)) : p.faq }) });\n\nconst BANK: Record<string, { pages: KeywordPage[] }> = {\n  de: guardPages(deKw) as any,");
+fs.writeFileSync('lib/seo.ts', t);

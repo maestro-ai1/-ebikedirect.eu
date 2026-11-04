@@ -1,6 +1,5 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { BLOG_POSTS } from '@/lib/blog';
 
 export interface PostFaq {
   question: string;
@@ -124,24 +123,7 @@ export function getAllPosts(): Post[] {
   const files = fs.existsSync(CONTENT_DIR) ? fs.readdirSync(CONTENT_DIR).filter((f) => f.endsWith('.md')).sort() : [];
   const fresh = files.map(parseFile);
 
-  const legacy: Post[] = BLOG_POSTS.map((p) => ({
-    slug: p.slug,
-    title: p.title,
-    seoTitle: shortenTitle(p.title),
-    description: p.excerpt,
-    primary: '',
-    volume: 0,
-    kd: null,
-    category: p.category,
-    date: '2026-10-24',
-    updated: '2026-10-24',
-    readTime: p.readTime,
-    cover: p.image,
-    body: p.content,
-    faqs: [],
-    words: countWords(p.content),
-    legacy: true,
-  }));
+  const legacy: Post[] = [];
 
   const known = new Set([...fresh.map((p) => p.slug), ...legacy.map((p) => p.slug)]);
   // links to posts that do not exist yet are shown as plain text instead of dead links
@@ -157,10 +139,13 @@ export function getPost(slug: string): Post | undefined {
 }
 
 export function getRelatedPosts(slug: string, limit = 3): Post[] {
-  const all = getAllPosts().filter((p) => p.slug !== slug && !p.legacy);
-  const self = getPost(slug);
-  const same = all.filter((p) => self && p.category === self.category);
-  return [...same, ...all.filter((p) => !same.includes(p))].slice(0, limit);
+  // circular order: every post links to the next three, so every post receives exactly three contextual inbound links
+  const all = getAllPosts();
+  const i = all.findIndex((p) => p.slug === slug);
+  if (i < 0 || all.length < 2) return [];
+  const out: Post[] = [];
+  for (let k = 1; k < all.length && out.length < limit; k++) out.push(all[(i + k) % all.length]);
+  return out;
 }
 
 export const POSTS_PER_PAGE = 12;

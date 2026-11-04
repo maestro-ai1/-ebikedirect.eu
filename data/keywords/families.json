@@ -78,7 +78,7 @@
      "volume": 590,
      "kd": 11,
      "intent": "I",
-     "heldNowBy": "orbea-wild-h20-750-wh-29-zoll (secondary/FAQ)"
+     "heldNowBy": null
     },
     {
      "keyword": "orbea wild 2026",
@@ -175,7 +175,7 @@
      "volume": 590,
      "kd": 19,
      "intent": "C",
-     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+     "heldNowBy": null
     },
     {
      "keyword": "cube nuroad e bike",
@@ -196,7 +196,7 @@
      "volume": 110,
      "kd": 17,
      "intent": "T",
-     "heldNowBy": null
+     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
     }
    ],
    "faq": [
@@ -244,7 +244,7 @@
      "volume": 90,
      "kd": 10,
      "intent": "C",
-     "heldNowBy": "cube-reaction-hybrid-one-800-800-wh-29-zoll (secondary/FAQ)"
+     "heldNowBy": null
     }
    ],
    "faq": [
@@ -253,7 +253,7 @@
      "volume": 140,
      "kd": 19,
      "intent": "I",
-     "heldNowBy": null
+     "heldNowBy": "cube-reaction-hybrid-one-800-800-wh-29-zoll (secondary/FAQ)"
     },
     {
      "keyword": "cube reaction hybrid 2025",

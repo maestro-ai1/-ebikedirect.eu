@@ -54,7 +54,7 @@ export function productTitle(name: string, focus0?: string): string {
   const keyed = lead ? [`${lead} kaufen: ${name} | ebikedirect.eu`, `${lead}: ${name} | ebikedirect.eu`, `${lead} kaufen | ebikedirect.eu`, `${lead} | ebikedirect.eu`] : [];
   const keyedHit = keyed.find((v) => v.length <= 60);
   if (keyedHit) return keyedHit;
-  const variants = [`${name} kaufen: sofort lieferbar | ebikedirect.eu`, `${name} kaufen – ab Lager | ebikedirect.eu`, `${name} kaufen | Bestpreis | ebikedirect.eu`, `${name} kaufen | ebikedirect.eu`, `${name} | ebikedirect.eu`];
+  const variants = [`${name} kaufen: sofort lieferbar | ebikedirect.eu`, `${name} kaufen – ab Lager | ebikedirect.eu`, `${name} kaufen | Bestpreis | ebikedirect.eu`,`${name} kaufen | ebikedirect.eu`, `${name} | ebikedirect.eu`];
   return variants.find((v) => v.length <= 60) || name.slice(0, 60);
 }
 

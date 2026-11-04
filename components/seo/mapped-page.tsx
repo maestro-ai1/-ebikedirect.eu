@@ -55,7 +55,7 @@ export function mappedMetadata(path: string, pageNum = 1): Metadata {
   const head = `${capitalize(page.primary.keyword)}: Seite ${pageNum}`;
   const title = `${head} | ebikedirect.eu`.length <= 60 ? `${head} | ebikedirect.eu` : `${page.name}: Seite ${pageNum} | ebikedirect.eu`.slice(0, 60);
   let description = `${page.name}, Seite ${pageNum} von ${total}: weitere lieferbare Modelle mit Preis, Motor und Akku. Jetzt vergleichen und bei ebikedirect.eu online bestellen.`;
-  if (description.length > 158) description = `${page.name}, Seite ${pageNum} von ${total}: weitere Modelle mit Preis, Motor und Akku. Jetzt online bestellen.`;
+  if (description.length > 158) description = `${page.name}, Seite ${pageNum} von ${total}: weitere lieferbare Modelle mit Preis, Motor und Akku. Jetzt online bestellen.`;
   if (description.length < 110) description += ' Lieferung per Spedition, 2 Jahre Garantie.';
   return { title: { absolute: title }, description };
 }
@@ -84,6 +84,8 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
   const total = listingPageCount(path);
   if (pageNum < 1 || pageNum > total) notFound();
   const items = all.slice((pageNum - 1) * PER_PAGE, pageNum * PER_PAGE);
+  const altSeen = new Set<string>();
+  const altFor = (p: { slug: string; name: string }) => { const a = productFocusKeyword(p.slug, p.name); if (altSeen.has(a)) return `${a} - ${p.name}`; altSeen.add(a); return a; };
   const first = pageNum === 1;
   const faqs = first ? buildMappedFaqs(def, page.name, (page.faq || []).slice(0, 5).map((k) => k.keyword), all) : [];
   const h1base = capitalize(page.primary.keyword);
@@ -113,7 +115,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
           <div className={`p-8 sm:p-10 space-y-3 ${banner && first ? 'md:col-span-3' : ''}`}>
             {def.type === 'brand' && BRAND_LOGOS.find((b) => b.name === def.brand) && (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={BRAND_LOGOS.find((b) => b.name === def.brand)!.logo} alt={`${def.brand} Logo`} className="h-10 w-auto max-w-[220px] object-contain" />
+              <img src={BRAND_LOGOS.find((b) => b.name === def.brand)!.logo} alt={`${page.primary.keyword} Logo`} className="h-10 w-auto max-w-[220px] object-contain" />
             )}
             <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
             <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
@@ -145,7 +147,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
                   {p.category === 'Zubehör' ? (
                     <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden flex flex-col h-full">
                       <Link href={`/shop/${p.slug}`} className="block relative aspect-square bg-white border-b border-gray-100">
-                        <Image src={p.image} alt={productFocusKeyword(p.slug, p.name)} fill sizes="(max-width: 1024px) 100vw, 400px" className="object-contain p-4" />
+                        <Image src={p.image} alt={altFor(p)} fill sizes="(max-width: 1024px) 100vw, 400px" className="object-contain p-4" />
                       </Link>
                       <div className="p-5 flex flex-col gap-2 flex-1">
                         <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">{p.brand} · {p.category}</span>
@@ -156,7 +158,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
                       </div>
                     </div>
                   ) : (
-                    <ProductCard product={p} alt={productFocusKeyword(p.slug, p.name)} />
+                    <ProductCard product={p} alt={altFor(p)} />
                   )}
                 </li>
               ))}

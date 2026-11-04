@@ -41,7 +41,7 @@ export function buildFamilyContent(f: FamilyDef): FamilyContent {
   const whText = whMin ? (whMin === whMax ? `${whMin} Wh` : `${whMin} bis ${whMax} Wh`) : 'laut Datenblatt';
   const motorText = motors.length === 1 ? motors[0] : `${motors.slice(0, -1).join(', ')} und ${motors[motors.length - 1]}`;
 
-  const intro = `Die Modellreihe ${f.name} von ${f.brand} umfasst bei ebikedirect.eu ${n} lieferbare Modelle (${cats.join(', ')}). Die Preise liegen zwischen ${eur(min)} und ${eur(max)}, die Akkus haben ${whText}, als Antrieb kommt ${motorText} zum Einsatz. In der Übersicht unten sehen Sie jede Ausführung mit Preis, Akku und Motor.`;
+  const intro = `Die Modellreihe ${f.name} von ${f.brand} umfasst bei ebikedirect.eu ${n} Modelle (${cats.join(', ')}). Die Preise liegen zwischen ${eur(min)} und ${eur(max)}, die Akkus haben ${whText}, als Antrieb kommt ${motorText} zum Einsatz. In der Übersicht unten sehen Sie jede Ausführung mit Preis, Akku und Motor.`;
 
   const facts: { h3: string; text: string }[] = [
     { h3: 'Preis der Modelle', text: `Die ${n} Modelle kosten zwischen ${eur(min)} und ${eur(max)}, im Durchschnitt ${eur(avg)}. Am günstigsten ist das Modell ${remainderName(f, cheapest)} für ${eur(cheapest.price)}, am teuersten ${remainderName(f, priciest)} für ${eur(priciest.price)}. Alle Preise verstehen sich inklusive 19 % Mehrwertsteuer; bis 10.000 € Bestellwert kommt die Speditionspauschale von 49 € hinzu.` },
@@ -68,7 +68,7 @@ export function buildFamilyContent(f: FamilyDef): FamilyContent {
   const title = titleTries.find((t) => t.length <= 60) || `${P} | ebikedirect.eu`.slice(0, 60);
   const mot = motorShort(members[0]).split(' ').slice(0, 3).join(' ');
   const descTries = [
-    `${P} kaufen: ${n} lieferbare Modelle von ${eur(min)} bis ${eur(max)}, ${mot}. 2 Jahre Garantie, Lieferung per Spedition.`,
+    `${P} kaufen: ${n} Modelle von ${eur(min)} bis ${eur(max)}, ${mot}. 2 Jahre Garantie, Lieferung per Spedition.`,
     `${P} kaufen: ${n} Modelle von ${eur(min)} bis ${eur(max)} mit Preis, Motor und Akku im Vergleich. 2 Jahre Garantie, Lieferung per Spedition.`,
     `${P} kaufen: ${n} Modelle von ${eur(min)} bis ${eur(max)}. Preis, Motor und Akku im Vergleich, 2 Jahre Garantie, 30 Tage Rückgaberecht.`
   ];

@@ -1,4 +1,5 @@
 import type {NextConfig} from 'next';
+import {REMOVED_PRODUCTS} from './lib/removed-products';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -24,6 +25,12 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  async redirects() {
+    return Object.entries(REMOVED_PRODUCTS).flatMap(([from, to]) => [
+      {source: `/shop/${from}`, destination: `/shop/${to}`, permanent: true},
+      {source: `/:locale(fr|nl|it|es|pt)/shop/${from}`, destination: `/:locale/shop/${to}`, permanent: true}
+    ]);
   },
   output: 'standalone',
   transpilePackages: ['motion'],

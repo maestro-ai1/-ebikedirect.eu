@@ -1,0 +1,17 @@
+const fs = require('fs');
+let h = fs.readFileSync('components/home/home-blog-section.tsx', 'utf8');
+h = h.replace("import { BLOG_POSTS } from '@/lib/blog';", "import { getAllPosts, formatDateDe } from '@/lib/blog-content';");
+h = h.replace("BLOG_POSTS.slice(0, 3)", "getAllPosts().slice(0, 3)");
+h = h.replace("key={post.id}", "key={post.slug}").replace("src={post.image}", "src={post.cover}").replace("{post.date}\n", "{formatDateDe(post.date)}\n").replace("{post.excerpt}", "{post.description}").replace("<span>{post.author.name}</span>", "<span>Redaktion ebikedirect.eu</span>");
+h = h.replace("Praxistests, Reichweitentabellen und steuerliche Fördermöglichkeiten für Ihr nächstes Pedelec.", "Ratgeber zu Technik, Kaufberatung und Zubehör für Ihr nächstes Pedelec.");
+fs.writeFileSync('components/home/home-blog-section.tsx', h);
+let s = fs.readFileSync('app/[locale]/sitemap/page.tsx', 'utf8');
+s = s.replace("import { BLOG_POSTS } from '@/lib/blog';", "import { getAllPosts, formatDateDe } from '@/lib/blog-content';");
+s = s.replace("BLOG_POSTS.map((post) => (\n              <div key={post.id}", "getAllPosts().map((post) => (\n              <div key={post.slug}").replace("{post.date} · {post.category}", "{formatDateDe(post.date)} · {post.category}");
+fs.writeFileSync('app/[locale]/sitemap/page.tsx', s);
+let b = fs.readFileSync('lib/blog-content.ts', 'utf8');
+b = b.replace("import { BLOG_POSTS } from '@/lib/blog';\n", '');
+b = b.replace(/  const legacy: Post\[\] = BLOG_POSTS\.map[\s\S]*?  \}\)\);\n/, '  const legacy: Post[] = [];\n');
+b = b.replace(/export function getRelatedPosts[\s\S]*?\n\}\n/, "export function getRelatedPosts(slug: string, limit = 3): Post[] {\n  // circular order: every post links to the next three, so every post receives exactly three contextual inbound links\n  const all = getAllPosts();\n  const i = all.findIndex((p) => p.slug === slug);\n  if (i < 0 || all.length < 2) return [];\n  const out: Post[] = [];\n  for (let k = 1; k < all.length && out.length < limit; k++) out.push(all[(i + k) % all.length]);\n  return out;\n}\n");
+fs.writeFileSync('lib/blog-content.ts', b);
+fs.writeFileSync('lib/blog.ts', "import { BlogPost } from './types';\n\n// The four first articles were rebuilt as Markdown files in content/blog/de (see lib/blog-content.ts); this list stays empty.\nexport const BLOG_POSTS: BlogPost[] = [];\n");

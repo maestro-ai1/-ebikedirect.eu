@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, BookOpen, Clock, Calendar, User } from '@/components/ui/icons';
-import { BLOG_POSTS } from '@/lib/blog';
+import { getAllPosts, formatDateDe } from '@/lib/blog-content';
 
 export function HomeBlogSection() {
-  const latestPosts = BLOG_POSTS.slice(0, 3);
+  const latestPosts = getAllPosts().slice(0, 3);
 
   return (
     <section className="py-16 sm:py-20 bg-white border-t border-gray-200" aria-labelledby="home-blog-heading">
@@ -21,7 +21,7 @@ export function HomeBlogSection() {
               Aktuelles aus unserem E-Bike Magazin
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 mt-1 max-w-xl">
-              Praxistests, Reichweitentabellen und steuerliche Fördermöglichkeiten für Ihr nächstes Pedelec.
+              Ratgeber zu Technik, Kaufberatung und Zubehör für Ihr nächstes Pedelec.
             </p>
           </div>
 
@@ -38,13 +38,13 @@ export function HomeBlogSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {latestPosts.map((post) => (
             <article
-              key={post.id}
+              key={post.slug}
               className="group flex flex-col bg-[#F8F9FA] rounded-xl border border-gray-200/90 overflow-hidden hover:shadow-md transition-all duration-200"
             >
               {/* Thumbnail */}
               <div className="relative aspect-16/10 bg-gray-200 overflow-hidden">
                 <Image
-                  src={post.image}
+                  src={post.cover}
                   alt={post.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -63,7 +63,7 @@ export function HomeBlogSection() {
                   <div className="flex items-center gap-2 text-[11px] text-gray-500 font-medium">
                     <span className="flex items-center gap-1">
                       <Calendar className="w-3 h-3 text-gray-400" />
-                      {post.date}
+                      {formatDateDe(post.date)}
                     </span>
                     <span aria-hidden="true">·</span>
                     <span className="flex items-center gap-1">
@@ -79,14 +79,14 @@ export function HomeBlogSection() {
                   </h3>
 
                   <p className="text-xs text-gray-600 line-clamp-3 leading-relaxed">
-                    {post.excerpt}
+                    {post.description}
                   </p>
                 </div>
 
                 <div className="mt-5 pt-4 border-t border-gray-200/70 flex items-center justify-between">
                   <div className="flex items-center gap-2 text-[11px] text-gray-600 font-medium">
                     <User className="w-3.5 h-3.5 text-gray-400" />
-                    <span>{post.author.name}</span>
+                    <span>Redaktion ebikedirect.eu</span>
                   </div>
 
                   <Link

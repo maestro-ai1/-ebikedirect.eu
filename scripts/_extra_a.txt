@@ -1,0 +1,10 @@
+## Reichweite im Alltag: Drei Beispiele
+
+Drei typische Fahrer zeigen, wie unterschiedlich die Reichweite ausfallen kann, selbst bei gleichem Akku. Die Zahlen sind Rechenbeispiele mit angenommenen Verbräuchen.
+
+- **Der Pendler:** Er fährt täglich 15 Kilometer auf flacher Strecke, meist in einer niedrigen Stufe und mit leichtem Gepäck. Bei 6 Wh pro Kilometer verbraucht er etwa 90 Wh am Tag. Ein Akku mit 500 Wh reicht für mehrere Tage, bevor er nachladen muss.
+- **Die Tourenfahrerin:** Sie fährt am Wochenende 70 Kilometer mit Gepäck und einigen Steigungen. Bei 9 Wh pro Kilometer sind das rund 630 Wh. Ein Akku mit 625 Wh wäre knapp, ein Modell mit 750 oder 800 Wh gibt die nötige Reserve.
+- **Der Mountainbiker:** Er fährt 1.000 Höhenmeter in der höchsten Stufe. Hier steigt der Verbrauch deutlich, und der Akku ist nach wenigen Stunden leer. Ein großer Akku oder ein Zusatzakku ist sinnvoll.
+
+Diese Beispiele zeigen: Nicht die Zahl auf dem Akku entscheidet, sondern das Verhältnis zwischen Kapazität und tatsächlichem Einsatz. Messen Sie nach einigen Fahrten Ihren eigenen Verbrauch, indem Sie Ladestand und Strecke notieren, und passen Sie Ihre Planung entsprechend an.
+

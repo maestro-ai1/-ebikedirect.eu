@@ -1,0 +1,17 @@
+## Einsatzbereiche im Überblick
+
+Beide Motoren stecken in Rädern ganz unterschiedlicher Bauart. Ein kurzer Überblick zeigt, wo sie zu Hause sind:
+
+- **E-Mountainbike Fully:** Kräftiger Mittelmotor, großer Akku und Federung an beiden Rädern. Für Trails, Touren und steile Anstiege. Mehr dazu im Beitrag [E-Bike Fully](/blog/e-bike-fully-ratgeber).
+- **E-Mountainbike Hardtail:** Leichter und günstiger, mit Federgabel vorn. Für Waldwege und Forststraßen.
+- **Trekking-E-Bike:** Mit Gepäckträger, Schutzblechen und Licht. Ein kräftiger Motor hilft bei Gepäck und Steigungen.
+- **Gravel- und Sportmodelle:** Hier zählt ein leichtes Gesamtsystem. Mehr dazu im Beitrag [Gravel E-Bike](/blog/gravel-e-bike-ratgeber).
+
+Je anspruchsvoller das Gelände und je höher das Gesamtgewicht, desto mehr lohnt sich ein kräftiger Motor mit großem Akku. Für flache Stadtstrecken genügt oft ein kleineres System.
+
+## Pflege und Verschleiß am Antrieb
+
+Ein Mittelmotor arbeitet zuverlässig, belastet aber Kette, Ritzel und Kettenblatt stärker als ein Fahrrad ohne Motor. Prüfen Sie deshalb regelmäßig die Kettenlänge mit einer Kettenlehre und tauschen Sie die Kette rechtzeitig, bevor sie Ritzel und Kettenblatt beschädigt. Reinigen Sie den Antrieb nach schmutzigen Fahrten, schmieren Sie die Kette und kontrollieren Sie Bremsbeläge und Reifen.
+
+Motor, Akku und Display dürfen nicht mit Hochdruck gereinigt werden. Verwenden Sie ein feuchtes Tuch und lassen Sie größere Arbeiten, etwa Software-Updates und Diagnose, vom Fachhändler erledigen. Werkzeug und Pflegemittel finden Sie unter [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/). So bleibt das System lange zuverlässig, ganz gleich ob Bosch oder Shimano im Rad steckt.
+

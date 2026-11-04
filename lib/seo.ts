@@ -24,8 +24,13 @@ export interface KeywordPage {
   metaDescription?: string;
 }
 
+// Word guard for page keywords (owner audit 2026-11-04): secondary and FAQ keywords never carry test/review/spec words or a model year up to 2025.
+// The used-bike landing page keeps its own words because that is its topic.
+const GUARD = /(^|[\s-])(test|tests|testbericht|review|reviews|bewertung|bewertungen|erfahrung|erfahrungen|idealo|specs|datenblatt|gebraucht|gebrauchte|gebrauchter|used|2019|2020|2021|2022|2023|2024|2025)($|[\s-])/i;
+const guardPages = (bank: any) => ({ ...bank, pages: bank.pages.map((p: any) => (/gebraucht/.test(p.url) ? p : { ...p, secondary: (p.secondary || []).filter((k: any) => !GUARD.test(k.keyword)), faq: p.faq ? p.faq.filter((k: any) => !GUARD.test(k.keyword)) : p.faq })) });
+
 const BANK: Record<string, { pages: KeywordPage[] }> = {
-  de: deKw as any,
+  de: guardPages(deKw) as any,
   fr: frKw as any,
   nl: nlKw as any,
   it: itKw as any,

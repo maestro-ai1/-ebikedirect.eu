@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { PRODUCTS } from '@/lib/products';
-import { BLOG_POSTS } from '@/lib/blog';
+import { getAllPosts, formatDateDe } from '@/lib/blog-content';
 import { Map, ExternalLink, ShieldCheck, FileText } from '@/components/ui/icons';
 
 export const metadata: Metadata = {
@@ -161,13 +161,13 @@ export default function SitemapPage() {
             Magazinartikel & Kaufberatung
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-            {BLOG_POSTS.map((post) => (
-              <div key={post.id} className="p-2.5 rounded-lg border border-gray-100 hover:border-gray-300">
+            {getAllPosts().map((post) => (
+              <div key={post.slug} className="p-2.5 rounded-lg border border-gray-100 hover:border-gray-300">
                 <Link href={`/blog/${post.slug}`} className="font-bold text-gray-900 hover:text-[#FF5722] block">
                   {post.title}
                 </Link>
                 <div className="text-[11px] text-gray-500 mt-0.5">
-                  {post.date} · {post.category}
+                  {formatDateDe(post.date)} · {post.category}
                 </div>
               </div>
             ))}

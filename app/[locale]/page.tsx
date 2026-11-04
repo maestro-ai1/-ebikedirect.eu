@@ -37,7 +37,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      <HeroSlideshow h1={h1} sub={`${m.seo.s1} ${m.seo.s3}`} allText={m.hero.explore} allHref={getLocalizedPath('/e-bikes', locale)} slides={slides} bullets={[why[0][1], why[2][1]]} />
+      <HeroSlideshow h1={h1} sub={locale === 'de' ? `${primary.charAt(0).toUpperCase() + primary.slice(1)} bei ebikedirect.eu: ${m.seo.s1} ${m.seo.s3}` : `${m.seo.s1} ${m.seo.s3}`} allText={m.hero.explore} allHref={getLocalizedPath('/e-bikes', locale)} slides={slides} bullets={[why[0][1], why[2][1]]} />
       <CategoryTiles locale={locale} />
       <BestProducts locale={locale} />
       <ServiceBand locale={locale} />

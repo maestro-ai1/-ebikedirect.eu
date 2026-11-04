@@ -28,7 +28,7 @@ export function BestProducts({ locale }: { locale: Locale }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 sm:mb-10">
           <div className="max-w-2xl">
-            <h2 id="best-heading" className="font-display text-3xl sm:text-4xl font-bold text-[#131A22] tracking-tight">Beliebte E-Bikes aus unseren Top-Kategorien</h2>
+            <h2 id="best-heading" className="font-display text-3xl sm:text-4xl font-bold text-[#131A22] tracking-tight">Beliebte E-Bikes: Elektrofahrrad Modelle aus den Top-Kategorien</h2>
             <p className="mt-2 text-sm sm:text-base text-gray-600">E-Mountainbike, Trekking und City: neun lieferbare Modelle mit Preis, Motor und Akku auf einen Blick.</p>
           </div>
           <Link href={getLocalizedPath('/e-bikes', locale)} className="inline-flex items-center gap-2 text-sm font-bold text-[#131A22] border-b-2 border-[#FF5722] pb-1 hover:text-[#FF5722] transition-colors">

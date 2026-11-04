@@ -35,7 +35,7 @@ export function familyMetadata(brandSlug: string, slug: string, pageNum = 1): Me
   const head = `${titleCase(f.primary.keyword)}: Seite ${pageNum}`;
   const title = `${head} | ebikedirect.eu`.length <= 60 ? `${head} | ebikedirect.eu` : `${f.name}: Seite ${pageNum} | ebikedirect.eu`.slice(0, 60);
   let description = `${f.name}, Seite ${pageNum} von ${total}: weitere lieferbare Modelle mit Preis, Motor und Akku. Jetzt vergleichen und bei ebikedirect.eu online bestellen.`;
-  if (description.length > 158) description = `${f.name}, Seite ${pageNum} von ${total}: weitere Modelle mit Preis, Motor und Akku. Jetzt online bestellen.`;
+  if (description.length > 158) description = `${f.name}, Seite ${pageNum} von ${total}: weitere lieferbare Modelle mit Preis, Motor und Akku. Jetzt online bestellen.`;
   if (description.length < 110) description += ' Lieferung per Spedition, 2 Jahre Garantie.';
   return { title: { absolute: title }, description };
 }
@@ -62,6 +62,8 @@ export function FamilyPage({ brandSlug, slug, pageNum = 1 }: { brandSlug: string
   const total = Math.max(1, Math.ceil(c.members.length / PER_PAGE));
   if (c.members.length < 2 || pageNum < 1 || pageNum > total) notFound();
   const items = c.members.slice((pageNum - 1) * PER_PAGE, pageNum * PER_PAGE);
+  const altSeen = new Set<string>();
+  const altFor = (p: { slug: string; name: string }) => { const a = productFocusKeyword(p.slug, p.name); if (altSeen.has(a)) return `${a} - ${p.name}`; altSeen.add(a); return a; };
   const first = pageNum === 1;
   const h1base = titleCase(f.primary.keyword);
   const h1 = first ? h1base : `${h1base}: Seite ${pageNum}`;
@@ -99,7 +101,7 @@ export function FamilyPage({ brandSlug, slug, pageNum = 1 }: { brandSlug: string
           <h2 id="models" className="text-xl font-black text-[#131A22]">Lieferbare Modelle</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {items.map((p) => (
-              <li key={p.id}><ProductCard product={p} alt={productFocusKeyword(p.slug, p.name)} /></li>
+              <li key={p.id}><ProductCard product={p} alt={altFor(p)} /></li>
             ))}
           </ul>
           <Pagination path={f.path} page={pageNum} total={total} />

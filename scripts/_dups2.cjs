@@ -1,0 +1,3 @@
+const p = require('../data/keywords/products.json').products;
+const src = require('../data/image-sources.json');
+for (const s of ['kalkhoff-entice-5-advance-plus-800-wh-29-zoll','kalkhoff-entice-5-plus-advance-800-wh-29-zoll','kalkhoff-endeavour-c-plus-move-545-wh-20-zoll','kalkhoff-endeavour-c-move-plus-545-wh-20-zoll','trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll','trek-powerfly-fs-plus-6-gen-4-800-wh-29-zoll']) { const e = p[s]; const k = Object.keys(src).filter((x) => x.includes(s)); console.log(s, '|', e.primary.keyword, e.primary.volume, e.primary.source, '| src', JSON.stringify(src[k[0]] || src[s] || null).slice(0, 160)); }

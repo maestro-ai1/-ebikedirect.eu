@@ -5,6 +5,7 @@ import { PRODUCTS } from '@/lib/products';
 import { ProductJsonLd } from '@/components/seo/json-ld';
 import { ProductLinks } from '@/components/seo/product-links';
 import { ProductContent } from '@/components/seo/product-content';
+import { AccessoryContent } from '@/components/seo/accessory-content';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { ProductDetailClient } from './product-client';
 import { productTitle, productDescription } from '@/lib/product-seo';
@@ -58,6 +59,7 @@ export default async function ProductDetailPage({ params }: Props) {
       />
       <ProductDetailClient product={product} focusKeyword={productFocusKeyword(product.slug, product.name)} />
       {product.category !== 'Zubehör' && <ProductContent product={product} />}
+      {product.category === 'Zubehör' && <AccessoryContent product={product} />}
       {product.category !== 'Zubehör' && <ProductLinks brand={product.brand} category={product.category} motor={product.motor} />}
     </>
   );
