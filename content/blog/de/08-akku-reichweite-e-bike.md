@@ -9,7 +9,6 @@ kd: 26
 category: Ratgeber
 date: 2026-10-24
 updated: 2026-11-04
-cover: https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=1200&q=80
 ---
 Die Akku Reichweite eines E-Bikes ist die Strecke, die Sie mit einer Ladung fahren können, bevor die Unterstützung endet. Eine feste Zahl gibt es nicht, denn die Reichweite hängt von Akkukapazität, Unterstützungsstufe, Gewicht, Gelände, Wind und Temperatur ab. Dieser Ratgeber zeigt, wie Sie die Reichweite grob berechnen, welche Faktoren sie bestimmen und wie Sie mit einfachen Mitteln weiter kommen. Passende Modelle sehen Sie in der Kategorie [E-Bikes](/e-bikes/).
 

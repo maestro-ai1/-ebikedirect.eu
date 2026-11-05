@@ -9,7 +9,6 @@ kd: 10
 category: Ratgeber
 date: 2026-10-24
 updated: 2026-11-04
-cover: https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=1200&q=80
 ---
 Der Bosch Performance Line CX und der Shimano STEPS EP801 gehören zu den bekanntesten Mittelmotoren für E-Mountainbikes und sportliche Trekkingräder. Beide Motoren sind auf Gelände und Steigungen ausgelegt, beide arbeiten mit einem Drehmoment im Bereich von 85 Newtonmetern. Trotzdem unterscheiden sie sich in Bedienung, Fahrgefühl und Ökosystem. Dieser Ratgeber zum E-Bike Bosch CX vergleicht beide Systeme sachlich und hilft bei der Entscheidung. Räder finden Sie in der Kategorie [E-Mountainbikes](/e-bikes/e-mountainbikes/), Marken-Informationen auf den Seiten [Bosch](/marken/bosch/) und [Shimano](/marken/shimano/).
 

@@ -9,7 +9,6 @@ kd: 20
 category: Ratgeber
 date: 2026-10-24
 updated: 2026-11-04
-cover: https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=1200&q=80
 ---
 Im Winter stellt sich beim E-Bike vor allem eine Frage: Wie behandle ich den Akku richtig? Kälte verkürzt die Reichweite, falsche Lagerung kann den Akku dauerhaft schwächen, und Streusalz greift Antrieb und Rahmen an. Dieser Ratgeber erklärt, wie Sie den E-Bike Akku im Winter laden, lagern und fahren, und mit welchen einfachen Wartungsschritten das Rad gut durch die kalte Jahreszeit kommt. Passendes Zubehör finden Sie im Bereich [Zubehör](/zubehoer/), Akkus und Ladegeräte unter [Akkus](/zubehoer/akkus/) und [Ladegeräte](/zubehoer/ladegeraete/).
 
