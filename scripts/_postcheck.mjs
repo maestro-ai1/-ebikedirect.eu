@@ -1,0 +1,10 @@
+// node scripts/_postcheck.mjs <base>   checks rendering of the six Phase 1 posts
+const base = process.argv[2] || 'http://localhost:3100';
+const slugs = ['elektro-bike-bosch-motor-ratgeber', 'lastenrad-hund-ratgeber', 'cube-mountainbike-mtb-ratgeber', 'e-bike-mtb-ratgeber', 'bosch-charger-e-bike-ratgeber', 'e-bike-electric-motor-ratgeber'];
+for (const s of slugs) {
+  const r = await fetch(`${base}/blog/${s}`); const h = await r.text();
+  const img = await fetch(`${base}/blog/covers/${s}.webp`);
+  const h1 = (h.match(/<h1/g) || []).length;
+  const inb = [...h.matchAll(/href="\/blog\/([a-z0-9-]+)"/g)].length;
+  console.log(r.status, s, '| h1', h1, '| BlogPosting', /BlogPosting/.test(h), '| FAQPage', /FAQPage/.test(h), '| Breadcrumb', /BreadcrumbList/.test(h), '| toc', /Inhaltsverzeichnis|Inhalt/i.test(h), '| cover', img.status, '| blog links on page', inb);
+}

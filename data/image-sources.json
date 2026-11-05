@@ -41951,5 +41951,53 @@
    "store": "owner folder blog pics",
    "fetched": "2026-11-05"
   }
+ ],
+ "blog/elektro-bike-bosch-motor-ratgeber": [
+  {
+   "file": "elektro-bike-bosch-motor-ratgeber.webp",
+   "source": "owner-supplied photo: ebikes womens.webp",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
+ ],
+ "blog/lastenrad-hund-ratgeber": [
+  {
+   "file": "lastenrad-hund-ratgeber.webp",
+   "source": "owner-supplied photo: e bike cargo.avif",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
+ ],
+ "blog/cube-mountainbike-mtb-ratgeber": [
+  {
+   "file": "cube-mountainbike-mtb-ratgeber.webp",
+   "source": "owner-supplied photo: e mountain bike.webp",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
+ ],
+ "blog/e-bike-mtb-ratgeber": [
+  {
+   "file": "e-bike-mtb-ratgeber.webp",
+   "source": "owner-supplied photo: cheap ebike.png",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
+ ],
+ "blog/bosch-charger-e-bike-ratgeber": [
+  {
+   "file": "bosch-charger-e-bike-ratgeber.webp",
+   "source": "owner-supplied photo: battery operated bicycle for adults.webp",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
+ ],
+ "blog/e-bike-electric-motor-ratgeber": [
+  {
+   "file": "e-bike-electric-motor-ratgeber.webp",
+   "source": "owner-supplied photo: e bike kit.jpg",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-05"
+  }
  ]
 }
