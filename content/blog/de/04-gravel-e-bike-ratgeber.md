@@ -16,7 +16,7 @@ Ein Gravel E-Bike verbindet die Sportlichkeit eines Rennrads mit der Robustheit 
 
 Gravel bedeutet Schotter. Gravelbikes sind Räder für unbefestigte Wege, die dennoch zügig bewegt werden sollen. Sie haben einen Rennlenker mit geschwungenen Bügeln, Scheibenbremsen, breite Reifen mit 35 bis 50 Millimetern und eine Geometrie, die zwischen sportlich und komfortabel liegt. Die elektrische Variante ergänzt einen leichten Motor und einen Akku, der meist 250 bis 500 Wattstunden fasst.
 
-Der Motor unterstützt bis 25 km/h, dann schaltet er ab. Wegen des geringen Gewichts von 14 bis 19 Kilogramm fühlt sich ein gutes Gravel E-Bike überraschend natürlich an. Wie bei jedem [Pedelec](/blog/was-ist-pedelec) gilt: Der Motor hilft nur, wenn Sie treten. Hintergrundwissen zur Technik liefert [Wikipedia zum Elektrofahrrad](https://de.wikipedia.org/wiki/Elektrofahrrad).
+Der Motor unterstützt bis 25 km/h, dann schaltet er ab. Wegen des geringen Gewichts von 14 bis 19 Kilogramm fühlt sich ein gutes Gravel E-Bike überraschend natürlich an. Wie bei jedem [Pedelec](/blog/was-wiegt-ein-e-bike-ratgeber) gilt: Der Motor hilft nur, wenn Sie treten. Hintergrundwissen zur Technik liefert [Wikipedia zum Elektrofahrrad](https://de.wikipedia.org/wiki/Elektrofahrrad).
 
 ## Gravel E-Bike im Vergleich zu anderen Typen
 
@@ -29,31 +29,31 @@ Ein Gravel E-Bike steht zwischen mehreren Kategorien. Die Tabelle zeigt, worin d
 | Trekking E-Bike | 40 bis 60 mm | 24 bis 28 kg | Komfort, Gepäck |
 | E-Mountainbike | 2,25 bis 2,6 Zoll | 22 bis 28 kg | Gelände |
 
-Wer mehr Straßenleistung sucht, findet im Beitrag [E-Rennrad](/blog/e-rennrad-ratgeber) eine Alternative. Wer Gepäck und Komfort bevorzugt, ist bei den [Trekking E-Bikes](/e-bikes/trekking-e-bikes/) richtig.
+Wer mehr Straßenleistung sucht, findet im Beitrag [E-Rennrad](/e-bikes/e-rennrad-gravel/) eine Alternative. Wer Gepäck und Komfort bevorzugt, ist bei den [Trekking E-Bikes](/e-bikes/trekking-e-bikes/) richtig.
 
 ## Motor und Akku: leicht oder stark?
 
 Bei Gravel E-Bikes sind zwei Philosophien verbreitet. Leichte Systeme mit 40 bis 60 Newtonmetern Drehmoment, kleinen Akkus und rund 15 Kilogramm Gesamtgewicht fühlen sich wie ein normales Rad mit Rückenwind an. Kräftige Systeme mit 75 bis 85 Newtonmetern und Akkus von 500 bis 750 Wattstunden eignen sich für steile Anstiege und Gepäck, wiegen aber 20 Kilogramm und mehr.
 
-Als Faustregel für die Reichweite gilt: Pro 100 Wattstunden Akku erreichen Sie auf gemischtem Terrain etwa 15 bis 25 Kilometer. Ein 250-Wh-Akku genügt also für eine Feierabendrunde, ein 500-Wh-Akku für eine Tagestour mit 80 Kilometern. Mehr zur Technik der Antriebe finden Sie im Beitrag [E-Bike Motor: Arten im Überblick](/blog/e-bike-motor-arten).
+Als Faustregel für die Reichweite gilt: Pro 100 Wattstunden Akku erreichen Sie auf gemischtem Terrain etwa 15 bis 25 Kilometer. Ein 250-Wh-Akku genügt also für eine Feierabendrunde, ein 500-Wh-Akku für eine Tagestour mit 80 Kilometern. Mehr zur Technik der Antriebe finden Sie im Beitrag [E-Bike Motor: Arten im Überblick](/blog/e-bike-electric-motor-ratgeber).
 
 ## Reifen und Laufräder
 
 Die Reifenbreite bestimmt Grip und Komfort. Schmale Reifen mit 35 Millimetern rollen schnell auf Asphalt und festem Schotter. Breite Reifen mit 45 bis 50 Millimetern bieten mehr Dämpfung und Traktion auf losem Untergrund. Moderne Gravel-Laufräder sind tubeless-fähig, das senkt das Pannenrisiko und erlaubt niedrigeren Luftdruck.
 
-Der Luftdruck liegt je nach Gewicht, Reifenbreite und Untergrund zwischen 2,0 und 3,5 bar. Probieren Sie verschiedene Werte aus, denn zu viel Druck verschenkt Komfort und Grip. Achten Sie darauf, dass der Rahmen Platz für breite Reifen und eventuelle Schutzbleche lässt. Mehr zu diesem Thema steht im Beitrag [Schutzbleche fürs Fahrrad](/blog/schutzblech-fuers-fahrrad).
+Der Luftdruck liegt je nach Gewicht, Reifenbreite und Untergrund zwischen 2,0 und 3,5 bar. Probieren Sie verschiedene Werte aus, denn zu viel Druck verschenkt Komfort und Grip. Achten Sie darauf, dass der Rahmen Platz für breite Reifen und eventuelle Schutzbleche lässt. Mehr zu diesem Thema steht im Beitrag [Schutzbleche fürs Fahrrad](/blog/schutzblech-rennrad-ratgeber).
 
 ## Übersetzung und Schaltung
 
 Gravelbikes nutzen entweder eine 1x-Schaltung mit einem Kettenblatt vorne oder eine 2x-Schaltung mit zwei Blättern. Die 1x-Variante ist einfacher und robuster, die 2x-Variante bietet größere Bandbreite. Bei Motorunterstützung reicht meist ein 1x-System mit weitem Ritzelpaket, weil der Motor Steigungen abfängt.
 
-Alternativ bieten manche Hersteller Nabenschaltungen oder Riemenantriebe an. Diese sind wartungsarm und eignen sich für Pendler, die ihr Rad ganzjährig nutzen. Einen Einstieg bietet der Beitrag [E-Bike mit Riemenantrieb](/blog/e-bike-riemenantrieb-ratgeber).
+Alternativ bieten manche Hersteller Nabenschaltungen oder Riemenantriebe an. Diese sind wartungsarm und eignen sich für Pendler, die ihr Rad ganzjährig nutzen. Einen Einstieg bietet der Beitrag [E-Bike mit Riemenantrieb](/blog/schaltung-fahrrad-ratgeber).
 
 ## Rahmen, Gabel und Komfort
 
 Gravel E-Bikes gibt es mit Aluminium-, Carbon- oder Stahlrahmen. Aluminium ist robust und günstig, Carbon spart Gewicht und dämpft Vibrationen, Stahl bietet Langlebigkeit und feines Fahrgefühl. Viele Modelle haben eine starre Gabel, einige bieten Federelemente mit 20 bis 40 Millimetern Federweg. Auch gefederte Sattelstützen erhöhen den Komfort auf langen Fahrten.
 
-Montagepunkte für Schutzbleche, Gepäckträger und Taschen sind ein Zeichen für Alltagstauglichkeit. Wer Bikepacking plant, prüft zusätzlich die Aufnahmen für Flaschenhalter, Rahmentaschen und Oberrohrtaschen. Hilfreich ist hier der Beitrag [Rahmentasche am Fahrrad](/blog/rahmentasche-fahrrad).
+Montagepunkte für Schutzbleche, Gepäckträger und Taschen sind ein Zeichen für Alltagstauglichkeit. Wer Bikepacking plant, prüft zusätzlich die Aufnahmen für Flaschenhalter, Rahmentaschen und Oberrohrtaschen. Hilfreich ist hier der Beitrag [Rahmentasche am Fahrrad](/blog/fahrradtasche-rahmen-ratgeber).
 
 ## Für wen lohnt sich ein Gravel E-Bike?
 
@@ -75,7 +75,7 @@ Gute Hinweise zu Preisen und Lieferbarkeit finden Sie im [Sortiment](/shop).
 
 ## Pflege und Zubehör
 
-Reinigen Sie Ihr Gravel E-Bike nach schmutzigen Touren mit Wasser und weicher Bürste. Ölen Sie die Kette regelmäßig und prüfen Sie Bremsbeläge und Reifen. Nützliches Zubehör sind eine Satteltasche mit Ersatzschlauch, eine Minipumpe und ein Multitool. Informationen dazu finden Sie in den Beiträgen [Fahrradpflege beim E-Bike](/blog/fahrradpflege-e-bike) und [Flickzeug für das E-Bike](/blog/fahrrad-flickzeug-e-bike). Eine sichere Ausrüstung empfiehlt außerdem der [ADFC](https://www.adfc.de/).
+Reinigen Sie Ihr Gravel E-Bike nach schmutzigen Touren mit Wasser und weicher Bürste. Ölen Sie die Kette regelmäßig und prüfen Sie Bremsbeläge und Reifen. Nützliches Zubehör sind eine Satteltasche mit Ersatzschlauch, eine Minipumpe und ein Multitool. Informationen dazu finden Sie in den Beiträgen [Fahrradpflege beim E-Bike](/blog/e-bike-wartung-tipps-fuer-den-winter) und [Flickzeug für das E-Bike](/blog/reifen-fahrrad-spikes-ratgeber). Eine sichere Ausrüstung empfiehlt außerdem der [ADFC](https://www.adfc.de/).
 
 ## Typische Einsatzszenarien
 

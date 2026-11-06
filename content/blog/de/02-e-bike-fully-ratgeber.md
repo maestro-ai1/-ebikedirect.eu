@@ -42,19 +42,19 @@ Der Federweg bestimmt den Charakter des Rads. Als Faustregel gilt:
 - 150 bis 170 mm: Enduro. Für ruppige Abfahrten, größere Sprünge und Bikepark.
 - über 170 mm: Downhill und Freeride, selten als E-Bike mit Pedalierfokus.
 
-Für den Einstieg empfehlen sich 130 bis 150 Millimeter. Das ist vielseitig, bergauf noch effizient und bergab ausreichend sicher. Wer extreme Abfahrten fährt, findet im Beitrag [E-Bike Enduro](/blog/e-bike-enduro) weitere Hinweise.
+Für den Einstieg empfehlen sich 130 bis 150 Millimeter. Das ist vielseitig, bergauf noch effizient und bergab ausreichend sicher. Wer extreme Abfahrten fährt, findet im Beitrag [E-Bike Enduro](/blog/e-bike-mtb-ratgeber) weitere Hinweise.
 
 ## Motor: Drehmoment und Fahrcharakter
 
 Beim E-Bike Fully dominieren Mittelmotoren von Bosch, Shimano, Yamaha und Brose. Wichtige Kennzahlen sind Drehmoment, Gewicht und Ansprechverhalten. Ein hohes Drehmoment (85 Nm) hilft an steilen Rampen und bei niedriger Trittfrequenz. Ein natürlich ansprechender Motor erleichtert das Fahren in technischem Gelände, weil die Unterstützung proportional zur Tretkraft abgegeben wird.
 
-Der Motor entscheidet auch über die Bedienung. Moderne Systeme verfügen über mehrere Unterstützungsstufen und einen Trail- oder eMTB-Modus, der sich automatisch an Ihre Tretkraft anpasst. Mehr zu Motorarten finden Sie im Beitrag [E-Bike Motor: Arten im Überblick](/blog/e-bike-motor-arten) und zu Bosch im Besonderen im Beitrag [Bosch E-Bike Motor](/blog/ebike-bosch-motor).
+Der Motor entscheidet auch über die Bedienung. Moderne Systeme verfügen über mehrere Unterstützungsstufen und einen Trail- oder eMTB-Modus, der sich automatisch an Ihre Tretkraft anpasst. Mehr zu Motorarten finden Sie im Beitrag [E-Bike Motor: Arten im Überblick](/blog/e-bike-electric-motor-ratgeber) und zu Bosch im Besonderen im Beitrag [Bosch E-Bike Motor](/blog/elektro-bike-bosch-motor-ratgeber).
 
 ## Akku und Reichweite beim Fully
 
 Im Gelände verbraucht ein E-Bike mehr Energie als auf der Straße. Deshalb haben Fullys meist größere Akkus mit 625 bis 800 Wattstunden, einige Modelle erlauben ein Range-Extender-Zusatzakku. Eine Faustformel: Im Gelände mit viel Höhenmetern erreichen Sie mit 625 Wh etwa 50 bis 80 Kilometer, mit 750 Wh etwa 60 bis 100 Kilometer. Das hängt stark von Gewicht, Fahrstil und Unterstützungsstufe ab.
 
-Ein integrierter Akku im Unterrohr verbessert Optik und Schwerpunkt. Ein herausnehmbarer Akku erleichtert das Laden in der Wohnung. Achten Sie darauf, dass der Akku auch nach Jahren als Ersatzteil verfügbar ist. Lesen Sie ergänzend unseren Beitrag zum [Bosch Akku](/blog/bosch-akku-ebike).
+Ein integrierter Akku im Unterrohr verbessert Optik und Schwerpunkt. Ein herausnehmbarer Akku erleichtert das Laden in der Wohnung. Achten Sie darauf, dass der Akku auch nach Jahren als Ersatzteil verfügbar ist. Lesen Sie ergänzend unseren Beitrag zum [Bosch Akku](/blog/akku-fahrradpumpe-ratgeber).
 
 ## Rahmen, Material und Gewicht
 
@@ -68,9 +68,9 @@ Bekannte Hersteller für E-Bike Fullys sind [Cube](/marken/cube/), [Haibike](/ma
 
 ## Wartung und Pflege
 
-Ein Fully braucht mehr Pflege als ein Hardtail. Gabel und Dämpfer sollten regelmäßig geprüft und nach Herstellerangabe gewartet werden, meist alle 50 bis 100 Betriebsstunden oder einmal im Jahr. Die Lager des Hinterbaus sind Verschleißteile und müssen gelegentlich gefettet oder ersetzt werden. Reinigen Sie das Rad nach schmutzigen Touren mit Wasser und weicher Bürste, vermeiden Sie den Hochdruckreiniger. Mehr dazu lesen Sie im Beitrag [Fahrradpflege für das E-Bike](/blog/fahrradpflege-e-bike).
+Ein Fully braucht mehr Pflege als ein Hardtail. Gabel und Dämpfer sollten regelmäßig geprüft und nach Herstellerangabe gewartet werden, meist alle 50 bis 100 Betriebsstunden oder einmal im Jahr. Die Lager des Hinterbaus sind Verschleißteile und müssen gelegentlich gefettet oder ersetzt werden. Reinigen Sie das Rad nach schmutzigen Touren mit Wasser und weicher Bürste, vermeiden Sie den Hochdruckreiniger. Mehr dazu lesen Sie im Beitrag [Fahrradpflege für das E-Bike](/blog/e-bike-wartung-tipps-fuer-den-winter).
 
-Der Reifendruck ist beim Fully besonders wichtig. Zu hoher Druck verschenkt Grip, zu niedriger erhöht das Pannenrisiko. Tubeless-Reifen mit Dichtmilch senken die Pannenhäufigkeit. Informationen zur Ersten Hilfe bei Pannen finden Sie unter [Flickzeug für das E-Bike](/blog/fahrrad-flickzeug-e-bike).
+Der Reifendruck ist beim Fully besonders wichtig. Zu hoher Druck verschenkt Grip, zu niedriger erhöht das Pannenrisiko. Tubeless-Reifen mit Dichtmilch senken die Pannenhäufigkeit. Informationen zur Ersten Hilfe bei Pannen finden Sie unter [Flickzeug für das E-Bike](/blog/reifen-fahrrad-spikes-ratgeber).
 
 ## Typische Fehler beim Kauf eines Fullys
 
@@ -95,7 +95,7 @@ Notieren Sie sich die Einstellungen von Sattelhöhe, Gabel und Dämpfer, damit d
 
 ## Kosten und Zubehör
 
-Ein E-Bike Fully kostet je nach Ausstattung zwischen 3.500 und 9.000 Euro, Spitzenmodelle mit Carbon-Rahmen und elektronischer Schaltung liegen darüber. Planen Sie zusätzlich Zubehör ein: einen passenden Helm, Handschuhe, Schutzbrille, Werkzeug und eine Luftpumpe. Für den Transport benötigen Sie gegebenenfalls einen geeigneten Träger. Wer das Rad finanzieren möchte, findet Hinweise im Beitrag [E-Bike finanzieren](/blog/e-bike-finanzieren).
+Ein E-Bike Fully kostet je nach Ausstattung zwischen 3.500 und 9.000 Euro, Spitzenmodelle mit Carbon-Rahmen und elektronischer Schaltung liegen darüber. Planen Sie zusätzlich Zubehör ein: einen passenden Helm, Handschuhe, Schutzbrille, Werkzeug und eine Luftpumpe. Für den Transport benötigen Sie gegebenenfalls einen geeigneten Träger. Wer das Rad finanzieren möchte, findet Hinweise im Beitrag [E-Bike finanzieren](/blog/e-bike-leasing-jobrad-steuervorteile-gehaltsumwandlung).
 
 Den Überblick über sichere Ausrüstung bietet der [ADFC](https://www.adfc.de/), Herstellerinformationen zu Motoren und Akkus finden Sie bei [Bosch eBike Systems](https://www.bosch-ebike.com/de/). Wer sich unsicher ist, kann mit dem Beratungsteam sprechen und Fragen zu Lieferung und Rückgabe klären, siehe [Rückgabe](/policies/returns) und [häufige Fragen](/faq).
 

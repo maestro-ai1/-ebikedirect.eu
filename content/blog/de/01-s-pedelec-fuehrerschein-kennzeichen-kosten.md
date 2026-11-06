@@ -32,7 +32,7 @@ Der Unterschied zum normalen Pedelec (bis 25 km/h und 250 Watt) ist größer, al
 | Radwege innerorts | erlaubt | verboten, außer freigegeben |
 | Mindestalter | keines | 16 Jahre |
 
-Wer die Grundlagen zum normalen Modell nachlesen möchte, findet sie in unserem Beitrag [Was ist ein Pedelec?](/blog/was-ist-pedelec).
+Wer die Grundlagen zum normalen Modell nachlesen möchte, findet sie in unserem Beitrag [Was ist ein Pedelec?](/blog/was-wiegt-ein-e-bike-ratgeber).
 
 ## Welchen Führerschein brauchen Sie?
 
@@ -64,7 +64,7 @@ Die meisten Hersteller liefern diese Ausstattung ab Werk. Prüfen Sie beim Kauf 
 
 Innerorts dürfen S-Pedelecs nicht auf Radwegen fahren, außer sie sind per Zusatzzeichen ausdrücklich für Mofas oder Kleinkrafträder freigegeben. Sie nutzen also die Fahrbahn und mischen sich unter den Autoverkehr. Außerorts gilt das Radwegverbot ebenfalls, wenn der Weg nicht freigegeben ist, hier dürfen Sie aber auf der Landstraße fahren. Auf Waldwegen, in Fußgängerzonen und auf reinen Radwegen ist das S-Pedelec nicht erlaubt.
 
-Für Pendler ist das ein wichtiger Punkt. Wer täglich 15 bis 25 Kilometer auf Hauptstraßen unterwegs ist, ist mit einem S-Pedelec deutlich schneller als mit einem normalen Pedelec und oft konkurrenzfähig zum Auto. Wer dagegen überwiegend auf Radwegen und Nebenstrecken fährt, ist mit einem normalen Modell besser bedient. Mehr zu Alltagsmodellen lesen Sie bei den [City E-Bikes](/e-bikes/city-e-bikes/) und im Beitrag [E-Bike mit 45 km/h](/blog/e-bike-45-km-h).
+Für Pendler ist das ein wichtiger Punkt. Wer täglich 15 bis 25 Kilometer auf Hauptstraßen unterwegs ist, ist mit einem S-Pedelec deutlich schneller als mit einem normalen Pedelec und oft konkurrenzfähig zum Auto. Wer dagegen überwiegend auf Radwegen und Nebenstrecken fährt, ist mit einem normalen Modell besser bedient. Mehr zu Alltagsmodellen lesen Sie bei den [City E-Bikes](/e-bikes/city-e-bikes/) und im Beitrag [E-Bike mit 45 km/h](/e-bikes/s-pedelec/).
 
 ## Kosten im Überblick
 
@@ -103,7 +103,7 @@ Informationen zu Lieferung und Rückgabe finden Sie in unseren Hinweisen zur [Li
 
 Der Kauf eines S-Pedelecs unterscheidet sich vom Kauf eines normalen E-Bikes in einigen Schritten. Zuerst klären Sie, ob Sie die Fahrerlaubnis besitzen. Wer Klasse B hat, kann sofort fahren. Danach wählen Sie das Modell und prüfen, ob die Betriebserlaubnis (die sogenannte COC-Bescheinigung oder die nationale Zulassung) mitgeliefert wird. Diese Unterlagen brauchen Sie, um das Versicherungskennzeichen zu beantragen. Die Versicherung stellen Sie vor der ersten Fahrt ab, die meisten Anbieter bieten das online in wenigen Minuten an.
 
-Bei der Übergabe lohnt eine Probefahrt auf einer Strecke, die Ihrem Alltag ähnelt. Achten Sie auf die Sitzposition, das Ansprechverhalten des Motors bei 40 km/h und die Bremsleistung. Ein S-Pedelec fühlt sich wegen der höheren Geschwindigkeit und des meist höheren Gewichts anders an als ein normales Rad. Rechnen Sie bei den meisten Modellen mit 25 bis 30 Kilogramm. Mehr zu diesem Thema lesen Sie im Beitrag [Gewicht beim E-Bike](/blog/gewicht-e-bike).
+Bei der Übergabe lohnt eine Probefahrt auf einer Strecke, die Ihrem Alltag ähnelt. Achten Sie auf die Sitzposition, das Ansprechverhalten des Motors bei 40 km/h und die Bremsleistung. Ein S-Pedelec fühlt sich wegen der höheren Geschwindigkeit und des meist höheren Gewichts anders an als ein normales Rad. Rechnen Sie bei den meisten Modellen mit 25 bis 30 Kilogramm. Mehr zu diesem Thema lesen Sie im Beitrag [Gewicht beim E-Bike](/blog/was-wiegt-ein-e-bike-ratgeber).
 
 Auch der Akku verdient Aufmerksamkeit. Bei dauerhaft hoher Unterstützung und Tempo über 35 km/h verbraucht ein S-Pedelec deutlich mehr Energie. Wer täglich pendelt, sollte am Arbeitsplatz laden können oder einen zweiten Akku in Betracht ziehen. Informationen zu Technik und Herstellern bietet der Motorenhersteller [Bosch eBike Systems](https://www.bosch-ebike.com/de/) auf der Herstellerseite, dort finden sich auch Hinweise zu den Systemen für schnelle Pedelecs. Rechtliche Grundlagen zur Fahrzeugklasse erklärt außerdem der Artikel zum [Kleinkraftrad](https://de.wikipedia.org/wiki/Kleinkraftrad).
 
@@ -129,7 +129,7 @@ Innerorts nicht, außer der Radweg ist ausdrücklich für Kleinkrafträder freig
 
 ### Was kostet ein S-Pedelec im Jahr?
 
-Neben der Anschaffung fallen jährlich etwa 60 bis 150 Euro für das Versicherungskennzeichen, 150 bis 400 Euro für Verschleißteile und 100 bis 250 Euro für Wartung an. Über fünf Jahre lohnt sich die Rechnung vor allem für Pendler, die das Auto ersetzen. Lesen Sie dazu auch unseren Beitrag zu [E-Bike Finanzierung](/blog/e-bike-finanzieren).
+Neben der Anschaffung fallen jährlich etwa 60 bis 150 Euro für das Versicherungskennzeichen, 150 bis 400 Euro für Verschleißteile und 100 bis 250 Euro für Wartung an. Über fünf Jahre lohnt sich die Rechnung vor allem für Pendler, die das Auto ersetzen. Lesen Sie dazu auch unseren Beitrag zu [E-Bike Finanzierung](/blog/e-bike-leasing-jobrad-steuervorteile-gehaltsumwandlung).
 
 ## Fazit
 

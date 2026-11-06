@@ -22,7 +22,7 @@ Das Gewicht setzt sich aus Rahmen, Antrieb, Akku und Anbauteilen zusammen. Der A
 
 Es gibt vier Stellschrauben. Erstens der Rahmen: Carbon ist leichter als Aluminium, Aluminium leichter als Stahl. Zweitens der Antrieb: Kompakte Heckmotoren oder Mittelmotoren mit wenig Masse sparen ein bis zwei Kilogramm. Drittens der Akku: Kleine, fest integrierte Akkus sind leichter als große, herausnehmbare. Viertens die Anbauteile: Schlanke Gabeln, leichte Laufräder und der Verzicht auf Schutzbleche und Gepäckträger.
 
-Wer ein leichtes E-Bike für den Alltag sucht, sollte prüfen, welche dieser Einsparungen sinnvoll sind. Ein Rad ohne Schutzbleche und Beleuchtung ist leichter, aber im Alltag unpraktisch. Mehr zum Gewicht aller Bauteile lesen Sie im Beitrag [Gewicht beim E-Bike](/blog/gewicht-e-bike).
+Wer ein leichtes E-Bike für den Alltag sucht, sollte prüfen, welche dieser Einsparungen sinnvoll sind. Ein Rad ohne Schutzbleche und Beleuchtung ist leichter, aber im Alltag unpraktisch. Mehr zum Gewicht aller Bauteile lesen Sie im Beitrag [Gewicht beim E-Bike](/blog/was-wiegt-ein-e-bike-ratgeber).
 
 ## Vergleich: leicht, normal und schwer
 
@@ -49,7 +49,7 @@ Wer täglich 40 Kilometer mit viel Höhenmetern fährt oder Gepäck mitnimmt, ko
 
 ## Für wen eignet sich ein leichtes E-Bike?
 
-Ein leichtes E-Bike ist ideal für Stadtfahrer mit kurzen bis mittleren Strecken, für sportliche Fahrer, die Unterstützung bei Steigungen wünschen, und für Personen, die das Rad oft tragen müssen. Auch Pendler, die ihr Rad im Büro oder in der Bahn mitführen, profitieren. Für Senioren ist ein leichtes Modell mit tiefem Einstieg eine gute Wahl, siehe [E-Bike mit tiefem Einstieg](/blog/e-bike-tiefeinsteiger).
+Ein leichtes E-Bike ist ideal für Stadtfahrer mit kurzen bis mittleren Strecken, für sportliche Fahrer, die Unterstützung bei Steigungen wünschen, und für Personen, die das Rad oft tragen müssen. Auch Pendler, die ihr Rad im Büro oder in der Bahn mitführen, profitieren. Für Senioren ist ein leichtes Modell mit tiefem Einstieg eine gute Wahl, siehe [E-Bike mit tiefem Einstieg](/blog/kalkhoff-fahrrad-damen-ratgeber).
 
 Weniger geeignet ist es für Familien mit Kindersitz, für Lastentransport und für lange Reisen ohne Lademöglichkeit. Hier sind robustere Modelle mit mehr Akku und Tragkraft besser.
 
@@ -61,11 +61,11 @@ Weniger geeignet ist es für Familien mit Kindersitz, für Lastentransport und f
 4. Ausstattung prüfen: Schutzbleche, Licht, Gepäckträger und Ständer sind im Alltag wichtig.
 5. Service klären: Leichte Antriebe haben eigene Wartungskonzepte.
 
-Wer das Rad finanzieren möchte, findet Informationen im Beitrag [E-Bike finanzieren](/blog/e-bike-finanzieren). Aktuelle Modelle sehen Sie im [Sortiment](/shop).
+Wer das Rad finanzieren möchte, findet Informationen im Beitrag [E-Bike finanzieren](/blog/e-bike-leasing-jobrad-steuervorteile-gehaltsumwandlung). Aktuelle Modelle sehen Sie im [Sortiment](/shop).
 
 ## Pflege und Wartung
 
-Leichte Räder verlangen Sorgfalt. Carbon-Rahmen sollten nicht mit zu hohem Anzugsdrehmoment verschraubt werden, schmale Reifen brauchen regelmäßige Luftdruckkontrolle. Reinigen Sie das Rad ohne Hochdruckreiniger und prüfen Sie Kette und Bremsbeläge. Weitere Tipps im Beitrag [Fahrradpflege beim E-Bike](/blog/fahrradpflege-e-bike). Sicherheitstipps zur Ausrüstung bietet der [ADFC](https://www.adfc.de/).
+Leichte Räder verlangen Sorgfalt. Carbon-Rahmen sollten nicht mit zu hohem Anzugsdrehmoment verschraubt werden, schmale Reifen brauchen regelmäßige Luftdruckkontrolle. Reinigen Sie das Rad ohne Hochdruckreiniger und prüfen Sie Kette und Bremsbeläge. Weitere Tipps im Beitrag [Fahrradpflege beim E-Bike](/blog/e-bike-wartung-tipps-fuer-den-winter). Sicherheitstipps zur Ausrüstung bietet der [ADFC](https://www.adfc.de/).
 
 Beim Akku gilt: nicht tiefentladen, trocken lagern und mit dem Originalladegerät laden. Ein kleiner Akku altert schneller, wenn er täglich vollständig entladen wird, planen Sie Zwischenladungen ein.
 

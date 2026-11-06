@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-10-31
 updated: 2026-10-31
 ---
-Ein Fahrradträger für E-Bikes muss mehr leisten als ein Träger für normale Räder, denn ein E-Bike wiegt 22 bis 30 Kilogramm und damit deutlich mehr. Wer zwei Räder transportiert, bewegt schnell 60 Kilogramm an der Anhängerkupplung. Dieser Ratgeber erklärt, welche Trägertypen es gibt, worauf Sie bei Tragkraft und Stützlast achten müssen und wie Sie Ihr E-Bike sicher verladen. Informationen zum Gewicht von Elektrorädern finden Sie im Beitrag [Gewicht beim E-Bike](/blog/gewicht-e-bike).
+Ein Fahrradträger für E-Bikes muss mehr leisten als ein Träger für normale Räder, denn ein E-Bike wiegt 22 bis 30 Kilogramm und damit deutlich mehr. Wer zwei Räder transportiert, bewegt schnell 60 Kilogramm an der Anhängerkupplung. Dieser Ratgeber erklärt, welche Trägertypen es gibt, worauf Sie bei Tragkraft und Stützlast achten müssen und wie Sie Ihr E-Bike sicher verladen. Informationen zum Gewicht von Elektrorädern finden Sie im Beitrag [Gewicht beim E-Bike](/blog/was-wiegt-ein-e-bike-ratgeber).
 
 ## Warum ein spezieller Träger nötig ist
 
@@ -34,7 +34,7 @@ Für E-Bikes ist der Kupplungsträger die beste Lösung. Er verteilt das Gewicht
 
 Zwei Zahlen entscheiden: die zulässige Zuladung des Trägers und die Stützlast der Anhängerkupplung. Die Stützlast ist die Last, die senkrecht auf der Kupplungskugel ruht, sie steht im Fahrzeugschein und liegt oft bei 50 bis 100 Kilogramm. Von diesem Wert müssen Sie das Eigengewicht des Trägers (meist 15 bis 20 kg) abziehen. Der Rest ist die Zuladung für die Räder.
 
-Rechenbeispiel: Stützlast 75 kg, Träger 17 kg, bleiben 58 kg. Zwei E-Bikes mit je 25 kg ergeben 50 kg, das passt. Drei Räder passen nicht mehr. Überschreiten Sie die Stützlast nie, denn das beeinträchtigt die Lenkung und das Bremsverhalten. Mehr zum Thema Transport finden Sie im Beitrag [Fahrradtransport mit dem E-Bike](/blog/fahrradtransport-e-bike).
+Rechenbeispiel: Stützlast 75 kg, Träger 17 kg, bleiben 58 kg. Zwei E-Bikes mit je 25 kg ergeben 50 kg, das passt. Drei Räder passen nicht mehr. Überschreiten Sie die Stützlast nie, denn das beeinträchtigt die Lenkung und das Bremsverhalten. Mehr zum Thema Transport finden Sie im Beitrag [Fahrradtransport mit dem E-Bike](/blog/fahrradstaender-hinterrad-ratgeber).
 
 ## Wichtige Ausstattung für E-Bike-Träger
 
@@ -57,9 +57,9 @@ Auch das Gesamtmaß zählt. Die Räder dürfen seitlich nicht über die Fahrzeug
 
 ## Akku und Display vor der Fahrt abnehmen
 
-Nehmen Sie Akku, Display und Bordcomputer vor der Fahrt ab. Akkus sind schwer, teuer und anfällig für Regen und Steinschlag. Sie reduzieren zudem das Gewicht am Träger um zwei bis vier Kilogramm. Transportieren Sie den Akku im Innenraum, trocken und nicht im Kofferraum bei großer Hitze. Weitere Hinweise zum Akku lesen Sie im Beitrag [Bosch Akku im Überblick](/blog/bosch-akku-ebike).
+Nehmen Sie Akku, Display und Bordcomputer vor der Fahrt ab. Akkus sind schwer, teuer und anfällig für Regen und Steinschlag. Sie reduzieren zudem das Gewicht am Träger um zwei bis vier Kilogramm. Transportieren Sie den Akku im Innenraum, trocken und nicht im Kofferraum bei großer Hitze. Weitere Hinweise zum Akku lesen Sie im Beitrag [Bosch Akku im Überblick](/blog/akku-fahrradpumpe-ratgeber).
 
-Decken Sie die Anschlüsse am Rad mit Schutzkappen ab. Bei Regen schützt eine Abdeckung das Rad vor Spritzwasser und Dreck. Sie finden passende Schutzmaßnahmen im Beitrag [Transportschutz für E-Bikes](/blog/e-bike-transportschutz).
+Decken Sie die Anschlüsse am Rad mit Schutzkappen ab. Bei Regen schützt eine Abdeckung das Rad vor Spritzwasser und Dreck. Sie finden passende Schutzmaßnahmen im Beitrag [Transportschutz für E-Bikes](/zubehoer/gepaecktraeger-anhaenger/).
 
 ## So laden Sie das E-Bike sicher auf
 
@@ -89,7 +89,7 @@ Viertens: Die Fahrweise. Ein beladenes Heck verändert den Schwerpunkt, das Fahr
 
 ## Alternativen zum Fahrradträger
 
-Wer kein Anhängerkupplungs-Fahrzeug besitzt, hat Alternativen. Ein Kombi oder Van mit umgelegten Sitzen nimmt ein oder zwei E-Bikes im Innenraum auf, vorausgesetzt der Akku ist abgenommen und das Rad ist gegen Verrutschen gesichert. Faltbare E-Bikes passen oft in den Kofferraum, siehe den Beitrag [Klapp E-Bike im Überblick](/blog/klapp-e-bike-ratgeber). Für Reisen mit der Bahn oder dem Flugzeug gelten andere Regeln, die wir im Beitrag [Fahrradtransport mit dem E-Bike](/blog/fahrradtransport-e-bike) erklären.
+Wer kein Anhängerkupplungs-Fahrzeug besitzt, hat Alternativen. Ein Kombi oder Van mit umgelegten Sitzen nimmt ein oder zwei E-Bikes im Innenraum auf, vorausgesetzt der Akku ist abgenommen und das Rad ist gegen Verrutschen gesichert. Faltbare E-Bikes passen oft in den Kofferraum, siehe den Beitrag [Klapp E-Bike im Überblick](/e-bikes/falt-e-bikes/). Für Reisen mit der Bahn oder dem Flugzeug gelten andere Regeln, die wir im Beitrag [Fahrradtransport mit dem E-Bike](/blog/fahrradstaender-hinterrad-ratgeber) erklären.
 
 Wer häufig verreist, kann außerdem einen Fahrradanhänger oder einen Mietträger nutzen. Viele Autovermieter und Fahrradgeschäfte bieten Kupplungsträger stundenweise an. Das spart Anschaffung und Lagerplatz. Informationen zur Anhängerkupplung als technisches Bauteil bietet [Wikipedia zur Anhängerkupplung](https://de.wikipedia.org/wiki/Anh%C3%A4ngerkupplung).
 

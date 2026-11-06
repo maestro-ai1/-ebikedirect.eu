@@ -16,7 +16,7 @@ Ein E-Bike Fahrradhalter muss Lasten tragen, für die ein einfacher Haken nicht 
 
 Viele Standard-Wandhaken sind für 15 bis 20 Kilogramm ausgelegt. Das reicht für ein Stadtrad, nicht aber für ein E-Bike mit Akku und Motor. Hinzu kommt die Geometrie: Dicke Rahmenrohre, integrierte Akkus im Unterrohr und breite Reifen passen nicht in jede Halterung. Ein schlecht passender Halter drückt auf Kabel, Verkleidungen oder Carbon-Rohre und kann Schäden verursachen.
 
-Auch das Heben ist ein Thema. Ein 25-Kilogramm-Rad über Kopfhöhe an die Wand zu hängen, belastet Rücken und Schultern. Prüfen Sie deshalb, ob Sie das Rad dauerhaft ohne Hilfe heben können, oder entscheiden Sie sich für eine Lösung mit niedrigerer Hubhöhe oder Hebehilfe. Über das Gewicht von Pedelecs informiert der Beitrag [Gewicht beim E-Bike](/blog/gewicht-e-bike).
+Auch das Heben ist ein Thema. Ein 25-Kilogramm-Rad über Kopfhöhe an die Wand zu hängen, belastet Rücken und Schultern. Prüfen Sie deshalb, ob Sie das Rad dauerhaft ohne Hilfe heben können, oder entscheiden Sie sich für eine Lösung mit niedrigerer Hubhöhe oder Hebehilfe. Über das Gewicht von Pedelecs informiert der Beitrag [Gewicht beim E-Bike](/blog/was-wiegt-ein-e-bike-ratgeber).
 
 ## Die wichtigsten Typen im Überblick
 
@@ -29,7 +29,7 @@ Auch das Heben ist ein Thema. Ein 25-Kilogramm-Rad über Kopfhöhe an die Wand z
 | Bodenständer | je nach Modell | hoch | gut |
 | Wandschiene mit Radschiene (Rad bleibt stehen) | 30 kg und mehr | mittel | sehr gut |
 
-Für E-Bikes sind Halter mit Rahmenaufnahme, Deckenlifte und Systeme, bei denen das Rad auf dem Boden steht, am besten geeignet. Bodenständer und Alternativen beschreibt der Beitrag [Fahrradständer für das E-Bike](/blog/fahrradstaender-e-bike).
+Für E-Bikes sind Halter mit Rahmenaufnahme, Deckenlifte und Systeme, bei denen das Rad auf dem Boden steht, am besten geeignet. Bodenständer und Alternativen beschreibt der Beitrag [Fahrradständer für das E-Bike](/blog/fahrradstaender-hinterrad-ratgeber).
 
 ## Tragkraft und Wandbefestigung prüfen
 
@@ -39,7 +39,7 @@ Eine praktische Regel: Planen Sie mit dem doppelten Gewicht des Rades als Sicher
 
 ## Rahmen und Akku schützen
 
-Ein E-Bike hat empfindliche Teile. Kabel, Sensoren, Display und Akku sollten nicht am Halter reiben. Verwenden Sie Halter mit Gummieinlagen, die Lack und Carbon schützen. Hängen Sie das Rad nicht an der Felge auf, wenn der Reifen nicht für die Last geeignet ist, und nehmen Sie bei einem integrierten Akku Rücksicht auf das Unterrohr. Wichtig ist auch die Lagerung des Akkus. Ein Akku sollte nicht in einer kalten Garage hängen, sondern bei 10 bis 20 Grad Celsius und etwa 30 bis 60 Prozent Ladung lagern. Details finden Sie im Beitrag [Bosch Akku im Überblick](/blog/bosch-akku-ebike).
+Ein E-Bike hat empfindliche Teile. Kabel, Sensoren, Display und Akku sollten nicht am Halter reiben. Verwenden Sie Halter mit Gummieinlagen, die Lack und Carbon schützen. Hängen Sie das Rad nicht an der Felge auf, wenn der Reifen nicht für die Last geeignet ist, und nehmen Sie bei einem integrierten Akku Rücksicht auf das Unterrohr. Wichtig ist auch die Lagerung des Akkus. Ein Akku sollte nicht in einer kalten Garage hängen, sondern bei 10 bis 20 Grad Celsius und etwa 30 bis 60 Prozent Ladung lagern. Details finden Sie im Beitrag [Bosch Akku im Überblick](/blog/akku-fahrradpumpe-ratgeber).
 
 Prüfen Sie außerdem, ob die Halterung Schutzbleche, Lenkerbreite und Pedale berücksichtigt. Breite Lenker brauchen Abstand zur Wand, damit sie nicht anschlagen. Ein Mindestabstand von 40 bis 50 Zentimetern zwischen mehreren Rädern verhindert Beschädigungen.
 
@@ -57,7 +57,7 @@ Nehmen Sie Akku und Zubehör vor dem Aufhängen ab. Das reduziert das Gewicht um
 
 ## Alternativen bei wenig Kraft oder Platz
 
-Wer das Rad nicht anheben kann, wählt eine Lösung, die auf dem Boden bleibt. Wandschienen mit Radschiene halten das Rad aufrecht und platzsparend, ohne dass Sie es heben müssen. Deckenlifte nehmen das Gewicht über einen Seilzug ab und eignen sich für Garagen mit hoher Decke. Bei kleinen Wohnungen helfen Klapprad-Modelle, die sich zusammenklappen und in den Schrank stellen lassen, siehe [Klapp E-Bike im Überblick](/blog/klapp-e-bike-ratgeber).
+Wer das Rad nicht anheben kann, wählt eine Lösung, die auf dem Boden bleibt. Wandschienen mit Radschiene halten das Rad aufrecht und platzsparend, ohne dass Sie es heben müssen. Deckenlifte nehmen das Gewicht über einen Seilzug ab und eignen sich für Garagen mit hoher Decke. Bei kleinen Wohnungen helfen Klapprad-Modelle, die sich zusammenklappen und in den Schrank stellen lassen, siehe [Klapp E-Bike im Überblick](/e-bikes/falt-e-bikes/).
 
 Auch ein stabiler Ständer im Flur oder im Keller ist eine einfache Lösung. Er benötigt keine Montage und lässt sich bei Bedarf verschieben. Für lange Standzeiten im Winter eignen sich zusätzlich Radschuhe oder Abdeckhauben, die Staub fernhalten.
 
@@ -65,7 +65,7 @@ Auch ein stabiler Ständer im Flur oder im Keller ist eine einfache Lösung. Er 
 
 Ein Halter an der Wand schützt nicht vor Diebstahl. Sichern Sie das Rad zusätzlich mit einem Rahmenschloss oder einer Kette, die an einem fest verankerten Punkt befestigt ist. Das gilt besonders in Garagen und Kellern, die von mehreren Parteien genutzt werden. Dokumentieren Sie die Rahmennummer und fotografieren Sie das Rad. Hinweise zur Sicherheit im Alltag bietet der [ADFC](https://www.adfc.de/).
 
-Vergessen Sie nicht den Brandschutz. Lagern Sie Akkus nicht in der Nähe von Wärmequellen oder brennbaren Materialien und verwenden Sie nur Originalladegeräte. Mehr dazu im Beitrag [Bosch Ladegerät für das E-Bike](/blog/bosch-ladegeraet-ebike).
+Vergessen Sie nicht den Brandschutz. Lagern Sie Akkus nicht in der Nähe von Wärmequellen oder brennbaren Materialien und verwenden Sie nur Originalladegeräte. Mehr dazu im Beitrag [Bosch Ladegerät für das E-Bike](/blog/bosch-charger-e-bike-ratgeber).
 
 ## Kosten und Qualität
 
@@ -83,7 +83,7 @@ Viertens wird die Bedienung unterschätzt. Wer das Rad täglich auf- und abhäng
 
 Bei längerer Standzeit zählt mehr als der Halter. Pumpen Sie die Reifen vor dem Aufhängen voll auf, denn hängende Reifen verlieren Luft und können Standplatten bekommen. Ölen Sie die Kette leicht, damit sie nicht rostet, und decken Sie das Rad bei staubiger Umgebung ab. Das Display und die Anschlüsse sollten trocken bleiben, Feuchtigkeit in der Garage ist ein häufiger Grund für Kontaktprobleme.
 
-Der Akku wird getrennt gelagert. Idealerweise liegt er bei 10 bis 20 Grad Celsius, trocken und mit etwa der Hälfte der Ladung. Laden Sie ihn alle zwei bis drei Monate kurz nach, damit er nicht tiefentlädt. Details zur Pflege lesen Sie im Beitrag [Fahrradpflege beim E-Bike](/blog/fahrradpflege-e-bike) und zur Technik bei [Bosch eBike Systems](https://www.bosch-ebike.com/de/).
+Der Akku wird getrennt gelagert. Idealerweise liegt er bei 10 bis 20 Grad Celsius, trocken und mit etwa der Hälfte der Ladung. Laden Sie ihn alle zwei bis drei Monate kurz nach, damit er nicht tiefentlädt. Details zur Pflege lesen Sie im Beitrag [Fahrradpflege beim E-Bike](/blog/e-bike-wartung-tipps-fuer-den-winter) und zur Technik bei [Bosch eBike Systems](https://www.bosch-ebike.com/de/).
 
 ## Checkliste vor dem Kauf
 
