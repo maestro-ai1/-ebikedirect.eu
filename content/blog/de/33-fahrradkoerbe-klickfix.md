@@ -69,6 +69,10 @@ Körbe sind offen, bei Regen wird der Inhalt nass. Eine Regenhaube oder ein Inne
 
 Pendler mit Laptop wählen eine wasserdichte Lenkertasche mit Klicksystem, Einkaufsfahrer einen großen Korb am Gepäckträger. Wer Kinder oder Hund transportiert, braucht stabile, dafür freigegebene Spezialhalterungen. Sportliche Fahrer nutzen eher kleine Taschen am Rahmen. Entscheiden Sie nach dem, was Sie wirklich transportieren, und planen Sie Reserve für Zukäufe ein. Prüfen Sie vor dem Kauf immer die zulässige Last von Adapter, Korb und Träger.
 
+## Passende Taschen und Halter im Sortiment
+
+Wer den Platz am Lenker nutzen möchte, findet im Sortiment passende Ergänzungen: die [Tenways Gepäcktasche L](/shop/tenways-gepaecktasche-l) für den Gepäckträger, die [Tenways Hüfttasche](/shop/tenways-huefttasche) für Kleinigkeiten und die [Tenways Universal Handyhalterung](/shop/tenways-universal-handyhalterung) für das Smartphone. Räder mit Gepäckträger finden Sie in den Kategorien [Trekking E-Bikes](/e-bikes/trekking-e-bikes/) und [City E-Bikes](/e-bikes/city-e-bikes/).
+
 ## Typische Fehler mit Klicksystemen
 
 - **Adapter und Korb passen nicht zusammen.** Prüfen Sie die Kompatibilität vor dem Kauf.

@@ -92,6 +92,10 @@ Der Motor allein macht noch kein gutes E-Bike. Der Akku liefert die Energie und 
 - **Akku und Display unterschätzen.** Der beste Motor hilft wenig mit einem zu kleinen Akku oder einer unpraktischen Anzeige.
 - **Probefahrt auslassen.** Das Fahrgefühl lässt sich nicht aus Datenblättern ablesen. Fahren Sie dieselbe Strecke mit verschiedenen Stufen und achten Sie darauf, wie sanft der Motor einsetzt und wie leise er läuft.
 
+## Motor und Gelände: Was zählt wo?
+
+Im flachen Stadtverkehr genügt ein Antrieb mit 50 bis 65 Nm, weil kaum Steigungen zu bewältigen sind. Auf hügeligen Pendelstrecken und mit Gepäck sind 75 bis 85 Nm angenehm. Im Gelände, auf Trails und mit Last sind 85 Nm und mehr sinnvoll, weil der Motor dort lange hohe Kräfte liefern muss. Dazu kommt die Abstimmung: Ein sanft einsetzender Motor ist im Stadtverkehr komfortabel, ein direkt ansprechender im Gelände hilfreich. Prüfen Sie bei der Probefahrt, wie der Motor beim Anfahren am Berg und bei niedriger Trittfrequenz reagiert. Notieren Sie nach der Fahrt, was Ihnen aufgefallen ist, und vergleichen Sie die Eindrücke mit den Datenblättern.
+
 ## Pflege und Lebensdauer des Motors
 
 Elektromotoren sind robust, brauchen aber Pflege. Halten Sie Motor und Kontakte sauber, vermeiden Sie Hochdruckreiniger und halten Sie die Kette in Ordnung, denn ein verschlissener Antrieb belastet den Motor. Lassen Sie Software und Diagnose vom Fachhandel durchführen. Wie lange ein Motor hält, hängt von Nutzung, Pflege und Hersteller ab, eine pauschale Zahl können wir nicht seriös nennen. Beachten Sie die Garantiebedingungen im Kaufvertrag. Werkzeug und Pflegemittel finden Sie unter [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/).
