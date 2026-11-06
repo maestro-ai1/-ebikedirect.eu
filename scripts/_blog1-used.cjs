@@ -11,11 +11,11 @@ for (const [slug, e] of Object.entries(pk)) { if (e.primary) add(e.primary.keywo
 const d = 'content/blog/de/';
 for (const f of fs.readdirSync(d)) { const t = fs.readFileSync(d + f, 'utf8'); const m = t.match(/^primary: (.+)$/m); if (m) add(m[1], 'blog:' + f); }
 const c = require('../.image-work/blog-clusters.json');
-const want = ['was wiegt ein e bike','e bike 750 watt','kalkhoff fahrrad damen','e bike 150 kg'];
+const want = ['alpina fahrradhelm','akku fahrradpumpe','fahrradhelme damen','fahrradkorb gepäckträger','fahrradtasche rahmen','rücklicht rennrad','fahrrad mit gepäckträger','fahrradtaschen rucksack','fahrradhelm damen rennrad','fahrrad helm herren'];
 const out = {};
 for (const p of c.posts) if (want.includes(p.seed)) {
   out[p.seed] = p.kws.map((k) => ({ ...k, used: used.get(norm(k.k)) || '' }));
   const u = out[p.seed].filter((k) => k.used);
   console.log(p.seed, 'kws', p.kws.length, 'already used elsewhere:', u.length, u.map((k) => k.k + ' -> ' + k.used).join(' | '));
 }
-fs.writeFileSync('.image-work/blog2-clusters.json', JSON.stringify(out, null, 1));
+fs.writeFileSync('.image-work/blog3-clusters.json', JSON.stringify(out, null, 1));

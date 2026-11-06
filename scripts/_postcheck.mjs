@@ -1,6 +1,6 @@
 // node scripts/_postcheck.mjs <base>   checks rendering of the six Phase 1 posts
 const base = process.argv[2] || 'http://localhost:3100';
-const slugs = ['elektro-bike-bosch-motor-ratgeber', 'lastenrad-hund-ratgeber', 'cube-mountainbike-mtb-ratgeber', 'e-bike-mtb-ratgeber', 'bosch-charger-e-bike-ratgeber', 'e-bike-electric-motor-ratgeber', 'was-wiegt-ein-e-bike-ratgeber', 'e-bike-750-watt-ratgeber', 'kalkhoff-fahrrad-damen-ratgeber', 'e-bike-150-kg-ratgeber'];
+const slugs = ['elektro-bike-bosch-motor-ratgeber', 'lastenrad-hund-ratgeber', 'cube-mountainbike-mtb-ratgeber', 'e-bike-mtb-ratgeber', 'bosch-charger-e-bike-ratgeber', 'e-bike-electric-motor-ratgeber', 'was-wiegt-ein-e-bike-ratgeber', 'e-bike-750-watt-ratgeber', 'kalkhoff-fahrrad-damen-ratgeber', 'e-bike-150-kg-ratgeber', 'alpina-fahrradhelm-ratgeber', 'fahrradhelme-damen-ratgeber', 'fahrradhelm-damen-rennrad-ratgeber', 'fahrrad-helm-herren-ratgeber', 'akku-fahrradpumpe-ratgeber', 'fahrradkorb-gepaecktraeger-ratgeber', 'fahrradtasche-rahmen-ratgeber', 'ruecklicht-rennrad-ratgeber', 'fahrrad-mit-gepaecktraeger-ratgeber', 'fahrradtaschen-rucksack-ratgeber'];
 for (const s of slugs) {
   const r = await fetch(`${base}/blog/${s}`); const h = await r.text();
   const img = await fetch(`${base}/blog/covers/${s}.webp`);

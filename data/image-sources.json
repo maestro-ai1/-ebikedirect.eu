@@ -42031,5 +42031,85 @@
    "store": "owner folder blog pics",
    "fetched": "2026-11-05"
   }
+ ],
+ "blog/alpina-fahrradhelm-ratgeber": [
+  {
+   "file": "alpina-fahrradhelm-ratgeber.webp",
+   "source": "owner-supplied photo: e bike helmets.jpg",
+   "store": "owner folder blog pics",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrradhelme-damen-ratgeber": [
+  {
+   "file": "fahrradhelme-damen-ratgeber.webp",
+   "source": "Pexels photo 12647101 (free licence): https://www.pexels.com/photo/12647101/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrradhelm-damen-rennrad-ratgeber": [
+  {
+   "file": "fahrradhelm-damen-rennrad-ratgeber.webp",
+   "source": "Pexels photo 5789228 (free licence): https://www.pexels.com/photo/5789228/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrrad-helm-herren-ratgeber": [
+  {
+   "file": "fahrrad-helm-herren-ratgeber.webp",
+   "source": "Pexels photo 13673124 (free licence): https://www.pexels.com/photo/13673124/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/akku-fahrradpumpe-ratgeber": [
+  {
+   "file": "akku-fahrradpumpe-ratgeber.webp",
+   "source": "Pexels photo 8926740 (free licence): https://www.pexels.com/photo/8926740/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrradkorb-gepaecktraeger-ratgeber": [
+  {
+   "file": "fahrradkorb-gepaecktraeger-ratgeber.webp",
+   "source": "Pexels photo 9568025 (free licence): https://www.pexels.com/photo/9568025/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrradtasche-rahmen-ratgeber": [
+  {
+   "file": "fahrradtasche-rahmen-ratgeber.webp",
+   "source": "Pexels photo 8934535 (free licence): https://www.pexels.com/photo/8934535/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/ruecklicht-rennrad-ratgeber": [
+  {
+   "file": "ruecklicht-rennrad-ratgeber.webp",
+   "source": "Pexels photo 31032854 (free licence): https://www.pexels.com/photo/31032854/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrrad-mit-gepaecktraeger-ratgeber": [
+  {
+   "file": "fahrrad-mit-gepaecktraeger-ratgeber.webp",
+   "source": "Pexels photo 29707906 (free licence): https://www.pexels.com/photo/29707906/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
+ ],
+ "blog/fahrradtaschen-rucksack-ratgeber": [
+  {
+   "file": "fahrradtaschen-rucksack-ratgeber.webp",
+   "source": "Pexels photo 37134604 (free licence): https://www.pexels.com/photo/37134604/",
+   "store": "pexels.com",
+   "fetched": "2026-11-06"
+  }
  ]
 }
