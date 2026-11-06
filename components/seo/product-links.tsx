@@ -3,7 +3,7 @@ import React from 'react';
 // Outbound links of authority for product pages (Golden Keyword Rule section 6). Every target was checked to answer before it was added.
 const BRAND_SITES: Record<string, { label: string; href: string }> = {
   Cube: { label: 'Cube Bikes: Hersteller', href: 'https://www.cube.eu/' },
-  Kalkhoff: { label: 'Kalkhoff: Hersteller', href: 'https://www.kalkhoff-bikes.com/' },
+  Kalkhoff: { label: 'Kalkhoff: Hersteller', href: 'https://kalkhoff-bikes.com/' },
   Haibike: { label: 'Haibike: Hersteller', href: 'https://www.haibike.com/' },
   'Riese & Müller': { label: 'Riese & Müller: Hersteller', href: 'https://r-m.de/' },
   Specialized: { label: 'Specialized: Hersteller', href: 'https://www.specialized.com/de/de' },
