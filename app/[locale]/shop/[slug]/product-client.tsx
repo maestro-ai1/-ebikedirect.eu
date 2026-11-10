@@ -167,7 +167,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 )}
 
                 <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                  {product.description}
+                  {isAccessory && !product.description.toLowerCase().includes(product.name.toLowerCase()) ? `${product.name}: ` : ""}{product.description}
                 </p>
 
                 {/* INTERACTIVE SELECTOR 1: Frame Sizes */}

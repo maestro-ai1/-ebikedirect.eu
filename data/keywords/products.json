@@ -5109,7 +5109,7 @@
       "faq": []
     },
     "gazelle-heavydutynl-c7-plus-500-wh-28-zoll": {
-      "name": "Gazelle HeavyDutyNL C7+",
+      "name": "Gazelle HeavyDutyNL C7 Plus",
       "brand": "Gazelle",
       "category": "E-City",
       "primary": {
@@ -5606,11 +5606,11 @@
       "faq": []
     },
     "gazelle-grenoble-c5-plus-540-wh-28-zoll": {
-      "name": "Gazelle Grenoble C5+",
+      "name": "Gazelle Grenoble C5 Plus",
       "brand": "Gazelle",
       "category": "E-City",
       "primary": {
-        "keyword": "gazelle grenoble c5+ kaufen",
+        "keyword": "gazelle grenoble c5 plus kaufen",
         "volume": 0,
         "kd": null,
         "intent": "T",
@@ -5620,11 +5620,11 @@
       "faq": []
     },
     "gazelle-grenoble-c5-plus-first-edition-600-wh-28-zoll": {
-      "name": "Gazelle Grenoble C5+ First Edition",
+      "name": "Gazelle Grenoble C5 Plus First Edition",
       "brand": "Gazelle",
       "category": "E-City",
       "primary": {
-        "keyword": "gazelle grenoble c5+ first edition kaufen",
+        "keyword": "gazelle grenoble c5 plus first edition kaufen",
         "volume": 0,
         "kd": null,
         "intent": "T",
@@ -7792,11 +7792,11 @@
       "faq": []
     },
     "kalkhoff-entice-7-move-plus-600-wh-29-zoll": {
-      "name": "Kalkhoff Entice 7 Move+",
+      "name": "Kalkhoff Entice 7 Move Plus",
       "brand": "Kalkhoff",
       "category": "E-City",
       "primary": {
-        "keyword": "kalkhoff entice 7 move+",
+        "keyword": "kalkhoff entice 7 move plus",
         "volume": 140,
         "kd": 18,
         "intent": "T",
@@ -13031,7 +13031,7 @@
       "faq": []
     },
     "trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll": {
-      "name": "Trek Powerfly FS+ 4 Gen 4",
+      "name": "Trek Powerfly FS Plus 4 Gen 4",
       "brand": "Trek",
       "category": "E-MTB",
       "primary": {
@@ -14534,7 +14534,7 @@
       "faq": []
     },
     "cannondale-moterra-4-plus": {
-      "name": "Cannondale Moterra 4+",
+      "name": "Cannondale Moterra 4 Plus",
       "brand": "Cannondale",
       "category": "E-MTB",
       "primary": {
@@ -14795,11 +14795,11 @@
       ]
     },
     "gazelle-paris-c7plus": {
-      "name": "Gazelle Paris C7+",
+      "name": "Gazelle Paris C7 Plus",
       "brand": "Gazelle",
       "category": "E-City",
       "primary": {
-        "keyword": "gazelle paris c7+ kaufen",
+        "keyword": "gazelle paris c7 plus kaufen",
         "volume": 0,
         "kd": null,
         "intent": "T",
@@ -14991,11 +14991,11 @@
       ]
     },
     "gazelle-orange-c8plus": {
-      "name": "Gazelle Orange C8+",
+      "name": "Gazelle Orange C8 Plus",
       "brand": "Gazelle",
       "category": "E-City",
       "primary": {
-        "keyword": "gazelle orange c8+ kaufen",
+        "keyword": "gazelle orange c8 plus kaufen",
         "volume": 0,
         "kd": null,
         "intent": "T",
