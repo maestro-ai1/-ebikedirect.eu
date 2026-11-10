@@ -126,6 +126,12 @@
      "volume": 110,
      "kd": 11,
      "intent": "I"
+    },
+    {
+     "keyword": "haibike trekking 4 test",
+     "volume": 90,
+     "kd": 9,
+     "intent": "I"
     }
    ]
   },
@@ -477,6 +483,12 @@
    "secondary": [],
    "faq": [
     {
+     "keyword": "klappräder brompton",
+     "volume": 320,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
      "keyword": "20 zoll brompton",
      "volume": 110,
      "kd": 22,
@@ -531,7 +543,14 @@
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "brompton klapprad e bike",
+     "volume": 90,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
   },
   "brompton-electric-c-line-e-motiq-urban-345-wh-16-zoll": {
    "name": "Brompton Electric C Line e-Motiq Urban",
@@ -572,13 +591,20 @@
      "intent": "T"
     },
     {
-     "keyword": "brompton c line electric",
-     "volume": 140,
-     "kd": 21,
+     "keyword": "brompton faltrad e bike",
+     "volume": 70,
+     "kd": 26,
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "brompton electric c line",
+     "volume": 320,
+     "kd": 27,
+     "intent": "-"
+    }
+   ]
   },
   "cannondale-moterra-carbon-sl-2-601-wh-29": {
    "name": "Cannondale Moterra Carbon SL 2",
@@ -687,15 +713,15 @@
      "intent": "T"
     },
     {
+     "keyword": "cube nuroad damen",
+     "volume": 90,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
      "keyword": "cube rennrad damen",
      "volume": 1000,
      "kd": 25,
-     "intent": "C"
-    },
-    {
-     "keyword": "cube gravelbike damen",
-     "volume": 320,
-     "kd": 18,
      "intent": "C"
     }
    ],
@@ -719,14 +745,14 @@
      "intent": "I"
     },
     {
-     "keyword": "cube gravel bike",
-     "volume": 22200,
-     "kd": 24,
-     "intent": "N"
+     "keyword": "cube nuroad race fe 2026 test",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
     },
     {
-     "keyword": "cube gravel bike damen",
-     "volume": 2400,
+     "keyword": "cube gravel bike",
+     "volume": 22200,
      "kd": 24,
      "intent": "N"
     }
@@ -748,6 +774,12 @@
      "keyword": "cube nuroad hybrid c 62",
      "volume": 480,
      "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nuroad c 62 race 2026",
+     "volume": 260,
+     "kd": 23,
      "intent": "T"
     }
    ],
@@ -810,17 +842,23 @@
    "brand": "Cube",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "cube nuroad exc",
-    "volume": 390,
-    "kd": 15,
+    "keyword": "cube nuroad c 62 exc",
+    "volume": 590,
+    "kd": 22,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "cube rennrad kaufen",
-     "volume": 140,
-     "kd": 21,
+     "keyword": "cube nuroad exc",
+     "volume": 390,
+     "kd": 15,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube nuroad carbon",
+     "volume": 210,
+     "kd": 22,
      "intent": "T"
     },
     {
@@ -831,6 +869,18 @@
     }
    ],
    "faq": [
+    {
+     "keyword": "cube nuroad c:62 exc 2026",
+     "volume": 170,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuroad exc 2026",
+     "volume": 170,
+     "kd": 21,
+     "intent": "I"
+    },
     {
      "keyword": "cube gravel",
      "volume": 3600,
@@ -844,22 +894,10 @@
      "intent": "N"
     },
     {
-     "keyword": "cube nuroad gravel bike",
-     "volume": 720,
-     "kd": 25,
+     "keyword": "/gravelbike cube nuroad",
+     "volume": 590,
+     "kd": 23,
      "intent": "N"
-    },
-    {
-     "keyword": "cube nuroad gravel",
-     "volume": 390,
-     "kd": 25,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube e rennrad",
-     "volume": 210,
-     "kd": 15,
-     "intent": "I"
     }
    ]
   },
@@ -868,10 +906,10 @@
    "brand": "Cube",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "cube nuroad hybrid c:62 slt 400x",
-    "volume": 170,
-    "kd": 21,
-    "intent": "I",
+    "keyword": "cube nuroad slt",
+    "volume": 590,
+    "kd": 17,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
@@ -882,19 +920,31 @@
      "intent": "T"
     },
     {
-     "keyword": "cube gravelbike nuroad",
-     "volume": 320,
-     "kd": 24,
+     "keyword": "cube rennrad kaufen",
+     "volume": 140,
+     "kd": 21,
      "intent": "T"
-    },
-    {
-     "keyword": "cube carbon gravel",
-     "volume": 110,
-     "kd": 22,
-     "intent": "C"
     }
    ],
    "faq": [
+    {
+     "keyword": "cube nuroad c:62 slt",
+     "volume": 590,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuroad hybrid c:62 slt 400x",
+     "volume": 170,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuroad slt 2026",
+     "volume": 140,
+     "kd": 17,
+     "intent": "I"
+    },
     {
      "keyword": "cube gravelbike",
      "volume": 2900,
@@ -905,18 +955,6 @@
      "keyword": "cube e gravel bike",
      "volume": 720,
      "kd": 19,
-     "intent": "N"
-    },
-    {
-     "keyword": "cube rennrad sale",
-     "volume": 170,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube e gravelbike",
-     "volume": 110,
-     "kd": 16,
      "intent": "N"
     }
    ]
@@ -958,10 +996,10 @@
      "intent": "T"
     },
     {
-     "keyword": "cube nuroad carbon",
-     "volume": 210,
+     "keyword": "cube carbon gravel",
+     "volume": 110,
      "kd": 22,
-     "intent": "T"
+     "intent": "C"
     }
    ],
    "faq": [
@@ -990,9 +1028,9 @@
      "intent": "I"
     },
     {
-     "keyword": "cube nuroad slx 2026 test",
-     "volume": 140,
-     "kd": 12,
+     "keyword": "cube nuroad c 62 slx 2026",
+     "volume": 260,
+     "kd": 23,
      "intent": "I"
     }
    ]
@@ -1002,14 +1040,58 @@
    "brand": "Cube",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "cube nuroad hybrid c:62 slx 400x fe kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "cube nuroad hybrid c 62 slx fe 400x",
+    "volume": 70,
+    "kd": 19,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube gravelbike damen",
+     "volume": 320,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube fahrrad damen 28 zoll",
+     "volume": 170,
+     "kd": 21,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube gravel bike damen",
+     "volume": 2400,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube nuroad gravel bike",
+     "volume": 720,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube nuroad gravel",
+     "volume": 390,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube e rennrad",
+     "volume": 210,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube rennrad sale",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "merida-esilex-plus-600-237-wh-28-zoll": {
    "name": "Merida eSilex+ 600",
@@ -1227,15 +1309,15 @@
      "intent": "T"
     },
     {
-     "keyword": "specialized turbo creo 2 comp",
-     "volume": 90,
-     "kd": 8,
+     "keyword": "specialized comp",
+     "volume": 110,
+     "kd": 25,
      "intent": "T"
     },
     {
-     "keyword": "specialized e gravel",
-     "volume": 210,
-     "kd": 22,
+     "keyword": "specialized turbo creo 2 comp",
+     "volume": 90,
+     "kd": 8,
      "intent": "T"
     }
    ],
@@ -1249,6 +1331,18 @@
     {
      "keyword": "specialized creo",
      "volume": 390,
+     "kd": 22,
+     "intent": "N"
+    },
+    {
+     "keyword": "specialized rennrad",
+     "volume": 3600,
+     "kd": 24,
+     "intent": "-"
+    },
+    {
+     "keyword": "specialized rennrad carbon",
+     "volume": 70,
      "kd": 22,
      "intent": "N"
     }
@@ -1275,12 +1369,6 @@
     {
      "keyword": "trek gravelbike",
      "volume": 720,
-     "kd": 26,
-     "intent": "T"
-    },
-    {
-     "keyword": "trek carbon",
-     "volume": 110,
      "kd": 26,
      "intent": "T"
     }
@@ -1371,12 +1459,6 @@
      "intent": "C"
     },
     {
-     "keyword": "scott e-rennrad",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
      "keyword": "scott e gravelbike",
      "volume": 110,
      "kd": 18,
@@ -1409,14 +1491,34 @@
    "brand": "Scott",
    "category": "E-Gravel",
    "primary": {
-    "keyword": "scott fastlane 20 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "scott fastlane",
+    "volume": 590,
+    "kd": 15,
+    "intent": "N",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "scott e rennrad",
+     "volume": 170,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "scott fastlane 2026",
+     "volume": 170,
+     "kd": 17,
+     "intent": "N"
+    },
+    {
+     "keyword": "scott fastlane 20",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "trek-domane-plus-alr-5-360-wh-28-zoll": {
    "name": "Trek Domane+ ALR 5",
@@ -1504,28 +1606,134 @@
    "brand": "Cube",
    "category": "E-Kinder",
    "primary": {
-    "keyword": "cube acid 240 hybrid rookie pro 400x kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "bike cube acid",
+    "volume": 2400,
+    "kd": 23,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube acid pro",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube acid 24 zoll",
+     "volume": 1600,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube fahrrad kinder 24 zoll",
+     "volume": 390,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube acid 24",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube bike 24 zoll",
+     "volume": 140,
+     "kd": 23,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube acid 240",
+     "volume": 5400,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube acid",
+     "volume": 2900,
+     "kd": 16,
+     "intent": "N"
+    },
+    {
+     "keyword": "cube acid 240 hybrid",
+     "volume": 210,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube 24 zoll",
+     "volume": 3600,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube acid 240 24 zoll",
+     "volume": 260,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   "cube-acid-240-hybrid-rookie-slx-400x-400-wh-24-zoll": {
    "name": "Cube Acid 240 Hybrid Rookie SLX 400x",
    "brand": "Cube",
    "category": "E-Kinder",
    "primary": {
-    "keyword": "cube acid 240 hybrid rookie slx 400x kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube acid 240 slx",
+    "volume": 140,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube fahrrad 24 zoll",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube 240",
+     "volume": 880,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube bike 240",
+     "volume": 320,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube kids",
+     "volume": 210,
+     "kd": 28,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube e bike 24 zoll",
+     "volume": 110,
+     "kd": 8,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube 24 zoll sale",
+     "volume": 170,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube 24 zoll kinder",
+     "volume": 170,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "cube-kathmandu-hybrid-750-45-km-h-750-wh-28-zoll": {
    "name": "Cube Kathmandu Hybrid 750 45 km/h",
@@ -2716,6 +2924,12 @@
      "intent": "I"
     },
     {
+     "keyword": "cube slx 2026",
+     "volume": 210,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
      "keyword": "cube reaction hybrid slx 800 test",
      "volume": 170,
      "kd": 12,
@@ -2731,12 +2945,6 @@
      "keyword": "cube reaction slx 800",
      "volume": 140,
      "kd": 16,
-     "intent": "I"
-    },
-    {
-     "keyword": "cube reaction hybrid slx 800 2026",
-     "volume": 70,
-     "kd": 15,
      "intent": "I"
     }
    ]
@@ -4442,10 +4650,10 @@
      "intent": "T"
     },
     {
-     "keyword": "focus bikes fully",
-     "volume": 90,
-     "kd": 7,
-     "intent": "T"
+     "keyword": "e mountain bike focus",
+     "volume": 170,
+     "kd": 17,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -4466,12 +4674,6 @@
      "volume": 720,
      "kd": 14,
      "intent": "I"
-    },
-    {
-     "keyword": "focus e mountainbikes",
-     "volume": 260,
-     "kd": 22,
-     "intent": "N"
     },
     {
      "keyword": "focus jam2 9.9",
@@ -4506,15 +4708,15 @@
      "intent": "T"
     },
     {
-     "keyword": "e bike fully focus jam2",
+     "keyword": "focus jam2 bosch cx",
      "volume": 20,
-     "kd": 13,
+     "kd": 10,
      "intent": "T"
     },
     {
-     "keyword": "focus jam2 6.6",
+     "keyword": "focus jam2 29",
      "volume": 20,
-     "kd": 7,
+     "kd": 10,
      "intent": "T"
     }
    ],
@@ -4532,15 +4734,9 @@
      "intent": "N"
     },
     {
-     "keyword": "focus mtb fully",
-     "volume": 260,
-     "kd": 21,
-     "intent": "N"
-    },
-    {
-     "keyword": "focus e mountainbike fully",
-     "volume": 90,
-     "kd": 9,
+     "keyword": "focus emtb",
+     "volume": 170,
+     "kd": 12,
      "intent": "I"
     }
    ]
@@ -4564,20 +4760,13 @@
      "intent": "T"
     },
     {
-     "keyword": "focus mtb 29 zoll",
-     "volume": 90,
-     "kd": 10,
-     "intent": "T"
+     "keyword": "focus mountainbike 29 zoll",
+     "volume": 110,
+     "kd": 12,
+     "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "mountainbike focus fully",
-     "volume": 260,
-     "kd": 11,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "focus-thron2-6-7-600-wh-29-zoll": {
    "name": "Focus Thron2 6.7 600 Wh 29 Zoll",
@@ -4590,14 +4779,7 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "e mountain bike focus",
-     "volume": 170,
-     "kd": 17,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "focus thron2 6.7",
@@ -4612,9 +4794,9 @@
      "intent": "N"
     },
     {
-     "keyword": "downhill bike focus",
-     "volume": 70,
-     "kd": 10,
+     "keyword": "focus bike fully",
+     "volume": 90,
+     "kd": 8,
      "intent": "I"
     }
    ]
@@ -4630,25 +4812,20 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "focus bikes fully",
+     "volume": 90,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "focus mountain bikes",
      "volume": 390,
      "kd": 12,
      "intent": "I"
-    },
-    {
-     "keyword": "focus emtb",
-     "volume": 170,
-     "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "focus e fully",
-     "volume": 70,
-     "kd": 10,
-     "intent": "N"
     }
    ]
   },
@@ -4665,27 +4842,21 @@
    },
    "secondary": [
     {
-     "keyword": "focus mountainbike 29 zoll",
-     "volume": 110,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
      "keyword": "focus jam2 bosch",
      "volume": 20,
      "kd": 8,
      "intent": "T"
     },
     {
-     "keyword": "focus jam2 bosch cx",
+     "keyword": "e bike fully focus jam2",
      "volume": 20,
-     "kd": 10,
+     "kd": 13,
      "intent": "T"
     },
     {
-     "keyword": "focus jam2 29",
+     "keyword": "focus jam2 6.6",
      "volume": 20,
-     "kd": 10,
+     "kd": 7,
      "intent": "T"
     }
    ],
@@ -4701,6 +4872,12 @@
      "volume": 390,
      "kd": 15,
      "intent": "N"
+    },
+    {
+     "keyword": "focus e mountainbike fully",
+     "volume": 90,
+     "kd": 9,
+     "intent": "I"
     }
    ]
   },
@@ -4709,28 +4886,61 @@
    "brand": "Focus",
    "category": "E-MTB",
    "primary": {
-    "keyword": "focus sam2 6.8 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "focus sam2",
+    "volume": 590,
+    "kd": 12,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "focus sam2 6.8",
+     "volume": 480,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "focus mtb 29 zoll",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "focus e mountainbike",
+     "volume": 320,
+     "kd": 19,
+     "intent": "N"
+    }
+   ]
   },
   "focus-sam2-6-9-800-wh-29": {
    "name": "Focus Sam2 6.9",
    "brand": "Focus",
    "category": "E-MTB",
    "primary": {
-    "keyword": "focus sam2 6.9 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "focus sam2 6.9",
+    "volume": 320,
+    "kd": 11,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "focus e mountainbikes",
+     "volume": 260,
+     "kd": 22,
+     "intent": "N"
+    },
+    {
+     "keyword": "downhill bike focus",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
+    }
+   ]
   },
   "focus-thron2-6-9-abs-800-wh-29-zoll": {
    "name": "Focus Thron2 6.9 ABS",
@@ -4746,16 +4956,16 @@
    "secondary": [],
    "faq": [
     {
-     "keyword": "focus e mountainbike",
-     "volume": 320,
-     "kd": 19,
+     "keyword": "focus mtb fully",
+     "volume": 260,
+     "kd": 21,
      "intent": "N"
     },
     {
-     "keyword": "focus bike fully",
-     "volume": 90,
-     "kd": 8,
-     "intent": "I"
+     "keyword": "focus e fully",
+     "volume": 70,
+     "kd": 10,
+     "intent": "N"
     }
    ]
   },
@@ -4820,28 +5030,55 @@
    "brand": "Focus",
    "category": "E-MTB",
    "primary": {
-    "keyword": "focus sam2 6.0 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "focus sam2 6.0",
+    "volume": 70,
+    "kd": 9,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "mountainbike focus fully",
+     "volume": 260,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   "focus-aventura2-6-8-800-wh-29-zoll": {
    "name": "Focus Aventura2 6.8",
    "brand": "Focus",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "focus aventura2 6.8 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "focus aventura2",
+    "volume": 320,
+    "kd": 16,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "focus trekkingrad",
+     "volume": 170,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "focus trekking e bike",
+     "volume": 70,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "focus aventura2 6.8",
+     "volume": 210,
+     "kd": 7,
+     "intent": "I"
+    }
+   ]
   },
   "gazelle-miss-grace-c7-plus-rt-500-wh-28-zoll": {
    "name": "Gazelle Miss Grace C7+ RT 500 Wh 28 Zoll",
@@ -5212,7 +5449,14 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "gazelle eclipse t11",
+     "volume": 70,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   "gazelle-cabby-c380-l-24-se-800-wh-24-zoll": {
    "name": "Gazelle Cabby C380 L 24\" SE 800 Wh 24 Zoll",
@@ -5324,11 +5568,11 @@
    "brand": "Gazelle",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "gazelle curb c1 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "gazelle curb",
+    "volume": 170,
+    "kd": 18,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -5578,6 +5822,12 @@
      "volume": 320,
      "kd": 25,
      "intent": "I"
+    },
+    {
+     "keyword": "giant e bike mountainbike",
+     "volume": 110,
+     "kd": 23,
+     "intent": "I"
     }
    ]
   },
@@ -5623,6 +5873,12 @@
      "keyword": "giant fathom e+ ex",
      "volume": 140,
      "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike giant mountain bike",
+     "volume": 90,
+     "kd": 26,
      "intent": "I"
     }
    ]
@@ -5737,6 +5993,12 @@
      "volume": 140,
      "kd": 23,
      "intent": "T"
+    },
+    {
+     "keyword": "giant mountainbike 29 zoll",
+     "volume": 90,
+     "kd": 16,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5802,6 +6064,12 @@
      "keyword": "giant mountainbike fully",
      "volume": 110,
      "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "giant fully 29 zoll",
+     "volume": 70,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -6060,6 +6328,12 @@
      "volume": 390,
      "kd": 22,
      "intent": "T"
+    },
+    {
+     "keyword": "haibike allmtn 9",
+     "volume": 90,
+     "kd": 17,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6111,20 +6385,33 @@
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "haibike e-bike fully 29 zoll",
+     "volume": 90,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   "haibike-lyke-cf-11-430-wh-29-zoll": {
    "name": "Haibike Lyke CF 11",
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike cf 11",
-    "volume": 210,
-    "kd": 25,
+    "keyword": "haibike lyke",
+    "volume": 390,
+    "kd": 22,
     "intent": "T",
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "haibike cf 11",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
     {
      "keyword": "haibike emtb",
      "volume": 260,
@@ -6138,7 +6425,14 @@
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "haibike lyke cf 11",
+     "volume": 480,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   "haibike-trekking-6-5-600-wh-27-5-zoll": {
    "name": "Haibike Trekking 6.5",
@@ -6173,7 +6467,14 @@
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "haibike mountainbike 29 zoll",
+     "volume": 70,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
   },
   "haibike-alltrack-10-29-800-wh-29-zoll": {
    "name": "Haibike Alltrack 10 29",
@@ -6199,12 +6500,6 @@
      "keyword": "haibike alltrack 10",
      "volume": 260,
      "kd": 14,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike 10",
-     "volume": 90,
-     "kd": 18,
      "intent": "I"
     }
    ]
@@ -6294,6 +6589,12 @@
      "volume": 260,
      "kd": 26,
      "intent": "T"
+    },
+    {
+     "keyword": "haibike allmtn 11",
+     "volume": 90,
+     "kd": 19,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6301,6 +6602,12 @@
      "keyword": "haibike allmtn cf 11 trn/iq",
      "volume": 140,
      "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "haibike allmtn cf 11 pinion",
+     "volume": 70,
+     "kd": 21,
      "intent": "I"
     }
    ]
@@ -6399,6 +6706,12 @@
      "keyword": "haibike alltrail 10",
      "volume": 590,
      "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "haibike alltrail 10 29",
+     "volume": 90,
+     "kd": 15,
      "intent": "I"
     }
    ]
@@ -6502,13 +6815,20 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike alltrail 10.5 low abs 27.5 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "haibike alltrail low",
+    "volume": 70,
+    "kd": 11,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "haibike e mountainbike fully",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "haibike-alltrail-10-27-5-800-wh-27-5-zoll": {
@@ -6601,7 +6921,7 @@
    },
    "secondary": [
     {
-     "keyword": "haibike e mountainbike fully",
+     "keyword": "haibike mtb fully",
      "volume": 140,
      "kd": 18,
      "intent": "T"
@@ -6620,15 +6940,15 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [
+   "secondary": [],
+   "faq": [
     {
-     "keyword": "haibike mtb fully",
-     "volume": 140,
-     "kd": 18,
-     "intent": "T"
+     "keyword": "haibike downhill e bike",
+     "volume": 110,
+     "kd": 25,
+     "intent": "I"
     }
-   ],
-   "faq": []
+   ]
   },
   "haibike-adventr-6-low-800-wh-27-5-zoll": {
    "name": "Haibike Adventr 6 Low",
@@ -6685,9 +7005,9 @@
    ],
    "faq": [
     {
-     "keyword": "haibike downhill e bike",
+     "keyword": "haibike e downhill",
      "volume": 110,
-     "kd": 25,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -6738,18 +7058,19 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "mountainbike fully haibike",
+     "volume": 110,
+     "kd": 18,
+     "intent": "T"
+    }
+   ],
    "faq": [
     {
      "keyword": "haibike adventr 6 2026",
      "volume": 90,
      "kd": 11,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike e downhill",
-     "volume": 110,
-     "kd": 18,
      "intent": "I"
     }
    ]
@@ -6759,11 +7080,11 @@
    "brand": "Hercules",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "hercules nos suv 3.1 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "hercules nos",
+    "volume": 90,
+    "kd": 10,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -6925,14 +7246,21 @@
    "brand": "Hercules",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "hercules avanos sl 10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "hercules avanos sl 10",
+    "volume": 90,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "hercules g3",
+     "volume": 480,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "hercules-rob-fold-suv-545-wh-20-zoll": {
    "name": "Hercules Rob Fold SUV",
@@ -6980,13 +7308,20 @@
    "brand": "Hercules",
    "category": "E-City",
    "primary": {
-    "keyword": "e bike hercules roberta",
-    "volume": 170,
-    "kd": 17,
+    "keyword": "hercules roberta",
+    "volume": 260,
+    "kd": 10,
     "intent": "C",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "e bike hercules roberta",
+     "volume": 170,
+     "kd": 17,
+     "intent": "C"
+    }
+   ],
    "faq": []
   },
   "hercules-cargo-city-r3-26-zoll-long-john": {
@@ -7092,11 +7427,11 @@
    "brand": "Husqvarna",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "husqvarna tourer t2 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "husqvarna tourer t2",
+    "volume": 70,
+    "kd": 11,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -7893,6 +8228,12 @@
      "volume": 320,
      "kd": 11,
      "intent": "I"
+    },
+    {
+     "keyword": "kettler quadriga cx10",
+     "volume": 90,
+     "kd": 11,
+     "intent": "I"
     }
    ]
   },
@@ -8164,6 +8505,12 @@
      "volume": 320,
      "kd": 11,
      "intent": "I"
+    },
+    {
+     "keyword": "ktm macina sport sx elite di2 2026",
+     "volume": 70,
+     "kd": 9,
+     "intent": "I"
     }
    ]
   },
@@ -8352,6 +8699,12 @@
      "intent": "I"
     },
     {
+     "keyword": "ktm macina sport sx 10 erfahrungen",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
      "keyword": "ktm trekking fahrräder",
      "volume": 90,
      "kd": 19,
@@ -8433,7 +8786,14 @@
     "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "ktm gran 810",
+     "volume": 90,
+     "kd": 10,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "ktm-macina-aera-872-lfc-800-wh-27-5-zoll": {
@@ -8482,25 +8842,18 @@
      "intent": "C"
     }
    ],
-   "faq": [
-    {
-     "keyword": "ktm e fully",
-     "volume": 70,
-     "kd": 12,
-     "intent": "I"
-    }
-   ]
+   "faq": []
   },
   "ktm-macina-gran-830-800-wh-28-zoll": {
    "name": "KTM Macina Gran 830",
    "brand": "KTM",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "ktm macina gran 830 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "ktm macina gran 830",
+    "volume": 70,
+    "kd": 11,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -9106,6 +9459,18 @@
      "volume": 170,
      "kd": 19,
      "intent": "I"
+    },
+    {
+     "keyword": "orbea rise e bike",
+     "volume": 90,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "orbea rise sl h10",
+     "volume": 70,
+     "kd": 16,
+     "intent": "I"
     }
    ]
   },
@@ -9149,7 +9514,14 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "orbea kemen adv 20",
+     "volume": 90,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   },
   "orbea-wild-st-h20-750-wh-29-zoll": {
    "name": "Orbea Wild ST H20",
@@ -9875,14 +10247,21 @@
    "brand": "Raymon",
    "category": "E-MTB",
    "primary": {
-    "keyword": "raymon trailray 150 pro kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "raymon trailray 150 pro",
+    "volume": 90,
+    "kd": 8,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "raymon e mtb",
+     "volume": 90,
+     "kd": 14,
+     "intent": "N"
+    }
+   ]
   },
   "raymon-tourray-ultimate-800-800-wh-27-5-zoll": {
    "name": "Raymon Tourray Ultimate 800",
@@ -9930,6 +10309,12 @@
      "volume": 170,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "raymon mtb",
+     "volume": 90,
+     "kd": 18,
+     "intent": "N"
     }
    ]
   },
@@ -9951,6 +10336,12 @@
      "volume": 170,
      "kd": 14,
      "intent": "I"
+    },
+    {
+     "keyword": "raymon mountain bikes",
+     "volume": 70,
+     "kd": 24,
+     "intent": "N"
     }
    ]
   },
@@ -10001,11 +10392,11 @@
    "brand": "Raymon",
    "category": "E-MTB",
    "primary": {
-    "keyword": "raymon ravor comp kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "raymon ravor",
+    "volume": 90,
+    "kd": 14,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -10106,7 +10497,14 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "raymon tarok avinox m2s",
+     "volume": 70,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   },
   "raymon-durok-comp-800-wh-27-5-zoll": {
    "name": "Raymon Durok Comp 800 Wh 27,5 Zoll",
@@ -10329,7 +10727,14 @@
     "intent": "N",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "riese müller culture",
+     "volume": 90,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "riese-und-mueller-nevo5-touring-core-600-wh-28-zoll": {
@@ -10413,6 +10818,18 @@
      "volume": 110,
      "kd": 15,
      "intent": "N"
+    },
+    {
+     "keyword": "riese und müller charger4 gt",
+     "volume": 70,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "riese und müller charger4 gt touring",
+     "volume": 70,
+     "kd": 21,
+     "intent": "N"
     }
    ]
   },
@@ -10449,11 +10866,11 @@
    "brand": "Riese & Müller",
    "category": "E-City",
    "primary": {
-    "keyword": "riese & müller swing4 silent kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "riese und müller swing4",
+    "volume": 90,
+    "kd": 15,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -10519,11 +10936,11 @@
    "brand": "Riese & Müller",
    "category": "E-City",
    "primary": {
-    "keyword": "riese & müller culture mixte vario kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "riese und müller culture mixte",
+    "volume": 70,
+    "kd": 17,
+    "intent": "N",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -10771,28 +11188,128 @@
    "brand": "Scott",
    "category": "E-MTB",
    "primary": {
-    "keyword": "scott patron st 910 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "scott patron st 910",
+    "volume": 90,
+    "kd": 19,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "scott emtb",
+     "volume": 170,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott patron 910",
+     "volume": 170,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott e mountainbike fully",
+     "volume": 110,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "scott e fully",
+     "volume": 90,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "scott e mountainbike",
+     "volume": 480,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "scott mtb fully",
+     "volume": 390,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "mountainbike fully scott",
+     "volume": 320,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "scott mountainbike 29 zoll",
+     "volume": 210,
+     "kd": 22,
+     "intent": "I"
+    }
+   ]
   },
   "scott-patron-920-800-wh-29-zoll": {
    "name": "Scott Patron 920",
    "brand": "Scott",
    "category": "E-MTB",
    "primary": {
-    "keyword": "scott patron 920 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "scott patron 920",
+    "volume": 260,
+    "kd": 19,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "scott mtb bikes",
+     "volume": 390,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott e mountain bikes",
+     "volume": 320,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "scott downhill bike",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "mtb scott",
+     "volume": 140,
+     "kd": 27,
+     "intent": "C"
+    },
+    {
+     "keyword": "mountain bikes scott",
+     "volume": 110,
+     "kd": 21,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "scott patron",
+     "volume": 720,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "scott e mountainbikes",
+     "volume": 260,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "downhill scott",
+     "volume": 170,
+     "kd": 23,
+     "intent": "I"
+    }
+   ]
   },
   "specialized-turbo-levo-expert-carbon-g4-840-wh-29": {
    "name": "Specialized Turbo Levo Expert Carbon G4",
@@ -11172,14 +11689,32 @@
      "volume": 90,
      "kd": 6,
      "intent": "T"
+    },
+    {
+     "keyword": "trekkingrad specialized",
+     "volume": 70,
+     "kd": 25,
+     "intent": "T"
     }
    ],
    "faq": [
+    {
+     "keyword": "specialized tero",
+     "volume": 390,
+     "kd": 18,
+     "intent": "N"
+    },
     {
      "keyword": "specialized turbo tero 5.0 eq",
      "volume": 170,
      "kd": 6,
      "intent": "I"
+    },
+    {
+     "keyword": "specialized tero 5.0",
+     "volume": 110,
+     "kd": 18,
+     "intent": "N"
     }
    ]
   },
@@ -11521,10 +12056,10 @@
    "brand": "Specialized",
    "category": "E-MTB",
    "primary": {
-    "keyword": "specialized s works",
-    "volume": 1300,
-    "kd": 22,
-    "intent": "T",
+    "keyword": "specialized works s",
+    "volume": 1600,
+    "kd": 15,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [
@@ -11577,6 +12112,12 @@
      "volume": 70,
      "kd": 16,
      "intent": "I"
+    },
+    {
+     "keyword": "specialized mtb s works",
+     "volume": 70,
+     "kd": 17,
+     "intent": "N"
     }
    ]
   },
@@ -11631,9 +12172,9 @@
      "intent": "T"
     },
     {
-     "keyword": "trek 7",
-     "volume": 70,
-     "kd": 22,
+     "keyword": "trek carbon",
+     "volume": 110,
+     "kd": 26,
      "intent": "T"
     }
    ],
@@ -11661,12 +12202,6 @@
      "volume": 10,
      "kd": 5,
      "intent": "I"
-    },
-    {
-     "keyword": "trek mountainbike 29 zoll",
-     "volume": 260,
-     "kd": 25,
-     "intent": "I"
     }
    ]
   },
@@ -11683,25 +12218,62 @@
    },
    "secondary": [
     {
-     "keyword": "trek mountainbike",
-     "volume": 1300,
-     "kd": 27,
+     "keyword": "trek bikes fuel ex",
+     "volume": 880,
+     "kd": 26,
      "intent": "T"
     },
     {
-     "keyword": "trek e mountain bike",
-     "volume": 210,
-     "kd": 28,
+     "keyword": "trek fuel",
+     "volume": 720,
+     "kd": 22,
      "intent": "T"
     },
     {
-     "keyword": "trek e mtb fully",
-     "volume": 90,
-     "kd": 24,
+     "keyword": "trek bike fuel",
+     "volume": 590,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "trek bikes fuel",
+     "volume": 390,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "trek bikes fuel ex 5",
+     "volume": 260,
+     "kd": 25,
      "intent": "T"
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "trek bike fuel ex 5",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek fully",
+     "volume": 1300,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek bike fully",
+     "volume": 110,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek enduro mtb",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
   },
   "trek-powerfly-plus-fs-6-gen-4-800-wh-29-zoll": {
    "name": "Trek Powerfly+ FS 6 Gen 4",
@@ -11716,31 +12288,31 @@
    },
    "secondary": [
     {
+     "keyword": "trek mountainbike",
+     "volume": 1300,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
      "keyword": "trek emtb",
      "volume": 140,
      "kd": 24,
      "intent": "T"
     },
     {
-     "keyword": "trek cx",
-     "volume": 110,
-     "kd": 26,
+     "keyword": "trek powerfly 4 e mtb",
+     "volume": 30,
+     "kd": 5,
      "intent": "T"
     },
     {
-     "keyword": "trek powerfly 29",
+     "keyword": "trek powerfly 4 fully",
      "volume": 20,
-     "kd": 17,
+     "kd": 12,
      "intent": "T"
     },
     {
      "keyword": "trek powerfly 4 gen 4",
-     "volume": 20,
-     "kd": 9,
-     "intent": "T"
-    },
-    {
-     "keyword": "trek powerfly 6 gen 4",
      "volume": 20,
      "kd": 9,
      "intent": "T"
@@ -11757,12 +12329,6 @@
      "keyword": "trek powerfly+ fs 6 gen 4 test",
      "volume": 10,
      "kd": 5,
-     "intent": "I"
-    },
-    {
-     "keyword": "trek fully",
-     "volume": 1300,
-     "kd": 27,
      "intent": "I"
     }
    ]
@@ -11906,15 +12472,15 @@
      "intent": "I"
     },
     {
-     "keyword": "trek powerfly e mtb",
-     "volume": 20,
-     "kd": 7,
-     "intent": "I"
-    },
-    {
      "keyword": "test trek powerfly 5",
      "volume": 20,
      "kd": 5,
+     "intent": "I"
+    },
+    {
+     "keyword": "trek e bike mtb hardtail powerfly 5",
+     "volume": 20,
+     "kd": 3,
      "intent": "I"
     }
    ]
@@ -11942,12 +12508,6 @@
      "volume": 110,
      "kd": 23,
      "intent": "C"
-    },
-    {
-     "keyword": "carbon trek bikes",
-     "volume": 110,
-     "kd": 28,
-     "intent": "T"
     },
     {
      "keyword": "trek rail mountain bike",
@@ -12034,12 +12594,6 @@
      "intent": "I"
     },
     {
-     "keyword": "trek enduro mtb",
-     "volume": 90,
-     "kd": 14,
-     "intent": "I"
-    },
-    {
      "keyword": "trek rail mtb",
      "volume": 20,
      "kd": 8,
@@ -12066,14 +12620,28 @@
    "brand": "Trek",
    "category": "E-City",
    "primary": {
-    "keyword": "trek district+ 2 lowstep kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "trek district",
+    "volume": 90,
+    "kd": 22,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "trek e bike tiefeinsteiger",
+     "volume": 70,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "district trek bike",
+     "volume": 70,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   "trek-district-plus-4-lowstep-545-wh-28-zoll": {
    "name": "Trek District+ 4 Lowstep",
@@ -12152,12 +12720,6 @@
      "intent": "I"
     },
     {
-     "keyword": "trek powerfly 4 gen5",
-     "volume": 10,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "trek powerfly+ 4 800 wh gen 5",
      "volume": 10,
      "kd": 10,
@@ -12170,14 +12732,40 @@
    "brand": "Trek",
    "category": "E-MTB",
    "primary": {
-    "keyword": "trek fuel+ ex 8 gen 2 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "trek fuel ex 8",
+    "volume": 480,
+    "kd": 21,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "trek e mtb fully",
+     "volume": 90,
+     "kd": 24,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "trek bike fuel ex 8",
+     "volume": 480,
+     "kd": 25,
+     "intent": "N"
+    },
+    {
+     "keyword": "trek bikes fuel ex 8",
+     "volume": 390,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "trek enduro",
+     "volume": 320,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
   },
   "trek-powerfly-plus-6-gen-5-800-wh-29-zoll": {
    "name": "Trek Powerfly+ 6 Gen 5",
@@ -12240,12 +12828,6 @@
      "volume": 20,
      "kd": 6,
      "intent": "I"
-    },
-    {
-     "keyword": "trek e bike mtb hardtail powerfly 5",
-     "volume": 20,
-     "kd": 3,
-     "intent": "I"
     }
    ]
   },
@@ -12282,14 +12864,28 @@
    "brand": "Trek",
    "category": "E-MTB",
    "primary": {
-    "keyword": "trek fuel+ lx 9.9 x0 axs gen 2 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "trek fuel lx",
+    "volume": 170,
+    "kd": 20,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "carbon trek bikes",
+     "volume": 110,
+     "kd": 28,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "trek mountainbike 29 zoll",
+     "volume": 260,
+     "kd": 25,
+     "intent": "I"
+    }
+   ]
   },
   "trek-charter-plus-4-800-wh-27-5-zoll": {
    "name": "Trek Charter+ 4",
@@ -12459,21 +13055,21 @@
      "intent": "T"
     },
     {
-     "keyword": "trek powerfly 4 e mtb",
-     "volume": 30,
-     "kd": 5,
+     "keyword": "trek e mountainbike",
+     "volume": 210,
+     "kd": 26,
      "intent": "T"
     },
     {
-     "keyword": "trek powerfly 4 fully",
+     "keyword": "trek cx",
+     "volume": 110,
+     "kd": 26,
+     "intent": "T"
+    },
+    {
+     "keyword": "trek powerfly 29",
      "volume": 20,
-     "kd": 12,
-     "intent": "T"
-    },
-    {
-     "keyword": "trek powerfly 4 29",
-     "volume": 10,
-     "kd": 7,
+     "kd": 17,
      "intent": "T"
     }
    ],
@@ -12497,15 +13093,15 @@
      "intent": "I"
     },
     {
-     "keyword": "trek enduro",
-     "volume": 320,
-     "kd": 21,
+     "keyword": "trek powerfly e mtb",
+     "volume": 20,
+     "kd": 7,
      "intent": "I"
     },
     {
-     "keyword": "trek bike fully",
-     "volume": 110,
-     "kd": 25,
+     "keyword": "trek powerfly 4 gen5",
+     "volume": 10,
+     "kd": 10,
      "intent": "I"
     }
    ]
@@ -12523,9 +13119,9 @@
    },
    "secondary": [
     {
-     "keyword": "trek e mountainbike",
+     "keyword": "trek e mountain bike",
      "volume": 210,
-     "kd": 26,
+     "kd": 28,
      "intent": "T"
     },
     {
@@ -12533,12 +13129,6 @@
      "volume": 90,
      "kd": 12,
      "intent": "T"
-    },
-    {
-     "keyword": "trek e bike tiefeinsteiger",
-     "volume": 70,
-     "kd": 13,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -12757,14 +13347,21 @@
    "brand": "Winora",
    "category": "E-MTB",
    "primary": {
-    "keyword": "winora sinus fs x12 kaufen",
-    "volume": 0,
-    "kd": null,
+    "keyword": "winora sinus fs",
+    "volume": 70,
+    "kd": 21,
     "intent": "T",
-    "source": "product name, no bank keyword"
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "winora sinus fs x12",
+     "volume": 90,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
   },
   "winora-sinus-fs-r5f-pro-800-wh-27-5-zoll": {
    "name": "Winora Sinus FS R5f Pro",
@@ -12778,7 +13375,14 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "winora sinus fs r5f pro",
+     "volume": 110,
+     "kd": 16,
+     "intent": "I"
+    }
+   ]
   },
   "winora-yucatan-x10-800-wh-27-5-zoll": {
    "name": "Winora Yucatan X10",
@@ -12793,6 +13397,12 @@
    },
    "secondary": [],
    "faq": [
+    {
+     "keyword": "winora yucatan x10",
+     "volume": 320,
+     "kd": 19,
+     "intent": "I"
+    },
     {
      "keyword": "winora trekkingrad",
      "volume": 140,
@@ -13493,11 +14103,11 @@
    "brand": "Cannondale",
    "category": "Cargo-E-Bike",
    "primary": {
-    "keyword": "cannondale wonderwagen neo 1 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cannondale wonderwagen",
+    "volume": 90,
+    "kd": 16,
+    "intent": "N",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -13629,14 +14239,21 @@
    "brand": "Cannondale",
    "category": "Cargo-E-Bike",
    "primary": {
-    "keyword": "cannondale cargowagen neo 1 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cannondale cargowagen",
+    "volume": 90,
+    "kd": 16,
+    "intent": "N",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cannondale cargowagen neo 1",
+     "volume": 90,
+     "kd": 24,
+     "intent": "I"
+    }
+   ]
   },
   "cannondale-wonderwagen-neo-2": {
    "name": "Cannondale Wonderwagen Neo 2",
@@ -14105,11 +14722,11 @@
    "brand": "Stromer",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "stromer st2 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "stromer st2",
+    "volume": 320,
+    "kd": 22,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14119,11 +14736,11 @@
    "brand": "Stromer",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "stromer st3 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "stromer st3",
+    "volume": 590,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14133,11 +14750,11 @@
    "brand": "Stromer",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "stromer st5 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "stromer st5",
+    "volume": 590,
+    "kd": 22,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14147,11 +14764,11 @@
    "brand": "Stromer",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "stromer st7 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "stromer st7",
+    "volume": 590,
+    "kd": 25,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14294,11 +14911,11 @@
    "brand": "Gazelle",
    "category": "E-City",
    "primary": {
-    "keyword": "gazelle bloom c310 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "name"
+    "keyword": "gazelle bloom c310",
+    "volume": 70,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14322,11 +14939,11 @@
    "brand": "Gazelle",
    "category": "Cargo-E-Bike",
    "primary": {
-    "keyword": "gazelle makki travel kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "gazelle makki travel",
+    "volume": 90,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14350,13 +14967,20 @@
    "brand": "Gazelle",
    "category": "E-City",
    "primary": {
-    "keyword": "gazelle orange",
-    "volume": 320,
-    "kd": 19,
-    "intent": "C",
+    "keyword": "gazelle e bike orange",
+    "volume": 70,
+    "kd": 15,
+    "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "gazelle orange",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    }
+   ],
    "faq": [
     {
      "keyword": "gazelle orange c8",
@@ -14477,8 +15101,8 @@
    },
    "secondary": [
     {
-     "keyword": "mountainbike fully haibike",
-     "volume": 110,
+     "keyword": "haibike mountain bike",
+     "volume": 90,
      "kd": 18,
      "intent": "T"
     }
@@ -14503,6 +15127,12 @@
      "volume": 480,
      "kd": 20,
      "intent": "I"
+    },
+    {
+     "keyword": "haibike all trail",
+     "volume": 70,
+     "kd": 17,
+     "intent": "I"
     }
    ]
   },
@@ -14525,11 +15155,11 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike lyke cf se kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "haibike lyke cf se",
+    "volume": 170,
+    "kd": 20,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -14539,14 +15169,21 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike lyke cf 10 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "haibike lyke cf 10",
+    "volume": 320,
+    "kd": 21,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "haibike 10",
+     "volume": 90,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   "haibike-hybe-cf-9": {
    "name": "Haibike Hybe CF 9",
@@ -14559,7 +15196,20 @@
     "intent": "I",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "haibike all mountain 9",
+     "volume": 70,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "haibike hybe 9",
+     "volume": 70,
+     "kd": 19,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "haibike-hybe-cf-11": {
@@ -14629,7 +15279,14 @@
     "intent": "C",
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "haibike all mountain 4",
+     "volume": 70,
+     "kd": 14,
+     "intent": "T"
+    }
+   ],
    "faq": []
   },
   "haibike-alltrail-3": {
@@ -14651,11 +15308,11 @@
    "brand": "Haibike",
    "category": "E-MTB",
    "primary": {
-    "keyword": "haibike alltrail 10.5 abs kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "haibike alltrail 10.5 abs",
+    "volume": 70,
+    "kd": 17,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -15060,18 +15717,30 @@
    "brand": "Cube",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "cube touring",
-    "volume": 1300,
-    "kd": 24,
-    "intent": "C",
+    "keyword": "cube touring hybrid",
+    "volume": 1000,
+    "kd": 23,
+    "intent": "N",
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "cube touring",
+     "volume": 1300,
+     "kd": 24,
+     "intent": "C"
+    },
     {
      "keyword": "cube touring hybrid pro",
      "volume": 390,
      "kd": 21,
      "intent": "C"
+    },
+    {
+     "keyword": "cube bike touring",
+     "volume": 70,
+     "kd": 20,
+     "intent": "T"
     },
     {
      "keyword": "trekkingrad von cube",
@@ -15082,16 +15751,22 @@
    ],
    "faq": [
     {
-     "keyword": "cube touring hybrid",
-     "volume": 1000,
+     "keyword": "cube touring hybrid pro 800",
+     "volume": 1300,
      "kd": 23,
-     "intent": "N"
+     "intent": "I"
     },
     {
      "keyword": "cube touring pro",
      "volume": 1000,
      "kd": 17,
      "intent": "I"
+    },
+    {
+     "keyword": "cube bikes touring",
+     "volume": 70,
+     "kd": 24,
+     "intent": "N"
     }
    ]
   },
@@ -15616,6 +16291,24 @@
      "volume": 110,
      "kd": 14,
      "intent": "I"
+    },
+    {
+     "keyword": "cube nuride hybrid slx",
+     "volume": 70,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride slx",
+     "volume": 70,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube nuride hybrid 800",
+     "volume": 70,
+     "kd": 17,
+     "intent": "I"
     }
    ]
   },
@@ -15670,9 +16363,9 @@
      "intent": "I"
     },
     {
-     "keyword": "cube nuride 800",
-     "volume": 110,
-     "kd": 15,
+     "keyword": "cube nuride 2026",
+     "volume": 70,
+     "kd": 20,
      "intent": "I"
     }
    ]
@@ -15703,10 +16396,10 @@
      "intent": "I"
     },
     {
-     "keyword": "tourenrad cube",
-     "volume": 90,
-     "kd": 17,
-     "intent": "N"
+     "keyword": "cube nuride 800",
+     "volume": 110,
+     "kd": 15,
+     "intent": "I"
     }
    ]
   },
@@ -15715,14 +16408,21 @@
    "brand": "Cube",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "cube nuride hybrid performance 720 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "cube nuride hybrid performance",
+    "volume": 90,
+    "kd": 16,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "tourenrad cube",
+     "volume": 90,
+     "kd": 17,
+     "intent": "N"
+    }
+   ]
   },
   "cube-editor-hybrid-slt-400x-fe": {
    "name": "Cube Editor Hybrid SLT 400X FE",
@@ -15761,6 +16461,18 @@
      "volume": 210,
      "kd": 18,
      "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid slt fe",
+     "volume": 110,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor hybrid slt 400x fe 2026",
+     "volume": 90,
+     "kd": 20,
+     "intent": "I"
     }
    ]
   },
@@ -15785,8 +16497,20 @@
    ],
    "faq": [
     {
+     "keyword": "cube editor slx fe",
+     "volume": 880,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
      "keyword": "cube editor hybrid slx 400x",
      "volume": 260,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube editor slx fe 2026",
+     "volume": 170,
      "kd": 10,
      "intent": "I"
     },
@@ -15809,9 +16533,9 @@
    "brand": "Cube",
    "category": "E-City",
    "primary": {
-    "keyword": "cube editor fe",
-    "volume": 170,
-    "kd": 16,
+    "keyword": "cube editor pro fe",
+    "volume": 720,
+    "kd": 20,
     "intent": "T",
     "source": "bank"
    },
@@ -15823,9 +16547,27 @@
      "intent": "C"
     },
     {
+     "keyword": "cube editor fe",
+     "volume": 170,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
      "keyword": "cube editor hybrid pro",
      "volume": 140,
      "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube editor 2026",
+     "volume": 90,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cube urban bike",
+     "volume": 170,
+     "kd": 23,
      "intent": "T"
     }
    ],
@@ -15843,16 +16585,22 @@
      "intent": "I"
     },
     {
+     "keyword": "cube editor pro fe 2026",
+     "volume": 170,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
      "keyword": "cube editor hybrid fe",
      "volume": 110,
      "kd": 15,
      "intent": "I"
     },
     {
-     "keyword": "cube city bike",
-     "volume": 390,
-     "kd": 27,
-     "intent": "N"
+     "keyword": "cube editor e bike",
+     "volume": 90,
+     "kd": 18,
+     "intent": "I"
     }
    ]
   },
@@ -15893,12 +16641,6 @@
      "volume": 110,
      "kd": 18,
      "intent": "T"
-    },
-    {
-     "keyword": "cube urban bike",
-     "volume": 170,
-     "kd": 23,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -15907,6 +16649,12 @@
      "volume": 140,
      "kd": 14,
      "intent": "I"
+    },
+    {
+     "keyword": "cube city bike",
+     "volume": 390,
+     "kd": 27,
+     "intent": "N"
     }
    ]
   },
@@ -15944,6 +16692,12 @@
      "keyword": "cube nulane hybrid c 62",
      "volume": 140,
      "kd": 17,
+     "intent": "T"
+    },
+    {
+     "keyword": "cube urban e bike",
+     "volume": 90,
+     "kd": 20,
      "intent": "T"
     }
    ],
@@ -16285,14 +17039,40 @@
    "brand": "Cube",
    "category": "Falt-E-Bike",
    "primary": {
-    "keyword": "cube compact",
-    "volume": 390,
-    "kd": 13,
-    "intent": "C",
+    "keyword": "cube compact e bike",
+    "volume": 90,
+    "kd": 28,
+    "intent": "T",
     "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cube compact",
+     "volume": 390,
+     "kd": 13,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube compact hybrid",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube falt e bike",
+     "volume": 90,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube e klapprad",
+     "volume": 70,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
   },
   "cube-fold-hybrid-deluxe-540": {
    "name": "Cube Fold Hybrid Deluxe 540",
@@ -16325,6 +17105,18 @@
      "keyword": "cube fold",
      "volume": 320,
      "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube klapp e bike",
+     "volume": 90,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "cube faltrad e bike",
+     "volume": 70,
+     "kd": 18,
      "intent": "I"
     }
    ]
@@ -16472,7 +17264,14 @@
     "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "cube longtail hybrid",
+     "volume": 390,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
   },
   "cube-trike-family-hybrid-1500": {
    "name": "Cube Trike Family Hybrid 1500",
@@ -17599,14 +18398,27 @@
    "brand": "KTM",
    "category": "E-MTB",
    "primary": {
-    "keyword": "ktm macina scarp sx elite kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "ktm macina scarp sx elite",
+    "volume": 90,
+    "kd": 10,
+    "intent": "I",
+    "source": "bank"
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "ktm macina sx elite",
+     "volume": 70,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "ktm e fully",
+     "volume": 70,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
   },
   "ktm-macina-revelator-sx-prime-di2": {
    "name": "KTM Macina Revelator SX Prime Di2",
@@ -17807,6 +18619,12 @@
      "volume": 140,
      "kd": 13,
      "intent": "T"
+    },
+    {
+     "keyword": "giant e fully",
+     "volume": 70,
+     "kd": 19,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -17861,6 +18679,12 @@
      "volume": 170,
      "kd": 10,
      "intent": "I"
+    },
+    {
+     "keyword": "giant ebike fully",
+     "volume": 70,
+     "kd": 22,
+     "intent": "I"
     }
    ]
   },
@@ -17880,6 +18704,12 @@
      "keyword": "giant reign 2",
      "volume": 320,
      "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "mountainbikes giant",
+     "volume": 70,
+     "kd": 28,
      "intent": "T"
     }
    ],
@@ -18137,6 +18967,12 @@
      "volume": 110,
      "kd": 23,
      "intent": "I"
+    },
+    {
+     "keyword": "giant fathom 1",
+     "volume": 90,
+     "kd": 10,
+     "intent": "I"
     }
    ]
   },
@@ -18185,14 +19021,34 @@
    "brand": "Giant",
    "category": "E-MTB",
    "primary": {
-    "keyword": "giant talon e+ 1 kaufen",
-    "volume": 0,
-    "kd": null,
-    "intent": "T",
-    "source": "product name, no bank keyword"
+    "keyword": "giant talon e+ 1",
+    "volume": 90,
+    "kd": 7,
+    "intent": "I",
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "giant bikes talon 1",
+     "volume": 210,
+     "kd": 25,
+     "intent": "T"
+    },
+    {
+     "keyword": "giant mountain bike hardtail",
+     "volume": 70,
+     "kd": 22,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "giant talon 1",
+     "volume": 260,
+     "kd": 20,
+     "intent": "I"
+    }
+   ]
   },
   "giant-talon-eplus-2": {
    "name": "Giant Talon E+ 2",
@@ -18217,6 +19073,12 @@
      "keyword": "bike giant talon 2",
      "volume": 140,
      "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb giant hardtail",
+     "volume": 70,
+     "kd": 22,
      "intent": "I"
     }
    ]
@@ -18490,6 +19352,12 @@
    },
    "secondary": [
     {
+     "keyword": "specialized e gravel",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
+    },
+    {
      "keyword": "specialized creo sl",
      "volume": 210,
      "kd": 21,
@@ -18536,6 +19404,12 @@
    },
    "secondary": [
     {
+     "keyword": "specialized tero x 6.0",
+     "volume": 390,
+     "kd": 17,
+     "intent": "T"
+    },
+    {
      "keyword": "specialized turbo tero x 6",
      "volume": 210,
      "kd": 6,
@@ -18546,6 +19420,12 @@
      "volume": 170,
      "kd": 9,
      "intent": "T"
+    },
+    {
+     "keyword": "specialized tero x",
+     "volume": 140,
+     "kd": 22,
+     "intent": "T"
     }
    ],
    "faq": []
@@ -18555,14 +19435,26 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "specialized turbo tero x 5.0",
-    "volume": 590,
-    "kd": 10,
-    "intent": "I",
+    "keyword": "specialized tero x 5",
+    "volume": 170,
+    "kd": 14,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [],
    "faq": [
+    {
+     "keyword": "specialized turbo tero x 5.0",
+     "volume": 590,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "specialized tero x 5.0",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    },
     {
      "keyword": "specialized turbo tero x 5",
      "volume": 260,
@@ -18694,14 +19586,20 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "specialized turbo tero 4.0",
-    "volume": 110,
-    "kd": 10,
-    "intent": "I",
+    "keyword": "specialized tero 4.0",
+    "volume": 170,
+    "kd": 19,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [],
    "faq": [
+    {
+     "keyword": "specialized turbo tero 4.0",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
     {
      "keyword": "specialized turbo tero 4.0 eq",
      "volume": 110,

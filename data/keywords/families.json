@@ -192,11 +192,11 @@
      "heldNowBy": null
     },
     {
-     "keyword": "cube nuroad ebike",
-     "volume": 110,
-     "kd": 17,
+     "keyword": "cube nuroad 2023",
+     "volume": 170,
+     "kd": 13,
      "intent": "T",
-     "heldNowBy": "cube-nuroad-hybrid-c-62-race-400x-400-wh-28-zoll (secondary/FAQ)"
+     "heldNowBy": null
     }
    ],
    "faq": [
@@ -220,9 +220,23 @@
      "kd": 12,
      "intent": "I",
      "heldNowBy": null
+    },
+    {
+     "keyword": "cube nuroad 2026 modelle",
+     "volume": 70,
+     "kd": 19,
+     "intent": "I",
+     "heldNowBy": null
+    },
+    {
+     "keyword": "cube nuroad ebike",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T",
+     "heldNowBy": null
     }
    ],
-   "candidates": 9
+   "candidates": 13
   },
   {
    "path": "/marken/cube/reaction-hybrid",

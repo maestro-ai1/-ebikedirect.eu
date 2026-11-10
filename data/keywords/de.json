@@ -3391,6 +3391,12 @@
      "volume": 110,
      "kd": 14,
      "intent": "T"
+    },
+    {
+     "keyword": "raymon e mountainbike",
+     "volume": 90,
+     "kd": 15,
+     "intent": "C"
     }
    ],
    "faq": [
