@@ -50,7 +50,7 @@ export function StoreJsonLd() {
   );
 }
 
-export function ProductJsonLd({ product }: { product: Product }) {
+export function ProductJsonLd({ product, description, urlPrefix = '' }: { product: Product; description?: string; urlPrefix?: string }) {
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
   const schema = {
     '@context': 'https://schema.org',

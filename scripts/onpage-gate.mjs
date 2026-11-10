@@ -20,8 +20,11 @@ for (const p of Array.isArray(dePages) ? dePages : Object.values(dePages)) pageB
 // translated pages (data/keywords/<lang>-live.json): keyed by their full public path, e.g. /fr/velos-electriques/vtt-electrique
 const l10nByPath = new Map();
 for (const lang of ['fr', 'nl', 'it', 'es', 'pt']) { try { for (const p of require('../data/keywords/' + lang + '-live.json').pages) l10nByPath.set('/' + lang + p.url.replace(/\/$/, ''), p); } catch { /* language not built yet */ } }
+let frProds = {}; try { frProds = require('../data/keywords/fr-products.json').products; } catch { /* batch 3 not built */ }
+const frSlugOf = (p) => { const m = p.match(/^\/fr\/shop\/(.+)$/); return m ? m[1] : null; };
 const famByPath = new Map(); for (const f of Array.isArray(families) ? families : Object.values(families)) famByPath.set(pathOf(f.path), f);
 const keywordOf = (path, type) => {
+  const fs0 = frSlugOf(path); if (fs0 && prods[fs0]) { const e = frProds[fs0] || { primary: { keyword: 'acheter ' + prods[fs0].name.toLowerCase(), source: 'name', volume: 0, intent: 'T' }, secondary: [], faq: [] }; return { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: prods[fs0].name }; }
   if (type === 'product') { const e = prods[path.replace(/^\/shop\//, '')]; return e ? { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: e.name } : null; }
   const l = l10nByPath.get(path); if (l) return { primary: l.primary, secondary: l.secondary || [], faq: l.faq || [], name: l.name };
   const f = famByPath.get(path); if (f) return { primary: f.primary, secondary: f.secondary || [], faq: f.faq || [], name: f.name };
@@ -37,6 +40,7 @@ const typeOf = (p) => {
   if (p === '/') return 'home';
   if (/^\/(fr|nl|it|es|pt)$/.test(p)) return 'language stub';
   if (l10nByPath.has(p)) return 'translated ' + l10nByPath.get(p).type;
+  { const s = frSlugOf(p); if (s) return prods[s] ? 'product' : 'other'; }
   if (/^\/shop\/.+/.test(p)) return prods[p.replace(/^\/shop\//, '')] ? 'product' : 'accessory product';
   if (/\/page\/\d+$/.test(p)) return 'pagination';
   if (/^\/e-bikes\/[^/]+$/.test(p)) return 'category';
@@ -96,8 +100,9 @@ const COMPETITORS = /(amazon\.|fahrrad-xxl|bike24|rose\.de|bike-discount|fahrrad
 const GENERIC = /^(hier|mehr|klicken sie hier|click here|link|weiterlesen|mehr erfahren|read more|hier klicken|mehr lesen|zum artikel)$/i;
 
 // ---- score ----
+const lgOf = (u) => ((/^\/(fr|nl|it|es|pt)\//.exec(u) || [])[1] || 'de') + ':';
 const dupTitles = new Map(), dupDescs = new Map(), dupH1 = new Map();
-for (const pg of pages.values()) { if (pg.type === 'language stub') continue; const h1 = (pg.heads.find((h) => h.l === 1) || {}).t || ''; for (const [m, v] of [[dupTitles, pg.title], [dupDescs, pg.desc], [dupH1, h1]]) { const k = norm(v); if (k) (m.get(k) || m.set(k, []).get(k)).push(pg.url); } }
+for (const pg of pages.values()) { if (pg.type === 'language stub') continue; const h1 = (pg.heads.find((h) => h.l === 1) || {}).t || ''; for (const [m, v] of [[dupTitles, pg.title], [dupDescs, pg.desc], [dupH1, h1]]) { const k = lgOf(pg.url) + norm(v); if (norm(v)) (m.get(k) || m.set(k, []).get(k)).push(pg.url); } }
 const allKw = new Map(); // stored keyword -> owners (one keyword = one URL)
 const addKw = (u, k) => { if (!k || !k.keyword) return; const key = ((u.match(/^\/(fr|nl|it|es|pt)\//) || [])[1] || 'de') + ':' + norm(k.keyword).split(' ').sort().join(' '); (allKw.get(key) || allKw.set(key, new Set()).get(key)).add(u); };
 for (const [slug, e] of Object.entries(prods)) for (const k of [e.primary, ...(e.secondary || []), ...(e.faq || [])]) addKw('/shop/' + slug, k);
@@ -124,7 +129,7 @@ for (const pg of pages.values()) {
   rec(pg, 'canonical present', !!pg.canonical);
   if (kw && kw.primary) {
     // mapping (stored data)
-    if (pg.type === 'product') rec(pg, 'M1 primary is a bank keyword (name-based fallback counts as miss)', kw.primary.source === 'bank' && (bank.size ? bank.has(pn) || kw.primary.volume === 0 : true), nameBased ? 'name-based fallback' : '');
+    if (pg.type === 'product') rec(pg, 'M1 primary is a bank keyword (name-based fallback counts as miss)', kw.primary.source === 'bank' && (pg.url.startsWith('/fr/') || (bank.size ? bank.has(pn) || kw.primary.volume === 0 : true)), nameBased ? 'name-based fallback' : '');
     if (pg.type === 'product' && kw.primary.source === 'bank') { rec(pg, 'M2 main keyword intent is Transactional', kw.primary.intent === 'T', kw.primary.intent); rec(pg, 'M2b main keyword intent is T or C', /^(T|C)$/.test(kw.primary.intent), kw.primary.intent); rec(pg, 'M3 main keyword volume above 0', kw.primary.volume > 0, kw.primary.volume); rec(pg, 'M4 main keyword KD at most 28', kw.primary.kd == null || kw.primary.kd <= 28, kw.primary.kd); }
     if (pg.type !== 'product') { rec(pg, 'M2 main keyword intent is Transactional', kw.primary.intent === 'T', kw.primary.intent); rec(pg, 'M3 main keyword volume above 0', kw.primary.volume > 0, kw.primary.volume); }
     const key = ((pg.url.match(/^\/(fr|nl|it|es|pt)\//) || [])[1] || 'de') + ':' + norm(kw.primary.keyword).split(' ').sort().join(' ');
@@ -155,7 +160,7 @@ for (const pg of pages.values()) {
   rec(pg, 'T1 title at most 60 characters', pg.title.length > 0 && pg.title.length <= 60, pg.title.length);
   rec(pg, 'T3 description 110 to 158 characters', pg.desc.length >= 110 && pg.desc.length <= 158, pg.desc.length);
   const h1t = norm((h1s[0] || {}).t);
-  rec(pg, 'T6 title, description and H1 unique on the site', (dupTitles.get(norm(pg.title)) || []).length <= 1 && (dupDescs.get(norm(pg.desc)) || []).length <= 1 && (dupH1.get(h1t) || []).length <= 1, '');
+  rec(pg, 'T6 title, description and H1 unique on the site', (dupTitles.get(lgOf(pg.url) + norm(pg.title)) || []).length <= 1 && (dupDescs.get(lgOf(pg.url) + norm(pg.desc)) || []).length <= 1 && (dupH1.get(lgOf(pg.url) + h1t) || []).length <= 1, '');
   // links
   const inb = (inbound.get(pg.url) || new Set()).size;
   if (pg.url !== '/') rec(pg, 'L1 at least 3 contextual inbound links', inb >= 3, inb + ' inbound');

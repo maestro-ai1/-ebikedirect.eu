@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: p.type === 'category' ? 0.8 : 0.7,
     alternates: { languages: Object.fromEntries((l10nAlternates(p.url, l, baseUrl) || []).map((a) => [a.hreflang, a.url])) },
   })));
+  const frProducts = PRODUCTS.map((p) => ({ url: `${baseUrl}/fr/shop/${p.slug}`, lastModified: currentDate, changeFrequency: 'weekly' as const, priority: 0.8, alternates: { languages: Object.fromEntries((l10nAlternates(`/shop/${p.slug}`, 'fr', baseUrl) || []).map((a) => [a.hreflang, a.url])) } }));
   const base = routes.flatMap((route) => {
     const languages = Object.fromEntries(
       (l10nAlternates(route.path, 'de', baseUrl) || getHreflangAlternates(route.path, baseUrl)).map((a) => [a.hreflang, a.url])
@@ -62,5 +63,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages },
     }));
   });
-  return [...base, ...translated];
+  return [...base, ...translated, ...frProducts];
 }

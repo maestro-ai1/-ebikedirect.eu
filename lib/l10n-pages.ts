@@ -19,6 +19,9 @@ const LIVE: Partial<Record<Locale, L10nPage[]>> = {
   fr: (frLive as unknown as { pages: L10nPage[] }).pages,
 };
 
+// every product page exists in French (batch 3); the shop route returns 404 for unknown slugs, so the path pattern is enough here
+const isFrProduct = (path: string) => /^\/shop\/[^/]+$/.test(norm0(path));
+const norm0 = (u: string) => (u.length > 1 ? u.replace(/\/$/, '') : u);
 const norm = (u: string) => (u.length > 1 ? u.replace(/\/$/, '') : u);
 
 export function l10nPages(locale: Locale): L10nPage[] {
@@ -35,6 +38,14 @@ export const L10N_LOCALES = Object.keys(LIVE) as Locale[];
 /** hreflang pairs for a page: its German original and every language version, whichever of them is the current URL. */
 export function l10nAlternates(strippedPath: string, locale: Locale, baseUrl: string): { hreflang: string; url: string }[] | null {
   let dePath: string | null = null;
+  if (isFrProduct(strippedPath) && (locale === 'de' || locale === 'fr')) {
+    dePath = norm(strippedPath);
+    const out: { hreflang: string; url: string }[] = [];
+    for (const r of ['de', 'de-DE', 'de-AT', 'de-CH']) out.push({ hreflang: r, url: `${baseUrl}${dePath}` });
+    for (const r of ['fr', 'fr-FR', 'fr-BE']) out.push({ hreflang: r, url: `${baseUrl}/fr${dePath}` });
+    out.push({ hreflang: 'x-default', url: `${baseUrl}${dePath}` });
+    return out;
+  }
   if (locale === 'de') {
     dePath = norm(strippedPath);
     if (!L10N_LOCALES.some((l) => l10nByDePath(l, dePath!))) return null;
@@ -57,5 +68,6 @@ export function l10nAlternates(strippedPath: string, locale: Locale, baseUrl: st
 
 /** True when the page at this stripped path is a real translated page in that language. */
 export function isL10nPath(locale: Locale, strippedPath: string): boolean {
+  if (locale === 'fr' && isFrProduct(strippedPath)) return true;
   return !!l10nByUrl(locale, strippedPath);
 }

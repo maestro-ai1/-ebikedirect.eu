@@ -10,19 +10,25 @@ import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { ProductDetailClient } from './product-client';
 import { productTitle, productDescription } from '@/lib/product-seo';
 import { productFocusKeyword } from '@/lib/product-keywords';
+import { L10nProductContent } from '@/components/seo/l10n-product-content';
+import { frTitle, frDescription, frEntry, frDisplay, buildFrContent, FR_CATEGORY_LABEL } from '@/lib/l10n-product';
 
 interface Props {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (!product) {
     return { title: 'Produkt nicht gefunden' };
   }
 
   const siteUrl = process.env.APP_URL || 'https://ebikedirect.eu';
+  if (locale === 'fr') {
+    const frT = frTitle(product), frD = frDescription(product);
+    return { title: { absolute: frT }, description: frD, openGraph: { title: frT, description: frD, images: [{ url: product.image }], url: `${siteUrl}/fr/shop/${product.slug}` } };
+  }
   const focus = productFocusKeyword(product.slug, product.name);
   const title = productTitle(product.name, focus);
   const description = productDescription(product, focus);
@@ -40,11 +46,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProductDetailPage({ params }: Props) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const product = PRODUCTS.find((p) => p.slug === slug);
 
   if (!product) {
     notFound();
+  }
+
+  if (locale === 'fr') {
+    const built = buildFrContent(product);
+    const e = frEntry(product);
+    const focus = e.primary.source === 'bank' ? e.primary.keyword : product.name;
+    return (
+      <>
+        <ProductJsonLd product={product} description={built.lead} urlPrefix="/fr" />
+        <Breadcrumbs items={[{ label: 'Boutique', href: '/fr/shop' }, { label: FR_CATEGORY_LABEL[product.category] || product.category, href: '/fr/shop' }, { label: product.name, href: `/fr/shop/${product.slug}` }]} />
+        <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: FR_CATEGORY_LABEL[product.category] || product.category }} />
+        <L10nProductContent product={product} />
+      </>
+    );
   }
 
   return (

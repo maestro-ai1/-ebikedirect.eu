@@ -19,8 +19,14 @@ import {
 } from '@/components/ui/icons';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
+import { useI18n } from '@/context/i18n-context';
 
-export function ProductDetailClient({ product, focusKeyword }: { product: Product; focusKeyword: string }) {
+export interface FrView { lead: string; specs: [string, string][]; category: string }
+
+export function ProductDetailClient({ product, focusKeyword, frView }: { product: Product; focusKeyword: string; frView?: FrView }) {
+  const { locale } = useI18n();
+  const fr = locale === 'fr' && !!frView;
+  const nloc = fr ? 'fr-FR' : 'de-DE';
   const router = useRouter();
   const { addToCart } = useCart();
 
@@ -68,7 +74,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
 
                 <span className="absolute top-4 right-4 px-3 py-1 bg-amber-50 border border-amber-300 text-amber-900 text-xs font-black rounded-md flex items-center gap-1.5">
                   <Bitcoin className="w-4 h-4 text-[#FF5722]" />
-                  -10% mit Krypto
+                  {fr ? '-10 % en crypto' : '-10% mit Krypto'}
                 </span>
               </div>
 
@@ -85,7 +91,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                     >
                       <Image
                         src={img}
-                        alt={`${focusKeyword} - Ansicht ${i + 1}`}
+                        alt={`${focusKeyword} - ${fr ? 'vue' : 'Ansicht'} ${i + 1}`}
                         fill
                         sizes="80px"
                         className="object-contain p-1 bg-white"
@@ -100,19 +106,19 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
               <div className="p-4 bg-gray-50 rounded-xl border border-gray-100 grid grid-cols-2 gap-3 text-xs text-gray-700">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-[#00C853] shrink-0" />
-                  <span>2 Jahre Gewährleistung</span>
+                  <span>{fr ? 'Garantie de 2 ans' : '2 Jahre Gewährleistung'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <RotateCcw className="w-4 h-4 text-[#FF5722] shrink-0" />
-                  <span>30 Tage Rückgaberecht</span>
+                  <span>{fr ? 'Retour sous 30 jours' : '30 Tage Rückgaberecht'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Truck className="w-4 h-4 text-blue-600 shrink-0" />
-                  <span>Spedition mit Hebebühne</span>
+                  <span>{fr ? 'Transporteur avec hayon élévateur' : 'Spedition mit Hebebühne'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Zu 95% fahrfertig montiert</span>
+                  <span>{fr ? 'Monté à 95 %' : 'Zu 95% fahrfertig montiert'}</span>
                 </div>
               </div>
             </div>
@@ -123,11 +129,11 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 {/* Brand & Stock */}
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-black uppercase tracking-wider text-[#FF5722]">
-                    {product.category}
+                    {fr ? frView!.category : product.category}
                   </span>
                   <span className="flex items-center gap-1.5 text-xs font-bold text-[#009624] bg-[#E8F8F0] px-2.5 py-1 rounded-full border border-[#00C853]/40">
                     <span className="w-2 h-2 rounded-full bg-[#00C853] animate-pulse" />
-                    {product.stockCount > 0 ? `Sofort lieferbar (${product.stockCount} verfügbar)` : 'Ab Lager lieferbar'}
+                    {product.stockCount > 0 ? (fr ? `Disponible immédiatement (${product.stockCount} en stock)` : `Sofort lieferbar (${product.stockCount} verfügbar)`) : (fr ? 'Disponible en stock' : 'Ab Lager lieferbar')}
                   </span>
                 </div>
 
@@ -152,29 +158,29 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 {!isAccessory && (
                 <div className="grid grid-cols-3 gap-2.5 bg-gray-50 p-3 rounded-xl border border-gray-200">
                   <div className="text-center">
-                    <div className="text-[10px] text-gray-500 font-semibold uppercase">Motor</div>
-                    <div className="text-xs font-extrabold text-gray-900 truncate mt-0.5">{product.torqueNm > 0 ? `${product.torqueNm} Nm` : 'siehe Daten'}</div>
+                    <div className="text-[10px] text-gray-500 font-semibold uppercase">{fr ? 'Moteur' : 'Motor'}</div>
+                    <div className="text-xs font-extrabold text-gray-900 truncate mt-0.5">{product.torqueNm > 0 ? `${product.torqueNm} Nm` : (fr ? 'voir fiche' : 'siehe Daten')}</div>
                   </div>
                   <div className="text-center border-x border-gray-200">
-                    <div className="text-[10px] text-gray-500 font-semibold uppercase">Akku</div>
-                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{selectedBattery.capacityWh > 0 ? `${selectedBattery.capacityWh} Wh` : 'siehe Daten'}</div>
+                    <div className="text-[10px] text-gray-500 font-semibold uppercase">{fr ? 'Batterie' : 'Akku'}</div>
+                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{selectedBattery.capacityWh > 0 ? `${selectedBattery.capacityWh} Wh` : (fr ? 'voir fiche' : 'siehe Daten')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-[10px] text-gray-500 font-semibold uppercase">Reichweite</div>
-                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{product.rangeKm > 0 ? `bis ${product.rangeKm} km` : 'siehe Daten'}</div>
+                    <div className="text-[10px] text-gray-500 font-semibold uppercase">{fr ? 'Autonomie' : 'Reichweite'}</div>
+                    <div className="text-xs font-extrabold text-gray-900 mt-0.5">{product.rangeKm > 0 ? (fr ? `jusqu’à ${product.rangeKm} km` : `bis ${product.rangeKm} km`) : (fr ? 'voir fiche' : 'siehe Daten')}</div>
                   </div>
                 </div>
                 )}
 
                 <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                  {isAccessory && !product.description.toLowerCase().includes(product.name.toLowerCase()) ? `${product.name}: ` : ""}{product.description}
+                  {fr ? frView!.lead : <>{isAccessory && !product.description.toLowerCase().includes(product.name.toLowerCase()) ? `${product.name}: ` : ""}{product.description}</>}
                 </p>
 
                 {/* INTERACTIVE SELECTOR 1: Frame Sizes */}
                 {(!isAccessory || product.options.frameSizes.length > 1) && (
                 <div className="space-y-1.5 pt-2">
                   <label className="block text-xs font-bold text-gray-800">
-                    Rahmengröße auswählen: <strong className="text-[#FF5722]">{selectedFrame}</strong>
+                    {fr ? 'Choisir la taille de cadre :' : 'Rahmengröße auswählen:'} <strong className="text-[#FF5722]">{selectedFrame}</strong>
                   </label>
                   <div className="flex flex-wrap gap-2">
                     {product.options.frameSizes.map((size) => (
@@ -200,7 +206,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 {!isAccessory && (
                 <div className="space-y-1.5">
                   <label className="block text-xs font-bold text-gray-800">
-                    Akkukapazität:
+                    {fr ? 'Capacité de la batterie :' : 'Akkukapazität:'}
                   </label>
                   <div className="space-y-2">
                     {product.options.batteries.map((b) => (
@@ -229,7 +235,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 {(!isAccessory || product.options.colors.length > 1) && (
                 <div className="space-y-1.5">
                   <label className="block text-xs font-bold text-gray-800">
-                    {isAccessory ? 'Farbe' : 'Rahmenfarbe'}: <strong className="text-gray-900">{selectedColor.name}</strong>
+                    {isAccessory ? (fr ? 'Couleur' : 'Farbe') : (fr ? 'Couleur du cadre' : 'Rahmenfarbe')} : <strong className="text-gray-900">{selectedColor.name}</strong>
                   </label>
                   <div className="flex items-center gap-3">
                     {product.options.colors.map((c) => (
@@ -263,16 +269,16 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                     <Bitcoin className="w-6 h-6 text-[#009624] shrink-0" />
                     <div>
                       <div className="text-xs font-bold text-emerald-950">
-                        10% Krypto-Rabatt: Sparen Sie {cryptoSavings.toLocaleString('de-DE', { minimumFractionDigits: 2 })} €
+                        {fr ? 'Remise crypto de 10 % : économisez' : '10% Krypto-Rabatt: Sparen Sie'} {cryptoSavings.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
                       </div>
                       <div className="text-[11px] text-emerald-800">
-                        Zahlungspreis mit USDT (TRC-20/ERC-20) oder Bitcoin:
+                        {fr ? 'Prix en paiement USDT (TRC-20/ERC-20) ou Bitcoin :' : 'Zahlungspreis mit USDT (TRC-20/ERC-20) oder Bitcoin:'}
                       </div>
                     </div>
                   </div>
                   <div className="text-right">
                     <span className="text-base sm:text-lg font-black text-[#009624]">
-                      {cryptoPrice.toLocaleString('de-DE', { minimumFractionDigits: 2 })} €
+                      {cryptoPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
                     </span>
                   </div>
                 </div>
@@ -281,10 +287,10 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                 <div className="flex items-baseline justify-between">
                   <div>
                     <span className="text-2xl sm:text-3xl font-black text-[#131A22]">
-                      {currentPrice.toLocaleString('de-DE', { minimumFractionDigits: 2 })} €
+                      {currentPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
                     </span>
                     <span className="text-xs text-gray-500 block">
-                      inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 10.000 €
+                      {fr ? 'TVA incluse, expédition assurée par transporteur, port gratuit dès 10 000 €' : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 10.000 €'}
                     </span>
                   </div>
                   <div className="text-xs text-gray-500">
@@ -299,7 +305,7 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                     className="py-3 px-4 rounded-xl border-2 border-[#FF5722] text-[#FF5722] hover:bg-[#FF5722] hover:text-white text-sm font-bold transition-all flex items-center justify-center gap-2 shadow-xs"
                   >
                     <ShoppingBag className="w-5 h-5" />
-                    <span>In den Warenkorb</span>
+                    <span>{fr ? 'Ajouter au panier' : 'In den Warenkorb'}</span>
                   </button>
 
                   <button
@@ -307,13 +313,13 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
                     className="py-3 px-4 rounded-xl bg-[#FF5722] hover:bg-[#E64A19] text-white text-sm font-bold transition-all flex items-center justify-center gap-2 shadow-md shadow-[#FF5722]/30"
                   >
                     <Zap className="w-5 h-5" />
-                    <span>Direkt Kaufen</span>
+                    <span>{fr ? 'Acheter maintenant' : 'Direkt Kaufen'}</span>
                   </button>
                 </div>
 
                 <div className="text-[11px] text-gray-500 text-center flex items-center justify-center gap-2">
                   <Info className="w-3.5 h-3.5 text-gray-400" />
-                  <span>Mindestbestellwert im Shop: 500,00 €. Dieser Artikel erfüllt den Schwellenwert.</span>
+                  <span>{fr ? 'Commande minimum dans la boutique : 500,00 €. Cet article atteint le seuil.' : 'Mindestbestellwert im Shop: 500,00 €. Dieser Artikel erfüllt den Schwellenwert.'}</span>
                 </div>
               </div>
             </div>
@@ -322,10 +328,10 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
           {/* Full Technical Specifications Table */}
           <div className="mt-12 pt-8 border-t border-gray-200">
             <h2 className="text-lg font-black text-[#131A22] mb-4">
-              Vollständige technische Daten & Ausstattung
+              {fr ? 'Caractéristiques techniques complètes' : 'Vollständige technische Daten & Ausstattung'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-xs">
-              {Object.entries(product.specs).map(([specKey, specVal]) => (
+              {(fr ? frView!.specs : Object.entries(product.specs)).map(([specKey, specVal]) => (
                 <div
                   key={specKey}
                   className="flex justify-between py-2 border-b border-gray-100"
@@ -336,11 +342,11 @@ export function ProductDetailClient({ product, focusKeyword }: { product: Produc
               ))}
               {product.weightKg > 0 && (
               <div className="flex justify-between py-2 border-b border-gray-100">
-                <span className="font-semibold text-gray-500">Gewicht:</span>
+                <span className="font-semibold text-gray-500">{fr ? 'Poids :' : 'Gewicht:'}</span>
                 <span className="font-medium text-gray-900">{product.weightKg} kg</span>
               </div>
               )}
-              {!isAccessory && (
+              {!isAccessory && !fr && (
               <div className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-500">Zulassung:</span>
                 <span className="font-medium text-gray-900">{product.category === 'Speed-Pedelec' ? 'S-Pedelec bis 45 km/h, Versicherungskennzeichen' : 'StVZO-konform / EPAC bis 25 km/h'}</span>
