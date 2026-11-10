@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Product } from '@/lib/types';
 import { PRODUCTS } from '@/lib/products';
 import { FaqAccordion } from '@/components/ui/faq-accordion';
-import { productKeywords } from '@/lib/product-keywords';
+import { productKeywords, productFocusKeyword } from '@/lib/product-keywords';
 import { titleCase } from '@/lib/product-seo';
 
 const eur = (n: number) => n.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
@@ -83,6 +83,8 @@ export function AccessoryContent({ product }: { product: Product }) {
   const more = siblings.length >= 3 ? siblings : [...siblings, ...PRODUCTS.filter((x) => x.category === 'Zubehör' && x.slug !== product.slug && !siblings.includes(x))].slice(0, 4);
 
   const kw = productKeywords(product.slug);
+  const focus = productFocusKeyword(product.slug, product.name);
+  const focusLead = kw && kw.primary.source === 'bank' && !product.name.toLowerCase().includes(focus.toLowerCase()) ? `${focus.charAt(0).toUpperCase() + focus.slice(1)} bei ebikedirect.eu: ` : '';
   const secondary = (kw?.secondary || []).slice(0, 5).map((s) => s.keyword);
   const secFacts = [
     `${product.name} kostet ${price} inklusive 19 % Mehrwertsteuer.`,
@@ -108,7 +110,7 @@ export function AccessoryContent({ product }: { product: Product }) {
       <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-10 space-y-8">
         <div className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">{product.name}: Überblick</h2>
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">{product.name} von {product.brand} gehört zur Rubrik <Link href={g.path} className="font-semibold text-[#FF5722] hover:underline">{g.label}</Link> bei ebikedirect.eu. Der Artikel kostet {price} inklusive 19 % Mehrwertsteuer. {product.description}</p>
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">{focusLead}{product.name} von {product.brand} gehört zur Rubrik <Link href={g.path} className="font-semibold text-[#FF5722] hover:underline">{g.label}</Link> bei ebikedirect.eu. Der Artikel kostet {price} inklusive 19 % Mehrwertsteuer. {product.description}</p>
         </div>
 
         <div className="space-y-3">
@@ -150,7 +152,7 @@ export function AccessoryContent({ product }: { product: Product }) {
         <div className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">Preis, Zahlung und Garantie</h2>
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">Der Preis liegt bei {price} inklusive 19 % Mehrwertsteuer. Bei Vorkasse überweisen Sie genau diesen Betrag, bei Zahlung in Kryptowährung gilt der Preis von {eur(product.price * 0.9)}. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Versandkosten und Lieferzeit nennen wir Ihnen im Bestellvorgang.</p>
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">Das passende Rad zum Zubehör finden Sie unter <Link href="/e-bikes" className="font-semibold text-[#FF5722] hover:underline">Alle E-Bikes</Link>. Weitere Artikel für Ihr Rad stehen unter <Link href="/zubehoer/" className="font-semibold text-[#FF5722] hover:underline">E-Bike Zubehör</Link>{g.blog ? <>; Pflegehinweise und Tipps lesen Sie im Beitrag <Link href={g.blog.href} className="font-semibold text-[#FF5722] hover:underline">{g.blog.label}</Link>.</> : '.'}</p>
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">Das passende Rad zum Zubehör finden Sie unter <Link href="/e-bikes" className="font-semibold text-[#FF5722] hover:underline">Alle E-Bikes</Link>. Allgemeine Hinweise zu Sicherheit und Ausrüstung am Fahrrad bietet der <a href="https://www.adfc.de/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#FF5722] hover:underline">ADFC</a>. Weitere Artikel für Ihr Rad stehen unter <Link href="/zubehoer/" className="font-semibold text-[#FF5722] hover:underline">E-Bike Zubehör</Link>{g.blog ? <>; Pflegehinweise und Tipps lesen Sie im Beitrag <Link href={g.blog.href} className="font-semibold text-[#FF5722] hover:underline">{g.blog.label}</Link>.</> : '.'}</p>
         </div>
 
         <div className="space-y-3">

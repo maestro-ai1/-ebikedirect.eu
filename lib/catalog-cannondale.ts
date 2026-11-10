@@ -2130,7 +2130,7 @@ export const CANNONDALE_PRODUCTS: Product[] = [
       "/products/cannondale-moterra-4-plus/cannondale-moterra-4-plus-v1-2.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX, 800 Wh Akku, Shimano CUES U6000.",
-    "description": "Das Cannondale Moterra 4+ ist ein E-Mountainbike von Cannondale. Es hat Bosch Performance Line CX und einen 800 Wh Akku. Geschaltet wird mit Shimano CUES U6000, Shimano CUES LG400. Modellnummer C6550GU.",
+    "description": "Das Cannondale Moterra 4 Plus ist ein E-Mountainbike von Cannondale. Es hat Bosch Performance Line CX und einen 800 Wh Akku. Geschaltet wird mit Shimano CUES U6000, Shimano CUES LG400. Modellnummer C6550GU.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"

@@ -8071,7 +8071,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-heavydutynl-c7-plus-500-wh-28-zoll/gazelle-heavydutynl-c7-plus-500-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus Smart, 500 Wh Akku, 7-Gang Nabenschaltung (Freilauf).",
-    "description": "Das Gazelle HeavyDutyNL C7+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle HeavyDutyNL C7 Plus ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus Smart und einen 500 Wh Akku, das Drehmoment beträgt 50 Nm. Geschaltet wird über 7-Gang Nabenschaltung (Freilauf). Die Bremsanlage: Magura HS11, hydraulische Felgenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -9443,7 +9443,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-grenoble-c5-plus-540-wh-28-zoll/gazelle-grenoble-c5-plus-540-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 540 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Gazelle Grenoble C5+ ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 540 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Grenoble C5 Plus ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 540 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -9479,7 +9479,7 @@ export const XXL_PRODUCTS: Product[] = [
   {
     "id": "gazelle-grenoble-c5-plus-first-edition-600-wh-28-zoll",
     "slug": "gazelle-grenoble-c5-plus-first-edition-600-wh-28-zoll",
-    "name": "Gazelle Grenoble C5+ First Edition",
+    "name": "Gazelle Grenoble C5 Plus First Edition",
     "brand": "Gazelle",
     "category": "E-City",
     "price": 4128.26,
@@ -9498,7 +9498,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/gazelle-grenoble-c5-plus-first-edition-600-wh-28-zoll/gazelle-grenoble-c5-plus-first-edition-600-wh-28-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line Smart, 600 Wh Akku, 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf).",
-    "description": "Das Gazelle Grenoble C5+ First Edition ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Gazelle Grenoble C5 Plus First Edition ist ein City E-Bike von Gazelle. Es hat Bosch Performance Line Smart und einen 600 Wh Akku, das Drehmoment beträgt 75 Nm. Geschaltet wird über 5-Gang Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Tektro HD-T280, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -14664,7 +14664,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/kalkhoff-entice-7-move-plus-600-wh-29-zoll/kalkhoff-entice-7-move-plus-600-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Performance Line CX Smart Gen5, 600 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Kalkhoff Entice 7 Move+ ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Kalkhoff Entice 7 Move Plus ist ein City E-Bike von Kalkhoff. Es hat Bosch Performance Line CX Smart Gen5 und einen 600 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro T535, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
@@ -27203,7 +27203,7 @@ export const XXL_PRODUCTS: Product[] = [
       "/products/trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll/trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll-v1-1.webp"
     ],
     "shortDescription": "E-Mountainbike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
-    "description": "Das Trek Powerfly FS+ 4 Gen 4 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M5140, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "description": "Das Trek Powerfly FS Plus 4 Gen 4 ist ein E-Mountainbike von Trek. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Tektro HD-M5140, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
     "options": {
       "frameSizes": [
         "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"

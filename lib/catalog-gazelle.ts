@@ -92,7 +92,7 @@ export const GAZELLE_NEW_PRODUCTS: Product[] = [
       "/products/gazelle-paris-c7plus/gazelle-paris-c7plus-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus, 400 Wh Akku, 7 Gänge.",
-    "description": "Das Gazelle Paris C7+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus mit 50 Nm Drehmoment und einen 400 Wh Akku, der Hersteller nennt bis zu 115 km Reichweite. Geschaltet wird mit 7 Gängen. Das Display ist das Bosch Purion 200. Gewicht laut Hersteller: 24.8 kg ohne Akku.",
+    "description": "Das Gazelle Paris C7 Plus ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus mit 50 Nm Drehmoment und einen 400 Wh Akku, der Hersteller nennt bis zu 115 km Reichweite. Geschaltet wird mit 7 Gängen. Das Display ist das Bosch Purion 200. Gewicht laut Hersteller: 24.8 kg ohne Akku.",
     "options": {
       "frameSizes": [
         "46 cm (1.55 m - 1.70 m)",
@@ -887,7 +887,7 @@ export const GAZELLE_NEW_PRODUCTS: Product[] = [
       "/products/gazelle-orange-c8plus/gazelle-orange-c8plus-v1-1.webp"
     ],
     "shortDescription": "City E-Bike mit Bosch Active Line Plus, 400 Wh Akku, 8 Gänge.",
-    "description": "Das Gazelle Orange C8+ ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus mit 50 Nm Drehmoment und einen 400 Wh Akku, der Hersteller nennt bis zu 115 km Reichweite. Geschaltet wird mit 8 Gängen. Das Display ist das Bosch Purion 200. Gewicht laut Hersteller: 23 kg ohne Akku.",
+    "description": "Das Gazelle Orange C8 Plus ist ein City E-Bike von Gazelle. Es hat Bosch Active Line Plus mit 50 Nm Drehmoment und einen 400 Wh Akku, der Hersteller nennt bis zu 115 km Reichweite. Geschaltet wird mit 8 Gängen. Das Display ist das Bosch Purion 200. Gewicht laut Hersteller: 23 kg ohne Akku.",
     "options": {
       "frameSizes": [
         "46 cm (1.55 m - 1.70 m)",
