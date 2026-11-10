@@ -109,7 +109,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
   const crumbs = [...parent, { label: page.name, href: path }, ...(first ? [] : [{ label: `Seite ${pageNum}`, href: listingUrl(path, pageNum) }])];
   const posts = getAllPosts().filter((p) => !p.legacy).slice(0, 3);
   const ACC = MAPPED_PAGES.filter((m) => m.type === 'accessory').map((m) => m.path);
-  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? MAPPED_PAGES.filter((m) => m.type === 'brand' && (m.brand || m.motor)).map((m) => m.path) : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes', '/e-bikes/e-rennrad-gravel', '/e-bikes/kinder-jugend'])
+  const siblings = (def.type === 'accessory' ? ACC : def.type === 'brand' ? MAPPED_PAGES.filter((m) => m.type === 'brand' && (m.brand || m.motor)).map((m) => m.path) : ['/e-bikes', '/e-bikes/e-mountainbikes', '/e-bikes/trekking-e-bikes', '/e-bikes/city-e-bikes', '/e-bikes/s-pedelec', '/e-bikes/cargo-bikes', '/e-bikes/falt-e-bikes', '/e-bikes/e-rennrad-gravel', '/e-bikes/kinder-jugend', '/e-bikes/damen', '/e-bikes/herren', '/e-bikes/leichte-carbon-e-bikes', '/e-bikes/radgroesse', '/e-bikes/motor-antrieb'])
     .filter((s) => s !== path)
     .map((s) => ({ path: s, name: pageFor(s)?.name || getKeywordPage('de', s)?.name || s }));
 
@@ -126,7 +126,6 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
             )}
             <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
             <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
-            {first && def.note && <p className="text-sm text-gray-600 max-w-3xl leading-relaxed">{def.note}{def.filter === 'motor-hub' && <> <Link href="/marken/bosch" className="text-[#FF5722] font-semibold hover:underline">Bosch</Link>, <Link href="/marken/shimano" className="text-[#FF5722] font-semibold hover:underline">Shimano</Link>, <Link href="/marken/yamaha-motor" className="text-[#FF5722] font-semibold hover:underline">Yamaha</Link>.</>}</p>}
             {first ? (
               <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
                 {def.type === 'accessory'
@@ -136,6 +135,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
             ) : (
               <p className="text-sm text-gray-600">Seite {pageNum} von {total}: Modelle {(pageNum - 1) * PER_PAGE + 1} bis {Math.min(pageNum * PER_PAGE, all.length)} von {all.length}.</p>
             )}
+            {first && def.note && <p className="text-sm text-gray-600 max-w-3xl leading-relaxed">{def.note}{def.filter === 'motor-hub' && <> <Link href="/marken/bosch" className="text-[#FF5722] font-semibold hover:underline">Bosch</Link>, <Link href="/marken/shimano" className="text-[#FF5722] font-semibold hover:underline">Shimano</Link>, <Link href="/marken/yamaha-motor" className="text-[#FF5722] font-semibold hover:underline">Yamaha</Link>.</>}</p>}
           </div>
           {banner && first && (
             <div className="relative aspect-3/2 md:aspect-auto md:col-span-2 min-h-56">
