@@ -14,6 +14,11 @@ const CATEGORY_LINKS = [
   { path: '/e-bikes/falt-e-bikes', label: 'Falt-E-Bikes' },
   { path: '/e-bikes/e-rennrad-gravel', label: 'E-Rennrad & Gravel' },
   { path: '/e-bikes/kinder-jugend', label: 'Kinder- & Jugend-E-Bikes' },
+  { path: '/e-bikes/damen', label: 'Damen-E-Bikes' },
+  { path: '/e-bikes/herren', label: 'Herren-E-Bikes' },
+  { path: '/e-bikes/leichte-carbon-e-bikes', label: 'Leichte & Carbon E-Bikes' },
+  { path: '/e-bikes/radgroesse', label: 'E-Bikes nach Radgröße' },
+  { path: '/e-bikes/motor-antrieb', label: 'Motor & Antrieb' },
   { path: '/zubehoer', label: 'Zubehör' }
 ];
 

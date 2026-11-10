@@ -126,6 +126,7 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
             )}
             <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{def.type === 'brand' ? 'Marke' : def.type === 'accessory' ? 'Zubehör' : 'Kategorie'}</p>
             <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{h1}</h1>
+            {first && def.note && <p className="text-sm text-gray-600 max-w-3xl leading-relaxed">{def.note}{def.filter === 'motor-hub' && <> <Link href="/marken/bosch" className="text-[#FF5722] font-semibold hover:underline">Bosch</Link>, <Link href="/marken/shimano" className="text-[#FF5722] font-semibold hover:underline">Shimano</Link>, <Link href="/marken/yamaha-motor" className="text-[#FF5722] font-semibold hover:underline">Yamaha</Link>.</>}</p>}
             {first ? (
               <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
                 {def.type === 'accessory'

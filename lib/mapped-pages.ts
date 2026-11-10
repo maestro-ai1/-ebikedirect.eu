@@ -12,6 +12,12 @@ export interface MappedPageDef {
   brand?: string; // value of product.brand
   accessory?: string; // value of product.accessory
   motor?: string; // regular expression source matched against product.motor (motor-maker hubs)
+  /** Filter page built from evidence in the catalogue data (frame form in the model name or frame-size field, carbon frame or listed weight, wheel size in the spec list). */
+  /** Shows only the first N models (hub pages that must not repeat the full catalogue). */
+  limit?: number;
+  filter?: 'damen' | 'herren' | 'leicht-carbon' | 'radgroesse' | 'motor-hub';
+  /** One sentence telling visitors exactly how the list is selected. */
+  note?: string;
 }
 
 const STATIC_PAGES: MappedPageDef[] = [
@@ -24,6 +30,11 @@ const STATIC_PAGES: MappedPageDef[] = [
   { path: '/e-bikes/falt-e-bikes', type: 'category', category: 'Falt-E-Bike' },
   { path: '/e-bikes/e-rennrad-gravel', type: 'category', category: 'E-Gravel' },
   { path: '/e-bikes/kinder-jugend', type: 'category', category: 'E-Kinder' },
+  { path: '/e-bikes/damen', type: 'category', filter: 'damen', note: 'Zu dieser Liste zählen Modelle, deren Modellname, Rahmenangabe oder Ausstattungsliste einen Tiefeinstieg oder eine Damen-Rahmenform ausweist (zum Beispiel Wave, Low, Easy Entry oder Trapez).' },
+  { path: '/e-bikes/herren', type: 'category', filter: 'herren', note: 'Zu dieser Liste zählen Modelle, deren Modellname, Rahmenangabe oder Ausstattungsliste einen Diamant- oder Herrenrahmen ausweist.' },
+  { path: '/e-bikes/leichte-carbon-e-bikes', type: 'category', filter: 'leicht-carbon', note: 'Zu dieser Liste zählen Modelle mit Carbonrahmen laut Ausstattungsliste sowie Modelle, für die der Hersteller ein Gewicht von höchstens 22 kg nennt.' },
+  { path: '/e-bikes/radgroesse', type: 'category', filter: 'radgroesse', limit: 18, note: 'Auswahl von Modellen mit kleinen Laufrädern (zum Beispiel 20 und 24 Zoll), sortiert von klein nach groß, wie die Größe in der Ausstattungsliste steht. Modelle mit 27,5, 28 oder 29 Zoll finden Sie in den Kategorien und bei den Marken.' },
+  { path: '/e-bikes/motor-antrieb', type: 'category', filter: 'motor-hub', limit: 9, note: 'Eine Auswahl von Modellen mit Antrieb. Nach Motorhersteller sortiert finden Sie alle Modelle auf den Seiten:' },
   { path: '/zubehoer', type: 'accessory' },
   { path: '/zubehoer/schloesser', type: 'accessory', accessory: 'schloesser' },
   { path: '/zubehoer/helme', type: 'accessory', accessory: 'helme' },
@@ -76,12 +87,29 @@ export function getMappedPage(path: string): MappedPageDef | undefined {
   return MAPPED_PAGES.find((m) => m.path === p);
 }
 
+const FRAME_TEXT = (p: Product) => `${p.name} ${(p.options?.frameSizes || []).join(' ')} ${p.specs?.['Rahmen'] || ''}`.toLowerCase();
+const LOW_FRAME = /(damen|wave|tiefeinsteiger|tiefeinstieg|easy entry|trapez|\blow\b|lowstep|step-through|stepthrough|\blady\b)/;
+const HIGH_FRAME = /(diamant|diamond|herren|\bgent\b)/;
+function matchesFilter(f: NonNullable<MappedPageDef['filter']>, p: Product): boolean {
+  const t = FRAME_TEXT(p);
+  if (f === 'damen') return LOW_FRAME.test(t) && !HIGH_FRAME.test(t);
+  if (f === 'herren') return HIGH_FRAME.test(t) && !LOW_FRAME.test(t);
+  if (f === 'leicht-carbon') return /carbon/i.test(p.specs?.['Rahmen'] || '') || (p.weightKg > 0 && p.weightKg <= 22);
+  if (f === 'radgroesse') return !!(p.specs && p.specs['Laufradgröße']);
+  return !!p.motor;
+}
+
 export const PER_PAGE = 9;
 
 /** Products shown on a mapped landing page (category, brand, motor maker or accessory group). */
 export function productsForPath(path: string): Product[] {
   const def = getMappedPage(path);
   if (!def) return [];
+  if (def.filter) {
+    let list = PRODUCTS.filter((p) => p.category !== 'Zubehör' && matchesFilter(def.filter!, p));
+    if (def.filter === 'radgroesse') { const sz = (p: Product) => parseFloat(String(p.specs['Laufradgröße']).replace(',', '.')) || 99; list = [...list].sort((a, b) => sz(a) - sz(b)); }
+    return def.limit ? list.slice(0, def.limit) : list;
+  }
   if (def.motor) return PRODUCTS.filter((p) => p.category !== 'Zubehör' && new RegExp(def.motor!, 'i').test(p.motor));
   if (def.brand) return PRODUCTS.filter((p) => p.brand === def.brand);
   if (def.accessory) return PRODUCTS.filter((p) => p.accessory === def.accessory);
