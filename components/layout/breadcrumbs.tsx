@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ChevronRight, Home } from '@/components/ui/icons';
 import { BreadcrumbsJsonLd } from '@/components/seo/json-ld';
+import { useI18n } from '@/context/i18n-context';
 
 export interface BreadcrumbItem {
   label: string;
@@ -15,7 +16,10 @@ interface BreadcrumbsProps {
 }
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
-  const allItems = [{ label: 'Home', href: '/' }, ...items];
+  const { locale, t, getLocalizedHref } = useI18n();
+  const homeLabel = t('seo.breadcrumbHome', 'Startseite');
+  const homeHref = getLocalizedHref('/');
+  const allItems = [{ label: locale === 'de' ? 'Home' : homeLabel, href: homeHref }, ...items];
 
   return (
     <>
@@ -29,11 +33,11 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
         <ol className="flex items-center flex-wrap gap-1.5 text-xs text-gray-500 font-medium">
           <li>
             <Link
-              href="/"
+              href={homeHref}
               className="inline-flex items-center gap-1 text-gray-500 hover:text-[#131A22] transition-colors"
             >
               <Home className="w-3.5 h-3.5 text-gray-400" />
-              <span>Startseite</span>
+              <span>{homeLabel}</span>
             </Link>
           </li>
           {items.map((item, index) => {

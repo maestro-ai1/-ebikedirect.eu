@@ -1,0 +1,775 @@
+{
+ "locale": "fr",
+ "pages": [
+  {
+   "display": "Prix d'un VTT électrique",
+   "url": "/velos-electriques/vtt-electrique/",
+   "dePath": "/e-bikes/e-mountainbikes",
+   "name": "VTT électriques",
+   "type": "category",
+   "primary": {
+    "keyword": "prix d un vtt electrique",
+    "volume": 170,
+    "kd": 19,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "velo vtt electrique",
+     "volume": 880,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "vtt electrique pas cher",
+     "volume": 720,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur vtt electrique",
+     "volume": 590,
+     "kd": 14,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur fat bike electrique",
+     "intent": "C",
+     "volume": 590,
+     "kd": 11
+    },
+    {
+     "keyword": "vtt electrique en soldes",
+     "intent": "C",
+     "volume": 320,
+     "kd": 12
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fat bike electrique",
+     "volume": 8100,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "vtt electrique tout suspendu",
+     "volume": 2400,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo electrique fat bike",
+     "volume": 1900,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "vtt tout suspendue electrique",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 13
+    },
+    {
+     "keyword": "fat bike bike",
+     "intent": "I",
+     "volume": 880,
+     "kd": 13
+    }
+   ]
+  },
+  {
+   "display": "Vélo cargo pas cher",
+   "url": "/velos-electriques/velo-cargo-electrique/",
+   "dePath": "/e-bikes/cargo-bikes",
+   "name": "Vélos cargo électriques",
+   "type": "category",
+   "primary": {
+    "keyword": "velo cargo pas cher",
+    "volume": 260,
+    "kd": 20,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "prix velo cargo electrique",
+     "volume": 210,
+     "kd": 24,
+     "intent": "T"
+    },
+    {
+     "keyword": "velo cargo prix",
+     "volume": 210,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "triporteur",
+     "intent": "T",
+     "volume": 8100,
+     "kd": 25
+    },
+    {
+     "keyword": "velo triporteur",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 21
+    },
+    {
+     "keyword": "vélo longtail",
+     "intent": "C",
+     "volume": 880,
+     "kd": 15
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo cargo",
+     "volume": 22200,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo cargo electrique",
+     "volume": 12100,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo cargo électrique 3 places",
+     "volume": 210,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "triporteur electrique",
+     "intent": "I",
+     "volume": 2900,
+     "kd": 22
+    },
+    {
+     "keyword": "longtail",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "VTC électrique",
+   "url": "/velos-electriques/velo-electrique-ville/",
+   "dePath": "/e-bikes/city-e-bikes",
+   "name": "Vélos électriques de ville",
+   "type": "category",
+   "primary": {
+    "keyword": "vtc electrique",
+    "volume": 6600,
+    "kd": 19,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "velo electrique ville",
+     "volume": 1300,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo électrique urbain",
+     "intent": "C",
+     "volume": 390,
+     "kd": 19
+    },
+    {
+     "keyword": "velos vtc electriques",
+     "intent": "C",
+     "volume": 390,
+     "kd": 13
+    },
+    {
+     "keyword": "vélo électrique vtc",
+     "intent": "C",
+     "volume": 320,
+     "kd": 12
+    },
+    {
+     "keyword": "meilleur vtc electrique",
+     "intent": "C",
+     "volume": 260,
+     "kd": 13
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo de ville electrique",
+     "volume": 1000,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélos électriques ville",
+     "intent": "I",
+     "volume": 590,
+     "kd": 17
+    },
+    {
+     "keyword": "velos de ville electriques",
+     "intent": "I",
+     "volume": 590,
+     "kd": 14
+    },
+    {
+     "keyword": "vtc électriques",
+     "intent": "I",
+     "volume": 260,
+     "kd": 12
+    },
+    {
+     "keyword": "vtc electrique promo",
+     "intent": "C",
+     "volume": 170,
+     "kd": 11
+    }
+   ]
+  },
+  {
+   "display": "Vélo électrique pliable pas cher",
+   "url": "/velos-electriques/velo-electrique-pliant/",
+   "dePath": "/e-bikes/falt-e-bikes",
+   "name": "Vélos électriques pliants",
+   "type": "category",
+   "primary": {
+    "keyword": "vélo électrique pliable pas cher",
+    "volume": 170,
+    "kd": 22,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "velo electrique pliant pas cher",
+     "volume": 480,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo électrique pliant comparatif",
+     "volume": 390,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo pliable electrique",
+     "volume": 320,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliant",
+     "volume": 260,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo électrique pliant léger",
+     "intent": "C",
+     "volume": 720,
+     "kd": 18
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "vélo électrique pliant",
+     "volume": 2400,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "mini velo electrique pliable",
+     "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo electrique pliable leger",
+     "volume": 480,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "velos pliables electriques",
+     "intent": "I",
+     "volume": 390,
+     "kd": 24
+    },
+    {
+     "keyword": "vélos électriques pliants",
+     "intent": "C",
+     "volume": 320,
+     "kd": 26
+    }
+   ]
+  },
+  {
+   "display": "Vélo électrique 45 km/h",
+   "url": "/velos-electriques/speed-pedelec/",
+   "dePath": "/e-bikes/s-pedelec",
+   "name": "Speed pedelec (45 km/h)",
+   "type": "category",
+   "primary": {
+    "keyword": "velo electrique 45 km/h",
+    "volume": 880,
+    "kd": 10,
+    "intent": "I"
+   },
+   "secondary": [
+    {
+     "keyword": "speed bike 45 km h",
+     "intent": "C",
+     "volume": 320,
+     "kd": 9
+    },
+    {
+     "keyword": "vélo route électrique 45 km/h",
+     "intent": "C",
+     "volume": 170,
+     "kd": 12
+    },
+    {
+     "keyword": "velo 45 km h",
+     "intent": "C",
+     "volume": 140,
+     "kd": 9
+    },
+    {
+     "keyword": "velo de course electrique 45 km/h",
+     "intent": "C",
+     "volume": 110,
+     "kd": 8
+    },
+    {
+     "keyword": "speed bike 45 km/h comparatif",
+     "intent": "C",
+     "volume": 70,
+     "kd": 8
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo electrique vitesse 45 km h",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "speed pedelec",
+     "intent": "I",
+     "volume": 390,
+     "kd": 13
+    },
+    {
+     "keyword": "speedbike 45 km/h",
+     "intent": "I",
+     "volume": 260,
+     "kd": 9
+    },
+    {
+     "keyword": "velo electriques 45 km h",
+     "intent": "I",
+     "volume": 110,
+     "kd": 8
+    },
+    {
+     "keyword": "velo electrique 45 km/h homologué",
+     "intent": "I",
+     "volume": 110,
+     "kd": 8
+    }
+   ]
+  },
+  {
+   "display": "Vélo électrique pour route",
+   "url": "/velos-electriques/velo-electrique-gravel-route/",
+   "dePath": "/e-bikes/e-rennrad-gravel",
+   "name": "Vélos électriques gravel et route",
+   "type": "category",
+   "primary": {
+    "keyword": "velo electrique pour route",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "velo de route electrique",
+     "volume": 1900,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo de course electrique",
+     "volume": 1000,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo course electrique",
+     "volume": 1000,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo electrique route",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 14
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "gravel electrique",
+     "intent": "I",
+     "volume": 5400,
+     "kd": 16
+    },
+    {
+     "keyword": "velo gravel electrique",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 15
+    },
+    {
+     "keyword": "velos gravel electriques",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 11
+    },
+    {
+     "keyword": "gravelbike",
+     "intent": "T",
+     "volume": 880,
+     "kd": 28
+    },
+    {
+     "keyword": "vélo route électrique léger et puissant",
+     "intent": "I",
+     "volume": 720,
+     "kd": 12
+    }
+   ]
+  },
+  {
+   "display": "Vélo électrique pour enfant",
+   "url": "/velos-electriques/velo-electrique-enfant/",
+   "dePath": "/e-bikes/kinder-jugend",
+   "name": "Vélos électriques enfant",
+   "type": "category",
+   "primary": {
+    "keyword": "velo electrique pour enfant",
+    "volume": 590,
+    "kd": 11,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "vélo électrique enfant 12 ans",
+     "intent": "C",
+     "volume": 390,
+     "kd": 19
+    },
+    {
+     "keyword": "velo electrique enfant 5 ans",
+     "intent": "T",
+     "volume": 210,
+     "kd": 13
+    },
+    {
+     "keyword": "vtt électrique enfant",
+     "intent": "C",
+     "volume": 140,
+     "kd": 11
+    },
+    {
+     "keyword": "velo electrique enfant 9 ans",
+     "intent": "C",
+     "volume": 110,
+     "kd": 10
+    },
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo electrique enfant",
+     "volume": 2900,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo électrique enfant 10 ans",
+     "intent": "I",
+     "volume": 210,
+     "kd": 10
+    },
+    {
+     "keyword": "velo electrique enfant 11 ans",
+     "intent": "I",
+     "volume": 210,
+     "kd": 20
+    },
+    {
+     "keyword": "velo electrique adolescent",
+     "intent": "I",
+     "volume": 170,
+     "kd": 11
+    },
+    {
+     "keyword": "vélo électrique enfant 8 ans",
+     "intent": "I",
+     "volume": 170,
+     "kd": 10
+    }
+   ]
+  },
+  {
+   "display": "Vélo à assistance électrique femme",
+   "url": "/velos-electriques/velo-electrique-femme/",
+   "dePath": "/e-bikes/damen",
+   "name": "Vélos électriques femme",
+   "type": "category",
+   "primary": {
+    "keyword": "velo assistance electrique femme",
+    "volume": 390,
+    "kd": 19,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "vélo à assistance électrique pour femme",
+     "volume": 320,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur vélo électrique femme",
+     "volume": 320,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo électrique 26 pouces femme",
+     "volume": 110,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "comparatif velo electrique femme",
+     "volume": 90,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo femme electrique",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 14
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo electrique pour femme",
+     "volume": 1000,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo electrique femme leger",
+     "volume": 880,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo électrique femme 24 pouces",
+     "volume": 140,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "vtt electrique femme",
+     "intent": "I",
+     "volume": 2900,
+     "kd": 16
+    },
+    {
+     "keyword": "vtc electrique femme",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 14
+    }
+   ]
+  },
+  {
+   "display": "Meilleur vélo électrique homme",
+   "url": "/velos-electriques/velo-electrique-homme/",
+   "dePath": "/e-bikes/herren",
+   "name": "Vélos électriques homme",
+   "type": "category",
+   "primary": {
+    "keyword": "meilleur vélo électrique homme",
+    "volume": 90,
+    "kd": 10,
+    "intent": "C"
+   },
+   "secondary": [
+    {
+     "keyword": "velo assistance electrique pour homme",
+     "volume": 70,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "velo electrique suspendu homme",
+     "volume": 50,
+     "kd": 6,
+     "intent": "C"
+    },
+    {
+     "keyword": "vtc électrique homme",
+     "intent": "C",
+     "volume": 880,
+     "kd": 18
+    },
+    {
+     "keyword": "meilleur vtc électrique homme",
+     "intent": "C",
+     "volume": 480,
+     "kd": 12
+    },
+    {
+     "keyword": "velo tout terrain electrique homme",
+     "intent": "C",
+     "volume": 390,
+     "kd": 19
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "vélo homme électrique",
+     "volume": 720,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo électrique pour homme",
+     "volume": 110,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo électrique léger homme",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "vélo assistance électrique homme",
+     "volume": 70,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo electrique pas cher homme",
+     "intent": "C",
+     "volume": 320,
+     "kd": 21
+    }
+   ]
+  },
+  {
+   "display": "Moteur de vélo électrique",
+   "url": "/velos-electriques/moteur-batterie/",
+   "dePath": "/e-bikes/motor-antrieb",
+   "name": "Moteur et batterie",
+   "type": "category",
+   "primary": {
+    "keyword": "moteur de velo electrique",
+    "volume": 170,
+    "kd": 15,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "vélo électrique autonomie 150 km",
+     "volume": 320,
+     "kd": 13,
+     "intent": "C"
+    },
+    {
+     "keyword": "vélo électrique autonomie 500 km",
+     "volume": 210,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur moteur velo electrique",
+     "volume": 90,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo electrique femme moteur pedalier",
+     "volume": 70,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "velo electrique avec moteur pedalier",
+     "volume": 50,
+     "kd": 10,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "moteur velo electrique",
+     "volume": 2900,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "moteur electrique pour velo",
+     "volume": 2400,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "velo electrique moteur pedalier",
+     "volume": 880,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "autonomie d'un vélo électrique",
+     "volume": 720,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "autonomie velo electrique",
+     "volume": 720,
+     "kd": 12,
+     "intent": "I"
+    }
+   ]
+  }
+ ]
+}

@@ -17,9 +17,13 @@ const dePages = require('../data/keywords/de.json').pages;
 const families = require('../data/keywords/families.json').families || [];
 const pageByPath = new Map();
 for (const p of Array.isArray(dePages) ? dePages : Object.values(dePages)) pageByPath.set(pathOf(p.url) || '/', p);
+// translated pages (data/keywords/<lang>-live.json): keyed by their full public path, e.g. /fr/velos-electriques/vtt-electrique
+const l10nByPath = new Map();
+for (const lang of ['fr', 'nl', 'it', 'es', 'pt']) { try { for (const p of require('../data/keywords/' + lang + '-live.json').pages) l10nByPath.set('/' + lang + p.url.replace(/\/$/, ''), p); } catch { /* language not built yet */ } }
 const famByPath = new Map(); for (const f of Array.isArray(families) ? families : Object.values(families)) famByPath.set(pathOf(f.path), f);
 const keywordOf = (path, type) => {
   if (type === 'product') { const e = prods[path.replace(/^\/shop\//, '')]; return e ? { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: e.name } : null; }
+  const l = l10nByPath.get(path); if (l) return { primary: l.primary, secondary: l.secondary || [], faq: l.faq || [], name: l.name };
   const f = famByPath.get(path); if (f) return { primary: f.primary, secondary: f.secondary || [], faq: f.faq || [], name: f.name };
   const p = pageByPath.get(path); if (p) return { primary: p.primary, secondary: p.secondary || [], faq: p.faq || [], name: p.name };
   return null;
@@ -32,6 +36,7 @@ try { const L = fs.readFileSync('C:/electric bikes europe/03-keywords/by-market/
 const typeOf = (p) => {
   if (p === '/') return 'home';
   if (/^\/(fr|nl|it|es|pt)$/.test(p)) return 'language stub';
+  if (l10nByPath.has(p)) return 'translated ' + l10nByPath.get(p).type;
   if (/^\/shop\/.+/.test(p)) return prods[p.replace(/^\/shop\//, '')] ? 'product' : 'accessory product';
   if (/\/page\/\d+$/.test(p)) return 'pagination';
   if (/^\/e-bikes\/[^/]+$/.test(p)) return 'category';
@@ -94,15 +99,16 @@ const GENERIC = /^(hier|mehr|klicken sie hier|click here|link|weiterlesen|mehr e
 const dupTitles = new Map(), dupDescs = new Map(), dupH1 = new Map();
 for (const pg of pages.values()) { if (pg.type === 'language stub') continue; const h1 = (pg.heads.find((h) => h.l === 1) || {}).t || ''; for (const [m, v] of [[dupTitles, pg.title], [dupDescs, pg.desc], [dupH1, h1]]) { const k = norm(v); if (k) (m.get(k) || m.set(k, []).get(k)).push(pg.url); } }
 const allKw = new Map(); // stored keyword -> owners (one keyword = one URL)
-const addKw = (u, k) => { if (!k || !k.keyword) return; const key = norm(k.keyword).split(' ').sort().join(' '); (allKw.get(key) || allKw.set(key, new Set()).get(key)).add(u); };
+const addKw = (u, k) => { if (!k || !k.keyword) return; const key = ((u.match(/^\/(fr|nl|it|es|pt)\//) || [])[1] || 'de') + ':' + norm(k.keyword).split(' ').sort().join(' '); (allKw.get(key) || allKw.set(key, new Set()).get(key)).add(u); };
 for (const [slug, e] of Object.entries(prods)) for (const k of [e.primary, ...(e.secondary || []), ...(e.faq || [])]) addKw('/shop/' + slug, k);
 for (const [pth, p] of pageByPath) for (const k of [p.primary, ...(p.secondary || []), ...(p.faq || [])]) addKw(pth, k);
 for (const [pth, f] of famByPath) for (const k of [f.primary, ...(f.secondary || []), ...(f.faq || [])]) if (k && !k.heldNowBy) addKw(pth, k);
+for (const [pth, p] of l10nByPath) for (const k of [p.primary, ...(p.secondary || []), ...(p.faq || [])]) if (k) addKw(pth, k);
 const dupKw = [...allKw.entries()].filter(([, v]) => v.size > 1);
 
 const results = [];
 const rec = (pg, id, ok, note) => { results.push({ url: pg.url, type: pg.type, rule: id, ok, note: note || '' }); };
-const SALES = new Set(['product', 'category', 'brand', 'family', 'accessory category', 'home']);
+const SALES = new Set(['product', 'category', 'brand', 'family', 'accessory category', 'home', 'translated category', 'translated brand', 'translated accessory']);
 const firstParas = new Map();
 for (const pg of pages.values()) { if (pg.type === 'product') { const k = norm(pg.para).split(' ').slice(0, 12).join(' '); (firstParas.get(k) || firstParas.set(k, []).get(k)).push(pg.url); } }
 for (const pg of pages.values()) {
@@ -121,7 +127,7 @@ for (const pg of pages.values()) {
     if (pg.type === 'product') rec(pg, 'M1 primary is a bank keyword (name-based fallback counts as miss)', kw.primary.source === 'bank' && (bank.size ? bank.has(pn) || kw.primary.volume === 0 : true), nameBased ? 'name-based fallback' : '');
     if (pg.type === 'product' && kw.primary.source === 'bank') { rec(pg, 'M2 main keyword intent is Transactional', kw.primary.intent === 'T', kw.primary.intent); rec(pg, 'M2b main keyword intent is T or C', /^(T|C)$/.test(kw.primary.intent), kw.primary.intent); rec(pg, 'M3 main keyword volume above 0', kw.primary.volume > 0, kw.primary.volume); rec(pg, 'M4 main keyword KD at most 28', kw.primary.kd == null || kw.primary.kd <= 28, kw.primary.kd); }
     if (pg.type !== 'product') { rec(pg, 'M2 main keyword intent is Transactional', kw.primary.intent === 'T', kw.primary.intent); rec(pg, 'M3 main keyword volume above 0', kw.primary.volume > 0, kw.primary.volume); }
-    const key = norm(kw.primary.keyword).split(' ').sort().join(' ');
+    const key = ((pg.url.match(/^\/(fr|nl|it|es|pt)\//) || [])[1] || 'de') + ':' + norm(kw.primary.keyword).split(' ').sort().join(' ');
     rec(pg, 'M5 main keyword used on this URL only', !allKw.get(key) || allKw.get(key).size <= 1);
     const sec = kw.secondary || [];
     rec(pg, 'M6 five secondary keywords stored', sec.length >= 5, sec.length + ' stored');

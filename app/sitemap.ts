@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { PRODUCTS } from '@/lib/products';
 import { localesForPath, getLocalizedPath, getHreflangAlternates } from '@/lib/i18n';
+import { l10nAlternates, l10nPages, L10N_LOCALES } from '@/lib/l10n-pages';
 import { getAllPosts } from '@/lib/blog-content';
 import { MAPPED_PAGES, listingPageCount, listingUrl } from '@/lib/mapped-pages';
 import { FAMILIES, familyMembers, familyPageCount, familyListingUrl } from '@/lib/families';
@@ -42,9 +43,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ),
   ];
 
-  return routes.flatMap((route) => {
+  const translated = L10N_LOCALES.flatMap((l) => l10nPages(l).map((p) => ({
+    url: `${baseUrl}/${l}${p.url.replace(/\/$/, '')}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly' as const,
+    priority: p.type === 'category' ? 0.8 : 0.7,
+    alternates: { languages: Object.fromEntries((l10nAlternates(p.url, l, baseUrl) || []).map((a) => [a.hreflang, a.url])) },
+  })));
+  const base = routes.flatMap((route) => {
     const languages = Object.fromEntries(
-      getHreflangAlternates(route.path, baseUrl).map((a) => [a.hreflang, a.url])
+      (l10nAlternates(route.path, 'de', baseUrl) || getHreflangAlternates(route.path, baseUrl)).map((a) => [a.hreflang, a.url])
     );
     return localesForPath(route.path).map((l) => ({
       url: `${baseUrl}${getLocalizedPath(route.path, l.code)}`,
@@ -54,4 +62,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages },
     }));
   });
+  return [...base, ...translated];
 }
