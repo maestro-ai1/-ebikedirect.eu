@@ -63,7 +63,7 @@ Wer eine Brille trägt, muss auf das Zusammenspiel von Brille, Helm und Visier a
 
 ## Helm und E-Bike: Was ist anders?
 
-Ein E-Bike ist schneller und schwerer als ein normales Rad. Ein Helm mit mehr Abdeckung im Nacken, Licht und Reflektoren ist darum eine gute Wahl. Für schnelle S-Pedelecs gilt eine Helmpflicht, welche Helme rechtlich zulässig sind, regelt die Straßenverkehrsordnung, prüfen Sie das vor dem Kauf. Mehr zu den Anforderungen lesen Sie im Beitrag [S-Pedelec: Führerschein, Kennzeichen und Kosten](/blog/s-pedelec-fuehrerschein-kennzeichen-kosten). Wer sein E-Bike für den Alltag kauft, findet Räder in der Kategorie [Damen E-Bikes](/e-bikes/damen/).
+Ein E-Bike ist schneller und schwerer als ein normales Rad. Ein Helm mit mehr Abdeckung im Nacken, Licht und Reflektoren ist darum eine gute Wahl. Für schnelle S-Pedelecs gilt eine Helmpflicht, welche Helme rechtlich zulässig sind, regelt die Straßenverkehrsordnung, prüfen Sie das vor dem Kauf. Mehr zu den Anforderungen lesen Sie im Beitrag [S-Pedelec: Führerschein, Kennzeichen und Kosten](/blog/s-pedelec-fuehrerschein-kennzeichen-kosten). Wer sein E-Bike für den Alltag kauft, findet Räder in der Kategorie [Damen E-Bikes](/e-bikes/city-e-bikes/).
 
 ## Helme für Kinder und Jugendliche in der Familie
 

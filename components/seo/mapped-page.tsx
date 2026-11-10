@@ -85,12 +85,19 @@ export function MappedPage({ path, pageNum = 1 }: { path: string; pageNum?: numb
   if (pageNum < 1 || pageNum > total) notFound();
   const items = all.slice((pageNum - 1) * PER_PAGE, pageNum * PER_PAGE);
   const altSeen = new Set<string>();
-  const altFor = (p: { slug: string; name: string }) => { const a = productFocusKeyword(p.slug, p.name); if (altSeen.has(a)) return `${a} - ${p.name}`; altSeen.add(a); return a; };
   const first = pageNum === 1;
   const faqs = first ? buildMappedFaqs(def, page.name, (page.faq || []).slice(0, 5).map((k) => k.keyword), all) : [];
   const h1base = capitalize(page.primary.keyword);
   const h1 = first ? h1base : `${h1base}: Seite ${pageNum}`;
   const banner = BANNERS[path];
+  // The page's main keyword must sit in at least one image alt: when the page has no logo or banner carrying it, the first product image does.
+  const hasKwImage = (def.type === 'brand' && !!BRAND_LOGOS.find((b) => b.name === def.brand)) || (!!banner && pageNum === 1);
+  let kwAltUsed = hasKwImage;
+  const altFor = (p: { slug: string; name: string }) => {
+    let a = productFocusKeyword(p.slug, p.name);
+    if (!kwAltUsed) { kwAltUsed = true; const k = page.primary.keyword; if (!a.toLowerCase().includes(k.toLowerCase())) a = `${k} - ${a}`; }
+    if (altSeen.has(a)) return `${a} - ${p.name}`; altSeen.add(a); return a;
+  };
   const parent =
     def.type === 'brand'
       ? [{ label: 'Marken', href: '/marken' }]

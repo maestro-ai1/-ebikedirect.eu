@@ -48,7 +48,7 @@ Die Image Serie richtet sich an den Alltag in der Stadt. Das [Image 5 Season](/s
 
 ## Kalkhoff Fahrrad Herren: Diamantrahmen und Größen
 
-Wer ein Kalkhoff Fahrrad für Herren sucht, wählt meist den Diamantrahmen. Er ist steifer und passt zu sportlicher Sitzposition. Das [Kalkhoff Endeavour 5+ Advance](/shop/kalkhoff-endeavour-5-advance-plus) und das Entice 7 Advance+ sind Beispiele. Die Rahmenhöhe richtet sich nach Körpergröße und Schrittlänge. Orientieren Sie sich an der Größentabelle des Herstellers und an Ihrer Schrittlänge. Eine ausführliche Beratung zur Größe finden Sie in der Kategorie [Herren E-Bikes](/e-bikes/herren/). Für Frauen finden Sie Räder in der Kategorie [Damen E-Bikes](/e-bikes/damen/).
+Wer ein Kalkhoff Fahrrad für Herren sucht, wählt meist den Diamantrahmen. Er ist steifer und passt zu sportlicher Sitzposition. Das [Kalkhoff Endeavour 5+ Advance](/shop/kalkhoff-endeavour-5-advance-plus) und das Entice 7 Advance+ sind Beispiele. Die Rahmenhöhe richtet sich nach Körpergröße und Schrittlänge. Orientieren Sie sich an der Größentabelle des Herstellers und an Ihrer Schrittlänge. Eine ausführliche Beratung zur Größe finden Sie in der Kategorie [Herren E-Bikes](/e-bikes/trekking-e-bikes/). Für Frauen finden Sie Räder in der Kategorie [Damen E-Bikes](/e-bikes/city-e-bikes/).
 
 ## Komfort im Detail: Gabel, Sattel, Display
 
@@ -98,4 +98,4 @@ Die aktuellen Preise stehen auf der jeweiligen Produktseite. Wer die Kosten vert
 
 ## Fazit
 
-Ein Kalkhoff Fahrrad für Damen gibt es als kräftiges Entice, leichtes Endeavour oder komfortables Image. Alle nutzen Bosch Motoren, laufen leise und lassen sich für Alltag und Touren konfigurieren. Wählen Sie nach Strecke, Gelände, Gewicht und Budget und achten Sie auf Rahmenform und Größe. Vergleichen Sie jetzt die Modelle auf der Seite [Kalkhoff](/marken/kalkhoff/) oder in der Kategorie [Damen E-Bikes](/e-bikes/damen/).
+Ein Kalkhoff Fahrrad für Damen gibt es als kräftiges Entice, leichtes Endeavour oder komfortables Image. Alle nutzen Bosch Motoren, laufen leise und lassen sich für Alltag und Touren konfigurieren. Wählen Sie nach Strecke, Gelände, Gewicht und Budget und achten Sie auf Rahmenform und Größe. Vergleichen Sie jetzt die Modelle auf der Seite [Kalkhoff](/marken/kalkhoff/) oder in der Kategorie [Damen E-Bikes](/e-bikes/city-e-bikes/).

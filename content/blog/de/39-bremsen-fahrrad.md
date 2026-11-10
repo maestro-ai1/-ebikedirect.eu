@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Bremsen sind das wichtigste Sicherheitsbauteil am Fahrrad. Am E-Bike mit höherem Gewicht und Tempo gilt das doppelt: Der Bremsweg wird länger, und die Bremsen werden stärker beansprucht. Dieser Ratgeber zu Fahrrad-Bremsen erklärt die Bauarten, die Unterschiede zwischen hydraulischen und mechanischen Systemen, die Besonderheiten am E-Bike und zeigt, wann ein Entlüften nötig ist und wer es durchführen sollte. Zubehör für den Antrieb und Bremsen finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Bremsen sind das wichtigste Sicherheitsbauteil am Fahrrad. Am E-Bike mit höherem Gewicht und Tempo gilt das doppelt: Der Bremsweg wird länger, und die Bremsen werden stärker beansprucht. Dieser Ratgeber zu Fahrrad-Bremsen erklärt die Bauarten, die Unterschiede zwischen hydraulischen und mechanischen Systemen, die Besonderheiten am E-Bike und zeigt, wann ein Entlüften nötig ist und wer es durchführen sollte. Zubehör für den Antrieb und Bremsen finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).
 
 Hinweis: Wir erklären Bauarten und Kriterien. Wartungsarbeiten an Bremsen sind sicherheitsrelevant und gehören in die Hände geübter Mechaniker. Maßgeblich sind die Herstellerangaben zu Ihrem Rad und Ihrer Bremse. Allgemeine Sicherheitshinweise bietet der [ADFC](https://www.adfc.de/).
 
@@ -108,4 +108,4 @@ Hydraulisch bedeutet, dass Flüssigkeit in einer Leitung die Kraft vom Hebel zum
 
 ## Fazit
 
-Gute Bremsen sind das Wichtigste am Fahrrad, am E-Bike erst recht. Hydraulische Scheibenbremsen mit passender Scheibengröße und Belag bieten die beste Leistung, Vierkolbensättel helfen bei Gewicht und Last. Prüfen Sie Beläge regelmäßig, überlassen Sie das Entlüften im Zweifel der Werkstatt und üben Sie richtiges Bremsen. Entdecken Sie jetzt Räder in den Kategorien [Trekking E-Bikes](/e-bikes/trekking-e-bikes/) und [E-Mountainbikes](/e-bikes/e-mountainbikes/) und Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Gute Bremsen sind das Wichtigste am Fahrrad, am E-Bike erst recht. Hydraulische Scheibenbremsen mit passender Scheibengröße und Belag bieten die beste Leistung, Vierkolbensättel helfen bei Gewicht und Last. Prüfen Sie Beläge regelmäßig, überlassen Sie das Entlüften im Zweifel der Werkstatt und üben Sie richtiges Bremsen. Entdecken Sie jetzt Räder in den Kategorien [Trekking E-Bikes](/e-bikes/trekking-e-bikes/) und [E-Mountainbikes](/e-bikes/e-mountainbikes/) und Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).

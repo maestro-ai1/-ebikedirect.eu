@@ -73,7 +73,7 @@ export const GAZELLE_NEW_PRODUCTS: Product[] = [
   {
     "id": "gazelle-paris-c7plus",
     "slug": "gazelle-paris-c7plus",
-    "name": "Gazelle Paris C7+",
+    "name": "Gazelle Paris C7 Plus",
     "brand": "Gazelle",
     "category": "E-City",
     "price": 2685.51,
@@ -868,7 +868,7 @@ export const GAZELLE_NEW_PRODUCTS: Product[] = [
   {
     "id": "gazelle-orange-c8plus",
     "slug": "gazelle-orange-c8plus",
-    "name": "Gazelle Orange C8+",
+    "name": "Gazelle Orange C8 Plus",
     "brand": "Gazelle",
     "category": "E-City",
     "price": 3282.51,

@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Wer ein Elektro Bike mit Bosch Motor sucht, trifft auf viele Namen: Active Line, Performance Line, CX, SX, PX, Cargo Line und Smart System. Dahinter steckt ein ganzes Antriebsprogramm für ganz unterschiedliche Räder, vom leichten Stadtrad bis zum Familien-Lastenrad. Dieser Ratgeber ordnet die Baureihen ein, erklärt, was Drehmoment, Display und Akku für den Alltag bedeuten, und zeigt, worauf Sie beim Kauf achten. Räder mit Bosch Antrieb finden Sie auf der Markenseite [Bosch](/marken/bosch/), eine Motorübersicht unter [Motor und Antrieb](/e-bikes/motor-antrieb/).
+Wer ein Elektro Bike mit Bosch Motor sucht, trifft auf viele Namen: Active Line, Performance Line, CX, SX, PX, Cargo Line und Smart System. Dahinter steckt ein ganzes Antriebsprogramm für ganz unterschiedliche Räder, vom leichten Stadtrad bis zum Familien-Lastenrad. Dieser Ratgeber ordnet die Baureihen ein, erklärt, was Drehmoment, Display und Akku für den Alltag bedeuten, und zeigt, worauf Sie beim Kauf achten. Räder mit Bosch Antrieb finden Sie auf der Markenseite [Bosch](/marken/bosch/), eine Motorübersicht unter [Motor und Antrieb](/e-bikes/).
 
 Hinweis: Alle Zahlen in diesem Beitrag stammen aus den Datenblättern der Räder in unserem Sortiment und aus Herstellerangaben. Sie gelten für die genannten Modelle. Bosch entwickelt seine Systeme laufend weiter, prüfen Sie deshalb immer die Angabe auf der Produktseite des Wunschrads.
 
@@ -46,7 +46,7 @@ Statt eine Baureihe nach der Zahl zu kaufen, lohnt der Blick auf Ihren Alltag. F
 - **Gelände und Berge:** Die CX-Baureihe ist für Mountainbikes und anspruchsvolles Terrain ausgelegt. Einen Vergleich mit dem Shimano-Antrieb finden Sie im Beitrag [E-Bike Bosch CX](/blog/bosch-performance-cx-vs-shimano-ep801-vergleich).
 - **Last, Kinder, Hund:** Cargo Line und PX liefern Kraft für schwere Räder. Mehr dazu im Beitrag [Lastenrad für den Hund](/blog/lastenrad-hund-ratgeber).
 
-Bei der Auswahl hilft die Filterfunktion in unserem Sortiment: Unter [Motor und Antrieb](/e-bikes/motor-antrieb/) sehen Sie die Räder nach Antrieb sortiert.
+Bei der Auswahl hilft die Filterfunktion in unserem Sortiment: Unter [Motor und Antrieb](/e-bikes/) sehen Sie die Räder nach Antrieb sortiert.
 
 ## Fahrrad mit Bosch Motor: Akku und Reichweite
 
@@ -62,7 +62,7 @@ Bosch unterscheidet bei den Bedieneinheiten mehrere Ausführungen. In unserem So
 - **Kiox 300 und Kiox 500:** Farbdisplays mit mehr Fahrdaten, Navigation per Smartphone und Anbindung an die App. Die größere Variante bietet mehr Anzeigefläche.
 - **LED Remote und System Controller:** Schlanke Bedienteile, bei denen Status per Leuchtanzeige im Rahmen gezeigt wird. Sie wirken aufgeräumt und werden oft bei sportlichen Rädern verbaut.
 
-Kleine Details entscheiden im Alltag: Lässt sich das Bedienteil mit Handschuhen bedienen? Ist das Display bei Sonne ablesbar? Haben Sie eine Halterung für das Handy? Passendes Zubehör finden Sie unter [Handyhalter](/zubehoer/handyhalter/) und [Displays und Elektronik](/zubehoer/displays-elektronik/).
+Kleine Details entscheiden im Alltag: Lässt sich das Bedienteil mit Handschuhen bedienen? Ist das Display bei Sonne ablesbar? Haben Sie eine Halterung für das Handy? Passendes Zubehör finden Sie unter [Handyhalter](/zubehoer/handyhalter/) und [Displays und Elektronik](/zubehoer/).
 
 ## Software, Updates und Service
 

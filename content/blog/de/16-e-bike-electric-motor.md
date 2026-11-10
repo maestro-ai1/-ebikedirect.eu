@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Der Motor entscheidet, wie sich ein E-Bike fährt. Er bestimmt, wie kräftig es am Berg schiebt, wie leise es läuft, wie viel das Rad wiegt und wie gut der Service in Ihrer Nähe ist. Trotzdem lesen viele Käufer nur auf die Wattzahl. Dieser Ratgeber zum Thema E-Bike Electric Motor erklärt die Bauformen, vergleicht die wichtigsten Hersteller und hilft bei der Frage, welcher Motor zu Ihrem Alltag passt. Räder nach Antrieb sortiert finden Sie in der Kategorie [Motor und Antrieb](/e-bikes/motor-antrieb/).
+Der Motor entscheidet, wie sich ein E-Bike fährt. Er bestimmt, wie kräftig es am Berg schiebt, wie leise es läuft, wie viel das Rad wiegt und wie gut der Service in Ihrer Nähe ist. Trotzdem lesen viele Käufer nur auf die Wattzahl. Dieser Ratgeber zum Thema E-Bike Electric Motor erklärt die Bauformen, vergleicht die wichtigsten Hersteller und hilft bei der Frage, welcher Motor zu Ihrem Alltag passt. Räder nach Antrieb sortiert finden Sie in der Kategorie [Motor und Antrieb](/e-bikes/).
 
 Hinweis: Alle Werte stammen aus den Datenblättern der Räder in unserem Sortiment. Hersteller entwickeln ihre Systeme ständig weiter, prüfen Sie die Angabe deshalb immer auf der Produktseite.
 
@@ -81,7 +81,7 @@ Bosch ist mit Abstand der häufigste Hersteller im Sortiment, eine Übersicht de
 
 ## Akku und Display im Zusammenspiel
 
-Der Motor allein macht noch kein gutes E-Bike. Der Akku liefert die Energie und bestimmt die Reichweite, das Display zeigt Daten und steuert die Stufen. Beides muss zum Motor passen. Beim Kauf sollten Sie auf Akkukapazität, Bauform, Ersatzteilversorgung und die App-Anbindung achten. Mehr zur Reichweite lesen Sie im Beitrag [E-Bike Reichweite](/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized). Zubehör finden Sie in den Kategorien [Akkus](/zubehoer/akkus/) und [Displays und Elektronik](/zubehoer/displays-elektronik/).
+Der Motor allein macht noch kein gutes E-Bike. Der Akku liefert die Energie und bestimmt die Reichweite, das Display zeigt Daten und steuert die Stufen. Beides muss zum Motor passen. Beim Kauf sollten Sie auf Akkukapazität, Bauform, Ersatzteilversorgung und die App-Anbindung achten. Mehr zur Reichweite lesen Sie im Beitrag [E-Bike Reichweite](/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized). Zubehör finden Sie in den Kategorien [Akkus](/zubehoer/) und [Displays und Elektronik](/zubehoer/).
 
 ## Typische Fehler beim Motorkauf
 
@@ -124,4 +124,4 @@ Unabhängige Tests zu E-Bikes, die auch den Antrieb bewerten, veröffentlichen z
 
 ## Fazit
 
-Welcher Motor der richtige ist, hängt von Gelände, Gewicht, Einsatz und Service ab. Mittelmotoren bieten viel Kraft und Fahrgefühl, Hinterradmotoren machen Räder leicht und leise. Bosch dominiert das Angebot, Shimano, Yamaha, Specialized, Giant, Panasonic, Avinox, TQ und Fazua ergänzen es. Vergleichen Sie Drehmoment, Akku und Display und fahren Sie Probe. Entdecken Sie jetzt die Modelle in der Kategorie [Motor und Antrieb](/e-bikes/motor-antrieb/) oder auf der Seite [Bosch](/marken/bosch/).
+Welcher Motor der richtige ist, hängt von Gelände, Gewicht, Einsatz und Service ab. Mittelmotoren bieten viel Kraft und Fahrgefühl, Hinterradmotoren machen Räder leicht und leise. Bosch dominiert das Angebot, Shimano, Yamaha, Specialized, Giant, Panasonic, Avinox, TQ und Fazua ergänzen es. Vergleichen Sie Drehmoment, Akku und Display und fahren Sie Probe. Entdecken Sie jetzt die Modelle in der Kategorie [Motor und Antrieb](/e-bikes/) oder auf der Seite [Bosch](/marken/bosch/).

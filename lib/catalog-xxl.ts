@@ -8052,7 +8052,7 @@ export const XXL_PRODUCTS: Product[] = [
   {
     "id": "gazelle-heavydutynl-c7-plus-500-wh-28-zoll",
     "slug": "gazelle-heavydutynl-c7-plus-500-wh-28-zoll",
-    "name": "Gazelle HeavyDutyNL C7+",
+    "name": "Gazelle HeavyDutyNL C7 Plus",
     "brand": "Gazelle",
     "category": "E-City",
     "price": 3083.51,
@@ -9424,7 +9424,7 @@ export const XXL_PRODUCTS: Product[] = [
   {
     "id": "gazelle-grenoble-c5-plus-540-wh-28-zoll",
     "slug": "gazelle-grenoble-c5-plus-540-wh-28-zoll",
-    "name": "Gazelle Grenoble C5+",
+    "name": "Gazelle Grenoble C5 Plus",
     "brand": "Gazelle",
     "category": "E-City",
     "price": 3979.01,
@@ -14645,7 +14645,7 @@ export const XXL_PRODUCTS: Product[] = [
   {
     "id": "kalkhoff-entice-7-move-plus-600-wh-29-zoll",
     "slug": "kalkhoff-entice-7-move-plus-600-wh-29-zoll",
-    "name": "Kalkhoff Entice 7 Move+",
+    "name": "Kalkhoff Entice 7 Move Plus",
     "brand": "Kalkhoff",
     "category": "E-City",
     "price": 5770.01,
@@ -27184,7 +27184,7 @@ export const XXL_PRODUCTS: Product[] = [
   {
     "id": "trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll",
     "slug": "trek-powerfly-fs-plus-4-gen-4-800-wh-29-zoll",
-    "name": "Trek Powerfly FS+ 4 Gen 4",
+    "name": "Trek Powerfly FS Plus 4 Gen 4",
     "brand": "Trek",
     "category": "E-MTB",
     "price": 4178.01,

@@ -135,6 +135,10 @@ export default async function BlogPostPage({ params }: Props) {
             </section>
           )}
 
+          <p className="text-sm text-gray-600 leading-relaxed pt-2">
+            Alle Hersteller im Sortiment finden Sie unter <Link href={getLocalizedPath('/marken', 'de')} className="text-[#FF5722] font-semibold hover:underline">Marken</Link>, Antworten auf häufige Kauffragen in den <Link href={getLocalizedPath('/faq', 'de')} className="text-[#FF5722] font-semibold hover:underline">FAQ</Link>, mehr zum Shop unter <Link href={getLocalizedPath('/about', 'de')} className="text-[#FF5722] font-semibold hover:underline">Über uns</Link>, die Bedingungen unter <Link href={getLocalizedPath('/policies', 'de')} className="text-[#FF5722] font-semibold hover:underline">Lieferung, Rückgabe und Garantie</Link>, und bei Fragen hilft der <Link href={getLocalizedPath('/contact', 'de')} className="text-[#FF5722] font-semibold hover:underline">Kontakt</Link>.
+          </p>
+
           <div className="pt-4">
             <Link href={getLocalizedPath('/blog', 'de')} className="text-xs font-bold text-gray-600 hover:text-[#131A22]">Zurück zur Magazinübersicht</Link>
           </div>

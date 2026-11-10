@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Wer Rennrad fährt, kommt früher oder später an die Frage: Klickpedale ja oder nein? Mit einem System, das Schuh und Pedal fest verbindet, treten Sie runder, nutzen mehr Muskeln und haben auch bei Schlaglöchern und Bergabfahrten sicheren Kontakt. Das Aus- und Einklicken muss aber geübt sein. Dieser Ratgeber erklärt, wie Klickpedale funktionieren, welche Systeme es gibt, worauf es bei Pedalen und Schuhen ankommt und wie Sie den Einstieg meistern. Zubehör für den Antrieb finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Wer Rennrad fährt, kommt früher oder später an die Frage: Klickpedale ja oder nein? Mit einem System, das Schuh und Pedal fest verbindet, treten Sie runder, nutzen mehr Muskeln und haben auch bei Schlaglöchern und Bergabfahrten sicheren Kontakt. Das Aus- und Einklicken muss aber geübt sein. Dieser Ratgeber erklärt, wie Klickpedale funktionieren, welche Systeme es gibt, worauf es bei Pedalen und Schuhen ankommt und wie Sie den Einstieg meistern. Zubehör für den Antrieb finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).
 
 Hinweis: Wir erklären Systeme und Auswahlkriterien, keine einzelnen Modelle. Maße, Gewicht und Freigaben entnehmen Sie der Herstellerangabe. Hintergründe zum Rennrad bietet [Wikipedia zum Rennrad](https://de.wikipedia.org/wiki/Rennrad).
 
@@ -115,4 +115,4 @@ Die Kette muss zur Gangzahl passen: Eine Zehnfach-Kette passt nicht an ein Zwöl
 
 ## Fazit
 
-Klickpedale machen das Rennradfahren effizienter und sicherer, brauchen aber Übung. SPD-Pedale sind alltagstauglich, Straßenpedale bieten maximale Auflage. Wichtig sind passende Schuhe, eine niedrige Auslösehärte am Anfang und regelmäßige Pflege. Wer unsicher ist, startet mit Hybridpedalen. Entdecken Sie jetzt Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Klickpedale machen das Rennradfahren effizienter und sicherer, brauchen aber Übung. SPD-Pedale sind alltagstauglich, Straßenpedale bieten maximale Auflage. Wichtig sind passende Schuhe, eine niedrige Auslösehärte am Anfang und regelmäßige Pflege. Wer unsicher ist, startet mit Hybridpedalen. Entdecken Sie jetzt Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).

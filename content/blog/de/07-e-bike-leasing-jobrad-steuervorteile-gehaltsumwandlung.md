@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-10-24
 updated: 2026-11-04
 ---
-Beim Leasing eines E-Bikes least in der Regel der Arbeitgeber das Rad und überlässt es dem Mitarbeiter zur dienstlichen und privaten Nutzung. Die Leasingrate wird vom Bruttogehalt abgezogen, deshalb sinken Steuern und Sozialabgaben, und die tatsächliche Belastung liegt unter dem Preis eines Barkaufs. Dieser Ratgeber erklärt den Ablauf, die steuerliche Behandlung, ein vereinfachtes Rechenbeispiel und die Punkte, die vor der Unterschrift geprüft werden sollten. Passende Räder finden Sie im Bereich [E-Bikes](/e-bikes/), Hinweise zu Finanzierungsmöglichkeiten auf der Seite [Finanzierung und Leasing](/finanzierung-leasing/).
+Beim Leasing eines E-Bikes least in der Regel der Arbeitgeber das Rad und überlässt es dem Mitarbeiter zur dienstlichen und privaten Nutzung. Die Leasingrate wird vom Bruttogehalt abgezogen, deshalb sinken Steuern und Sozialabgaben, und die tatsächliche Belastung liegt unter dem Preis eines Barkaufs. Dieser Ratgeber erklärt den Ablauf, die steuerliche Behandlung, ein vereinfachtes Rechenbeispiel und die Punkte, die vor der Unterschrift geprüft werden sollten. Passende Räder finden Sie im Bereich [E-Bikes](/e-bikes/), Hinweise zu Finanzierungsmöglichkeiten auf der Seite Finanzierung und Leasing.
 
 Wichtig vorab: Dieser Beitrag ist eine allgemeine Information und keine Steuer- oder Rechtsberatung. Die Regeln hängen vom Einzelfall, vom Arbeitgeber und vom Leasinganbieter ab. Klären Sie Ihre Situation mit der Personalabteilung oder einer Steuerberatung.
 

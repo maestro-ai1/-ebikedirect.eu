@@ -89,7 +89,7 @@ Mit diesen Maßnahmen kommen Sie weiter, ohne auf Fahrspaß zu verzichten:
 2. **Niedrige Stufe wählen:** Nutzen Sie die hohen Stufen nur bei Bedarf.
 3. **Gepäck reduzieren:** Nehmen Sie nur mit, was Sie wirklich brauchen.
 4. **Kette pflegen:** Eine saubere, geschmierte Kette läuft leichter. Passende Mittel finden Sie unter [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/).
-5. **Akku richtig laden:** Laden Sie bei Zimmertemperatur mit dem Originalladegerät. Ein passendes Ladegerät finden Sie unter [Ladegeräte](/zubehoer/ladegeraete/).
+5. **Akku richtig laden:** Laden Sie bei Zimmertemperatur mit dem Originalladegerät. Ein passendes Ladegerät finden Sie unter [Ladegeräte](/zubehoer/).
 6. **Software aktuell halten:** Hersteller veröffentlichen Updates für Motor und Display, die das Verhalten verbessern können.
 
 Wer mit dem Smartphone navigiert, braucht eine sichere Halterung, siehe [Handyhalter](/zubehoer/handyhalter/). Beachten Sie, dass die Navigation über die App zusätzlich Strom verbraucht, wenn das Telefon über das Rad geladen wird.

@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Der Akku ist beim E-Bike das Herzstück, doch auch kleines Zubehör arbeitet heute mit Akku: die elektrische Luftpumpe, die Lampe fürs Rad, das Rücklicht oder die Heizmanschette für kalte Tage. Wer eine Akku Fahrradpumpe sucht, will vor allem eines: schnell und ohne Kraftaufwand Luft in den Reifen bekommen. Dieser Ratgeber erklärt, wie Akku-Pumpen und Akku-Lampen funktionieren, worauf Sie beim Kauf achten, welche Rolle der Akku des E-Bikes selbst spielt und wann eine Schutzhülle oder Reparatur sinnvoll ist. Zubehör finden Sie in den Kategorien [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/) und [Akkus](/zubehoer/akkus/).
+Der Akku ist beim E-Bike das Herzstück, doch auch kleines Zubehör arbeitet heute mit Akku: die elektrische Luftpumpe, die Lampe fürs Rad, das Rücklicht oder die Heizmanschette für kalte Tage. Wer eine Akku Fahrradpumpe sucht, will vor allem eines: schnell und ohne Kraftaufwand Luft in den Reifen bekommen. Dieser Ratgeber erklärt, wie Akku-Pumpen und Akku-Lampen funktionieren, worauf Sie beim Kauf achten, welche Rolle der Akku des E-Bikes selbst spielt und wann eine Schutzhülle oder Reparatur sinnvoll ist. Zubehör finden Sie in den Kategorien [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/) und [Akkus](/zubehoer/).
 
 Hinweis: Wir beschreiben Funktionen und Auswahlkriterien. Technische Angaben zu einzelnen Produkten entnehmen Sie der Produktseite und der Herstellerangabe. Arbeiten am E-Bike-Akku sind Sache des Fachhandels.
 
@@ -105,4 +105,4 @@ Lagern Sie den Akku trocken und kühl, bei etwa 10 bis 20 Grad, und mit mittlere
 
 ## Fazit
 
-Eine Akku Fahrradpumpe spart Kraft und sorgt für den richtigen Druck, Akku-Lampen ersetzen Batterien, und eine Schutzhülle hilft dem E-Bike Akku im Winter. Wichtig sind passende Ventile, geprüfte Lampen und das Originalladegerät. Reparaturen und Akkuwechsel gehören in die Werkstatt. Entdecken Sie jetzt die Kategorien [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/), [Beleuchtung](/zubehoer/beleuchtung/) und [Akkus](/zubehoer/akkus/).
+Eine Akku Fahrradpumpe spart Kraft und sorgt für den richtigen Druck, Akku-Lampen ersetzen Batterien, und eine Schutzhülle hilft dem E-Bike Akku im Winter. Wichtig sind passende Ventile, geprüfte Lampen und das Originalladegerät. Reparaturen und Akkuwechsel gehören in die Werkstatt. Entdecken Sie jetzt die Kategorien [Werkzeug und Pflege](/zubehoer/werkzeug-pflege/), [Beleuchtung](/zubehoer/beleuchtung/) und [Akkus](/zubehoer/).

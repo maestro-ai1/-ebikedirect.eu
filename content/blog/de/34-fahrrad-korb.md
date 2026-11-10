@@ -36,7 +36,7 @@ Reisenthel gehört zu den bekannten Herstellern von Fahrradkörben. Das Angebot 
 
 ## Fahrrad Damen Korb und Damenrad mit Korb
 
-Beim Damenrad mit Korb ist die Kombination klassisch: tiefer Einstieg, aufrechte Sitzposition, Korb vorn am Lenker. Das passt zu Stadtverkehr, Einkauf und Alltag. Moderne E-Bikes mit Tiefeinsteiger lassen sich genauso mit Korb ausstatten. Achten Sie auf Platz am Lenker, besonders wenn Display, Bedienteil oder Handyhalter montiert sind. Wer Kinder oder Hund mitnimmt, braucht stabile Körbe mit Sicherung. Mehr zu Rädern für Frauen finden Sie in der Kategorie [Damen E-Bikes](/e-bikes/damen/), zu Tiefeinstiegern im Beitrag [Kalkhoff Fahrrad Damen](/blog/kalkhoff-fahrrad-damen-ratgeber).
+Beim Damenrad mit Korb ist die Kombination klassisch: tiefer Einstieg, aufrechte Sitzposition, Korb vorn am Lenker. Das passt zu Stadtverkehr, Einkauf und Alltag. Moderne E-Bikes mit Tiefeinsteiger lassen sich genauso mit Korb ausstatten. Achten Sie auf Platz am Lenker, besonders wenn Display, Bedienteil oder Handyhalter montiert sind. Wer Kinder oder Hund mitnimmt, braucht stabile Körbe mit Sicherung. Mehr zu Rädern für Frauen finden Sie in der Kategorie [Damen E-Bikes](/e-bikes/city-e-bikes/), zu Tiefeinstiegern im Beitrag [Kalkhoff Fahrrad Damen](/blog/kalkhoff-fahrrad-damen-ratgeber).
 
 ## Hollandrad Korb vorne: Klassiker für die Stadt
 

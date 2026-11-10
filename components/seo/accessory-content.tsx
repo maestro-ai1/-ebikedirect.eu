@@ -3,6 +3,8 @@ import Link from 'next/link';
 import type { Product } from '@/lib/types';
 import { PRODUCTS } from '@/lib/products';
 import { FaqAccordion } from '@/components/ui/faq-accordion';
+import { productKeywords } from '@/lib/product-keywords';
+import { titleCase } from '@/lib/product-seo';
 
 const eur = (n: number) => n.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
 
@@ -80,6 +82,15 @@ export function AccessoryContent({ product }: { product: Product }) {
   const siblings = PRODUCTS.filter((x) => x.category === 'Zubehör' && x.slug !== product.slug && x.accessory === product.accessory).slice(0, 4);
   const more = siblings.length >= 3 ? siblings : [...siblings, ...PRODUCTS.filter((x) => x.category === 'Zubehör' && x.slug !== product.slug && !siblings.includes(x))].slice(0, 4);
 
+  const kw = productKeywords(product.slug);
+  const secondary = (kw?.secondary || []).slice(0, 5).map((s) => s.keyword);
+  const secFacts = [
+    `${product.name} kostet ${price} inklusive 19 % Mehrwertsteuer.`,
+    `Der Artikel stammt von ${product.brand} und gehört zur Rubrik ${g.label}.`,
+    `Bezahlt wird per Vorkasse oder in Kryptowährung; bei Kryptowährung sparen Sie 10 %, das sind ${eur(product.price * 0.1)}.`,
+    'Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht.',
+    `Passform: ${product.shortDescription} Prüfen Sie vor der Bestellung die Maße an Ihrem Rad.`
+  ];
   const faqs = [
     { q: `Was kostet ${product.name}?`, a: `${product.name} kostet ${price} inklusive 19 % Mehrwertsteuer. Bei Zahlung in Kryptowährung gilt der Preis von ${eur(product.price * 0.9)} (10 % Rabatt).` },
     { q: 'Passt der Artikel an jedes E-Bike?', a: `Das hängt von den Einbaumaßen ab. ${product.shortDescription} Prüfen Sie Durchmesser, Befestigung und Platz an Ihrem Rad vor der Bestellung; bei Fragen hilft sales@ebikedirect.eu.` },
@@ -87,7 +98,9 @@ export function AccessoryContent({ product }: { product: Product }) {
     { q: 'Welche Garantie und welches Rückgaberecht gelten?', a: 'Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Einzelheiten stehen in den Bedingungen zu Lieferung, Rückgabe und Garantie.' },
     { q: 'Wie bezahle ich den Artikel?', a: `Sie zahlen per Vorkasse (Banküberweisung) oder in Kryptowährung. Bei Kryptowährung sparen Sie 10 %, das sind bei diesem Artikel ${eur(product.price * 0.1)}.` }
   ];
-  const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+  const faqKw = (kw?.faq || []).slice(0, 5).map((f) => f.keyword);
+  const faqsK = faqs.map((f, i) => (faqKw[i] ? { q: `${titleCase(faqKw[i])}: ${f.q}`, a: f.a } : f));
+  const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqsK.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10" aria-label={`Informationen zu ${product.name}`}>
@@ -122,6 +135,18 @@ export function AccessoryContent({ product }: { product: Product }) {
           </ul>
         </div>
 
+        {secondary.length > 0 && (
+          <div className="space-y-3">
+            <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">Preis, Marke, Zahlung und Passform im Überblick</h2>
+            {secondary.map((s, i) => (
+              <div key={s} className="space-y-1">
+                <h3 className="text-base sm:text-lg font-bold text-[#131A22]">{titleCase(s)}</h3>
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{secFacts[i]}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
         <div className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">Preis, Zahlung und Garantie</h2>
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">Der Preis liegt bei {price} inklusive 19 % Mehrwertsteuer. Bei Vorkasse überweisen Sie genau diesen Betrag, bei Zahlung in Kryptowährung gilt der Preis von {eur(product.price * 0.9)}. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Versandkosten und Lieferzeit nennen wir Ihnen im Bestellvorgang.</p>
@@ -130,7 +155,7 @@ export function AccessoryContent({ product }: { product: Product }) {
 
         <div className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-black text-[#131A22]">Häufige Fragen zu {product.name}</h2>
-          <FaqAccordion items={faqs} />
+          <FaqAccordion items={faqsK} />
         </div>
 
         {more.length > 0 && (

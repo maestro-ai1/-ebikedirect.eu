@@ -2110,7 +2110,7 @@ export const CANNONDALE_PRODUCTS: Product[] = [
   {
     "id": "cannondale-moterra-4-plus",
     "slug": "cannondale-moterra-4-plus",
-    "name": "Cannondale Moterra 4+",
+    "name": "Cannondale Moterra 4 Plus",
     "brand": "Cannondale",
     "category": "E-MTB",
     "price": 4277.51,

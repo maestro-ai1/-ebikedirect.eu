@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-10-24
 updated: 2026-11-04
 ---
-Im Winter stellt sich beim E-Bike vor allem eine Frage: Wie behandle ich den Akku richtig? Kälte verkürzt die Reichweite, falsche Lagerung kann den Akku dauerhaft schwächen, und Streusalz greift Antrieb und Rahmen an. Dieser Ratgeber erklärt, wie Sie den E-Bike Akku im Winter laden, lagern und fahren, und mit welchen einfachen Wartungsschritten das Rad gut durch die kalte Jahreszeit kommt. Passendes Zubehör finden Sie im Bereich [Zubehör](/zubehoer/), Akkus und Ladegeräte unter [Akkus](/zubehoer/akkus/) und [Ladegeräte](/zubehoer/ladegeraete/).
+Im Winter stellt sich beim E-Bike vor allem eine Frage: Wie behandle ich den Akku richtig? Kälte verkürzt die Reichweite, falsche Lagerung kann den Akku dauerhaft schwächen, und Streusalz greift Antrieb und Rahmen an. Dieser Ratgeber erklärt, wie Sie den E-Bike Akku im Winter laden, lagern und fahren, und mit welchen einfachen Wartungsschritten das Rad gut durch die kalte Jahreszeit kommt. Passendes Zubehör finden Sie im Bereich [Zubehör](/zubehoer/), Akkus und Ladegeräte unter [Akkus](/zubehoer/) und [Ladegeräte](/zubehoer/).
 
 Die genannten Temperaturen und Ladezustände sind allgemeine Richtwerte. Maßgeblich ist immer die Bedienungsanleitung Ihres Herstellers.
 
@@ -25,7 +25,7 @@ Gefährlicher für die Lebensdauer sind Extreme: Laden bei Frost, Lagerung in de
 Für das Laden gilt eine Grundregel: nicht bei Frost. Hersteller nennen für den Ladevorgang meist einen Bereich ab etwa 0 Grad bis rund 40 Grad. Bringen Sie den Akku deshalb zum Laden in die Wohnung oder in einen temperierten Raum.
 
 - **Warm werden lassen:** Ein kalter Akku sollte vor dem Laden eine Weile Zimmertemperatur annehmen.
-- **Originalladegerät nutzen:** Das Ladegerät muss zum Akkusystem passen. Ersatz finden Sie unter [Ladegeräte](/zubehoer/ladegeraete/).
+- **Originalladegerät nutzen:** Das Ladegerät muss zum Akkusystem passen. Ersatz finden Sie unter [Ladegeräte](/zubehoer/).
 - **Nicht unbeaufsichtigt laden:** Laden Sie auf einer nicht brennbaren Unterlage und nicht dauerhaft über Nacht in Schlafräumen.
 - **Nicht tief entladen:** Ein leerer Akku verliert schneller an Kapazität. Laden Sie nach der Fahrt nach.
 - **Nicht ständig auf 100 Prozent halten:** Für den Alltag genügt es, vor der Fahrt voll zu laden. Für längere Pausen gilt ein anderer Ladestand, siehe den nächsten Abschnitt.

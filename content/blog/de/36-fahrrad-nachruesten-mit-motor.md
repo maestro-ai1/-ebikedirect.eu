@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Das alte Rad ist gut in Schuss, aber Berge und Gegenwind machen keinen Spaß mehr? Viele Radfahrer fragen sich, ob sie ihr Fahrrad mit einem Motor nachrüsten können, statt ein neues E-Bike zu kaufen. Das ist möglich, verlangt aber eine sorgfältige Prüfung von Rad, Bauart, Kosten und Rechtslage. Dieser Ratgeber erklärt, welche Nachrüstsätze es gibt, wann sich ein Umbau lohnt, was rechtlich zu beachten ist und welche Alternativen es gibt. Elektronik-Zubehör finden Sie in der Kategorie [Displays und Elektronik](/zubehoer/displays-elektronik/).
+Das alte Rad ist gut in Schuss, aber Berge und Gegenwind machen keinen Spaß mehr? Viele Radfahrer fragen sich, ob sie ihr Fahrrad mit einem Motor nachrüsten können, statt ein neues E-Bike zu kaufen. Das ist möglich, verlangt aber eine sorgfältige Prüfung von Rad, Bauart, Kosten und Rechtslage. Dieser Ratgeber erklärt, welche Nachrüstsätze es gibt, wann sich ein Umbau lohnt, was rechtlich zu beachten ist und welche Alternativen es gibt. Elektronik-Zubehör finden Sie in der Kategorie [Displays und Elektronik](/zubehoer/).
 
 Hinweis: Wir erklären Bauarten und Kriterien und geben allgemeine Informationen, keine Rechts- oder Montageberatung. Unser Sortiment besteht aus kompletten E-Bikes, wir bieten keine Nachrüstsätze an. Einen Überblick über Antriebe finden Sie im Beitrag [E-Bike Electric Motor](/blog/e-bike-electric-motor-ratgeber).
 
@@ -121,4 +121,4 @@ Das hängt vom Zustand des Rades ab. Ein stabiles Rad mit guten Bremsen kann sic
 
 ## Fazit
 
-Ein Fahrrad mit Motor nachzurüsten ist möglich, verlangt aber ein stabiles Rad, passende Teile und die Beachtung der Pedelec-Regeln. Nabenmotoren sind einfach, Mittelmotoren aufwändiger. Rechnen Sie Gesamtkosten und vergleichen Sie mit einem neuen E-Bike mit Garantie und Service. Entdecken Sie jetzt unsere [E-Bikes](/e-bikes/) und Zubehör in der Kategorie [Displays und Elektronik](/zubehoer/displays-elektronik/).
+Ein Fahrrad mit Motor nachzurüsten ist möglich, verlangt aber ein stabiles Rad, passende Teile und die Beachtung der Pedelec-Regeln. Nabenmotoren sind einfach, Mittelmotoren aufwändiger. Rechnen Sie Gesamtkosten und vergleichen Sie mit einem neuen E-Bike mit Garantie und Service. Entdecken Sie jetzt unsere [E-Bikes](/e-bikes/) und Zubehör in der Kategorie [Displays und Elektronik](/zubehoer/).

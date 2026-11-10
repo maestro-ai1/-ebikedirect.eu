@@ -109,7 +109,7 @@ Ja. Ein Trekking E MTB ist ein Mountainbike mit Schutzblechen, Gepäckträger un
 
 ### Gibt es ein Damen E-Bike MTB Fully?
 
-Ja. Ein Damen E-Bike MTB Fully hat meist einen niedrigeren Oberrohrverlauf, kleinere Rahmengrößen und angepasste Sättel. Viele Hersteller bauen auch unisex Modelle, die Frauen und Männer gleichermaßen fahren. Eine Übersicht bietet die Kategorie [Damen E-Bikes](/e-bikes/damen/).
+Ja. Ein Damen E-Bike MTB Fully hat meist einen niedrigeren Oberrohrverlauf, kleinere Rahmengrößen und angepasste Sättel. Viele Hersteller bauen auch unisex Modelle, die Frauen und Männer gleichermaßen fahren. Eine Übersicht bietet die Kategorie [Damen E-Bikes](/e-bikes/city-e-bikes/).
 
 ## Fazit
 

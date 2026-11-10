@@ -10,7 +10,7 @@ category: Ratgeber
 date: 2026-11-06
 updated: 2026-11-06
 ---
-Die Schaltung entscheidet, wie sich ein Rad fährt: wie schnell der Gangwechsel gelingt, wie viel Pflege nötig ist und wie gut Berge und Gegenwind zu bewältigen sind. Heute gibt es mechanische Kettenschaltungen, wartungsarme Nabenschaltungen, stufenlose Systeme und elektronische Schaltungen, die per Knopfdruck wechseln. Dieser Ratgeber zur Fahrradschaltung erklärt die Bauarten, zeigt Vor- und Nachteile, ordnet die elektronische Schaltung am Rennrad, Gravelbike und E-Bike ein und hilft bei der Auswahl. Zubehör für den Antrieb finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Die Schaltung entscheidet, wie sich ein Rad fährt: wie schnell der Gangwechsel gelingt, wie viel Pflege nötig ist und wie gut Berge und Gegenwind zu bewältigen sind. Heute gibt es mechanische Kettenschaltungen, wartungsarme Nabenschaltungen, stufenlose Systeme und elektronische Schaltungen, die per Knopfdruck wechseln. Dieser Ratgeber zur Fahrradschaltung erklärt die Bauarten, zeigt Vor- und Nachteile, ordnet die elektronische Schaltung am Rennrad, Gravelbike und E-Bike ein und hilft bei der Auswahl. Zubehör für den Antrieb finden Sie in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).
 
 Hinweis: Wir erklären Bauarten und Kriterien. Die genaue Ausstattung eines Rades steht in der Spezifikation auf der Produktseite. Hintergründe zur Technik bietet die Herstellerseite von [Bosch eBike](https://www.bosch-ebike.com/de/) für E-Bike-Systeme.
 
@@ -105,4 +105,4 @@ Am E-Bike eignen sich robuste Kettenschaltungen, Nabenschaltungen und stufenlose
 
 ## Fazit
 
-Die richtige Schaltung hängt von Einsatz, Pflegeaufwand und Budget ab: Kettenschaltung für Sport und Gewicht, Nabenschaltung für Wartungsarmut, stufenlose und automatische Systeme für Komfort, elektronische Schaltung für Präzision. Am E-Bike zählen Robustheit und Pflege. Entdecken Sie jetzt Räder und Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/bremsen-antrieb/).
+Die richtige Schaltung hängt von Einsatz, Pflegeaufwand und Budget ab: Kettenschaltung für Sport und Gewicht, Nabenschaltung für Wartungsarmut, stufenlose und automatische Systeme für Komfort, elektronische Schaltung für Präzision. Am E-Bike zählen Robustheit und Pflege. Entdecken Sie jetzt Räder und Zubehör in der Kategorie [Bremsen und Antrieb](/zubehoer/werkzeug-pflege/).
