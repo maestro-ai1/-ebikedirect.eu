@@ -73,7 +73,7 @@ for (const d of brandDefs) {
     for (const r of pool) { if (faq.length >= 5) break; if (!used.has(nk(r.keyword))) { faq.push(r); used.add(nk(r.keyword)); } }
   }
   const disp = source === 'name' ? (d.brandName || d.name).replace(/^Moteur /, '') + ' vélo électrique' : display(primary.keyword, bn);
-  entries.push({ display: d.type === 'brand' && /^Moteur|STEPS/.test(d.name) && source === 'name' ? d.name : disp, url: d.url, dePath: d.dePath, name: d.name, type: 'brand', source, primary: { ...primary, source }, secondary: sec, faq });
+  entries.push({ display: disp, url: d.url, dePath: d.dePath, name: d.name, type: 'brand', source, primary: { ...primary, source }, secondary: sec, faq });
 }
 // ---- accessory groups
 const BIKE = '(v[ée]lo|vtt|vtc|bike|cycl)';
