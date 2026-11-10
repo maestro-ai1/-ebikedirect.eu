@@ -310,29 +310,29 @@
    ]
   },
   {
-   "display": "Vélo électrique 45 km/h",
+   "display": "Speed bike 45 km/h",
    "url": "/velos-electriques/speed-pedelec/",
    "dePath": "/e-bikes/s-pedelec",
    "name": "Speed pedelec (45 km/h)",
    "type": "category",
    "primary": {
-    "keyword": "velo electrique 45 km/h",
-    "volume": 880,
-    "kd": 10,
-    "intent": "I"
+    "keyword": "speed bike 45 km h",
+    "intent": "C",
+    "volume": 320,
+    "kd": 9
    },
    "secondary": [
-    {
-     "keyword": "speed bike 45 km h",
-     "intent": "C",
-     "volume": 320,
-     "kd": 9
-    },
     {
      "keyword": "vélo route électrique 45 km/h",
      "intent": "C",
      "volume": 170,
      "kd": 12
+    },
+    {
+     "keyword": "vélo électrique 45 km/h",
+     "intent": "C",
+     "volume": 140,
+     "kd": 11
     },
     {
      "keyword": "velo 45 km h",
@@ -541,7 +541,7 @@
    ]
   },
   {
-   "display": "Vélo à assistance électrique femme",
+   "display": "Vélo assistance électrique femme",
    "url": "/velos-electriques/velo-electrique-femme/",
    "dePath": "/e-bikes/damen",
    "name": "Vélos électriques femme",

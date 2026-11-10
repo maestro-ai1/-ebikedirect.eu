@@ -30,7 +30,7 @@ for (const t of BATCH) {
   const own = ownPage(t.mapUrl) || { primary: null, secondary: [], faq: [] };
   const claim = (k) => { used.add(nk(k.keyword)); return k; };
   const keep = (arr) => (arr || []).filter((k) => !bad(k.keyword) && !used.has(nk(k.keyword)) && k.kd != null && k.kd <= 30);
-  let primary = own.primary && !bad(own.primary.keyword) && !used.has(nk(own.primary.keyword)) ? own.primary : null;
+  let primary = own.primary && !bad(own.primary.keyword) && !used.has(nk(own.primary.keyword)) && (own.primary.intent === 'T' || own.primary.intent === 'C') ? own.primary : null;
   const rel0 = new RegExp(t.rel, 'i'); const ELEC = new RegExp(plan.elec, 'i'); const rel = { test: (k) => rel0.test(k) && (t.needElectric === false || ELEC.test(k)) }; const exclude = t.exclude ? new RegExp(t.exclude, 'i') : null;
   const pool = bank.filter((b) => rel.test(b.keyword) && !(exclude && exclude.test(b.keyword)) && !bad(b.keyword) && !used.has(nk(b.keyword)));
   if (!primary) { const c = pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }
