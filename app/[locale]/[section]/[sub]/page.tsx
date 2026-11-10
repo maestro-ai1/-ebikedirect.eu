@@ -3,7 +3,8 @@ import type { Metadata } from 'next';
 import { L10nCategoryPage } from '@/components/seo/l10n-category-page';
 import { L10N_LOCALES, l10nByUrl, l10nPages } from '@/lib/l10n-pages';
 import { isLocale, LOCALE_CODES } from '@/lib/i18n';
-import { buildTitle, buildDescription } from '@/lib/seo';
+import { buildTitle } from '@/lib/seo';
+import { l10nDescription } from '@/lib/l10n-strings';
 
 // Public URLs of translated pages (for example /fr/velos-electriques/vtt-electrique). Only URLs listed in data/keywords/<lang>-live.json exist.
 export function generateStaticParams() {
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!page) return { title: 'Not found' };
   return {
     title: { absolute: buildTitle(locale, page.display) },
-    description: buildDescription(locale, page.display),
+    description: l10nDescription(locale, page.type, page.display, page.name),
   };
 }
 
