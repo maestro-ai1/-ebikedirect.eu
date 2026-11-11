@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
@@ -8,7 +9,9 @@ export const metadata: Metadata = {
   description: 'Erfahren Sie alles über unser 30-tägiges Rückgaberecht, die gesetzliche 2-jährige Gewährleistung sowie Herstellergarantien auf Rahmen, Akku und Motor.'
 };
 
-export default function ReturnsPolicyPage() {
+export default async function ReturnsPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/policies/returns'); // legal and utility pages exist in German only until the owner approves translations
   return (
     <div className="bg-[#F8F9FA] pb-16">
       <Breadcrumbs

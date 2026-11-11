@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { L10nCategoryPage } from '@/components/seo/l10n-category-page';
+import { L10nCategoryPage, L10nHubPage } from '@/components/seo/l10n-category-page';
 import { L10N_LOCALES, l10nByUrl, l10nPages } from '@/lib/l10n-pages';
 import { isLocale } from '@/lib/i18n';
 import { buildTitle } from '@/lib/seo';
@@ -26,5 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function L10nTopPage({ params }: { params: Promise<{ locale: string; section: string }> }) {
   const { locale, section } = await params;
   if (!isLocale(locale)) notFound();
+  const page = l10nByUrl(locale, `/${section}`);
+  if (page && page.type === 'hub') return <L10nHubPage locale={locale} url={`/${section}`} />;
   return <L10nCategoryPage locale={locale} url={`/${section}`} />;
 }

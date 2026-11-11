@@ -1,8 +1,9 @@
 import type { Locale } from '@/lib/i18n';
+import { PAGES } from '@/lib/ui-pages';
 
 // UI strings of the shopping flow (cart toast, catalog navigation, shop filters, checkout, footer and header leftovers) in every language.
 // Order of each row: de, fr, nl, it, es, pt, en. German is the fallback. {name} placeholders are filled by ui().
-// No VAT rate is named outside German: the other languages say "VAT included" only (owner decision on VAT wording is pending).
+// No VAT wording outside German (owner: leave VAT out where other countries do not need it).
 const ORDER: Locale[] = ['de', 'fr', 'nl', 'it', 'es', 'pt', 'en'];
 type Row = [string, string, string, string, string, string, string];
 
@@ -77,7 +78,7 @@ const T: Record<string, Row> = {
   'co.remove': ['{name} entfernen', 'Retirer {name}', '{name} verwijderen', 'Rimuovi {name}', 'Quitar {name}', 'Remover {name}', 'Remove {name}'],
   'co.qtyDown': ['Menge verringern', 'Diminuer la quantité', 'Aantal verlagen', 'Diminuisci la quantità', 'Reducir la cantidad', 'Diminuir a quantidade', 'Decrease quantity'],
   'co.qtyUp': ['Menge erhöhen', 'Augmenter la quantité', 'Aantal verhogen', 'Aumenta la quantità', 'Aumentar la cantidad', 'Aumentar a quantidade', 'Increase quantity'],
-  'co.vatIncl': ['inkl. 19 % MwSt.', 'TVA incluse', 'btw inbegrepen', 'IVA inclusa', 'IVA incluido', 'IVA incluído', 'VAT included'],
+  'co.vatIncl': ['inkl. 19 % MwSt.', '', '', '', '', '', ''],
   'co.h2delivery': ['2. Lieferadresse', '2. Adresse de livraison', '2. Bezorgadres', '2. Indirizzo di consegna', '2. Dirección de entrega', '2. Morada de entrega', '2. Delivery address'],
   'co.first': ['Vorname *', 'Prénom *', 'Voornaam *', 'Nome *', 'Nombre *', 'Nome próprio *', 'First name *'],
   'co.last': ['Nachname *', 'Nom *', 'Achternaam *', 'Cognome *', 'Apellidos *', 'Apelido *', 'Last name *'],
@@ -138,6 +139,11 @@ const T: Record<string, Row> = {
   'pc.frameNote': ['Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt', 'Forme et taille du cadre confirmées lors de la validation de la commande', 'Framevorm en maat worden bij de orderbevestiging afgestemd', 'Forma e taglia del telaio vengono concordate alla conferma dell’ordine', 'La forma y la talla del cuadro se acuerdan al confirmar el pedido', 'A forma e o tamanho do quadro são acordados na confirmação da encomenda', 'Frame shape and size are agreed when the order is confirmed'],
 };
 
+Object.assign(T, PAGES);
+
+/** Languages whose FAQ, About and Contact copy exists. Other languages are sent to the German page until their batch is built. */
+export const hasPages = (l: Locale) => l === 'de' || l === 'fr';
+
 const IDX: Record<string, number> = Object.fromEntries(ORDER.map((l, i) => [l, i]));
 
 export type UiKey = keyof typeof T;
@@ -146,7 +152,8 @@ export type UiKey = keyof typeof T;
 export function ui(locale: Locale, key: string, vars?: Record<string, string | number>): string {
   const row = T[key];
   if (!row) return key;
-  let s = row[IDX[locale] ?? 0] || row[0];
+  const cell = row[IDX[locale] ?? 0];
+  let s = cell === undefined || cell === '=' ? row[0] : cell; // '=' means: not translated yet, use German; '' means: intentionally empty
   if (vars) for (const [k, v] of Object.entries(vars)) s = s.split(`{${k}}`).join(String(v));
   return s;
 }

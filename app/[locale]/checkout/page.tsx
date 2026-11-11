@@ -138,7 +138,7 @@ export default function CheckoutPage() {
                             </div>
                             <div className="text-right">
                               <div className="text-base font-black text-[#131A22]">{formatCurrency(item.unitPrice * item.quantity)}</div>
-                              <div className="text-[11px] text-gray-500">{u('co.vatIncl')}</div>
+                              {u('co.vatIncl') && <div className="text-[11px] text-gray-500">{u('co.vatIncl')}</div>}
                             </div>
                           </div>
                         </div>

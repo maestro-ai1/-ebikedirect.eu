@@ -46,14 +46,14 @@
   "products": {
     "featuredTag": "Modèles sélectionnés 2026",
     "featuredHeading": "Les vélos électriques premium les plus demandés",
-    "featuredSub": "Disponibles en stock pour expédition immédiate. TVA incluse, transport assuré et 10 % de remise en cas de paiement en crypto.",
+    "featuredSub": "Disponibles en stock pour expédition immédiate. Transport assuré et 10 % de remise en cas de paiement en crypto.",
     "viewAll": "Voir toute la gamme",
     "inStock": "En stock",
     "units": "pcs",
     "withCrypto": "en crypto",
     "cryptoDiscountBadge": "-10 % en crypto",
     "cryptoCashDiscount": "avec 10 % de remise crypto",
-    "inclVat": "TVA incluse, livraison gratuite dès 10 000 €",
+    "inclVat": "Livraison gratuite dès 10 000 €",
     "frameSize": "Taille de cadre",
     "batteryConfig": "Configuration de la batterie",
     "color": "Couleur",
@@ -101,7 +101,7 @@
     "subtotal": "Sous-total :",
     "shipping": "Transport :",
     "free": "Gratuit",
-    "vatIncluded": "TVA incluse :",
+    "vatIncluded": "",
     "total": "Total :",
     "toCheckout": "Passer la commande",
     "payCrypto": "Payer en crypto et économiser 10 %",
@@ -155,7 +155,7 @@
     "service": "Service et boutique",
     "legal": "Mentions légales et politiques",
     "allRights": "Tous droits réservés.",
-    "priceNote": "Prix TTC · Commande minimum 500,00 € · Livraison gratuite dès 10 000,00 €"
+    "priceNote": "Commande minimum 500,00 € · Livraison gratuite dès 10 000,00 €"
   },
   "seo": {
     "titleTail": "commander en ligne",

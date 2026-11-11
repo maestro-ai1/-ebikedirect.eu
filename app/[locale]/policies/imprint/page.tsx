@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
@@ -9,7 +10,9 @@ export const metadata: Metadata = {
 
 const H2 = 'text-base font-bold text-[#131A22]';
 
-export default function ImprintPage() {
+export default async function ImprintPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/policies/imprint'); // legal and utility pages exist in German only until the owner approves translations
   return (
     <div className="bg-[#F8F9FA] pb-16">
       <Breadcrumbs

@@ -9,7 +9,7 @@ export interface L10nPage {
   dePath: string; // internal German path that holds the product list, e.g. /e-bikes/e-mountainbikes
   name: string;
   display: string; // H1 and title wording of the primary keyword (accents, apostrophes)
-  type: 'category' | 'brand' | 'accessory';
+  type: 'category' | 'brand' | 'accessory' | 'hub';
   primary: L10nKw;
   secondary: L10nKw[];
   faq: L10nKw[];

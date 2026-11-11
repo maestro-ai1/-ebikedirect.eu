@@ -2,18 +2,27 @@ import React from 'react';
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { ui, hasPages } from '@/lib/ui';
+import { isLocale, type Locale } from '@/lib/i18n';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { ShieldCheck, Wrench, Award, CheckCircle2, ArrowRight, Bitcoin, Users } from '@/components/ui/icons';
 
-export const metadata: Metadata = {
-  title: 'Über uns und unsere Werkstatt',
-  description: 'Lernen Sie das Team hinter ebikedirect.eu kennen: Zertifizierte Zweiradmechaniker-Meister, E-Bike Enthusiasten und Spezialisten für moderne Mikromobilität.'
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const l = (isLocale(locale) && hasPages(locale) ? locale : 'de') as Locale;
+  return { title: ui(l, 'meta.aboutTitle'), description: ui(l, 'meta.aboutDesc') };
+}
 
-export default function AboutPage() {
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (isLocale(locale) && !hasPages(locale)) redirect('/about');
+  const l = (isLocale(locale) ? locale : 'de') as Locale;
+  const u = (k: string) => ui(l, k);
+  const pre = l === 'de' ? '' : '/' + l;
   return (
     <div className="bg-[#F8F9FA] pb-16">
-      <Breadcrumbs items={[{ label: 'Über Uns', href: '/about' }]} />
+      <Breadcrumbs items={[{ label: u('about.bc'), href: pre + '/about' }]} />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 space-y-12">
         {/* Hero Section */}
@@ -21,13 +30,13 @@ export default function AboutPage() {
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-orange-50 text-[#FF5722] text-xs font-bold">
               <Award className="w-3.5 h-3.5" />
-              <span>Tradition & Innovation seit 2018</span>
+              <span>{u('about.badge')}</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-black text-[#131A22] tracking-tight">
-              Deutschlands leidenschaftlicher Fachhandel für High-End E-Bikes
+              {u('about.h1')}
             </h1>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-              Willkommen bei ebikedirect.eu. Wir verbinden traditionelles deutsches Handwerk mit zukunftsweisender Elektromobilität. Vom leichten Carbon E-MTB für alpine Trails bis zum robusten Lastenrad für Familien: Bei uns finden Sie ausschließlich renommierte Spitzenmarken.
+              {u('about.intro')}
             </p>
           </div>
 
@@ -55,26 +64,26 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4">
             <span className="text-xs font-black uppercase tracking-wider text-[#FF5722]">
-              Werkstatt & Prüfstand
+              {u('about.wsTag')}
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-[#131A22]">
-              Kein Fahrrad verlässt unseren Hof ungeprüft
+              {u('about.wsH')}
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Jedes bei uns bestellte E-Bike durchläuft vor dem Verpacken einen 42-Punkte-Sicherheitscheck auf unserem digitalen Rollenprüfstand. Bremsen werden entlüftet, Schaltungen unter Last justiert und der Bordcomputer auf den neuesten Firmware-Stand aktualisiert.
+              {u('about.wsText')}
             </p>
             <ul className="space-y-2 text-xs text-gray-700">
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#00C853] shrink-0" />
-                <span>Bosch eBike Systems zertifizierter Fachbetrieb</span>
+                <span>{u('about.b1')}</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#00C853] shrink-0" />
-                <span>Shimano Service Center mit Original-Ersatzteilen</span>
+                <span>{u('about.b2')}</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#00C853] shrink-0" />
-                <span>Geschultes Personal für Gates Carbon Drive Riemenantriebe</span>
+                <span>{u('about.b3')}</span>
               </li>
             </ul>
           </div>
@@ -82,7 +91,7 @@ export default function AboutPage() {
           <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-md border border-gray-200">
             <Image
               src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1000&q=80"
-              alt="E-Bike Meisterwerkstatt"
+              alt={u('about.imgAlt')}
               fill
               className="object-cover"
               referrerPolicy="no-referrer"
@@ -95,28 +104,28 @@ export default function AboutPage() {
           <div className="max-w-2xl space-y-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#00C853]/20 border border-[#00C853]/40 text-[#00C853] text-xs font-bold">
               <Bitcoin className="w-3.5 h-3.5" />
-              <span>Moderne Zahlungsphilosophie</span>
+              <span>{u('about.payTag')}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white">
-              Warum wir 10% Rabatt auf Krypto-Zahlungen bieten
+              {u('about.payH')}
             </h2>
             <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
-              Traditionelle Kreditkartenunternehmen und Zahlungsdienstleister erheben bei hochwertigen E-Bike-Käufen zwischen 2% und 4% Gebühren plus tagelange Verzögerungen. Durch die direkte Abwicklung auf der Blockchain (USDT über TRC-20 / ERC-20 oder Bitcoin) eliminieren wir Zwischenhändler und geben diese Ersparnis zu 100% als 10%-Skonto an unsere Kunden weiter.
+              {u('about.payText')}
             </p>
           </div>
 
           <div className="pt-2 flex flex-wrap gap-4">
             <Link
-              href="/shop"
+              href={pre + '/shop'}
               className="px-6 py-3 rounded-xl bg-[#FF5722] hover:bg-[#E64A19] text-white text-xs font-bold transition-colors"
             >
-              E-Bike Sortiment erkunden
+              {u('about.cta1')}
             </Link>
             <Link
-              href="/contact"
+              href={pre + '/contact'}
               className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition-colors"
             >
-              Kontakt aufnehmen
+              {u('about.cta2')}
             </Link>
           </div>
         </div>

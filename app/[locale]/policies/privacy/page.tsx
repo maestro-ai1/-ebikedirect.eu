@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
@@ -8,7 +9,9 @@ export const metadata: Metadata = {
   description: 'Informationen zur Verarbeitung Ihrer personenbezogenen Daten gemäß DSGVO bei ebikedirect.eu: Zwecke, Rechtsgrundlagen, Speicherdauer und Ihre Rechte.'
 };
 
-export default function PrivacyPolicyPage() {
+export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/policies/privacy'); // legal and utility pages exist in German only until the owner approves translations
   return (
     <div className="bg-[#F8F9FA] pb-16">
       <Breadcrumbs

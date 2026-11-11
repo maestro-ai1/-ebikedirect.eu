@@ -13,7 +13,7 @@ import {
   isLocale
 } from '@/lib/i18n';
 import { ui } from '@/lib/ui';
-import { switchPath } from '@/lib/l10n-pages';
+import { switchPath, l10nByDePath } from '@/lib/l10n-pages';
 
 interface I18nContextType {
   u: (key: string, vars?: Record<string, string | number>) => string;
@@ -67,6 +67,8 @@ export function I18nProvider({ children, locale: initialLocale }: { children: Re
   };
 
   const getLocalizedHref = (path: string): string => {
+    // a page that exists in this language under its own URL (for example /marken -> /fr/marques) links there
+    if (locale !== 'de') { const hit = l10nByDePath(locale, path); if (hit) return `/${locale}${hit.url.replace(/\/$/, '')}`; }
     return getLocalizedPath(path, locale);
   };
 

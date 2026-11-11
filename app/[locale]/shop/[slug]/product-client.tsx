@@ -290,7 +290,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                       {currentPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
                     </span>
                     <span className="text-xs text-gray-500 block">
-                      {fr ? 'TVA incluse, expédition assurée par transporteur, port gratuit dès 10 000 €' : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 10.000 €'}
+                      {fr ? 'Expédition assurée par transporteur, port gratuit dès 10 000 €' : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 10.000 €'}
                     </span>
                   </div>
                   <div className="text-xs text-gray-500">

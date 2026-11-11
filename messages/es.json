@@ -46,14 +46,14 @@
   "products": {
     "featuredTag": "Modelos Destacados 2026",
     "featuredHeading": "E-Bikes Premium Más Populares",
-    "featuredSub": "En stock para entrega inmediata. IVA del 19% incluido, transporte asegurado y 10% de descuento al pagar con criptomonedas.",
+    "featuredSub": "En stock para entrega inmediata. Transporte asegurado y 10% de descuento al pagar con criptomonedas.",
     "viewAll": "Ver todos los modelos",
     "inStock": "En Stock",
     "units": "uds.",
     "withCrypto": "con Crypto",
     "cryptoDiscountBadge": "-10% con Crypto",
     "cryptoCashDiscount": "con 10% de descuento crypto",
-    "inclVat": "19% de IVA incl., envío gratis a partir de 10.000 €",
+    "inclVat": "Envío gratis a partir de 10.000 €",
     "frameSize": "Talla de Cuadro",
     "batteryConfig": "Configuración de Batería",
     "color": "Color",
@@ -101,7 +101,7 @@
     "subtotal": "Subtotal:",
     "shipping": "Envío por Transporte Especial:",
     "free": "Gratuito (Más de 10.000 €)",
-    "vatIncluded": "IVA 19% incluido:",
+    "vatIncluded": "",
     "total": "Importe Total:",
     "toCheckout": "Tramitar Pedido",
     "payCrypto": "Pagar con Crypto & Ahorrar 10%",
@@ -155,7 +155,7 @@
     "service": "Servicio & Soporte",
     "legal": "Legal & Políticas",
     "allRights": "Todos los derechos reservados.",
-    "priceNote": "Precios con 19% de IVA incl. · Pedido mínimo 500,00 € · Envío gratis a partir de 10.000,00 €"
+    "priceNote": "Pedido mínimo 500,00 € · Envío gratis a partir de 10.000,00 €"
   },
   "seo": {
     "titleTail": "pedir online",

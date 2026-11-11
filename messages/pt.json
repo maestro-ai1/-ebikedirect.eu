@@ -46,14 +46,14 @@
   "products": {
     "featuredTag": "Modelos selecionados 2026",
     "featuredHeading": "As bicicletas elétricas premium mais procuradas",
-    "featuredSub": "Disponíveis em stock para envio imediato. IVA incluído, transporte segurado e 10% de desconto em pagamentos com cripto.",
+    "featuredSub": "Disponíveis em stock para envio imediato. Transporte segurado e 10% de desconto em pagamentos com cripto.",
     "viewAll": "Ver todos os modelos",
     "inStock": "Em stock",
     "units": "un.",
     "withCrypto": "com cripto",
     "cryptoDiscountBadge": "-10% com cripto",
     "cryptoCashDiscount": "com 10% de desconto cripto",
-    "inclVat": "IVA incluído, transporte gratuito a partir de 10 000 €",
+    "inclVat": "Transporte gratuito a partir de 10 000 €",
     "frameSize": "Tamanho do quadro",
     "batteryConfig": "Configuração da bateria",
     "color": "Cor",
@@ -101,7 +101,7 @@
     "subtotal": "Subtotal:",
     "shipping": "Transporte:",
     "free": "Gratuito",
-    "vatIncluded": "IVA incluído:",
+    "vatIncluded": "",
     "total": "Total:",
     "toCheckout": "Finalizar compra",
     "payCrypto": "Pagar com cripto e poupar 10%",
@@ -155,7 +155,7 @@
     "service": "Serviço e loja",
     "legal": "Informação legal e políticas",
     "allRights": "Todos os direitos reservados.",
-    "priceNote": "Preços com IVA incluído · Encomenda mínima 500,00 € · Transporte gratuito a partir de 10 000,00 €"
+    "priceNote": "Encomenda mínima 500,00 € · Transporte gratuito a partir de 10 000,00 €"
   },
   "seo": {
     "titleTail": "encomendar online",

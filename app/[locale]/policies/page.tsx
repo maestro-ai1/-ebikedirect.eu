@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -15,7 +16,9 @@ const POLICIES = [
   { href: '/policies/imprint', title: 'Impressum', text: 'Anbieterkennzeichnung und Kontaktangaben.' }
 ];
 
-export default function PoliciesIndexPage() {
+export default async function PoliciesIndexPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/policies'); // legal and utility pages exist in German only until the owner approves translations
   return (
     <div className="bg-[#F8F9FA] pb-16">
       <Breadcrumbs items={[{ label: 'Rechtliches', href: '/policies' }]} />

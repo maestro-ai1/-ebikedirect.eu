@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -11,7 +12,9 @@ export const metadata: Metadata = {
   description: 'Vollständige Übersicht aller Seiten, Produkte, Ratgeber und technischer Spezifikationen mit 100% kanonischer Ausrichtung.'
 };
 
-export default function SitemapPage() {
+export default async function SitemapPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/sitemap'); // legal and utility pages exist in German only until the owner approves translations
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
 
   return (

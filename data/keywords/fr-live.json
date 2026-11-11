@@ -3445,6 +3445,85 @@
      "kd": 15
     }
    ]
+  },
+  {
+   "display": "Marque vélo électrique",
+   "url": "/marques/",
+   "dePath": "/marken",
+   "name": "Marques",
+   "type": "hub",
+   "source": "bank",
+   "primary": {
+    "keyword": "marque velo electrique",
+    "intent": "C",
+    "volume": 590,
+    "kd": 14,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "marque de velo electrique",
+     "intent": "C",
+     "volume": 320,
+     "kd": 16
+    },
+    {
+     "keyword": "marques de vélos électriques",
+     "intent": "C",
+     "volume": 260,
+     "kd": 13
+    },
+    {
+     "keyword": "meilleures marques velos electriques",
+     "intent": "C",
+     "volume": 210,
+     "kd": 13
+    },
+    {
+     "keyword": "meilleure marque velo electrique",
+     "intent": "C",
+     "volume": 170,
+     "kd": 12
+    },
+    {
+     "keyword": "meilleures marques de vélos électriques",
+     "intent": "C",
+     "volume": 170,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "marques velo electrique",
+     "intent": "C",
+     "volume": 140,
+     "kd": 13
+    },
+    {
+     "keyword": "meilleures marques de velo electrique",
+     "intent": "C",
+     "volume": 140,
+     "kd": 11
+    },
+    {
+     "keyword": "meilleure marque de vélo électrique",
+     "intent": "C",
+     "volume": 140,
+     "kd": 11
+    },
+    {
+     "keyword": "marques velos electriques",
+     "intent": "C",
+     "volume": 140,
+     "kd": 12
+    },
+    {
+     "keyword": "marques de velo electrique",
+     "intent": "C",
+     "volume": 70,
+     "kd": 10
+    }
+   ]
   }
  ]
 }

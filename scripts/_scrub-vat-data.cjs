@@ -1,0 +1,8 @@
+module.exports = {
+  fr: { featuredSub: 'Disponibles en stock pour expédition immédiate. Transport assuré et 10 % de remise en cas de paiement en crypto.', inclVat: 'Livraison gratuite dès 10 000 €', vatIncluded: '', priceNote: 'Commande minimum 500,00 € · Livraison gratuite dès 10 000,00 €' },
+  nl: { featuredSub: 'Direct uit voorraad leverbaar. Verzekerde palletlevering en 10% korting bij crypto-betaling.', inclVat: 'Gratis verzending vanaf €10.000', vatIncluded: '', priceNote: 'Minimale bestelling €500,00 · Gratis verzending vanaf €10.000,00' },
+  it: { featuredSub: 'Disponibili subito a magazzino. Trasporto assicurato e 10% di sconto con pagamento crypto.', inclVat: 'Spedizione gratuita oltre 10.000 €', vatIncluded: '', priceNote: 'Ordine minimo 500,00 € · Spedizione gratuita da 10.000,00 €' },
+  es: { featuredSub: 'En stock para entrega inmediata. Transporte asegurado y 10% de descuento al pagar con criptomonedas.', inclVat: 'Envío gratis a partir de 10.000 €', vatIncluded: '', priceNote: 'Pedido mínimo 500,00 € · Envío gratis a partir de 10.000,00 €' },
+  pt: { featuredSub: 'Disponíveis em stock para envio imediato. Transporte segurado e 10% de desconto em pagamentos com cripto.', inclVat: 'Transporte gratuito a partir de 10 000 €', vatIncluded: '', priceNote: 'Encomenda mínima 500,00 € · Transporte gratuito a partir de 10 000,00 €' },
+  en: { featuredSub: 'In stock for immediate dispatch. Insured freight forwarding and 10% discount on crypto payments.', inclVat: 'Free shipping from €10,000', vatIncluded: '', priceNote: 'Minimum order €500.00 · Free shipping over €10,000.00' },
+};

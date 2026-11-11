@@ -113,7 +113,7 @@ const dupKw = [...allKw.entries()].filter(([, v]) => v.size > 1);
 
 const results = [];
 const rec = (pg, id, ok, note) => { results.push({ url: pg.url, type: pg.type, rule: id, ok, note: note || '' }); };
-const SALES = new Set(['product', 'category', 'brand', 'family', 'accessory category', 'home', 'translated category', 'translated brand', 'translated accessory']);
+const SALES = new Set(['product', 'category', 'brand', 'family', 'accessory category', 'home', 'translated category', 'translated brand', 'translated accessory', 'translated hub']);
 const firstParas = new Map();
 for (const pg of pages.values()) { if (pg.type === 'product') { const k = norm(pg.para).split(' ').slice(0, 12).join(' '); (firstParas.get(k) || firstParas.set(k, []).get(k)).push(pg.url); } }
 for (const pg of pages.values()) {

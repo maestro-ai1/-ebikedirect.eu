@@ -2,7 +2,7 @@ import type { Locale } from '@/lib/i18n';
 import type { Product } from '@/lib/types';
 
 // Copy of the translated category, brand and accessory pages. Every sentence is built from catalogue data (counts, prices, motors, batteries)
-// or from shop terms the owner confirmed (delivery by freight with lift gate, 2 years warranty, 30 days returns). No VAT rate is named.
+// or from shop terms the owner confirmed (delivery by freight with lift gate, 2 years warranty, 30 days returns). No VAT wording.
 export type PageKind = 'category' | 'brand' | 'accessory';
 
 export interface Ctx { n: number; min: number; max: number; avg: number; whText: string; motors: string[]; brands: string[]; cheapest: Product; priciest: Product; fmt: (n: number) => string }
@@ -115,8 +115,10 @@ export function buildCtx(products: Product[], fmt: (n: number) => string): Ctx {
 export const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 /** Meta description (110 to 158 characters) with the page's main keyword and a call to action, by page kind. */
-export function l10nDescription(locale: Locale, kind: PageKind, display: string, name: string): string {
+export function l10nDescription(locale: Locale, kind0: PageKind | 'hub', display: string, name: string): string {
   if (locale !== 'fr') return '';
+  if (kind0 === 'hub') return `${display} : toutes les marques de vélos électriques de la boutique avec le nombre de modèles. Comparez et commandez en ligne, garantie de 2 ans.`;
+  const kind: PageKind = kind0;
   const tails: Record<PageKind, string[]> = {
     category: [
       `${display} : modèles avec prix, moteur et batterie. Comparez les équipements et commandez en ligne, livraison par transporteur, garantie de 2 ans.`,

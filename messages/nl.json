@@ -46,14 +46,14 @@
   "products": {
     "featuredTag": "Geselecteerde Topmodellen 2026",
     "featuredHeading": "Populairste Premium E-Bikes",
-    "featuredSub": "Direct uit voorraad leverbaar. Inclusief 19% btw, verzekerde palletlevering en 10% korting bij crypto-betaling.",
+    "featuredSub": "Direct uit voorraad leverbaar. Verzekerde palletlevering en 10% korting bij crypto-betaling.",
     "viewAll": "Bekijk alle modellen",
     "inStock": "Op voorraad",
     "units": "stuks",
     "withCrypto": "met Crypto",
     "cryptoDiscountBadge": "-10% met Crypto",
     "cryptoCashDiscount": "met 10% cryptokorting",
-    "inclVat": "incl. 19% btw, gratis verzending vanaf €10.000",
+    "inclVat": "Gratis verzending vanaf €10.000",
     "frameSize": "Framemaat",
     "batteryConfig": "Accuconfiguratie",
     "color": "Kleur",
@@ -101,7 +101,7 @@
     "subtotal": "Subtotaal:",
     "shipping": "Expeditie:",
     "free": "Gratis (boven €10.000)",
-    "vatIncluded": "Inbegrepen 19% btw:",
+    "vatIncluded": "",
     "total": "Totaalbedrag:",
     "toCheckout": "Naar de Kassa",
     "payCrypto": "Betaal met Crypto & Bespaar 10%",
@@ -155,7 +155,7 @@
     "service": "Service & Winkel",
     "legal": "Juridisch & Beleid",
     "allRights": "Alle rechten voorbehouden.",
-    "priceNote": "Prijzen incl. 19% btw · Minimale bestelling €500,00 · Gratis verzending vanaf €10.000,00"
+    "priceNote": "Minimale bestelling €500,00 · Gratis verzending vanaf €10.000,00"
   },
   "seo": {
     "titleTail": "online bestellen",

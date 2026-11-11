@@ -3,7 +3,7 @@ import { PRODUCTS } from '@/lib/products';
 import type { Product } from '@/lib/types';
 
 // French product pages: keywords (data/keywords/fr-products.json), title, description, specs and copy, all built from catalogue data.
-// Nothing is invented: every sentence comes from a spec value, the price, or shop terms the owner confirmed. No VAT rate is named.
+// Nothing is invented: every sentence comes from a spec value, the price, or shop terms the owner confirmed. No VAT wording.
 export interface FrKw { keyword: string; volume: number; kd: number | null; intent: string }
 export interface FrEntry { primary: FrKw & { source: string }; secondary: FrKw[]; faq: FrKw[] }
 
@@ -178,19 +178,19 @@ export function buildFrContent(p: Product): { lead: string; sections: FrSection[
   }
   sections.push({
     h2: 'Prix, paiement, livraison et garantie',
-    blocks: [{ text: `Le prix est de ${price}, TVA incluse. En cas de paiement par virement, vous réglez ce montant ; en cas de paiement en crypto, le prix est de ${crypto} (10 % de remise). ${p.price < 10000 ? 'Un forfait transport de 49 € s’ajoute, la livraison est gratuite à partir de 10 000 € de commande.' : 'La livraison est gratuite pour ce montant de commande.'} L’article est livré par transporteur sur rendez-vous. Une garantie de 2 ans et un droit de retour de 30 jours s’appliquent.` }],
+    blocks: [{ text: `Le prix est de ${price}. En cas de paiement par virement, vous réglez ce montant ; en cas de paiement en crypto, le prix est de ${crypto} (10 % de remise). ${p.price < 10000 ? 'Un forfait transport de 49 € s’ajoute, la livraison est gratuite à partir de 10 000 € de commande.' : 'La livraison est gratuite pour ce montant de commande.'} L’article est livré par transporteur sur rendez-vous. Une garantie de 2 ans et un droit de retour de 30 jours s’appliquent.` }],
   });
   const faqKw = e.faq.slice(0, 5).map((f) => f.keyword);
   const base = isAcc
     ? [
-      { q: `Combien coûte ${p.name} ?`, a: `${p.name} coûte ${price}, TVA incluse. En cas de paiement en crypto, le prix est de ${crypto} (10 % de remise).` },
+      { q: `Combien coûte ${p.name} ?`, a: `${p.name} coûte ${price}. En cas de paiement en crypto, le prix est de ${crypto} (10 % de remise).` },
       { q: 'Cet article convient-il à tous les vélos électriques ?', a: `Cela dépend des cotes de montage. Vérifiez le diamètre, la fixation et la place disponible sur votre vélo avant de commander ; pour toute question, écrivez à sales@ebikedirect.eu.` },
       { q: 'De quelle marque est l’article ?', a: `L’article vient de ${p.brand}.` },
       { q: 'Quelles garanties et quel droit de retour s’appliquent ?', a: 'Une garantie de 2 ans et un droit de retour de 30 jours s’appliquent.' },
       { q: 'Comment payer l’article ?', a: `Vous payez par virement ou en crypto. En crypto, vous économisez 10 %, soit ${fmt2(p.price * 0.1)} sur cet article.` },
     ]
     : [
-      { q: 'Combien coûte ce vélo ?', a: `${price}, TVA incluse${p.price < 10000 ? ', plus le forfait transport de 49 € jusqu’à 10 000 € de commande' : ', livraison gratuite'}. En cas de paiement en crypto, le prix est de ${crypto}.` },
+      { q: 'Combien coûte ce vélo ?', a: `${price}${p.price < 10000 ? ', plus le forfait transport de 49 € jusqu’à 10 000 € de commande' : ', livraison gratuite'}. En cas de paiement en crypto, le prix est de ${crypto}.` },
       { q: 'Quel moteur équipe ce vélo ?', a: `${motor}${p.torqueNm > 0 ? `, avec jusqu’à ${p.torqueNm} Nm de couple` : ''}. Le moteur équipe un ${noun}${wh ? ` avec batterie de ${wh} Wh` : ''} de la marque ${p.brand}.` },
       { q: 'Quelle est la capacité de la batterie ?', a: wh ? `La batterie a une capacité de ${wh} Wh${p.rangeKm > 0 ? `, le fabricant annonce jusqu’à ${p.rangeKm} km d’autonomie` : ''}.` : 'La capacité de la batterie figure dans la fiche technique.' },
       { q: 'Dans quelles tailles ce vélo est-il disponible ?', a: frames(p) },

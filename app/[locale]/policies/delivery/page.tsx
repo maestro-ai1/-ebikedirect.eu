@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
@@ -8,7 +9,9 @@ export const metadata: Metadata = {
   description: 'Informationen zu Speditionsversand mit Hebebühne, 10.000 € Frei-Haus-Grenze, 500 € Mindestbestellwert und telefonischer Avisierung.'
 };
 
-export default function DeliveryPolicyPage() {
+export default async function DeliveryPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'de') redirect('/policies/delivery'); // legal and utility pages exist in German only until the owner approves translations
   return (
     <div className="bg-[#F8F9FA] pb-16">
       <Breadcrumbs

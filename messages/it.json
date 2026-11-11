@@ -46,14 +46,14 @@
   "products": {
     "featuredTag": "Modelli di Punta 2026",
     "featuredHeading": "Le E-Bike Premium Più Vendute",
-    "featuredSub": "Disponibili subito a magazzino. IVA 19% inclusa, trasporto assicurato e 10% di sconto con pagamento crypto.",
+    "featuredSub": "Disponibili subito a magazzino. Trasporto assicurato e 10% di sconto con pagamento crypto.",
     "viewAll": "Vedi tutti i modelli",
     "inStock": "Disponibile",
     "units": "pz.",
     "withCrypto": "con Crypto",
     "cryptoDiscountBadge": "-10% con Crypto",
     "cryptoCashDiscount": "con 10% di sconto crypto",
-    "inclVat": "IVA 19% incl., spedizione gratuita oltre 10.000 €",
+    "inclVat": "Spedizione gratuita oltre 10.000 €",
     "frameSize": "Misura Telaio",
     "batteryConfig": "Configurazione Batteria",
     "color": "Colore",
@@ -101,7 +101,7 @@
     "subtotal": "Subtotale:",
     "shipping": "Spedizione Spedizioniere:",
     "free": "Gratuita (Oltre 10.000 €)",
-    "vatIncluded": "IVA 19% inclusa:",
+    "vatIncluded": "",
     "total": "Importo Totale:",
     "toCheckout": "Procedi alla Cassa",
     "payCrypto": "Paga con Crypto & Risparmia il 10%",
@@ -155,7 +155,7 @@
     "service": "Servizio & Negozio",
     "legal": "Note Legali & Termini",
     "allRights": "Tutti i diritti riservati.",
-    "priceNote": "Prezzi con IVA 19% inclusa · Ordine minimo 500,00 € · Spedizione gratuita da 10.000,00 €"
+    "priceNote": "Ordine minimo 500,00 € · Spedizione gratuita da 10.000,00 €"
   },
   "seo": {
     "titleTail": "ordina online",
