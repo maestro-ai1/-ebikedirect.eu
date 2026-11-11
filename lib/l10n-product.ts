@@ -83,7 +83,7 @@ export function frSpecs(p: Product): [string, string][] {
 const byBrand: Record<string, Product[]> = {};
 const byCat: Record<string, Product[]> = {};
 for (const p of PRODUCTS.slice().sort((a, b) => a.slug.localeCompare(b.slug))) { (byBrand[p.brand] ||= []).push(p); (byCat[p.category] ||= []).push(p); }
-export function frRelated(p: Product): Product[] {
+function baseRelated(p: Product): Product[] {
   const out: Product[] = [];
   const take = (list: Product[]) => {
     const i = list.findIndex((x) => x.slug === p.slug);
@@ -92,6 +92,14 @@ export function frRelated(p: Product): Product[] {
   if (p.category !== 'Zubehör') take(byBrand[p.brand] || []);
   if (out.length < 4) take(byCat[p.category] || []);
   return out;
+}
+
+const nz = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+/** H1: the product name; when the main keyword is not part of the name, the keyword leads: "Cube nuroad race : Cube Nuroad Hybrid ...". */
+export function frH1(p: Product): string {
+  const e = frEntry(p);
+  if (e.primary.source !== 'bank') return p.name;
+  return nz(p.name).includes(nz(e.primary.keyword)) ? p.name : `${frDisplay(e.primary.keyword)} : ${p.name}`;
 }
 
 // ---------- title and description
@@ -192,3 +200,23 @@ export function buildFrContent(p: Product): { lead: string; sections: FrSection[
   const words = sections.reduce((t, s) => t + wc(s.h2) + s.blocks.reduce((b, bl) => b + wc(bl.text) + (bl.h3 ? wc(bl.h3) : 0), 0), 0) + faqs.reduce((t, f) => t + wc(f.q) + wc(f.a), 0);
   return { lead, sections, faqs, words, specs };
 }
+
+// final related lists: every product is linked from at least 3 others (donors in the same category get extra links)
+let RELATED: Record<string, Product[]> | null = null;
+function related(): Record<string, Product[]> {
+  if (RELATED) return RELATED;
+  const R: Record<string, Product[]> = {};
+  const inbound: Record<string, number> = {};
+  for (const p of PRODUCTS) R[p.slug] = baseRelated(p);
+  for (const p of PRODUCTS) for (const x of R[p.slug]) inbound[x.slug] = (inbound[x.slug] || 0) + 1;
+  for (const p of PRODUCTS) {
+    while ((inbound[p.slug] || 0) < 3) {
+      const donor = (byCat[p.category] || []).find((d) => d.slug !== p.slug && R[d.slug].length < 7 && !R[d.slug].some((x) => x.slug === p.slug));
+      if (!donor) break;
+      R[donor.slug].push(p); inbound[p.slug] = (inbound[p.slug] || 0) + 1;
+    }
+  }
+  RELATED = R;
+  return R;
+}
+export function frRelated(p: Product): Product[] { return related()[p.slug] || []; }

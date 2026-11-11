@@ -11,7 +11,7 @@ import { ProductDetailClient } from './product-client';
 import { productTitle, productDescription } from '@/lib/product-seo';
 import { productFocusKeyword } from '@/lib/product-keywords';
 import { L10nProductContent } from '@/components/seo/l10n-product-content';
-import { frTitle, frDescription, frEntry, frDisplay, buildFrContent, FR_CATEGORY_LABEL } from '@/lib/l10n-product';
+import { frH1, frTitle, frDescription, frEntry, frDisplay, buildFrContent, FR_CATEGORY_LABEL } from '@/lib/l10n-product';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -61,7 +61,7 @@ export default async function ProductDetailPage({ params }: Props) {
       <>
         <ProductJsonLd product={product} description={built.lead} urlPrefix="/fr" />
         <Breadcrumbs items={[{ label: 'Boutique', href: '/fr/shop' }, { label: FR_CATEGORY_LABEL[product.category] || product.category, href: '/fr/shop' }, { label: product.name, href: `/fr/shop/${product.slug}` }]} />
-        <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: FR_CATEGORY_LABEL[product.category] || product.category }} />
+        <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: FR_CATEGORY_LABEL[product.category] || product.category, h1: frH1(product) }} />
         <L10nProductContent product={product} />
       </>
     );

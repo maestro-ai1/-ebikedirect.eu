@@ -21,7 +21,7 @@ import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
 
-export interface FrView { lead: string; specs: [string, string][]; category: string }
+export interface FrView { lead: string; specs: [string, string][]; category: string; h1?: string }
 
 export function ProductDetailClient({ product, focusKeyword, frView }: { product: Product; focusKeyword: string; frView?: FrView }) {
   const { locale } = useI18n();
@@ -138,7 +138,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                 </div>
 
                 <h1 className="text-2xl sm:text-3xl font-black text-[#131A22] leading-tight">
-                  {product.name}
+                  {fr && frView!.h1 ? frView!.h1 : product.name}
                 </h1>
 
                 {/* Rating */}
