@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { PRODUCTS } from '@/lib/products';
 import { localesForPath, getLocalizedPath, getHreflangAlternates } from '@/lib/i18n';
-import { l10nAlternates, l10nPages, L10N_LOCALES } from '@/lib/l10n-pages';
+import { l10nAlternates, l10nPages, L10N_LOCALES, PRODUCT_LANGS, SERVICE_PATHS, SERVICE_LANGS } from '@/lib/l10n-pages';
 import { getAllPosts } from '@/lib/blog-content';
 import { MAPPED_PAGES, listingPageCount, listingUrl } from '@/lib/mapped-pages';
 import { FAMILIES, familyMembers, familyPageCount, familyListingUrl } from '@/lib/families';
@@ -9,7 +9,7 @@ import { FAMILIES, familyMembers, familyPageCount, familyListingUrl } from '@/li
 type Entry = { path: string; priority: number; changeFrequency: 'daily' | 'weekly' | 'monthly' };
 
 // One sitemap entry per indexed language, each carrying the full hreflang set.
-// Languages without a keyword bank (en) are not listed.
+// Languages without a keyword bank are not listed.
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
   const currentDate = new Date().toISOString();
@@ -50,7 +50,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: p.type === 'category' ? 0.8 : 0.7,
     alternates: { languages: Object.fromEntries((l10nAlternates(p.url, l, baseUrl) || []).map((a) => [a.hreflang, a.url])) },
   })));
-  const frProducts = PRODUCTS.map((p) => ({ url: `${baseUrl}/fr/shop/${p.slug}`, lastModified: currentDate, changeFrequency: 'weekly' as const, priority: 0.8, alternates: { languages: Object.fromEntries((l10nAlternates(`/shop/${p.slug}`, 'fr', baseUrl) || []).map((a) => [a.hreflang, a.url])) } }));
+  const frProducts = Array.from(PRODUCT_LANGS).flatMap((lg) => PRODUCTS.map((p) => ({ url: `${baseUrl}/${lg}/shop/${p.slug}`, lastModified: currentDate, changeFrequency: 'weekly' as const, priority: 0.8, alternates: { languages: Object.fromEntries((l10nAlternates(`/shop/${p.slug}`, lg, baseUrl) || []).map((a) => [a.hreflang, a.url])) } })));
+  const servicePages = SERVICE_LANGS.flatMap((lg) => SERVICE_PATHS.map((sp) => ({ url: `${baseUrl}/${lg}${sp}`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.6, alternates: { languages: Object.fromEntries((l10nAlternates(sp, lg, baseUrl) || []).map((a) => [a.hreflang, a.url])) } })));
   const base = routes.flatMap((route) => {
     const languages = Object.fromEntries(
       (l10nAlternates(route.path, 'de', baseUrl) || getHreflangAlternates(route.path, baseUrl)).map((a) => [a.hreflang, a.url])
@@ -63,5 +64,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages },
     }));
   });
-  return [...base, ...translated, ...frProducts];
+  return [...base, ...translated, ...frProducts, ...servicePages];
 }

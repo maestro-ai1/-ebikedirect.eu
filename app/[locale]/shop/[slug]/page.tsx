@@ -11,7 +11,8 @@ import { ProductDetailClient } from './product-client';
 import { productTitle, productDescription } from '@/lib/product-seo';
 import { productFocusKeyword } from '@/lib/product-keywords';
 import { L10nProductContent } from '@/components/seo/l10n-product-content';
-import { frH1, frTitle, frDescription, frEntry, frDisplay, buildFrContent, FR_CATEGORY_LABEL } from '@/lib/l10n-product';
+import { productKit } from '@/lib/l10n-product-kit';
+import { localName } from '@/lib/l10n-names';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -25,9 +26,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const siteUrl = process.env.APP_URL || 'https://ebikedirect.eu';
-  if (locale === 'fr') {
-    const frT = frTitle(product), frD = frDescription(product);
-    return { title: { absolute: frT }, description: frD, openGraph: { title: frT, description: frD, images: [{ url: product.image }], url: `${siteUrl}/fr/shop/${product.slug}` } };
+  const K = productKit(locale);
+  if (K) {
+    const frT = K.title(product), frD = K.description(product);
+    return { title: { absolute: frT }, description: frD, openGraph: { title: frT, description: frD, images: [{ url: product.image }], url: `${siteUrl}/${locale}/shop/${product.slug}` } };
   }
   const focus = productFocusKeyword(product.slug, product.name);
   const title = productTitle(product.name, focus);
@@ -53,16 +55,17 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
-  if (locale === 'fr') {
-    const built = buildFrContent(product);
-    const e = frEntry(product);
-    const focus = e.primary.source === 'bank' ? e.primary.keyword : product.name;
+  const K = productKit(locale);
+  if (K) {
+    const built = K.build(product);
+    const e = K.entry(product);
+    const focus = e.primary.source === 'bank' ? e.primary.keyword : localName(locale, product.name);
     return (
       <>
-        <ProductJsonLd product={product} description={built.lead} urlPrefix="/fr" />
-        <Breadcrumbs items={[{ label: 'Boutique', href: '/fr/shop' }, { label: FR_CATEGORY_LABEL[product.category] || product.category, href: '/fr/shop' }, { label: product.name, href: `/fr/shop/${product.slug}` }]} />
-        <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: FR_CATEGORY_LABEL[product.category] || product.category, h1: frH1(product) }} />
-        <L10nProductContent product={product} />
+        <ProductJsonLd product={product} description={built.lead} urlPrefix={`/${locale}`} name={localName(locale, product.name)} />
+        <Breadcrumbs items={[{ label: K.ui.shop, href: `/${locale}/shop` }, { label: K.categoryLabel[product.category] || product.category, href: `/${locale}/shop` }, { label: localName(locale, product.name), href: `/${locale}/shop/${product.slug}` }]} />
+        <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: K.categoryLabel[product.category] || product.category, h1: K.h1(product) }} />
+        <L10nProductContent product={product} locale={locale} />
       </>
     );
   }

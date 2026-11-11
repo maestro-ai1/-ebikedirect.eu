@@ -12766,6 +12766,706 @@
    },
    "secondary": [],
    "faq": []
+  },
+  "abus-iven-kettenschloss-140-cm": {
+   "name": "ABUS IVEN Kettenschloss 8210, 140 cm",
+   "brand": "ABUS",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter abus iven antivol à chaîne 8210, 140 cm",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "abus-iven-kettenschloss-85-cm": {
+   "name": "ABUS IVEN Kettenschloss 8210, 85 cm",
+   "brand": "ABUS",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter abus iven antivol à chaîne 8210, 85 cm",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "abus-rahmenschloss": {
+   "name": "ABUS Rahmenschloss",
+   "brand": "ABUS",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter abus antivol de cadre",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "abus-faltschloss": {
+   "name": "ABUS Faltschloss",
+   "brand": "ABUS",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter abus antivol pliant",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-universal-handyhalterung": {
+   "name": "Tenways Universal Handyhalterung",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways universal support de téléphone",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-eh20-smart-helm": {
+   "name": "Tenways EH20 Smart Helm",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways eh20 smart casque",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-elektrische-luftpumpe": {
+   "name": "Tenways Elektrische Luftpumpe",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways pompe à air électrique",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-gepaecktasche": {
+   "name": "Tenways Gepäcktasche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways sacoche de porte-bagages",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-gepaecktasche-m": {
+   "name": "Tenways Gepäcktasche M",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways sacoche de porte-bagages m",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-gepaecktasche-l": {
+   "name": "Tenways Gepäcktasche L",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways sacoche de porte-bagages l",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-huefttasche": {
+   "name": "Tenways Hüfttasche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways sac banane",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-regenschutz": {
+   "name": "Tenways Regenschutz für Cargo E-Bike",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways protection pluie pour vélo cargo électrique",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-kindersitz-mik-hd": {
+   "name": "Tenways Kindersitz MIK HD",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways siège enfant mik hd",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo009-gepaecktraeger-hinten": {
+   "name": "Tenways CGO009 Gepäckträger hinten",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo009 porte-bagages arrière",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo009-gepaecktraeger-vorne": {
+   "name": "Tenways CGO009 Frontgepäckträger",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo009 porte-bagages avant",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo-compact-gepaecktraeger-hinten": {
+   "name": "Tenways CGO COMPACT Gepäckträger hinten",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo compact porte-bagages arrière",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-ago-air-gepaecktraeger": {
+   "name": "Tenways AGO AIR Gepäckträger",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways ago air porte-bagages",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-ago-x-gepaecktraeger-hinten": {
+   "name": "Tenways AGO X Gepäckträger hinten",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways ago x porte-bagages arrière",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo600-gepaecktraeger": {
+   "name": "Tenways CGO600 Gepäckträger",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo600 porte-bagages",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo600-schutzbleche": {
+   "name": "Tenways CGO600 Schutzbleche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo600 garde-boue",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-ago-air-schutzbleche": {
+   "name": "Tenways AGO AIR Schutzbleche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways ago air garde-boue",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo009-schutzbleche": {
+   "name": "Tenways CGO009 Schutzbleche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo009 garde-boue",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-ago-x-schutzbleche": {
+   "name": "Tenways AGO X Schutzbleche",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways ago x garde-boue",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo600-seitenstaender": {
+   "name": "Tenways CGO600 Seitenständer",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo600 béquille latérale",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-ago-air-seitenstaender": {
+   "name": "Tenways AGO AIR Seitenständer",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways ago air béquille latérale",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tenways-cgo009-seitenstaender": {
+   "name": "Tenways CGO009 Seitenständer",
+   "brand": "Tenways",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tenways cgo009 béquille latérale",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "reelight-stadium-bike-licht": {
+   "name": "Reelight STADIUM Bike Licht",
+   "brand": "Reelight",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter reelight stadium éclairage vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "lezyne-smart-grip-handyhalterung": {
+   "name": "Lezyne Smart Grip Handyhalterung",
+   "brand": "Lezyne",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter lezyne smart grip support de téléphone",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-lenker-vorbau-halterung": {
+   "name": "Quad Lock Lenker- und Vorbau-Halterung",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock support de guidon et de potence",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-out-front-halterung": {
+   "name": "Quad Lock Out Front Halterung",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock support out front",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-bike-kit-universal": {
+   "name": "Quad Lock Bike Kit Universal",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock bike kit universal",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-bike-kit-iphone": {
+   "name": "Quad Lock Bike Kit für iPhone",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock bike kit pour iphone",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-vibrationsdaempfer": {
+   "name": "Quad Lock Vibrationsdämpfer",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock amortisseur de vibrations",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "quad-lock-wasserdichter-ladekopf": {
+   "name": "Quad Lock Wasserdichter Ladekopf",
+   "brand": "Quad Lock",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter quad lock tête de charge étanche",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bbb-dualpressure-minipumpe": {
+   "name": "BBB Dualpressure Minipumpe",
+   "brand": "BBB",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter bbb dualpressure mini-pompe",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "lezyne-sv-pro-7-multitool": {
+   "name": "Lezyne SV Pro 7 Multitool",
+   "brand": "Lezyne",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter lezyne sv pro 7 multitool",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "lezyne-co2-reparaturset": {
+   "name": "Lezyne CO2 Reparaturset",
+   "brand": "Lezyne",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter lezyne co2 kit de réparation",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "tip-top-flickzeug-set": {
+   "name": "Tip Top Flickzeug Set",
+   "brand": "Tip Top",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter tip top kit de rustines",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "finish-line-dry-lube-120-ml": {
+   "name": "Finish Line Dry Lube 120 ml",
+   "brand": "Finish Line",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter finish line dry lube 120 ml",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "finish-line-wet-lube-120-ml": {
+   "name": "Finish Line Wet Lube 120 ml",
+   "brand": "Finish Line",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter finish line wet lube 120 ml",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-dark-energy-kettenwachs": {
+   "name": "Muc-Off Dark Energy Kettenwachs",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off dark energy cire pour chaîne",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-reinigungs-und-schmierset": {
+   "name": "Muc-Off Reinigungs- und Schmierset",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off kit de nettoyage et de lubrification",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-bam-pannenreparatur": {
+   "name": "Muc-Off B.A.M! Pannenreparatur",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off b.a.m! réparation de crevaison",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-buersten-set-3-in-1": {
+   "name": "Muc-Off Bürsten-Set 3 in 1",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off kit de brosses 3 en 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-schaumspruehr-set": {
+   "name": "Muc-Off Schaumsprüher-Set",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off kit de pulvérisateur de mousse",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "lezyne-m-caddy-satteltasche": {
+   "name": "Lezyne M-Caddy Satteltasche",
+   "brand": "Lezyne",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter lezyne m-caddy sacoche de selle",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crane-e-ne-fahrradklingel": {
+   "name": "Crane E-NE Fahrradklingel",
+   "brand": "Crane",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crane e-ne sonnette de vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crane-mini-karen-fahrradklingel": {
+   "name": "Crane Mini Karen Fahrradklingel",
+   "brand": "Crane",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crane mini karen sonnette de vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crane-mini-suzu-fahrradklingel": {
+   "name": "Crane Mini Suzu Fahrradklingel",
+   "brand": "Crane",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crane mini suzu sonnette de vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "basil-portland-fahrradklingel-messing": {
+   "name": "Basil Portland Fahrradklingel Messing",
+   "brand": "Basil",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter basil portland sonnette de vélo laiton",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
   }
  }
 }

@@ -23,7 +23,15 @@ export interface L10nStrings {
   notes: Record<string, string>;
   facts: (kind: PageKind, ctx: Ctx, name: string) => string[];
   faq: (kind: PageKind, ctx: Ctx, name: string) => { q: string; a: string }[];
+  hub: {
+    intro: (display: string, n: number) => string;
+    allH2: string;
+    models: (n: number) => string;
+    facts: (h: HubCtx) => string[];
+    faq: (h: HubCtx) => { q: string; a: string }[];
+  };
 }
+export interface HubCtx { brands: string[]; total: number; top?: { name: string; n: number }; min: number; max: number; fmt: (n: number) => string }
 
 const uniq = <T,>(a: T[]) => [...new Set(a)];
 const list = (a: string[], and: string) => (a.length <= 1 ? a.join('') : `${a.slice(0, -1).join(', ')} ${and} ${a[a.length - 1]}`);
@@ -91,9 +99,111 @@ const FR: L10nStrings = {
       { q: 'Comment les modèles sont-ils livrés ?', a: FR_DELIVERY },
     ];
   },
+  hub: {
+    intro: (d, n) => `${d} : voici les ${n} marques et fabricants de moteurs de la boutique, avec le nombre de modèles disponibles pour chacun. Cliquez sur une marque pour comparer ses modèles, leurs prix, moteurs et batteries.`,
+    allH2: 'Toutes les marques',
+    models: (n) => `${n} ${n === 1 ? 'modèle' : 'modèles'}`,
+    facts: (h) => [
+      `La boutique présente ${h.brands.length} marques et fabricants de moteurs, avec ${h.total} modèles au total.`,
+      h.top ? `La marque qui propose le plus de modèles est ${h.top.name}, avec ${h.top.n} modèles.` : '',
+      `Les prix des vélos électriques vont de ${h.fmt(h.min)} à ${h.fmt(h.max)}.`,
+      'Les pages Bosch, Shimano et Yamaha réunissent les modèles par fabricant de moteur.',
+      'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Garantie de 2 ans et droit de retour de 30 jours.',
+    ],
+    faq: (h) => [
+      { q: 'Quelles marques de vélos électriques proposez-vous ?', a: `Nous proposons ${h.brands.length} marques et fabricants de moteurs, notamment ${h.brands.slice(0, 8).join(', ')}.` },
+      { q: 'Quelle marque propose le plus de modèles ?', a: h.top ? `${h.top.name}, avec ${h.top.n} modèles disponibles.` : '' },
+      { q: 'Quels fabricants de moteurs trouve-t-on ici ?', a: 'Les modèles sont regroupés sur les pages Bosch, Shimano et Yamaha selon le moteur monté.' },
+      { q: 'Combien coûtent les vélos électriques ?', a: `Les prix vont de ${h.fmt(h.min)} à ${h.fmt(h.max)}.` },
+      { q: 'Comment les vélos sont-ils livrés ?', a: 'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Garantie de 2 ans et droit de retour de 30 jours.' },
+    ],
+  },
 };
 
-export const L10N: Partial<Record<Locale, L10nStrings>> = { fr: FR };
+const EN_DELIVERY = 'Delivery is by freight carrier with a lift gate, by appointment. Below an order value of 10,000 € a flat freight charge of 49 € is added; above that, delivery is free. 2-year warranty and 30-day returns.';
+
+const EN: L10nStrings = {
+  intl: 'en-IE',
+  home: 'Home',
+  eyebrow: { category: 'Category', brand: 'Brand', accessory: 'Accessories' },
+  models: { category: 'Models in stock', brand: 'Models in stock', accessory: 'Items in stock' },
+  noModels: 'No models are listed at the moment.',
+  seeAll: 'See the full range in the shop',
+  moreCategories: { category: 'More categories', brand: 'More brands', accessory: 'More accessories' },
+  topicsH2: (name) => `What buyers look at: ${name}`,
+  topicsIntro: 'These topics come up most often in what customers search for. Each one is based on the real data of the items listed above.',
+  faqH2: (name) => `Frequently asked questions: ${name}`,
+  intro: (kind, h1, n, name) => {
+    if (kind === 'accessory') return `${h1}: the shop offers ${n === 1 ? 'the available item' : `the ${n} available items`} in the ${name} range, with the price and the bikes each item fits. Order your e-bike accessories online.`;
+    if (kind === 'brand') return `${h1}: the shop offers ${n === 1 ? 'the available model' : `the ${n} available models`} from ${name}, with price, motor and battery capacity at a glance. Compare the equipment and order online, delivered by freight carrier to the address of your choice.`;
+    return `${h1}: the shop offers ${n === 1 ? 'the available model' : `the ${n} available models`} in the ${name} category, with price, motor and battery capacity at a glance. Compare the equipment and order your electric bike online, delivered by freight carrier to the address of your choice.`;
+  },
+  categoryTag: { 'E-MTB': 'Electric mountain bike', 'E-Trekking': 'Electric trekking bike', 'E-City': 'Electric city bike', 'Speed-Pedelec': 'Speed pedelec', 'Cargo-E-Bike': 'Electric cargo bike', 'Falt-E-Bike': 'Electric folding bike', 'E-Gravel': 'Electric gravel bike', 'E-Kinder': 'Kids electric bike' },
+  notes: {
+    '/e-bikes/damen': 'This list gathers the models whose name, frame or spec sheet shows a step-through or women’s frame shape (for example Wave, Low, Easy Entry or Trapeze).',
+    '/e-bikes/herren': 'This list gathers the models whose name, frame or spec sheet shows a diamond frame or a men’s frame.',
+    '/e-bikes/motor-antrieb': 'A selection of models with their motors. Find all models by motor maker on the Bosch, Shimano and Yamaha pages.',
+  },
+  facts: (kind, c, name) => {
+    const delivery = 'Delivery is by freight carrier, by appointment. 2-year warranty and 30-day returns.';
+    if (kind === 'accessory') {
+      return [
+        `The shop offers ${c.n} ${c.n === 1 ? 'item' : 'items'} in the ${name} range.`,
+        `Prices range from ${c.fmt(c.min)} to ${c.fmt(c.max)}.`,
+        `The items come from the brands ${list(c.brands.slice(0, 5), 'and')}.`,
+        `The cheapest item is the ${c.cheapest.name}, at ${c.fmt(c.cheapest.price)}.`,
+        delivery,
+      ];
+    }
+    return [
+      `The shop offers ${c.n} ${c.n === 1 ? 'model' : 'models'}${kind === 'brand' ? ` from ${name}` : ' in this category'}${c.brands.length > 1 ? `, from the brands ${list(c.brands.slice(0, 5), 'and')}` : ''}.`,
+      `Prices range from ${c.fmt(c.min)} to ${c.fmt(c.max)}, with an average price of ${c.fmt(c.avg)}.`,
+      c.whText ? `Battery capacity is ${c.whText}.` : 'The battery capacity is shown in the spec sheet of each model.',
+      c.motors.length ? `The motors fitted are: ${c.motors.join(', ')}.` : 'The motor is shown in the spec sheet of each model.',
+      'Delivery is by freight carrier with a lift gate, by appointment. 2-year warranty and 30-day returns.',
+    ];
+  },
+  faq: (kind, c, name) => {
+    if (kind === 'accessory') {
+      return [
+        { q: 'Which items are available?', a: `The shop offers ${c.n} ${c.n === 1 ? 'item' : 'items'} in the ${name} range, from the brands ${list(c.brands.slice(0, 6), 'and')}.` },
+        { q: 'How much do the items cost?', a: `Prices range from ${c.fmt(c.min)} to ${c.fmt(c.max)}.` },
+        { q: 'Which brands are the items from?', a: `The listed items come from the brands ${list(c.brands, 'and')}.` },
+        { q: 'What is the cheapest item?', a: `The cheapest is the ${c.cheapest.name} from ${c.cheapest.brand}, at ${c.fmt(c.cheapest.price)}.` },
+        { q: 'What is the most expensive item?', a: `The most expensive is the ${c.priciest.name} from ${c.priciest.brand}, at ${c.fmt(c.priciest.price)}.` },
+      ];
+    }
+    const which = kind === 'brand' ? `Which ${name} models are available?` : 'Which models are available in this category?';
+    return [
+      { q: which, a: `The shop offers ${c.n} ${c.n === 1 ? 'model' : 'models'}${kind === 'brand' ? '' : `, from the brands ${list(c.brands.slice(0, 8), 'and')}${c.brands.length > 8 ? ' and others' : ''}`}.` },
+      { q: 'How much do the models cost?', a: `Prices range from ${c.fmt(c.min)} to ${c.fmt(c.max)}, with an average price of ${c.fmt(c.avg)}. The cheapest model is the ${c.cheapest.name} at ${c.fmt(c.cheapest.price)}.` },
+      { q: 'Which motors are fitted?', a: c.motors.length ? `The motors fitted are: ${c.motors.join(', ')}.` : 'The motor is shown in the spec sheet of each model.' },
+      { q: 'What is the battery capacity?', a: c.whText ? `Battery capacity is ${c.whText}.` : 'The battery capacity is shown in the spec sheet of each model.' },
+      { q: 'How are the bikes delivered?', a: EN_DELIVERY },
+    ];
+  },
+  hub: {
+    intro: (d, n) => `${d}: here are the ${n} brands and motor makers in the shop, with the number of models available for each. Click a brand to compare its models, prices, motors and batteries.`,
+    allH2: 'All brands',
+    models: (n) => `${n} ${n === 1 ? 'model' : 'models'}`,
+    facts: (h) => [
+      `The shop lists ${h.brands.length} brands and motor makers, with ${h.total} models in total.`,
+      h.top ? `The brand with the most models is ${h.top.name}, with ${h.top.n} models.` : '',
+      `Electric bike prices range from ${h.fmt(h.min)} to ${h.fmt(h.max)}.`,
+      'The Bosch, Shimano and Yamaha pages gather the models by motor maker.',
+      'Delivery is by freight carrier with a lift gate, by appointment. 2-year warranty and 30-day returns.',
+    ],
+    faq: (h) => [
+      { q: 'Which electric bike brands do you offer?', a: `We offer ${h.brands.length} brands and motor makers, including ${h.brands.slice(0, 8).join(', ')}.` },
+      { q: 'Which brand has the most models?', a: h.top ? `${h.top.name}, with ${h.top.n} models available.` : '' },
+      { q: 'Which motor makers can I find here?', a: 'The models are grouped on the Bosch, Shimano and Yamaha pages by the motor fitted.' },
+      { q: 'How much do electric bikes cost?', a: `Prices range from ${h.fmt(h.min)} to ${h.fmt(h.max)}.` },
+      { q: 'How are the bikes delivered?', a: EN_DELIVERY },
+    ],
+  },
+};
+
+export const L10N: Partial<Record<Locale, L10nStrings>> = { fr: FR, en: EN };
 
 export function buildCtx(products: Product[], fmt: (n: number) => string): Ctx {
   const prices = products.map((p) => p.price);
@@ -116,6 +226,7 @@ export const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 /** Meta description (110 to 158 characters) with the page's main keyword and a call to action, by page kind. */
 export function l10nDescription(locale: Locale, kind0: PageKind | 'hub', display: string, name: string): string {
+  if (locale === 'en') return enDescription(kind0, display, name);
   if (locale !== 'fr') return '';
   if (kind0 === 'hub') return `${display} : toutes les marques de vélos électriques de la boutique avec le nombre de modèles. Comparez et commandez en ligne, garantie de 2 ans.`;
   const kind: PageKind = kind0;
@@ -138,5 +249,30 @@ export function l10nDescription(locale: Locale, kind0: PageKind | 'hub', display
   let t = tails[kind][0];
   if (t.length > 158) t = t.slice(0, 157).replace(/\s+\S*$/, '') + '.';
   if (t.length < 110) t += ' Livraison par transporteur dans toute l’Europe.';
+  return t;
+}
+
+function enDescription(kind0: PageKind | 'hub', display: string, name: string): string {
+  if (kind0 === 'hub') return `${display}: all the electric bike brands in the shop with the number of models for each. Compare and order online, 2-year warranty.`;
+  const kind: PageKind = kind0;
+  const tails: Record<PageKind, string[]> = {
+    category: [
+      `${display}: models with price, motor and battery. Compare the equipment and order online, delivery by freight carrier, 2-year warranty.`,
+      `${display}: compare models with price, motor and battery. Order online, 2-year warranty and 30-day returns.`,
+    ],
+    brand: [
+      `${display}: ${name} models with price, motor and battery. Compare and order online, delivery by freight carrier, 2-year warranty.`,
+      `${display}: see the ${name} models with price and equipment. Order online, 2-year warranty, 30-day returns.`,
+    ],
+    accessory: [
+      `${display}: ${name} for electric bikes with price and fit. Order online, 2-year warranty and 30-day returns.`,
+      `${display}: accessories for electric bikes with price. Order online, 2-year warranty, 30-day returns.`,
+    ],
+  };
+  const ok = tails[kind].find((t) => t.length >= 110 && t.length <= 158);
+  if (ok) return ok;
+  let t = tails[kind][0];
+  if (t.length > 158) t = t.slice(0, 157).replace(/\s+\S*$/, '') + '.';
+  if (t.length < 110) t += ' Delivery by freight carrier across Europe.';
   return t;
 }

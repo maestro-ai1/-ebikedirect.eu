@@ -1,4 +1,5 @@
-// FAQ, About and Contact copy: German and French so far ('=' = not translated yet, the page then redirects to its German original until the language is built).
+import { PAGES_EN } from '@/lib/ui-pages-en';
+// FAQ, About and Contact copy: German, French and English so far ('=' = not translated yet, the page then redirects to its German original until the language is built).
 // Business facts are the owner's wording; no VAT wording outside German; the JobRad leasing option is German-only.
 type Row = [string, string, string, string, string, string, string];
 const R = (de: string, fr: string): Row => [de, fr, '=', '=', '=', '=', '='];
@@ -86,3 +87,5 @@ export const PAGES: Record<string, Row> = {
   'contact.send': R('Nachricht absenden', 'Envoyer le message'),
   'contact.privacy': R('Ihre Daten werden verschlüsselt übertragen und streng nach DSGVO verarbeitet.', 'Vos données sont transmises de manière chiffrée et traitées dans le strict respect du RGPD.'),
 };
+
+for (const [k, v] of Object.entries(PAGES_EN)) { if (PAGES[k]) PAGES[k][6] = v; }

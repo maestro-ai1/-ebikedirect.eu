@@ -9,6 +9,7 @@ import { productsForPath } from '@/lib/mapped-pages';
 import { l10nByUrl, l10nPages } from '@/lib/l10n-pages';
 import { L10N, buildCtx, cap, type PageKind } from '@/lib/l10n-strings';
 import type { Locale } from '@/lib/i18n';
+import { localName } from '@/lib/l10n-names';
 
 const SHOWN = 12;
 
@@ -22,6 +23,7 @@ export function L10nCategoryPage({ locale, url }: { locale: Locale; url: string 
   const items = all.slice(0, SHOWN);
   const fmt = (n: number) => new Intl.NumberFormat(S.intl, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);
   const ctx = all.length ? buildCtx(all, fmt) : null;
+  if (ctx) { ctx.cheapest = { ...ctx.cheapest, name: localName(locale, ctx.cheapest.name) }; ctx.priciest = { ...ctx.priciest, name: localName(locale, ctx.priciest.name) }; }
   const h1 = page.display;
   const note = S.notes[page.dePath];
   const prefix = `/${locale}`;
@@ -31,7 +33,8 @@ export function L10nCategoryPage({ locale, url }: { locale: Locale; url: string 
   const faqs = ctx ? S.faq(kind, ctx, page.name).map((f, i) => (page.faq[i] ? { q: `${cap(page.faq[i].keyword)} : ${f.q}`, a: f.a } : f)) : [];
   const altSeen = new Set<string>();
   const altFor = (p: { slug: string; name: string }, i: number) => {
-    let a = i === 0 ? `${page.primary.keyword} - ${p.name}` : `${p.name} - ${page.name}`;
+    const nm = localName(locale, p.name);
+    let a = i === 0 ? `${page.primary.keyword} - ${nm}` : `${nm} - ${page.name}`;
     if (altSeen.has(a)) a = `${a} (${i + 1})`;
     altSeen.add(a);
     return a;
@@ -65,7 +68,7 @@ export function L10nCategoryPage({ locale, url }: { locale: Locale; url: string 
                       <div className="p-5 flex flex-col gap-2 flex-1">
                         <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">{p.brand}</span>
                         <h3 className="text-base font-bold text-[#131A22] leading-snug">
-                          <Link href={`${prefix}/shop/${p.slug}`} className="hover:text-[#FF5722]">{p.name}</Link>
+                          <Link href={`${prefix}/shop/${p.slug}`} className="hover:text-[#FF5722]">{localName(locale, p.name)}</Link>
                         </h3>
                         <div className="text-lg font-black text-[#131A22] mt-auto">{fmt(p.price)}</div>
                       </div>
@@ -131,20 +134,9 @@ export function L10nHubPage({ locale, url }: { locale: Locale; url: string }) {
   const fmt = (n: number) => new Intl.NumberFormat(S.intl, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);
   const all = productsForPath('/e-bikes');
   const prices = all.map((x) => x.price);
-  const facts = [
-    `La boutique présente ${brands.length} marques et fabricants de moteurs, avec ${total} modèles au total.`,
-    top ? `La marque qui propose le plus de modèles est ${top.p.name}, avec ${top.n} modèles.` : '',
-    `Les prix des vélos électriques vont de ${fmt(Math.min(...prices))} à ${fmt(Math.max(...prices))}.`,
-    'Les pages Bosch, Shimano et Yamaha réunissent les modèles par fabricant de moteur.',
-    'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Garantie de 2 ans et droit de retour de 30 jours.',
-  ];
-  const faqs = [
-    { q: 'Quelles marques de vélos électriques proposez-vous ?', a: `Nous proposons ${brands.length} marques et fabricants de moteurs, notamment ${brands.slice(0, 8).map((b) => b.p.name).join(', ')}.` },
-    { q: 'Quelle marque propose le plus de modèles ?', a: top ? `${top.p.name}, avec ${top.n} modèles disponibles.` : '' },
-    { q: 'Quels fabricants de moteurs trouve-t-on ici ?', a: 'Les modèles sont regroupés sur les pages Bosch, Shimano et Yamaha selon le moteur monté.' },
-    { q: 'Combien coûtent les vélos électriques ?', a: `Les prix vont de ${fmt(Math.min(...prices))} à ${fmt(Math.max(...prices))}.` },
-    { q: 'Comment les vélos sont-ils livrés ?', a: 'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Garantie de 2 ans et droit de retour de 30 jours.' },
-  ].map((f, i) => (page.faq[i] ? { q: `${cap(page.faq[i].keyword)} : ${f.q}`, a: f.a } : f)).filter((f) => f.a);
+  const hc = { brands: brands.map((b) => b.p.name), total, top: top ? { name: top.p.name, n: top.n } : undefined, min: Math.min(...prices), max: Math.max(...prices), fmt };
+  const facts = S.hub.facts(hc);
+  const faqs = S.hub.faq(hc).map((f, i) => (page.faq[i] ? { q: `${cap(page.faq[i].keyword)} : ${f.q}`, a: f.a } : f)).filter((f) => f.a);
   return (
     <div className="pb-16">
       <Breadcrumbs items={[{ label: page.name, href: `${prefix}${page.url.replace(/\/$/, '')}` }]} />
@@ -152,16 +144,16 @@ export function L10nHubPage({ locale, url }: { locale: Locale; url: string }) {
         <header className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-10 space-y-3">
           <p className="text-xs font-black uppercase tracking-wider text-[#FF5722]">{S.eyebrow.brand}</p>
           <h1 className="text-2xl sm:text-4xl font-black text-[#131A22] tracking-tight">{page.display}</h1>
-          <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">{page.display} : voici les {brands.length} marques et fabricants de moteurs de la boutique, avec le nombre de modèles disponibles pour chacun. Cliquez sur une marque pour comparer ses modèles, leurs prix, moteurs et batteries.</p>
+          <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">{S.hub.intro(page.display, brands.length)}</p>
         </header>
         <section aria-labelledby="brands" className="space-y-4">
-          <h2 id="brands" className="text-xl font-black text-[#131A22]">Toutes les marques</h2>
+          <h2 id="brands" className="text-xl font-black text-[#131A22]">{S.hub.allH2}</h2>
           <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {brands.map((b) => (
               <li key={b.p.url}>
                 <Link href={`${prefix}${b.p.url.replace(/\/$/, '')}`} className="block bg-white rounded-xl border border-gray-200 hover:border-[#FF5722] p-4">
                   <span className="block text-sm font-bold text-[#131A22]">{b.p.name}</span>
-                  <span className="block text-xs text-gray-500">{b.n} {b.n === 1 ? 'modèle' : 'modèles'}</span>
+                  <span className="block text-xs text-gray-500">{S.hub.models(b.n)}</span>
                 </Link>
               </li>
             ))}

@@ -50,14 +50,14 @@ export function StoreJsonLd() {
   );
 }
 
-export function ProductJsonLd({ product, description, urlPrefix = '' }: { product: Product; description?: string; urlPrefix?: string }) {
+export function ProductJsonLd({ product, description, urlPrefix = '', name }: { product: Product; description?: string; urlPrefix?: string; name?: string }) {
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    'name': product.name,
+    'name': name || product.name,
     'image': [product.image, ...(product.gallery || [])],
-    'description': product.description,
+    'description': description || product.description,
     'sku': product.id,
     'brand': {
       '@type': 'Brand',
@@ -65,7 +65,7 @@ export function ProductJsonLd({ product, description, urlPrefix = '' }: { produc
     },
     'offers': {
       '@type': 'Offer',
-      'url': `${baseUrl}/shop/${product.slug}`,
+      'url': `${baseUrl}${urlPrefix}/shop/${product.slug}`,
       'priceCurrency': 'EUR',
       'price': product.price,
       'priceValidUntil': '2027-12-31',

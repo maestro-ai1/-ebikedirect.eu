@@ -8,7 +8,7 @@ import ptMessages from '@/messages/pt.json';
 
 // One locale per language we hold a keyword bank for (Semrush db in brackets):
 // de (DE, AT, CH), fr (FR), nl (NL), it (IT), es (ES), pt (PT).
-// en is a UI fallback only: no keyword bank, so it is not in hreflang or the sitemap.
+// en (UK database) is built from batch 4 on.
 export type Locale = 'de' | 'fr' | 'nl' | 'it' | 'es' | 'pt' | 'en';
 
 export interface LocaleInfo {
@@ -32,7 +32,7 @@ export const SUPPORTED_LOCALES: LocaleInfo[] = [
   { code: 'it', label: 'IT', nativeName: 'Italiano', country: 'Italia', hreflang: 'it-IT', regions: ['it'], intl: 'it-IT', hasKeywordBank: true },
   { code: 'es', label: 'ES', nativeName: 'Español', country: 'España', hreflang: 'es-ES', regions: ['es'], intl: 'es-ES', hasKeywordBank: true },
   { code: 'pt', label: 'PT', nativeName: 'Português', country: 'Portugal', hreflang: 'pt-PT', regions: ['pt'], intl: 'pt-PT', hasKeywordBank: true },
-  { code: 'en', label: 'EN', nativeName: 'English', country: 'Europe (English)', hreflang: 'en', regions: ['en'], intl: 'en-IE', hasKeywordBank: false }
+  { code: 'en', label: 'EN', nativeName: 'English', country: 'Europe (English)', hreflang: 'en-GB', regions: ['en', 'en-IE'], intl: 'en-IE', hasKeywordBank: true }
 ];
 
 export const LOCALE_CODES: Locale[] = SUPPORTED_LOCALES.map((l) => l.code);

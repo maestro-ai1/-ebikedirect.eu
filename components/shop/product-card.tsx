@@ -8,6 +8,7 @@ import { ShoppingBag, Zap, Battery, Gauge, Check } from '@/components/ui/icons';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
+import { isFrameNote } from '@/lib/ui';
 
 // Standard product card (Image Rule: white studio photo, one fixed square frame; same height for every card).
 export function ProductCard({ product, alt, tag }: { product: Product; alt: string; tag?: string }) {
@@ -53,7 +54,7 @@ export function ProductCard({ product, alt, tag }: { product: Product; alt: stri
           {t('products.frameSize', 'Rahmengröße')}
           <select value={frame} onChange={(e) => setFrame(e.target.value)} className="mt-1 w-full text-xs py-1.5 px-2 bg-white border border-gray-200 rounded-md text-gray-800 focus:ring-1 focus:ring-[#FF5722] focus:outline-none">
             {product.options.frameSizes.map((s) => (
-              <option key={s} value={s}>{s === 'Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt' ? u('pc.frameNote') : s}</option>
+              <option key={s} value={s}>{isFrameNote(s) ? u('pc.frameNote') : s}</option>
             ))}
           </select>
         </label>

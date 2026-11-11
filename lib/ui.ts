@@ -142,13 +142,16 @@ const T: Record<string, Row> = {
 Object.assign(T, PAGES);
 
 /** Languages whose FAQ, About and Contact copy exists. Other languages are sent to the German page until their batch is built. */
-export const hasPages = (l: Locale) => l === 'de' || l === 'fr';
+export const hasPages = (l: Locale) => l === 'de' || l === 'fr' || l === 'en';
 
 const IDX: Record<string, number> = Object.fromEntries(ORDER.map((l, i) => [l, i]));
 
 export type UiKey = keyof typeof T;
 
 /** Translated UI string; {placeholders} are replaced from vars. Unknown language or key falls back to German. */
+/** The catalogue holds two German wordings of the frame-size note; outside German both show the translated note. */
+export const isFrameNote = (s: string) => /Bestellbest(ä|ae)tigung abgestimmt/.test(s);
+
 export function ui(locale: Locale, key: string, vars?: Record<string, string | number>): string {
   const row = T[key];
   if (!row) return key;
