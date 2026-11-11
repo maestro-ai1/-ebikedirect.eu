@@ -22,12 +22,14 @@ import { PRODUCTS } from '@/lib/products';
 import { ProductCard } from '@/components/shop/product-card';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
+import { useI18n } from '@/context/i18n-context';
 
 export default function ShopClient() {
+  const { u } = useI18n();
   return (
     <>
-      <h1 className="sr-only">Premium E-Bikes und Pedelecs Katalog</h1>
-      <Suspense fallback={<div className="p-12 text-center text-sm text-gray-500">Katalog wird geladen...</div>}>
+      <h1 className="sr-only">{u('shop.title')}</h1>
+      <Suspense fallback={<div className="p-12 text-center text-sm text-gray-500">...</div>}>
         <ShopContent />
       </Suspense>
     </>
@@ -35,6 +37,7 @@ export default function ShopClient() {
 }
 
 function ShopContent() {
+  const { u } = useI18n();
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get('category') || 'all';
   const initialBrand = searchParams.get('brand') || 'all';
@@ -106,17 +109,17 @@ function ShopContent() {
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <div className="text-2xl sm:text-3xl font-black text-[#131A22] tracking-tight">
-              Premium E-Bikes & Pedelecs Katalog
+              {u('shop.title')}
             </div>
             <p className="text-xs sm:text-sm text-gray-600 mt-1">
-              {filteredProducts.length} Modelle gefunden · Mindestbestellwert 500 € · Kostenloser Speditionsversand ab 10.000 €
+              {u('shop.found', { n: filteredProducts.length })}
             </p>
           </div>
 
           <div className="flex items-center gap-2">
             <span className="px-3 py-1.5 bg-[#E8F8F0] border border-[#00C853]/40 text-[#009624] text-xs font-bold rounded-lg flex items-center gap-1.5">
               <Bitcoin className="w-4 h-4 text-[#00C853]" />
-              <span>10% Skonto mit Krypto (USDT / BTC)</span>
+              <span>{u('shop.crypto')}</span>
             </span>
           </div>
         </div>
@@ -129,20 +132,20 @@ function ShopContent() {
               <div className="flex items-center justify-between border-b border-gray-100 pb-3">
                 <span className="text-sm font-bold text-[#131A22] flex items-center gap-2">
                   <SlidersHorizontal className="w-4 h-4 text-[#FF5722]" />
-                  Filter
+                  {u('shop.filter')}
                 </span>
                 <button
                   onClick={resetFilters}
                   className="text-[11px] text-[#FF5722] hover:underline font-semibold"
                 >
-                  Zurücksetzen
+                  {u('shop.reset')}
                 </button>
               </div>
 
               {/* Category Filter */}
               <div>
                 <label className="block text-xs font-bold text-[#131A22] mb-2 uppercase tracking-wider">
-                  Kategorie
+                  {u('shop.category')}
                 </label>
                 <div className="space-y-1">
                   {categories.map((cat) => (
@@ -158,7 +161,7 @@ function ShopContent() {
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
                     >
-                      <span>{cat === 'all' ? 'Alle Kategorien' : cat}</span>
+                      <span>{cat === 'all' ? u('shop.allCats') : cat}</span>
                       {selectedCategory === cat && <CheckCircle2 className="w-3.5 h-3.5 text-[#FF5722]" />}
                     </button>
                   ))}
@@ -168,7 +171,7 @@ function ShopContent() {
               {/* Brand Filter */}
               <div>
                 <label className="block text-xs font-bold text-[#131A22] mb-2 uppercase tracking-wider">
-                  Hersteller
+                  {u('shop.maker')}
                 </label>
                 <div className="space-y-1">
                   {brands.map((b) => (
@@ -184,7 +187,7 @@ function ShopContent() {
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
                     >
-                      <span>{b === 'all' ? 'Alle Marken' : b}</span>
+                      <span>{b === 'all' ? u('shop.allBrands') : b}</span>
                       {selectedBrand === b && <CheckCircle2 className="w-3.5 h-3.5 text-[#FF5722]" />}
                     </button>
                   ))}
@@ -194,7 +197,7 @@ function ShopContent() {
               {/* Motor Filter */}
               <div>
                 <label className="block text-xs font-bold text-[#131A22] mb-2 uppercase tracking-wider">
-                  Motorenhersteller
+                  {u('shop.motorMaker')}
                 </label>
                 <div className="space-y-1">
                   {motors.map((m) => (
@@ -210,7 +213,7 @@ function ShopContent() {
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
                     >
-                      <span>{m === 'all' ? 'Alle Motoren' : m}</span>
+                      <span>{m === 'all' ? u('shop.allMotors') : m}</span>
                       {selectedMotor === m && <CheckCircle2 className="w-3.5 h-3.5 text-[#FF5722]" />}
                     </button>
                   ))}
@@ -220,7 +223,7 @@ function ShopContent() {
               {/* Price Range Slider */}
               <div className="pt-2 border-t border-gray-100">
                 <div className="flex justify-between text-xs font-bold text-[#131A22] mb-2">
-                  <span>Max. Preis:</span>
+                  <span>{u('shop.maxPrice')}</span>
                   <span className="text-[#FF5722]">{maxPrice.toLocaleString('de-DE')} €</span>
                 </div>
                 <input
@@ -244,7 +247,7 @@ function ShopContent() {
               {/* In-Stock Toggle */}
               <div className="pt-2 border-t border-gray-100 flex items-center justify-between">
                 <label htmlFor="inStockToggle" className="text-xs font-semibold text-gray-700 cursor-pointer">
-                  Nur sofort lieferbar
+                  {u('shop.inStock')}
                 </label>
                 <input
                   id="inStockToggle"
@@ -265,13 +268,13 @@ function ShopContent() {
             {/* Sorting and Results Bar */}
             <div className="bg-white rounded-xl border border-gray-200 p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="text-xs text-gray-600 font-medium">
-                Zeige <strong>{paginatedProducts.length}</strong> von <strong>{filteredProducts.length}</strong> E-Bikes
+                {u('shop.showing', { a: paginatedProducts.length, b: filteredProducts.length })}
                 {selectedCategory !== 'all' && ` in ${selectedCategory}`}
               </div>
 
               <div className="flex items-center gap-2">
                 <label htmlFor="sortSelect" className="text-xs font-semibold text-gray-700">
-                  Sortieren nach:
+                  {u('shop.sort')}
                 </label>
                 <select
                   id="sortSelect"
@@ -279,10 +282,10 @@ function ShopContent() {
                   onChange={(e) => setSortBy(e.target.value as any)}
                   className="text-xs py-1.5 px-3 bg-white border border-gray-200 rounded-md text-gray-800 focus:ring-1 focus:ring-[#FF5722] focus:outline-none"
                 >
-                  <option value="featured">Empfehlung / Beliebtheit</option>
-                  <option value="price-asc">Preis: aufsteigend</option>
-                  <option value="price-desc">Preis: absteigend</option>
-                  <option value="rating">Beste Bewertung</option>
+                  <option value="featured">{u('shop.sortFeatured')}</option>
+                  <option value="price-asc">{u('shop.sortAsc')}</option>
+                  <option value="price-desc">{u('shop.sortDesc')}</option>
+                  <option value="rating">{u('shop.sortRating')}</option>
                 </select>
               </div>
             </div>
@@ -290,15 +293,15 @@ function ShopContent() {
             {/* Products Grid */}
             {paginatedProducts.length === 0 ? (
               <div className="bg-white rounded-xl border border-gray-200 p-12 text-center space-y-3">
-                <h3 className="text-base font-bold text-gray-800">Keine E-Bikes für diese Filterkriterien gefunden</h3>
+                <h3 className="text-base font-bold text-gray-800">{u('shop.noneTitle')}</h3>
                 <p className="text-xs text-gray-500">
-                  Bitte passen Sie Ihre Filterauswahl an oder setzen Sie die Filter zurück.
+                  {u('shop.noneText')}
                 </p>
                 <button
                   onClick={resetFilters}
                   className="px-4 py-2 bg-[#FF5722] text-white text-xs font-bold rounded-lg hover:bg-[#E64A19] transition-colors"
                 >
-                  Filter zurücksetzen
+                  {u('shop.resetFilters')}
                 </button>
               </div>
             ) : (
@@ -318,7 +321,7 @@ function ShopContent() {
                   className="flex items-center gap-1 px-3 py-1.5 rounded-md border border-gray-200 text-xs font-semibold text-gray-700 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"
                 >
                   <ChevronLeft className="w-4 h-4" />
-                  Zurück
+                  {u('shop.prev')}
                 </button>
 
                 <div className="flex items-center gap-1.5">
@@ -342,7 +345,7 @@ function ShopContent() {
                   disabled={currentPage === totalPages}
                   className="flex items-center gap-1 px-3 py-1.5 rounded-md border border-gray-200 text-xs font-semibold text-gray-700 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"
                 >
-                  Weiter
+                  {u('shop.next')}
                   <ChevronRight className="w-4 h-4" />
                 </button>
               </div>

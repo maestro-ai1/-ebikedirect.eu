@@ -21,7 +21,7 @@ import { LanguageSwitcher } from '@/components/layout/language-switcher';
 export function Header() {
   const pathname = usePathname() || '/';
   const { totalItemsCount, setIsCartDrawerOpen } = useCart();
-  const { t, getLocalizedHref, localeInfo } = useI18n();
+  const { t, u, getLocalizedHref, localeInfo } = useI18n();
 
   const [currentAnnouncementIndex, setCurrentAnnouncementIndex] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -96,14 +96,14 @@ export function Header() {
         className={`bg-white/95 backdrop-blur-md transition-shadow border-b border-gray-200/80 ${
           isScrolled ? 'shadow-md py-3' : 'py-4'
         }`}
-        aria-label="Hauptnavigation"
+        aria-label={u('hdr.main')}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
           {/* Logo */}
           <Link
             href={getLocalizedHref('/')}
             className="flex items-center gap-3 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5722] rounded-md"
-            aria-label="ebikedirect.eu Startseite"
+            aria-label={u('hdr.home')}
           >
             <div className="relative w-10 h-10 rounded-xl bg-[#131A22] flex items-center justify-center shrink-0 shadow-sm border border-gray-800">
               <Zap className="w-5 h-5 text-[#FF5722]" />
@@ -184,7 +184,7 @@ export function Header() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-[#131A22] hover:bg-gray-100 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5722]"
-              aria-label={mobileMenuOpen ? 'Menü schließen' : 'Menü öffnen'}
+              aria-label={mobileMenuOpen ? u('hdr.menuClose') : u('hdr.menuOpen')}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>

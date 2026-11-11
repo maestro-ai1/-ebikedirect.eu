@@ -1,5 +1,5 @@
 import frLive from '@/data/keywords/fr-live.json';
-import type { Locale } from '@/lib/i18n';
+import { extractLocaleFromPath, type Locale } from '@/lib/i18n';
 
 // Pages that exist in another language than German. Each one is rendered by the same internal (German) route and carries its own
 // keyword set (data/keywords/<lang>-live.json, built by scripts/_lang-pages.cjs from the language bank).
@@ -70,4 +70,26 @@ export function l10nAlternates(strippedPath: string, locale: Locale, baseUrl: st
 export function isL10nPath(locale: Locale, strippedPath: string): boolean {
   if (locale === 'fr' && isFrProduct(strippedPath)) return true;
   return !!l10nByUrl(locale, strippedPath);
+}
+
+// pages that exist in every language (translated user interface)
+const SHARED_PAGES = new Set(['/', '/shop', '/checkout', '/cart']);
+// product pages exist in these languages
+const PRODUCT_LANGS = new Set<Locale>(['fr']);
+
+/** Path of the same page in another language: its translation when one exists, otherwise the language's shop or home (never a 404, never German text under another prefix). */
+export function switchPath(pathname: string, from: Locale, to: Locale): string {
+  const stripped = norm(extractLocaleFromPath(pathname).strippedPath || '/');
+  let dePath = stripped;
+  if (from !== 'de') {
+    const p = l10nByUrl(from, stripped);
+    if (p) dePath = norm(p.dePath);
+  }
+  const prefix = to === 'de' ? '' : '/' + to;
+  if (to === 'de') return dePath === '/' ? '/' : dePath;
+  if (/^\/shop\/[^/]+$/.test(dePath)) return PRODUCT_LANGS.has(to) ? prefix + dePath : prefix + '/shop';
+  const page = l10nByDePath(to, dePath);
+  if (page) return prefix + norm(page.url);
+  if (SHARED_PAGES.has(dePath)) return dePath === '/' ? prefix : prefix + dePath;
+  return prefix || '/';
 }

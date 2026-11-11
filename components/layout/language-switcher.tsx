@@ -10,7 +10,7 @@ interface LanguageSwitcherProps {
 }
 
 export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
-  const { locale, setLocale, supportedLocales } = useI18n();
+  const { locale, setLocale, supportedLocales, u } = useI18n();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -39,7 +39,7 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
         }`}
         aria-expanded={isOpen}
         aria-haspopup="true"
-        aria-label={`Sprache wählen: ${currentLocaleInfo.nativeName} (${currentLocaleInfo.label})`}
+        aria-label={`${u('sw.label')}: ${currentLocaleInfo.nativeName} (${currentLocaleInfo.label})`}
       >
         <span className="font-extrabold text-xs tracking-wider uppercase">
           {currentLocaleInfo.label}
@@ -60,7 +60,7 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
         >
           <div className="px-3 py-1.5 border-b border-gray-100 text-[10px] font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
             <Globe className="w-3 h-3 text-[#FF5722]" />
-            <span>Select Market & Language</span>
+            <span>{u('sw.title')}</span>
           </div>
 
           <div className="py-1">

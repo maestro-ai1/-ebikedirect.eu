@@ -1,16 +1,21 @@
 import type { Metadata } from 'next';
 import React from 'react';
 import { CatalogNav } from '@/components/shop/catalog-nav';
+import { ui } from '@/lib/ui';
+import { isLocale, type Locale } from '@/lib/i18n';
 
-export const metadata: Metadata = {
-  title: 'Sortiment: E-Bikes im Überblick',
-  description: 'Das komplette E-Bike Sortiment von ebikedirect.eu: Modelle nach Kategorie, Marke und Preis filtern, Motor und Akku vergleichen und online bestellen.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const l = (isLocale(locale) ? locale : 'de') as Locale;
+  return { title: ui(l, 'meta.shopTitle'), description: ui(l, 'meta.shopDesc') };
+}
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default async function Layout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const l = (isLocale(locale) ? locale : 'de') as Locale;
   return (
     <>
-      <CatalogNav current="/shop" />
+      <CatalogNav locale={l} />
       {children}
     </>
   );

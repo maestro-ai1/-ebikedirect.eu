@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
+import { ui } from '@/lib/ui';
+import { isLocale, type Locale } from '@/lib/i18n';
 import React from 'react';
 
-export const metadata: Metadata = {
-  title: 'Kasse',
-  description: 'Bestellung abschließen bei ebikedirect.eu: Lieferadresse eingeben, Zahlungsart wählen und Ihr E-Bike sicher per Spedition nach Hause bestellen.',
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const l = (isLocale(locale) ? locale : 'de') as Locale;
+  return { title: ui(l, 'meta.checkoutTitle'), description: ui(l, 'meta.checkoutDesc'), robots: { index: false, follow: false } };
+}
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;

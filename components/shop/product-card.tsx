@@ -13,7 +13,7 @@ import { useI18n } from '@/context/i18n-context';
 export function ProductCard({ product, alt, tag }: { product: Product; alt: string; tag?: string }) {
   const router = useRouter();
   const { addToCart } = useCart();
-  const { t, getLocalizedHref, formatCurrency } = useI18n();
+  const { t, u, getLocalizedHref, formatCurrency } = useI18n();
   const [frame, setFrame] = useState(product.options.frameSizes[0]);
   const [added, setAdded] = useState(false);
   const battery = product.options.batteries[0];
@@ -53,7 +53,7 @@ export function ProductCard({ product, alt, tag }: { product: Product; alt: stri
           {t('products.frameSize', 'Rahmengröße')}
           <select value={frame} onChange={(e) => setFrame(e.target.value)} className="mt-1 w-full text-xs py-1.5 px-2 bg-white border border-gray-200 rounded-md text-gray-800 focus:ring-1 focus:ring-[#FF5722] focus:outline-none">
             {product.options.frameSizes.map((s) => (
-              <option key={s} value={s}>{s}</option>
+              <option key={s} value={s}>{s === 'Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt' ? u('pc.frameNote') : s}</option>
             ))}
           </select>
         </label>

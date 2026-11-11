@@ -1,0 +1,7 @@
+const fs = require('fs');
+let t = fs.readFileSync('lib/ui.ts', 'utf8');
+const add = `  'meta.shopTitle': ['Sortiment: E-Bikes im Überblick', 'Gamme : les vélos électriques en un coup d’œil', 'Assortiment: e-bikes in overzicht', 'Assortimento: le e-bike in sintesi', 'Catálogo: las e-bikes de un vistazo', 'Catálogo: as e-bikes num relance', 'Range: e-bikes at a glance'],
+  'meta.shopDesc': ['Das komplette E-Bike Sortiment von ebikedirect.eu: Modelle nach Kategorie, Marke und Preis filtern, Motor und Akku vergleichen und online bestellen.', 'Toute la gamme de vélos électriques d’ebikedirect.eu : filtrez par catégorie, marque et prix, comparez moteur et batterie et commandez en ligne.', 'Het complete e-bike-assortiment van ebikedirect.eu: filter op categorie, merk en prijs, vergelijk motor en accu en bestel online.', 'Tutto l’assortimento di e-bike di ebikedirect.eu: filtra per categoria, marchio e prezzo, confronta motore e batteria e ordina online.', 'Todo el catálogo de e-bikes de ebikedirect.eu: filtra por categoría, marca y precio, compara motor y batería y pide en línea.', 'Todo o catálogo de e-bikes da ebikedirect.eu: filtre por categoria, marca e preço, compare motor e bateria e encomende online.', 'The full e-bike range of ebikedirect.eu: filter by category, brand and price, compare motor and battery and order online.'],\n`;
+if (!t.includes("'meta.shopTitle'")) t = t.replace("  // ---- header, footer, switcher", add + "  // ---- header, footer, switcher");
+fs.writeFileSync('lib/ui.ts', t);
+console.log(t.includes("'meta.shopTitle'"));

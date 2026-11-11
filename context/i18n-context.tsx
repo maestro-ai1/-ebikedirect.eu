@@ -12,8 +12,11 @@ import {
   getLocalizedPath,
   isLocale
 } from '@/lib/i18n';
+import { ui } from '@/lib/ui';
+import { switchPath } from '@/lib/l10n-pages';
 
 interface I18nContextType {
+  u: (key: string, vars?: Record<string, string | number>) => string;
   locale: Locale;
   localeInfo: LocaleInfo;
   setLocale: (newLocale: Locale) => void;
@@ -37,12 +40,14 @@ export function I18nProvider({ children, locale: initialLocale }: { children: Re
     if (newLocale === locale) return;
 
     // Smoothly transition the route to the new localized prefix while preserving the sub-path and search query
-    const targetPath = getLocalizedPath(pathname, newLocale);
+    const targetPath = switchPath(pathname, locale, newLocale);
     const queryString = typeof window !== 'undefined' ? window.location.search.slice(1) : '';
     const finalUrl = queryString ? `${targetPath}?${queryString}` : targetPath;
 
     router.push(finalUrl, { scroll: false });
   };
+
+  const u = (key: string, vars?: Record<string, string | number>): string => ui(locale, key, vars);
 
   const t = (key: string, fallback?: string): string => {
     return getTranslation(locale, key, fallback);
@@ -72,6 +77,7 @@ export function I18nProvider({ children, locale: initialLocale }: { children: Re
         localeInfo,
         setLocale: handleSetLocale,
         t,
+        u,
         formatCurrency,
         getLocalizedHref,
         supportedLocales: SUPPORTED_LOCALES

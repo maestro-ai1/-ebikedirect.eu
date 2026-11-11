@@ -15,7 +15,7 @@ import {
 import { useI18n } from '@/context/i18n-context';
 
 export function Footer() {
-  const { t, getLocalizedHref } = useI18n();
+  const { t, u, getLocalizedHref } = useI18n();
 
   return (
     <footer className="bg-[#131A22] text-gray-300 border-t border-gray-800 text-xs">
@@ -133,27 +133,27 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href={getLocalizedHref('/shop?category=E-MTB')} className="hover:text-[#FF5722] transition-colors">
-                  E-Mountainbikes (E-MTB)
+                  {u('ft.mtb')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/shop?category=E-Trekking')} className="hover:text-[#FF5722] transition-colors">
-                  E-Trekking & Reiseräder
+                  {u('ft.trekking')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/shop?category=E-City')} className="hover:text-[#FF5722] transition-colors">
-                  City E-Bikes & Riemenantrieb
+                  {u('ft.city')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/shop?category=Speed-Pedelec')} className="hover:text-[#FF5722] transition-colors">
-                  Speed-Pedelecs (45 km/h)
+                  {u('ft.speed')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/shop?category=Cargo-E-Bike')} className="hover:text-[#FF5722] transition-colors">
-                  Lastenräder & Cargo-Bikes
+                  {u('ft.cargo')}
                 </Link>
               </li>
               <li>
@@ -201,17 +201,17 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href={getLocalizedHref('/policies/returns')} className="hover:text-[#FF5722] transition-colors">
-                  Widerruf & 2 Jahre Garantie
+                  {u('ft.warranty')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/policies/delivery')} className="hover:text-[#FF5722] transition-colors">
-                  Versand- & Lieferbedingungen
+                  {u('ft.delivery')}
                 </Link>
               </li>
               <li>
                 <Link href={getLocalizedHref('/policies/privacy')} className="hover:text-[#FF5722] transition-colors">
-                  Datenschutzerklärung
+                  {u('ft.privacy')}
                 </Link>
               </li>
               <li>
