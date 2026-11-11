@@ -57,7 +57,7 @@ export function L10nProductContent({ product, locale }: { product: Product; loca
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-4xl">
             {brandPage && <>{U.brandModels}: <Link href={`/${locale}${brandPage.url.replace(/\/$/, '')}`} className="font-semibold text-[#FF5722] hover:underline">{brandPage.display}</Link>. </>}
             {catPage && <>{isAcc ? U.accessoryCategory : U.category}: <Link href={`/${locale}${catPage.url.replace(/\/$/, '')}`} className="font-semibold text-[#FF5722] hover:underline">{catPage.name}</Link>. </>}
-            {K.categoryLabel[product.category]}: <Link href={`/${locale}/shop`} className="font-semibold text-[#FF5722] hover:underline">{U.allRange}</Link>.
+            {K.categoryLabel[product.category]}: <Link href={`/${locale}/shop`} className="font-semibold text-[#FF5722] hover:underline">{U.allRange}</Link>. <Link href={`/${locale}/faq`} className="font-semibold text-[#FF5722] hover:underline">{U.faqLink}</Link> · <Link href={`/${locale}/contact`} className="font-semibold text-[#FF5722] hover:underline">{U.contactLink}</Link> · <Link href={`/${locale}/about`} className="font-semibold text-[#FF5722] hover:underline">{U.aboutLink}</Link>.
           </p>
           {related.length > 0 && (
             <>

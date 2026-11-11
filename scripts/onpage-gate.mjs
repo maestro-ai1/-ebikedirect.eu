@@ -25,7 +25,7 @@ const frSlugOf = (p) => { const m = p.match(/^\/(fr|en)\/shop\/(.+)$/); return m
 const prodLangOf = (p) => { const m = p.match(/^\/(fr|en)\/shop\//); return m ? m[1] : null; };
 const famByPath = new Map(); for (const f of Array.isArray(families) ? families : Object.values(families)) famByPath.set(pathOf(f.path), f);
 const keywordOf = (path, type) => {
-  const fs0 = frSlugOf(path); if (fs0 && prods[fs0]) { const e = (langProds[prodLangOf(path)] || {})[fs0] || { primary: { keyword: (prodLangOf(path) === 'en' ? 'buy ' : 'acheter ') + prods[fs0].name.toLowerCase(), source: 'name', volume: 0, intent: 'T' }, secondary: [], faq: [] }; return { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: prods[fs0].name }; }
+  const fs0 = frSlugOf(path); if (fs0 && prods[fs0]) { const e = (langProds[prodLangOf(path)] || {})[fs0] || { primary: { keyword: (prodLangOf(path) === 'en' ? 'buy ' : 'acheter ') + prods[fs0].name.toLowerCase(), source: 'name', volume: 0, intent: 'T' }, secondary: [], faq: [] }; return { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: (e.source === 'name' || e.primary.source === 'name') && e.name && prods[fs0].category === 'Zubehör' ? e.name : prods[fs0].name }; }
   if (type === 'product') { const e = prods[path.replace(/^\/shop\//, '')]; return e ? { primary: e.primary, secondary: e.secondary || [], faq: e.faq || [], name: e.name } : null; }
   const l = l10nByPath.get(path); if (l) return { primary: l.primary, secondary: l.secondary || [], faq: l.faq || [], name: l.name };
   const f = famByPath.get(path); if (f) return { primary: f.primary, secondary: f.secondary || [], faq: f.faq || [], name: f.name };

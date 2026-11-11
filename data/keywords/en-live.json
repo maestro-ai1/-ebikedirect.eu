@@ -2,7 +2,7 @@
  "locale": "en",
  "pages": [
   {
-   "display": "Electric mountain bikes",
+   "display": "eMTB sale",
    "url": "/electric-bikes/electric-mountain-bikes/",
    "dePath": "/e-bikes/e-mountainbikes",
    "name": "Electric mountain bikes",
@@ -79,7 +79,7 @@
    ]
   },
   {
-   "display": "City e-bikes",
+   "display": "Urban e bike",
    "url": "/electric-bikes/city-commuter-e-bikes/",
    "dePath": "/e-bikes/city-e-bikes",
    "name": "City and commuter e-bikes",
@@ -156,7 +156,7 @@
    ]
   },
   {
-   "display": "Trekking e-bikes",
+   "display": "Touring ebike",
    "url": "/electric-bikes/trekking-e-bikes/",
    "dePath": "/e-bikes/trekking-e-bikes",
    "name": "Trekking and touring e-bikes",
@@ -185,7 +185,7 @@
    ]
   },
   {
-   "display": "Speed pedelecs 45 km/h",
+   "display": "Cheapest fast ebike",
    "url": "/electric-bikes/speed-pedelecs/",
    "dePath": "/e-bikes/s-pedelec",
    "name": "Speed pedelecs (45 km/h)",
@@ -262,7 +262,7 @@
    ]
   },
   {
-   "display": "Cargo e-bikes",
+   "display": "E bike with cargo",
    "url": "/electric-bikes/cargo-e-bikes/",
    "dePath": "/e-bikes/cargo-bikes",
    "name": "Cargo e-bikes",
@@ -339,7 +339,7 @@
    ]
   },
   {
-   "display": "Folding electric bikes",
+   "display": "Folding e bikes for sale",
    "url": "/electric-bikes/folding-e-bikes/",
    "dePath": "/e-bikes/falt-e-bikes",
    "name": "Folding e-bikes",
@@ -416,7 +416,7 @@
    ]
   },
   {
-   "display": "Electric gravel bikes",
+   "display": "Road ebike",
    "url": "/electric-bikes/gravel-road-e-bikes/",
    "dePath": "/e-bikes/e-rennrad-gravel",
    "name": "Gravel and road e-bikes",
@@ -493,7 +493,7 @@
    ]
   },
   {
-   "display": "Kids electric bikes",
+   "display": "Teenage ebike",
    "url": "/electric-bikes/kids-e-bikes/",
    "dePath": "/e-bikes/kinder-jugend",
    "name": "Kids e-bikes",
@@ -546,7 +546,7 @@
    ]
   },
   {
-   "display": "Womens electric bikes",
+   "display": "Ladies e bikes for sale",
    "url": "/electric-bikes/womens-e-bikes/",
    "dePath": "/e-bikes/damen",
    "name": "Women’s e-bikes",
@@ -623,7 +623,7 @@
    ]
   },
   {
-   "display": "Mens electric bikes",
+   "display": "Men's ebike",
    "url": "/electric-bikes/mens-e-bikes/",
    "dePath": "/e-bikes/herren",
    "name": "Men’s e-bikes",
@@ -669,7 +669,7 @@
    ]
   },
   {
-   "display": "Electric bike motors",
+   "display": "Ebike dual motor",
    "url": "/electric-bikes/motors-batteries/",
    "dePath": "/e-bikes/motor-antrieb",
    "name": "Motors and batteries",
@@ -2017,7 +2017,7 @@
    ]
   },
   {
-   "display": "Riese & Müller",
+   "display": "Riese and Müller",
    "url": "/brands/riese-und-mueller/",
    "dePath": "/marken/riese-und-mueller",
    "name": "Riese & Müller",

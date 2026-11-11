@@ -12768,7 +12768,7 @@
    "faq": []
   },
   "abus-iven-kettenschloss-140-cm": {
-   "name": "ABUS IVEN Kettenschloss 8210, 140 cm",
+   "name": "ABUS IVEN Antivol à chaîne 8210, 140 cm",
    "brand": "ABUS",
    "category": "Zubehör",
    "primary": {
@@ -12782,7 +12782,7 @@
    "faq": []
   },
   "abus-iven-kettenschloss-85-cm": {
-   "name": "ABUS IVEN Kettenschloss 8210, 85 cm",
+   "name": "ABUS IVEN Antivol à chaîne 8210, 85 cm",
    "brand": "ABUS",
    "category": "Zubehör",
    "primary": {
@@ -12796,7 +12796,7 @@
    "faq": []
   },
   "abus-rahmenschloss": {
-   "name": "ABUS Rahmenschloss",
+   "name": "ABUS Antivol de cadre",
    "brand": "ABUS",
    "category": "Zubehör",
    "primary": {
@@ -12810,7 +12810,7 @@
    "faq": []
   },
   "abus-faltschloss": {
-   "name": "ABUS Faltschloss",
+   "name": "ABUS Antivol pliant",
    "brand": "ABUS",
    "category": "Zubehör",
    "primary": {
@@ -12824,7 +12824,7 @@
    "faq": []
   },
   "tenways-universal-handyhalterung": {
-   "name": "Tenways Universal Handyhalterung",
+   "name": "Tenways Universal Support de téléphone",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12838,7 +12838,7 @@
    "faq": []
   },
   "tenways-eh20-smart-helm": {
-   "name": "Tenways EH20 Smart Helm",
+   "name": "Tenways EH20 Smart Casque",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12852,7 +12852,7 @@
    "faq": []
   },
   "tenways-elektrische-luftpumpe": {
-   "name": "Tenways Elektrische Luftpumpe",
+   "name": "Tenways Pompe à air électrique",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12866,7 +12866,7 @@
    "faq": []
   },
   "tenways-gepaecktasche": {
-   "name": "Tenways Gepäcktasche",
+   "name": "Tenways Sacoche de porte-bagages",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12880,7 +12880,7 @@
    "faq": []
   },
   "tenways-gepaecktasche-m": {
-   "name": "Tenways Gepäcktasche M",
+   "name": "Tenways Sacoche de porte-bagages M",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12894,7 +12894,7 @@
    "faq": []
   },
   "tenways-gepaecktasche-l": {
-   "name": "Tenways Gepäcktasche L",
+   "name": "Tenways Sacoche de porte-bagages L",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12908,7 +12908,7 @@
    "faq": []
   },
   "tenways-huefttasche": {
-   "name": "Tenways Hüfttasche",
+   "name": "Tenways Sac banane",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12922,7 +12922,7 @@
    "faq": []
   },
   "tenways-regenschutz": {
-   "name": "Tenways Regenschutz für Cargo E-Bike",
+   "name": "Tenways Protection pluie pour vélo cargo électrique",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12936,7 +12936,7 @@
    "faq": []
   },
   "tenways-kindersitz-mik-hd": {
-   "name": "Tenways Kindersitz MIK HD",
+   "name": "Tenways Siège enfant MIK HD",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12950,7 +12950,7 @@
    "faq": []
   },
   "tenways-cgo009-gepaecktraeger-hinten": {
-   "name": "Tenways CGO009 Gepäckträger hinten",
+   "name": "Tenways CGO009 Porte-bagages arrière",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12964,7 +12964,7 @@
    "faq": []
   },
   "tenways-cgo009-gepaecktraeger-vorne": {
-   "name": "Tenways CGO009 Frontgepäckträger",
+   "name": "Tenways CGO009 Porte-bagages avant",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12978,7 +12978,7 @@
    "faq": []
   },
   "tenways-cgo-compact-gepaecktraeger-hinten": {
-   "name": "Tenways CGO COMPACT Gepäckträger hinten",
+   "name": "Tenways CGO COMPACT Porte-bagages arrière",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -12992,7 +12992,7 @@
    "faq": []
   },
   "tenways-ago-air-gepaecktraeger": {
-   "name": "Tenways AGO AIR Gepäckträger",
+   "name": "Tenways AGO AIR Porte-bagages",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13006,7 +13006,7 @@
    "faq": []
   },
   "tenways-ago-x-gepaecktraeger-hinten": {
-   "name": "Tenways AGO X Gepäckträger hinten",
+   "name": "Tenways AGO X Porte-bagages arrière",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13020,7 +13020,7 @@
    "faq": []
   },
   "tenways-cgo600-gepaecktraeger": {
-   "name": "Tenways CGO600 Gepäckträger",
+   "name": "Tenways CGO600 Porte-bagages",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13034,7 +13034,7 @@
    "faq": []
   },
   "tenways-cgo600-schutzbleche": {
-   "name": "Tenways CGO600 Schutzbleche",
+   "name": "Tenways CGO600 Garde-boue",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13048,7 +13048,7 @@
    "faq": []
   },
   "tenways-ago-air-schutzbleche": {
-   "name": "Tenways AGO AIR Schutzbleche",
+   "name": "Tenways AGO AIR Garde-boue",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13062,7 +13062,7 @@
    "faq": []
   },
   "tenways-cgo009-schutzbleche": {
-   "name": "Tenways CGO009 Schutzbleche",
+   "name": "Tenways CGO009 Garde-boue",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13076,7 +13076,7 @@
    "faq": []
   },
   "tenways-ago-x-schutzbleche": {
-   "name": "Tenways AGO X Schutzbleche",
+   "name": "Tenways AGO X Garde-boue",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13090,7 +13090,7 @@
    "faq": []
   },
   "tenways-cgo600-seitenstaender": {
-   "name": "Tenways CGO600 Seitenständer",
+   "name": "Tenways CGO600 Béquille latérale",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13104,7 +13104,7 @@
    "faq": []
   },
   "tenways-ago-air-seitenstaender": {
-   "name": "Tenways AGO AIR Seitenständer",
+   "name": "Tenways AGO AIR Béquille latérale",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13118,7 +13118,7 @@
    "faq": []
   },
   "tenways-cgo009-seitenstaender": {
-   "name": "Tenways CGO009 Seitenständer",
+   "name": "Tenways CGO009 Béquille latérale",
    "brand": "Tenways",
    "category": "Zubehör",
    "primary": {
@@ -13132,7 +13132,7 @@
    "faq": []
   },
   "reelight-stadium-bike-licht": {
-   "name": "Reelight STADIUM Bike Licht",
+   "name": "Reelight STADIUM Éclairage vélo",
    "brand": "Reelight",
    "category": "Zubehör",
    "primary": {
@@ -13146,7 +13146,7 @@
    "faq": []
   },
   "lezyne-smart-grip-handyhalterung": {
-   "name": "Lezyne Smart Grip Handyhalterung",
+   "name": "Lezyne Smart Grip Support de téléphone",
    "brand": "Lezyne",
    "category": "Zubehör",
    "primary": {
@@ -13160,7 +13160,7 @@
    "faq": []
   },
   "quad-lock-lenker-vorbau-halterung": {
-   "name": "Quad Lock Lenker- und Vorbau-Halterung",
+   "name": "Quad Lock Support de guidon et de potence",
    "brand": "Quad Lock",
    "category": "Zubehör",
    "primary": {
@@ -13174,7 +13174,7 @@
    "faq": []
   },
   "quad-lock-out-front-halterung": {
-   "name": "Quad Lock Out Front Halterung",
+   "name": "Quad Lock Support Out Front",
    "brand": "Quad Lock",
    "category": "Zubehör",
    "primary": {
@@ -13202,7 +13202,7 @@
    "faq": []
   },
   "quad-lock-bike-kit-iphone": {
-   "name": "Quad Lock Bike Kit für iPhone",
+   "name": "Quad Lock Bike Kit pour iPhone",
    "brand": "Quad Lock",
    "category": "Zubehör",
    "primary": {
@@ -13216,7 +13216,7 @@
    "faq": []
   },
   "quad-lock-vibrationsdaempfer": {
-   "name": "Quad Lock Vibrationsdämpfer",
+   "name": "Quad Lock Amortisseur de vibrations",
    "brand": "Quad Lock",
    "category": "Zubehör",
    "primary": {
@@ -13230,7 +13230,7 @@
    "faq": []
   },
   "quad-lock-wasserdichter-ladekopf": {
-   "name": "Quad Lock Wasserdichter Ladekopf",
+   "name": "Quad Lock Tête de charge étanche",
    "brand": "Quad Lock",
    "category": "Zubehör",
    "primary": {
@@ -13244,7 +13244,7 @@
    "faq": []
   },
   "bbb-dualpressure-minipumpe": {
-   "name": "BBB Dualpressure Minipumpe",
+   "name": "BBB Dualpressure Mini-pompe",
    "brand": "BBB",
    "category": "Zubehör",
    "primary": {
@@ -13272,7 +13272,7 @@
    "faq": []
   },
   "lezyne-co2-reparaturset": {
-   "name": "Lezyne CO2 Reparaturset",
+   "name": "Lezyne CO2 Kit de réparation",
    "brand": "Lezyne",
    "category": "Zubehör",
    "primary": {
@@ -13286,7 +13286,7 @@
    "faq": []
   },
   "tip-top-flickzeug-set": {
-   "name": "Tip Top Flickzeug Set",
+   "name": "Tip Top Kit de rustines",
    "brand": "Tip Top",
    "category": "Zubehör",
    "primary": {
@@ -13328,7 +13328,7 @@
    "faq": []
   },
   "muc-off-dark-energy-kettenwachs": {
-   "name": "Muc-Off Dark Energy Kettenwachs",
+   "name": "Muc-Off Dark Energy Cire pour chaîne",
    "brand": "Muc-Off",
    "category": "Zubehör",
    "primary": {
@@ -13342,7 +13342,7 @@
    "faq": []
   },
   "muc-off-reinigungs-und-schmierset": {
-   "name": "Muc-Off Reinigungs- und Schmierset",
+   "name": "Muc-Off Kit de nettoyage et de lubrification",
    "brand": "Muc-Off",
    "category": "Zubehör",
    "primary": {
@@ -13356,7 +13356,7 @@
    "faq": []
   },
   "muc-off-bam-pannenreparatur": {
-   "name": "Muc-Off B.A.M! Pannenreparatur",
+   "name": "Muc-Off B.A.M! réparation de crevaison",
    "brand": "Muc-Off",
    "category": "Zubehör",
    "primary": {
@@ -13370,7 +13370,7 @@
    "faq": []
   },
   "muc-off-buersten-set-3-in-1": {
-   "name": "Muc-Off Bürsten-Set 3 in 1",
+   "name": "Muc-Off Kit de brosses 3 en 1",
    "brand": "Muc-Off",
    "category": "Zubehör",
    "primary": {
@@ -13384,7 +13384,7 @@
    "faq": []
   },
   "muc-off-schaumspruehr-set": {
-   "name": "Muc-Off Schaumsprüher-Set",
+   "name": "Muc-Off Kit de pulvérisateur de mousse",
    "brand": "Muc-Off",
    "category": "Zubehör",
    "primary": {
@@ -13398,7 +13398,7 @@
    "faq": []
   },
   "lezyne-m-caddy-satteltasche": {
-   "name": "Lezyne M-Caddy Satteltasche",
+   "name": "Lezyne M-Caddy Sacoche de selle",
    "brand": "Lezyne",
    "category": "Zubehör",
    "primary": {
@@ -13412,7 +13412,7 @@
    "faq": []
   },
   "crane-e-ne-fahrradklingel": {
-   "name": "Crane E-NE Fahrradklingel",
+   "name": "Crane E-NE Sonnette de vélo",
    "brand": "Crane",
    "category": "Zubehör",
    "primary": {
@@ -13426,7 +13426,7 @@
    "faq": []
   },
   "crane-mini-karen-fahrradklingel": {
-   "name": "Crane Mini Karen Fahrradklingel",
+   "name": "Crane Mini Karen Sonnette de vélo",
    "brand": "Crane",
    "category": "Zubehör",
    "primary": {
@@ -13440,7 +13440,7 @@
    "faq": []
   },
   "crane-mini-suzu-fahrradklingel": {
-   "name": "Crane Mini Suzu Fahrradklingel",
+   "name": "Crane Mini Suzu Sonnette de vélo",
    "brand": "Crane",
    "category": "Zubehör",
    "primary": {
@@ -13454,7 +13454,7 @@
    "faq": []
   },
   "basil-portland-fahrradklingel-messing": {
-   "name": "Basil Portland Fahrradklingel Messing",
+   "name": "Basil Portland Sonnette de vélo Laiton",
    "brand": "Basil",
    "category": "Zubehör",
    "primary": {

@@ -6,8 +6,8 @@ const R = (de: string, fr: string): Row => [de, fr, '=', '=', '=', '=', '='];
 
 export const PAGES: Record<string, Row> = {
   // ---- metadata
-  'meta.faqTitle': R('Häufige Fragen zu Lieferung und Rückgabe', 'Questions fréquentes sur la livraison et le retour'),
-  'meta.faqDesc': R('Antworten auf häufige Fragen zu Bestellung, Lieferung per Spedition, Zahlung, Garantie und Rückgabe bei ebikedirect.eu. Jetzt Antworten lesen und bestellen.', 'Réponses aux questions fréquentes sur la commande, la livraison par transporteur, le paiement, la garantie et le retour chez ebikedirect.eu. Lisez les réponses et commandez.'),
+  'meta.faqTitle': R('Häufige Fragen zu Lieferung und Rückgabe', 'FAQ livraison, paiement et retour'),
+  'meta.faqDesc': R('Antworten auf häufige Fragen zu Bestellung, Lieferung per Spedition, Zahlung, Garantie und Rückgabe bei ebikedirect.eu. Jetzt Antworten lesen und bestellen.', 'Réponses aux questions sur la commande, la livraison par transporteur, le paiement, la garantie et le retour chez ebikedirect.eu. Lisez et commandez.'),
   'meta.aboutTitle': R('Über uns und unsere Werkstatt', 'À propos et notre atelier'),
   'meta.aboutDesc': R('Lernen Sie das Team hinter ebikedirect.eu kennen: Zertifizierte Zweiradmechaniker-Meister, E-Bike Enthusiasten und Spezialisten für moderne Mikromobilität.', 'Découvrez l’équipe d’ebikedirect.eu : maîtres mécaniciens deux-roues certifiés, passionnés de vélos électriques et spécialistes de la micromobilité moderne.'),
   'meta.contactTitle': R('Kontakt', 'Contact'),

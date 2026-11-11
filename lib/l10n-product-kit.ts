@@ -16,6 +16,7 @@ export interface ProductKit {
   categoryLabel: Record<string, string>;
   ui: {
     shop: string; faqH2: (name: string) => string; seeAlso: string; brandModels: string; category: string; accessoryCategory: string; allRange: string;
+    faqLink: string; contactLink: string; aboutLink: string;
     similar: string; learnMore: string; aria: (name: string) => string;
     mfrSite: (brand: string) => string; mfrNote: string; boschNote: string; boschHref: string;
     assocLabel: string; assocHref: string; assocNote: string; wikiLabel: string; wikiHref: string; wikiNote: string;
@@ -29,6 +30,7 @@ const FR: ProductKit = {
   intl: 'fr-FR', build: (p) => buildFrContent(lf(p)), related: frRelated, entry: (p) => frEntry(lf(p)), h1: (p) => frH1(lf(p)), title: (p) => frTitle(lf(p)), description: (p) => frDescription(lf(p)), categoryLabel: FR_CATEGORY_LABEL,
   ui: {
     shop: 'Boutique', faqH2: (n) => `Questions fréquentes sur ${n}`, seeAlso: 'Voir aussi', brandModels: 'Tous les modèles de la marque', category: 'Catégorie', accessoryCategory: 'Rubrique', allRange: 'toute la gamme dans la boutique',
+    faqLink: 'Livraison, paiement et retour : la FAQ', contactLink: 'Une question ? Contactez-nous', aboutLink: 'À propos de la boutique',
     similar: 'Produits similaires', learnMore: 'Pour en savoir plus', aria: (n) => `Informations sur ${n}`,
     mfrSite: (b) => `${b} : site du fabricant`, mfrNote: 'Site officiel avec tous les modèles et les informations techniques.', boschNote: 'Systèmes d’entraînement, batteries et mises à jour du fabricant du moteur.', boschHref: 'https://www.bosch-ebike.com/fr/',
     assocLabel: 'FUB : Fédération des usagers de la bicyclette', assocHref: 'https://www.fub.fr/', assocNote: 'Informations et conseils pour les cyclistes au quotidien.',
@@ -39,6 +41,7 @@ const EN: ProductKit = {
   intl: 'en-IE', build: (p) => buildEnContent(le(p)), related: enRelated, entry: (p) => enEntry(le(p)), h1: (p) => enH1(le(p)), title: (p) => enTitle(le(p)), description: (p) => enDescription(le(p)), categoryLabel: EN_CATEGORY_LABEL,
   ui: {
     shop: 'Shop', faqH2: (n) => `Frequently asked questions about ${n}`, seeAlso: 'See also', brandModels: 'All models from the brand', category: 'Category', accessoryCategory: 'Range', allRange: 'the full range in the shop',
+    faqLink: 'Delivery, payment and returns: the FAQ', contactLink: 'Questions? Contact us', aboutLink: 'About the shop',
     similar: 'Similar products', learnMore: 'Learn more', aria: (n) => `Information about ${n}`,
     mfrSite: (b) => `${b}: manufacturer website`, mfrNote: 'Official website with all models and technical information.', boschNote: 'Drive systems, batteries and updates from the motor manufacturer.', boschHref: 'https://www.bosch-ebike.com/en/',
     assocLabel: 'Cycling UK', assocHref: 'https://www.cyclinguk.org/', assocNote: 'Advice and information for everyday cyclists.',
