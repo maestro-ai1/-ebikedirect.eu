@@ -89,7 +89,7 @@ export function frRelated(p: Product): Product[] {
     const i = list.findIndex((x) => x.slug === p.slug);
     for (let k = 1; k < list.length && out.length < 4; k++) { const c = list[(i + k) % list.length]; if (c.slug !== p.slug && !out.some((o) => o.slug === c.slug)) out.push(c); }
   };
-  take(byBrand[p.brand] || []);
+  if (p.category !== 'Zubehör') take(byBrand[p.brand] || []);
   if (out.length < 4) take(byCat[p.category] || []);
   return out;
 }
