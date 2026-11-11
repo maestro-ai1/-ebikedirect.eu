@@ -16,7 +16,7 @@ const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : 
 const GUARD = new RegExp(plan.guard, 'i');
 const cfg = require(root + '/02-site-architecture/cfg_' + lang + '.js');
 const bank = [];
-for (const l of fs.readFileSync(`${root}/03-keywords/by-market/${lang}/${lang}_master_merged.csv`, 'utf8').split(/\r?\n/).slice(1)) {
+for (const l of fs.readFileSync(`${root}/03-keywords/by-market/${plan.bankDir || lang}/${plan.bankDir || lang}_master_merged.csv`, 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;
   if (kd === null || kd > 28 || vol < plan.floor) continue;
   bank.push({ keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });

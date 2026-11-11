@@ -26,6 +26,7 @@ export function L10nCategoryPage({ locale, url }: { locale: Locale; url: string 
   const note = S.notes[page.dePath];
   const prefix = `/${locale}`;
   const siblings = l10nPages(locale).filter((p) => p.type === kind && p.url !== page.url);
+  const hubPage = kind === 'brand' ? l10nPages(locale).find((p) => p.type === 'hub') : undefined;
   const facts = ctx ? S.facts(kind, ctx, page.name) : [];
   const faqs = ctx ? S.faq(kind, ctx, page.name).map((f, i) => (page.faq[i] ? { q: `${cap(page.faq[i].keyword)} : ${f.q}`, a: f.a } : f)) : [];
   const altSeen = new Set<string>();
@@ -110,6 +111,7 @@ export function L10nCategoryPage({ locale, url }: { locale: Locale; url: string 
                 <li key={s.url}><Link href={`${prefix}${s.url.replace(/\/$/, '')}`} className="text-[#FF5722] font-semibold hover:underline">{s.name}</Link></li>
               ))}
             </ul>
+            {hubPage && <p className="mt-3 text-sm"><Link href={`${prefix}${hubPage.url.replace(/\/$/, '')}`} className="text-[#FF5722] font-semibold hover:underline">{hubPage.display}</Link></p>}
           </section>
         )}
       </div>

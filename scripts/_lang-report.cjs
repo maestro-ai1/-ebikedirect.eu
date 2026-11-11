@@ -7,11 +7,12 @@ const live = require(`../data/keywords/${lang}-live.json`).pages;
 const map = require(`../data/keywords/${lang}.json`).pages;
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const nf = (n) => Math.round(n).toLocaleString('en-US');
-const NAME = { fr: 'French', nl: 'Dutch', it: 'Italian', es: 'Spanish', pt: 'Portuguese' }[lang];
+const NAME = { en: 'English (UK)', fr: 'French', nl: 'Dutch', it: 'Italian', es: 'Spanish', pt: 'Portuguese' }[lang];
 const chip = (k) => `<span class="pill">${esc(k.keyword)} <small><b class="t ${k.intent}">${k.intent}</b> ${nf(k.volume || 0)} / KD ${k.kd == null ? '-' : k.kd}</small></span>`;
 const liveUrls = new Set(live.map((p) => p.url.replace(/\/$/, '')));
 const res = G.results.filter((r) => r.url.startsWith('/' + lang + '/') && /translated/.test(r.type));
 const pass = res.filter((r) => r.ok).length;
+const built = res.length > 0;
 const stat = (list) => { const s = { T: 0, C: 0, N: 0, I: 0, vol: 0, kd: 0, n: 0 }; for (const p of list) { s[p.primary.intent] = (s[p.primary.intent] || 0) + 1; s.vol += p.primary.volume || 0; if (p.primary.kd != null) { s.kd += p.primary.kd; s.n++; } } return s; };
 const s = stat(live);
 const all = live.flatMap((p) => [p.primary, ...p.secondary, ...p.faq]);
@@ -26,7 +27,7 @@ table{width:100%;border-collapse:collapse;background:var(--card);border:1px soli
 let H = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ebikedirect.eu ${NAME} keyword map</title><style>${css}</style></head><body><div class="w">`;
 H += `<h1>${NAME} (${lang}) keyword map and live audit</h1><div class="sub">Live crawl ${esc(G.when.slice(0, 10))} of https://ebikedirect.eu. Semrush database ${lang.toUpperCase()}. One keyword = one URL inside the language; KD 28 or lower; Transactional first, Commercial next.</div>`;
 H += `<div class="cards"><div class="c"><b>${live.length}</b><span>${NAME} pages live (categories, brands, accessories; products below)</span></div><div class="c"><b>${pass} / ${res.length}</b><span>live gate checks pass on these pages</span></div><div class="c"><b>${nf(s.vol)}</b><span>total main-keyword volume</span></div><div class="c"><b>${s.n ? (s.kd / s.n).toFixed(1) : '-'}</b><span>average KD of main keywords</span></div><div class="c"><b>${s.T} T / ${s.C} C / ${s.N} N / ${s.I} I</b><span>main keyword intent</span></div><div class="c"><b>${all.length}</b><span>keywords used (1 + 5 + 5 per page)</span></div></div>`;
-H += `<h2>1. Live ${NAME} pages: main, secondary and FAQ keywords</h2><p class="sub">Chips: keyword, intent (T Transactional, C Commercial, N Navigational, I Informational), monthly volume, keyword difficulty.</p><div class="scroll"><table><thead><tr><th>Page</th><th>Main keyword</th><th class="n">Vol</th><th class="n">KD</th><th>Intent</th><th>5 secondary keywords</th><th>5 FAQ keywords</th></tr></thead><tbody>`;
+H += `<h2>1. ${built ? 'Live' : 'Mapped'} ${NAME} pages: main, secondary and FAQ keywords</h2><p class="sub">Chips: keyword, intent (T Transactional, C Commercial, N Navigational, I Informational), monthly volume, keyword difficulty.</p><div class="scroll"><table><thead><tr><th>Page</th><th>Main keyword</th><th class="n">Vol</th><th class="n">KD</th><th>Intent</th><th>5 secondary keywords</th><th>5 FAQ keywords</th></tr></thead><tbody>`;
 for (const p of live) {
   H += `<tr><td><b>${esc(p.name)}</b><br><small><a href="https://ebikedirect.eu/${lang}${esc(p.url)}">/${lang}${esc(p.url)}</a><br>German page: <a href="https://ebikedirect.eu${esc(p.dePath)}">${esc(p.dePath)}</a><br>H1: ${esc(p.display)}</small></td><td>${esc(p.primary.keyword)}</td><td class="n">${nf(p.primary.volume)}</td><td class="n">${p.primary.kd}</td><td><b class="t ${p.primary.intent}">${p.primary.intent}</b></td><td>${p.secondary.map(chip).join('')}</td><td>${p.faq.map(chip).join('')}</td></tr>`;
 }
@@ -56,6 +57,6 @@ try {
 
 H += prodRows;
 H += `<h2>4. Not verified</h2><div class="box"><small>Search Console data for ${NAME}; native-speaker review of the copy; model-family pages, the blog and the legal pages are not yet in ${NAME}; VAT wording is left out of the ${NAME} copy until the owner decides.</small></div></div></body></html>`;
-const out = `C:/electric bikes europe/02-site-architecture/reports/onpage-seo-${lang}-batch3-2026-11-10.html`;
+const out = `C:/electric bikes europe/02-site-architecture/reports/onpage-seo-${lang}-batch3-2026-11-11.html`;
 fs.writeFileSync(out, H);
 console.log('report', out, 'live', live.length, 'checks', pass + '/' + res.length, 'todo', todo.length);

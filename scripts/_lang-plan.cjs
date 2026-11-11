@@ -25,3 +25,6 @@ module.exports = {
     }
   }
 };
+
+// English plan lives in its own file
+module.exports.en = require('./_lang-plan-en.cjs');

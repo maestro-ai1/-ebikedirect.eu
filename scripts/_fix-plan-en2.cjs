@@ -1,0 +1,12 @@
+const fs = require('fs');
+const B = String.fromCharCode(92);
+let s = fs.readFileSync('scripts/_lang-pages.cjs', 'utf8');
+s = s.replace("  if (!primary) { const c = pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }", "  if (!primary) { const pe = pool.filter((b) => ELEC.test(b.keyword)); const c = pe.find((b) => b.intent === 'T') || pe.find((b) => b.intent === 'C') || pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }");
+fs.writeFileSync('scripts/_lang-pages.cjs', s);
+let t = fs.readFileSync('scripts/_lang-plan-en.cjs', 'utf8');
+t = t.replace("rel: '(cargo|longtail|long tail|bakfiets|box bike|family bike)', exclude: '(kids|children|trailer|rack)'", "rel: '(cargo|longtail|long tail|bakfiets)', exclude: '(kids|children|trailer|rack|for bicycle|bike box)'");
+t = t.replace("rel: '(gravel|road|racing|drop bar|cyclocross)', exclude: '(women|ladies|kids|" + B + B + "bmen" + B + B + "b|mens|road legal|road tax)'", "rel: '(gravel|road bike|road e|racing|drop bar|cyclocross)', exclude: '(women|ladies|kids|" + B + B + "bmen" + B + B + "b|mens|road legal|road tax|off ?road)'");
+t = t.replace("exclude: '(kit|conversion|scooter|moped|replacement|charger|" + B + B + "bcar" + B + B + "b)'", "exclude: '(kit|conversion|scooter|moped|replacement|charger|cover|case|" + B + B + "bcar" + B + B + "b)'");
+fs.writeFileSync('scripts/_lang-plan-en.cjs', t);
+const p = require('./_lang-plan-en.cjs').batches.batch1;
+console.log(p[4].rel, '|', p[6].rel, '|', p[10].exclude);

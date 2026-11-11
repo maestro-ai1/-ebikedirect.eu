@@ -1,0 +1,3488 @@
+{
+ "locale": "en",
+ "pages": [
+  {
+   "display": "Electric mountain bikes",
+   "url": "/electric-bikes/electric-mountain-bikes/",
+   "dePath": "/e-bikes/e-mountainbikes",
+   "name": "Electric mountain bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "emtb sale",
+    "volume": 1000,
+    "kd": 17,
+    "intent": "T"
+   },
+   "secondary": [
+    {
+     "keyword": "ebike mtb",
+     "volume": 1300,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "full suspension e mtb",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 24
+    },
+    {
+     "keyword": "e bike mountain bike",
+     "intent": "C",
+     "volume": 880,
+     "kd": 22
+    },
+    {
+     "keyword": "e-mtb",
+     "intent": "C",
+     "volume": 880,
+     "kd": 25
+    },
+    {
+     "keyword": "mountain e bike",
+     "intent": "C",
+     "volume": 880,
+     "kd": 23
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "full suspension ebike",
+     "volume": 2400,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "full suspension e bike",
+     "volume": 1600,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mtb",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 27
+    },
+    {
+     "keyword": "emtb forum",
+     "intent": "N",
+     "volume": 880,
+     "kd": 21
+    },
+    {
+     "keyword": "ebike mountain biking",
+     "intent": "C",
+     "volume": 720,
+     "kd": 25
+    }
+   ]
+  },
+  {
+   "display": "City e-bikes",
+   "url": "/electric-bikes/city-commuter-e-bikes/",
+   "dePath": "/e-bikes/city-e-bikes",
+   "name": "City and commuter e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "urban e bike",
+    "intent": "T",
+    "volume": 170,
+    "kd": 22
+   },
+   "secondary": [
+    {
+     "keyword": "commuter ebike",
+     "volume": 480,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike hybrid",
+     "intent": "C",
+     "volume": 480,
+     "kd": 22
+    },
+    {
+     "keyword": "e bike hybrid",
+     "intent": "C",
+     "volume": 480,
+     "kd": 22
+    },
+    {
+     "keyword": "ebike for commute",
+     "intent": "C",
+     "volume": 480,
+     "kd": 17
+    },
+    {
+     "keyword": "commuter e bike",
+     "intent": "C",
+     "volume": 320,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "hybrid e bikes",
+     "intent": "I",
+     "volume": 590,
+     "kd": 22
+    },
+    {
+     "keyword": "city e bike",
+     "intent": "C",
+     "volume": 260,
+     "kd": 18
+    },
+    {
+     "keyword": "ebike commute",
+     "intent": "C",
+     "volume": 260,
+     "kd": 20
+    },
+    {
+     "keyword": "urban e bikes",
+     "intent": "N",
+     "volume": 260,
+     "kd": 22
+    },
+    {
+     "keyword": "best hybrid ebike uk",
+     "intent": "C",
+     "volume": 210,
+     "kd": 16
+    }
+   ]
+  },
+  {
+   "display": "Trekking e-bikes",
+   "url": "/electric-bikes/trekking-e-bikes/",
+   "dePath": "/e-bikes/trekking-e-bikes",
+   "name": "Trekking and touring e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "touring ebike",
+    "intent": "C",
+    "volume": 170,
+    "kd": 13
+   },
+   "secondary": [
+    {
+     "keyword": "touring e bike",
+     "volume": 140,
+     "kd": 16,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "e bike long distance",
+     "volume": 590,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
+  },
+  {
+   "display": "Speed pedelecs 45 km/h",
+   "url": "/electric-bikes/speed-pedelecs/",
+   "dePath": "/e-bikes/s-pedelec",
+   "name": "Speed pedelecs (45 km/h)",
+   "type": "category",
+   "primary": {
+    "keyword": "cheapest fast ebike",
+    "intent": "T",
+    "volume": 110,
+    "kd": 10
+   },
+   "secondary": [
+    {
+     "keyword": "fast ebikes",
+     "volume": 480,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
+     "keyword": "2 fast ebikes",
+     "volume": 390,
+     "kd": 30,
+     "intent": "T"
+    },
+    {
+     "keyword": "fast e bike",
+     "intent": "C",
+     "volume": 480,
+     "kd": 24
+    },
+    {
+     "keyword": "fast e bicycle",
+     "intent": "C",
+     "volume": 320,
+     "kd": 10
+    },
+    {
+     "keyword": "fast e mountain bike",
+     "intent": "C",
+     "volume": 110,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "fast e bikes",
+     "volume": 720,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "fast e bikes uk",
+     "volume": 320,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fast ebike",
+     "intent": "I",
+     "volume": 480,
+     "kd": 10
+    },
+    {
+     "keyword": "fast ebike uk",
+     "intent": "I",
+     "volume": 260,
+     "kd": 10
+    },
+    {
+     "keyword": "speed pedelec",
+     "intent": "I",
+     "volume": 210,
+     "kd": 16
+    }
+   ]
+  },
+  {
+   "display": "Cargo e-bikes",
+   "url": "/electric-bikes/cargo-e-bikes/",
+   "dePath": "/e-bikes/cargo-bikes",
+   "name": "Cargo e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "e bike with cargo",
+    "intent": "C",
+    "volume": 720,
+    "kd": 20
+   },
+   "secondary": [
+    {
+     "keyword": "e bike cargo",
+     "volume": 720,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike with cargo",
+     "volume": 320,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "cargo ebike uk",
+     "volume": 170,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "cargo bikes",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 22
+    },
+    {
+     "keyword": "cargo for bike",
+     "intent": "C",
+     "volume": 480,
+     "kd": 20
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cargo ebike",
+     "volume": 1000,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargo e bike uk",
+     "volume": 140,
+     "kd": 12,
+     "intent": "I"
+    },
+    {
+     "keyword": "cargo bike",
+     "intent": "I",
+     "volume": 6600,
+     "kd": 27
+    },
+    {
+     "keyword": "bicycle cargo",
+     "intent": "I",
+     "volume": 480,
+     "kd": 25
+    },
+    {
+     "keyword": "cargo bike uk",
+     "intent": "C",
+     "volume": 480,
+     "kd": 20
+    }
+   ]
+  },
+  {
+   "display": "Folding electric bikes",
+   "url": "/electric-bikes/folding-e-bikes/",
+   "dePath": "/e-bikes/falt-e-bikes",
+   "name": "Folding e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "folding e bikes for sale",
+    "intent": "T",
+    "volume": 260,
+    "kd": 20
+   },
+   "secondary": [
+    {
+     "keyword": "foldable ebike",
+     "volume": 1900,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "folding e bike",
+     "volume": 1900,
+     "kd": 28,
+     "intent": "C"
+    },
+    {
+     "keyword": "folding e bikes",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "e bike folding uk",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 28
+    },
+    {
+     "keyword": "folding e cycle",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 27
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "lightweight folding e bike",
+     "volume": 170,
+     "kd": 28,
+     "intent": "I"
+    },
+    {
+     "keyword": "folding ebike uk",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 27
+    },
+    {
+     "keyword": "best folding e bike",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 24
+    },
+    {
+     "keyword": "e bike foldable",
+     "intent": "C",
+     "volume": 720,
+     "kd": 28
+    },
+    {
+     "keyword": "fold up e bike",
+     "intent": "C",
+     "volume": 590,
+     "kd": 27
+    }
+   ]
+  },
+  {
+   "display": "Electric gravel bikes",
+   "url": "/electric-bikes/gravel-road-e-bikes/",
+   "dePath": "/e-bikes/e-rennrad-gravel",
+   "name": "Gravel and road e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "road ebike",
+    "intent": "C",
+    "volume": 720,
+    "kd": 24
+   },
+   "secondary": [
+    {
+     "keyword": "gravel e bike",
+     "intent": "C",
+     "volume": 590,
+     "kd": 22
+    },
+    {
+     "keyword": "gravel ebike",
+     "intent": "C",
+     "volume": 590,
+     "kd": 20
+    },
+    {
+     "keyword": "e bike road bikes",
+     "intent": "C",
+     "volume": 320,
+     "kd": 24
+    },
+    {
+     "keyword": "gravel e bikes",
+     "intent": "C",
+     "volume": 320,
+     "kd": 22
+    },
+    {
+     "keyword": "e bike road bike",
+     "intent": "C",
+     "volume": 170,
+     "kd": 28
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ebike road bike",
+     "intent": "C",
+     "volume": 170,
+     "kd": 23
+    },
+    {
+     "keyword": "road e-bike",
+     "intent": "C",
+     "volume": 110,
+     "kd": 26
+    },
+    {
+     "keyword": "gravel ebike uk",
+     "intent": "C",
+     "volume": 110,
+     "kd": 16
+    },
+    {
+     "keyword": "best gravel e bike",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "best gravel ebike",
+     "intent": "C",
+     "volume": 90,
+     "kd": 20
+    }
+   ]
+  },
+  {
+   "display": "Kids electric bikes",
+   "url": "/electric-bikes/kids-e-bikes/",
+   "dePath": "/e-bikes/kinder-jugend",
+   "name": "Kids e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "teenage ebike",
+    "intent": "C",
+    "volume": 170,
+    "kd": 17
+   },
+   "secondary": [
+    {
+     "keyword": "teens e bike",
+     "intent": "C",
+     "volume": 140,
+     "kd": 21
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "kids e bike",
+     "volume": 880,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "kids ebike",
+     "volume": 590,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "ebike junior",
+     "intent": "I",
+     "volume": 260,
+     "kd": 16
+    },
+    {
+     "keyword": "e bike for kids",
+     "intent": "I",
+     "volume": 260,
+     "kd": 18
+    },
+    {
+     "keyword": "e bikes for kids",
+     "intent": "I",
+     "volume": 210,
+     "kd": 21
+    }
+   ]
+  },
+  {
+   "display": "Womens electric bikes",
+   "url": "/electric-bikes/womens-e-bikes/",
+   "dePath": "/e-bikes/damen",
+   "name": "Women’s e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "ladies e bikes for sale",
+    "intent": "T",
+    "volume": 140,
+    "kd": 12
+   },
+   "secondary": [
+    {
+     "keyword": "ebike for ladies",
+     "volume": 1300,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "ladies ebike",
+     "volume": 880,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "e cycle for women",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 12
+    },
+    {
+     "keyword": "e bike women",
+     "intent": "C",
+     "volume": 480,
+     "kd": 9
+    },
+    {
+     "keyword": "ladies e bikes",
+     "intent": "C",
+     "volume": 480,
+     "kd": 15
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ladies e bike",
+     "volume": 1600,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "ladies ebikes",
+     "intent": "C",
+     "volume": 480,
+     "kd": 12
+    },
+    {
+     "keyword": "women's e bike",
+     "intent": "C",
+     "volume": 390,
+     "kd": 11
+    },
+    {
+     "keyword": "e bikes for women",
+     "intent": "C",
+     "volume": 320,
+     "kd": 14
+    },
+    {
+     "keyword": "step through e bikes",
+     "intent": "C",
+     "volume": 320,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Mens electric bikes",
+   "url": "/electric-bikes/mens-e-bikes/",
+   "dePath": "/e-bikes/herren",
+   "name": "Men’s e-bikes",
+   "type": "category",
+   "primary": {
+    "keyword": "men's ebike",
+    "intent": "C",
+    "volume": 720,
+    "kd": 27
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "e-bike for men",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "e bike mens",
+     "volume": 320,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "men's e-bike",
+     "intent": "I",
+     "volume": 320,
+     "kd": 25
+    },
+    {
+     "keyword": "mens e bikes",
+     "intent": "I",
+     "volume": 320,
+     "kd": 24
+    },
+    {
+     "keyword": "e bikes for men",
+     "intent": "I",
+     "volume": 320,
+     "kd": 24
+    }
+   ]
+  },
+  {
+   "display": "Electric bike motors",
+   "url": "/electric-bikes/motors-batteries/",
+   "dePath": "/e-bikes/motor-antrieb",
+   "name": "Motors and batteries",
+   "type": "category",
+   "primary": {
+    "keyword": "ebike dual motor",
+    "intent": "T",
+    "volume": 210,
+    "kd": 6
+   },
+   "secondary": [
+    {
+     "keyword": "mid drive ebike",
+     "volume": 720,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike battery 48v",
+     "intent": "C",
+     "volume": 480,
+     "kd": 3
+    },
+    {
+     "keyword": "e bike with motor",
+     "intent": "C",
+     "volume": 390,
+     "kd": 24
+    },
+    {
+     "keyword": "mid drive ebikes",
+     "intent": "C",
+     "volume": 390,
+     "kd": 13
+    },
+    {
+     "keyword": "ebike range",
+     "intent": "C",
+     "volume": 320,
+     "kd": 24
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "e bike motor",
+     "volume": 1300,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "52v ebike battery",
+     "intent": "I",
+     "volume": 880,
+     "kd": 6
+    },
+    {
+     "keyword": "36v ebike battery",
+     "intent": "I",
+     "volume": 720,
+     "kd": 8
+    },
+    {
+     "keyword": "battery for ebike",
+     "intent": "I",
+     "volume": 390,
+     "kd": 23
+    },
+    {
+     "keyword": "long range ebike",
+     "intent": "C",
+     "volume": 320,
+     "kd": 20
+    }
+   ]
+  },
+  {
+   "display": "Babboe cargo bike",
+   "url": "/brands/babboe/",
+   "dePath": "/marken/babboe",
+   "name": "Babboe",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "babboe cargo bike",
+    "intent": "T",
+    "volume": 320,
+    "kd": 20,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "babboe bike",
+     "intent": "T",
+     "volume": 170,
+     "kd": 13
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "babboe",
+     "intent": "N",
+     "volume": 260,
+     "kd": 16
+    },
+    {
+     "keyword": "babboe bicycle",
+     "intent": "N",
+     "volume": 110,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Bergamont bikes",
+   "url": "/brands/bergamont/",
+   "dePath": "/marken/bergamont",
+   "name": "Bergamont",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "bergamont bikes",
+    "intent": "T",
+    "volume": 720,
+    "kd": 16,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bergamont",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 22
+    },
+    {
+     "keyword": "bergamont e bike",
+     "intent": "T",
+     "volume": 390,
+     "kd": 10
+    },
+    {
+     "keyword": "bergamont bike",
+     "intent": "T",
+     "volume": 320,
+     "kd": 15
+    },
+    {
+     "keyword": "bergamont mountain bike",
+     "intent": "T",
+     "volume": 140,
+     "kd": 15
+    },
+    {
+     "keyword": "bergamont mtb bikes",
+     "intent": "T",
+     "volume": 110,
+     "kd": 15
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bergamont bicycles",
+     "intent": "I",
+     "volume": 320,
+     "kd": 16
+    },
+    {
+     "keyword": "bergamont bicycle",
+     "intent": "N",
+     "volume": 260,
+     "kd": 18
+    }
+   ]
+  },
+  {
+   "display": "E Brompton bike",
+   "url": "/brands/brompton/",
+   "dePath": "/marken/brompton",
+   "name": "Brompton",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "e brompton bike",
+    "intent": "T",
+    "volume": 1300,
+    "kd": 28,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "brompton sale",
+     "intent": "T",
+     "volume": 480,
+     "kd": 18
+    },
+    {
+     "keyword": "brompton bike for sale",
+     "intent": "T",
+     "volume": 480,
+     "kd": 21
+    },
+    {
+     "keyword": "brompton for sale",
+     "intent": "T",
+     "volume": 480,
+     "kd": 19
+    },
+    {
+     "keyword": "brompton bikes for sale",
+     "intent": "T",
+     "volume": 320,
+     "kd": 28
+    },
+    {
+     "keyword": "brompton sale bike",
+     "intent": "T",
+     "volume": 320,
+     "kd": 21
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "brompton bike",
+     "intent": "I",
+     "volume": 9900,
+     "kd": 28
+    },
+    {
+     "keyword": "brompton uk",
+     "intent": "N",
+     "volume": 880,
+     "kd": 28
+    },
+    {
+     "keyword": "brompton cycle",
+     "intent": "N",
+     "volume": 590,
+     "kd": 24
+    },
+    {
+     "keyword": "brompton bikes uk",
+     "intent": "N",
+     "volume": 390,
+     "kd": 26
+    },
+    {
+     "keyword": "folding a brompton bike",
+     "intent": "I",
+     "volume": 210,
+     "kd": 26
+    }
+   ]
+  },
+  {
+   "display": "Cannondale",
+   "url": "/brands/cannondale/",
+   "dePath": "/marken/cannondale",
+   "name": "Cannondale",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "cannondale",
+    "intent": "N",
+    "volume": 6600,
+    "kd": 21,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cannondale mountain bike",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 22
+    },
+    {
+     "keyword": "cannondale e bike",
+     "intent": "T",
+     "volume": 720,
+     "kd": 24
+    },
+    {
+     "keyword": "bicycle cannondale mountain bike",
+     "intent": "T",
+     "volume": 720,
+     "kd": 21
+    },
+    {
+     "keyword": "bike mtb cannondale",
+     "intent": "T",
+     "volume": 720,
+     "kd": 22
+    },
+    {
+     "keyword": "cannondale mtb",
+     "intent": "T",
+     "volume": 720,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cannondale bikes",
+     "intent": "N",
+     "volume": 5400,
+     "kd": 23
+    },
+    {
+     "keyword": "cannondale bike",
+     "intent": "N",
+     "volume": 1600,
+     "kd": 26
+    },
+    {
+     "keyword": "cannondale road bicycles",
+     "intent": "T",
+     "volume": 590,
+     "kd": 21
+    },
+    {
+     "keyword": "cannondale road bikes",
+     "intent": "C",
+     "volume": 590,
+     "kd": 28
+    },
+    {
+     "keyword": "cannondale full suspension",
+     "intent": "T",
+     "volume": 480,
+     "kd": 21
+    }
+   ]
+  },
+  {
+   "display": "Conway electric bikes",
+   "url": "/brands/conway/",
+   "dePath": "/marken/conway",
+   "name": "Conway",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "conway electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Cube bikes UK",
+   "url": "/brands/cube/",
+   "dePath": "/marken/cube",
+   "name": "Cube",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "cube bikes uk",
+    "intent": "N",
+    "volume": 1900,
+    "kd": 28,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cube ebikes",
+     "intent": "T",
+     "volume": 720,
+     "kd": 25
+    },
+    {
+     "keyword": "cube road bikes",
+     "intent": "T",
+     "volume": 720,
+     "kd": 16
+    },
+    {
+     "keyword": "cube kids bike",
+     "intent": "T",
+     "volume": 720,
+     "kd": 16
+    },
+    {
+     "keyword": "cube e bikes uk",
+     "intent": "C",
+     "volume": 590,
+     "kd": 26
+    },
+    {
+     "keyword": "cube full suspension",
+     "intent": "T",
+     "volume": 590,
+     "kd": 14
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cube mountain bike",
+     "intent": "I",
+     "volume": 2900,
+     "kd": 18
+    },
+    {
+     "keyword": "cube e bike",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 25
+    },
+    {
+     "keyword": "cube ebike",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 22
+    },
+    {
+     "keyword": "cube mtb",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 22
+    },
+    {
+     "keyword": "cube road bike",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Flyer electric bikes",
+   "url": "/brands/flyer/",
+   "dePath": "/marken/flyer",
+   "name": "Flyer",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "flyer electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Focus bike",
+   "url": "/brands/focus/",
+   "dePath": "/marken/focus",
+   "name": "Focus",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "focus bike",
+    "intent": "T",
+    "volume": 590,
+    "kd": 22,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "focus e bike",
+     "intent": "T",
+     "volume": 390,
+     "kd": 11
+    },
+    {
+     "keyword": "focus mountain bike",
+     "intent": "T",
+     "volume": 260,
+     "kd": 17
+    },
+    {
+     "keyword": "focus mountain bikes",
+     "intent": "T",
+     "volume": 260,
+     "kd": 8
+    },
+    {
+     "keyword": "focus ebike",
+     "intent": "T",
+     "volume": 210,
+     "kd": 17
+    },
+    {
+     "keyword": "focus mtb",
+     "intent": "T",
+     "volume": 210,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "focus bikes",
+     "intent": "N",
+     "volume": 1000,
+     "kd": 20
+    },
+    {
+     "keyword": "focus ebikes",
+     "intent": "N",
+     "volume": 260,
+     "kd": 25
+    },
+    {
+     "keyword": "focus bicycles",
+     "intent": "N",
+     "volume": 260,
+     "kd": 16
+    },
+    {
+     "keyword": "focus bikes uk",
+     "intent": "N",
+     "volume": 170,
+     "kd": 15
+    },
+    {
+     "keyword": "focus bikes mtb",
+     "intent": "T",
+     "volume": 170,
+     "kd": 22
+    }
+   ]
+  },
+  {
+   "display": "Gazelle bicycle",
+   "url": "/brands/gazelle/",
+   "dePath": "/marken/gazelle",
+   "name": "Gazelle",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "gazelle bicycle",
+    "intent": "T",
+    "volume": 880,
+    "kd": 22,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "gazelle ebike",
+     "intent": "T",
+     "volume": 480,
+     "kd": 28
+    },
+    {
+     "keyword": "gazelle e bike",
+     "intent": "T",
+     "volume": 480,
+     "kd": 23
+    },
+    {
+     "keyword": "gazelle cycles",
+     "intent": "T",
+     "volume": 390,
+     "kd": 22
+    },
+    {
+     "keyword": "gazelle e bikes",
+     "intent": "T",
+     "volume": 210,
+     "kd": 20
+    },
+    {
+     "keyword": "gazelle ebikes",
+     "intent": "T",
+     "volume": 170,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "gazelle bikes",
+     "intent": "N",
+     "volume": 1000,
+     "kd": 20
+    },
+    {
+     "keyword": "gazelle bike",
+     "intent": "N",
+     "volume": 880,
+     "kd": 19
+    },
+    {
+     "keyword": "gazelle bikes uk",
+     "intent": "N",
+     "volume": 260,
+     "kd": 22
+    },
+    {
+     "keyword": "gazelle bicycles",
+     "intent": "T",
+     "volume": 170,
+     "kd": 16
+    },
+    {
+     "keyword": "gazelle cycles uk",
+     "intent": "N",
+     "volume": 140,
+     "kd": 7
+    }
+   ]
+  },
+  {
+   "display": "Ghost mountain bike",
+   "url": "/brands/ghost/",
+   "dePath": "/marken/ghost",
+   "name": "Ghost",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "ghost mountain bike",
+    "intent": "T",
+    "volume": 390,
+    "kd": 13,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ghost mtb",
+     "intent": "C",
+     "volume": 480,
+     "kd": 13
+    },
+    {
+     "keyword": "ghost bikes uk",
+     "intent": "T",
+     "volume": 390,
+     "kd": 11
+    },
+    {
+     "keyword": "ghost ebike",
+     "intent": "T",
+     "volume": 320,
+     "kd": 11
+    },
+    {
+     "keyword": "ghost mountain bikes",
+     "intent": "C",
+     "volume": 320,
+     "kd": 17
+    },
+    {
+     "keyword": "ghost full suspension mountain bike",
+     "intent": "T",
+     "volume": 170,
+     "kd": 9
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ghost bike",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 14
+    },
+    {
+     "keyword": "ghost mountain",
+     "intent": "I",
+     "volume": 590,
+     "kd": 24
+    },
+    {
+     "keyword": "ghost e bike",
+     "intent": "I",
+     "volume": 390,
+     "kd": 9
+    },
+    {
+     "keyword": "ghost bicycle",
+     "intent": "I",
+     "volume": 140,
+     "kd": 17
+    },
+    {
+     "keyword": "full suspension ghost",
+     "intent": "T",
+     "volume": 110,
+     "kd": 9
+    }
+   ]
+  },
+  {
+   "display": "Giant bicycles MTB",
+   "url": "/brands/giant/",
+   "dePath": "/marken/giant",
+   "name": "Giant",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "giant bicycles mtb",
+    "intent": "T",
+    "volume": 1900,
+    "kd": 23,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "giant road bike",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 16
+    },
+    {
+     "keyword": "giant mtb",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 27
+    },
+    {
+     "keyword": "giant e bike",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 20
+    },
+    {
+     "keyword": "giant ebike",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 24
+    },
+    {
+     "keyword": "giant road cycles",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 14
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "new giant",
+     "intent": "I",
+     "volume": 5400,
+     "kd": 22
+    },
+    {
+     "keyword": "giant bikes uk",
+     "intent": "N",
+     "volume": 2400,
+     "kd": 21
+    },
+    {
+     "keyword": "giant bicycles uk",
+     "intent": "N",
+     "volume": 1300,
+     "kd": 21
+    },
+    {
+     "keyword": "giant full suspension mountain bike",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 12
+    },
+    {
+     "keyword": "giant e bikes",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 26
+    }
+   ]
+  },
+  {
+   "display": "Haibike",
+   "url": "/brands/haibike/",
+   "dePath": "/marken/haibike",
+   "name": "Haibike",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "haibike",
+    "intent": "T",
+    "volume": 5400,
+    "kd": 14,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike haibike",
+     "intent": "T",
+     "volume": 2900,
+     "kd": 21
+    },
+    {
+     "keyword": "haibike e bike",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 17
+    },
+    {
+     "keyword": "haibike ebike",
+     "intent": "T",
+     "volume": 390,
+     "kd": 18
+    },
+    {
+     "keyword": "haibike trekking",
+     "intent": "T",
+     "volume": 390,
+     "kd": 16
+    },
+    {
+     "keyword": "haibike full suspension",
+     "intent": "T",
+     "volume": 210,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bikes haibike",
+     "intent": "N",
+     "volume": 4400,
+     "kd": 18
+    },
+    {
+     "keyword": "haibike uk",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 13
+    },
+    {
+     "keyword": "haibike e mountain bike",
+     "intent": "T",
+     "volume": 170,
+     "kd": 15
+    },
+    {
+     "keyword": "haibike emtb",
+     "intent": "T",
+     "volume": 170,
+     "kd": 17
+    },
+    {
+     "keyword": "ebikes haibike",
+     "intent": "N",
+     "volume": 140,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Hercules electric bikes",
+   "url": "/brands/hercules/",
+   "dePath": "/marken/hercules",
+   "name": "Hercules",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "hercules electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Husqvarna e bike",
+   "url": "/brands/husqvarna/",
+   "dePath": "/marken/husqvarna",
+   "name": "Husqvarna",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "husqvarna e bike",
+    "intent": "T",
+    "volume": 880,
+    "kd": 10,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "husqvarna ebike",
+     "intent": "C",
+     "volume": 720,
+     "kd": 9
+    },
+    {
+     "keyword": "husqvarna e bicycles",
+     "intent": "T",
+     "volume": 320,
+     "kd": 10
+    },
+    {
+     "keyword": "husqvarna mtb",
+     "intent": "T",
+     "volume": 110,
+     "kd": 12
+    },
+    {
+     "keyword": "husqvarna mountain bikes",
+     "intent": "T",
+     "volume": 110,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike husqvarna",
+     "intent": "I",
+     "volume": 260,
+     "kd": 28
+    },
+    {
+     "keyword": "husqvarna e bikes",
+     "intent": "I",
+     "volume": 210,
+     "kd": 9
+    },
+    {
+     "keyword": "husqvarna e mountain bike",
+     "intent": "I",
+     "volume": 210,
+     "kd": 9
+    },
+    {
+     "keyword": "husqvarna mountain bike",
+     "intent": "I",
+     "volume": 210,
+     "kd": 14
+    },
+    {
+     "keyword": "husqvarna emtb",
+     "intent": "I",
+     "volume": 170,
+     "kd": 14
+    }
+   ]
+  },
+  {
+   "display": "KTM for sale",
+   "url": "/brands/ktm/",
+   "dePath": "/marken/ktm",
+   "name": "KTM",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "ktm for sale",
+    "intent": "T",
+    "volume": 480,
+    "kd": 16,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "ktm mtb",
+     "intent": "T",
+     "volume": 390,
+     "kd": 26
+    },
+    {
+     "keyword": "ktm bikes mountain",
+     "intent": "T",
+     "volume": 320,
+     "kd": 24
+    },
+    {
+     "keyword": "ktm mtb bikes",
+     "intent": "T",
+     "volume": 210,
+     "kd": 24
+    },
+    {
+     "keyword": "ktm bikes for sale",
+     "intent": "T",
+     "volume": 170,
+     "kd": 22
+    },
+    {
+     "keyword": "e ktm bike",
+     "intent": "T",
+     "volume": 110,
+     "kd": 27
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ktm e-cycle",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 17
+    },
+    {
+     "keyword": "ktm ebike",
+     "intent": "I",
+     "volume": 590,
+     "kd": 17
+    },
+    {
+     "keyword": "ktm mountain bike",
+     "intent": "I",
+     "volume": 390,
+     "kd": 21
+    },
+    {
+     "keyword": "ktm e bicycle",
+     "intent": "I",
+     "volume": 320,
+     "kd": 16
+    },
+    {
+     "keyword": "ktm e bikes",
+     "intent": "I",
+     "volume": 210,
+     "kd": 15
+    }
+   ]
+  },
+  {
+   "display": "Kalkhoff e bike",
+   "url": "/brands/kalkhoff/",
+   "dePath": "/marken/kalkhoff",
+   "name": "Kalkhoff",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "kalkhoff e bike",
+    "intent": "T",
+    "volume": 480,
+    "kd": 13,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "kalkhoff bike",
+     "intent": "C",
+     "volume": 320,
+     "kd": 20
+    },
+    {
+     "keyword": "kalkhoff e bikes",
+     "intent": "T",
+     "volume": 210,
+     "kd": 17
+    },
+    {
+     "keyword": "kalkhoff ebike",
+     "intent": "T",
+     "volume": 170,
+     "kd": 18
+    },
+    {
+     "keyword": "cycle kalkhoff",
+     "intent": "T",
+     "volume": 170,
+     "kd": 9
+    },
+    {
+     "keyword": "kalkhoff cycles",
+     "intent": "T",
+     "volume": 140,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "kalkhoff bikes",
+     "intent": "N",
+     "volume": 320,
+     "kd": 28
+    }
+   ]
+  },
+  {
+   "display": "Kettler electric bikes",
+   "url": "/brands/kettler/",
+   "dePath": "/marken/kettler",
+   "name": "Kettler",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "kettler electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Liv bikes",
+   "url": "/brands/liv/",
+   "dePath": "/marken/liv",
+   "name": "Liv",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "liv bikes",
+    "intent": "N",
+    "volume": 2400,
+    "kd": 13,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "liv road bike",
+     "intent": "T",
+     "volume": 480,
+     "kd": 20
+    },
+    {
+     "keyword": "liv ebike",
+     "intent": "T",
+     "volume": 390,
+     "kd": 15
+    },
+    {
+     "keyword": "liv mountain bikes",
+     "intent": "T",
+     "volume": 260,
+     "kd": 18
+    },
+    {
+     "keyword": "liv bikes mtb",
+     "intent": "T",
+     "volume": 210,
+     "kd": 12
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "liv bike",
+     "intent": "N",
+     "volume": 1600,
+     "kd": 16
+    },
+    {
+     "keyword": "liv bicycles",
+     "intent": "N",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "liv bicycle",
+     "intent": "N",
+     "volume": 1000,
+     "kd": 17
+    },
+    {
+     "keyword": "liv bikes uk",
+     "intent": "N",
+     "volume": 720,
+     "kd": 20
+    },
+    {
+     "keyword": "liv mountain bike",
+     "intent": "I",
+     "volume": 210,
+     "kd": 18
+    }
+   ]
+  },
+  {
+   "display": "Merida full suspension",
+   "url": "/brands/merida/",
+   "dePath": "/marken/merida",
+   "name": "Merida",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "merida full suspension",
+    "intent": "T",
+    "volume": 320,
+    "kd": 17,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "merida hardtail",
+     "intent": "T",
+     "volume": 170,
+     "kd": 19
+    },
+    {
+     "keyword": "merida emtb",
+     "intent": "T",
+     "volume": 140,
+     "kd": 16
+    },
+    {
+     "keyword": "merida full suspension mountain bike",
+     "intent": "T",
+     "volume": 140,
+     "kd": 16
+    },
+    {
+     "keyword": "merida e mountain bikes",
+     "intent": "T",
+     "volume": 110,
+     "kd": 16
+    },
+    {
+     "keyword": "e bike merida",
+     "intent": "T",
+     "volume": 110,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "merida e bikes",
+     "intent": "N",
+     "volume": 260,
+     "kd": 16
+    },
+    {
+     "keyword": "merida full suspension bike",
+     "intent": "N",
+     "volume": 140,
+     "kd": 18
+    }
+   ]
+  },
+  {
+   "display": "Orbea bikes",
+   "url": "/brands/orbea/",
+   "dePath": "/marken/orbea",
+   "name": "Orbea",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "orbea bikes",
+    "intent": "N",
+    "volume": 6600,
+    "kd": 19,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "orbea ebike",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 16
+    },
+    {
+     "keyword": "orbea mountain bike",
+     "intent": "T",
+     "volume": 720,
+     "kd": 20
+    },
+    {
+     "keyword": "orbea mountain",
+     "intent": "T",
+     "volume": 720,
+     "kd": 24
+    },
+    {
+     "keyword": "orbea mountain bikes",
+     "intent": "T",
+     "volume": 590,
+     "kd": 18
+    },
+    {
+     "keyword": "orbea road bike",
+     "intent": "T",
+     "volume": 480,
+     "kd": 18
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "orbea",
+     "intent": "N",
+     "volume": 5400,
+     "kd": 21
+    },
+    {
+     "keyword": "cycle orbea",
+     "intent": "N",
+     "volume": 5400,
+     "kd": 25
+    },
+    {
+     "keyword": "orbea e bike",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 15
+    },
+    {
+     "keyword": "cycles orbea",
+     "intent": "N",
+     "volume": 1000,
+     "kd": 16
+    },
+    {
+     "keyword": "ebikes orbea",
+     "intent": "I",
+     "volume": 880,
+     "kd": 15
+    }
+   ]
+  },
+  {
+   "display": "QiO electric bikes",
+   "url": "/brands/qio/",
+   "dePath": "/marken/qio",
+   "name": "QiO",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "qio electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Raymon e bike",
+   "url": "/brands/raymon/",
+   "dePath": "/marken/raymon",
+   "name": "Raymon",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "raymon e bike",
+    "intent": "T",
+    "volume": 480,
+    "kd": 13,
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "raymon",
+     "intent": "I",
+     "volume": 320,
+     "kd": 15
+    },
+    {
+     "keyword": "raymon bikes",
+     "intent": "N",
+     "volume": 170,
+     "kd": 19
+    },
+    {
+     "keyword": "raymon ebike",
+     "intent": "N",
+     "volume": 140,
+     "kd": 17
+    }
+   ]
+  },
+  {
+   "display": "Riese & Müller",
+   "url": "/brands/riese-und-mueller/",
+   "dePath": "/marken/riese-und-mueller",
+   "name": "Riese & Müller",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "riese and muller",
+    "intent": "T",
+    "volume": 1600,
+    "kd": 26,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "riese muller ebikes",
+     "intent": "T",
+     "volume": 480,
+     "kd": 11
+    },
+    {
+     "keyword": "riese and muller bikes",
+     "intent": "T",
+     "volume": 260,
+     "kd": 15
+    },
+    {
+     "keyword": "riese & muller",
+     "intent": "T",
+     "volume": 260,
+     "kd": 19
+    },
+    {
+     "keyword": "riese and muller ebike",
+     "intent": "T",
+     "volume": 210,
+     "kd": 9
+    },
+    {
+     "keyword": "riese and muller cargo bike",
+     "intent": "T",
+     "volume": 210,
+     "kd": 21
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "riese and muller e bikes",
+     "intent": "I",
+     "volume": 480,
+     "kd": 8
+    },
+    {
+     "keyword": "riese and muller uk",
+     "intent": "T",
+     "volume": 210,
+     "kd": 9
+    },
+    {
+     "keyword": "riese muller e bikes",
+     "intent": "T",
+     "volume": 170,
+     "kd": 15
+    },
+    {
+     "keyword": "riese muller cargo bike",
+     "intent": "T",
+     "volume": 170,
+     "kd": 15
+    },
+    {
+     "keyword": "riese muller ebike",
+     "intent": "I",
+     "volume": 140,
+     "kd": 7
+    }
+   ]
+  },
+  {
+   "display": "Scott bikes",
+   "url": "/brands/scott/",
+   "dePath": "/marken/scott",
+   "name": "Scott",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "scott bikes",
+    "intent": "N",
+    "volume": 5400,
+    "kd": 16,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "scott bike",
+     "intent": "T",
+     "volume": 2400,
+     "kd": 26
+    },
+    {
+     "keyword": "scott bikes ebike",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 24
+    },
+    {
+     "keyword": "scott full suspension",
+     "intent": "T",
+     "volume": 480,
+     "kd": 14
+    },
+    {
+     "keyword": "mountain bike full suspension scott",
+     "intent": "T",
+     "volume": 320,
+     "kd": 16
+    },
+    {
+     "keyword": "scott hybrid bike",
+     "intent": "C",
+     "volume": 210,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "scott mountain bike",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 20
+    },
+    {
+     "keyword": "scott mountain bikes",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 25
+    },
+    {
+     "keyword": "scott e bike",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 19
+    },
+    {
+     "keyword": "scott bikes e bike",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 24
+    },
+    {
+     "keyword": "scott mtb",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 22
+    }
+   ]
+  },
+  {
+   "display": "Ebikes Specialized",
+   "url": "/brands/specialized/",
+   "dePath": "/marken/specialized",
+   "name": "Specialized",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "ebikes specialized",
+    "intent": "T",
+    "volume": 1300,
+    "kd": 20,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "specialized mtb",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "specialized full suspension",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "specialized road bikes",
+     "intent": "T",
+     "volume": 880,
+     "kd": 28
+    },
+    {
+     "keyword": "specialized bikes hardtail",
+     "intent": "T",
+     "volume": 880,
+     "kd": 17
+    },
+    {
+     "keyword": "specialized full suspension mountain bike",
+     "intent": "C",
+     "volume": 590,
+     "kd": 20
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "specialized mountain bike",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 10
+    },
+    {
+     "keyword": "specialized e bike",
+     "intent": "N",
+     "volume": 1000,
+     "kd": 16
+    },
+    {
+     "keyword": "specialized bikes uk",
+     "intent": "N",
+     "volume": 880,
+     "kd": 16
+    },
+    {
+     "keyword": "specialized full suspension bike",
+     "intent": "I",
+     "volume": 720,
+     "kd": 22
+    },
+    {
+     "keyword": "specialized hybrid bike",
+     "intent": "I",
+     "volume": 720,
+     "kd": 16
+    }
+   ]
+  },
+  {
+   "display": "Stromer electric bikes",
+   "url": "/brands/stromer/",
+   "dePath": "/marken/stromer",
+   "name": "Stromer",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "stromer electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Tenways",
+   "url": "/brands/tenways/",
+   "dePath": "/marken/tenways",
+   "name": "Tenways",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "tenways",
+    "intent": "N",
+    "volume": 1600,
+    "kd": 22,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "tenways ebike",
+     "intent": "T",
+     "volume": 480,
+     "kd": 25
+    },
+    {
+     "keyword": "tenways e bike",
+     "intent": "T",
+     "volume": 210,
+     "kd": 27
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "tenways bikes",
+     "intent": "N",
+     "volume": 390,
+     "kd": 14
+    },
+    {
+     "keyword": "tenways bike",
+     "intent": "N",
+     "volume": 260,
+     "kd": 14
+    },
+    {
+     "keyword": "tenways bicycle",
+     "intent": "N",
+     "volume": 170,
+     "kd": 15
+    }
+   ]
+  },
+  {
+   "display": "Trek bike",
+   "url": "/brands/trek/",
+   "dePath": "/marken/trek",
+   "name": "Trek",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "trek bike",
+    "intent": "N",
+    "volume": 9900,
+    "kd": 24,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "trek full suspension",
+     "intent": "T",
+     "volume": 2900,
+     "kd": 22
+    },
+    {
+     "keyword": "trek e bikes",
+     "intent": "T",
+     "volume": 1900,
+     "kd": 21
+    },
+    {
+     "keyword": "bike trek mtb",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "e bike mtb trek",
+     "intent": "T",
+     "volume": 1000,
+     "kd": 27
+    },
+    {
+     "keyword": "mtb bikes trek",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 28
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "trek bikes uk",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 16
+    },
+    {
+     "keyword": "trek road bike",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 24
+    },
+    {
+     "keyword": "trek full suspension mountain bike",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 22
+    },
+    {
+     "keyword": "trek cycles uk",
+     "intent": "N",
+     "volume": 1300,
+     "kd": 24
+    },
+    {
+     "keyword": "trek road bikes",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 23
+    }
+   ]
+  },
+  {
+   "display": "Urban Arrow",
+   "url": "/brands/urban-arrow/",
+   "dePath": "/marken/urban-arrow",
+   "name": "Urban Arrow",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "urban arrow",
+    "intent": "N",
+    "volume": 720,
+    "kd": 17,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "urban arrow cargo bike",
+     "intent": "T",
+     "volume": 320,
+     "kd": 16
+    },
+    {
+     "keyword": "urban arrow bike",
+     "intent": "T",
+     "volume": 260,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "urban arrow bicycle",
+     "intent": "N",
+     "volume": 140,
+     "kd": 18
+    }
+   ]
+  },
+  {
+   "display": "Winora electric bikes",
+   "url": "/brands/winora/",
+   "dePath": "/marken/winora",
+   "name": "Winora",
+   "type": "brand",
+   "source": "name",
+   "primary": {
+    "keyword": "winora electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Ebikes Bosch",
+   "url": "/brands/bosch/",
+   "dePath": "/marken/bosch",
+   "name": "Bosch motors",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "ebikes bosch",
+    "intent": "T",
+    "volume": 480,
+    "kd": 19,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bosch e bike",
+     "intent": "C",
+     "volume": 590,
+     "kd": 22
+    },
+    {
+     "keyword": "bosch ebike motor",
+     "intent": "T",
+     "volume": 320,
+     "kd": 25
+    },
+    {
+     "keyword": "battery bosch ebike",
+     "intent": "C",
+     "volume": 170,
+     "kd": 28
+    },
+    {
+     "keyword": "e bikes with bosch motor",
+     "intent": "C",
+     "volume": 140,
+     "kd": 16
+    },
+    {
+     "keyword": "bosch e bike motor",
+     "intent": "T",
+     "volume": 140,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bosch ebike",
+     "intent": "N",
+     "volume": 880,
+     "kd": 27
+    },
+    {
+     "keyword": "bosch performance line cx",
+     "intent": "I",
+     "volume": 720,
+     "kd": 19
+    },
+    {
+     "keyword": "bosch bike",
+     "intent": "N",
+     "volume": 390,
+     "kd": 24
+    },
+    {
+     "keyword": "bosch e bikes",
+     "intent": "I",
+     "volume": 390,
+     "kd": 18
+    },
+    {
+     "keyword": "bosch bicycle",
+     "intent": "N",
+     "volume": 320,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "E bike Shimano",
+   "url": "/brands/shimano/",
+   "dePath": "/marken/shimano",
+   "name": "Shimano STEPS",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "e bike shimano",
+    "intent": "T",
+    "volume": 170,
+    "kd": 21,
+    "source": "bank"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "shimano ep8 motor",
+     "intent": "I",
+     "volume": 390,
+     "kd": 22
+    },
+    {
+     "keyword": "shimano ep801",
+     "intent": "I",
+     "volume": 210,
+     "kd": 17
+    },
+    {
+     "keyword": "shimano ebike",
+     "intent": "I",
+     "volume": 140,
+     "kd": 12
+    },
+    {
+     "keyword": "shimano ep801 motor",
+     "intent": "I",
+     "volume": 140,
+     "kd": 16
+    },
+    {
+     "keyword": "shimano steps",
+     "intent": "I",
+     "volume": 140,
+     "kd": 16
+    }
+   ]
+  },
+  {
+   "display": "E bike motor Yamaha",
+   "url": "/brands/yamaha-motor/",
+   "dePath": "/marken/yamaha-motor",
+   "name": "Yamaha motors",
+   "type": "brand",
+   "source": "bank",
+   "primary": {
+    "keyword": "e bike motor yamaha",
+    "intent": "T",
+    "volume": 110,
+    "kd": 16,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "e bike yamaha",
+     "intent": "C",
+     "volume": 320,
+     "kd": 12
+    },
+    {
+     "keyword": "yamaha ebike motor",
+     "intent": "T",
+     "volume": 110,
+     "kd": 20
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "yamaha bicycle",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 26
+    },
+    {
+     "keyword": "yamaha ebike",
+     "intent": "I",
+     "volume": 880,
+     "kd": 21
+    },
+    {
+     "keyword": "yamaha e bikes",
+     "intent": "I",
+     "volume": 390,
+     "kd": 17
+    },
+    {
+     "keyword": "yamaha ebikes",
+     "intent": "I",
+     "volume": 260,
+     "kd": 27
+    }
+   ]
+  },
+  {
+   "display": "Abus bike lock",
+   "url": "/accessories/locks/",
+   "dePath": "/zubehoer/schloesser",
+   "name": "Bike locks",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "abus bike lock",
+    "intent": "T",
+    "volume": 880,
+    "kd": 24,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "best bike lock",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 28
+    },
+    {
+     "keyword": "bike chain lock",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 20
+    },
+    {
+     "keyword": "bicycle chain and lock",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 16
+    },
+    {
+     "keyword": "brake blocks for cycles",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 9
+    },
+    {
+     "keyword": "locks for cycles",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 26
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike lock",
+     "intent": "I",
+     "volume": 12100,
+     "kd": 14
+    },
+    {
+     "keyword": "brake blocks cycle",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 23
+    },
+    {
+     "keyword": "d lock for cycle",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 18
+    },
+    {
+     "keyword": "bike chain padlock",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 16
+    },
+    {
+     "keyword": "d lock bike",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Bike helmet women",
+   "url": "/accessories/helmets/",
+   "dePath": "/zubehoer/helme",
+   "name": "Helmets",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bike helmet women",
+    "intent": "T",
+    "volume": 720,
+    "kd": 26,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "male cycle helmet",
+     "intent": "C",
+     "volume": 3600,
+     "kd": 26
+    },
+    {
+     "keyword": "road bike cycling helmets",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 23
+    },
+    {
+     "keyword": "helmet bike mens",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 28
+    },
+    {
+     "keyword": "ladies cycle helmets",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "bicycle road helmets",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 21
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike helmet cycling",
+     "intent": "I",
+     "volume": 3600,
+     "kd": 21
+    },
+    {
+     "keyword": "cycle helmet cycle",
+     "intent": "I",
+     "volume": 3600,
+     "kd": 25
+    },
+    {
+     "keyword": "cycle helmet female",
+     "intent": "I",
+     "volume": 2900,
+     "kd": 28
+    },
+    {
+     "keyword": "road bike helmet",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 18
+    },
+    {
+     "keyword": "bicycle helmet female",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 19
+    }
+   ]
+  },
+  {
+   "display": "Panniers bicycle",
+   "url": "/accessories/bags-baskets/",
+   "dePath": "/zubehoer/taschen-koerbe",
+   "name": "Bags and baskets",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "panniers bicycle",
+    "intent": "T",
+    "volume": 320,
+    "kd": 26,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cycle panniers",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 25
+    },
+    {
+     "keyword": "panniers bike",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 25
+    },
+    {
+     "keyword": "bike pannier",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 28
+    },
+    {
+     "keyword": "cycle pannier",
+     "intent": "C",
+     "volume": 590,
+     "kd": 24
+    },
+    {
+     "keyword": "bike panniers uk",
+     "intent": "C",
+     "volume": 260,
+     "kd": 21
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicycle with panniers",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 25
+    },
+    {
+     "keyword": "bicycle basketball",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 18
+    },
+    {
+     "keyword": "basketbike",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 20
+    },
+    {
+     "keyword": "panniers for bikes",
+     "intent": "I",
+     "volume": 720,
+     "kd": 27
+    },
+    {
+     "keyword": "bikebasket",
+     "intent": "I",
+     "volume": 590,
+     "kd": 16
+    }
+   ]
+  },
+  {
+   "display": "Racks, seats and trailers for electric bikes",
+   "url": "/accessories/racks-trailers/",
+   "dePath": "/zubehoer/gepaecktraeger-anhaenger",
+   "name": "Racks, seats and trailers",
+   "type": "accessory",
+   "source": "name",
+   "primary": {
+    "keyword": "racks, seats and trailers for electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "display": "Kickstand for bike",
+   "url": "/accessories/mudguards-stands/",
+   "dePath": "/zubehoer/schutzbleche-staender",
+   "name": "Mudguards and stands",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "kickstand for bike",
+    "intent": "T",
+    "volume": 210,
+    "kd": 10,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike mud guards",
+     "intent": "C",
+     "volume": 480,
+     "kd": 18
+    },
+    {
+     "keyword": "mud guards for mountain bikes",
+     "intent": "C",
+     "volume": 480,
+     "kd": 15
+    },
+    {
+     "keyword": "bike fenders",
+     "intent": "C",
+     "volume": 390,
+     "kd": 25
+    },
+    {
+     "keyword": "bicycle mud guards",
+     "intent": "C",
+     "volume": 260,
+     "kd": 27
+    },
+    {
+     "keyword": "mud guards for road bike",
+     "intent": "C",
+     "volume": 210,
+     "kd": 24
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "mud guards for bicycles",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 18
+    },
+    {
+     "keyword": "bike kickstand",
+     "intent": "I",
+     "volume": 720,
+     "kd": 17
+    },
+    {
+     "keyword": "bicycle kickstand",
+     "intent": "I",
+     "volume": 720,
+     "kd": 19
+    },
+    {
+     "keyword": "kickstand on a bike",
+     "intent": "I",
+     "volume": 590,
+     "kd": 23
+    },
+    {
+     "keyword": "kickstand on bike",
+     "intent": "I",
+     "volume": 590,
+     "kd": 25
+    }
+   ]
+  },
+  {
+   "display": "Bike phone holder",
+   "url": "/accessories/phone-holders/",
+   "dePath": "/zubehoer/handyhalter",
+   "name": "Phone holders",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bike phone holder",
+    "intent": "C",
+    "volume": 3600,
+    "kd": 27,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "cell phone holder for bike",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "cycle phone holder",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "bicycle mobile phone holder",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 22
+    },
+    {
+     "keyword": "phone holder for the bike",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 27
+    },
+    {
+     "keyword": "bicycle mount phone holder",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 20
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicycle phone holder",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 27
+    },
+    {
+     "keyword": "bicycle cell phone mount",
+     "intent": "C",
+     "volume": 880,
+     "kd": 27
+    },
+    {
+     "keyword": "cycle mobile phone holder",
+     "intent": "C",
+     "volume": 880,
+     "kd": 22
+    },
+    {
+     "keyword": "phone mounting for bike",
+     "intent": "C",
+     "volume": 720,
+     "kd": 24
+    },
+    {
+     "keyword": "bicycle cell phone holder",
+     "intent": "C",
+     "volume": 720,
+     "kd": 22
+    }
+   ]
+  },
+  {
+   "display": "Bike cleaner",
+   "url": "/accessories/tools-care/",
+   "dePath": "/zubehoer/werkzeug-pflege",
+   "name": "Tools and care",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bike cleaner",
+    "intent": "C",
+    "volume": 880,
+    "kd": 23,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bicycle lubricant",
+     "intent": "C",
+     "volume": 480,
+     "kd": 14
+    },
+    {
+     "keyword": "bicycle degreaser",
+     "intent": "C",
+     "volume": 480,
+     "kd": 22
+    },
+    {
+     "keyword": "cycle lubricant",
+     "intent": "C",
+     "volume": 320,
+     "kd": 20
+    },
+    {
+     "keyword": "best bike multi tool",
+     "intent": "C",
+     "volume": 260,
+     "kd": 28
+    },
+    {
+     "keyword": "bike multitool",
+     "intent": "C",
+     "volume": 210,
+     "kd": 15
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike puncture repair",
+     "intent": "I",
+     "volume": 720,
+     "kd": 18
+    },
+    {
+     "keyword": "bike degreaser",
+     "intent": "I",
+     "volume": 720,
+     "kd": 23
+    },
+    {
+     "keyword": "cycle-on multi tool",
+     "intent": "I",
+     "volume": 720,
+     "kd": 22
+    },
+    {
+     "keyword": "bicycle puncture repair",
+     "intent": "I",
+     "volume": 590,
+     "kd": 23
+    },
+    {
+     "keyword": "bike lubricant",
+     "intent": "I",
+     "volume": 480,
+     "kd": 17
+    }
+   ]
+  },
+  {
+   "display": "Bike poncho",
+   "url": "/accessories/rain-clothing/",
+   "dePath": "/zubehoer/regenschutz-bekleidung",
+   "name": "Rain protection",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bike poncho",
+    "intent": "T",
+    "volume": 390,
+    "kd": 13,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike cover",
+     "intent": "C",
+     "volume": 5400,
+     "kd": 20
+    },
+    {
+     "keyword": "bike coverings",
+     "intent": "C",
+     "volume": 3600,
+     "kd": 20
+    },
+    {
+     "keyword": "bike cover waterproof",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 25
+    },
+    {
+     "keyword": "bike covers",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "waterproof bike trousers",
+     "intent": "C",
+     "volume": 720,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike bike cover",
+     "intent": "I",
+     "volume": 4400,
+     "kd": 16
+    },
+    {
+     "keyword": "water resistant bike cover",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 17
+    },
+    {
+     "keyword": "bicycle waterproof trousers",
+     "intent": "C",
+     "volume": 720,
+     "kd": 23
+    },
+    {
+     "keyword": "bicycle cover waterproof",
+     "intent": "C",
+     "volume": 720,
+     "kd": 18
+    },
+    {
+     "keyword": "bike covers waterproof",
+     "intent": "C",
+     "volume": 720,
+     "kd": 26
+    }
+   ]
+  },
+  {
+   "display": "Lezyne bike lights",
+   "url": "/accessories/lights/",
+   "dePath": "/zubehoer/beleuchtung",
+   "name": "Bike lights",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "lezyne bike lights",
+    "intent": "T",
+    "volume": 1300,
+    "kd": 22,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "rear bike light",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "rechargeable bike lights",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 22
+    },
+    {
+     "keyword": "front bike light",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 28
+    },
+    {
+     "keyword": "mountain bike lights",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 23
+    },
+    {
+     "keyword": "top rated bike headlights",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 25
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cateye bike lights",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 23
+    },
+    {
+     "keyword": "bike lights mountain biking",
+     "intent": "C",
+     "volume": 880,
+     "kd": 26
+    },
+    {
+     "keyword": "front bike headlight",
+     "intent": "C",
+     "volume": 880,
+     "kd": 24
+    },
+    {
+     "keyword": "knog bike lights",
+     "intent": "T",
+     "volume": 880,
+     "kd": 28
+    },
+    {
+     "keyword": "front bike lamp",
+     "intent": "C",
+     "volume": 880,
+     "kd": 22
+    }
+   ]
+  },
+  {
+   "display": "Cushion saddle bike",
+   "url": "/accessories/saddles-handlebars/",
+   "dePath": "/zubehoer/sattel-lenker",
+   "name": "Saddles and handlebars",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "cushion saddle bike",
+    "intent": "T",
+    "volume": 590,
+    "kd": 22,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "bike saddle",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 24
+    },
+    {
+     "keyword": "bike bell",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 28
+    },
+    {
+     "keyword": "mt bike grips",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 23
+    },
+    {
+     "keyword": "mountain bike grips",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 24
+    },
+    {
+     "keyword": "bicycle saddle",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 17
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike grips",
+     "intent": "I",
+     "volume": 2900,
+     "kd": 27
+    },
+    {
+     "keyword": "bell bike bell",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 12
+    },
+    {
+     "keyword": "saddle in bike",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 27
+    },
+    {
+     "keyword": "saddle bicycle seats",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 28
+    },
+    {
+     "keyword": "saddle of bicycle",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 18
+    }
+   ]
+  },
+  {
+   "display": "Bike accessories sale",
+   "url": "/accessories/",
+   "dePath": "/zubehoer",
+   "name": "E-bike accessories",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bike accessories sale",
+    "intent": "T",
+    "volume": 110,
+    "kd": 9,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "childrens cycle accessories",
+     "intent": "C",
+     "volume": 720,
+     "kd": 14
+    },
+    {
+     "keyword": "accessories for mountain bikers",
+     "intent": "C",
+     "volume": 720,
+     "kd": 21
+    },
+    {
+     "keyword": "e bike accessories",
+     "intent": "C",
+     "volume": 720,
+     "kd": 16
+    },
+    {
+     "keyword": "bike and accessories",
+     "intent": "C",
+     "volume": 260,
+     "kd": 28
+    },
+    {
+     "keyword": "cool bike accessories",
+     "intent": "C",
+     "volume": 260,
+     "kd": 22
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicycle accessories",
+     "intent": "-",
+     "volume": 2400,
+     "kd": 27
+    },
+    {
+     "keyword": "mountain bike accessories",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 20
+    },
+    {
+     "keyword": "ebike accessories",
+     "intent": "I",
+     "volume": 720,
+     "kd": 9
+    },
+    {
+     "keyword": "kids bike accessories",
+     "intent": "I",
+     "volume": 590,
+     "kd": 17
+    },
+    {
+     "keyword": "childrens bike accessories",
+     "intent": "I",
+     "volume": 480,
+     "kd": 22
+    }
+   ]
+  },
+  {
+   "display": "E bike brands",
+   "url": "/brands/",
+   "dePath": "/marken",
+   "name": "Brands",
+   "type": "hub",
+   "source": "bank",
+   "primary": {
+    "keyword": "e bike brands",
+    "intent": "C",
+    "volume": 170,
+    "kd": 6,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "best electric bike brands",
+     "intent": "C",
+     "volume": 140,
+     "kd": 28
+    },
+    {
+     "keyword": "best electric bicycle brands",
+     "intent": "C",
+     "volume": 110,
+     "kd": 25
+    },
+    {
+     "keyword": "e bike manufacturers",
+     "intent": "C",
+     "volume": 90,
+     "kd": 27
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "ebike manufacturer",
+     "intent": "I",
+     "volume": 110,
+     "kd": 24
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+const fs = require('fs');
+let t = fs.readFileSync('scripts/_fr-products.cjs', 'utf8');
+t = t.replace("const plan = require('./_lang-plan.cjs').fr;", "const lang = process.argv[2] || 'fr';\nconst plan = require('./_lang-plan.cjs')[lang];\nconst BUY = { fr: 'acheter ', en: 'buy ' }[lang];");
+t = t.replace("require(root + '/02-site-architecture/cfg_fr.js')", "require(root + '/02-site-architecture/cfg_' + lang + '.js')");
+t = t.replace("`${root}/03-keywords/by-market/fr/fr_master_merged.csv`", "`${root}/03-keywords/by-market/${plan.bankDir || lang}/${plan.bankDir || lang}_master_merged.csv`");
+t = t.replace("require('../data/keywords/fr-live.json')", "require('../data/keywords/' + lang + '-live.json')");
+t = t.replace("!/^(riese|muller|et)$/.test(t)", "!/^(riese|muller|et|and)$/.test(t)");
+t = t.replace("keyword: 'acheter ' + norm(m.name)", "keyword: BUY + norm(m.name)");
+t = t.replace("const frp = ", "const frp = ");
+t = t.replace("data/keywords/fr-products.json'", "data/keywords/' + lang + '-products.json'");
+fs.writeFileSync('scripts/_lang-products.cjs', t);
+console.log(t.includes('BUY + norm'), t.includes("lang + '-products.json'"));

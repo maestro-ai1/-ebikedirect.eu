@@ -13,7 +13,7 @@ const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.l
 const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : /Navigational/.test(x) ? 'N' : /Informational/.test(x) ? 'I' : '-');
 const GUARD = new RegExp(plan.guard, 'i');
 const bank = [];
-for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + lang + '/' + lang + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
+for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;
   if (kd === null || kd > 28 || vol < (plan.floor || 50)) continue;
   bank.push({ keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
@@ -33,7 +33,7 @@ for (const t of BATCH) {
   let primary = own.primary && !bad(own.primary.keyword) && !used.has(nk(own.primary.keyword)) && (own.primary.intent === 'T' || own.primary.intent === 'C') ? own.primary : null;
   const rel0 = new RegExp(t.rel, 'i'); const ELEC = new RegExp(plan.elec, 'i'); const rel = { test: (k) => rel0.test(k) && (t.needElectric === false || ELEC.test(k)) }; const exclude = t.exclude ? new RegExp(t.exclude, 'i') : null;
   const pool = bank.filter((b) => rel.test(b.keyword) && !(exclude && exclude.test(b.keyword)) && !bad(b.keyword) && !used.has(nk(b.keyword)));
-  if (!primary) { const c = pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }
+  if (!primary) { const pe = pool.filter((b) => ELEC.test(b.keyword)); const c = pe.find((b) => b.intent === 'T') || pe.find((b) => b.intent === 'C') || pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }
   if (primary) claim(primary);
   let secondary = keep(own.secondary).filter((k) => rel.test(k.keyword) && !(exclude && exclude.test(k.keyword)));
   secondary.forEach(claim);

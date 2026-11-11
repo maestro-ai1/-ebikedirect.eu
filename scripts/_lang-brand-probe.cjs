@@ -6,7 +6,7 @@ const plan = require('./_lang-plan.cjs')[lang];
 const brands = [...new Set(Object.values(require('../data/keywords/products.json').products).filter((p) => p.category !== 'Zubehör').map((p) => p.brand))];
 const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.length; i++) { const c = l[i]; if (q) { if (c === '"') { if (l[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; } else if (c === '"') q = true; else if (c === ',') { o.push(f); f = ''; } else f += c; } o.push(f); return o; };
 const bank = [];
-for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + lang + '/' + lang + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) { if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0; if (kd === null || kd > 28 || vol < plan.floor) continue; bank.push({ k: p[0].toLowerCase(), intent: p[1], vol, kd }); }
+for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) { if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0; if (kd === null || kd > 28 || vol < plan.floor) continue; bank.push({ k: p[0].toLowerCase(), intent: p[1], vol, kd }); }
 const VOC = new RegExp('^(' + plan.vocab + ')$', 'i');
 const GUARD = new RegExp(plan.guard, 'i');
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
