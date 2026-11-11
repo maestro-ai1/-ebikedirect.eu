@@ -951,11 +951,11 @@
    ]
   },
   "flyer-g1-upstreet-tr-cf-7-63-hs-eu-nl-schloss-700-wh-29-zoll": {
-   "name": "Flyer G1 Upstreet TR:CF 7.63 HS EU (NL-Schloss)",
+   "name": "Flyer G1 Upstreet TR:CF 7.63 HS EU (Dutch frame lock)",
    "brand": "Flyer",
    "category": "Speed-Pedelec",
    "primary": {
-    "keyword": "buy flyer g1 upstreet tr:cf 7.63 hs eu (nl-schloss)",
+    "keyword": "buy flyer g1 upstreet tr:cf 7.63 hs eu (dutch frame lock)",
     "intent": "T",
     "volume": 0,
     "kd": null,
@@ -2263,11 +2263,11 @@
    "faq": []
   },
   "flyer-g1-upstreet-tr-cf-7-63-nl-schloss-700-wh-29-zoll": {
-   "name": "Flyer G1 Upstreet TR:CF 7.63 (NL-Schloss)",
+   "name": "Flyer G1 Upstreet TR:CF 7.63 (Dutch frame lock)",
    "brand": "Flyer",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "buy flyer g1 upstreet tr:cf 7.63 (nl-schloss)",
+    "keyword": "buy flyer g1 upstreet tr:cf 7.63 (dutch frame lock)",
     "intent": "T",
     "volume": 0,
     "kd": null,
@@ -2333,11 +2333,11 @@
    "faq": []
   },
   "flyer-g1-gotour-7-23-nl-schloss-750-wh-28-zoll": {
-   "name": "Flyer G1 Gotour 7.23 (NL-Schloss)",
+   "name": "Flyer G1 Gotour 7.23 (Dutch frame lock)",
    "brand": "Flyer",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "buy flyer g1 gotour 7.23 (nl-schloss)",
+    "keyword": "buy flyer g1 gotour 7.23 (dutch frame lock)",
     "intent": "T",
     "volume": 0,
     "kd": null,
@@ -2347,11 +2347,11 @@
    "faq": []
   },
   "flyer-g2-gotour-7-23-nl-schloss-800-wh-28-zoll": {
-   "name": "Flyer G2 Gotour 7.23 (NL-Schloss)",
+   "name": "Flyer G2 Gotour 7.23 (Dutch frame lock)",
    "brand": "Flyer",
    "category": "E-City",
    "primary": {
-    "keyword": "buy flyer g2 gotour 7.23 (nl-schloss)",
+    "keyword": "buy flyer g2 gotour 7.23 (dutch frame lock)",
     "intent": "T",
     "volume": 0,
     "kd": null,
