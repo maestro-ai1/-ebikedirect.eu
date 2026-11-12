@@ -42,7 +42,7 @@ for (const t of BATCH) {
   const pool = bank.filter((b) => rel.test(b.keyword) && !(exclude && exclude.test(b.keyword)) && !bad(b.keyword) && !used.has(nk(b.keyword)));
   if (!primary) { const pe = pool.filter((b) => ELEC.test(b.keyword)); const c = pe.find((b) => b.intent === 'T') || pe.find((b) => b.intent === 'C') || pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }
   if (primary) claim(primary);
-  let secondary = keep(own.secondary).filter((k) => rel.test(k.keyword) && !(exclude && exclude.test(k.keyword)));
+  let secondary = keep(own.secondary).filter((k) => (k.intent === 'T' || k.intent === 'C') && rel.test(k.keyword) && !(exclude && exclude.test(k.keyword)));
   secondary.forEach(claim);
   for (const b of pool) { if (secondary.length >= 5) break; if ((b.intent === 'T' || b.intent === 'C') && !used.has(nk(b.keyword))) secondary.push(claim(b)); }
   let faq = keep(own.faq).filter((k) => rel.test(k.keyword) && !(exclude && exclude.test(k.keyword)));

@@ -33,16 +33,16 @@
      "intent": "C"
     },
     {
-     "keyword": "ebike mtb",
-     "volume": 1300,
-     "kd": 23,
-     "intent": "I"
-    },
-    {
      "keyword": "full suspension electric bike",
      "volume": 1300,
      "kd": 15,
      "intent": "C"
+    },
+    {
+     "keyword": "electric mountain bike uk",
+     "intent": "C",
+     "volume": 1900,
+     "kd": 22
     }
    ],
    "faq": [
@@ -65,16 +65,16 @@
      "intent": "I"
     },
     {
-     "keyword": "electric mountain bike uk",
-     "volume": 1900,
-     "kd": 22,
-     "intent": "C"
-    },
-    {
      "keyword": "full suspension e bike",
      "volume": 1600,
      "kd": 11,
      "intent": "I"
+    },
+    {
+     "keyword": "full suspension e mtb",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 22
     }
    ]
   },
@@ -240,28 +240,16 @@
      "intent": "T"
     },
     {
-     "keyword": "fast ebikes",
-     "volume": 480,
-     "kd": 20,
-     "intent": "I"
-    },
-    {
-     "keyword": "cheapest fast ebike",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "fast electric bikes for adults",
      "volume": 110,
      "kd": 7,
      "intent": "C"
     },
     {
-     "keyword": "2 fast ebikes",
-     "volume": 390,
-     "kd": 24,
-     "intent": "I"
+     "keyword": "fast electric bike uk",
+     "intent": "C",
+     "volume": 260,
+     "kd": 8
     }
    ],
    "faq": [
@@ -290,10 +278,10 @@
      "intent": "I"
     },
     {
-     "keyword": "fast electric bike uk",
-     "volume": 260,
-     "kd": 8,
-     "intent": "C"
+     "keyword": "fast e bike",
+     "intent": "I",
+     "volume": 480,
+     "kd": 22
     }
    ]
   },
@@ -317,12 +305,6 @@
      "intent": "C"
     },
     {
-     "keyword": "e bike cargo",
-     "volume": 720,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
      "keyword": "ebike with cargo",
      "volume": 320,
      "kd": 23,
@@ -339,6 +321,12 @@
      "intent": "T",
      "volume": 6600,
      "kd": 19
+    },
+    {
+     "keyword": "cargo bikes",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 9
     }
    ],
    "faq": [
@@ -355,10 +343,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cargo bikes",
-     "intent": "C",
-     "volume": 2400,
-     "kd": 9
+     "keyword": "e bike cargo",
+     "intent": "I",
+     "volume": 720,
+     "kd": 13
     },
     {
      "keyword": "cargo for bike",
@@ -388,12 +376,6 @@
    },
    "secondary": [
     {
-     "keyword": "folding electric bike",
-     "volume": 8100,
-     "kd": 10,
-     "intent": "I"
-    },
-    {
      "keyword": "foldable electric bike",
      "volume": 3600,
      "kd": 18,
@@ -406,16 +388,22 @@
      "intent": "C"
     },
     {
-     "keyword": "fold up electric bike",
-     "volume": 1600,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
      "keyword": "electric folding bikes",
      "intent": "C",
      "volume": 1600,
      "kd": 15
+    },
+    {
+     "keyword": "electric folding bicycle",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 28
+    },
+    {
+     "keyword": "electric folding bike uk",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 28
     }
    ],
    "faq": [
@@ -438,16 +426,16 @@
      "intent": "C"
     },
     {
-     "keyword": "electric folding bicycle",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 28
+     "keyword": "folding electric bike",
+     "intent": "I",
+     "volume": 8100,
+     "kd": 10
     },
     {
-     "keyword": "electric folding bike uk",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 28
+     "keyword": "fold up electric bike",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 25
     }
    ]
   },
@@ -619,12 +607,6 @@
      "intent": "C"
     },
     {
-     "keyword": "ladies ebike",
-     "volume": 880,
-     "kd": 5,
-     "intent": "I"
-    },
-    {
      "keyword": "ladies e bike",
      "intent": "C",
      "volume": 1600,
@@ -635,6 +617,12 @@
      "intent": "C",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "electric bike women",
+     "intent": "C",
+     "volume": 880,
+     "kd": 11
     }
    ],
    "faq": [
@@ -651,10 +639,10 @@
      "kd": 12
     },
     {
-     "keyword": "electric bike women",
-     "intent": "C",
+     "keyword": "ladies ebike",
+     "intent": "I",
      "volume": 880,
-     "kd": 11
+     "kd": 5
     },
     {
      "keyword": "ladies electric bicycle",
