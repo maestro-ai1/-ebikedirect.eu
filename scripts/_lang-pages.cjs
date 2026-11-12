@@ -12,10 +12,15 @@ const nk = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '
 const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.length; i++) { const c = l[i]; if (q) { if (c === '"') { if (l[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; } else if (c === '"') q = true; else if (c === ',') { o.push(f); f = ''; } else f += c; } o.push(f); return o; };
 const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : /Navigational/.test(x) ? 'N' : /Informational/.test(x) ? 'I' : '-');
 const GUARD = new RegExp(plan.guard, 'i');
+const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync('C:/electric bikes europe/03-keywords/by-market/uk/uk_refreshed_keys.json', 'utf8'))) : null;
 const bank = [];
+const idx = new Map(); // every bank row by keyword (all KD): stored map keywords are re-read from the bank so refreshed Semrush values always win
+
 for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;
+  idx.set(p[0].toLowerCase(), { keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
   if (kd === null || kd > 28 || vol < (plan.floor || 50)) continue;
+  if (REF && !REF.has(p[0].toLowerCase())) continue;
   bank.push({ keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
 }
 bank.sort((a, b) => b.volume - a.volume);
@@ -29,8 +34,10 @@ const bad = (k) => GUARD.test(k) || (cfg.RETAIL && cfg.RETAIL.test(k)) || (cfg.J
 for (const t of BATCH) {
   const own = ownPage(t.mapUrl) || { primary: null, secondary: [], faq: [] };
   const claim = (k) => { used.add(nk(k.keyword)); return k; };
-  const keep = (arr) => (arr || []).filter((k) => !bad(k.keyword) && !used.has(nk(k.keyword)) && k.kd != null && k.kd <= 30);
-  let primary = own.primary && !bad(own.primary.keyword) && !used.has(nk(own.primary.keyword)) && (own.primary.intent === 'T' || own.primary.intent === 'C') ? own.primary : null;
+  const fresh = (k) => { const b = idx.get(k.keyword.toLowerCase()); return b ? { ...k, intent: b.intent, volume: b.volume, kd: b.kd } : k; };
+  const keep = (arr) => (arr || []).map(fresh).filter((k) => (!REF || REF.has(k.keyword.toLowerCase())) && !bad(k.keyword) && !used.has(nk(k.keyword)) && k.kd != null && (k.kd <= 28 || (k.kd <= 30 && k.volume >= 1000)));
+  const ownP = own.primary ? fresh(own.primary) : null;
+  let primary = ownP && (!REF || REF.has(ownP.keyword.toLowerCase())) && ownP.kd != null && ownP.kd <= 28 && !bad(ownP.keyword) && !used.has(nk(ownP.keyword)) && (ownP.intent === 'T' || ownP.intent === 'C') ? ownP : null;
   const rel0 = new RegExp(t.rel, 'i'); const ELEC = new RegExp(plan.elec, 'i'); const rel = { test: (k) => rel0.test(k) && (t.needElectric === false || ELEC.test(k)) }; const exclude = t.exclude ? new RegExp(t.exclude, 'i') : null;
   const pool = bank.filter((b) => rel.test(b.keyword) && !(exclude && exclude.test(b.keyword)) && !bad(b.keyword) && !used.has(nk(b.keyword)));
   if (!primary) { const pe = pool.filter((b) => ELEC.test(b.keyword)); const c = pe.find((b) => b.intent === 'T') || pe.find((b) => b.intent === 'C') || pool.find((b) => b.intent === 'T') || pool.find((b) => b.intent === 'C') || pool[0]; if (c) primary = c; }

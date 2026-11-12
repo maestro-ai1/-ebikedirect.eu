@@ -14,10 +14,12 @@ const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.l
 const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : /Navigational/.test(x) ? 'N' : /Informational/.test(x) ? 'I' : '-');
 const GUARD = new RegExp(plan.guard, 'i');
 const cfg = require(root + '/02-site-architecture/cfg_en.js');
+const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync('C:/electric bikes europe/03-keywords/by-market/uk/uk_refreshed_keys.json', 'utf8'))) : null;
 const bank = [];
 for (const l of fs.readFileSync(`${root}/03-keywords/by-market/${plan.bankDir}/${plan.bankDir}_master_merged.csv`, 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;
-  if (kd === null || kd > 28 || vol < plan.floor) continue;
+  if (kd === null || kd > 28 || vol < Math.min(plan.floor, 10)) continue;
+  if (REF && !REF.has(p[0].toLowerCase())) continue;
   bank.push({ keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
 }
 bank.sort((a, b) => b.volume - a.volume);
@@ -47,7 +49,7 @@ for (const d of brandDefs) {
   const others = otherBrandRe(d);
   const extraRe = d.extra ? new RegExp('^(' + d.extra + ')$', 'i') : null;
   const pool = bank.filter((r) => {
-    if (GUARD.test(r.keyword) || (cfg.RETAIL && cfg.RETAIL.test(r.keyword)) || (cfg.JUNK && cfg.JUNK.test(r.keyword)) || NOTSOLD.test(r.keyword)) return false;
+    if (GUARD.test(r.keyword) || (cfg.RETAIL && cfg.RETAIL.test(r.keyword)) || (cfg.JUNK && cfg.JUNK.test(r.keyword) && !/kettler/.test(r.keyword)) || NOTSOLD.test(r.keyword)) return false;
     if (used.has(nk(r.keyword))) return false;
     const k = norm(r.keyword); const tk = k.split(/[^a-z0-9]+/).filter(Boolean);
     if (new Set(tk).size !== tk.length) return false;
@@ -76,7 +78,7 @@ const ACC = [
   { url: '/accessories/locks/', de: 'schloesser', name: 'Bike locks', rel: '(' + String.fromCharCode(92) + 'block' + String.fromCharCode(92) + 'b|locks|d lock|chain lock|folding lock|padlock|anti theft)', ex: '(car|motorbike|scooter|door|house|combination key|key replacement|alarm)' },
   { url: '/accessories/helmets/', de: 'helme', name: 'Helmets', rel: 'helmets?', ex: '(motorbike|motorcycle|biker|ski|snow|climbing|riding|horse|kids|baby|toddler|camera|bluetooth)' },
   { url: '/accessories/bags-baskets/', de: 'taschen-koerbe', name: 'Bags and baskets', rel: '(pannier|basket|bike bag|saddle bag|handlebar bag|frame bag|top tube bag)', ex: '(motorbike|dog|child|backpack)' },
-  { url: '/accessories/racks-trailers/', de: 'gepaecktraeger-anhaenger', name: 'Racks, seats and trailers', rel: '(luggage rack|rear rack|pannier rack|bike rack|child seat|baby seat|bike trailer|cargo trailer|front rack)', ex: '(car|roof|tow ?bar|boot|van|caravan|motorbike|dog)' },
+  { url: '/accessories/racks-trailers/', de: 'gepaecktraeger-anhaenger', name: 'Racks, seats and trailers', rel: '(luggage rack|rear rack|pannier rack|bike rack|bicycle rack|child seat|baby seat|child bike seat|bike seat|bike trailer|bicycle trailer|cargo trailer|front rack)', ex: '(car|roof|tow ?bar|boot|van|caravan|motorbike|dog)' },
   { url: '/accessories/mudguards-stands/', de: 'schutzbleche-staender', name: 'Mudguards and stands', rel: '(mudguards?|mud guards?|fenders?|kickstand|bike stand|parking stand)', ex: '(car|motorbike|scooter|child)' },
   { url: '/accessories/phone-holders/', de: 'handyhalter', name: 'Phone holders', rel: '(phone (holder|mount)|smartphone (holder|mount)|phone cradle)', ex: '(motorbike|car|desk|table|dash)' },
   { url: '/accessories/tools-care/', de: 'werkzeug-pflege', name: 'Tools and care', rel: '(pump|multi ?tool|repair kit|puncture repair|chain lube|lubricant|degreaser|bike cleaner|bike wash|chain cleaner)', ex: '(car|motorbike|scooter|pool|garden|compressor|shock|fork|suspension)' },
@@ -87,7 +89,7 @@ const ACC = [
 ];
 for (const a of ACC) {
   const rel = new RegExp(a.rel, 'i'), ex = new RegExp(a.ex, 'i'), bike = new RegExp(BIKE, 'i');
-  const pool = bank.filter((r) => rel.test(r.keyword) && !ex.test(r.keyword) && bike.test(r.keyword) && !(GUARD.test(r.keyword) && !/helmet|lock|light|bell/.test(a.rel)) && !(cfg.RETAIL && cfg.RETAIL.test(r.keyword)) && !(cfg.JUNK && cfg.JUNK.test(r.keyword)) && !NOTSOLD.test(r.keyword) && !(a.url === '/accessories/' && new RegExp(plan.brands, 'i').test(r.keyword)) && !used.has(nk(r.keyword)));
+  const pool = bank.filter((r) => rel.test(r.keyword) && !ex.test(r.keyword) && bike.test(r.keyword) && !(GUARD.test(r.keyword) && !/helmet|lock|light|bell|trailer/.test(a.rel)) && !(cfg.RETAIL && cfg.RETAIL.test(r.keyword)) && !(cfg.JUNK && cfg.JUNK.test(r.keyword)) && !NOTSOLD.test(r.keyword) && !(a.url === '/accessories/' && new RegExp(plan.brands, 'i').test(r.keyword)) && !used.has(nk(r.keyword)));
   const clean = pool.filter((r) => !/(second ?hand|used|review|test|vs|finance|\$|under \d)/i.test(r.keyword));
   const primary = clean.find((r) => r.intent === 'T') || clean.find((r) => r.intent === 'C') || clean[0] || null;
   if (primary) used.add(nk(primary.keyword));
