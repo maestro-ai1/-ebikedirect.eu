@@ -42,7 +42,7 @@ const EN_PC: Record<string, string> = {
   'Couleur du cadre': 'Frame colour',
   'Remise crypto de 10 % : économisez': '10% crypto discount: save',
   'Prix en paiement USDT (TRC-20/ERC-20) ou Bitcoin :': 'Price when paying with USDT (TRC-20/ERC-20) or Bitcoin:',
-  'Expédition assurée par transporteur, port gratuit dès 10 000 €': 'Insured freight carrier delivery, free shipping from 10,000 €',
+  'Expédition assurée par transporteur, port gratuit dès 1 000 €': 'Insured freight carrier delivery, free shipping from 1,000 €',
   'Ajouter au panier': 'Add to basket',
   'Acheter maintenant': 'Buy now',
   'Commande minimum dans la boutique : 500,00 €. Cet article atteint le seuil.': 'Minimum order in the shop: 500.00 €. This item meets the minimum.',
@@ -321,7 +321,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                       {currentPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
                     </span>
                     <span className="text-xs text-gray-500 block">
-                      {fr ? tr('Expédition assurée par transporteur, port gratuit dès 10 000 €') : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 10.000 €'}
+                      {fr ? tr('Expédition assurée par transporteur, port gratuit dès 1 000 €') : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 1.000 €'}
                     </span>
                   </div>
                   <div className="text-xs text-gray-500">

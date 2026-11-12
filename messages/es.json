@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Pedido mínimo 500 € · Entrega especializada en palet",
-    "freeShipping": "Envío gratuito en Europa a partir de 10.000 €",
+    "freeShipping": "Envío gratuito en Europa a partir de 1.000 €",
     "cryptoDiscount": "10% Descuento Extra pagando con criptomonedas (USDT / BTC)",
     "trustpilot": "Trustpilot 4.9/5 · Más de 5.000 opiniones verificadas en Europa"
   },
   "valueProps": {
-    "freeShippingTitle": "Envío Gratuito desde 10.000 €",
+    "freeShippingTitle": "Envío Gratuito desde 1.000 €",
     "freeShippingSub": "Entrega asegurada con plataforma elevadora",
     "cryptoTitle": "10% Descuento Crypto",
     "cryptoSub": "Descuento inmediato con USDT y BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "con Crypto",
     "cryptoDiscountBadge": "-10% con Crypto",
     "cryptoCashDiscount": "con 10% de descuento crypto",
-    "inclVat": "Envío gratis a partir de 10.000 €",
+    "inclVat": "Envío gratis a partir de 1.000 €",
     "frameSize": "Talla de Cuadro",
     "batteryConfig": "Configuración de Batería",
     "color": "Color",
@@ -88,7 +88,7 @@
     "freeShippingActive": "¡Envío gratuito activado!",
     "stillMissing": "Aún",
     "untilFreeShipping": "para el envío gratuito",
-    "freeShippingDesc": "Entrega gratuita en palet con plataforma elevadora a partir de 10.000 €.",
+    "freeShippingDesc": "Entrega gratuita en palet con plataforma elevadora a partir de 1.000 €.",
     "frame": "Cuadro",
     "battery": "Batería",
     "color": "Color",
@@ -100,7 +100,7 @@
     "apply": "Canjear",
     "subtotal": "Subtotal:",
     "shipping": "Envío por Transporte Especial:",
-    "free": "Gratuito (Más de 10.000 €)",
+    "free": "Gratuito (Más de 1.000 €)",
     "vatIncluded": "",
     "total": "Importe Total:",
     "toCheckout": "Tramitar Pedido",
@@ -155,7 +155,7 @@
     "service": "Servicio & Soporte",
     "legal": "Legal & Políticas",
     "allRights": "Todos los derechos reservados.",
-    "priceNote": "Pedido mínimo 500,00 € · Envío gratis a partir de 10.000,00 €"
+    "priceNote": "Pedido mínimo 500,00 € · Envío gratis a partir de 1.000,00 €"
   },
   "seo": {
     "titleTail": "pedir online",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Entrega",
-        "Envío en palé con plataforma elevadora, gratis desde 10.000 € de pedido."
+        "Envío en palé con plataforma elevadora, gratis desde 1.000 € de pedido."
       ],
       [
         "Pago",

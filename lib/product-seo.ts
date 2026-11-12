@@ -161,7 +161,7 @@ export function buildProductContent(p: Product, focus: string): ProductContentDa
   const secondary = (kw?.secondary || []).slice(0, 5).map((s) => s.keyword);
   if (secondary.length) {
     const facts = [
-      `Es kostet ${price} inklusive 19 % Mehrwertsteuer${p.price < 10000 ? ', dazu kommt die Speditionspauschale bis 10.000 € Bestellwert' : ', der Versand ist kostenfrei'}.`,
+      `Es kostet ${price} inklusive 19 % Mehrwertsteuer${p.price < 1000 ? ', dazu kommt die Speditionspauschale bis 1.000 € Bestellwert' : ', der Versand ist kostenfrei'}.`,
       `Der Antrieb ist ${p.motor}${p.torqueNm > 0 ? ` mit bis zu ${p.torqueNm} Nm Drehmoment` : ''}.`,
       wh ? `Der Akku hat ${wh} Wh${p.rangeKm > 0 ? `, der Hersteller nennt bis zu ${p.rangeKm} km Reichweite` : ''}.` : `${cat} von ${p.brand}: die Akkudaten stehen in der Ausstattungsliste weiter oben.`,
       frameInfo,
@@ -170,10 +170,10 @@ export function buildProductContent(p: Product, focus: string): ProductContentDa
     sections.push({ h2: 'Preis, Antrieb, Akku und Lieferung im Überblick', blocks: secondary.map((s, i) => ({ h3: titleCase(s), text: facts[i] })) });
   }
   if (position.length) sections.push({ h2: 'Preis und Akku im Vergleich', blocks: [{ text: position.join(' ') }] });
-  sections.push({ h2: 'Preis, Zahlung, Lieferung und Garantie', blocks: [{ text: `Der Preis liegt bei ${price} inklusive 19 % Mehrwertsteuer. Bei Vorkasse überweisen Sie genau diesen Betrag, bei Zahlung in Kryptowährung gilt der Preis von ${eur(p.price * 0.9)} (10 % Rabatt). ${p.price < 10000 ? 'Zum Preis kommt die Speditionspauschale von 49 € hinzu, ab 10.000 € Bestellwert ist der Versand kostenfrei.' : 'Der Versand ist bei diesem Bestellwert kostenfrei.'} Das Rad wird per Spedition mit Hebebühne nach Terminabsprache geliefert. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Einzelheiten stehen in den Bedingungen zu Lieferung, Rückgabe und Garantie.` }] });
+  sections.push({ h2: 'Preis, Zahlung, Lieferung und Garantie', blocks: [{ text: `Der Preis liegt bei ${price} inklusive 19 % Mehrwertsteuer. Bei Vorkasse überweisen Sie genau diesen Betrag, bei Zahlung in Kryptowährung gilt der Preis von ${eur(p.price * 0.9)} (10 % Rabatt). ${p.price < 1000 ? 'Zum Preis kommt die Speditionspauschale von 49 € hinzu, ab 1.000 € Bestellwert ist der Versand kostenfrei.' : 'Der Versand ist bei diesem Bestellwert kostenfrei.'} Das Rad wird per Spedition mit Hebebühne nach Terminabsprache geliefert. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Einzelheiten stehen in den Bedingungen zu Lieferung, Rückgabe und Garantie.` }] });
 
   const defaultFaqs = [
-    { q: 'Was kostet das Rad?', a: `${price} inklusive 19 % Mehrwertsteuer${p.price < 10000 ? ', dazu kommt die Speditionspauschale bis 10.000 € Bestellwert' : ', der Versand ist kostenfrei'}. Bei Zahlung in Kryptowährung sind es ${eur(p.price * 0.9)}.` },
+    { q: 'Was kostet das Rad?', a: `${price} inklusive 19 % Mehrwertsteuer${p.price < 1000 ? ', dazu kommt die Speditionspauschale bis 1.000 € Bestellwert' : ', der Versand ist kostenfrei'}. Bei Zahlung in Kryptowährung sind es ${eur(p.price * 0.9)}.` },
     { q: 'Welchen Motor hat das Rad?', a: `${p.motor}${p.torqueNm > 0 ? ` mit bis zu ${p.torqueNm} Nm Drehmoment` : ''}. Der Antrieb gehört zu einem ${cat}${wh ? ` mit ${wh} Wh Akku` : ''} der Marke ${p.brand}.` },
     { q: 'Wie groß ist der Akku?', a: wh ? `Der Akku hat ${wh} Wh${p.rangeKm > 0 ? `, der Hersteller nennt bis zu ${p.rangeKm} km Reichweite` : ''}. Beim Preis von ${price} entspricht das rund ${eur(p.price / wh).replace(',00', '')} je Wattstunde Akkukapazität.` : 'Die Akkukapazität steht in den technischen Daten oben.' },
     { q: 'In welchen Größen gibt es das Rad?', a: frameInfo },

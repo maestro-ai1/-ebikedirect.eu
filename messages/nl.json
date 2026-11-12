@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Minimale bestelwaarde €500 · Professionele palletlevering",
-    "freeShipping": "Gratis verzending in Europa vanaf €10.000",
+    "freeShipping": "Gratis verzending in Europa vanaf €1.000",
     "cryptoDiscount": "10% Extra Korting bij betaling met crypto (USDT / BTC)",
     "trustpilot": "Trustpilot 4.9/5 · Meer dan 5.000 geverifieerde Europese reviews"
   },
   "valueProps": {
-    "freeShippingTitle": "Gratis verzending vanaf €10.000",
+    "freeShippingTitle": "Gratis verzending vanaf €1.000",
     "freeShippingSub": "Verzekerde levering met laadklep",
     "cryptoTitle": "10% Crypto Korting",
     "cryptoSub": "Directe korting met USDT & BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "met Crypto",
     "cryptoDiscountBadge": "-10% met Crypto",
     "cryptoCashDiscount": "met 10% cryptokorting",
-    "inclVat": "Gratis verzending vanaf €10.000",
+    "inclVat": "Gratis verzending vanaf €1.000",
     "frameSize": "Framemaat",
     "batteryConfig": "Accuconfiguratie",
     "color": "Kleur",
@@ -88,7 +88,7 @@
     "freeShippingActive": "Gratis verzending actief!",
     "stillMissing": "Nog",
     "untilFreeShipping": "tot gratis verzending",
-    "freeShippingDesc": "Gratis levering op pallet met laadklep vanaf €10.000.",
+    "freeShippingDesc": "Gratis levering op pallet met laadklep vanaf €1.000.",
     "frame": "Frame",
     "battery": "Accu",
     "color": "Kleur",
@@ -100,7 +100,7 @@
     "apply": "Toepassen",
     "subtotal": "Subtotaal:",
     "shipping": "Expeditie:",
-    "free": "Gratis (boven €10.000)",
+    "free": "Gratis (boven €1.000)",
     "vatIncluded": "",
     "total": "Totaalbedrag:",
     "toCheckout": "Naar de Kassa",
@@ -155,7 +155,7 @@
     "service": "Service & Winkel",
     "legal": "Juridisch & Beleid",
     "allRights": "Alle rechten voorbehouden.",
-    "priceNote": "Minimale bestelling €500,00 · Gratis verzending vanaf €10.000,00"
+    "priceNote": "Minimale bestelling €500,00 · Gratis verzending vanaf €1.000,00"
   },
   "seo": {
     "titleTail": "online bestellen",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Levering",
-        "Pallettransport met laadklep, gratis vanaf 10.000 € bestelwaarde."
+        "Pallettransport met laadklep, gratis vanaf 1.000 € bestelwaarde."
       ],
       [
         "Betaling",

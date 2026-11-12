@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Mindestbestellwert 500 € · Fachgerechte Palettenzustellung",
-    "freeShipping": "Kostenloser Speditionsversand Frei Haus ab 10.000 €",
+    "freeShipping": "Kostenloser Speditionsversand Frei Haus ab 1.000 €",
     "cryptoDiscount": "10% Extra-Rabatt bei Zahlung mit Kryptowährungen (USDT / BTC)",
     "trustpilot": "Trustpilot 4.9/5 · Über 5.000 verifizierte Kundenbewertungen"
   },
   "valueProps": {
-    "freeShippingTitle": "Frei Haus ab 10.000 €",
+    "freeShippingTitle": "Frei Haus ab 1.000 €",
     "freeShippingSub": "Versicherte Hebebühnen-Zustellung",
     "cryptoTitle": "10% Krypto-Rabatt",
     "cryptoSub": "Sofort-Skonto mit USDT & BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "mit Krypto",
     "cryptoDiscountBadge": "-10% mit Krypto",
     "cryptoCashDiscount": "mit 10% Krypto-Skonto",
-    "inclVat": "inkl. 19% MwSt., versandkostenfrei ab 10.000 €",
+    "inclVat": "inkl. 19% MwSt., versandkostenfrei ab 1.000 €",
     "frameSize": "Rahmengröße",
     "batteryConfig": "Akkukonfiguration",
     "color": "Farbe",
@@ -88,7 +88,7 @@
     "freeShippingActive": "Kostenloser Speditionsversand aktiv!",
     "stillMissing": "Noch",
     "untilFreeShipping": "bis Frei Haus",
-    "freeShippingDesc": "Kostenlose Palettenzustellung per Hebebühne ab 10.000 € Bestellwert.",
+    "freeShippingDesc": "Kostenlose Palettenzustellung per Hebebühne ab 1.000 € Bestellwert.",
     "frame": "Rahmen",
     "battery": "Akku",
     "color": "Farbe",
@@ -155,7 +155,7 @@
     "service": "Service & Shop",
     "legal": "Rechtliches & Richtlinien",
     "allRights": "Alle Rechte vorbehalten.",
-    "priceNote": "Preise inkl. gesetzl. 19% MwSt. · Mindestbestellwert 500,00 € · Kostenloser Versand ab 10.000,00 €"
+    "priceNote": "Preise inkl. gesetzl. 19% MwSt. · Mindestbestellwert 500,00 € · Kostenloser Versand ab 1.000,00 €"
   },
   "seo": {
     "titleTail": "online bestellen",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Lieferung",
-        "Speditionsversand mit Hebebühne, kostenfrei ab 10.000 € Bestellwert."
+        "Speditionsversand mit Hebebühne, kostenfrei ab 1.000 € Bestellwert."
       ],
       [
         "Zahlung",

@@ -9,7 +9,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const MIN_ORDER = 500;
-const FREE_SHIPPING = 10000;
+const FREE_SHIPPING = 1000;
 const SHIPPING = 49;
 const NOT_READY = 'Die Online-Bestellung ist noch nicht freigeschaltet. Bitte versuchen Sie es später erneut.';
 

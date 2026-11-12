@@ -6,7 +6,7 @@ import { Truck, ShieldCheck, CheckCircle2, Clock, Phone, AlertCircle } from '@/c
 
 export const metadata: Metadata = {
   title: 'Versand und Lieferbedingungen',
-  description: 'Informationen zu Speditionsversand mit Hebebühne, 10.000 € Frei-Haus-Grenze, 500 € Mindestbestellwert und telefonischer Avisierung.'
+  description: 'Informationen zu Speditionsversand mit Hebebühne, 1.000 € Frei-Haus-Grenze, 500 € Mindestbestellwert und telefonischer Avisierung.'
 };
 
 export default async function DeliveryPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -47,10 +47,10 @@ export default async function DeliveryPolicyPage({ params }: { params: Promise<{
             </div>
 
             <div className="p-4 rounded-xl bg-[#E8F8F0] border border-[#00C853]/40 text-xs">
-              <div className="font-extrabold text-[#009624] text-sm mb-1">10.000,00 €</div>
+              <div className="font-extrabold text-[#009624] text-sm mb-1">1.000,00 €</div>
               <div className="font-bold text-gray-900">Frei-Haus-Grenze</div>
               <p className="text-gray-600 text-[11px] mt-1">
-                Ab 10.000 € Bestellwert entfallen die Speditionskosten vollständig (0,00 €).
+                Ab 1.000 € Bestellwert entfallen die Speditionskosten vollständig (0,00 €).
               </p>
             </div>
 
@@ -58,7 +58,7 @@ export default async function DeliveryPolicyPage({ params }: { params: Promise<{
               <div className="font-extrabold text-gray-900 text-sm mb-1">49,00 €</div>
               <div className="font-bold text-gray-900">Speditions-Pauschale</div>
               <p className="text-gray-600 text-[11px] mt-1">
-                Für versicherten Transport mit Hebebühne bei Bestellwerten unter 10.000 €.
+                Für versicherten Transport mit Hebebühne bei Bestellwerten unter 1.000 €.
               </p>
             </div>
           </div>

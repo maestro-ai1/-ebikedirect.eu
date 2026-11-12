@@ -75,7 +75,7 @@ export function ProductJsonLd({ product, description, urlPrefix = '', name }: { 
         '@type': 'OfferShippingDetails',
         'shippingRate': {
           '@type': 'MonetaryAmount',
-          'value': product.price >= 10000 ? '0' : '49',
+          'value': product.price >= 1000 ? '0' : '49',
           'currency': 'EUR'
         },
         'deliveryTime': {

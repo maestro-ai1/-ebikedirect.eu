@@ -36,7 +36,7 @@ export interface HubCtx { brands: string[]; total: number; top?: { name: string;
 const uniq = <T,>(a: T[]) => [...new Set(a)];
 const list = (a: string[], and: string) => (a.length <= 1 ? a.join('') : `${a.slice(0, -1).join(', ')} ${and} ${a[a.length - 1]}`);
 
-const FR_DELIVERY = 'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Jusqu’à 10 000 € de commande, un forfait transport de 49 € s’ajoute ; au-delà, la livraison est gratuite. Garantie de 2 ans et droit de retour de 30 jours.';
+const FR_DELIVERY = 'La livraison se fait par transporteur avec hayon élévateur, sur rendez-vous. Jusqu’à 1 000 € de commande, un forfait transport de 49 € s’ajoute ; au-delà, la livraison est gratuite. Garantie de 2 ans et droit de retour de 30 jours.';
 
 const FR: L10nStrings = {
   intl: 'fr-FR',
@@ -120,7 +120,7 @@ const FR: L10nStrings = {
   },
 };
 
-const EN_DELIVERY = 'Delivery is by freight carrier with a lift gate, by appointment. Below an order value of 10,000 € a flat freight charge of 49 € is added; above that, delivery is free. 2-year warranty and 30-day returns.';
+const EN_DELIVERY = 'Delivery is by freight carrier with a lift gate, by appointment. Below an order value of 1,000 € a flat freight charge of 49 € is added; above that, delivery is free. 2-year warranty and 30-day returns.';
 
 const EN: L10nStrings = {
   intl: 'en-IE',

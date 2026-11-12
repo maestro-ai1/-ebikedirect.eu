@@ -20,7 +20,7 @@ export const PAGES_EN: Record<string, string> = {
   'faq.q1': 'Why is there a minimum order value of 500 €?',
   'faq.a1': 'As a specialist e-bike retailer we ship our bikes only upright on special pallets by freight carrier with a lift gate. To make this elaborate logistics, the 42-point workshop safety check and the professional packaging economical, a minimum order value of 500.00 € per order applies.',
   'faq.q2': 'From what amount is freight delivery free?',
-  'faq.a2': 'From a total order value of 10,000.00 € we ship completely free of shipping costs (delivered free) within Germany and Austria. For orders below 10,000 € we charge a fair freight flat rate of just 49.00 € for the insured lift-gate delivery.',
+  'faq.a2': 'From a total order value of 1,000.00 € we ship completely free of shipping costs (delivered free) to every country. For orders below 1,000 € we charge a fair freight flat rate of just 49.00 € for the insured lift-gate delivery.',
   'faq.q3': 'How does freight delivery work exactly?',
   'faq.a3': 'As soon as your e-bike leaves our workshop, our team hands the shipment to the freight carrier (for example Dachser). The carrier contacts you 24 hours before delivery by phone or SMS to agree a fixed delivery window. The pallet is unloaded with a lift gate to the kerb.',
   'faq.q4': 'Is the e-bike already assembled and ready to ride?',

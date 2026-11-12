@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Encomenda mínima de 500 € · Entrega em palete",
-    "freeShipping": "Transporte gratuito em paletes a partir de 10 000 €",
+    "freeShipping": "Transporte gratuito em paletes a partir de 1 000 €",
     "cryptoDiscount": "10% de desconto extra em pagamentos com cripto (USDT / BTC)",
     "trustpilot": "Trustpilot 4,9/5 · Mais de 5 000 avaliações europeias verificadas"
   },
   "valueProps": {
-    "freeShippingTitle": "Transporte gratuito a partir de 10 000 €",
+    "freeShippingTitle": "Transporte gratuito a partir de 1 000 €",
     "freeShippingSub": "Entrega segurada com plataforma elevatória",
     "cryptoTitle": "10% de desconto cripto",
     "cryptoSub": "Desconto imediato com USDT e BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "com cripto",
     "cryptoDiscountBadge": "-10% com cripto",
     "cryptoCashDiscount": "com 10% de desconto cripto",
-    "inclVat": "Transporte gratuito a partir de 10 000 €",
+    "inclVat": "Transporte gratuito a partir de 1 000 €",
     "frameSize": "Tamanho do quadro",
     "batteryConfig": "Configuração da bateria",
     "color": "Cor",
@@ -88,7 +88,7 @@
     "freeShippingActive": "Transporte gratuito ativo!",
     "stillMissing": "Faltam",
     "untilFreeShipping": "para transporte gratuito",
-    "freeShippingDesc": "Entrega gratuita em palete com plataforma elevatória a partir de 10 000 € de encomenda.",
+    "freeShippingDesc": "Entrega gratuita em palete com plataforma elevatória a partir de 1 000 € de encomenda.",
     "frame": "Quadro",
     "battery": "Bateria",
     "color": "Cor",
@@ -155,7 +155,7 @@
     "service": "Serviço e loja",
     "legal": "Informação legal e políticas",
     "allRights": "Todos os direitos reservados.",
-    "priceNote": "Encomenda mínima 500,00 € · Transporte gratuito a partir de 10 000,00 €"
+    "priceNote": "Encomenda mínima 500,00 € · Transporte gratuito a partir de 1 000,00 €"
   },
   "seo": {
     "titleTail": "encomendar online",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Entrega",
-        "Envio em palete com plataforma elevatória, gratuito a partir de 10 000 € de encomenda."
+        "Envio em palete com plataforma elevatória, gratuito a partir de 1 000 € de encomenda."
       ],
       [
         "Pagamento",

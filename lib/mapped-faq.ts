@@ -22,7 +22,7 @@ export function buildMappedFaqs(def: MappedPageDef, pageName: string, faqKeyword
   const motors = uniq(products.map(motorShort)).slice(0, 4);
   const brands = uniq(products.map((p) => p.brand));
   const cats = uniq(products.map((p) => CATEGORY_LABEL[p.category]).filter(Boolean));
-  const delivery = 'Die Lieferung erfolgt per Spedition mit Hebebühne nach Terminabsprache. Bis 10.000 € Bestellwert kommt eine Speditionspauschale von 49 € hinzu, danach ist der Versand kostenfrei. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht.';
+  const delivery = 'Die Lieferung erfolgt per Spedition mit Hebebühne nach Terminabsprache. Bis 1.000 € Bestellwert kommt eine Speditionspauschale von 49 € hinzu, danach ist der Versand kostenfrei. Es gelten 2 Jahre Garantie und 30 Tage Rückgaberecht.';
   const priceText = `Die Preise liegen zwischen ${eur(min)} und ${eur(max)}, im Durchschnitt bei ${eur(avg)}, jeweils inklusive 19 % Mehrwertsteuer.`;
   const motorText = motors.length ? `Verbaut sind ${list(motors)}.` : '';
   const batteryText = whText ? `Die Akkus haben ${whText}.` : 'Die Akkukapazität steht bei jedem Modell in den technischen Daten.';

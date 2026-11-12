@@ -167,7 +167,7 @@ export function buildEnContent(p: Product): { lead: string; sections: EnSection[
   }
   sections.push({
     h2: 'Price, payment, delivery and warranty',
-    blocks: [{ text: `The price is ${price}. If you pay by bank transfer you pay this amount; if you pay with crypto the price is ${crypto} (10% discount). ${p.price < 10000 ? 'A flat freight charge of 49 € is added; delivery is free from an order value of 10,000 €.' : 'Delivery is free for this order value.'} The item is delivered by freight carrier by appointment. A 2-year warranty and 30-day returns apply.` }],
+    blocks: [{ text: `The price is ${price}. If you pay by bank transfer you pay this amount; if you pay with crypto the price is ${crypto} (10% discount). ${p.price < 1000 ? 'A flat freight charge of 49 € is added; delivery is free from an order value of 1,000 €.' : 'Delivery is free for this order value.'} The item is delivered by freight carrier by appointment. A 2-year warranty and 30-day returns apply.` }],
   });
   const faqKw = e.faq.slice(0, 5).map((f) => f.keyword);
   const base = isAcc
@@ -179,7 +179,7 @@ export function buildEnContent(p: Product): { lead: string; sections: EnSection[
       { q: 'How do I pay for the item?', a: `You pay by bank transfer or crypto. With crypto you save 10%, which is ${fmt2(p.price * 0.1)} on this item.` },
     ]
     : [
-      { q: 'How much does this bike cost?', a: `${price}${p.price < 10000 ? ', plus the flat freight charge of 49 € below an order value of 10,000 €' : ', free delivery'}. If you pay with crypto the price is ${crypto}.` },
+      { q: 'How much does this bike cost?', a: `${price}${p.price < 1000 ? ', plus the flat freight charge of 49 € below an order value of 1,000 €' : ', free delivery'}. If you pay with crypto the price is ${crypto}.` },
       { q: 'Which motor does this bike have?', a: `${motor}${p.torqueNm > 0 ? `, with up to ${p.torqueNm} Nm of torque` : ''}. The motor drives ${/^[aeiou]/i.test(noun) ? 'an' : 'a'} ${noun}${wh ? ` with a ${wh} Wh battery` : ''} from ${p.brand}.` },
       { q: 'What is the battery capacity?', a: wh ? `The battery has a capacity of ${wh} Wh${p.rangeKm > 0 ? `, and the manufacturer states a range of up to ${p.rangeKm} km` : ''}.` : 'The battery capacity is shown in the spec sheet.' },
       { q: 'Which sizes is this bike available in?', a: frames(p) },

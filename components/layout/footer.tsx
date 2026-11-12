@@ -28,7 +28,7 @@ export function Footer() {
             </div>
             <div>
               <div className="font-bold text-white text-xs sm:text-sm">
-                {t('valueProps.freeShippingTitle', 'Frei Haus ab 10.000 €')}
+                {t('valueProps.freeShippingTitle', 'Frei Haus ab 1.000 €')}
               </div>
               <div className="text-[11px] text-gray-400">
                 {t('valueProps.freeShippingSub', 'Versicherte Hebebühnen-Zustellung')}
@@ -227,7 +227,7 @@ export function Footer() {
         <div className="mt-10 pt-6 border-t border-gray-800/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-gray-500">
           <p>© {new Date().getFullYear()} ebikedirect.eu – {t('footer.allRights', 'Alle Rechte vorbehalten.')}</p>
           <p className="text-center sm:text-right">
-            {t('footer.priceNote', 'Preise inkl. gesetzl. 19% MwSt. · Mindestbestellwert 500,00 € · Kostenloser Versand ab 10.000,00 €')}
+            {t('footer.priceNote', 'Preise inkl. gesetzl. 19% MwSt. · Mindestbestellwert 500,00 € · Kostenloser Versand ab 1.000,00 €')}
           </p>
         </div>
       </div>

@@ -58,7 +58,7 @@ export function llmsTxt(): string {
     '',
     `> ${TAGLINE}. Online-Shop mit ${bikes().length} E-Bikes von ${brandCount()} Marken und ${PRODUCTS.length - bikes().length} Zubehörartikeln, Preise in Euro inklusive 19 % MwSt., Lieferung per Spedition.`,
     '',
-    'Mindestbestellwert 500 €, Speditionsversand kostenfrei ab 10.000 € Bestellwert, 2 Jahre Garantie, 30 Tage Rückgaberecht. Bestellungen werden von Menschen auf der Kasse-Seite aufgegeben; Agenten können den Katalog lesen, aber nicht bezahlen.',
+    'Mindestbestellwert 500 €, Speditionsversand kostenfrei ab 1.000 € Bestellwert, 2 Jahre Garantie, 30 Tage Rückgaberecht. Bestellungen werden von Menschen auf der Kasse-Seite aufgegeben; Agenten können den Katalog lesen, aber nicht bezahlen.',
     '',
     '## Sortiment',
     ...CATEGORY_LINKS.map((c) => `- [${c.label}](${SITE}${c.path}): ${c.blurb}`),

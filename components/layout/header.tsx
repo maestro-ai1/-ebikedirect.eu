@@ -265,7 +265,7 @@ export function Header() {
 
             <div className="pt-3 border-t border-gray-100 flex flex-col gap-2.5">
               <div className="text-xs text-gray-500 text-center pt-1">
-                Mindestbestellwert: 500 € · Frei Haus ab 10.000 €
+                Mindestbestellwert: 500 € · Frei Haus ab 1.000 €
               </div>
             </div>
           </div>

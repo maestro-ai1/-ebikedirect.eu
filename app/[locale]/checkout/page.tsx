@@ -10,7 +10,7 @@ import { useI18n } from '@/context/i18n-context';
 import { COUNTRY_VALUES, countryLabel } from '@/lib/ui';
 
 const MIN_ORDER = 500;
-const FREE_SHIPPING = 10000;
+const FREE_SHIPPING = 1000;
 const SHIPPING = 49;
 const inputCls = 'w-full px-3 py-2.5 text-sm bg-white border border-gray-300 rounded-md focus:ring-2 focus:ring-[#FF5722]/40 focus:border-[#FF5722] focus:outline-none';
 

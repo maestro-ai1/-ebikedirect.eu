@@ -17,7 +17,7 @@ export function HomeFaq() {
     { q: 'Welche E-Bikes gibt es bei ebikedirect.eu?', a: `Im Shop sind ${bikes.length} E-Bikes von ${brands.length} Marken lieferbar, aus den Bereichen ${list(cats)}.` },
     { q: 'Welche Marken sind im Shop?', a: `Die meisten Modelle gibt es von ${list(brands.slice(0, 8))}. Insgesamt führt der Shop ${brands.length} Marken, jede mit eigener Markenseite.` },
     { q: 'Sind die E-Bikes sofort lieferbar?', a: 'Ja, die Modelle sind ab Lager lieferbar. Die Zustellung erfolgt nach Terminabsprache.' },
-    { q: 'Sind die E-Bikes sofort lieferbar?', a: 'Die Lieferung erfolgt per Spedition mit Hebebühne. Bis 10.000 € Bestellwert kommt eine Speditionspauschale von 49 € hinzu, ab 10.000 € ist der Versand kostenfrei.' },
+    { q: 'Sind die E-Bikes sofort lieferbar?', a: 'Die Lieferung erfolgt per Spedition mit Hebebühne. Bis 1.000 € Bestellwert kommt eine Speditionspauschale von 49 € hinzu, ab 1.000 € ist der Versand kostenfrei.' },
     { q: 'Welche Garantie und welches Rückgaberecht gelten?', a: 'Auf jedes E-Bike gelten 2 Jahre Garantie und 30 Tage Rückgaberecht. Die Einzelheiten stehen in den Bedingungen zu Rückgabe, Garantie und Lieferung.' }
   ];
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };

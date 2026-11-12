@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Valore minimo d'ordine 500 € · Consegna professionale su bancale",
-    "freeShipping": "Spedizione gratuita in Europa oltre 10.000 €",
+    "freeShipping": "Spedizione gratuita in Europa oltre 1.000 €",
     "cryptoDiscount": "Sconto Extra del 10% per pagamenti in crypto (USDT / BTC)",
     "trustpilot": "Trustpilot 4.9/5 · Oltre 5.000 recensioni verificate in Europa"
   },
   "valueProps": {
-    "freeShippingTitle": "Spedizione Gratuita oltre 10.000 €",
+    "freeShippingTitle": "Spedizione Gratuita oltre 1.000 €",
     "freeShippingSub": "Consegna con sponda idraulica",
     "cryptoTitle": "Sconto 10% Crypto",
     "cryptoSub": "Sconto immediato con USDT e BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "con Crypto",
     "cryptoDiscountBadge": "-10% con Crypto",
     "cryptoCashDiscount": "con 10% di sconto crypto",
-    "inclVat": "Spedizione gratuita oltre 10.000 €",
+    "inclVat": "Spedizione gratuita oltre 1.000 €",
     "frameSize": "Misura Telaio",
     "batteryConfig": "Configurazione Batteria",
     "color": "Colore",
@@ -88,7 +88,7 @@
     "freeShippingActive": "Spedizione gratuita attiva!",
     "stillMissing": "Ancora",
     "untilFreeShipping": "per la spedizione gratuita",
-    "freeShippingDesc": "Consegna gratuita con sponda idraulica a partire da 10.000 €.",
+    "freeShippingDesc": "Consegna gratuita con sponda idraulica a partire da 1.000 €.",
     "frame": "Telaio",
     "battery": "Batteria",
     "color": "Colore",
@@ -100,7 +100,7 @@
     "apply": "Applica",
     "subtotal": "Subtotale:",
     "shipping": "Spedizione Spedizioniere:",
-    "free": "Gratuita (Oltre 10.000 €)",
+    "free": "Gratuita (Oltre 1.000 €)",
     "vatIncluded": "",
     "total": "Importo Totale:",
     "toCheckout": "Procedi alla Cassa",
@@ -155,7 +155,7 @@
     "service": "Servizio & Negozio",
     "legal": "Note Legali & Termini",
     "allRights": "Tutti i diritti riservati.",
-    "priceNote": "Ordine minimo 500,00 € · Spedizione gratuita da 10.000,00 €"
+    "priceNote": "Ordine minimo 500,00 € · Spedizione gratuita da 1.000,00 €"
   },
   "seo": {
     "titleTail": "ordina online",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Consegna",
-        "Spedizione su bancale con sponda idraulica, gratuita da 10.000 € di ordine."
+        "Spedizione su bancale con sponda idraulica, gratuita da 1.000 € di ordine."
       ],
       [
         "Pagamento",

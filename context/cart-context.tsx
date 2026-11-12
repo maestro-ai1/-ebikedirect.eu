@@ -41,7 +41,7 @@ interface CartContextType {
 }
 
 const MIN_ORDER_THRESHOLD = 500; // 500 Euro
-const FREE_SHIPPING_THRESHOLD = 10000; // 10,000 Euro
+const FREE_SHIPPING_THRESHOLD = 1000; // 1,000 Euro
 const STANDARD_SHIPPING_FEE = 49; // Insured heavy freight
 
 const CartContext = createContext<CartContextType | undefined>(undefined);

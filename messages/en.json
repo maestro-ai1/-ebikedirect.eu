@@ -18,12 +18,12 @@
   },
   "announcements": {
     "minOrder": "Minimum order value €500 · Professional pallet delivery",
-    "freeShipping": "Free pallet shipping across Europe from €10,000",
+    "freeShipping": "Free pallet shipping across Europe from €1,000",
     "cryptoDiscount": "10% Extra Discount on crypto payments (USDT / BTC)",
     "trustpilot": "Trustpilot 4.9/5 · Over 5,000 verified European reviews"
   },
   "valueProps": {
-    "freeShippingTitle": "Free Shipping over €10,000",
+    "freeShippingTitle": "Free Shipping over €1,000",
     "freeShippingSub": "Insured liftgate pallet delivery",
     "cryptoTitle": "10% Crypto Discount",
     "cryptoSub": "Instant discount with USDT & BTC",
@@ -53,7 +53,7 @@
     "withCrypto": "with Crypto",
     "cryptoDiscountBadge": "-10% with Crypto",
     "cryptoCashDiscount": "with 10% crypto cash discount",
-    "inclVat": "Free shipping from €10,000",
+    "inclVat": "Free shipping from €1,000",
     "frameSize": "Frame Size",
     "batteryConfig": "Battery Configuration",
     "color": "Color",
@@ -88,7 +88,7 @@
     "freeShippingActive": "Free freight shipping active!",
     "stillMissing": "Still",
     "untilFreeShipping": "until free shipping",
-    "freeShippingDesc": "Free insured liftgate pallet delivery on orders over €10,000.",
+    "freeShippingDesc": "Free insured liftgate pallet delivery on orders over €1,000.",
     "frame": "Frame",
     "battery": "Battery",
     "color": "Color",
@@ -100,7 +100,7 @@
     "apply": "Apply",
     "subtotal": "Subtotal:",
     "shipping": "Freight Delivery:",
-    "free": "Free (Over €10,000)",
+    "free": "Free (Over €1,000)",
     "vatIncluded": "",
     "total": "Total Amount:",
     "toCheckout": "Proceed to Checkout",
@@ -155,7 +155,7 @@
     "service": "Service & Shop",
     "legal": "Legal & Policies",
     "allRights": "All rights reserved.",
-    "priceNote": "Minimum order €500.00 · Free shipping over €10,000.00"
+    "priceNote": "Minimum order €500.00 · Free shipping over €1,000.00"
   },
   "seo": {
     "titleTail": "order online",
@@ -193,7 +193,7 @@
     "why": [
       [
         "Delivery",
-        "Pallet delivery with tail lift, free from a €10,000 order value."
+        "Pallet delivery with tail lift, free from a €1,000 order value."
       ],
       [
         "Payment",

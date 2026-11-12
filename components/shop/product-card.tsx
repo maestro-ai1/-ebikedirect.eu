@@ -60,7 +60,7 @@ export function ProductCard({ product, alt, tag }: { product: Product; alt: stri
         </label>
         <div className="mt-auto pt-2 border-t border-gray-100">
           <div className="text-xl font-black text-[#131A22]">{formatCurrency(price)}</div>
-          <div className="text-[10px] text-gray-500">{t('products.inclVat', 'inkl. 19% MwSt., versandkostenfrei ab 10.000 €')}</div>
+          <div className="text-[10px] text-gray-500">{t('products.inclVat', 'inkl. 19% MwSt., versandkostenfrei ab 1.000 €')}</div>
           <div className="grid grid-cols-2 gap-2 mt-3">
             <button type="button" onClick={add} className="inline-flex items-center justify-center gap-1.5 py-2.5 px-2 rounded-lg border border-[#FF5722] text-[#FF5722] hover:bg-[#FF5722] hover:text-white text-xs font-bold transition-colors" aria-label={`${product.name}: ${t('products.addToCart', 'In den Warenkorb')}`}>
               {added ? <Check className="w-4 h-4" /> : <ShoppingBag className="w-4 h-4" />}
