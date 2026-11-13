@@ -115,7 +115,7 @@ export function Header() {
                 <span className="text-[#00C853]">.eu</span>
               </span>
               <span className="text-[10px] uppercase font-bold tracking-widest text-gray-500 mt-1">
-                Premium E-Bike Fachhandel
+                {u('hdr.tagline')}
               </span>
             </div>
           </Link>

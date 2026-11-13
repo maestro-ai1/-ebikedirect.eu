@@ -42,20 +42,20 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-gray-100">
             <div className="text-center p-3 bg-gray-50 rounded-xl">
-              <div className="text-2xl font-black text-[#FF5722]">5.000+</div>
-              <div className="text-xs text-gray-600 font-medium">Gelieferte E-Bikes</div>
+              <div className="text-2xl font-black text-[#FF5722]">{l === 'en' ? '5,000+' : l === 'fr' ? '5 000+' : '5.000+'}</div>
+              <div className="text-xs text-gray-600 font-medium">{u('about.s1')}</div>
             </div>
             <div className="text-center p-3 bg-gray-50 rounded-xl">
-              <div className="text-2xl font-black text-[#00C853]">4.9 / 5.0</div>
-              <div className="text-xs text-gray-600 font-medium">Trustpilot Bewertung</div>
+              <div className="text-2xl font-black text-[#00C853]">{l === 'fr' ? '4,9 / 5,0' : '4.9 / 5.0'}</div>
+              <div className="text-xs text-gray-600 font-medium">{u('about.s2')}</div>
             </div>
             <div className="text-center p-3 bg-gray-50 rounded-xl">
               <div className="text-2xl font-black text-blue-600">100%</div>
-              <div className="text-xs text-gray-600 font-medium">Meister-geprüft</div>
+              <div className="text-xs text-gray-600 font-medium">{u('about.s3')}</div>
             </div>
             <div className="text-center p-3 bg-gray-50 rounded-xl">
               <div className="text-2xl font-black text-amber-600">-10%</div>
-              <div className="text-xs text-gray-600 font-medium">Krypto-Skonto</div>
+              <div className="text-xs text-gray-600 font-medium">{u('about.s4')}</div>
             </div>
           </div>
         </div>

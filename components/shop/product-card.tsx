@@ -8,13 +8,15 @@ import { ShoppingBag, Zap, Battery, Gauge, Check } from '@/components/ui/icons';
 import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
+import { localName } from '@/lib/l10n-names';
+import { motorLocal } from '@/lib/l10n-opts';
 import { isFrameNote } from '@/lib/ui';
 
 // Standard product card (Image Rule: white studio photo, one fixed square frame; same height for every card).
 export function ProductCard({ product, alt, tag }: { product: Product; alt: string; tag?: string }) {
   const router = useRouter();
   const { addToCart } = useCart();
-  const { t, u, getLocalizedHref, formatCurrency } = useI18n();
+  const { t, u, getLocalizedHref, formatCurrency, locale } = useI18n();
   const [frame, setFrame] = useState(product.options.frameSizes[0]);
   const [added, setAdded] = useState(false);
   const battery = product.options.batteries[0];
@@ -44,10 +46,10 @@ export function ProductCard({ product, alt, tag }: { product: Product; alt: stri
       <div className="p-4 flex flex-col gap-3 flex-1">
         <div className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">{tag || product.category}</div>
         <h3 className="text-base font-bold text-[#131A22] leading-snug line-clamp-2 min-h-[2.75rem]">
-          <Link href={getLocalizedHref(`/shop/${product.slug}`)} className="hover:text-[#FF5722]">{product.name}</Link>
+          <Link href={getLocalizedHref(`/shop/${product.slug}`)} className="hover:text-[#FF5722]">{localName(locale, product.name)}</Link>
         </h3>
         <div className="grid grid-cols-2 gap-2 text-[11px] text-gray-600">
-          <span className="inline-flex items-center gap-1 truncate"><Gauge className="w-3.5 h-3.5 text-[#FF5722] shrink-0" /><span className="truncate">{product.motor}</span></span>
+          <span className="inline-flex items-center gap-1 truncate"><Gauge className="w-3.5 h-3.5 text-[#FF5722] shrink-0" /><span className="truncate">{motorLocal(locale, product.motor)}</span></span>
           <span className="inline-flex items-center gap-1"><Battery className="w-3.5 h-3.5 text-[#00C853] shrink-0" />{product.batteryStandardWh} Wh</span>
         </div>
         <label className="block text-[11px] font-semibold text-gray-700">

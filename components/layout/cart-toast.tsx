@@ -6,11 +6,12 @@ import { usePathname } from 'next/navigation';
 import { CheckCircle2, X } from '@/components/ui/icons';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
+import { localName } from '@/lib/l10n-names';
 
 /** "Add to cart" confirmation: a small toast with a link to the checkout page (no drawer, nothing blocks the page). */
 export function CartToast() {
   const { lastAdded, dismissToast, totalItemsCount } = useCart();
-  const { u, getLocalizedHref } = useI18n();
+  const { u, getLocalizedHref, locale } = useI18n();
   const pathname = usePathname() || '';
   useEffect(() => {
     if (!lastAdded) return;
@@ -23,7 +24,7 @@ export function CartToast() {
       <CheckCircle2 className="w-5 h-5 text-[#00C853] shrink-0 mt-0.5" />
       <div className="min-w-0 flex-1">
         <p className="text-sm font-bold text-[#131A22]">{u('toast.added')}</p>
-        <p className="text-xs text-gray-600 truncate">{lastAdded.name}</p>
+        <p className="text-xs text-gray-600 truncate">{localName(locale, lastAdded.name)}</p>
         <div className="mt-2 flex items-center gap-3">
           <Link href={getLocalizedHref('/checkout')} className="inline-flex items-center px-3 py-1.5 rounded-lg bg-[#FF5722] text-white text-xs font-bold hover:bg-[#E64A19]" onClick={dismissToast}>
             {u('toast.checkout')} ({totalItemsCount})

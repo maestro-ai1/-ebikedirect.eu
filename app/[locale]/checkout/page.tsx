@@ -7,6 +7,7 @@ import { ShieldCheck, Truck, CreditCard, Bitcoin, CheckCircle2, Lock, ArrowRight
 import { useCart } from '@/context/cart-context';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { useI18n } from '@/context/i18n-context';
+import { localName } from '@/lib/l10n-names';
 import { COUNTRY_VALUES, countryLabel } from '@/lib/ui';
 
 const MIN_ORDER = 500;
@@ -120,15 +121,15 @@ export default function CheckoutPage() {
                     {items.map((item) => (
                       <li key={item.id} className="py-4 flex gap-4">
                         <Link href={getLocalizedHref(`/shop/${item.product.slug}`)} className="relative w-24 h-24 shrink-0 bg-white border border-gray-200 rounded-lg overflow-hidden">
-                          <Image src={item.product.image} alt={item.product.name} fill sizes="96px" className="object-contain p-1" />
+                          <Image src={item.product.image} alt={localName(locale, item.product.name)} fill sizes="96px" className="object-contain p-1" />
                         </Link>
                         <div className="flex-1 min-w-0">
                           <div className="flex items-start justify-between gap-3">
                             <div className="min-w-0">
-                              <Link href={getLocalizedHref(`/shop/${item.product.slug}`)} className="text-sm font-bold text-[#131A22] hover:text-[#FF5722] line-clamp-2">{item.product.name}</Link>
+                              <Link href={getLocalizedHref(`/shop/${item.product.slug}`)} className="text-sm font-bold text-[#131A22] hover:text-[#FF5722] line-clamp-2">{localName(locale, item.product.name)}</Link>
                               <p className="text-xs text-gray-500 mt-0.5">{item.product.brand}{item.selectedBattery.capacityWh > 0 ? ` · ${item.selectedBattery.capacityWh} Wh` : ''}</p>
                             </div>
-                            <button type="button" onClick={() => removeFromCart(item.id)} aria-label={u('co.remove', { name: item.product.name })} className="p-2 text-gray-400 hover:text-red-600 rounded-md hover:bg-gray-100"><Trash2 className="w-4 h-4" /></button>
+                            <button type="button" onClick={() => removeFromCart(item.id)} aria-label={u('co.remove', { name: localName(locale, item.product.name) })} className="p-2 text-gray-400 hover:text-red-600 rounded-md hover:bg-gray-100"><Trash2 className="w-4 h-4" /></button>
                           </div>
                           <div className="mt-3 flex items-center justify-between gap-3">
                             <div className="inline-flex items-center border border-gray-300 rounded-lg overflow-hidden">

@@ -8,7 +8,8 @@ for (const [lg, verb] of [['fr', 'acheter'], ['en', 'buy']] as const) {
   let n = 0;
   for (const p of PRODUCTS.filter((x) => x.category === 'Zubehör' || localName(lg, x.name) !== x.name)) {
     if (d.products[p.slug] && d.products[p.slug].primary.source === 'bank') continue;
-    d.products[p.slug] = { name: localName(lg, p.name), brand: p.brand, category: p.category, primary: { keyword: `${verb} ${localName(lg, p.name).toLowerCase()}`, intent: 'T', volume: 0, kd: null, source: 'name' }, secondary: [], faq: [] };
+    const old = d.products[p.slug] || {};
+    d.products[p.slug] = { name: localName(lg, p.name), brand: p.brand, category: p.category, primary: { keyword: `${verb} ${localName(lg, p.name).toLowerCase()}`, intent: 'T', volume: 0, kd: null, source: 'name' }, secondary: old.secondary || [], faq: old.faq || [] };
     n++;
   }
   fs.writeFileSync(f, JSON.stringify(d, null, 1));

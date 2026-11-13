@@ -102,7 +102,7 @@ export function Footer() {
             <div className="space-y-1.5 text-xs text-gray-300">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-gray-500" />
-                <span>Kollwitzstraße 47, 10405 Berlin, Deutschland</span>
+                <span>Kollwitzstraße 47, 10405 Berlin, {u('ft.country')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-gray-500" />
@@ -110,7 +110,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-gray-500" />
-                <span>Mo-Fr: 09:00 - 18:30 Uhr</span>
+                <span>{u('ft.hours')}</span>
               </div>
             </div>
 
@@ -216,7 +216,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href={getLocalizedHref('/policies/imprint')} className="hover:text-[#FF5722] transition-colors">
-                  Impressum & Pflichtangaben
+                  {u('ft.imprint')}
                 </Link>
               </li>
             </ul>

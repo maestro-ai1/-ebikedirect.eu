@@ -1,0 +1,181 @@
+{
+ "accepted": {
+  "/en/electric-bikes/trekking-e-bikes": {
+   "primary": "long distance electric bicycle",
+   "intent": "C",
+   "volume": 590,
+   "bestT": "touring bicycles for sale",
+   "tVolume": 260,
+   "ratio": 2.3
+  },
+  "/en/electric-bikes/cargo-e-bikes": {
+   "primary": "cargo bike electric",
+   "intent": "C",
+   "volume": 1000,
+   "bestT": "family bike",
+   "tVolume": 480,
+   "ratio": 2.1
+  },
+  "/en/electric-bikes/kids-e-bikes": {
+   "primary": "junior electric bike",
+   "intent": "C",
+   "volume": 320,
+   "bestT": "electric bike for children",
+   "tVolume": 40,
+   "ratio": 8
+  },
+  "/en/electric-bikes/womens-e-bikes": {
+   "primary": "ladies electric bike",
+   "intent": "C",
+   "volume": 2400,
+   "bestT": "ladies basket for bike",
+   "tVolume": 720,
+   "ratio": 3.3
+  },
+  "/en/brands/focus": {
+   "primary": "focus bikes",
+   "intent": "N",
+   "volume": 1000,
+   "bestT": "focus bisiklet",
+   "tVolume": 260,
+   "ratio": 3.8
+  },
+  "/en/brands/liv": {
+   "primary": "liv bicycle",
+   "intent": "N",
+   "volume": 720,
+   "bestT": "liv e mountain bike",
+   "tVolume": 20,
+   "ratio": 36
+  },
+  "/en/brands/riese-und-mueller": {
+   "primary": "riese and muller",
+   "intent": "N",
+   "volume": 1600,
+   "bestT": "riese & müller",
+   "tVolume": 210,
+   "ratio": 7.6
+  },
+  "/en/brands/stromer": {
+   "primary": "stromer",
+   "intent": "N",
+   "volume": 170,
+   "bestT": "stromer electric bike",
+   "tVolume": 20,
+   "ratio": 8.5
+  },
+  "/en/brands/tenways": {
+   "primary": "tenways",
+   "intent": "N",
+   "volume": 1600,
+   "bestT": "tenways electric bikes",
+   "tVolume": 40,
+   "ratio": 40
+  },
+  "/en/brands/urban-arrow": {
+   "primary": "urban arrow",
+   "intent": "N",
+   "volume": 720,
+   "bestT": "urban arrow family cargo bike",
+   "tVolume": 50,
+   "ratio": 14.4
+  },
+  "/en/accessories/phone-holders": {
+   "primary": "bike phone holder",
+   "intent": "C",
+   "volume": 3600,
+   "bestT": "mountain bike phone case",
+   "tVolume": 90,
+   "ratio": 40
+  },
+  "/en/brands": {
+   "primary": "e bike brands",
+   "intent": "C",
+   "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/kalkhoff-endeavour-5-advance-plus": {
+   "primary": "kalkhoff endeavour",
+   "intent": "C",
+   "volume": 110,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/brompton-electric-c-line-urban-345-wh-16-zoll": {
+   "primary": "brompton electric c line",
+   "intent": "C",
+   "volume": 210,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/cube-nuroad-hybrid-c-62-race-400x-fe-400-wh-28-zoll": {
+   "primary": "cube nuroad",
+   "intent": "C",
+   "volume": 1600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/focus-jam2-6-9-800-wh-29-zoll": {
+   "primary": "focus jam2",
+   "intent": "C",
+   "volume": 260,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/giant-explore-e-plus-1-800-wh-28-zoll": {
+   "primary": "giant explore e bike",
+   "intent": "C",
+   "volume": 140,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/merida-eone-sixty-8000-600-wh-29": {
+   "primary": "merida eone sixty",
+   "intent": "C",
+   "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/orbea-rise-sl-m20-630w-630-wh-29-zoll": {
+   "primary": "orbea rise ebike",
+   "intent": "C",
+   "volume": 210,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/specialized-turbo-vado-3-x-4-0-840-wh-27-5-zoll": {
+   "primary": "specialized turbo vado 4.0",
+   "intent": "C",
+   "volume": 260,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/specialized-turbo-kenevo-sl-2": {
+   "primary": "specialized turbo kenevo",
+   "intent": "C",
+   "volume": 110,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/shop/specialized-turbo-vado-sl-2-4-0-step-through-eq": {
+   "primary": "specialized turbo vado sl 4.0",
+   "intent": "C",
+   "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  }
+ },
+ "rejected": {}
+}

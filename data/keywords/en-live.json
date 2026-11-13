@@ -250,6 +250,18 @@
      "intent": "C",
      "volume": 260,
      "kd": 8
+    },
+    {
+     "keyword": "fast e mountain bike",
+     "intent": "C",
+     "volume": 110,
+     "kd": 22
+    },
+    {
+     "keyword": "high speed electric bike",
+     "intent": "C",
+     "volume": 90,
+     "kd": 5
     }
    ],
    "faq": [
@@ -546,6 +558,18 @@
      "intent": "T",
      "volume": 140,
      "kd": 4
+    },
+    {
+     "keyword": "kids e bike uk",
+     "intent": "C",
+     "volume": 12,
+     "kd": 2
+    },
+    {
+     "keyword": "electric bike for teenager",
+     "intent": "C",
+     "volume": 50,
+     "kd": 9
     }
    ],
    "faq": [
@@ -844,6 +868,18 @@
      "intent": "T",
      "volume": 20,
      "kd": 5
+    },
+    {
+     "keyword": "babboe bikes",
+     "intent": "T",
+     "volume": 40,
+     "kd": 12
+    },
+    {
+     "keyword": "babboe big",
+     "intent": "T",
+     "volume": 30,
+     "kd": 5
     }
    ],
    "faq": [
@@ -1112,6 +1148,30 @@
      "intent": "T",
      "volume": 10,
      "kd": 6
+    },
+    {
+     "keyword": "conway bike shop",
+     "intent": "C",
+     "volume": 20,
+     "kd": 12
+    },
+    {
+     "keyword": "conway bikes uk",
+     "intent": "C",
+     "volume": 20,
+     "kd": 10
+    },
+    {
+     "keyword": "conway mountain bike",
+     "intent": "T",
+     "volume": 20,
+     "kd": 5
+    },
+    {
+     "keyword": "conway bicycle",
+     "intent": "C",
+     "volume": 10,
+     "kd": 7
     }
    ],
    "faq": []
@@ -1215,6 +1275,30 @@
      "intent": "T",
      "volume": 10,
      "kd": 5
+    },
+    {
+     "keyword": "flyer uproc",
+     "intent": "T",
+     "volume": 20,
+     "kd": 5
+    },
+    {
+     "keyword": "flyer bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 8
+    },
+    {
+     "keyword": "flyer electric bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 5
+    },
+    {
+     "keyword": "flyer bicycle",
+     "intent": "T",
+     "volume": 10,
+     "kd": 8
     }
    ],
    "faq": [
@@ -1422,6 +1506,12 @@
      "intent": "T",
      "volume": 110,
      "kd": 8
+    },
+    {
+     "keyword": "ghost bikes",
+     "intent": "T",
+     "volume": 1900,
+     "kd": 14
     }
    ],
    "faq": [
@@ -1647,6 +1737,18 @@
      "intent": "T",
      "volume": 10,
      "kd": 9
+    },
+    {
+     "keyword": "hercules bike for sale",
+     "intent": "T",
+     "volume": 20,
+     "kd": 13
+    },
+    {
+     "keyword": "hercules bike price",
+     "intent": "C",
+     "volume": 20,
+     "kd": 9
     }
    ],
    "faq": []
@@ -1689,6 +1791,12 @@
      "intent": "T",
      "volume": 110,
      "kd": 13
+    },
+    {
+     "keyword": "husqvarna electric bikes",
+     "intent": "T",
+     "volume": 50,
+     "kd": 12
     }
    ],
    "faq": [
@@ -1908,6 +2016,18 @@
      "intent": "C",
      "volume": 10,
      "kd": 9
+    },
+    {
+     "keyword": "kettler bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 8
+    },
+    {
+     "keyword": "kettler bikes uk",
+     "intent": "C",
+     "volume": 20,
+     "kd": 8
     }
    ],
    "faq": [
@@ -1957,6 +2077,24 @@
      "intent": "T",
      "volume": 90,
      "kd": 9
+    },
+    {
+     "keyword": "liv ebike for sale",
+     "intent": "T",
+     "volume": 20,
+     "kd": 10
+    },
+    {
+     "keyword": "liv bike for sale",
+     "intent": "T",
+     "volume": 10,
+     "kd": 10
+    },
+    {
+     "keyword": "liv bike price",
+     "intent": "T",
+     "volume": 10,
+     "kd": 4
     }
    ],
    "faq": [
@@ -2164,7 +2302,38 @@
     "kd": 4,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "qio ebikes",
+     "intent": "T",
+     "volume": 0,
+     "kd": 2
+    },
+    {
+     "keyword": "qio bicycle",
+     "intent": "T",
+     "volume": 0,
+     "kd": 13
+    },
+    {
+     "keyword": "qio bike dealer",
+     "intent": "C",
+     "volume": 0,
+     "kd": 13
+    },
+    {
+     "keyword": "qio bike for sale",
+     "intent": "T",
+     "volume": 0,
+     "kd": 11
+    },
+    {
+     "keyword": "qio bike price",
+     "intent": "T",
+     "volume": 0,
+     "kd": 14
+    }
+   ],
    "faq": []
   },
   {
@@ -2193,6 +2362,24 @@
      "intent": "T",
      "volume": 13,
      "kd": 4
+    },
+    {
+     "keyword": "raymon bikes uk",
+     "intent": "T",
+     "volume": 50,
+     "kd": 8
+    },
+    {
+     "keyword": "raymon e bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 7
+    },
+    {
+     "keyword": "raymon bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 9
     }
    ],
    "faq": [
@@ -2302,20 +2489,26 @@
    ]
   },
   {
-   "display": "Scott electric bikes",
+   "display": "Scott bike",
    "url": "/brands/scott/",
    "dePath": "/marken/scott",
    "name": "Scott",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "scott electric bikes",
-    "intent": "C",
-    "volume": 720,
-    "kd": 14,
+    "keyword": "scott bike",
+    "intent": "T",
+    "volume": 2400,
+    "kd": 29,
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "scott electric bikes",
+     "intent": "C",
+     "volume": 720,
+     "kd": 14
+    },
     {
      "keyword": "scott electric cycles",
      "intent": "C",
@@ -2327,6 +2520,18 @@
      "intent": "C",
      "volume": 210,
      "kd": 7
+    },
+    {
+     "keyword": "scott e bikes",
+     "intent": "T",
+     "volume": 720,
+     "kd": 12
+    },
+    {
+     "keyword": "scott ebikes",
+     "intent": "T",
+     "volume": 320,
+     "kd": 15
     }
    ],
    "faq": [
@@ -2455,7 +2660,38 @@
     "kd": 16,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "stromer bike for sale",
+     "intent": "T",
+     "volume": 20,
+     "kd": 10
+    },
+    {
+     "keyword": "stromer bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 7
+    },
+    {
+     "keyword": "stromer e bike for sale",
+     "intent": "T",
+     "volume": 20,
+     "kd": 10
+    },
+    {
+     "keyword": "stromer e bike price",
+     "intent": "T",
+     "volume": 20,
+     "kd": 22
+    },
+    {
+     "keyword": "stromer ebikes",
+     "intent": "C",
+     "volume": 20,
+     "kd": 16
+    }
+   ],
    "faq": [
     {
      "keyword": "stromer bike",
@@ -2503,6 +2739,12 @@
      "intent": "T",
      "volume": 28,
      "kd": 6
+    },
+    {
+     "keyword": "tenways e bikes",
+     "intent": "T",
+     "volume": 90,
+     "kd": 16
     }
    ],
    "faq": [
@@ -2692,6 +2934,18 @@
      "intent": "T",
      "volume": 10,
      "kd": 10
+    },
+    {
+     "keyword": "winora bicycle",
+     "intent": "T",
+     "volume": 30,
+     "kd": 12
+    },
+    {
+     "keyword": "winora bikes",
+     "intent": "C",
+     "volume": 30,
+     "kd": 8
     }
    ],
    "faq": []
@@ -2801,6 +3055,24 @@
      "intent": "T",
      "volume": 20,
      "kd": 9
+    },
+    {
+     "keyword": "shimano steps e bike",
+     "intent": "C",
+     "volume": 20,
+     "kd": 4
+    },
+    {
+     "keyword": "shimano bicycle",
+     "intent": "T",
+     "volume": 480,
+     "kd": 16
+    },
+    {
+     "keyword": "shimano ebikes",
+     "intent": "T",
+     "volume": 110,
+     "kd": 15
     }
    ],
    "faq": [
@@ -2850,7 +3122,38 @@
     "kd": 9,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "yamaha bike dealer",
+     "intent": "C",
+     "volume": 390,
+     "kd": 20
+    },
+    {
+     "keyword": "yamaha pw-x3",
+     "intent": "T",
+     "volume": 70,
+     "kd": 9
+    },
+    {
+     "keyword": "yamaha emtb",
+     "intent": "T",
+     "volume": 70,
+     "kd": 9
+    },
+    {
+     "keyword": "yamaha bike shop",
+     "intent": "T",
+     "volume": 40,
+     "kd": 23
+    },
+    {
+     "keyword": "yamaha bike for sale",
+     "intent": "T",
+     "volume": 30,
+     "kd": 16
+    }
+   ],
    "faq": [
     {
      "keyword": "yamaha bicycle",
@@ -3353,20 +3656,26 @@
    ]
   },
   {
-   "display": "Bicycle puncture repair",
+   "display": "Bike tool kit",
    "url": "/accessories/tools-care/",
    "dePath": "/zubehoer/werkzeug-pflege",
    "name": "Tools and care",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "bicycle puncture repair",
-    "intent": "C",
-    "volume": 590,
-    "kd": 16,
+    "keyword": "bike tool kit",
+    "intent": "T",
+    "volume": 1600,
+    "kd": 17,
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "bicycle puncture repair",
+     "intent": "C",
+     "volume": 590,
+     "kd": 16
+    },
     {
      "keyword": "bicycle degreaser",
      "intent": "C",
@@ -3390,12 +3699,6 @@
      "intent": "C",
      "volume": 210,
      "kd": 11
-    },
-    {
-     "keyword": "cycle degreaser",
-     "intent": "C",
-     "volume": 170,
-     "kd": 10
     }
    ],
    "faq": [
@@ -3773,6 +4076,24 @@
      "intent": "T",
      "volume": 110,
      "kd": 4
+    },
+    {
+     "keyword": "electric bike brands uk",
+     "intent": "C",
+     "volume": 40,
+     "kd": 10
+    },
+    {
+     "keyword": "e bike brands uk",
+     "intent": "C",
+     "volume": 20,
+     "kd": 9
+    },
+    {
+     "keyword": "best e bike brands uk",
+     "intent": "C",
+     "volume": 10,
+     "kd": 17
     }
    ],
    "faq": []

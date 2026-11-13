@@ -1,6 +1,7 @@
 import enProducts from '@/data/keywords/en-products.json';
 import { PRODUCTS } from '@/lib/products';
 import type { Product } from '@/lib/types';
+import { optLabel } from '@/lib/l10n-opts';
 import { frRelated } from '@/lib/l10n-product';
 
 // English (UK database) product pages: keywords (data/keywords/en-products.json), title, description, specs and copy, all built from catalogue data.
@@ -53,6 +54,7 @@ const WHO_TEXT: Record<string, string> = {
 // ---------- specs: German catalogue values translated word by word; a value that still contains German is left out of the English page
 const SPEC_LABEL: Record<string, string> = { Motor: 'Motor', Akku: 'Battery', Display: 'Display', Schaltung: 'Gears', Bremsen: 'Brakes', Rahmen: 'Frame', Gabel: 'Fork', Reifen: 'Tyres', 'Laufradgröße': 'Wheel size', Drehmoment: 'Torque', Gewicht: 'Weight', Reichweite: 'Range', Antrieb: 'Drive', Federweg: 'Suspension travel', Geschwindigkeit: 'Speed', Sensor: 'Sensor', Bedieneinheit: 'Control unit', App: 'App', 'Gepäckträger': 'Rack', Vorbau: 'Stem', Transport: 'Transport', 'Passend für': 'Fits', Material: 'Material', Farbe: 'Colour', 'Größe': 'Size', 'Länge': 'Length', Inhalt: 'Contents', Volumen: 'Volume', Lieferumfang: 'In the box' };
 const RULES: [RegExp, string][] = [
+  [/\balle Modelle\b/gi, 'all models'], [/\bGravel Reifen\b/gi, 'gravel tyre'], [/\bReifen\b/gi, 'tyres'],
   [/&quot;|&ldquo;|&rdquo;/g, '"'], [/&amp;/g, '&'], [/&#39;|&rsquo;/g, '’'],
   [/Stufenlose Getriebe-Nabenschaltung/gi, 'continuously variable hub gear'], [/Stufenlose/gi, 'continuously variable'], [/Getriebeschaltung/gi, 'gearbox'], [/Nabenschaltung/gi, 'hub gear'], [/Kettenschaltung/gi, 'derailleur'],
   [/(\d+)[- ]Gang/gi, '$1-speed'], [/(\d+) Gänge/gi, '$1 speeds'], [/mit Riemenantrieb/gi, 'with belt drive'], [/Riemenantrieb/gi, 'belt drive'], [/\(Freilauf\)/gi, '(freewheel)'], [/\(Rücktrittbremse\)/gi, '(coaster brake)'], [/Rücktrittbremse/gi, 'coaster brake'],
@@ -65,11 +67,11 @@ const RULES: [RegExp, string][] = [
   [/Lithium[- ]?Ionen/gi, 'lithium-ion'], [/\bStahl\b/gi, 'steel'], [/Pannenschutz/gi, 'puncture protection'], [/herausnehmbar(er|e|en)?/gi, 'removable'],
   [/\bAluminium\b/gi, 'aluminium'], [/\bmit\b/gi, 'with'], [/\bund\b/gi, 'and'], [/\binklusive\b/gi, 'including'],
 ];
-const GERMAN_LEFT = /([äöüß]|\b(der|die|das|ein|eine|für|nicht|auch|oder|zum|zur|beim|werden|wird|ist|sind|integriert|integrierter|integrierten|Akku|Rahmen|Gepäckträger|Schutzblech|Seitenständer|Aufnahme|Achsaufnahme|Anhänger|Auslieferung|kompatibel|universell|Fahrrad|Mischung|hinten|vorne|Schaft|Fach|Dämpfer)\b|[A-Za-z]{4,}(ung|keit|heit|lich)\b)/;
+const GERMAN_LEFT = /([äöüß]|\b(der|die|das|ein|eine|für|nicht|auch|oder|zum|zur|beim|werden|wird|ist|sind|integriert|integrierter|integrierten|Akku|Bremsen|Schaltung|Rahmen|Gepäckträger|Schutzblech|Seitenständer|Aufnahme|Achsaufnahme|Anhänger|Auslieferung|kompatibel|universell|Fahrrad|Mischung|hinten|vorne|Schaft|Fach|Dämpfer)\b|[A-Za-z]{4,}(ung|keit|heit|lich)\b)/;
 export function enSpecValue(v: string): string | null {
   let s = v;
   for (const [re, r] of RULES) s = s.replace(re, r);
-  s = s.replace(/\s+/g, ' ').trim();
+  s = s.replace(/\s+/g, ' ').trim().replace(/(\d),(\d{1,2})(?!\d)/g, '$1.$2');
   if (GERMAN_LEFT.test(s)) return null;
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
@@ -118,7 +120,7 @@ export function enDescription(p: Product): string {
 // ---------- page content
 export interface EnSection { h2: string; blocks: { h3?: string; text: string }[] }
 const wc = (s: string) => s.split(/\s+/).filter(Boolean).length;
-const frames = (p: Product) => (p.options.frameSizes.length > 1 && p.options.frameSizes.every((x) => x.length < 25) ? `It is available in the frame sizes ${p.options.frameSizes.join(', ')}.` : 'Frame shape and size are confirmed with you when your order is checked.');
+const frames = (p: Product) => (p.options.frameSizes.length > 1 && p.options.frameSizes.every((x) => x.length < 25) ? `It is available in the frame sizes ${p.options.frameSizes.map((x) => optLabel('en', x)).join(', ')}.` : 'Frame shape and size are confirmed with you when your order is checked.');
 
 export function buildEnContent(p: Product): { lead: string; sections: EnSection[]; faqs: { q: string; a: string }[]; words: number; specs: [string, string][] } {
   const e = enEntry(p);

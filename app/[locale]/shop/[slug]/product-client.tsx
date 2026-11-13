@@ -21,6 +21,7 @@ import { Product } from '@/lib/types';
 import { useCart } from '@/context/cart-context';
 import { useI18n } from '@/context/i18n-context';
 import { isFrameNote } from '@/lib/ui';
+import { optLabel } from '@/lib/l10n-opts';
 
 const EN_PC: Record<string, string> = {
   '-10 % en crypto': '-10% with crypto',
@@ -56,7 +57,9 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
   const { locale, u } = useI18n();
   const fr = (locale === 'fr' || locale === 'en') && !!frView;
   const nloc = fr ? (locale === 'en' ? 'en-IE' : 'fr-FR') : 'de-DE';
-  const show = (s: string) => (locale !== 'de' && isFrameNote(s) ? u('pc.frameNote') : s);
+  const ol = (s: string) => (fr ? optLabel(locale, s) : s);
+  const show = (s: string) => (locale !== 'de' && isFrameNote(s) ? u('pc.frameNote') : ol(s));
+  const money = (n: number) => n.toLocaleString(nloc, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const tr = (k: string) => (locale === 'en' ? EN_PC[k] ?? k : k);
   const router = useRouter();
   const { addToCart } = useCart();
@@ -251,9 +254,9 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                             : 'border-gray-200 hover:border-gray-300 bg-white text-gray-700'
                         }`}
                       >
-                        <span className="font-semibold">{b.label}</span>
+                        <span className="font-semibold">{ol(b.label)}</span>
                         <span className="font-bold text-[#FF5722]">
-                          {b.priceDelta === 0 ? 'Im Grundpreis enthalten' : `+${b.priceDelta} €`}
+                          {b.priceDelta === 0 ? u('pc.included') : `+${b.priceDelta} €`}
                         </span>
                       </button>
                     ))}
@@ -266,7 +269,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                 {(!isAccessory || product.options.colors.length > 1) && (
                 <div className="space-y-1.5">
                   <label className="block text-xs font-bold text-gray-800">
-                    {isAccessory ? (fr ? tr('Couleur') : 'Farbe') : (fr ? tr('Couleur du cadre') : 'Rahmenfarbe')} : <strong className="text-gray-900">{selectedColor.name}</strong>
+                    {isAccessory ? (fr ? tr('Couleur') : 'Farbe') : (fr ? tr('Couleur du cadre') : 'Rahmenfarbe')} : <strong className="text-gray-900">{ol(selectedColor.name)}</strong>
                   </label>
                   <div className="flex items-center gap-3">
                     {product.options.colors.map((c) => (
@@ -284,7 +287,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                           className="w-3.5 h-3.5 rounded-full border border-gray-300"
                           style={{ backgroundColor: c.hex }}
                         />
-                        <span>{c.name}</span>
+                        <span>{ol(c.name)}</span>
                       </button>
                     ))}
                   </div>
@@ -300,7 +303,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                     <Bitcoin className="w-6 h-6 text-[#009624] shrink-0" />
                     <div>
                       <div className="text-xs font-bold text-emerald-950">
-                        {fr ? tr('Remise crypto de 10 % : économisez') : '10% Krypto-Rabatt: Sparen Sie'} {cryptoSavings.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
+                        {fr ? tr('Remise crypto de 10 % : économisez') : '10% Krypto-Rabatt: Sparen Sie'} {money(cryptoSavings)} €
                       </div>
                       <div className="text-[11px] text-emerald-800">
                         {fr ? tr('Prix en paiement USDT (TRC-20/ERC-20) ou Bitcoin :') : 'Zahlungspreis mit USDT (TRC-20/ERC-20) oder Bitcoin:'}
@@ -309,7 +312,7 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                   </div>
                   <div className="text-right">
                     <span className="text-base sm:text-lg font-black text-[#009624]">
-                      {cryptoPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
+                      {money(cryptoPrice)} €
                     </span>
                   </div>
                 </div>
@@ -318,14 +321,14 @@ export function ProductDetailClient({ product, focusKeyword, frView }: { product
                 <div className="flex items-baseline justify-between">
                   <div>
                     <span className="text-2xl sm:text-3xl font-black text-[#131A22]">
-                      {currentPrice.toLocaleString(nloc, { minimumFractionDigits: 2 })} €
+                      {money(currentPrice)} €
                     </span>
                     <span className="text-xs text-gray-500 block">
                       {fr ? tr('Expédition assurée par transporteur, port gratuit dès 1 000 €') : 'inkl. gesetzlicher 19% MwSt., versicherter Speditionsversand ab 1.000 €'}
                     </span>
                   </div>
                   <div className="text-xs text-gray-500">
-                    Art.-Nr: <strong className="font-mono text-gray-800">{product.id}</strong>
+                    {u('pc.itemNo')}: <strong className="font-mono text-gray-800">{product.id}</strong>
                   </div>
                 </div>
 

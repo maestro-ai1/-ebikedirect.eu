@@ -1,6 +1,7 @@
 import frProducts from '@/data/keywords/fr-products.json';
 import { PRODUCTS } from '@/lib/products';
 import type { Product } from '@/lib/types';
+import { optLabel } from '@/lib/l10n-opts';
 
 // French product pages: keywords (data/keywords/fr-products.json), title, description, specs and copy, all built from catalogue data.
 // Nothing is invented: every sentence comes from a spec value, the price, or shop terms the owner confirmed. No VAT wording.
@@ -129,7 +130,7 @@ export function frDescription(p: Product): string {
 // ---------- page content
 export interface FrSection { h2: string; blocks: { h3?: string; text: string }[] }
 const wc = (s: string) => s.split(/\s+/).filter(Boolean).length;
-const frames = (p: Product) => (p.options.frameSizes.length > 1 && p.options.frameSizes.every((x) => x.length < 25) ? `Il est disponible dans les tailles de cadre ${p.options.frameSizes.join(', ')}.` : 'La forme du cadre et la taille sont confirmées avec vous lors de la validation de la commande.');
+const frames = (p: Product) => (p.options.frameSizes.length > 1 && p.options.frameSizes.every((x) => x.length < 25) ? `Il est disponible dans les tailles de cadre ${p.options.frameSizes.map((x) => optLabel('fr', x)).join(', ')}.` : 'La forme du cadre et la taille sont confirmées avec vous lors de la validation de la commande.');
 
 export function buildFrContent(p: Product): { lead: string; sections: FrSection[]; faqs: { q: string; a: string }[]; words: number; specs: [string, string][] } {
   const e = frEntry(p);

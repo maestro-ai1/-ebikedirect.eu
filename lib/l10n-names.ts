@@ -1,5 +1,7 @@
 // The catalogue names of the 50 accessories contain German product words (Faltschloss, Gepäckträger ...). On translated pages these words are replaced;
 // brand and model names are never touched. Longest phrases first.
+import { unitsLocal } from '@/lib/l10n-opts';
+
 const EN: [string, string][] = [
   ['Regenschutz für Cargo E-Bike', 'Rain cover for cargo e-bike'], ['Lenker- und Vorbau-Halterung', 'Handlebar and stem mount'], ['Reinigungs- und Schmierset', 'Cleaning and lube kit'],
   ['Wasserdichter Ladekopf', 'Waterproof charging head'], ['Elektrische Luftpumpe', 'Electric air pump'], ['Gepäckträger hinten', 'Rear rack'], ['Frontgepäckträger', 'Front rack'], ['Bürsten-Set 3 in 1', '3-in-1 brush set'],
@@ -24,5 +26,5 @@ export function localName(locale: string, name: string): string {
   if (!t) return name;
   let s = name;
   for (const [de, tr] of t) s = s.split(de).join(tr);
-  return s;
+  return unitsLocal(locale, s);
 }
