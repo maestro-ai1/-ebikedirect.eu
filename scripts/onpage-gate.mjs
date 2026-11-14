@@ -109,10 +109,19 @@ for (const pg of pages.values()) { if (pg.type === 'language stub') continue; co
 const allKw = new Map(); // stored keyword -> owners (one keyword = one URL)
 const addKw = (u, k) => { if (!k || !k.keyword) return; const key = ((u.match(/^\/(fr|nl|it|es|pt|en)\//) || [])[1] || 'de') + ':' + norm(k.keyword).split(' ').sort().join(' '); (allKw.get(key) || allKw.set(key, new Set()).get(key)).add(u); };
 for (const [slug, e] of Object.entries(prods)) for (const k of [e.primary, ...(e.secondary || []), ...(e.faq || [])]) addKw('/shop/' + slug, k);
+for (const lg of Object.keys(langProds)) for (const [slug, e] of Object.entries(langProds[lg])) for (const k of [e.primary, ...(e.secondary || []), ...(e.faq || [])]) addKw('/' + lg + '/shop/' + slug, k);
 for (const [pth, p] of pageByPath) for (const k of [p.primary, ...(p.secondary || []), ...(p.faq || [])]) addKw(pth, k);
 for (const [pth, f] of famByPath) for (const k of [f.primary, ...(f.secondary || []), ...(f.faq || [])]) if (k && !k.heldNowBy) addKw(pth, k);
 for (const [pth, p] of l10nByPath) for (const k of [p.primary, ...(p.secondary || []), ...(p.faq || [])]) if (k) addKw(pth, k);
-const dupKw = [...allKw.entries()].filter(([, v]) => v.size > 1);
+// Owner decision 2026-11-13: secondaries may be shared inside a model family. A duplicate is a MAIN keyword that appears on any other URL.
+const primKeys = new Set();
+const addP = (u, k) => { if (!k || !k.keyword) return; primKeys.add(((u.match(/^\/(fr|nl|it|es|pt|en)\//) || [])[1] || 'de') + ':' + norm(k.keyword).split(' ').sort().join(' ')); };
+for (const [slug, e] of Object.entries(prods)) addP('/shop/' + slug, e.primary);
+for (const lg of Object.keys(langProds)) for (const [slug, e] of Object.entries(langProds[lg])) addP('/' + lg + '/shop/' + slug, e.primary);
+for (const [pth, p] of pageByPath) addP(pth, p.primary);
+for (const [pth, f] of famByPath) if (f.primary && !f.primary.heldNowBy) addP(pth, f.primary);
+for (const [pth, p] of l10nByPath) addP(pth, p.primary);
+const dupKw = [...allKw.entries()].filter(([k, v]) => v.size > 1 && primKeys.has(k));
 
 const results = [];
 const rec = (pg, id, ok, note) => { results.push({ url: pg.url, type: pg.type, rule: id, ok, note: note || '' }); };
@@ -123,7 +132,7 @@ for (const pg of pages.values()) {
   if (pg.type === 'language stub' || pg.type === 'pagination') continue;
   const kw = keywordOf(pg.url, pg.type);
   const pn = kw && kw.primary ? norm(kw.primary.keyword) : '';
-  const nameBased = pg.type === 'product' && kw && kw.primary.source === 'name';
+  const nameBased = pg.type === 'product' && kw && (kw.primary.source === 'name' || /product name/i.test(String(kw.primary.source)));
   const lead = nameBased ? norm(kw.name) : pn;
   const h1s = pg.heads.filter((h) => h.l === 1);
   const first = pg.allHeads[0];

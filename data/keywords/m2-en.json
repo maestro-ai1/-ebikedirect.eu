@@ -20,7 +20,7 @@
    "primary": "junior electric bike",
    "intent": "C",
    "volume": 320,
-   "bestT": "electric bike for children",
+   "bestT": "kids electric bikes for sale",
    "tVolume": 40,
    "ratio": 8
   },
@@ -68,17 +68,17 @@
    "primary": "tenways",
    "intent": "N",
    "volume": 1600,
-   "bestT": "tenways electric bikes",
-   "tVolume": 40,
-   "ratio": 40
+   "bestT": "tenways e bike price",
+   "tVolume": 20,
+   "ratio": 80
   },
   "/en/brands/urban-arrow": {
    "primary": "urban arrow",
    "intent": "N",
    "volume": 720,
-   "bestT": "urban arrow family cargo bike",
-   "tVolume": 50,
-   "ratio": 14.4
+   "bestT": "urban arrow bike price",
+   "tVolume": 20,
+   "ratio": 36
   },
   "/en/accessories/phone-holders": {
    "primary": "bike phone holder",
@@ -104,10 +104,10 @@
    "tVolume": 0,
    "ratio": null
   },
-  "/en/shop/brompton-electric-c-line-urban-345-wh-16-zoll": {
-   "primary": "brompton electric c line",
+  "/en/shop/tenways-cgo009": {
+   "primary": "tenways cgo009 e bike",
    "intent": "C",
-   "volume": 210,
+   "volume": 10,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -120,10 +120,26 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/en/shop/merida-esilex-400-237-wh-28-zoll": {
+   "primary": "merida esilex",
+   "intent": "C",
+   "volume": 30,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/shop/focus-jam2-6-9-800-wh-29-zoll": {
    "primary": "focus jam2",
    "intent": "C",
    "volume": 260,
+   "bestT": "focus jam2 6.8 e bike",
+   "tVolume": 20,
+   "ratio": 13
+  },
+  "/en/shop/focus-thron2-6-8-abs-800-wh-29-zoll": {
+   "primary": "focus thron2 6.8",
+   "intent": "C",
+   "volume": 20,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -132,6 +148,14 @@
    "primary": "giant explore e bike",
    "intent": "C",
    "volume": 140,
+   "bestT": "giant explore e plus",
+   "tVolume": 20,
+   "ratio": 7
+  },
+  "/en/shop/haibike-allmtn-cf-9-800-wh-29": {
+   "primary": "haibike allmtn cf 9",
+   "intent": "C",
+   "volume": 90,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -144,10 +168,10 @@
    "tVolume": 0,
    "ratio": null
   },
-  "/en/shop/orbea-rise-sl-m20-630w-630-wh-29-zoll": {
-   "primary": "orbea rise ebike",
+  "/en/shop/orbea-wild-lt-m-ltd-rs-mullet-800-wh-29": {
+   "primary": "orbea wild m ltd",
    "intent": "C",
-   "volume": 210,
+   "volume": 40,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
