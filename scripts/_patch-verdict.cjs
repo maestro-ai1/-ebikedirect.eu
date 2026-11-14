@@ -1,0 +1,16 @@
+const fs = require('fs');
+const f = 'scripts/_report-parts.cjs';
+let s = fs.readFileSync(f, 'utf8');
+const a = s.indexOf('module.exports.verdict');
+const b = s.indexOf('module.exports.notVerified');
+const nv = `module.exports.verdict = (aFr, rowsFr, rowsEn) => {
+  const pe = rowsEn.filter((r) => r.kind === 'product' || r.kind === 'accessory product');
+  const bank = pe.filter((r) => r.p.source === 'bank').length, name = pe.length - bank;
+  const full = pe.filter((r) => (r.sec || []).length >= 5).length;
+  return \`<h2>1. Verdict</h2><div class="box"><p><b>English (UK) product mapping, batches 1 and 2 done: \${bank} of \${pe.length} products now carry a refreshed model-level main keyword from the Semrush UK bank (was 111), \${full} of \${pe.length} carry 5 secondary keywords, 0 main keywords are used on two URLs.</b></p><p><b>Batch 1, main keywords.</b> About 3,100 candidate keywords were refreshed in Semrush this round (accessory types, then bike model families); the bank now holds roughly 4,000 refreshed UK rows. Each bike got the highest-volume free Transactional or Commercial keyword (volume 10 or more, KD 28 or less) whose words are only the brand, the model words of that product and generic buying words. Nothing is invented: a keyword is only used when it exists in the refreshed bank.</p><p><b>Batch 2, secondaries.</b> Secondaries come from the pool of the product's own model family (owner decision 2026-11-13: variants of one family may share secondaries, main keywords stay unique): brand and model first, then brand level, then category level; a keyword with another model, another category or another accessory type can no longer land on a product. This round also fixed the accessory pool, which had been blocked by a guard that rejected every accessory keyword (lock, pump, light).</p><p><b>Still open for English:</b> (1) \${name} products keep the unique product name as main keyword (approved contingency 2026-11-03): 108 of the bikes have no Transactional or Commercial refreshed keyword with their brand and model, the rest share their best keyword with a sibling variant that already holds it. The gate counts these as M1 failures and they stay open until more model-level keywords exist. (2) \${pe.length - full} products have fewer than 5 secondaries: accessories (racks, side stands, mudguards, rain cover, patch kit, multitool, foam sprayer) and QiO / Urban Arrow cargo bikes lack refreshed Transactional keywords. (3) FAQs on product pages are not generated yet.</p><p><b>German and French</b> are not changed in this batch: German pages already rank, so Search Console must be checked before any remap; French needs the same refreshed-bank mapping with the French Semrush database. <b>Other languages (nl, es, it, pt) are not built yet.</b></p></div>\`;
+};
+`;
+s = s.slice(0, a) + nv + s.slice(b);
+s = s.replace("so 5 unique secondaries per variant cannot exist in the bank. Decision needed from the owner (see section 1).", "so 5 unique secondaries per variant cannot exist in the bank. English now shares them inside a model family (owner decision 2026-11-13); German and French still need that mapping.");
+fs.writeFileSync(f, s);
+console.log('patched');
