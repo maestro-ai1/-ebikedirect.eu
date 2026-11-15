@@ -270,10 +270,10 @@
      "kd": 22
     },
     {
-     "keyword": "high speed electric bike",
-     "intent": "C",
-     "volume": 90,
-     "kd": 5
+     "keyword": "fastest electric bike",
+     "volume": 1600,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -4120,7 +4120,14 @@
      "kd": 17
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "electric bike brands",
+     "volume": 390,
+     "kd": 27,
+     "intent": "C"
+    }
+   ]
   }
  ]
 }
