@@ -3,6 +3,7 @@ import type { NextRequest } from 'next/server';
 
 const LOCALES = ['de', 'fr', 'nl', 'it', 'es', 'pt', 'en'];
 const DEFAULT_LOCALE = 'de';
+const BUILT = ['fr', 'en'];
 
 // German is served without a prefix (/shop), every other language with one (/fr/shop).
 // Unprefixed paths are rewritten to /de/... internally; /de/... is redirected to the clean URL
@@ -26,8 +27,9 @@ export function middleware(request: NextRequest) {
       return NextResponse.redirect(url, 308);
     }
     const res = NextResponse.next();
-    // Translated URLs of pages whose copy is still German are kept out of the index.
-    if (rest !== '/') res.headers.set('X-Robots-Tag', 'noindex, follow');
+    // Languages that are not built yet (nl, it, es, pt) stay out of the index. French and English are built: their pages decide for themselves through the robots meta tag,
+    // a blanket header here would hide every translated category, brand and product page from Google.
+    if (!BUILT.includes(first)) res.headers.set('X-Robots-Tag', 'noindex, follow');
     return res;
   }
 

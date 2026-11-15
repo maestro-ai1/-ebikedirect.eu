@@ -28,6 +28,8 @@ async function one(e) {
   const norm = (u) => (u || '').replace(/\/$/, '');
   if (!can) bad('canonical missing', e.loc); else if (norm(can) !== norm(e.loc)) bad('canonical differs from sitemap url', e.loc, can);
   const robots = (h.match(/<meta name="robots" content="([^"]*)"/) || [])[1] || '';
+  const hdr = r.headers.get('x-robots-tag') || '';
+  if (/noindex/i.test(hdr)) bad('X-Robots-Tag noindex header on a sitemap page', e.loc, hdr);
   if (/noindex/.test(robots)) bad('noindex page in sitemap', e.loc);
   const page = [...h.matchAll(/<link[^>]*rel="alternate"[^>]*hreflang="([^"]*)"[^>]*href="([^"]*)"/g)].map((a) => a[1] + '|' + norm(a[2]));
   const sm = e.alts.map((a) => a[0] + '|' + norm(a[1]));
