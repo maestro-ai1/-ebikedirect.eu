@@ -16,6 +16,22 @@ const NOT_READY = 'Die Online-Bestellung ist noch nicht freigeschaltet. Bitte ve
 const mailConfigured = () =>
   Boolean(process.env.EMAIL_SERVER_HOST && process.env.EMAIL_SERVER_USER && process.env.EMAIL_SERVER_PASSWORD && process.env.EMAIL_FROM && process.env.ORDER_TO_EMAIL);
 
+// Sequential order numbers (#001, #002 ...). The counter lives in Upstash Redis (Vercel Marketplace; the REST variables are set when it is connected).
+// Without the counter, or if it is unreachable, the order still goes through with a date-based number so no order is lost.
+async function nextOrderRef(): Promise<string> {
+  const url = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+  if (url && token) {
+    try {
+      const r = await fetch(`${url.replace(/\/$/, '')}/incr/ebikedirect:order-number`, { method: 'POST', headers: { Authorization: `Bearer ${token}` }, cache: 'no-store' });
+      const j: any = await r.json();
+      const n = Number(j?.result);
+      if (r.ok && Number.isInteger(n) && n > 0) return `#${String(n).padStart(3, '0')}`;
+    } catch { /* fall through to the date-based number */ }
+  }
+  return `EBD-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
+}
+
 export async function GET() {
   return NextResponse.json({ enabled: mailConfigured() });
 }
@@ -58,14 +74,15 @@ export async function POST(req: Request) {
 
   if (!mailConfigured()) return NextResponse.json({ error: NOT_READY }, { status: 503 });
 
-  const ref = `EBD-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
+  const ref = await nextOrderRef();
+  const placed = new Intl.DateTimeFormat('de-DE', { dateStyle: 'medium', timeStyle: 'medium', timeZone: 'Europe/Berlin' }).format(new Date());
   const itemText = lines.map((l) => `- ${l.qty} x ${l.name} (${[l.frame, `${l.wh} Wh`, l.color].filter(Boolean).join(', ')}): ${eur(l.unit * l.qty)}`).join('\n');
-  const summary = `Bestellnummer: ${ref}\nZahlungsart: ${payment === 'crypto' ? 'Kryptowährung (10 % Rabatt)' : 'Banküberweisung (Vorkasse)'}\n\n${itemText}\n\nWarenwert: ${eur(subtotal)}${discount ? `\nKrypto-Rabatt: -${eur(discount)}` : ''}\nVersand: ${eur(shipping)}\nGesamt inkl. 19 % MwSt.: ${eur(total)}`;
+  const summary = `Bestellnummer: ${ref}\nBestellt am: ${placed}\nZahlungsart: ${payment === 'crypto' ? 'Kryptowährung (10 % Rabatt)' : 'Banküberweisung (Vorkasse)'}\n\n${itemText}\n\nWarenwert: ${eur(subtotal)}${discount ? `\nKrypto-Rabatt: -${eur(discount)}` : ''}\nVersand: ${eur(shipping)}\nGesamt inkl. 19 % MwSt.: ${eur(total)}`;
   const addr = `${customer.firstName} ${customer.lastName}\n${customer.street} ${customer.houseNumber}\n${customer.zip} ${customer.city}\n${customer.country}\nTelefon: ${customer.phone}\nE-Mail: ${customer.email}${customer.note ? `\nHinweis: ${customer.note}` : ''}`;
 
   try {
-    const mod = 'nodemailer'; // loaded at run time so the build does not need the package; missing package = not ready, never a false success
-    const nm: any = await import(/* webpackIgnore: true */ mod);
+    // @ts-ignore nodemailer ships no type declarations
+    const nm: any = (await import('nodemailer')).default;
     const transport = nm.createTransport({
       host: process.env.EMAIL_SERVER_HOST,
       port: Number(process.env.EMAIL_SERVER_PORT || 587),
