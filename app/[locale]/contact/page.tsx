@@ -53,7 +53,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <strong className="block text-gray-900 font-bold">{u('contact.seat')}</strong>
-                    <span>LEKKER Bikes Germany GmbH, Kollwitzstraße 47, 10405 Berlin, Deutschland</span>
+                    <span>e-bikes MK GmbH, Frankfurter Str. 63, 58553 Halver, Deutschland</span>
                   </div>
                 </div>
 

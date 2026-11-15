@@ -39,8 +39,8 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
           <div className="prose prose-slate max-w-none text-xs sm:text-sm text-gray-700 leading-relaxed space-y-4 border-t border-gray-100 pt-6">
             <h2 className="text-base font-bold text-[#131A22]">1. Verantwortlicher</h2>
             <p>
-              LEKKER Bikes Germany GmbH<br />
-              Kollwitzstraße 47, 10405 Berlin, Deutschland<br />
+              e-bikes MK GmbH<br />
+              Frankfurter Str. 63, 58553 Halver, Deutschland<br />
               E-Mail: sales@ebikedirect.eu<br />
             </p>
 

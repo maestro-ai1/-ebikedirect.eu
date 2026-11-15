@@ -6,16 +6,18 @@ export function StoreJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'BicycleStore',
     'name': 'ebikedirect.eu',
+    'legalName': 'e-bikes MK GmbH',
+    'vatID': 'DE325277116',
     'image': 'https://ebikedirect.eu/logo.svg',
     '@id': 'https://ebikedirect.eu/#store',
     'url': 'https://ebikedirect.eu',
     'priceRange': '€€€€',
     'address': {
       '@type': 'PostalAddress',
-      'streetAddress': 'Kollwitzstraße 47',
-      'addressLocality': 'Berlin',
-      'postalCode': '10405',
-      'addressRegion': 'Berlin',
+      'streetAddress': 'Frankfurter Str. 63',
+      'addressLocality': 'Halver',
+      'postalCode': '58553',
+      'addressRegion': 'Nordrhein-Westfalen',
       'addressCountry': 'DE'
     },
     'openingHoursSpecification': [

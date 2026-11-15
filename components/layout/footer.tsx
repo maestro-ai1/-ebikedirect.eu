@@ -102,7 +102,7 @@ export function Footer() {
             <div className="space-y-1.5 text-xs text-gray-300">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-gray-500" />
-                <span>Kollwitzstraße 47, 10405 Berlin, {u('ft.country')}</span>
+                <span>Frankfurter Str. 63, 58553 Halver, {u('ft.country')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-gray-500" />
