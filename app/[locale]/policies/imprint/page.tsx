@@ -31,7 +31,7 @@ export default async function ImprintPage({ params }: { params: Promise<{ locale
           </div>
 
           <div className="prose prose-slate max-w-none text-xs sm:text-sm text-gray-700 leading-relaxed space-y-4 border-t border-gray-100 pt-6">
-            <h2 className={H2}>Angaben gemäß § 5 TMG</h2>
+            <h2 className={H2}>Angaben gemäß § 5 DDG</h2>
             <p>
               <strong>e-bikes MK GmbH</strong><br />
               Frankfurter Str. 63<br />
