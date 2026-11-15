@@ -80,6 +80,7 @@ export default async function LocaleLayout({
     <html lang={info.hreflang.split('-')[0]} className={`scroll-smooth ${display.variable} ${body.variable}`}>
       <head>
         <link rel="ard" href="/.well-known/ard.json" />
+        <meta name="msvalidate.01" content="D5E8F212288CD26709A9B5E7D021D498" />
         <StoreJsonLd />
         <Suspense fallback={null}>
           <HreflangTags locale={locale} />
