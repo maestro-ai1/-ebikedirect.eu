@@ -55,8 +55,8 @@ export function StoreJsonLd() {
           { '@type': 'OpeningHoursSpecification', 'dayOfWeek': 'Saturday', 'opens': '10:00', 'closes': '16:00' }
         ],
         'paymentAccepted': 'Cash, Credit Card, Klarna, PayPal, Bitcoin, USDT',
-        'currenciesAccepted': 'EUR, BTC, USDT',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'bestRating': '5.0', 'reviewCount': '5284' }
+        // no aggregateRating here: Google treats ratings on the shop's own LocalBusiness page as self-serving and flags them as a critical review-snippet issue
+        'currenciesAccepted': 'EUR, BTC, USDT'
       }
     ]
   };
