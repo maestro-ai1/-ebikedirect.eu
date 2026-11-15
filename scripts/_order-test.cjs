@@ -24,12 +24,17 @@ const env = { ...process.env, PORT: '3101', EMAIL_SERVER_HOST: '127.0.0.1', EMAI
 const srv = spawn(process.platform === 'win32' ? 'npx.cmd' : 'npx', ['next', 'start', '-p', '3101'], { env, shell: true });
 setTimeout(async () => {
   try {
-    const body = { customer: { firstName: 'Test', lastName: 'Kunde', email: 'kunde@example.test', phone: '+49 000', street: 'Teststr.', houseNumber: '1', zip: '10115', city: 'Berlin', country: 'Deutschland' }, payment: 'bank', items: [{ slug: require('../data/keywords/en-products.json') && Object.keys(require('../data/keywords/en-products.json').products)[0], quantity: 1 }] };
-    const r = await fetch('http://127.0.0.1:3101/api/order', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-    console.log('status', r.status, await r.text());
+    const slug = Object.keys(require('../data/keywords/en-products.json').products)[0];
+    for (const lg of ['de', 'fr', 'nl', 'it', 'es', 'pt', 'en', 'xx']) {
+      const body = { locale: lg, customer: { firstName: 'Test', lastName: 'Kunde', email: 'kunde@example.test', phone: '+49 000', street: 'Teststr.', houseNumber: '1', zip: '10115', city: 'Berlin', country: 'Frankreich' }, payment: 'bank', items: [{ slug, quantity: 1 }] };
+      const r = await fetch('http://127.0.0.1:3101/api/order', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+      console.log(lg, r.status, await r.text());
+    }
+    const bad = await fetch('http://127.0.0.1:3101/api/order', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ locale: 'it', customer: {}, payment: 'bank', items: [] }) });
+    console.log('error it:', await bad.text());
     await new Promise((x) => setTimeout(x, 1500));
     console.log('mails received', mails.length);
-    for (const m of mails) console.log('---\n' + m.split('\r\n').filter((l) => /^(To|Subject|From|Reply-To):|Bestellnummer|Bestellt am|Zahlungsart/.test(l)).join('\n'));
+    for (const m of mails) console.log(m.split('\r\n').filter((l) => /^(To|Subject):/.test(l)).join(' | '));
   } catch (e) { console.log('error', e.message); }
   srv.kill(); process.exit(0);
 }, 12000);

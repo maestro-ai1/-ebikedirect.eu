@@ -50,6 +50,7 @@ export default function CheckoutPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          locale,
           customer: form,
           payment,
           items: items.map((i) => ({ slug: i.product.slug, quantity: i.quantity, frame: i.selectedFrameSize, batteryWh: i.selectedBattery.capacityWh, color: i.selectedColor.name }))
