@@ -26,7 +26,7 @@ const bank = [];
 for (const l of fs.readFileSync(root + '/03-keywords/by-market/uk/uk_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const k = p[0].toLowerCase(); if (!REF.has(k)) continue;
   const kd = p[3] === '' ? null : +p[3]; const v = +p[2] || 0; const i = IT(p[1]);
-  if (kd === null || v < 10 || !/^(T|C)$/.test(i) || kd > (v >= 1000 ? 30 : 28) || BADX.test(k)) continue;
+  if (kd === null || v < 10 || !/^(T|C|I)$/.test(i) || kd > (v >= 1000 ? 30 : 28) || BADX.test(k)) continue;
   bank.push({ keyword: k, intent: i, volume: v, kd, t: toks(k), g1: GUARD.test(k), g2: GUARD_ACC.test(k) });
 }
 bank.sort((a, b) => b.volume - a.volume);
@@ -34,6 +34,7 @@ const pf = 'data/keywords/en-products.json';
 const D = JSON.parse(fs.readFileSync(pf, 'utf8'));
 const live = require('../data/keywords/en-live.json').pages;
 const mains = new Set(); for (const p of live) mains.add(nk(p.primary.keyword)); for (const e of Object.values(D.products)) mains.add(nk(e.primary.keyword));
+let faqShort = 0;
 const report = { short: [], full: 0 }; const cache = new Map();
 for (const [slug, e] of Object.entries(D.products)) {
   const isAcc = e.category === 'Zubehör';
@@ -58,9 +59,16 @@ for (const [slug, e] of Object.entries(D.products)) {
     for (const arr of [A, B, C]) for (const b of arr) { const k = nk(b.keyword); if (seen.has(k)) continue; seen.add(k); pool.push({ keyword: b.keyword, intent: b.intent, volume: b.volume, kd: b.kd }); }
     cache.set(fam, pool);
   }
-  e.secondary = cache.get(fam).slice(0, 5);
+  const poolAll = cache.get(fam);
+  const poolTC = poolAll.filter((k) => k.intent === 'T' || k.intent === 'C');
+  e.secondary = poolTC.slice(0, 5);
+  const secK = new Set(e.secondary.map((k) => k.keyword));
+  const brandFirst = (k) => !brand.some((x) => k.keyword.split(" ").includes(x)) || k.keyword.startsWith(brand[0] + " ");
+  e.faq = poolAll.filter((k) => !secK.has(k.keyword) && brandFirst(k)).slice(0, 5);
+  if (e.faq.length < 5) faqShort++;
   if (e.secondary.length >= 5) report.full++; else report.short.push(slug + ' ' + e.secondary.length);
 }
+console.log('FAQ keywords short (<5):', faqShort);
 console.log('products', Object.keys(D.products).length, '| with 5 secondaries', report.full, '| short', report.short.length, '| families', cache.size);
 for (const s of (process.env.PEEK || '').split(',').filter(Boolean)) { const e = D.products[s]; if (e) console.log(s, '|', e.primary.keyword, '=>', e.secondary.map((k) => k.keyword + ' ' + k.intent + k.volume).join('; ')); }
 if (!dry) { fs.copyFileSync(pf, 'data/keywords/en-products.pre-secondaries.json'); fs.writeFileSync(pf, JSON.stringify(D, null, 1)); console.log('written'); }

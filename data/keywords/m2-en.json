@@ -60,7 +60,7 @@
    "primary": "stromer",
    "intent": "N",
    "volume": 170,
-   "bestT": "stromer electric bike",
+   "bestT": "stromer electric bikes for sale",
    "tVolume": 20,
    "ratio": 8.5
   },
@@ -68,7 +68,7 @@
    "primary": "tenways",
    "intent": "N",
    "volume": 1600,
-   "bestT": "tenways e bike price",
+   "bestT": "tenways ago x price",
    "tVolume": 20,
    "ratio": 80
   },
@@ -128,13 +128,29 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/en/shop/cube-stereo-hybrid-one44-hpc-slt-800-800-wh-29-zoll": {
+   "primary": "cube stereo hybrid one44 hpc slt",
+   "intent": "C",
+   "volume": 20,
+   "bestT": "cube stereo hybrid price",
+   "tVolume": 10,
+   "ratio": 2
+  },
+  "/en/shop/cube-ams-hybrid-one44-c-68x-slx-400x-400-wh-29-zoll": {
+   "primary": "cube ams hybrid one44 c 68x slx 400x",
+   "intent": "C",
+   "volume": 20,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/shop/focus-jam2-6-9-800-wh-29-zoll": {
    "primary": "focus jam2",
    "intent": "C",
    "volume": 260,
-   "bestT": "focus jam2 6.8 e bike",
-   "tVolume": 20,
-   "ratio": 13
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/shop/focus-thron2-6-8-abs-800-wh-29-zoll": {
    "primary": "focus thron2 6.8",
@@ -148,9 +164,9 @@
    "primary": "giant explore e bike",
    "intent": "C",
    "volume": 140,
-   "bestT": "giant explore e plus",
-   "tVolume": 20,
-   "ratio": 7
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/shop/haibike-allmtn-cf-9-800-wh-29": {
    "primary": "haibike allmtn cf 9",
@@ -201,5 +217,14 @@
    "ratio": null
   }
  },
- "rejected": {}
+ "rejected": {
+  "/en/shop/specialized-turbo-levo-r-comp-alloy-840-wh-fully": {
+   "primary": "specialized turbo levo r comp alloy",
+   "intent": "C",
+   "volume": 20,
+   "bestT": "specialized turbo levo price",
+   "tVolume": 20,
+   "ratio": 1
+  }
+ }
 }

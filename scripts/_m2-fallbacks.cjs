@@ -49,7 +49,7 @@ for (const p of live) {
 }
 for (const [slug, e] of Object.entries(prods)) {
   const t = toks(e.name); const brand = toks(e.brand); const model = t.filter((x) => !brand.includes(x));
-  check('/' + lang + '/shop/' + slug, e, (k) => { const nkk = norm(k); return brand.every((b) => new RegExp('\\b' + b + '\\b').test(nkk)) && model.filter((m) => new RegExp('\\b' + m + '\\b').test(nkk)).length >= Math.min(2, model.length); }, t);
+  check('/' + lang + '/shop/' + slug, e, (k) => { const nkk = norm(k); const own = new Set(t.concat(['bike', 'bikes', 'e', 'ebike', 'ebikes', 'electric', 'price', 'buy', 'sale', 'for', 'uk', 'the', 'bicycle', 'cycle'])); const extra = nkk.split(/[^a-z0-9]+/).filter((w) => w && !own.has(w) && !brand.includes(w)); if (extra.length) return false; return brand.every((b) => new RegExp('\\b' + b + '\\b').test(nkk)) && model.filter((m) => new RegExp('\\b' + m + '\\b').test(nkk)).length >= Math.min(2, model.length); }, t);
 }
 fs.writeFileSync(`data/keywords/m2-${lang}.json`, JSON.stringify({ accepted: out, rejected }, null, 1));
 console.log('accepted fallbacks', Object.keys(out).length, '| T alternative is close (replace the primary):', Object.keys(rejected).length);
