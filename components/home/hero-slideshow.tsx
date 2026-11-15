@@ -71,9 +71,9 @@ export function HeroSlideshow({ h1, sub, allText, allHref, slides, bullets }: { 
             </div>
           </div>
           {slides.length > 1 && (
-            <div className="flex justify-center gap-2 mt-4" role="tablist" aria-label="Slides">
+            <div className="flex justify-center mt-2" role="tablist" aria-label="Slides">
               {slides.map((sl, n) => (
-                <button key={sl.id} type="button" onClick={() => setI(n)} aria-label={sl.label} aria-selected={n === i} role="tab" className={`h-2 rounded-full transition-all ${n === i ? 'w-8 bg-[#FF5722]' : 'w-2 bg-gray-300'}`} />
+                <button key={sl.id} type="button" onClick={() => setI(n)} aria-label={sl.label} aria-selected={n === i} role="tab" className="flex h-6 min-w-6 items-center justify-center"><span aria-hidden="true" className={`block h-2 rounded-full transition-all ${n === i ? 'w-8 bg-[#FF5722]' : 'w-2 bg-gray-300'}`} /></button>
               ))}
             </div>
           )}
