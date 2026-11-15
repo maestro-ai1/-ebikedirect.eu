@@ -4,6 +4,8 @@ import { MAPPED_PAGES, brandSlug } from '@/lib/mapped-pages';
 import { getAllPosts } from '@/lib/blog-content';
 import { SITE_URL } from '@/lib/seo';
 import type { Product } from '@/lib/types';
+import { l10nPages } from '@/lib/l10n-pages';
+import { localName } from '@/lib/l10n-names';
 
 // Agent-ready layer (WebForge): every URL listed here is served by this site. Nothing is advertised that does not resolve,
 // and agents can read the catalogue but never pay (orders are placed by people on the checkout page).
@@ -49,6 +51,21 @@ export function productRecord(p: Product) {
 }
 
 /** llms.txt (llmstxt.org): H1, blockquote summary, then H2 sections of markdown links. */
+const LANG_LABEL: Record<string, string> = { en: 'English (en)', fr: 'Français (fr)' };
+/** Category, brand and accessory pages of the built languages besides German, as markdown link lists. */
+function langSections(): string[] {
+  const out: string[] = [];
+  for (const lg of ['en', 'fr'] as const) {
+    const pages = l10nPages(lg);
+    out.push(`## ${LANG_LABEL[lg]}`);
+    for (const type of ['hub', 'category', 'accessory', 'brand'] as const) {
+      for (const p of pages.filter((x) => x.type === type)) out.push(`- [${p.display}](${SITE}/${lg}${p.url.replace(/\/$/, '')})`);
+    }
+    out.push(`- [Catalogue (JSON)](${SITE}/api/products)`, '');
+  }
+  return out;
+}
+
 export function llmsTxt(): string {
   const prices = PRODUCTS.map((p) => p.price).filter((n) => n > 0);
   const brandLinks = MAPPED_PAGES.filter((m) => m.type === 'brand' && m.brand).map((m) => `- [${m.brand}](${SITE}${m.path})`);
@@ -56,7 +73,9 @@ export function llmsTxt(): string {
   return [
     `# ${SITE_NAME}`,
     '',
-    `> ${TAGLINE}. Online-Shop mit ${bikes().length} E-Bikes von ${brandCount()} Marken und ${PRODUCTS.length - bikes().length} Zubehörartikeln, Preise in Euro inklusive 19 % MwSt., Lieferung per Spedition.`,
+    `> Electric bikes, pedelecs, cargo bikes and accessories for Germany and Europe. ${bikes().length} e-bikes from ${brandCount()} brands and ${PRODUCTS.length - bikes().length} accessories, prices in euro including 19 % VAT, freight delivery to every country. The shop is available in German (default), English and French; people place orders on the checkout page, agents can read the catalogue.`,
+    '',
+    `${TAGLINE}. Online-Shop mit ${bikes().length} E-Bikes von ${brandCount()} Marken und ${PRODUCTS.length - bikes().length} Zubehörartikeln, Preise in Euro inklusive 19 % MwSt., Lieferung per Spedition.`,
     '',
     'Mindestbestellwert 500 €, Speditionsversand kostenfrei ab 1.000 € Bestellwert, 2 Jahre Garantie, 30 Tage Rückgaberecht. Bestellungen werden von Menschen auf der Kasse-Seite aufgegeben; Agenten können den Katalog lesen, aber nicht bezahlen.',
     '',
@@ -74,6 +93,7 @@ export function llmsTxt(): string {
     `- [Rückgabe und Garantie](${SITE}/policies/returns)`,
     `- [Kontakt](${SITE}/contact)`,
     '',
+    ...langSections(),
     '## Maschinenlesbar',
     `- [Produktkatalog als JSON](${SITE}/api/products): Filter category, brand, q, maxPrice, page, limit`,
     `- [Vollständige Produktliste](${SITE}/llms-full.txt)`,
@@ -90,27 +110,37 @@ export function llmsTxt(): string {
 export function llmsFullTxt(): string {
   const groups = new Map<string, Product[]>();
   PRODUCTS.forEach((p) => groups.set(p.category, [...(groups.get(p.category) || []), p]));
-  const out = [`# ${SITE_NAME}: vollständige Produktliste`, '', `> ${PRODUCTS.length} Produkte, Preise in Euro inklusive 19 % MwSt., Stand: letzter Build. Details und Kasse auf jeder Produktseite.`, ''];
-  for (const [label, list] of [...groups.entries()].sort((a, b) => b[1].length - a[1].length)) {
-    out.push(`## ${label}`, '');
-    list.forEach((p) => out.push(`- [${p.name}](${productUrl(p)}): ${p.brand}, ${eur(p.price)}${p.inStock ? '' : ', nicht lieferbar'}`));
-    out.push('');
-  }
-  out.push('## Ratgeber', '');
+  const out = [
+    `# ${SITE_NAME}: full catalogue (German, English, French)`, '',
+    `> ${PRODUCTS.length} products, prices in euro including 19 % VAT, state of the last build. Every product page exists in German (${SITE}/shop/<slug>), English (${SITE}/en/shop/<slug>) and French (${SITE}/fr/shop/<slug>). Checkout is done by people on the checkout page.`, ''
+  ];
+  const mkSection = (title: string, lg: 'de' | 'en' | 'fr', prefix: string) => {
+    out.push(`# ${title}`, '');
+    for (const [label, list] of [...groups.entries()].sort((a, b) => b[1].length - a[1].length)) {
+      out.push(`## ${label}`, '');
+      list.forEach((p) => out.push(`- [${lg === 'de' ? p.name : localName(lg, p.name)}](${SITE}${prefix}/shop/${p.slug}): ${p.brand}, ${eur(p.price)}${p.inStock ? '' : ', nicht lieferbar'}`));
+      out.push('');
+    }
+  };
+  mkSection('Deutsch', 'de', '');
+  mkSection('English', 'en', '/en');
+  mkSection('Français', 'fr', '/fr');
+  out.push('# Ratgeber (Deutsch)', '');
   getAllPosts().filter((p) => !p.legacy).forEach((p) => out.push(`- [${p.title}](${SITE}/blog/${p.slug}): ${p.description}`));
   out.push('');
   return out.join('\n');
 }
 
-/** ARD manifest (/.well-known/ai-catalog.json). */
+/** ARD manifest, served at /.well-known/ard.json (and at the legacy /.well-known/ai-catalog.json). Every entry has an identifier, displayName, type and exactly one url. */
 export function aiCatalog() {
   return {
     specVersion: '1.0',
     host: { displayName: SITE_NAME, url: SITE, description: `${TAGLINE}. Preise in Euro, Lieferung per Spedition.` },
     entries: [
-      { id: 'urn:air:ebikedirect.eu:api:products', displayName: 'Produktkatalog (JSON)', type: 'application/json', url: `${SITE}/api/products`, representativeQueries: ['E-Mountainbike Bosch kaufen', 'Cargo E-Bike unter 6000 Euro', 'Trekking E-Bike mit 800 Wh Akku'] },
-      { id: 'urn:air:ebikedirect.eu:api:openapi', displayName: 'OpenAPI-Beschreibung des Katalogs', type: 'application/json', url: `${SITE}/api/openapi.json`, representativeQueries: ['wie filtere ich E-Bikes nach Preis und Marke'] },
-      { id: 'urn:air:ebikedirect.eu:docs:llms', displayName: 'Shop-Übersicht für Sprachmodelle (llms.txt)', type: 'text/plain', url: `${SITE}/llms.txt`, representativeQueries: ['E-Bike Kaufberatung', 'S-Pedelec Führerschein und Kennzeichen'] }
+      { identifier: 'urn:air:ebikedirect.eu:api:products', displayName: 'Produktkatalog (JSON)', type: 'application/json', url: `${SITE}/api/products`, representativeQueries: ['E-Mountainbike Bosch kaufen', 'Cargo E-Bike unter 6000 Euro', 'Trekking E-Bike mit 800 Wh Akku'] },
+      { identifier: 'urn:air:ebikedirect.eu:api:openapi', displayName: 'OpenAPI-Beschreibung des Katalogs', type: 'application/json', url: `${SITE}/api/openapi.json`, representativeQueries: ['wie filtere ich E-Bikes nach Preis und Marke'] },
+      { identifier: 'urn:air:ebikedirect.eu:docs:llms', displayName: 'Shop-Übersicht für Sprachmodelle (llms.txt)', type: 'text/plain', url: `${SITE}/llms.txt`, representativeQueries: ['E-Bike Kaufberatung', 'S-Pedelec Führerschein und Kennzeichen'] },
+      { identifier: 'urn:air:ebikedirect.eu:docs:catalogue', displayName: 'Full product catalogue in German, English and French (Markdown)', type: 'text/plain', url: `${SITE}/llms-full.txt`, representativeQueries: ['e-bike prices and models', 'Cube e-bike price list'] }
     ]
   };
 }

@@ -40,7 +40,7 @@ const ex = rows.find((r) => /ab lager|sofort lieferbar|auf lager/i.test(r.body))
 // Tenways first paragraph
 const tw = rows.find((r) => /tenways/.test(r.s)); console.log('tenways example first paragraph:', tw.para.slice(0, 160), '| keyword:', tw.e.primary.keyword);
 // accessory products
-const xml = await (await fetch(base + '/sitemap.xml')).text();
+const xml = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(base);
 const acc = [...xml.matchAll(/<loc>[^<]*\/shop\/([^<]+?)\/?<\/loc>/g)].map((m) => m[1]).filter((s) => !prods[s]);
 const accRows = []; let j = 0;
 async function w2() { while (j < acc.length) { const s = acc[j++]; const html = await (await fetch(base + '/shop/' + s)).text(); const main = (html.match(/<main[\s\S]*?<\/main>/) || [html])[0]; const body = decode(strip(main).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' '); accRows.push({ s, words: body.split(' ').length, h2: (main.match(/<h2/g) || []).length, links: (main.match(/<a /g) || []).length }); } }

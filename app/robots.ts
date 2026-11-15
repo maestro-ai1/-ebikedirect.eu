@@ -17,8 +17,8 @@ export default function robots(): MetadataRoute.Robots {
       },
       // AI agents and answer engines: may read pages, the catalogue API and the agent files
       {
-        userAgent: ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'Claude-SearchBot', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended', 'Cohere-ai', 'anthropic-ai', 'Meta-ExternalAgent', 'CCBot'],
-        allow: ['/', '/api/products', '/api/openapi.json', '/.well-known/', '/llms.txt', '/llms-full.txt'],
+        userAgent: ['GPTBot', 'OAI-SearchBot', 'ClaudeBot', 'Claude-SearchBot', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended', 'Cohere-ai', 'anthropic-ai', 'ChatGPT-User', 'Perplexity-User', 'Claude-User', 'DuckAssistBot', 'Meta-ExternalAgent', 'CCBot'],
+        allow: ['/', '/api/products', '/api/openapi.json', '/openapi.json', '/.well-known/', '/llms.txt', '/llms-full.txt'],
         disallow: PRIVATE
       },
       // Bulk scrapers

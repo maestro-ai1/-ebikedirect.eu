@@ -4,7 +4,7 @@ const fam = require('../data/keywords/families.json').families;
 const dec = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const text = (h) => dec(h.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 (async () => {
-  const sm = await (await fetch(base + '/sitemap.xml')).text();
+  const sm = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(base);
   const rows = []; const problems = [];
   for (const f of fam) {
     const r = await fetch(base + f.path); const h = await r.text();

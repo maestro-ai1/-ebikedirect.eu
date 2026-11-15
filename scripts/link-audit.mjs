@@ -2,7 +2,7 @@
 // Internal links must return 200 (after redirects); external (outbound) links are listed with their status.
 // Usage: node scripts/link-audit.mjs [origin]   (default https://ebikedirect.eu)
 const origin = (process.argv[2] || 'https://ebikedirect.eu').replace(/\/$/, '');
-const sm = await (await fetch(`${origin}/sitemap.xml`)).text();
+const sm = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(origin);
 const urls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace('https://ebikedirect.eu', origin));
 const internal = new Map(); // target -> first source
 const external = new Map();

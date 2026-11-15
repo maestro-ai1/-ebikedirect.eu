@@ -2,46 +2,63 @@ import React from 'react';
 import { Product } from '@/lib/types';
 
 export function StoreJsonLd() {
+  const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
+  const ORG = `${baseUrl}/#organization`;
+  const address = {
+    '@type': 'PostalAddress',
+    'streetAddress': 'Frankfurter Str. 63',
+    'addressLocality': 'Halver',
+    'postalCode': '58553',
+    'addressRegion': 'Nordrhein-Westfalen',
+    'addressCountry': 'DE'
+  };
+  // One graph, linked by @id: the company (Organization), the website (WebSite, published by the company) and the shop (BicycleStore, part of the company).
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'BicycleStore',
-    'name': 'ebikedirect.eu',
-    'legalName': 'e-bikes MK GmbH',
-    'vatID': 'DE325277116',
-    'image': 'https://ebikedirect.eu/logo.svg',
-    '@id': 'https://ebikedirect.eu/#store',
-    'url': 'https://ebikedirect.eu',
-    'priceRange': '€€€€',
-    'address': {
-      '@type': 'PostalAddress',
-      'streetAddress': 'Frankfurter Str. 63',
-      'addressLocality': 'Halver',
-      'postalCode': '58553',
-      'addressRegion': 'Nordrhein-Westfalen',
-      'addressCountry': 'DE'
-    },
-    'openingHoursSpecification': [
+    '@graph': [
       {
-        '@type': 'OpeningHoursSpecification',
-        'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        'opens': '09:00',
-        'closes': '18:30'
+        '@type': 'Organization',
+        '@id': ORG,
+        'name': 'ebikedirect.eu',
+        'legalName': 'e-bikes MK GmbH',
+        'url': baseUrl,
+        'logo': `${baseUrl}/logo.svg`,
+        'email': 'sales@ebikedirect.eu',
+        'vatID': 'DE325277116',
+        'address': address,
+        'contactPoint': {
+          '@type': 'ContactPoint',
+          'contactType': 'customer service',
+          'email': 'sales@ebikedirect.eu',
+          'availableLanguage': ['de', 'fr', 'en', 'nl', 'it', 'es', 'pt']
+        }
       },
       {
-        '@type': 'OpeningHoursSpecification',
-        'dayOfWeek': 'Saturday',
-        'opens': '10:00',
-        'closes': '16:00'
+        '@type': 'WebSite',
+        '@id': `${baseUrl}/#website`,
+        'url': baseUrl,
+        'name': 'ebikedirect.eu',
+        'inLanguage': ['de', 'fr', 'en'],
+        'publisher': { '@id': ORG }
+      },
+      {
+        '@type': 'BicycleStore',
+        '@id': `${baseUrl}/#store`,
+        'name': 'ebikedirect.eu',
+        'image': `${baseUrl}/logo.svg`,
+        'url': baseUrl,
+        'parentOrganization': { '@id': ORG },
+        'priceRange': '€€€€',
+        'address': address,
+        'openingHoursSpecification': [
+          { '@type': 'OpeningHoursSpecification', 'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'opens': '09:00', 'closes': '18:30' },
+          { '@type': 'OpeningHoursSpecification', 'dayOfWeek': 'Saturday', 'opens': '10:00', 'closes': '16:00' }
+        ],
+        'paymentAccepted': 'Cash, Credit Card, Klarna, PayPal, Bitcoin, USDT',
+        'currenciesAccepted': 'EUR, BTC, USDT',
+        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'bestRating': '5.0', 'reviewCount': '5284' }
       }
-    ],
-    'paymentAccepted': 'Cash, Credit Card, Klarna, PayPal, Bitcoin, USDT',
-    'currenciesAccepted': 'EUR, BTC, USDT',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'bestRating': '5.0',
-      'reviewCount': '5284'
-    }
+    ]
   };
 
   return (
@@ -67,6 +84,7 @@ export function ProductJsonLd({ product, description, urlPrefix = '', name }: { 
     },
     'offers': {
       '@type': 'Offer',
+      'seller': { '@id': `${baseUrl}/#organization` },
       'url': `${baseUrl}${urlPrefix}/shop/${product.slug}`,
       'priceCurrency': 'EUR',
       'price': product.price,

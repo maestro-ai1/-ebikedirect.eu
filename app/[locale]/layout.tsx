@@ -79,6 +79,7 @@ export default async function LocaleLayout({
   return (
     <html lang={info.hreflang.split('-')[0]} className={`scroll-smooth ${display.variable} ${body.variable}`}>
       <head>
+        <link rel="ard" href="/.well-known/ard.json" />
         <StoreJsonLd />
         <Suspense fallback={null}>
           <HreflangTags locale={locale} />

@@ -54,7 +54,7 @@ const typeOf = (p) => {
 };
 
 // ---- crawl ----
-const xml = await (await fetch(base + '/sitemap.xml')).text();
+const xml = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(base);
 const urls = [...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => pathOf(m[1])).filter(Boolean))];
 const UA = { 'user-agent': 'Mozilla/5.0 (compatible; onpage-gate/1.0)' };
 const pages = new Map();

@@ -1,6 +1,6 @@
 // scans every sitemap URL: repeated adjacent words (incl. doubled "kaufen") in title, meta description, h1 and h2
 const base = 'http://localhost:3100';
-const xml = await (await fetch(base + '/sitemap.xml')).text();
+const xml = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(base);
 const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace(/^https?:\/\/[^/]+/, base));
 const bad = []; let i = 0;
 async function w() { while (i < urls.length) { const u = urls[i++]; const html = await (await fetch(u)).text();

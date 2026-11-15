@@ -8,7 +8,7 @@ const ALLOW = /(^[a-z0-9-]+$|Müller|Kollwitzstraße|Berlin|ebikedirect|Trustpil
 const STRICT = /(Zoll|Akku|Farbe|Fachhandel|Größe|Gewicht|Reichweite|Abbildung|Verfügbarkeit|Grundpreis|enthalten|Warenkorb|Datenschutz|Reifen|Uhr|laut|Lieferung|Versand|Zubehör|Rahmen|Gepäckträger|alle Modelle)/;
 const DECIMAL = /\b\d+,\d+\s?(inch|in\b|kg|Zoll|Wh|Nm|km|mm|cm)/;
 async function main() {
-  const sm = await (await fetch(base + '/sitemap.xml')).text();
+  const sm = await (async (b) => { const i = await (await fetch(b + '/sitemap.xml')).text(); if (!/<sitemapindex/.test(i)) return i; const ls = [...i.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname); return (await Promise.all(ls.map(async (p) => (await fetch(b + p)).text()))).join('\n'); })(base);
   let urls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => base + m[1].replace(/^https?:\/\/[^/]+/, '')).filter((u) => u.startsWith(base + '/' + lang + '/') || u === base + '/' + lang);
   urls = urls.slice(0, limit);
   const seen = new Map(); let n = 0, i = 0;
