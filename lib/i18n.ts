@@ -21,17 +21,17 @@ export interface LocaleInfo {
   regions: string[];
   /** Intl locale used for number and currency formatting. */
   intl: string;
-  /** True when a keyword bank backs this language (indexed, in hreflang and sitemap). */
+  /** True when the language is built (keyword map, pages and copy live): only then it is indexed and listed in hreflang and the sitemap. nl, it, es and pt stay false until built. */
   hasKeywordBank: boolean;
 }
 
 export const SUPPORTED_LOCALES: LocaleInfo[] = [
   { code: 'de', label: 'DE', nativeName: 'Deutsch', country: 'Deutschland, Österreich, Schweiz', hreflang: 'de-DE', regions: ['de', 'de-AT', 'de-CH'], intl: 'de-DE', hasKeywordBank: true },
   { code: 'fr', label: 'FR', nativeName: 'Français', country: 'France, Belgique', hreflang: 'fr-FR', regions: ['fr', 'fr-BE'], intl: 'fr-FR', hasKeywordBank: true },
-  { code: 'nl', label: 'NL', nativeName: 'Nederlands', country: 'Nederland, België', hreflang: 'nl-NL', regions: ['nl', 'nl-BE'], intl: 'nl-NL', hasKeywordBank: true },
-  { code: 'it', label: 'IT', nativeName: 'Italiano', country: 'Italia', hreflang: 'it-IT', regions: ['it'], intl: 'it-IT', hasKeywordBank: true },
-  { code: 'es', label: 'ES', nativeName: 'Español', country: 'España', hreflang: 'es-ES', regions: ['es'], intl: 'es-ES', hasKeywordBank: true },
-  { code: 'pt', label: 'PT', nativeName: 'Português', country: 'Portugal', hreflang: 'pt-PT', regions: ['pt'], intl: 'pt-PT', hasKeywordBank: true },
+  { code: 'nl', label: 'NL', nativeName: 'Nederlands', country: 'Nederland, België', hreflang: 'nl-NL', regions: ['nl', 'nl-BE'], intl: 'nl-NL', hasKeywordBank: false },
+  { code: 'it', label: 'IT', nativeName: 'Italiano', country: 'Italia', hreflang: 'it-IT', regions: ['it'], intl: 'it-IT', hasKeywordBank: false },
+  { code: 'es', label: 'ES', nativeName: 'Español', country: 'España', hreflang: 'es-ES', regions: ['es'], intl: 'es-ES', hasKeywordBank: false },
+  { code: 'pt', label: 'PT', nativeName: 'Português', country: 'Portugal', hreflang: 'pt-PT', regions: ['pt'], intl: 'pt-PT', hasKeywordBank: false },
   { code: 'en', label: 'EN', nativeName: 'English', country: 'Europe (English)', hreflang: 'en-GB', regions: ['en', 'en-IE'], intl: 'en-IE', hasKeywordBank: true }
 ];
 
