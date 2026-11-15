@@ -8,7 +8,7 @@ import { useCart } from '@/context/cart-context';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { useI18n } from '@/context/i18n-context';
 import { localName } from '@/lib/l10n-names';
-import { COUNTRY_VALUES, countryLabel } from '@/lib/ui';
+import { COUNTRY_VALUES, countryLabel, allCountries } from '@/lib/ui';
 
 const MIN_ORDER = 500;
 const FREE_SHIPPING = 1000;
@@ -25,6 +25,8 @@ export default function CheckoutPage() {
   const [form, setForm] = useState({ firstName: '', lastName: '', email: '', phone: '', street: '', houseNumber: '', zip: '', city: '', country: 'Deutschland', deliveryNote: '' });
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
+  const [countries, setCountries] = useState<{ value: string; label: string }[] | null>(null);
+  useEffect(() => { try { setCountries(allCountries(locale)); } catch { /* the eight core countries stay */ } }, [locale]);
   const [done, setDone] = useState<{ ref: string; email: string } | null>(null);
 
   useEffect(() => {
@@ -166,7 +168,7 @@ export default function CheckoutPage() {
                     <label className="block text-xs font-semibold text-gray-700">{u('co.city')}<input name="city" required autoComplete="address-level2" value={form.city} onChange={change} className={`${inputCls} mt-1`} /></label>
                     <label className="block text-xs font-semibold text-gray-700">{u('co.country')}
                       <select name="country" value={form.country} onChange={change} className={`${inputCls} mt-1`}>
-                        {COUNTRY_VALUES.map((c) => <option key={c} value={c}>{countryLabel(locale, c)}</option>)}
+                        {(countries || COUNTRY_VALUES.map((c) => ({ value: c, label: countryLabel(locale, c) }))).map((c) => <option key={c.value} value={c.value}>{c.label}</option>)}
                       </select>
                     </label>
                   </div>
