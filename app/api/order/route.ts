@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { PRODUCTS } from '@/lib/products';
+import { shopEmailHtml, customerEmailHtml, MailData } from '@/lib/order-email';
 
 // Order endpoint (WebForge pattern): validates the request, prices every line from the catalogue (the browser's prices are never trusted)
 // and sends the order by SMTP to the shop and a confirmation to the customer. It never reports success unless the mail really went out.
@@ -55,14 +56,14 @@ export async function POST(req: Request) {
   const payment = body?.payment === 'crypto' ? 'crypto' : body?.payment === 'bank' ? 'bank' : '';
   if (!payment) return NextResponse.json({ error: 'Bitte wählen Sie eine Zahlungsart.' }, { status: 400 });
 
-  const lines: { name: string; slug: string; qty: number; unit: number; frame: string; wh: number; color: string }[] = [];
+  const lines: { name: string; slug: string; qty: number; unit: number; frame: string; wh: number; color: string; img: string }[] = [];
   const input: InLine[] = Array.isArray(body?.items) ? body.items.slice(0, 30) : [];
   for (const it of input) {
     const p = PRODUCTS.find((x) => x.slug === str(it.slug, 200));
     const qty = Math.round(Number(it.quantity));
     if (!p || !Number.isFinite(qty) || qty < 1 || qty > 10) return NextResponse.json({ error: 'Ein Artikel im Warenkorb ist nicht mehr verfügbar. Bitte prüfen Sie den Warenkorb.' }, { status: 400 });
     const bat = p.options.batteries.find((b) => b.capacityWh === Number(it.batteryWh)) || p.options.batteries[0];
-    lines.push({ name: p.name, slug: p.slug, qty, unit: p.price + (bat.priceDelta || 0), frame: str(it.frame, 60), wh: bat.capacityWh, color: str(it.color, 60) });
+    lines.push({ name: p.name, slug: p.slug, qty, unit: p.price + (bat.priceDelta || 0), frame: str(it.frame, 60), wh: bat.capacityWh, color: str(it.color, 60), img: p.image || '' });
   }
   if (!lines.length) return NextResponse.json({ error: 'Ihr Warenkorb ist leer.' }, { status: 400 });
 
@@ -80,6 +81,12 @@ export async function POST(req: Request) {
   const summary = `Bestellnummer: ${ref}\nBestellt am: ${placed}\nZahlungsart: ${payment === 'crypto' ? 'Kryptowährung (10 % Rabatt)' : 'Banküberweisung (Vorkasse)'}\n\n${itemText}\n\nWarenwert: ${eur(subtotal)}${discount ? `\nKrypto-Rabatt: -${eur(discount)}` : ''}\nVersand: ${eur(shipping)}\nGesamt inkl. 19 % MwSt.: ${eur(total)}`;
   const addr = `${customer.firstName} ${customer.lastName}\n${customer.street} ${customer.houseNumber}\n${customer.zip} ${customer.city}\n${customer.country}\nTelefon: ${customer.phone}\nE-Mail: ${customer.email}${customer.note ? `\nHinweis: ${customer.note}` : ''}`;
 
+  const mail: MailData = {
+    ref, placed, paymentLabel: payment === 'crypto' ? 'Kryptowährung (10 % Rabatt)' : 'Banküberweisung (Vorkasse)',
+    lines: lines.map((l) => ({ name: l.name, qty: l.qty, unit: l.unit, options: [l.frame, `${l.wh} Wh`, l.color].filter(Boolean).join(' · '), img: l.img, url: `/shop/${l.slug}` })),
+    subtotal, discount, shipping, total,
+    customer: { name: `${customer.firstName} ${customer.lastName}`, email: customer.email, phone: customer.phone, address: [`${customer.street} ${customer.houseNumber}`, `${customer.zip} ${customer.city}`, customer.country].filter(Boolean), note: customer.note },
+  };
   try {
     // @ts-ignore nodemailer ships no type declarations
     const nm: any = (await import('nodemailer')).default;
@@ -89,10 +96,10 @@ export async function POST(req: Request) {
       secure: process.env.EMAIL_SERVER_SECURE === 'true',
       auth: { user: process.env.EMAIL_SERVER_USER, pass: process.env.EMAIL_SERVER_PASSWORD }
     });
-    await transport.sendMail({ from: process.env.EMAIL_FROM, to: process.env.ORDER_TO_EMAIL, replyTo: customer.email, subject: `Neue Bestellung ${ref}`, text: `${summary}\n\nKunde:\n${addr}` });
+    await transport.sendMail({ from: process.env.EMAIL_FROM, to: process.env.ORDER_TO_EMAIL, replyTo: customer.email, subject: `Neue Bestellung ${ref} · ${eur(total)}`, html: shopEmailHtml(mail), text: `${summary}\n\nKunde:\n${addr}` });
     await transport.sendMail({
       from: process.env.EMAIL_FROM, to: customer.email, subject: `Bestellung eingegangen: ${ref}`,
-      text: `Vielen Dank für Ihre Bestellung bei ebikedirect.eu.\n\n${summary}\n\nLieferadresse:\n${addr}\n\nWir prüfen Ihre Bestellung und senden Ihnen die Zahlungsdaten in einer separaten E-Mail. Die Lieferung erfolgt per Spedition mit Hebebühne.`
+      html: customerEmailHtml(mail), text: `Vielen Dank für Ihre Bestellung bei ebikedirect.eu.\n\n${summary}\n\nLieferadresse:\n${addr}\n\nWir prüfen Ihre Bestellung und senden Ihnen die Zahlungsdaten in einer separaten E-Mail. Die Lieferung erfolgt per Spedition mit Hebebühne.`
     });
   } catch {
     return NextResponse.json({ error: NOT_READY }, { status: 503 });

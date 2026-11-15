@@ -1,0 +1,12 @@
+import fs from 'fs';
+import { shopEmailHtml, customerEmailHtml, MailData } from '../lib/order-email';
+import { PRODUCTS } from '../lib/products';
+const p = PRODUCTS.find((x) => x.category !== 'Zubehör')!;
+const q = PRODUCTS.find((x) => x.category === 'Zubehör')!;
+const lines = [{ name: p.name, qty: 1, unit: p.price, options: 'Rahmen L · 625 Wh · Schwarz', img: p.image, url: `/shop/${p.slug}` }, { name: q.name, qty: 2, unit: q.price, options: '', img: q.image, url: `/shop/${q.slug}` }];
+const subtotal = lines.reduce((s, l) => s + l.unit * l.qty, 0);
+const d: MailData = { ref: '#002', placed: '15.11.2026, 14:32:08', paymentLabel: 'Banküberweisung (Vorkasse)', lines, subtotal, discount: 0, shipping: 0, total: subtotal, customer: { name: 'Max Mustermann', email: 'max@example.com', phone: '+49 170 0000000', address: ['Musterstraße 12', '10115 Berlin', 'Deutschland'], note: 'Bitte vorher anrufen.' } };
+const dir = 'C:/electric bikes europe/02-site-architecture/reports/';
+fs.writeFileSync(dir + 'email-preview-customer.html', customerEmailHtml(d));
+fs.writeFileSync(dir + 'email-preview-shop.html', shopEmailHtml(d));
+console.log('ok', p.image);
