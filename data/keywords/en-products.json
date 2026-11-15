@@ -7910,11 +7910,11 @@
    "brand": "Cube",
    "category": "E-MTB",
    "primary": {
-    "keyword": "buy cube stereo hybrid one77 hpc at 800",
+    "keyword": "cube stereo hybrid one77 hpc at",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 30,
+    "kd": 4,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -34744,11 +34744,11 @@
    "brand": "Specialized",
    "category": "E-MTB",
    "primary": {
-    "keyword": "buy specialized turbo levo r comp",
-    "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "keyword": "specialized turbo levo r comp",
+    "intent": "C",
+    "volume": 10,
+    "kd": 2,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -60204,11 +60204,11 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "buy specialized turbo vado sl 2 6.0 eq carbon",
-    "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "keyword": "specialized turbo vado sl 2 6.0 eq carbon",
+    "intent": "C",
+    "volume": 20,
+    "kd": 6,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -61040,11 +61040,11 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "buy specialized turbo vado sl 2 5.0 step-through eq",
+    "keyword": "specialized turbo vado sl 2 5.0 step through eq",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 10,
+    "kd": 17,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -61420,11 +61420,11 @@
    "brand": "Specialized",
    "category": "E-Trekking",
    "primary": {
-    "keyword": "buy specialized turbo vado sl 2 4.0",
+    "keyword": "specialized turbo vado sl 2 4.0",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 90,
+    "kd": 5,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -61648,11 +61648,11 @@
    "brand": "Specialized",
    "category": "E-MTB",
    "primary": {
-    "keyword": "buy specialized turbo levo 4 evo comp alloy",
+    "keyword": "specialized turbo levo 4 evo comp alloy",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 10,
+    "kd": 22,
+    "source": "bank"
    },
    "secondary": [
     {
@@ -61952,11 +61952,11 @@
    "brand": "Orbea",
    "category": "E-MTB",
    "primary": {
-    "keyword": "buy orbea wild lt h-team",
+    "keyword": "orbea wild lt h team",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 10,
+    "kd": 4,
+    "source": "bank"
    },
    "secondary": [
     {

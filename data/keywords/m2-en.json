@@ -20,9 +20,9 @@
    "primary": "junior electric bike",
    "intent": "C",
    "volume": 320,
-   "bestT": "kids electric bikes for sale",
-   "tVolume": 40,
-   "ratio": 8
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/electric-bikes/womens-e-bikes": {
    "primary": "ladies electric bike",
@@ -44,9 +44,9 @@
    "primary": "liv bicycle",
    "intent": "N",
    "volume": 720,
-   "bestT": "liv e mountain bike",
-   "tVolume": 20,
-   "ratio": 36
+   "bestT": "liv electric bikes for sale",
+   "tVolume": 10,
+   "ratio": 72
   },
   "/en/brands/riese-und-mueller": {
    "primary": "riese and muller",
@@ -60,9 +60,9 @@
    "primary": "stromer",
    "intent": "N",
    "volume": 170,
-   "bestT": "stromer electric bikes for sale",
-   "tVolume": 20,
-   "ratio": 8.5
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/brands/tenways": {
    "primary": "tenways",
@@ -200,6 +200,14 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/en/shop/specialized-turbo-vado-sl-2-6-0-eq-carbon": {
+   "primary": "specialized turbo vado sl 2 6.0 eq carbon",
+   "intent": "C",
+   "volume": 20,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/shop/specialized-turbo-kenevo-sl-2": {
    "primary": "specialized turbo kenevo",
    "intent": "C",
@@ -218,6 +226,14 @@
   }
  },
  "rejected": {
+  "/en/shop/specialized-turbo-levo-r-comp-840-wh-29-zoll": {
+   "primary": "specialized turbo levo r comp",
+   "intent": "C",
+   "volume": 10,
+   "bestT": "specialized turbo levo price",
+   "tVolume": 20,
+   "ratio": 0.5
+  },
   "/en/shop/specialized-turbo-levo-r-comp-alloy-840-wh-fully": {
    "primary": "specialized turbo levo r comp alloy",
    "intent": "C",

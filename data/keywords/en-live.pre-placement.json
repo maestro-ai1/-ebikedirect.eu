@@ -217,6 +217,18 @@
      "intent": "C",
      "volume": 50,
      "kd": 16
+    },
+    {
+     "keyword": "electric trekking bike",
+     "volume": 70,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "electric bike for touring",
+     "volume": 20,
+     "kd": 15,
+     "intent": "C"
     }
    ]
   },
@@ -258,10 +270,10 @@
      "kd": 22
     },
     {
-     "keyword": "high speed electric bike",
-     "intent": "C",
-     "volume": 90,
-     "kd": 5
+     "keyword": "fastest electric bike",
+     "volume": 1600,
+     "kd": 10,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -323,9 +335,9 @@
      "intent": "C"
     },
     {
-     "keyword": "cargo ebike uk",
-     "volume": 170,
-     "kd": 15,
+     "keyword": "cargo bike uk",
+     "volume": 390,
+     "kd": 8,
      "intent": "C"
     },
     {
@@ -349,10 +361,10 @@
      "intent": "I"
     },
     {
-     "keyword": "cargo e bike uk",
-     "volume": 140,
-     "kd": 5,
-     "intent": "I"
+     "keyword": "cargo ebike uk",
+     "volume": 170,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "e bike cargo",
@@ -426,15 +438,15 @@
      "intent": "I"
     },
     {
-     "keyword": "lightweight folding electric bike uk",
-     "volume": 390,
-     "kd": 22,
+     "keyword": "folding e cycle",
+     "volume": 1000,
+     "kd": 29,
      "intent": "C"
     },
     {
-     "keyword": "lightweight folding e bike",
-     "volume": 210,
-     "kd": 21,
+     "keyword": "e bike folding uk",
+     "volume": 1000,
+     "kd": 28,
      "intent": "C"
     },
     {
@@ -560,10 +572,10 @@
      "kd": 4
     },
     {
-     "keyword": "kids e bike uk",
-     "intent": "C",
-     "volume": 12,
-     "kd": 2
+     "keyword": "kids electric bikes for sale",
+     "volume": 40,
+     "kd": 9,
+     "intent": "T"
     },
     {
      "keyword": "electric bike for teenager",
@@ -651,10 +663,10 @@
    ],
    "faq": [
     {
-     "keyword": "electric bikes for women",
-     "volume": 320,
-     "kd": 10,
-     "intent": "C"
+     "keyword": "e bike women",
+     "volume": 480,
+     "kd": 8,
+     "intent": "T"
     },
     {
      "keyword": "e cycle for women",
@@ -1981,6 +1993,12 @@
      "intent": "T",
      "volume": 140,
      "kd": 10
+    },
+    {
+     "keyword": "kalkhoff bikes uk",
+     "volume": 30,
+     "kd": 9,
+     "intent": "T"
     }
    ]
   },
@@ -2085,16 +2103,16 @@
      "kd": 10
     },
     {
-     "keyword": "liv bike for sale",
-     "intent": "T",
-     "volume": 10,
-     "kd": 10
+     "keyword": "liv e mountain bike",
+     "volume": 20,
+     "kd": 9,
+     "intent": "T"
     },
     {
-     "keyword": "liv bike price",
-     "intent": "T",
-     "volume": 10,
-     "kd": 4
+     "keyword": "liv mountain bike for sale",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2698,6 +2716,12 @@
      "intent": "N",
      "volume": 20,
      "kd": 16
+    },
+    {
+     "keyword": "stromer electric bikes for sale",
+     "volume": 20,
+     "kd": 18,
+     "intent": "T"
     }
    ]
   },
@@ -3045,10 +3069,10 @@
    },
    "secondary": [
     {
-     "keyword": "shimano e8000",
-     "intent": "T",
-     "volume": 20,
-     "kd": 21
+     "keyword": "shimano electric bikes",
+     "volume": 40,
+     "kd": 18,
+     "intent": "T"
     },
     {
      "keyword": "shimano steps e6100",
@@ -3689,16 +3713,16 @@
      "kd": 16
     },
     {
-     "keyword": "best bike multi tool",
-     "intent": "C",
-     "volume": 260,
-     "kd": 10
+     "keyword": "bike wash",
+     "volume": 720,
+     "kd": 13,
+     "intent": "C"
     },
     {
-     "keyword": "bike multitool",
-     "intent": "C",
-     "volume": 210,
-     "kd": 11
+     "keyword": "bike multi tool",
+     "volume": 720,
+     "kd": 17,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -4096,7 +4120,14 @@
      "kd": 17
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "electric bike brands",
+     "volume": 390,
+     "kd": 27,
+     "intent": "C"
+    }
+   ]
   }
  ]
 }
