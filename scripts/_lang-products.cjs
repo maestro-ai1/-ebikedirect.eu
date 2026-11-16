@@ -13,7 +13,7 @@ const nk = (s) => norm(s).replace(/[^a-z0-9]+/g, ' ').trim().split(' ').sort().j
 const GUARD = new RegExp(plan.guard, 'i');
 const cfg = require(root + '/02-site-architecture/cfg_' + lang + '.js');
 const VOC = new RegExp('^(' + plan.vocab + ')$', 'i');
-const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync('C:/electric bikes europe/03-keywords/by-market/uk/uk_refreshed_keys.json', 'utf8'))) : null;
+const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_refreshed_keys.json', 'utf8'))) : null;
 const bank = [];
 for (const l of fs.readFileSync(`${root}/03-keywords/by-market/${plan.bankDir || lang}/${plan.bankDir || lang}_master_merged.csv`, 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;

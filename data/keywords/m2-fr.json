@@ -1,0 +1,126 @@
+{
+ "accepted": {
+  "/fr/velos-electriques/velo-electrique-ville": {
+   "primary": "vtc electrique",
+   "intent": "C",
+   "volume": 6600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/velos-electriques/speed-pedelec": {
+   "primary": "vélo route électrique 45 km/h",
+   "intent": "I",
+   "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/accessoires/supports-telephone": {
+   "primary": "support telephone velo",
+   "intent": "I",
+   "volume": 6600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/accessoires/pluie-vetements": {
+   "primary": "housse de pluie velo",
+   "intent": "C",
+   "volume": 20,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/accessoires/eclairage": {
+   "primary": "eclairage velo",
+   "intent": "I",
+   "volume": 2400,
+   "bestT": "eclairage led pour velo",
+   "tVolume": 110,
+   "ratio": 21.8
+  },
+  "/fr/marques": {
+   "primary": "marque velo electrique",
+   "intent": "C",
+   "volume": 590,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/liv-avail-advanced-e-plus-elite-ar-400-wh-28-zoll": {
+   "primary": "liv avail advanced",
+   "intent": "C",
+   "volume": 90,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/haibike-alltrack-6-5-27-5-600-wh-27-5-zoll": {
+   "primary": "haibike alltrack 6 5",
+   "intent": "C",
+   "volume": 40,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/haibike-trekking-7-5-800-wh-27-5-zoll": {
+   "primary": "haibike trekking 7.5",
+   "intent": "C",
+   "volume": 20,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/hercules-lyon-i-8-500-wh-28-zoll": {
+   "primary": "hercules lyon i 8",
+   "intent": "C",
+   "volume": 10,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/raymon-tarok-comp-700-wh-29": {
+   "primary": "raymon tarok comp",
+   "intent": "C",
+   "volume": 10,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/shop/gazelle-ultimate-c380": {
+   "primary": "gazelle ultimate c380",
+   "intent": "C",
+   "volume": 70,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  }
+ },
+ "rejected": {
+  "/fr/marques/focus": {
+   "primary": "vtt electrique focus",
+   "intent": "I",
+   "volume": 260,
+   "bestT": "focus bike",
+   "tVolume": 1300,
+   "ratio": 0.2
+  },
+  "/fr/marques/gazelle": {
+   "primary": "velo electrique gazelle",
+   "intent": "N",
+   "volume": 590,
+   "bestT": "adidas gazelle femme vertes",
+   "tVolume": 590,
+   "ratio": 1
+  },
+  "/fr/marques/orbea": {
+   "primary": "velo orbea electrique",
+   "intent": "I",
+   "volume": 210,
+   "bestT": "vtt orbea",
+   "tVolume": 2900,
+   "ratio": 0.1
+  }
+ }
+}

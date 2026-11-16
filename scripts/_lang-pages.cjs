@@ -12,14 +12,14 @@ const nk = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '
 const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.length; i++) { const c = l[i]; if (q) { if (c === '"') { if (l[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; } else if (c === '"') q = true; else if (c === ',') { o.push(f); f = ''; } else f += c; } o.push(f); return o; };
 const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : /Navigational/.test(x) ? 'N' : /Informational/.test(x) ? 'I' : '-');
 const GUARD = new RegExp(plan.guard, 'i');
-const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync('C:/electric bikes europe/03-keywords/by-market/uk/uk_refreshed_keys.json', 'utf8'))) : null;
+const REF = process.env.REFRESHED_ONLY ? new Set(JSON.parse(fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_refreshed_keys.json', 'utf8'))) : null;
 const bank = [];
 const idx = new Map(); // every bank row by keyword (all KD): stored map keywords are re-read from the bank so refreshed Semrush values always win
 
 for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + (plan.bankDir || lang) + '/' + (plan.bankDir || lang) + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const kd = p[3] === '' ? null : +p[3]; const vol = +p[2] || 0;
   idx.set(p[0].toLowerCase(), { keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
-  if (kd === null || kd > 28 || vol < (plan.floor || 50)) continue;
+  if (kd === null || kd > 28 || vol < (process.env.FLOOR ? +process.env.FLOOR : (plan.floor || 50))) continue;
   if (REF && !REF.has(p[0].toLowerCase())) continue;
   bank.push({ keyword: p[0].toLowerCase(), intent: IT(p[1]), volume: vol, kd });
 }

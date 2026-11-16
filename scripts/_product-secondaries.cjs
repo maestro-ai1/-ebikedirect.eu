@@ -6,33 +6,35 @@
 // usage: node scripts/_product-secondaries.cjs [--dry]   PEEK=slug,slug prints samples.
 const fs = require('fs');
 const dry = process.argv.includes('--dry');
+const lang = process.argv.slice(2).find((x) => !x.startsWith('--')) || 'en';
+const bd = { en: 'uk', fr: 'fr' }[lang];
 const root = 'C:/electric bikes europe';
 const pl = (l) => { const o = []; let f = '', q = false; for (let i = 0; i < l.length; i++) { const c = l[i]; if (q) { if (c === '"') { if (l[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; } else if (c === '"') q = true; else if (c === ',') { o.push(f); f = ''; } else f += c; } o.push(f); return o; };
 const IT = (x) => (/Transactional/.test(x) ? 'T' : /Commercial/.test(x) ? 'C' : /Navigational/.test(x) ? 'N' : /Informational/.test(x) ? 'I' : '-');
-const nk = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().split(' ').sort().join(' ');
+const nk = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim().split(' ').sort().join(' ');
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, ' ');
 const toks = (s) => norm(s).split(/[^a-z0-9.]+/).filter(Boolean);
-const REF = new Set(JSON.parse(fs.readFileSync(root + '/03-keywords/by-market/uk/uk_refreshed_keys.json', 'utf8')));
-const plan = require('./_lang-plan-en.cjs');
+const REF = new Set(JSON.parse(fs.readFileSync(root + '/03-keywords/by-market/' + bd + '/' + bd + '_refreshed_keys.json', 'utf8')));
+const plan = (lang === 'en' ? require('./_lang-plan-en.cjs') : require('./_lang-plan.cjs')[lang]);
 const GUARD = new RegExp(plan.guard, 'i');
 // accessories: same guard but without the accessory-word group (lock, pump, light ...) and without kit, which are the accessory types themselves
 const GUARD_ACC = new RegExp(plan.guard.slice(0, plan.guard.indexOf('|\\b(stem|')).replace('|\\bkit\\b|\\bkits\\b', '') + ')', 'i');
-const BADX = /(motorcycle|scooter|quad|go kart|\bcar\b|dirt|motorbike|biker|boots|decathlon|halfords|tesco|argos|asda|amazon|near me|smyths|currys|second hand|used|jobs|manual|review|cyclocross|bmx)/;
-const GENERIC = new Set('bike bikes e ebike ebikes electric bicycle bicycles cycle cycles for sale price prices buy uk deals deal shop dealer online best cheap new pedelec pedelecs sales store a the with in of and'.split(' '));
-const CATW = { 'E-MTB': 'mountain mtb emtb full suspension hardtail'.split(' '), 'E-Trekking': 'trekking touring long distance'.split(' '), 'E-City': 'city commuter urban commuting'.split(' '), 'Speed-Pedelec': 'speed 45 km h kmh mph fast'.split(' '), 'Cargo-E-Bike': 'cargo family load'.split(' '), 'Falt-E-Bike': 'folding fold compact'.split(' '), 'E-Gravel': 'gravel'.split(' '), 'E-Kinder': 'kids kid children child childs junior teen teens teenage youth'.split(' ') };
+const BADX = lang === 'fr' ? /(moto|scooter|quad|kart|voiture|dirt|motard|bottes|decathlon|leclerc|carrefour|amazon|pres de chez moi|occasion|emploi|notice|avis|cyclocross|bmx|leboncoin|trottinette)/ : /(motorcycle|scooter|quad|go kart|\bcar\b|dirt|motorbike|biker|boots|decathlon|halfords|tesco|argos|asda|amazon|near me|smyths|currys|second hand|used|jobs|manual|review|cyclocross|bmx)/;
+const GENERIC = new Set((lang === 'fr' ? 'bike bikes e ebike ebikes velo velos electrique electriques vae vtt vtc assistance pas cher prix acheter achat vente boutique magasin en ligne pour de du des d la le les un une et a avec' : 'bike bikes e ebike ebikes electric bicycle bicycles cycle cycles for sale price prices buy uk deals deal shop dealer online best cheap new pedelec pedelecs sales store a the with in of and').split(' '));
+const CATW = lang === 'fr' ? { 'E-MTB': 'vtt tout suspendu semi rigide enduro fat montagne'.split(' '), 'E-Trekking': 'trekking randonnee voyage'.split(' '), 'E-City': 'ville urbain citadin vtc'.split(' '), 'Speed-Pedelec': 'speed 45 km h kmh rapide'.split(' '), 'Cargo-E-Bike': 'cargo biporteur triporteur longtail familial'.split(' '), 'Falt-E-Bike': 'pliant pliable pliage'.split(' '), 'E-Gravel': 'gravel route course'.split(' '), 'E-Kinder': 'enfant enfants junior ado adolescent'.split(' ') } : { 'E-MTB': 'mountain mtb emtb full suspension hardtail'.split(' '), 'E-Trekking': 'trekking touring long distance'.split(' '), 'E-City': 'city commuter urban commuting'.split(' '), 'Speed-Pedelec': 'speed 45 km h kmh mph fast'.split(' '), 'Cargo-E-Bike': 'cargo family load'.split(' '), 'Falt-E-Bike': 'folding fold compact'.split(' '), 'E-Gravel': 'gravel'.split(' '), 'E-Kinder': 'kids kid children child childs junior teen teens teenage youth'.split(' ') };
 const ALLCATW = new Set(Object.values(CATW).flat());
-const ACCT = [[/lock|schloss/i, 'lock locks|folding chain frame'], [/pump|luftpumpe/i, 'pump pumps|air'], [/phone|handy/i, 'phone|mobile holder mount'], [/light|licht/i, 'light lights lamp|'], [/helm|helmet/i, 'helmet|'], [/bag|tasche/i, 'bag bags pannier panniers basket|'], [/rack|gep.cktr/i, 'rack carrier|luggage'], [/mudguard|schutzblech/i, 'mudguard mudguards fender|'], [/bell|klingel/i, 'bell|'], [/seat|sitz/i, 'seat|child'], [/clean|lube|wax|oil|reinig|schmier|ketten/i, 'cleaning clean lube lubricant wax degreaser oil|chain'], [/repair|flick|panne/i, 'repair puncture patch|kit tyre'], [/stand|st.nder/i, 'stand kickstand|']];
+const ACCT = lang === 'fr' ? [[/antivol|cadenas/i, 'antivol cadenas|u pliant chaine'], [/pompe/i, 'pompe|air'], [/support|telephone|smartphone/i, 'support telephone smartphone|velo guidon'], [/phare|lumiere|eclairage|feu|lampe/i, 'phare lumiere eclairage feu lampe|'], [/casque/i, 'casque|'], [/sacoche|panier|sac/i, 'sacoche panier sac|bagages'], [/porte.?bagage|remorque/i, 'porte bagages remorque|'], [/garde.?boue/i, 'garde boue|'], [/sonnette/i, 'sonnette|'], [/siege|sièges/i, 'siege|enfant'], [/nettoy|lubrif|huile|cire|degraiss|entretien/i, 'nettoyant lubrifiant huile cire degraissant entretien|chaine'], [/repar|crevaison|rustine/i, 'reparation crevaison kit|pneu'], [/bequille/i, 'bequille|']] : [[/lock|schloss/i, 'lock locks|folding chain frame'], [/pump|luftpumpe/i, 'pump pumps|air'], [/phone|handy/i, 'phone|mobile holder mount'], [/light|licht/i, 'light lights lamp|'], [/helm|helmet/i, 'helmet|'], [/bag|tasche/i, 'bag bags pannier panniers basket|'], [/rack|gep.cktr/i, 'rack carrier|luggage'], [/mudguard|schutzblech/i, 'mudguard mudguards fender|'], [/bell|klingel/i, 'bell|'], [/seat|sitz/i, 'seat|child'], [/clean|lube|wax|oil|reinig|schmier|ketten/i, 'cleaning clean lube lubricant wax degreaser oil|chain'], [/repair|flick|panne/i, 'repair puncture patch|kit tyre'], [/stand|st.nder/i, 'stand kickstand|']];
 const bank = [];
-for (const l of fs.readFileSync(root + '/03-keywords/by-market/uk/uk_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
+for (const l of fs.readFileSync(root + '/03-keywords/by-market/' + bd + '/' + bd + '_master_merged.csv', 'utf8').split(/\r?\n/).slice(1)) {
   if (!l) continue; const p = pl(l); const k = p[0].toLowerCase(); if (!REF.has(k)) continue;
   const kd = p[3] === '' ? null : +p[3]; const v = +p[2] || 0; const i = IT(p[1]);
   if (kd === null || v < 10 || !/^(T|C|I)$/.test(i) || kd > (v >= 1000 ? 30 : 28) || BADX.test(k)) continue;
   bank.push({ keyword: k, intent: i, volume: v, kd, t: toks(k), g1: GUARD.test(k), g2: GUARD_ACC.test(k) });
 }
 bank.sort((a, b) => b.volume - a.volume);
-const pf = 'data/keywords/en-products.json';
+const pf = 'data/keywords/' + lang + '-products.json';
 const D = JSON.parse(fs.readFileSync(pf, 'utf8'));
-const live = require('../data/keywords/en-live.json').pages;
+const live = require('../data/keywords/' + lang + '-live.json').pages;
 const mains = new Set(); for (const p of live) mains.add(nk(p.primary.keyword)); for (const e of Object.values(D.products)) mains.add(nk(e.primary.keyword));
 let faqShort = 0;
 const report = { short: [], full: 0 }; const cache = new Map();
@@ -40,7 +42,7 @@ for (const [slug, e] of Object.entries(D.products)) {
   const isAcc = e.category === 'Zubehör';
   const brand = toks(e.brand).filter((t) => t !== 'and');
   const nameT = new Set(toks(e.name));
-  const distinct = [...nameT].filter((t) => !brand.includes(t) && !GENERIC.has(t) && !/^\d/.test(t) && !/^(wh|zoll|inch|pouces|hybrid|turbo|sport|pro|comp|plus|race|hpc|slx|evo|elite|expert|team|one|sl|ex|st|advance|fe|gen|premium|performance|exc|slt|tm|at)$/.test(t) && t.length > 2);
+  const distinct = [...nameT].filter((t) => !brand.includes(t) && !GENERIC.has(t) && !/^\d/.test(t) && !/^(wh|zoll|inch|pouces|pro|hybrid|turbo|sport|pro|comp|plus|race|hpc|slx|evo|elite|expert|team|one|sl|ex|st|advance|fe|gen|premium|performance|exc|slt|tm|at)$/.test(t) && t.length > 2);
   const accSpec = isAcc ? ((ACCT.find(([re]) => re.test(e.name.toLowerCase().replace(e.brand.toLowerCase(), ''))) || [, '|'])[1]).split('|') : ['', ''];
   const fam = brand.join(' ') + '|' + distinct.slice(0, 2).join(' ') + '|' + e.category + '|' + accSpec[0];
   if (!cache.has(fam)) {
@@ -52,9 +54,9 @@ for (const [slug, e] of Object.entries(D.products)) {
     const common = (b) => !(isAcc ? b.g2 : b.g1) && !mains.has(nk(b.keyword)) && !b.t.some((t) => ALLCATW.has(t) && !catw.has(t));
     const hasBrand = (b) => brand.every((x) => b.t.includes(x));
     const A = bank.filter((b) => common(b) && hasBrand(b) && b.t.some((t) => ownModel.has(t)) && b.t.every((t) => okTok(t, true)));
-    const BIKEW = /^(bike|bikes|bicycle|bicycles|cycle|cycles|ebike|ebikes|e|electric|pedelec|pedelecs)$/;
+    const BIKEW = /^(velo|velos|vae|electrique|electriques|bike|bikes|bicycle|bicycles|cycle|cycles|ebike|ebikes|e|electric|pedelec|pedelecs)$/;
     const B = bank.filter((b) => common(b) && hasBrand(b) && !b.t.some((t) => ownModel.has(t)) && b.t.every((t) => okTok(t, false)) && (isAcc ? b.t.some((t) => mainW.has(t)) : b.t.some((t) => BIKEW.test(t))));
-    const C = bank.filter((b) => common(b) && !brand.some((x) => b.t.includes(x)) && b.t.every((t) => GENERIC.has(t) || catw.has(t)) && (isAcc ? (b.t.some((t) => mainW.has(t)) && !b.t.some((t) => /^(e|ebike|ebikes|electric|pedelec|pedelecs)$/.test(t))) : (b.t.some((t) => catw.has(t)) && b.t.some((t) => /^(e|ebike|ebikes|electric|emtb|pedelec|pedelecs)$/.test(t)))));
+    const C = bank.filter((b) => common(b) && !brand.some((x) => b.t.includes(x)) && b.t.every((t) => GENERIC.has(t) || catw.has(t)) && (isAcc ? (b.t.some((t) => mainW.has(t)) && !b.t.some((t) => /^(e|ebike|ebikes|electric|electrique|electriques|vae|pedelec|pedelecs)$/.test(t))) : (b.t.some((t) => catw.has(t)) && b.t.some((t) => /^(e|ebike|ebikes|electric|electrique|electriques|vae|emtb|pedelec|pedelecs)$/.test(t)))));
     const seen = new Set(); const pool = [];
     for (const arr of [A, B, C]) for (const b of arr) { const k = nk(b.keyword); if (seen.has(k)) continue; seen.add(k); pool.push({ keyword: b.keyword, intent: b.intent, volume: b.volume, kd: b.kd }); }
     cache.set(fam, pool);
@@ -71,4 +73,4 @@ for (const [slug, e] of Object.entries(D.products)) {
 console.log('FAQ keywords short (<5):', faqShort);
 console.log('products', Object.keys(D.products).length, '| with 5 secondaries', report.full, '| short', report.short.length, '| families', cache.size);
 for (const s of (process.env.PEEK || '').split(',').filter(Boolean)) { const e = D.products[s]; if (e) console.log(s, '|', e.primary.keyword, '=>', e.secondary.map((k) => k.keyword + ' ' + k.intent + k.volume).join('; ')); }
-if (!dry) { fs.copyFileSync(pf, 'data/keywords/en-products.pre-secondaries.json'); fs.writeFileSync(pf, JSON.stringify(D, null, 1)); console.log('written'); }
+if (!dry) { fs.copyFileSync(pf, 'data/keywords/' + lang + '-products.pre-secondaries.json'); fs.writeFileSync(pf, JSON.stringify(D, null, 1)); console.log('written'); }
