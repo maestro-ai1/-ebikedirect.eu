@@ -21,16 +21,16 @@
      "intent": "C"
     },
     {
+     "keyword": "piece vtt",
+     "volume": 880,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
      "keyword": "vtt bh",
      "volume": 1000,
      "kd": 20,
      "intent": "T"
-    },
-    {
-     "keyword": "gps pour vtt",
-     "volume": 1000,
-     "kd": 17,
-     "intent": "C"
     },
     {
      "keyword": "vtt pas cher",
@@ -53,9 +53,9 @@
      "kd": 13
     },
     {
-     "keyword": "marque vtt",
-     "volume": 880,
-     "kd": 25,
+     "keyword": "piece pour vtt",
+     "volume": 720,
+     "kd": 10,
      "intent": "C"
     },
     {
@@ -65,15 +65,15 @@
      "kd": 10
     },
     {
-     "keyword": "piece vtt",
+     "keyword": "marque vtt",
      "volume": 880,
-     "kd": 12,
+     "kd": 25,
      "intent": "C"
     },
     {
-     "keyword": "piece pour vtt",
+     "keyword": "semi rigide vtt",
      "volume": 720,
-     "kd": 10,
+     "kd": 13,
      "intent": "C"
     }
    ]
@@ -2123,6 +2123,86 @@
      "intent": "C",
      "volume": 10,
      "kd": 20
+    }
+   ]
+  },
+  {
+   "display": "GPS vélo",
+   "url": "/accessoires/gps-velo/",
+   "dePath": "/zubehoer/gps-fahrradcomputer",
+   "name": "GPS et compteurs vélo",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "gps velo",
+    "intent": "C",
+    "volume": 6600,
+    "kd": 27,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "compteur gps velo",
+     "intent": "C",
+     "volume": 2400,
+     "kd": 26
+    },
+    {
+     "keyword": "gps pour velo",
+     "intent": "C",
+     "volume": 1300,
+     "kd": 13
+    },
+    {
+     "keyword": "gps pour vtt",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 17
+    },
+    {
+     "keyword": "gps velos",
+     "intent": "C",
+     "volume": 880,
+     "kd": 13
+    },
+    {
+     "keyword": "gps pour velos",
+     "intent": "T",
+     "volume": 1300,
+     "kd": 25,
+     "source": "bank"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "gps vtt",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 15
+    },
+    {
+     "keyword": "traceur gps velo",
+     "intent": "I",
+     "volume": 1300,
+     "kd": 11
+    },
+    {
+     "keyword": "compteur et gps velo",
+     "intent": "C",
+     "volume": 880,
+     "kd": 23
+    },
+    {
+     "keyword": "gps sur velo",
+     "intent": "C",
+     "volume": 880,
+     "kd": 7
+    },
+    {
+     "keyword": "compteur gps pour vélo",
+     "volume": 1000,
+     "kd": 29,
+     "intent": "C"
     }
    ]
   },

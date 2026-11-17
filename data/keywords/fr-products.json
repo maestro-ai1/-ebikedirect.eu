@@ -58484,6 +58484,76 @@
      "kd": 8
     }
    ]
+  },
+  "garmin-edge-540": {
+   "name": "Garmin Edge 540 compteur GPS vélo",
+   "brand": "Garmin",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter garmin edge 540 compteur gps vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "garmin-edge-840": {
+   "name": "Garmin Edge 840 compteur GPS vélo",
+   "brand": "Garmin",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter garmin edge 840 compteur gps vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "garmin-edge-1050": {
+   "name": "Garmin Edge 1050 compteur GPS vélo",
+   "brand": "Garmin",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter garmin edge 1050 compteur gps vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "garmin-edge-mtb": {
+   "name": "Garmin Edge MTB compteur GPS vélo",
+   "brand": "Garmin",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter garmin edge mtb compteur gps vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "wahoo-elemnt-bolt-3": {
+   "name": "Wahoo ELEMNT BOLT 3 compteur GPS vélo",
+   "brand": "Wahoo",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter wahoo elemnt bolt 3 compteur gps vélo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
   }
  }
 }

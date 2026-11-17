@@ -42191,5 +42191,93 @@
    "store": "pexels.com",
    "fetched": "2026-11-06"
   }
+ ],
+ "garmin-edge-540": [
+  {
+   "file": "garmin-edge-540-v1-1.webp",
+   "source": "https://res.garmin.com/en/products/010-02694-01/v/cf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-540-v1-2.webp",
+   "source": "https://res.garmin.com/en/products/010-02694-01/v/pd-02-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-540-v1-3.webp",
+   "source": "https://res.garmin.com/en/products/010-02694-01/v/lf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  }
+ ],
+ "garmin-edge-840": [
+  {
+   "file": "garmin-edge-840-v1-1.webp",
+   "source": "https://res.garmin.com/en/products/010-02695-01/v/pd-02-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-840-v1-2.webp",
+   "source": "https://res.garmin.com/en/products/010-02695-01/v/pd-01-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-840-v1-3.webp",
+   "source": "https://res.garmin.com/en/products/010-02695-01/v/lf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  }
+ ],
+ "garmin-edge-1050": [
+  {
+   "file": "garmin-edge-1050-v1-1.webp",
+   "source": "https://res.garmin.com/en/products/010-02890-01/V/cf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-1050-v1-2.webp",
+   "source": "https://res.garmin.com/en/products/010-02890-01/V/pd-01-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-1050-v1-3.webp",
+   "source": "https://res.garmin.com/en/products/010-02890-01/V/lf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  }
+ ],
+ "garmin-edge-mtb": [
+  {
+   "file": "garmin-edge-mtb-v1-1.webp",
+   "source": "https://res.garmin.com/en/products/010-02993-10/v/cf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-mtb-v1-2.webp",
+   "source": "https://res.garmin.com/en/products/010-02993-10/v/rf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  },
+  {
+   "file": "garmin-edge-mtb-v1-3.webp",
+   "source": "https://res.garmin.com/en/products/010-02993-10/v/lf-lg.jpg",
+   "store": "res.garmin.com",
+   "fetched": "2026-11-17"
+  }
+ ],
+ "wahoo-elemnt-bolt-3": [
+  {
+   "file": "wahoo-elemnt-bolt-3-v1-1.webp",
+   "source": "https://de-eu.wahoofitness.com/media/catalog/product/e/l/elemnt_bolt_compare_mobile_a.jpg",
+   "store": "de-eu.wahoofitness.com",
+   "fetched": "2026-11-17"
+  }
  ]
 }

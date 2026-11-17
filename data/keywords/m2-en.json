@@ -68,7 +68,7 @@
    "primary": "tenways",
    "intent": "N",
    "volume": 1600,
-   "bestT": "tenways ago x price",
+   "bestT": "tenways cgo600 pro price",
    "tVolume": 20,
    "ratio": 80
   },
@@ -76,9 +76,9 @@
    "primary": "urban arrow",
    "intent": "N",
    "volume": 720,
-   "bestT": "urban arrow bike price",
-   "tVolume": 20,
-   "ratio": 36
+   "bestT": "urban arrow family classic",
+   "tVolume": 10,
+   "ratio": 72
   },
   "/en/accessories/phone-holders": {
    "primary": "bike phone holder",
@@ -192,6 +192,14 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/en/shop/specialized-turbo-levo-r-comp-840-wh-29-zoll": {
+   "primary": "specialized turbo levo r comp",
+   "intent": "C",
+   "volume": 10,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/shop/specialized-turbo-vado-3-x-4-0-840-wh-27-5-zoll": {
    "primary": "specialized turbo vado 4.0",
    "intent": "C",
@@ -225,22 +233,5 @@
    "ratio": null
   }
  },
- "rejected": {
-  "/en/shop/specialized-turbo-levo-r-comp-840-wh-29-zoll": {
-   "primary": "specialized turbo levo r comp",
-   "intent": "C",
-   "volume": 10,
-   "bestT": "specialized turbo levo price",
-   "tVolume": 20,
-   "ratio": 0.5
-  },
-  "/en/shop/specialized-turbo-levo-r-comp-alloy-840-wh-fully": {
-   "primary": "specialized turbo levo r comp alloy",
-   "intent": "C",
-   "volume": 20,
-   "bestT": "specialized turbo levo price",
-   "tVolume": 20,
-   "ratio": 1
-  }
- }
+ "rejected": {}
 }

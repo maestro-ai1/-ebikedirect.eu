@@ -19,7 +19,7 @@ const used = new Set();
 for (const p of live) for (const k of [p.primary, ...p.secondary, ...p.faq]) if (k) used.add(nk(k.keyword));
 for (const e of Object.values(prods)) for (const k of [e.primary, ...e.secondary, ...e.faq]) if (k) used.add(nk(k.keyword));
 const BIKE = /\b(bike|bikes|bicycle|bicycles|cycle|cycles|ebike|ebikes|e bike|e bikes|pedelec)\b/;
-const BAD = /(gravel|cyclocross|road|bmx|motorcycle|scooter|quad|go kart|car\b|dirt|helmet|boots|decathlon|halfords|tesco|argos|asda|amazon|near me|smyths|currys)/;
+const BAD = /(gravel|cyclocross|\broad\b|bmx|motorcycle|scooter|quad|go kart|car\b|dirt|helmet|boots|adidas|nike|puma|chaussure|\b(vert|noir|rouge|bleu|blanc|gris|rose|jaune|violet|green|black|red|blue|white|grey|gray|pink|yellow|purple)\b|decathlon|halfords|tesco|argos|asda|amazon|near me|smyths|currys)/;
 const MAN = {
   '/electric-bikes/trekking-e-bikes/': (k) => /(trekking|touring|long distance)/.test(k) && BIKE.test(k),
   '/electric-bikes/cargo-e-bikes/': (k) => /(cargo|family)/.test(k) && BIKE.test(k),

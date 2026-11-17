@@ -46,6 +46,7 @@ const STATIC_PAGES: MappedPageDef[] = [
   { path: '/zubehoer/regenschutz-bekleidung', type: 'accessory', accessory: 'regenschutz-bekleidung' },
   { path: '/zubehoer/beleuchtung', type: 'accessory', accessory: 'beleuchtung' },
   { path: '/zubehoer/sattel-lenker', type: 'accessory', accessory: 'sattel-lenker' },
+  { path: '/zubehoer/gps-fahrradcomputer', type: 'accessory', accessory: 'gps-fahrradcomputer' },
   { path: '/marken/cube', type: 'brand', brand: 'Cube' },
   { path: '/marken/specialized', type: 'brand', brand: 'Specialized' },
   { path: '/marken/riese-und-mueller', type: 'brand', brand: 'Riese & Müller' },

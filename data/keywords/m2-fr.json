@@ -24,6 +24,14 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/fr/marques/gazelle": {
+   "primary": "velo electrique gazelle",
+   "intent": "N",
+   "volume": 590,
+   "bestT": "velo gazelle femme",
+   "tVolume": 260,
+   "ratio": 2.3
+  },
   "/fr/marques/giant": {
    "primary": "giant velo",
    "intent": "N",
@@ -31,6 +39,14 @@
    "bestT": "giant miscanthus grass",
    "tVolume": 1900,
    "ratio": 2.3
+  },
+  "/fr/accessoires/gps-velo": {
+   "primary": "gps velo",
+   "intent": "C",
+   "volume": 6600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/fr/accessoires/supports-telephone": {
    "primary": "support telephone velo",
@@ -121,14 +137,5 @@
    "ratio": null
   }
  },
- "rejected": {
-  "/fr/marques/gazelle": {
-   "primary": "velo electrique gazelle",
-   "intent": "N",
-   "volume": 590,
-   "bestT": "adidas gazelle femme vertes",
-   "tVolume": 590,
-   "ratio": 1
-  }
- }
+ "rejected": {}
 }

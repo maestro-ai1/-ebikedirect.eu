@@ -30,6 +30,16 @@ const GROUPS: Record<string, { label: string; path: string; guide: string[]; poi
     points: ['Passende Größe für das eigene Smartphone und die Hülle prüfen', 'Lenkerdurchmesser und freie Montagefläche messen', 'Bei Regen auf wasserdichten Schutz des Telefons achten'],
     blog: { href: '/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized', label: 'E-Bike Reichweite: Guide für Bosch und Shimano' }
   },
+  'gps-fahrradcomputer': {
+    label: 'GPS und Fahrradcomputer',
+    path: '/zubehoer/gps-fahrradcomputer/',
+    guide: [
+      'Ein GPS-Fahrradcomputer zeigt Geschwindigkeit, Strecke und Navigation am Lenker an und zeichnet die Fahrt auf. Gegenüber einer Handyhalterung hat er ein Display, das für Sonnenlicht, Nässe und Handschuhe ausgelegt ist, und er belastet den Akku des Smartphones nicht.',
+      'Beim Kauf zählen die Bedienung (Tasten oder Touchdisplay), die vom Hersteller angegebene Akkulaufzeit, die Kartennavigation und die Frage, ob sich Sensoren für Herzfrequenz, Trittfrequenz oder Geschwindigkeit koppeln lassen. Ein E-Bike mit eigenem Display behält dieses für die Motorfunktionen, der Fahrradcomputer ergänzt Navigation und Aufzeichnung.'
+    ],
+    points: ['Bedienung mit Tasten oder Touchdisplay passend zu Handschuhen und Wetter wählen', 'Akkulaufzeit und Kartenfunktionen in den Herstellerangaben vergleichen', 'Vorhandene Sensoren und die Lenkerhalterung auf Kompatibilität prüfen'],
+    blog: { href: '/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized', label: 'E-Bike Reichweite: Guide für Bosch und Shimano' }
+  },
   'sattel-lenker': {
     label: 'Sattel und Lenker',
     path: '/zubehoer/sattel-lenker/',

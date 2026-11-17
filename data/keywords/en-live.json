@@ -4128,6 +4128,23 @@
      "intent": "C"
     }
    ]
+  },
+  {
+   "display": "Bike computers and GPS for electric bikes",
+   "url": "/accessories/bike-computers/",
+   "dePath": "/zubehoer/gps-fahrradcomputer",
+   "name": "Bike computers and GPS",
+   "type": "accessory",
+   "source": "name",
+   "primary": {
+    "keyword": "bike computers and gps for electric bikes",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
   }
  ]
 }

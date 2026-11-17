@@ -5746,6 +5746,20 @@
    ]
   },
   {
+   "url": "/zubehoer/gps-fahrradcomputer/",
+   "type": "accessory",
+   "name": "GPS und Fahrradcomputer",
+   "primary": {
+    "keyword": "gps fahrradcomputer",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
    "url": "/zubehoer/werkzeug-pflege/",
    "type": "accessory",
    "name": "Werkzeug & Pflege",

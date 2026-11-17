@@ -49,7 +49,7 @@ export function getKeywordPage(locale: Locale, url: string): KeywordPage | null 
 }
 
 export function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
+  return (s.charAt(0).toUpperCase() + s.slice(1)).replace(/\b(gps|usb|led)\b/gi, (m) => m.toUpperCase());
 }
 
 /** Title starts with the primary keyword and stays within 60 characters. */
