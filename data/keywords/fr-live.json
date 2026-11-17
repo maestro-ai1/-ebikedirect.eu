@@ -426,6 +426,12 @@
      "intent": "C",
      "volume": 110,
      "kd": 9
+    },
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 9
     }
    ],
    "faq": [
@@ -439,6 +445,12 @@
      "keyword": "vélo électrique enfant 12 ans",
      "intent": "I",
      "volume": 390,
+     "kd": 9
+    },
+    {
+     "keyword": "velo electrique enfants",
+     "intent": "I",
+     "volume": 90,
      "kd": 9
     }
    ]
@@ -611,6 +623,12 @@
    },
    "secondary": [
     {
+     "keyword": "scooter electrique autonomie",
+     "volume": 210,
+     "kd": 11,
+     "intent": "C"
+    },
+    {
      "keyword": "velo electrique moteur centrale",
      "intent": "T",
      "volume": 320,
@@ -633,12 +651,6 @@
      "intent": "T",
      "volume": 170,
      "kd": 21
-    },
-    {
-     "keyword": "scooter electrique autonomie",
-     "volume": 210,
-     "kd": 11,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -843,6 +855,12 @@
      "intent": "T",
      "volume": 140,
      "kd": 19
+    },
+    {
+     "keyword": "velo electrique cube promo",
+     "intent": "C",
+     "volume": 90,
+     "kd": 11
     }
    ]
   },
@@ -960,6 +978,12 @@
      "intent": "T",
      "volume": 110,
      "kd": 19
+    },
+    {
+     "keyword": "velo electrique giant route",
+     "intent": "T",
+     "volume": 90,
+     "kd": 23
     }
    ],
    "faq": [
@@ -1003,6 +1027,12 @@
      "intent": "T",
      "volume": 210,
      "kd": 15
+    },
+    {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
     }
    ],
    "faq": []
@@ -2084,6 +2114,12 @@
      "intent": "I",
      "volume": 170,
      "kd": 17
+    },
+    {
+     "keyword": "vélo électrique avec accélérateur poignée",
+     "intent": "I",
+     "volume": 90,
+     "kd": 12
     }
    ]
   },

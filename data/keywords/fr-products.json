@@ -104,6 +104,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -119,12 +125,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -180,6 +180,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -195,12 +201,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -320,6 +320,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -329,12 +335,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -442,6 +442,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -457,12 +463,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -524,6 +524,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -533,12 +539,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -704,6 +704,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -713,12 +719,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -774,6 +774,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -789,12 +795,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -856,6 +856,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -865,12 +871,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -932,6 +932,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -941,12 +947,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -1170,15 +1170,15 @@
      "kd": 11
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc électrique haut de gamme",
-     "volume": 110,
-     "kd": 12,
      "intent": "C"
     }
    ]
@@ -1340,6 +1340,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1360,6 +1372,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -1392,6 +1410,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1412,6 +1442,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -1444,6 +1480,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1464,6 +1512,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -1496,6 +1550,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1516,6 +1582,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -1548,6 +1620,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1568,6 +1652,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -1600,6 +1690,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -1620,6 +1722,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -3156,6 +3264,12 @@
    },
    "secondary": [
     {
+     "keyword": "velo electrique giant route",
+     "intent": "T",
+     "volume": 90,
+     "kd": 23
+    },
+    {
      "keyword": "velo electrique route",
      "intent": "C",
      "volume": 1900,
@@ -3178,12 +3292,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 10
-    },
-    {
-     "keyword": "velos de course electriques",
-     "intent": "C",
-     "volume": 140,
-     "kd": 14
     }
    ],
    "faq": [
@@ -3212,10 +3320,10 @@
      "kd": 5
     },
     {
-     "keyword": "velos de route electrique",
-     "intent": "I",
+     "keyword": "velos de course electriques",
+     "intent": "C",
      "volume": 140,
-     "kd": 5
+     "kd": 14
     }
    ]
   },
@@ -3230,7 +3338,14 @@
     "kd": 8,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 9
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm vélos électriques",
@@ -3243,6 +3358,12 @@
      "intent": "I",
      "volume": 590,
      "kd": 10
+    },
+    {
+     "keyword": "velo electrique enfants",
+     "intent": "I",
+     "volume": 90,
+     "kd": 9
     }
    ]
   },
@@ -3269,6 +3390,12 @@
      "intent": "T",
      "volume": 210,
      "kd": 16
+    },
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 9
     }
    ],
    "faq": [
@@ -3277,6 +3404,12 @@
      "intent": "I",
      "volume": 590,
      "kd": 10
+    },
+    {
+     "keyword": "velo electrique enfants",
+     "intent": "I",
+     "volume": 90,
+     "kd": 9
     }
    ]
   },
@@ -3303,6 +3436,12 @@
      "intent": "T",
      "volume": 210,
      "kd": 16
+    },
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 9
     }
    ],
    "faq": [
@@ -3311,6 +3450,12 @@
      "intent": "I",
      "volume": 590,
      "kd": 10
+    },
+    {
+     "keyword": "velo electrique enfants",
+     "intent": "I",
+     "volume": 90,
+     "kd": 9
     }
    ]
   },
@@ -3583,6 +3728,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -3598,12 +3749,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -3915,6 +4060,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -3930,12 +4081,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -4631,6 +4776,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -4646,12 +4797,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9219,6 +9364,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9234,12 +9385,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9347,6 +9492,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9362,12 +9513,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9475,6 +9620,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9490,12 +9641,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9551,6 +9696,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9566,12 +9717,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9679,6 +9824,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9694,12 +9845,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9755,6 +9900,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9770,12 +9921,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9883,6 +10028,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9898,12 +10049,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -9959,6 +10104,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -9974,12 +10125,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -10035,6 +10180,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -10050,12 +10201,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11227,6 +11372,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11242,12 +11393,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11303,6 +11448,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11318,12 +11469,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11379,6 +11524,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11394,12 +11545,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11455,6 +11600,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11470,12 +11621,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11583,6 +11728,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11598,12 +11749,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11659,6 +11804,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11674,12 +11825,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11735,6 +11880,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11750,12 +11901,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11811,6 +11956,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11826,12 +11977,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -11893,6 +12038,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11902,12 +12053,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -11963,6 +12108,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -11978,12 +12129,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12039,6 +12184,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12054,12 +12205,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12115,6 +12260,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12130,12 +12281,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12249,6 +12394,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12264,12 +12415,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12325,6 +12470,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12340,12 +12491,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12401,6 +12546,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12416,12 +12567,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12587,6 +12732,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12602,12 +12753,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     }
    ]
@@ -12669,6 +12814,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12678,12 +12829,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -12745,6 +12890,12 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
      "keyword": "vélos électriques granville",
      "volume": 140,
      "kd": 11,
@@ -12754,12 +12905,6 @@
      "keyword": "vtc électrique haut de gamme",
      "volume": 110,
      "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "meilleur velo electrique ville",
-     "volume": 110,
-     "kd": 7,
      "intent": "C"
     }
    ]
@@ -12815,6 +12960,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc électrique haut de gamme",
+     "volume": 110,
+     "kd": 12,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
@@ -12825,18 +12982,6 @@
      "volume": 110,
      "kd": 23,
      "intent": "C"
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13001,6 +13146,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13011,12 +13168,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13123,6 +13274,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13133,12 +13296,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13193,6 +13350,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13203,12 +13372,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13263,6 +13426,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13273,12 +13448,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13865,6 +14034,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13875,12 +14056,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -13987,6 +14162,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -13997,12 +14184,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -14209,6 +14390,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -14219,12 +14412,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -14279,6 +14466,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur velo electrique ville",
+     "volume": 110,
+     "kd": 7,
+     "intent": "C"
+    },
+    {
      "keyword": "vtc electrique comparatif",
      "volume": 110,
      "kd": 23,
@@ -14289,12 +14488,6 @@
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -14477,6 +14670,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -14637,6 +14842,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -14653,12 +14864,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -14675,6 +14880,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -14685,12 +14896,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -14771,6 +14976,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -14787,12 +14998,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -14809,6 +15014,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -14819,12 +15030,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -14847,6 +15052,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -14863,12 +15074,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -14891,16 +15096,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -14923,6 +15128,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -14939,12 +15150,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -14961,6 +15166,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -14971,12 +15182,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -14999,6 +15204,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15015,12 +15226,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15037,6 +15242,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15047,12 +15258,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15075,6 +15280,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15091,12 +15302,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15113,6 +15318,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15123,12 +15334,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15151,6 +15356,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15167,12 +15378,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15189,6 +15394,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15199,12 +15410,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15291,6 +15496,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15307,12 +15518,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15329,6 +15534,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15339,12 +15550,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15367,6 +15572,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15383,12 +15594,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15405,6 +15610,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15415,12 +15626,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15443,6 +15648,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15459,12 +15670,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15481,6 +15686,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15491,12 +15702,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15519,6 +15724,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15535,12 +15746,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15557,6 +15762,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15567,12 +15778,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15595,6 +15800,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15611,12 +15822,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15633,6 +15838,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15643,12 +15854,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15671,6 +15876,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15687,12 +15898,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15709,6 +15914,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15719,12 +15930,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15747,6 +15952,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15763,12 +15974,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15791,16 +15996,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -15823,6 +16028,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15839,12 +16050,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15861,6 +16066,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -15871,12 +16082,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -15899,6 +16104,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15915,12 +16126,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -15943,16 +16148,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -15975,6 +16180,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -15991,12 +16202,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16019,16 +16224,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -16051,6 +16256,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16067,12 +16278,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16089,6 +16294,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16099,12 +16310,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16127,6 +16332,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16143,12 +16354,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16177,10 +16382,10 @@
      "kd": 8
     },
     {
-     "keyword": "vélos électriques vtt",
-     "intent": "T",
-     "volume": 170,
-     "kd": 16
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
     }
    ]
   },
@@ -16203,6 +16408,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16219,12 +16430,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16241,6 +16446,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16251,12 +16462,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16279,6 +16484,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16295,12 +16506,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16317,6 +16522,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16327,12 +16538,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16483,6 +16688,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16499,12 +16710,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16521,6 +16726,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16531,12 +16742,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16559,6 +16764,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16575,12 +16786,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16603,16 +16808,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -16635,6 +16840,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16651,12 +16862,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16679,16 +16884,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -16711,6 +16916,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16727,12 +16938,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16755,16 +16960,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -16787,6 +16992,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16803,12 +17014,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16825,6 +17030,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16835,12 +17046,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16863,6 +17068,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16879,12 +17090,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16901,6 +17106,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -16911,12 +17122,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -16939,6 +17144,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -16955,12 +17166,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -16983,16 +17188,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -17083,6 +17288,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -17109,6 +17326,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -17213,6 +17436,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -17361,6 +17596,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -17387,6 +17634,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -17651,6 +17904,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -17677,6 +17942,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -17709,6 +17980,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -17735,6 +18018,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -17787,6 +18076,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -17957,6 +18258,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -17999,6 +18312,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -18025,6 +18350,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -18057,6 +18388,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -18083,6 +18426,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -18167,6 +18516,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -18193,6 +18554,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -18363,16 +18730,22 @@
      "kd": 11
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -19069,6 +19442,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19131,6 +19516,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -19197,6 +19594,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19259,6 +19668,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -19325,6 +19746,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19387,6 +19820,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -19503,6 +19948,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -19673,6 +20130,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19841,6 +20310,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19957,6 +20438,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20019,6 +20512,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -20351,6 +20856,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20465,6 +20982,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -20583,6 +21112,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20645,6 +21186,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -20867,6 +21420,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21035,6 +21600,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21097,6 +21674,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -21163,6 +21752,18 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21225,6 +21826,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -21393,6 +22006,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
     },
     {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
@@ -21621,16 +22246,22 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -22599,6 +23230,18 @@
      "volume": 110,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ],
    "faq": [
@@ -22625,6 +23268,12 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
     }
    ]
   },
@@ -22685,16 +23334,22 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -23059,16 +23714,22 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -23129,16 +23790,22 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -23403,16 +24070,22 @@
      "kd": 10
     },
     {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "vtc electrique comparatif",
+     "volume": 110,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -23757,6 +24430,24 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
+     "volume": 110,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -25339,6 +26030,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -25397,6 +26100,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -27651,6 +28366,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -27703,6 +28430,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -27807,6 +28546,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -27911,6 +28662,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28015,6 +28778,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28067,6 +28842,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28119,6 +28906,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28379,6 +29178,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28431,6 +29242,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28691,6 +29514,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28743,6 +29578,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28871,6 +29718,18 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
+    },
+    {
+     "keyword": "intersport vtc electrique",
+     "volume": 110,
+     "kd": 22,
+     "intent": "T"
     }
    ]
   },
@@ -28975,6 +29834,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -29027,6 +29892,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -29391,6 +30262,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -29547,6 +30424,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -29755,6 +30638,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -29859,6 +30748,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -32665,6 +33560,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -32717,6 +33618,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -32769,6 +33676,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -34613,6 +35526,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -34989,6 +35908,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -35041,6 +35966,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -35093,6 +36024,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -36499,6 +37436,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -36551,6 +37494,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -36719,6 +37668,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -36823,6 +37778,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -36875,6 +37836,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -37101,6 +38068,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -37467,6 +38440,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -37519,6 +38498,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -37897,6 +38882,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -37949,6 +38940,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38225,6 +39222,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38277,6 +39280,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38329,6 +39338,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38381,6 +39396,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38433,6 +39454,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38485,6 +39512,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38537,6 +39570,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38589,6 +39628,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38641,6 +39686,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38693,6 +39744,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38861,6 +39918,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38913,6 +39976,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -38965,6 +40034,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -39017,6 +40092,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -39069,6 +40150,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -39219,6 +40306,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39235,12 +40328,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39257,6 +40344,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39267,12 +40360,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39295,6 +40382,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39311,12 +40404,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39333,6 +40420,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39343,12 +40436,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39371,6 +40458,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39387,12 +40480,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39409,6 +40496,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39419,12 +40512,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39447,6 +40534,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39463,12 +40556,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39485,6 +40572,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39495,12 +40588,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39523,6 +40610,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39539,12 +40632,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39561,6 +40648,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39571,12 +40664,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39599,6 +40686,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39615,12 +40708,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39637,6 +40724,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39647,12 +40740,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39675,6 +40762,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39691,12 +40784,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39713,6 +40800,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39723,12 +40816,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39751,6 +40838,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39767,12 +40860,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39789,6 +40876,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39799,12 +40892,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39827,6 +40914,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39843,12 +40936,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39865,6 +40952,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39875,12 +40968,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39903,6 +40990,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39919,12 +41012,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -39941,6 +41028,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -39951,12 +41044,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -39979,6 +41066,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -39995,12 +41088,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40017,6 +41104,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -40027,12 +41120,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -40055,6 +41142,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40071,12 +41164,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40105,10 +41192,10 @@
      "kd": 8
     },
     {
-     "keyword": "vélos électriques vtt",
-     "intent": "T",
-     "volume": 170,
-     "kd": 16
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
     }
    ]
   },
@@ -40131,6 +41218,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40147,12 +41240,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40169,6 +41256,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -40179,12 +41272,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -40207,6 +41294,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40223,12 +41316,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40245,6 +41332,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -40255,12 +41348,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -40283,6 +41370,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40299,12 +41392,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40321,6 +41408,12 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
@@ -40331,12 +41424,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 6
-    },
-    {
-     "keyword": "vtt électrique semi rigide",
-     "intent": "I",
-     "volume": 140,
-     "kd": 12
     }
    ]
   },
@@ -40359,6 +41446,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40375,12 +41468,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40403,16 +41490,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -40435,6 +41522,12 @@
      "kd": 15
     },
     {
+     "keyword": "vtt electrique tout suspendu haibike",
+     "intent": "T",
+     "volume": 90,
+     "kd": 13
+    },
+    {
      "keyword": "vélo électrique vtt",
      "intent": "C",
      "volume": 720,
@@ -40451,12 +41544,6 @@
      "intent": "T",
      "volume": 260,
      "kd": 19
-    },
-    {
-     "keyword": "fat bike electrique pas cher",
-     "intent": "C",
-     "volume": 210,
-     "kd": 10
     }
    ],
    "faq": [
@@ -40479,16 +41566,16 @@
      "kd": 8
     },
     {
+     "keyword": "fat bike electrique pas cher",
+     "intent": "C",
+     "volume": 210,
+     "kd": 10
+    },
+    {
      "keyword": "vélos électriques vtt",
      "intent": "T",
      "volume": 170,
      "kd": 16
-    },
-    {
-     "keyword": "vélo électrique tout suspendu",
-     "intent": "C",
-     "volume": 170,
-     "kd": 6
     }
    ]
   },
@@ -42815,6 +43902,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -42885,6 +43978,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -42955,6 +44054,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43025,6 +44130,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43095,6 +44206,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43165,6 +44282,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43235,6 +44358,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43305,6 +44434,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43375,6 +44510,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43445,6 +44586,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43515,6 +44662,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43585,6 +44738,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43655,6 +44814,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43725,6 +44890,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43795,6 +44966,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43865,6 +45042,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -43935,6 +45118,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -44005,6 +45194,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -44075,6 +45270,12 @@
      "intent": "C",
      "volume": 140,
      "kd": 11
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -44191,6 +45392,18 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -44255,6 +45468,18 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -44319,6 +45544,18 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -44383,6 +45620,18 @@
      "intent": "I",
      "volume": 320,
      "kd": 25
+    },
+    {
+     "keyword": "velo assistance electrique pliant",
+     "intent": "I",
+     "volume": 90,
+     "kd": 19
+    },
+    {
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -48689,6 +49938,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -48747,6 +50002,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -48805,6 +50066,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -48863,6 +50130,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -48921,6 +50194,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -48979,6 +50258,12 @@
      "intent": "I",
      "volume": 1300,
      "kd": 10
+    },
+    {
+     "keyword": "velo électrique de ville",
+     "intent": "C",
+     "volume": 90,
+     "kd": 22
     }
    ]
   },
@@ -49775,7 +51060,14 @@
     "kd": null,
     "source": "name"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "vélo électrique ado",
+     "intent": "C",
+     "volume": 90,
+     "kd": 9
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm vélos électriques",
@@ -49788,6 +51080,12 @@
      "intent": "I",
      "volume": 590,
      "kd": 10
+    },
+    {
+     "keyword": "velo electrique enfants",
+     "intent": "I",
+     "volume": 90,
+     "kd": 9
     }
    ]
   },
@@ -51208,6 +52506,12 @@
    },
    "secondary": [
     {
+     "keyword": "velo electrique giant route",
+     "intent": "T",
+     "volume": 90,
+     "kd": 23
+    },
+    {
      "keyword": "velo electrique route",
      "intent": "C",
      "volume": 1900,
@@ -51230,12 +52534,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 10
-    },
-    {
-     "keyword": "velos de course electriques",
-     "intent": "C",
-     "volume": 140,
-     "kd": 14
     }
    ],
    "faq": [
@@ -51264,10 +52562,10 @@
      "kd": 5
     },
     {
-     "keyword": "velos de route electrique",
-     "intent": "I",
+     "keyword": "velos de course electriques",
+     "intent": "C",
      "volume": 140,
-     "kd": 5
+     "kd": 14
     }
    ]
   },
@@ -51284,6 +52582,12 @@
    },
    "secondary": [
     {
+     "keyword": "velo electrique giant route",
+     "intent": "T",
+     "volume": 90,
+     "kd": 23
+    },
+    {
      "keyword": "velo electrique route",
      "intent": "C",
      "volume": 1900,
@@ -51306,12 +52610,6 @@
      "intent": "C",
      "volume": 170,
      "kd": 10
-    },
-    {
-     "keyword": "velos de course electriques",
-     "intent": "C",
-     "volume": 140,
-     "kd": 14
     }
    ],
    "faq": [
@@ -51340,10 +52638,10 @@
      "kd": 5
     },
     {
-     "keyword": "velos de route electrique",
-     "intent": "I",
+     "keyword": "velos de course electriques",
+     "intent": "C",
      "volume": 140,
-     "kd": 5
+     "kd": 14
     }
    ]
   },
