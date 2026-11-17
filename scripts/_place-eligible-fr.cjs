@@ -14,7 +14,7 @@ const GENERIC = new Set('bike bikes e ebike ebikes velo velos electrique electri
 const byUrl = Object.fromEntries(pages.map((p) => [p.url, p]));
 const cats = plan.batches.batch1.map((b) => ({ re: new RegExp(b.rel, 'i'), ex: b.exclude ? new RegExp(b.exclude, 'i') : null, url: b.url }));
 const brandPages = pages.filter((p) => p.url.startsWith('/marques/') && p.url !== '/marques/').map((p) => ({ p, key: p.url.split('/')[2].split('-')[0] }));
-const ACCP = [[/(antivol|cadenas)/i, '/accessoires/antivols/'], [/casque/i, '/accessoires/casques/'], [/(sacoche|panier|sac a|bagagerie)/i, '/accessoires/sacoches-paniers/'], [/(porte.?bagage|remorque)/i, '/accessoires/porte-bagages/'], [/(garde.?boue|bequille)/i, '/accessoires/garde-boues-bequilles/'], [/(support|telephone|smartphone)/i, '/accessoires/supports-telephone/'], [/(pompe|nettoy|lubrif|entretien|outil|repar|crevaison|huile)/i, '/accessoires/outils-entretien/'], [/(pluie|poncho|vetement|impermeable)/i, '/accessoires/pluie-vetements/'], [/(phare|lumiere|eclairage|lampe|feu)/i, '/accessoires/eclairage/'], [/(selle|guidon|poignee)/i, '/accessoires/selles-guidons/'], [/accessoire/i, '/accessoires/']];
+const ACCP = [[/(antivol|cadenas)/i, '/accessoires/antivols/'], [/casque/i, '/accessoires/casques/'], [/(sacoche|panier|sac a|bagagerie)/i, '/accessoires/sacoches-paniers/'], [/(porte.?bagage|remorque)/i, '/accessoires/porte-bagages/'], [/(garde.?boue|bequille)/i, '/accessoires/garde-boues-bequilles/'], [/(support|telephone|smartphone)/i, '/accessoires/supports-telephone/'], [/(pompe|gonfl|nettoy|lubrif|entretien|outil|repar|crevaison|huile)/i, '/accessoires/outils-entretien/'], [/(pluie|poncho|vetement|impermeable)/i, '/accessoires/pluie-vetements/'], [/(phare|lumiere|eclairage|lampe|feu)/i, '/accessoires/eclairage/'], [/(selle|guidon|poignee)/i, '/accessoires/selles-guidons/'], [/accessoire/i, '/accessoires/']];
 const used = new Set(); for (const p of pages) for (const k of [p.primary, ...p.secondary, ...p.faq]) if (k) used.add(nk(k.keyword));
 const log = []; // every eligible keyword gets exactly one line
 const displaced = [];
@@ -35,8 +35,8 @@ for (const r of L.eligible) {
   if (used.has(nk(r.k))) { log.push({ k: r.k, v: r.v, to: 'HOLD', why: 'already placed meanwhile' }); continue; }
   // 1) empty FAQ slot  2) swap into secondary if higher than the lowest stored secondary  3) swap into FAQ if higher than the lowest FAQ
   if (p.faq.length < 5) { p.faq.push(rec(r)); used.add(nk(r.k)); log.push({ k: r.k, v: r.v, to: 'FAQ ' + p.url, why: 'empty slot' }); continue; }
-  const lowS = p.secondary.reduce((a, b) => (b.volume < a.volume ? b : a));
   if (p.secondary.length < 5) { p.secondary.push(rec(r)); used.add(nk(r.k)); log.push({ k: r.k, v: r.v, to: 'SECONDARY ' + p.url, why: 'empty slot' }); continue; }
+  const lowS = p.secondary.reduce((a, b) => (b.volume < a.volume ? b : a));
   if (r.v > lowS.volume * 1.2) {
     p.secondary.splice(p.secondary.indexOf(lowS), 1, rec(r)); used.add(nk(r.k)); log.push({ k: r.k, v: r.v, to: 'SECONDARY ' + p.url, why: 'swapped for "' + lowS.keyword + '" ' + lowS.volume });
     // displaced secondary goes to FAQ if it beats the lowest FAQ, otherwise it is logged

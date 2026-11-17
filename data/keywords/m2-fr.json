@@ -24,6 +24,14 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/fr/marques/giant": {
+   "primary": "giant velo",
+   "intent": "N",
+   "volume": 4400,
+   "bestT": "giant miscanthus grass",
+   "tVolume": 1900,
+   "ratio": 2.3
+  },
   "/fr/accessoires/supports-telephone": {
    "primary": "support telephone velo",
    "intent": "I",
@@ -33,9 +41,9 @@
    "ratio": null
   },
   "/fr/accessoires/pluie-vetements": {
-   "primary": "housse de pluie velo",
+   "primary": "protection velo pluie",
    "intent": "C",
-   "volume": 20,
+   "volume": 480,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -47,6 +55,14 @@
    "bestT": "eclairage led pour velo",
    "tVolume": 110,
    "ratio": 21.8
+  },
+  "/fr/accessoires": {
+   "primary": "accessoires pour velo",
+   "intent": "C",
+   "volume": 720,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/fr/marques": {
    "primary": "marque velo electrique",
