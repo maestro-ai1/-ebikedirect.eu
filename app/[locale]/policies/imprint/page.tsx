@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Impressum',
-  description: 'Impressum von ebikedirect.eu: Anbieter e-bikes MK GmbH, Halver, vertreten durch Björn und Jacqueline Lips, Handelsregister Iserlohn HRB 9384, USt-IdNr., Kontakt und rechtliche Hinweise.'
+  description: 'Impressum von ebikedirect.eu: Anbieter e-bikes MK GmbH, Halver, Handelsregister Iserlohn HRB 9384, USt-IdNr., Kontakt und rechtliche Hinweise.'
 };
 
 const H2 = 'text-base font-bold text-[#131A22]';

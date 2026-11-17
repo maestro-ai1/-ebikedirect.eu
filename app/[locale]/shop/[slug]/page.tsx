@@ -13,6 +13,8 @@ import { productFocusKeyword } from '@/lib/product-keywords';
 import { L10nProductContent } from '@/components/seo/l10n-product-content';
 import { productKit } from '@/lib/l10n-product-kit';
 import { localName } from '@/lib/l10n-names';
+import { withReviews, productReviews } from '@/lib/product-reviews';
+import { ProductReviews } from '@/components/seo/product-reviews';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -49,11 +51,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProductDetailPage({ params }: Props) {
   const { locale, slug } = await params;
-  const product = PRODUCTS.find((p) => p.slug === slug);
+  const baseProduct = PRODUCTS.find((p) => p.slug === slug);
 
-  if (!product) {
+  if (!baseProduct) {
     notFound();
   }
+  const product = withReviews(baseProduct);
+  const reviews = productReviews(product.slug);
 
   const K = productKit(locale);
   if (K) {
@@ -62,9 +66,10 @@ export default async function ProductDetailPage({ params }: Props) {
     const focus = e.primary.source === 'bank' ? e.primary.keyword : localName(locale, product.name);
     return (
       <>
-        <ProductJsonLd product={product} description={built.lead} urlPrefix={`/${locale}`} name={localName(locale, product.name)} />
+        <ProductJsonLd product={product} description={built.lead} urlPrefix={`/${locale}`} name={localName(locale, product.name)} reviews={reviews} />
         <Breadcrumbs items={[{ label: K.ui.shop, href: `/${locale}/shop` }, { label: K.categoryLabel[product.category] || product.category, href: `/${locale}/shop` }, { label: localName(locale, product.name), href: `/${locale}/shop/${product.slug}` }]} />
         <ProductDetailClient product={product} focusKeyword={focus} frView={{ lead: built.lead, specs: built.specs, category: K.categoryLabel[product.category] || product.category, h1: K.h1(product) }} />
+        <ProductReviews slug={product.slug} locale={locale} />
         <L10nProductContent product={product} locale={locale} />
       </>
     );
@@ -72,7 +77,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
   return (
     <>
-      <ProductJsonLd product={product} />
+      <ProductJsonLd product={product} reviews={reviews} />
       <Breadcrumbs
         items={[
           { label: 'E-Bike Sortiment', href: '/shop' },
@@ -81,6 +86,7 @@ export default async function ProductDetailPage({ params }: Props) {
         ]}
       />
       <ProductDetailClient product={product} focusKeyword={productFocusKeyword(product.slug, product.name)} />
+      <ProductReviews slug={product.slug} />
       {product.category !== 'Zubehör' && <ProductContent product={product} />}
       {product.category === 'Zubehör' && <AccessoryContent product={product} />}
       {product.category !== 'Zubehör' && <ProductLinks brand={product.brand} category={product.category} motor={product.motor} />}

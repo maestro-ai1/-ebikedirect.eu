@@ -126,6 +126,12 @@ export default async function DeliveryPolicyPage({ params }: { params: Promise<{
               </div>
             </div>
           </section>
+
+          <section className="border-t border-gray-100 pt-6">
+            <p className="text-xs text-gray-600">
+              Weitere rechtliche Informationen: <a href="/policies/imprint" className="text-[#FF5722] hover:underline">Impressum</a>, <a href="/policies/privacy" className="text-[#FF5722] hover:underline">Datenschutzerklärung</a> und <a href="/policies/returns" className="text-[#FF5722] hover:underline">Widerruf, Rückgabe und Garantie</a>.
+            </p>
+          </section>
         </div>
       </div>
     </div>

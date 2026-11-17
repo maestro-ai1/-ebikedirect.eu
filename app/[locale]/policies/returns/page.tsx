@@ -96,6 +96,12 @@ export default async function ReturnsPolicyPage({ params }: { params: Promise<{ 
               <li>Nach Wareneingang und Prüfung in unserer Münchner Meisterwerkstatt erstatten wir den vollen Kaufbetrag innerhalb von 3 Werktagen auf Ihre ursprüngliche Zahlungsmethode (inkl. Krypto-Rückzahlung in USDT/BTC zum tagesaktuellen Gegenwert).</li>
             </ol>
           </section>
+
+          <section className="border-t border-gray-100 pt-6">
+            <p className="text-xs text-gray-600">
+              Weitere rechtliche Informationen: <a href="/policies/imprint" className="text-[#FF5722] hover:underline">Impressum</a>, <a href="/policies/privacy" className="text-[#FF5722] hover:underline">Datenschutzerklärung</a> und <a href="/policies/delivery" className="text-[#FF5722] hover:underline">Versand und Lieferbedingungen</a>.
+            </p>
+          </section>
         </div>
       </div>
     </div>

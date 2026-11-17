@@ -1,5 +1,9 @@
 import React from 'react';
-import { Product } from '@/lib/types';
+import { Product, TrustpilotReview } from '@/lib/types';
+import { reviewIsoDate } from '@/lib/product-reviews';
+
+// European countries the shop serves: EU member states, EEA, Switzerland and the UK (return policy covers all European countries)
+const EUROPE = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'NO', 'IS', 'LI', 'CH', 'GB'];
 
 export function StoreJsonLd() {
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
@@ -69,7 +73,7 @@ export function StoreJsonLd() {
   );
 }
 
-export function ProductJsonLd({ product, description, urlPrefix = '', name }: { product: Product; description?: string; urlPrefix?: string; name?: string }) {
+export function ProductJsonLd({ product, description, urlPrefix = '', name, reviews = [] }: { product: Product; description?: string; urlPrefix?: string; name?: string; reviews?: TrustpilotReview[] }) {
   const baseUrl = process.env.APP_URL || 'https://ebikedirect.eu';
   const schema = {
     '@context': 'https://schema.org',
@@ -88,11 +92,20 @@ export function ProductJsonLd({ product, description, urlPrefix = '', name }: { 
       'url': `${baseUrl}${urlPrefix}/shop/${product.slug}`,
       'priceCurrency': 'EUR',
       'price': product.price,
+      'validFrom': '2026-11-01T00:00:00+01:00',
       'priceValidUntil': '2027-12-31',
       'availability': product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       'itemCondition': 'https://schema.org/NewCondition',
+      // 30-day voluntary return window as stated on /policies/returns; fees and method are not stated there, so they are left out
+      'hasMerchantReturnPolicy': {
+        '@type': 'MerchantReturnPolicy',
+        'applicableCountry': EUROPE,
+        'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        'merchantReturnDays': 30
+      },
       'shippingDetails': {
         '@type': 'OfferShippingDetails',
+        'shippingDestination': EUROPE.map((c) => ({ '@type': 'DefinedRegion', 'addressCountry': c })),
         'shippingRate': {
           '@type': 'MonetaryAmount',
           'value': product.price >= 1000 ? '0' : '49',
@@ -122,6 +135,18 @@ export function ProductJsonLd({ product, description, urlPrefix = '', name }: { 
             'ratingValue': product.rating.toString(),
             'reviewCount': product.reviewsCount.toString()
           }
+        }
+      : {}),
+    ...(reviews.length
+      ? {
+          'review': reviews.map((r) => ({
+            '@type': 'Review',
+            'author': { '@type': 'Person', 'name': r.name },
+            'datePublished': reviewIsoDate(r.date),
+            'name': r.title,
+            'reviewBody': r.comment,
+            'reviewRating': { '@type': 'Rating', 'ratingValue': r.stars, 'bestRating': 5, 'worstRating': 1 }
+          }))
         }
       : {})
   };
