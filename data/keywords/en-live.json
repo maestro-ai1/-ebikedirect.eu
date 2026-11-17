@@ -4130,21 +4130,83 @@
    ]
   },
   {
-   "display": "Bike computers and GPS for electric bikes",
+   "display": "Bike speedometer",
    "url": "/accessories/bike-computers/",
    "dePath": "/zubehoer/gps-fahrradcomputer",
    "name": "Bike computers and GPS",
    "type": "accessory",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "bike computers and gps for electric bikes",
+    "keyword": "bike speedometer",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 1000,
+    "kd": 26,
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "cycle computers gps",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 12
+    },
+    {
+     "keyword": "gps bike computers",
+     "intent": "C",
+     "volume": 590,
+     "kd": 25
+    },
+    {
+     "keyword": "bike computer gps",
+     "intent": "C",
+     "volume": 390,
+     "kd": 16
+    },
+    {
+     "keyword": "wireless bike computer",
+     "intent": "T",
+     "volume": 260,
+     "kd": 9
+    },
+    {
+     "keyword": "best garmin bike computer",
+     "intent": "C",
+     "volume": 260,
+     "kd": 24
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike gps monitor",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 28
+    },
+    {
+     "keyword": "bike gps finder",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 23
+    },
+    {
+     "keyword": "gps cycle computer",
+     "intent": "I",
+     "volume": 590,
+     "kd": 27
+    },
+    {
+     "keyword": "wahoo bike computers",
+     "intent": "I",
+     "volume": 320,
+     "kd": 9
+    },
+    {
+     "keyword": "wireless cycle computer",
+     "intent": "I",
+     "volume": 260,
+     "kd": 16
+    }
+   ]
   }
  ]
 }

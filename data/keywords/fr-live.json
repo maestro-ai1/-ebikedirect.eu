@@ -1827,10 +1827,10 @@
      "kd": 20
     },
     {
-     "keyword": "meilleurs antivol velo electrique",
-     "intent": "C",
-     "volume": 210,
-     "kd": 19
+     "keyword": "vente de gps / antivols connectés pour vélos paris",
+     "intent": "-",
+     "volume": 260,
+     "kd": 1
     }
    ]
   },
@@ -2142,28 +2142,28 @@
    },
    "secondary": [
     {
+     "keyword": "g p s velo",
+     "intent": "C",
+     "volume": 4400,
+     "kd": 12
+    },
+    {
+     "keyword": "gps pour le velo",
+     "intent": "C",
+     "volume": 3600,
+     "kd": 20
+    },
+    {
+     "keyword": "gps pour vélo",
+     "intent": "C",
+     "volume": 2900,
+     "kd": 16
+    },
+    {
      "keyword": "compteur gps velo",
      "intent": "C",
      "volume": 2400,
      "kd": 26
-    },
-    {
-     "keyword": "gps pour velo",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 13
-    },
-    {
-     "keyword": "gps pour vtt",
-     "intent": "C",
-     "volume": 1000,
-     "kd": 17
-    },
-    {
-     "keyword": "gps velos",
-     "intent": "C",
-     "volume": 880,
-     "kd": 13
     },
     {
      "keyword": "gps pour velos",
@@ -2174,6 +2174,12 @@
     }
    ],
    "faq": [
+    {
+     "keyword": "compteur vélo",
+     "intent": "I",
+     "volume": 2400,
+     "kd": 19
+    },
     {
      "keyword": "gps vtt",
      "intent": "I",
@@ -2187,22 +2193,16 @@
      "kd": 11
     },
     {
-     "keyword": "compteur et gps velo",
-     "intent": "C",
-     "volume": 880,
-     "kd": 23
-    },
-    {
-     "keyword": "gps sur velo",
-     "intent": "C",
-     "volume": 880,
-     "kd": 7
-    },
-    {
-     "keyword": "compteur gps pour vélo",
+     "keyword": "compteur vélo sans fil",
+     "intent": "I",
      "volume": 1000,
-     "kd": 29,
-     "intent": "C"
+     "kd": 13
+    },
+    {
+     "keyword": "gps pour vtt",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 17
     }
    ]
   },

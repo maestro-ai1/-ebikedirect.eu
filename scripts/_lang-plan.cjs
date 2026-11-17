@@ -8,7 +8,7 @@ module.exports = {
     elec: '(é|e)lectri|assistance|\bvae\b|vtt ?ae|pedelec|e.?bike',
     brands: '(cube|scott|ktm|giant|orbea|trek|haibike|specialized|kalkhoff|gazelle|bosch|shimano|yamaha|cannondale|focus|winora|flyer|hercules|brompton|\bliv\b|riese|stromer|kettler|conway|babboe|tenways|nakamura|granville|vespa|moustache|cowboy|btwin)',
     guard: '(occasion|reconditionn|location|louer|leasing|\\btest\\b|\\bavis\\b|notice|manuel|nakamura|decathlon|d[ée]cathlon|\\b20(19|2[0-5])\\b|gratuit|pi[èe]ces? d[ée]tach|troc|leboncoin|trott?inette|spinning|appartement|intersport|feu vert|norauto|carrefour|leclerc|cdiscount|auchan|go sport|comparatif|comparaison|magasin|proximit|autour de moi|pr[èe]s de chez|r[ée]parateur|atelier|(?<!kit )r[ée]paration (de )?v[ée]lo)',
-    notSold: '(bianchi|lapierre|canyon|fiido|moustache|btwin|rockrider|elops|riverside|vanmoof|cowboy|victoria|bh bikes?|decathlon)',
+    notSold: '(bianchi|lapierre|canyon|fiido|moustache|btwin|rockrider|elops|riverside|vanmoof|cowboy|victoria|bh bikes?|decathlon|cateye|sigma|hammerhead|karoo|bryton|coros|igpsport|xoss|magene)',
     batches: {
       batch1: [
         { display: "Prix d'un VTT électrique", url: '/velos-electriques/vtt-electrique/', dePath: '/e-bikes/e-mountainbikes', mapUrl: '/velos-electriques/vtt-electrique/', name: 'VTT électriques', rel: '(vtt|fat bike|tout.suspendu|semi.rigide|enduro)', exclude: '(femme|homme|enfant|nakamura)' },

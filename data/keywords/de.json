@@ -5750,14 +5750,76 @@
    "type": "accessory",
    "name": "GPS und Fahrradcomputer",
    "primary": {
-    "keyword": "gps fahrradcomputer",
-    "volume": 0,
-    "kd": null,
+    "keyword": "bike computer",
+    "volume": 720,
+    "kd": 21,
     "intent": "T",
-    "source": "name"
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "fahrradcomputer kabellos",
+     "volume": 1300,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "kabelloser fahrradcomputer",
+     "volume": 590,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "e bike computer",
+     "volume": 210,
+     "kd": 12,
+     "intent": "T"
+    },
+    {
+     "keyword": "kabellos fahrradcomputer",
+     "volume": 170,
+     "kd": 19,
+     "intent": "C"
+    },
+    {
+     "keyword": "günstige fahrradcomputer",
+     "volume": 140,
+     "kd": 22,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike bike computer",
+     "volume": 390,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "electric bike computer",
+     "volume": 210,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "günstiger fahrradcomputer",
+     "volume": 140,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrradcomputer günstig",
+     "volume": 140,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "ebike computer",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
   },
   {
    "url": "/zubehoer/werkzeug-pflege/",
