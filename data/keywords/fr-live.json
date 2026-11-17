@@ -201,10 +201,10 @@
      "kd": 10
     },
     {
-     "keyword": "vélo électrique granville intersport",
-     "volume": 210,
-     "kd": 22,
-     "intent": "T"
+     "keyword": "vtc electrique promotion",
+     "intent": "I",
+     "volume": 170,
+     "kd": 4
     },
     {
      "keyword": "vélos électriques urbains",
@@ -240,16 +240,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique pliant comparatif",
-     "volume": 390,
-     "kd": 20,
+     "keyword": "meilleur velo electrique pliant",
+     "volume": 260,
+     "kd": 13,
      "intent": "C"
-    },
-    {
-     "keyword": "velos pliants",
-     "volume": 590,
-     "kd": 23,
-     "intent": "T"
     },
     {
      "keyword": "vélo électrique pliant pas cher",
@@ -258,10 +252,16 @@
      "kd": 15
     },
     {
-     "keyword": "comparaison velo electrique pliant",
+     "keyword": "velos pliants",
+     "volume": 590,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "velo electrique pliant 20 pouces",
      "intent": "C",
-     "volume": 320,
-     "kd": 19
+     "volume": 210,
+     "kd": 10
     },
     {
      "keyword": "velos pliant",
@@ -1392,15 +1392,7 @@
     "kd": 23,
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "velo riese muller",
-     "intent": "I",
-     "volume": 590,
-     "kd": 20,
-     "source": "bank"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "velo electrique riese muller",
@@ -2192,21 +2184,21 @@
      "kd": 25
     },
     {
-     "keyword": "reparation velo autour de moi",
-     "volume": 1600,
-     "kd": 14,
-     "intent": "C"
+     "keyword": "mini pompe à vélo",
+     "intent": "C",
+     "volume": 720,
+     "kd": 10
     },
     {
-     "keyword": "reparateur velo",
-     "volume": 1900,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "réparation vélo à proximité",
-     "volume": 3600,
+     "keyword": "gonfleur pour velo",
+     "volume": 590,
      "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "gonfleur pneus velo",
+     "volume": 720,
+     "kd": 20,
      "intent": "C"
     }
    ],
@@ -2230,16 +2222,16 @@
      "kd": 25
     },
     {
-     "keyword": "réparateur de vélo",
-     "volume": 1300,
-     "kd": 22,
-     "intent": "C"
+     "keyword": "kit reparation velo",
+     "intent": "I",
+     "volume": 880,
+     "kd": 19
     },
     {
-     "keyword": "reparation velo electrique",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "C"
+     "keyword": "pompe à vélo electrique",
+     "intent": "I",
+     "volume": 590,
+     "kd": 6
     }
    ]
   },

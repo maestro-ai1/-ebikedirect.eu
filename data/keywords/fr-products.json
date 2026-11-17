@@ -1348,25 +1348,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1396,12 +1384,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -1424,25 +1406,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1472,12 +1442,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -1500,25 +1464,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1548,12 +1500,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -1576,25 +1522,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1624,12 +1558,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -1652,25 +1580,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1700,12 +1616,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -1728,25 +1638,13 @@
      "kd": 25
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "meilleur velo electrique pliable",
      "volume": 90,
      "kd": 20,
      "intent": "C"
@@ -1776,12 +1674,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 19
-    },
-    {
-     "keyword": "meilleur velo electrique pliable",
-     "volume": 90,
-     "kd": 20,
-     "intent": "C"
     }
    ]
   },
@@ -3502,12 +3394,6 @@
      "kd": 9
     },
     {
-     "keyword": "vtt electrique cube tout suspendu",
-     "volume": 110,
-     "kd": 11,
-     "intent": "T"
-    },
-    {
      "keyword": "velo electrique cube promo",
      "volume": 90,
      "kd": 11,
@@ -3576,12 +3462,6 @@
      "intent": "I",
      "volume": 90,
      "kd": 9
-    },
-    {
-     "keyword": "vtt electrique cube tout suspendu",
-     "volume": 110,
-     "kd": 11,
-     "intent": "T"
     },
     {
      "keyword": "velo electrique cube promo",
@@ -3658,12 +3538,6 @@
      "intent": "I",
      "volume": 140,
      "kd": 14
-    },
-    {
-     "keyword": "vtt electrique cube tout suspendu",
-     "volume": 110,
-     "kd": 11,
-     "intent": "T"
     },
     {
      "keyword": "velo electrique cube promo",
@@ -13332,9 +13206,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -13460,9 +13334,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -13536,9 +13410,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -13612,9 +13486,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -14220,9 +14094,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -14348,9 +14222,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -14576,9 +14450,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -14652,9 +14526,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -14847,12 +14721,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -17464,24 +17332,6 @@
    },
    "secondary": [
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
      "kd": 20,
@@ -17642,12 +17492,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -17771,24 +17615,6 @@
     "source": "name"
    },
    "secondary": [
-    {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
@@ -18080,24 +17906,6 @@
    },
    "secondary": [
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
-    {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
      "kd": 20,
@@ -18155,24 +17963,6 @@
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
@@ -18279,12 +18069,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -18462,12 +18246,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -18487,24 +18265,6 @@
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
@@ -18563,24 +18323,6 @@
     "source": "name"
    },
    "secondary": [
-    {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
@@ -18691,24 +18433,6 @@
     "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
-    },
     {
      "keyword": "vélo électrique pliant français",
      "volume": 90,
@@ -18934,9 +18658,9 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
+     "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
-     "kd": 23,
+     "kd": 10,
      "intent": "C"
     }
    ]
@@ -19646,12 +19370,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19719,12 +19437,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -19798,12 +19510,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -19871,12 +19577,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -19950,12 +19650,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20023,12 +19717,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -20151,12 +19839,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -20334,12 +20016,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20514,12 +20190,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20642,12 +20312,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -20715,12 +20379,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -21060,12 +20718,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21185,12 +20837,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -21316,12 +20962,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21389,12 +21029,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -21624,12 +21258,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21804,12 +21432,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -21877,12 +21499,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -21956,12 +21572,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -22029,12 +21639,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -22209,12 +21813,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -23622,22 +23220,16 @@
      "kd": 19
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
      "intent": "C"
     },
     {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "meilleur velo electrique pliable",
+     "volume": 90,
+     "kd": 20,
      "intent": "C"
-    },
-    {
-     "keyword": "velo electrique pliant feu vert",
-     "volume": 110,
-     "kd": 19,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -28848,12 +28440,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -28921,12 +28507,6 @@
      "keyword": "meilleur velo electrique ville",
      "volume": 110,
      "kd": 7,
-     "intent": "C"
-    },
-    {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
      "intent": "C"
     },
     {
@@ -29052,12 +28632,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -29180,12 +28754,6 @@
      "intent": "C"
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
@@ -29302,22 +28870,10 @@
      "kd": 22
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -29378,22 +28934,10 @@
      "kd": 22
     },
     {
-     "keyword": "vtc electrique comparatif",
-     "volume": 110,
-     "kd": 23,
-     "intent": "C"
-    },
-    {
      "keyword": "meilleur vtc électrique moins de 2000 euros",
      "volume": 110,
      "kd": 10,
      "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -29452,18 +28996,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -29730,18 +29262,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -29800,18 +29320,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30078,18 +29586,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30148,18 +29644,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30294,18 +29778,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30416,18 +29888,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30486,18 +29946,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -30868,18 +30316,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "meilleur vtc électrique moins de 2000 euros",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -31042,12 +30478,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -31262,12 +30692,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -31378,12 +30802,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -34202,12 +33620,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -34272,12 +33684,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -34342,12 +33748,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -36216,12 +35616,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -36604,12 +35998,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -36668,12 +36056,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -36732,12 +36114,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38180,12 +37556,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38250,12 +37620,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38448,12 +37812,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38576,12 +37934,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38646,12 +37998,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -38908,12 +38254,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -39310,12 +38650,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -39380,12 +38714,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -39794,12 +39122,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -39864,12 +39186,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40152,12 +39468,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40216,12 +39526,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40280,12 +39584,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40344,12 +39642,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40408,12 +39700,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40472,12 +39758,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40536,12 +39816,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40600,12 +39874,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -40664,12 +39932,6 @@
      "intent": "C",
      "volume": 90,
      "kd": 22
-    },
-    {
-     "keyword": "intersport vtc electrique",
-     "volume": 110,
-     "kd": 22,
-     "intent": "T"
     }
    ]
   },
@@ -46584,12 +45846,6 @@
      "kd": 14
     },
     {
-     "keyword": "vtt electrique cube tout suspendu",
-     "volume": 110,
-     "kd": 11,
-     "intent": "T"
-    },
-    {
      "keyword": "velo electrique cube promo",
      "volume": 90,
      "kd": 11,
@@ -46628,15 +45884,15 @@
      "kd": 16
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
+     "keyword": "vélo cube électrique femme",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
     },
     {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "velo electrique cube promo",
+     "volume": 90,
+     "kd": 11,
      "intent": "C"
     }
    ],
@@ -46666,10 +45922,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo cube électrique femme",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -46704,15 +45960,15 @@
      "kd": 16
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
+     "keyword": "vélo cube électrique femme",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
     },
     {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "velo electrique cube promo",
+     "volume": 90,
+     "kd": 11,
      "intent": "C"
     }
    ],
@@ -46742,10 +45998,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo cube électrique femme",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -46780,15 +46036,15 @@
      "kd": 16
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
+     "keyword": "vélo cube électrique femme",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
     },
     {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "velo electrique cube promo",
+     "volume": 90,
+     "kd": 11,
      "intent": "C"
     }
    ],
@@ -46818,10 +46074,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo cube électrique femme",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -46856,15 +46112,15 @@
      "kd": 16
     },
     {
-     "keyword": "velos electriques pliants comparatif",
-     "volume": 210,
-     "kd": 23,
-     "intent": "C"
+     "keyword": "vélo cube électrique femme",
+     "volume": 140,
+     "kd": 19,
+     "intent": "T"
     },
     {
-     "keyword": "velo electrique pliant 20 pouces",
-     "volume": 210,
-     "kd": 10,
+     "keyword": "velo electrique cube promo",
+     "volume": 90,
+     "kd": 11,
      "intent": "C"
     }
    ],
@@ -46894,10 +46150,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo cube électrique femme",
-     "volume": 140,
-     "kd": 19,
-     "intent": "T"
+     "keyword": "vélo électrique pliant français",
+     "volume": 90,
+     "kd": 20,
+     "intent": "C"
     }
    ]
   },
@@ -58922,27 +58178,8 @@
     "kd": null,
     "source": "name"
    },
-   "secondary": [
-    {
-     "keyword": "reparation de velo",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 18
-    },
-    {
-     "keyword": "magasin reparation velo",
-     "intent": "C",
-     "volume": 480,
-     "kd": 28
-    }
-   ],
+   "secondary": [],
    "faq": [
-    {
-     "keyword": "réparation velo",
-     "intent": "I",
-     "volume": 1600,
-     "kd": 15
-    },
     {
      "keyword": "kit reparation velo",
      "intent": "I",
@@ -59062,27 +58299,8 @@
     "kd": null,
     "source": "name"
    },
-   "secondary": [
-    {
-     "keyword": "reparation de velo",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 18
-    },
-    {
-     "keyword": "magasin reparation velo",
-     "intent": "C",
-     "volume": 480,
-     "kd": 28
-    }
-   ],
+   "secondary": [],
    "faq": [
-    {
-     "keyword": "réparation velo",
-     "intent": "I",
-     "volume": 1600,
-     "kd": 15
-    },
     {
      "keyword": "kit reparation velo",
      "intent": "I",

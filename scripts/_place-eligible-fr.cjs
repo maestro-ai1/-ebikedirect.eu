@@ -73,7 +73,9 @@ if (process.argv.includes('--products')) {
     if (bp) { const extra = t.filter((w) => w !== bp.key && !GENERIC.has(w) && !/^\d+$/.test(w)); cand = prods.filter(([, e]) => toks(e.brand).includes(bp.key) && extra.every((w) => ptoks(e).has(w))); if (extra.length && !cand.length) { x.why += ' | no product of that brand has that model word'; continue; } }
     else { const m = Object.entries(CATMAP).find(([u]) => cands(r.k, u)); if (m) cand = prods.filter(([, e]) => e.category === m[1]); }
     function cands(k, u) { const c = cats.find((q) => q.url === u); return c && c.re.test(k) && !(c.ex && c.ex.test(k)); }
-    const open = cand.filter(([, e]) => (e.faq || []).length < 5 || e.secondary.length < 5).slice(0, 40);
+    const CLS = { vtt: ['E-MTB'], vtc: ['E-City', 'E-Trekking'], ville: ['E-City', 'E-Trekking'], cargo: ['Cargo-E-Bike'], pliant: ['Falt-E-Bike'], pliable: ['Falt-E-Bike'], gravel: ['E-Gravel'], enfant: ['E-Kinder'], speed: ['Speed-Pedelec'], trekking: ['E-Trekking'] };
+    const clsOk = (e) => e.category === 'Zubehör' || !Object.entries(CLS).some(([w, cats]) => t.includes(w) && !cats.includes(e.category));
+    const open = cand.filter(([, e]) => clsOk(e) && ((e.faq || []).length < 5 || e.secondary.length < 5)).slice(0, 40);
     if (!open.length) { x.why += ' | no matching product has an open slot'; continue; }
     for (const [, e] of open) { e.faq = e.faq || []; if (e.secondary.length < 5 && (r.i === 'T' || r.i === 'C')) e.secondary.push(rec(r)); else e.faq.push(rec(r)); }
     usedP.add(nk(r.k)); x.to = 'PRODUCTS (' + open.length + ')'; x.why = 'page full; placed on matching products with an open slot'; moved++;
