@@ -20,7 +20,7 @@ module.exports = {
         { display: "Vélo électrique enfant 5 ans", url: '/velos-electriques/velo-electrique-enfant/', dePath: '/e-bikes/kinder-jugend', mapUrl: '/velos-electriques/velo-electrique-enfant/', name: 'Vélos électriques enfant', rel: '(enfant|junior|ado\\b|adolescent)', exclude: '(porte|cargo|si[èe]ge|nakamura)' },
         { display: "Vélo femme électrique", url: '/velos-electriques/velo-electrique-femme/', dePath: '/e-bikes/damen', mapUrl: '/velos-electriques/velo-electrique-femme/', name: 'Vélos électriques femme', rel: '(femme|dame|cadre bas)', exclude: '(nakamura|enfant)' },
         { display: "Vélo électrique pas cher homme", url: '/velos-electriques/velo-electrique-homme/', dePath: '/e-bikes/herren', mapUrl: '/velos-electriques/velo-electrique-homme/', name: 'Vélos électriques homme', rel: '\\bhomme\\b', exclude: '(nakamura|enfant)' },
-        { display: "Vélo électrique moteur centrale", url: '/velos-electriques/moteur-batterie/', dePath: '/e-bikes/motor-antrieb', mapUrl: '/velos-electriques/moteur-batterie/', name: 'Moteur et batterie', rel: '(moteur|autonomie|p[ée]dalier)', exclude: '(kit|conversion|roue arri|nakamura|trottinette|moto\\b)' },
+        { display: "Moteur de vélo électrique", url: '/velos-electriques/moteur-batterie/', dePath: '/e-bikes/motor-antrieb', mapUrl: '/velos-electriques/moteur-batterie/', name: 'Moteur et batterie', rel: '(moteur|autonomie|p[ée]dalier)', exclude: '(kit|conversion|roue arri|nakamura|trottinette|moto\\b)' },
       ]
     }
   }

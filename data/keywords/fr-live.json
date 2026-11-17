@@ -102,6 +102,12 @@
      "intent": "C",
      "volume": 210,
      "kd": 20
+    },
+    {
+     "keyword": "meilleur velo cargo electrique",
+     "intent": "C",
+     "volume": 140,
+     "kd": 11
     }
    ],
    "faq": [
@@ -116,6 +122,24 @@
      "intent": "I",
      "volume": 260,
      "kd": 17
+    },
+    {
+     "keyword": "vélo cargo non électrique",
+     "intent": "I",
+     "volume": 170,
+     "kd": 10
+    },
+    {
+     "keyword": "triporteur électrique professionnel",
+     "intent": "I",
+     "volume": 170,
+     "kd": 21
+    },
+    {
+     "keyword": "vélo triporteur électrique",
+     "intent": "I",
+     "volume": 140,
+     "kd": 11
     }
    ]
   },
@@ -157,10 +181,10 @@
      "kd": 6
     },
     {
-     "keyword": "vtc electrique promo",
-     "intent": "C",
-     "volume": 170,
-     "kd": 12
+     "keyword": "vélo électrique granville intersport",
+     "volume": 210,
+     "kd": 22,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -189,10 +213,10 @@
      "kd": 10
     },
     {
-     "keyword": "vélo électrique granville intersport",
-     "volume": 210,
-     "kd": 22,
-     "intent": "T"
+     "keyword": "vtc electrique tout suspendu",
+     "intent": "I",
+     "volume": 170,
+     "kd": 11
     }
    ]
   },
@@ -286,7 +310,20 @@
     "kd": 9
    },
    "secondary": [],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "vélo électrique 45 km/h",
+     "intent": "I",
+     "volume": 140,
+     "kd": 14
+    },
+    {
+     "keyword": "velo de course electrique 45 km/h",
+     "intent": "I",
+     "volume": 110,
+     "kd": 20
+    }
+   ]
   },
   {
    "display": "Vélo route assistance électrique",
@@ -377,7 +414,20 @@
     "volume": 210,
     "kd": 8
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "vtt électrique enfant",
+     "intent": "C",
+     "volume": 140,
+     "kd": 9
+    },
+    {
+     "keyword": "velo electrique enfant 9 ans",
+     "intent": "C",
+     "volume": 110,
+     "kd": 9
+    }
+   ],
    "faq": [
     {
      "keyword": "velo electrique pour enfant",
@@ -500,6 +550,18 @@
      "volume": 210,
      "kd": 19,
      "intent": "T"
+    },
+    {
+     "keyword": "vtt electrique homme pas cher",
+     "intent": "C",
+     "volume": 110,
+     "kd": 11
+    },
+    {
+     "keyword": "velo de route electrique homme",
+     "intent": "C",
+     "volume": 110,
+     "kd": 14
     }
    ],
    "faq": [
@@ -516,12 +578,6 @@
      "kd": 23
     },
     {
-     "keyword": "velo electrique vtc homme",
-     "intent": "I",
-     "volume": 260,
-     "kd": 16
-    },
-    {
      "keyword": "vtt électrique homme tout suspendu",
      "intent": "I",
      "volume": 260,
@@ -532,27 +588,51 @@
      "intent": "I",
      "volume": 210,
      "kd": 22
+    },
+    {
+     "keyword": "velo electrique ville homme",
+     "intent": "I",
+     "volume": 170,
+     "kd": 20
     }
    ]
   },
   {
-   "display": "Vélo électrique moteur centrale",
+   "display": "Moteur de vélo électrique",
    "url": "/velos-electriques/moteur-batterie/",
    "dePath": "/e-bikes/motor-antrieb",
    "name": "Moteur et batterie",
    "type": "category",
    "primary": {
-    "keyword": "velo electrique moteur centrale",
-    "intent": "T",
-    "volume": 320,
-    "kd": 11
+    "keyword": "moteur de velo electrique",
+    "volume": 170,
+    "kd": 14,
+    "intent": "T"
    },
    "secondary": [
+    {
+     "keyword": "velo electrique moteur centrale",
+     "intent": "T",
+     "volume": 320,
+     "kd": 11
+    },
     {
      "keyword": "kayak moteur électrique",
      "intent": "T",
      "volume": 320,
      "kd": 6
+    },
+    {
+     "keyword": "velo electrique grand autonomie",
+     "intent": "C",
+     "volume": 170,
+     "kd": 10
+    },
+    {
+     "keyword": "moteur électrique pour paddle",
+     "intent": "T",
+     "volume": 170,
+     "kd": 21
     },
     {
      "keyword": "scooter electrique autonomie",
@@ -627,6 +707,12 @@
    },
    "secondary": [
     {
+     "keyword": "vtt bergamont electrique",
+     "intent": "T",
+     "volume": 110,
+     "kd": 12
+    },
+    {
      "keyword": "bergamont e ville",
      "intent": "T",
      "volume": 20,
@@ -636,37 +722,44 @@
    "faq": []
   },
   {
-   "display": "Brompton vélo électrique",
+   "display": "Vélo Brompton électrique",
    "url": "/marques/brompton/",
    "dePath": "/marken/brompton",
    "name": "Brompton",
    "type": "brand",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "brompton velo electrique",
+    "keyword": "vélo brompton électrique",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 140,
+    "kd": 25,
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
   },
   {
-   "display": "Cannondale vélo électrique",
+   "display": "Cannondale électrique",
    "url": "/marques/cannondale/",
    "dePath": "/marken/cannondale",
    "name": "Cannondale",
    "type": "brand",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "cannondale velo electrique",
+    "keyword": "cannondale electrique",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 170,
+    "kd": 27,
+    "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "cannondale vtt électrique",
+     "intent": "T",
+     "volume": 110,
+     "kd": 15
+    }
+   ],
    "faq": []
   },
   {
@@ -738,41 +831,61 @@
      "intent": "C",
      "volume": 210,
      "kd": 18
+    },
+    {
+     "keyword": "vtt électrique cube tout suspendu",
+     "intent": "I",
+     "volume": 170,
+     "kd": 12
+    },
+    {
+     "keyword": "vélo cube électrique femme",
+     "intent": "T",
+     "volume": 140,
+     "kd": 19
     }
    ]
   },
   {
-   "display": "Flyer vélo électrique",
+   "display": "Vélo Flyer électrique",
    "url": "/marques/flyer/",
    "dePath": "/marken/flyer",
    "name": "Flyer",
    "type": "brand",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "flyer velo electrique",
-    "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "keyword": "velo flyer electrique",
+    "intent": "I",
+    "volume": 170,
+    "kd": 12,
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
   },
   {
-   "display": "VTT électrique Focus",
+   "display": "Focus bike",
    "url": "/marques/focus/",
    "dePath": "/marken/focus",
    "name": "Focus",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "vtt electrique focus",
-    "intent": "I",
-    "volume": 260,
-    "kd": 14,
+    "keyword": "focus bike",
+    "intent": "T",
+    "volume": 1300,
+    "kd": 27,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "vtt electrique focus",
+     "intent": "I",
+     "volume": 260,
+     "kd": 14,
+     "source": "bank"
+    }
+   ],
    "faq": []
   },
   {
@@ -823,19 +936,44 @@
     "kd": 15,
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "velo electrique giant femme",
-     "intent": "I",
-     "volume": 320,
-     "kd": 12
+     "keyword": "vtt électrique giant homme",
+     "intent": "T",
+     "volume": 170,
+     "kd": 16
     },
+    {
+     "keyword": "velo giant electrique femme",
+     "intent": "T",
+     "volume": 170,
+     "kd": 22
+    },
+    {
+     "keyword": "batterie pour velo electrique giant",
+     "intent": "T",
+     "volume": 140,
+     "kd": 13
+    },
+    {
+     "keyword": "velo electrique giant vtt",
+     "intent": "T",
+     "volume": 110,
+     "kd": 19
+    }
+   ],
+   "faq": [
     {
      "keyword": "vtc giant electrique",
      "intent": "I",
      "volume": 320,
      "kd": 14
+    },
+    {
+     "keyword": "vélo électrique giant homme",
+     "intent": "I",
+     "volume": 140,
+     "kd": 5
     }
    ]
   },
@@ -904,20 +1042,27 @@
    "faq": []
   },
   {
-   "display": "VTT KTM électrique",
+   "display": "KTM électrique",
    "url": "/marques/ktm/",
    "dePath": "/marken/ktm",
    "name": "KTM",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "vtt ktm électrique",
+    "keyword": "ktm electrique",
     "intent": "T",
-    "volume": 260,
-    "kd": 5,
+    "volume": 590,
+    "kd": 18,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "vtt ktm électrique",
+     "intent": "T",
+     "volume": 260,
+     "kd": 5
+    }
+   ],
    "faq": [
     {
      "keyword": "ktm vélos électriques",
@@ -968,18 +1113,18 @@
    "faq": []
   },
   {
-   "display": "Liv vélo électrique",
+   "display": "Vélo électrique Liv",
    "url": "/marques/liv/",
    "dePath": "/marken/liv",
    "name": "Liv",
    "type": "brand",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "liv velo electrique",
+    "keyword": "velo electrique liv",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 140,
+    "kd": 7,
+    "source": "bank"
    },
    "secondary": [],
    "faq": []
@@ -1002,20 +1147,28 @@
    "faq": []
   },
   {
-   "display": "Vélo Orbea électrique",
+   "display": "VTT Orbea",
    "url": "/marques/orbea/",
    "dePath": "/marken/orbea",
    "name": "Orbea",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "velo orbea electrique",
-    "intent": "I",
-    "volume": 210,
-    "kd": 9,
+    "keyword": "vtt orbea",
+    "intent": "T",
+    "volume": 2900,
+    "kd": 20,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "velo orbea electrique",
+     "intent": "I",
+     "volume": 210,
+     "kd": 9,
+     "source": "bank"
+    }
+   ],
    "faq": []
   },
   {
@@ -1053,21 +1206,36 @@
    "faq": []
   },
   {
-   "display": "Riese & Müller vélo électrique",
+   "display": "Riese & Müller",
    "url": "/marques/riese-und-mueller/",
    "dePath": "/marken/riese-und-mueller",
    "name": "Riese & Müller",
    "type": "brand",
-   "source": "name",
+   "source": "bank",
    "primary": {
-    "keyword": "riese muller velo electrique",
+    "keyword": "riese muller",
     "intent": "T",
-    "volume": 0,
-    "kd": null,
-    "source": "name"
+    "volume": 2400,
+    "kd": 23,
+    "source": "bank"
    },
-   "secondary": [],
-   "faq": []
+   "secondary": [
+    {
+     "keyword": "velo electrique riese muller",
+     "intent": "N",
+     "volume": 140,
+     "kd": 18,
+     "source": "bank"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "velo electrique riese et muller",
+     "intent": "I",
+     "volume": 110,
+     "kd": 20
+    }
+   ]
   },
   {
    "display": "Scott VTT électrique",
@@ -1089,9 +1257,46 @@
      "intent": "T",
      "volume": 880,
      "kd": 12
+    },
+    {
+     "keyword": "vélo électrique scott homme",
+     "intent": "T",
+     "volume": 140,
+     "kd": 11
+    },
+    {
+     "keyword": "velo electrique scott pour femme",
+     "intent": "T",
+     "volume": 110,
+     "kd": 12
+    },
+    {
+     "keyword": "velos electrique scott",
+     "intent": "T",
+     "volume": 110,
+     "kd": 13
+    },
+    {
+     "keyword": "e bike scott",
+     "intent": "T",
+     "volume": 110,
+     "kd": 18
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "scott electrique",
+     "intent": "N",
+     "volume": 170,
+     "kd": 19
+    },
+    {
+     "keyword": "velo electrique femme scott",
+     "intent": "I",
+     "volume": 140,
+     "kd": 13
+    }
+   ]
   },
   {
    "display": "VTT électriques Specialized",
@@ -1119,9 +1324,22 @@
      "intent": "T",
      "volume": 210,
      "kd": 14
+    },
+    {
+     "keyword": "gravel electrique specialized",
+     "intent": "T",
+     "volume": 110,
+     "kd": 8
     }
    ],
-   "faq": []
+   "faq": [
+    {
+     "keyword": "specialized e bike",
+     "intent": "N",
+     "volume": 110,
+     "kd": 10
+    }
+   ]
   },
   {
    "display": "Stromer vélo électrique",
@@ -1171,7 +1389,14 @@
     "kd": 20,
     "source": "bank"
    },
-   "secondary": [],
+   "secondary": [
+    {
+     "keyword": "velo electrique trek homme",
+     "intent": "T",
+     "volume": 110,
+     "kd": 13
+    }
+   ],
    "faq": []
   },
   {
@@ -1229,19 +1454,38 @@
     "kd": 19,
     "source": "bank"
    },
-   "secondary": [],
-   "faq": [
+   "secondary": [
     {
-     "keyword": "batterie bosch velo electrique",
-     "intent": "I",
-     "volume": 320,
-     "kd": 10
+     "keyword": "batterie vélo électrique bosch",
+     "intent": "C",
+     "volume": 170,
+     "kd": 13
     },
+    {
+     "keyword": "velo electrique bosch prix",
+     "intent": "T",
+     "volume": 140,
+     "kd": 19
+    },
+    {
+     "keyword": "vélo électrique bosch femme",
+     "intent": "T",
+     "volume": 110,
+     "kd": 10
+    }
+   ],
+   "faq": [
     {
      "keyword": "vélo bosch électrique",
      "intent": "I",
      "volume": 260,
      "kd": 14
+    },
+    {
+     "keyword": "vélos électriques avec moteur bosch",
+     "volume": 140,
+     "kd": 11,
+     "intent": "C"
     }
    ]
   },
@@ -1301,6 +1545,12 @@
      "kd": 19
     },
     {
+     "keyword": "antivols velo electrique",
+     "intent": "C",
+     "volume": 880,
+     "kd": 24
+    },
+    {
      "keyword": "meilleur antivol vélo électrique",
      "intent": "C",
      "volume": 390,
@@ -1317,12 +1567,6 @@
      "intent": "T",
      "volume": 20,
      "kd": 21
-    },
-    {
-     "keyword": "antivol u velo pas cher",
-     "intent": "T",
-     "volume": 20,
-     "kd": 17
     }
    ],
    "faq": [
@@ -1345,16 +1589,16 @@
      "kd": 20
     },
     {
+     "keyword": "antivol u velo pas cher",
+     "intent": "T",
+     "volume": 20,
+     "kd": 17
+    },
+    {
      "keyword": "antivol velo pas cher",
      "intent": "I",
      "volume": 20,
      "kd": 18
-    },
-    {
-     "keyword": "cadenas velo pas cher",
-     "intent": "C",
-     "volume": 10,
-     "kd": 27
     }
    ]
   },
@@ -1373,6 +1617,12 @@
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "casque velo electrique femme",
+     "intent": "C",
+     "volume": 110,
+     "kd": 15
+    },
     {
      "keyword": "acheter casque velo",
      "intent": "T",
@@ -1414,20 +1664,26 @@
    ]
   },
   {
-   "display": "Acheter panier vélo",
+   "display": "Panier avant vélo électrique",
    "url": "/accessoires/sacoches-paniers/",
    "dePath": "/zubehoer/taschen-koerbe",
    "name": "Sacoches et paniers",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "acheter panier velo",
+    "keyword": "panier avant velo electrique",
     "intent": "T",
-    "volume": 20,
+    "volume": 140,
     "kd": 8,
     "source": "bank"
    },
    "secondary": [
+    {
+     "keyword": "acheter panier velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 8
+    },
     {
      "keyword": "acheter sacoche velo",
      "intent": "T",
@@ -1508,10 +1764,10 @@
      "kd": 6
     },
     {
-     "keyword": "remorque velo enfant pas cher",
-     "intent": "C",
-     "volume": 10,
-     "kd": 6
+     "keyword": "remorque électrique",
+     "volume": 110,
+     "kd": 17,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -1888,10 +2144,10 @@
      "kd": 12
     },
     {
-     "keyword": "marques velo electrique",
+     "keyword": "meilleures marques de velo electrique",
      "intent": "C",
      "volume": 140,
-     "kd": 13
+     "kd": 16
     }
    ],
    "faq": [
@@ -1902,8 +2158,8 @@
      "kd": 6
     },
     {
-     "keyword": "meilleures marques de velo electrique",
-     "intent": "C",
+     "keyword": "marques velo electrique",
+     "intent": "I",
      "volume": 140,
      "kd": 11
     },
@@ -1911,13 +2167,13 @@
      "keyword": "meilleure marque de vélo électrique",
      "intent": "C",
      "volume": 140,
-     "kd": 11
+     "kd": 12
     },
     {
      "keyword": "marques velos electriques",
      "intent": "C",
      "volume": 140,
-     "kd": 12
+     "kd": 13
     },
     {
      "keyword": "marques de velo electrique",

@@ -16,6 +16,14 @@
    "tVolume": 0,
    "ratio": null
   },
+  "/fr/marques/flyer": {
+   "primary": "velo flyer electrique",
+   "intent": "I",
+   "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/fr/accessoires/supports-telephone": {
    "primary": "support telephone velo",
    "intent": "I",
@@ -98,14 +106,6 @@
   }
  },
  "rejected": {
-  "/fr/marques/focus": {
-   "primary": "vtt electrique focus",
-   "intent": "I",
-   "volume": 260,
-   "bestT": "focus bike",
-   "tVolume": 1300,
-   "ratio": 0.2
-  },
   "/fr/marques/gazelle": {
    "primary": "velo electrique gazelle",
    "intent": "N",
@@ -113,14 +113,6 @@
    "bestT": "adidas gazelle femme vertes",
    "tVolume": 590,
    "ratio": 1
-  },
-  "/fr/marques/orbea": {
-   "primary": "velo orbea electrique",
-   "intent": "I",
-   "volume": 210,
-   "bestT": "vtt orbea",
-   "tVolume": 2900,
-   "ratio": 0.1
   }
  }
 }
