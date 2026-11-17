@@ -2127,6 +2127,183 @@
    ]
   },
   {
+   "display": "Bidon pour vélo",
+   "url": "/accessoires/porte-bidons-gourdes/",
+   "dePath": "/zubehoer/trinkflaschen-flaschenhalter",
+   "name": "Gourdes et porte-bidons",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "bidon pour velo",
+    "intent": "T",
+    "volume": 720,
+    "kd": 17,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "porte gourde velo",
+     "intent": "C",
+     "volume": 1000,
+     "kd": 16
+    },
+    {
+     "keyword": "gourde pour vélo",
+     "intent": "C",
+     "volume": 720,
+     "kd": 15
+    },
+    {
+     "keyword": "porte bidon pour velo",
+     "intent": "T",
+     "volume": 720,
+     "kd": 14
+    },
+    {
+     "keyword": "bidon vélo",
+     "intent": "C",
+     "volume": 480,
+     "kd": 15
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "gourde velo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 13
+    },
+    {
+     "keyword": "gourde isotherme velo",
+     "volume": 480,
+     "kd": 16,
+     "intent": "C"
+    }
+   ]
+  },
+  {
+   "display": "Pédale vélo",
+   "url": "/accessoires/pedales/",
+   "dePath": "/zubehoer/pedale",
+   "name": "Pédales",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "pédale velo",
+    "intent": "T",
+    "volume": 480,
+    "kd": 27,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "pédales vélo",
+     "intent": "T",
+     "volume": 480,
+     "kd": 19
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pedales vtt",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 9
+    },
+    {
+     "keyword": "pédale automatique pour vtt",
+     "intent": "I",
+     "volume": 480,
+     "kd": 15
+    },
+    {
+     "keyword": "vélo électrique sans pédale",
+     "volume": 210,
+     "kd": 8,
+     "intent": "T"
+    }
+   ]
+  },
+  {
+   "display": "Pompe vélo",
+   "url": "/accessoires/pompes-gonfleurs/",
+   "dePath": "/zubehoer/luftpumpen-inflatoren",
+   "name": "Pompes et gonfleurs",
+   "type": "accessory",
+   "source": "bank",
+   "primary": {
+    "keyword": "pompe velo",
+    "intent": "C",
+    "volume": 2900,
+    "kd": 28,
+    "source": "bank"
+   },
+   "secondary": [
+    {
+     "keyword": "pompe à vélos",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "gonfleur pneus velo",
+     "intent": "C",
+     "volume": 720,
+     "kd": 20
+    },
+    {
+     "keyword": "mini pompe à vélo",
+     "intent": "C",
+     "volume": 720,
+     "kd": 10
+    },
+    {
+     "keyword": "gonfleur pour velo",
+     "intent": "C",
+     "volume": 590,
+     "kd": 17
+    },
+    {
+     "keyword": "gonfleur pneu velo",
+     "volume": 480,
+     "kd": 24,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pompe velo electrique",
+     "intent": "I",
+     "volume": 1900,
+     "kd": 9
+    },
+    {
+     "keyword": "pompes pour velos",
+     "intent": "I",
+     "volume": 1600,
+     "kd": 16
+    },
+    {
+     "keyword": "gonfleur electrique pour velo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 13
+    },
+    {
+     "keyword": "pompe a vélo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 25
+    },
+    {
+     "keyword": "gonfleur vélo électrique",
+     "intent": "I",
+     "volume": 880,
+     "kd": 13
+    }
+   ]
+  },
+  {
    "display": "GPS vélo",
    "url": "/accessoires/gps-velo/",
    "dePath": "/zubehoer/gps-fahrradcomputer",
@@ -2237,81 +2414,57 @@
    ]
   },
   {
-   "display": "Acheter pompe a vélo",
+   "display": "Kit reparation vélo",
    "url": "/accessoires/outils-entretien/",
    "dePath": "/zubehoer/werkzeug-pflege",
    "name": "Outils et entretien",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "acheter pompe a velo",
-    "intent": "T",
-    "volume": 20,
-    "kd": 16,
+    "keyword": "kit reparation velo",
+    "intent": "I",
+    "volume": 880,
+    "kd": 19,
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "pompe velo",
-     "intent": "C",
-     "volume": 2900,
-     "kd": 28
-    },
-    {
-     "keyword": "pompe à vélos",
-     "intent": "C",
-     "volume": 1600,
-     "kd": 25
-    },
-    {
-     "keyword": "mini pompe à vélo",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
-    },
-    {
-     "keyword": "gonfleur pour velo",
-     "volume": 590,
-     "kd": 17,
-     "intent": "C"
-    },
-    {
-     "keyword": "gonfleur pneus velo",
-     "volume": 720,
-     "kd": 20,
+     "keyword": "reparation batterie velo",
+     "volume": 390,
+     "kd": 13,
      "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "pompe velo electrique",
+     "keyword": "huile chaine velo",
      "intent": "I",
-     "volume": 1900,
-     "kd": 9
+     "volume": 480,
+     "kd": 13
     },
     {
-     "keyword": "pompes pour velos",
+     "keyword": "outil velo",
      "intent": "I",
-     "volume": 1600,
+     "volume": 390,
+     "kd": 15
+    },
+    {
+     "keyword": "nettoyant velo",
+     "intent": "I",
+     "volume": 320,
+     "kd": 14
+    },
+    {
+     "keyword": "lubrifiant velo",
+     "intent": "I",
+     "volume": 210,
      "kd": 16
     },
     {
-     "keyword": "pompe a vélo",
+     "keyword": "multi outils velo",
      "intent": "I",
-     "volume": 1000,
-     "kd": 25
-    },
-    {
-     "keyword": "kit reparation velo",
-     "intent": "I",
-     "volume": 880,
-     "kd": 19
-    },
-    {
-     "keyword": "pompe à vélo electrique",
-     "intent": "I",
-     "volume": 590,
-     "kd": 6
+     "volume": 140,
+     "kd": 9
     }
    ]
   },

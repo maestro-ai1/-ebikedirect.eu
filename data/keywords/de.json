@@ -5822,6 +5822,48 @@
    ]
   },
   {
+   "url": "/zubehoer/trinkflaschen-flaschenhalter/",
+   "type": "accessory",
+   "name": "Trinkflaschen und Flaschenhalter",
+   "primary": {
+    "keyword": "trinkflaschen und flaschenhalter",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/zubehoer/pedale/",
+   "type": "accessory",
+   "name": "Pedale",
+   "primary": {
+    "keyword": "pedale kaufen",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
+   "url": "/zubehoer/luftpumpen-inflatoren/",
+   "type": "accessory",
+   "name": "Luftpumpen und Inflatoren",
+   "primary": {
+    "keyword": "luftpumpen und inflatoren",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  {
    "url": "/zubehoer/werkzeug-pflege/",
    "type": "accessory",
    "name": "Werkzeug & Pflege",

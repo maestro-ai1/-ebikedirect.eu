@@ -40,6 +40,14 @@
    "tVolume": 1900,
    "ratio": 2.3
   },
+  "/fr/accessoires/pompes-gonfleurs": {
+   "primary": "pompe velo",
+   "intent": "C",
+   "volume": 2900,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/fr/accessoires/gps-velo": {
    "primary": "gps velo",
    "intent": "C",
@@ -52,6 +60,14 @@
    "primary": "support telephone velo",
    "intent": "I",
    "volume": 6600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/accessoires/outils-entretien": {
+   "primary": "kit reparation velo",
+   "intent": "I",
+   "volume": 880,
    "bestT": null,
    "tVolume": 0,
    "ratio": null

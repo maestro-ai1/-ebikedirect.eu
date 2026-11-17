@@ -57133,16 +57133,16 @@
    },
    "secondary": [
     {
-     "keyword": "pompe velo",
-     "intent": "C",
-     "volume": 2900,
-     "kd": 28
-    },
-    {
      "keyword": "pompe à vélos",
      "intent": "C",
      "volume": 1600,
      "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
     },
     {
      "keyword": "pompe a velo pas cher",
@@ -58094,16 +58094,16 @@
    },
    "secondary": [
     {
-     "keyword": "pompe velo",
-     "intent": "C",
-     "volume": 2900,
-     "kd": 28
-    },
-    {
      "keyword": "pompe à vélos",
      "intent": "C",
      "volume": 1600,
      "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
     },
     {
      "keyword": "pompe a velo pas cher",
@@ -58180,12 +58180,6 @@
    },
    "secondary": [],
    "faq": [
-    {
-     "keyword": "kit reparation velo",
-     "intent": "I",
-     "volume": 880,
-     "kd": 19
-    },
     {
      "keyword": "kit crevaison velo",
      "intent": "I",
@@ -58301,12 +58295,6 @@
    },
    "secondary": [],
    "faq": [
-    {
-     "keyword": "kit reparation velo",
-     "intent": "I",
-     "volume": 880,
-     "kd": 19
-    },
     {
      "keyword": "kit crevaison velo",
      "intent": "I",
@@ -58554,6 +58542,432 @@
    },
    "secondary": [],
    "faq": []
+  },
+  "muc-off-fidlock-twist-trinkflasche-600-ml-mit-halter": {
+   "name": "Muc-Off x Fidlock Twist Gourde 600 ml avec support",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off x fidlock twist gourde 600 ml avec support",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "support smartphone velo",
+     "intent": "I",
+     "volume": 720,
+     "kd": 14
+    },
+    {
+     "keyword": "support telephone velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 15
+    }
+   ]
+  },
+  "muc-off-fidlock-twist-trinkflasche-450-ml-mit-halter": {
+   "name": "Muc-Off x Fidlock Twist Gourde 450 ml avec support",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off x fidlock twist gourde 450 ml avec support",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "support smartphone velo",
+     "intent": "I",
+     "volume": 720,
+     "kd": 14
+    },
+    {
+     "keyword": "support telephone velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 15
+    }
+   ]
+  },
+  "muc-off-elite-fly-trinkflasche": {
+   "name": "Muc-Off x Elite Fly Gourde",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off x elite fly gourde",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-tool-bottle-werkzeugflasche": {
+   "name": "Muc-Off Tool Bottle bidon à outils",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off tool bottle bidon à outils",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-bc2-flaschenhalter": {
+   "name": "Crankbrothers BC2 Porte-bidon",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers bc2 porte-bidon",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-stamp-1-gen-2-large-flatpedale": {
+   "name": "Crankbrothers Stamp 1 Gen 2 Large Pédales plates",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers stamp 1 gen 2 large pédales plates",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-stamp-7-large-flatpedale": {
+   "name": "Crankbrothers Stamp 7 Large Pédales plates",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers stamp 7 large pédales plates",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-mallet-enduro-klickpedale": {
+   "name": "Crankbrothers Mallet Enduro Pédales automatiques",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers mallet enduro pédales automatiques",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-eggbeater-3-klickpedale": {
+   "name": "Crankbrothers Eggbeater 3 Pédales automatiques",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers eggbeater 3 pédales automatiques",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-double-shot-2-hybridpedale": {
+   "name": "Crankbrothers Double Shot 2 Pédales hybrides",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers double shot 2 pédales hybrides",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-elektrischer-mini-inflator-pro": {
+   "name": "Muc-Off AirMach Mini gonfleur électrique Pro",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off airmach mini gonfleur électrique pro",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-elektrischer-inflator-pro-max": {
+   "name": "Muc-Off AirMach Gonfleur électrique Pro Max",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off airmach gonfleur électrique pro max",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-carbon-handpumpe": {
+   "name": "Muc-Off AirMach Pompe à main carbone",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off airmach pompe à main carbone",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "pompe à vélos",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    },
+    {
+     "keyword": "pompe a velo pas cher",
+     "intent": "C",
+     "volume": 20,
+     "kd": 18
+    },
+    {
+     "keyword": "pompe velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 20
+    },
+    {
+     "keyword": "pompe a velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pompe a vélo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 25
+    },
+    {
+     "keyword": "pompe velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 7
+    }
+   ]
+  },
+  "muc-off-airmach-mini-handpumpe": {
+   "name": "Muc-Off AirMach Mini-pompe à main",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter muc-off airmach mini-pompe à main",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "pompe à vélos",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    },
+    {
+     "keyword": "pompe a velo pas cher",
+     "intent": "C",
+     "volume": 20,
+     "kd": 18
+    },
+    {
+     "keyword": "pompe velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 20
+    },
+    {
+     "keyword": "pompe a velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pompe a vélo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 25
+    },
+    {
+     "keyword": "pompe velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 7
+    }
+   ]
+  },
+  "crankbrothers-klic-hv-handpumpe-mit-pluggingtool": {
+   "name": "Crankbrothers Klic HV Pompe à main avec kit de mèches",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers klic hv pompe à main avec kit de mèches",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "pompe à vélos",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    },
+    {
+     "keyword": "pompe a velo pas cher",
+     "intent": "C",
+     "volume": 20,
+     "kd": 18
+    },
+    {
+     "keyword": "pompe velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 20
+    },
+    {
+     "keyword": "pompe a velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pompe a vélo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 25
+    },
+    {
+     "keyword": "pompe velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 7
+    }
+   ]
+  },
+  "crankbrothers-klic-standpumpe-analog": {
+   "name": "Crankbrothers Klic Pompe à pied analogique",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter crankbrothers klic pompe à pied analogique",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "pompe à vélos",
+     "intent": "C",
+     "volume": 1600,
+     "kd": 25
+    },
+    {
+     "keyword": "acheter pompe a velo",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    },
+    {
+     "keyword": "pompe a velo pas cher",
+     "intent": "C",
+     "volume": 20,
+     "kd": 18
+    },
+    {
+     "keyword": "pompe velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 20
+    },
+    {
+     "keyword": "pompe a velo prix",
+     "intent": "T",
+     "volume": 20,
+     "kd": 16
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "pompe a vélo",
+     "intent": "I",
+     "volume": 1000,
+     "kd": 25
+    },
+    {
+     "keyword": "pompe velo pas cher",
+     "intent": "I",
+     "volume": 20,
+     "kd": 7
+    }
+   ]
   }
  }
 }

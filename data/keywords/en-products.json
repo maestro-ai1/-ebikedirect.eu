@@ -64665,12 +64665,6 @@
      "intent": "T",
      "volume": 20,
      "kd": 15
-    },
-    {
-     "keyword": "bike degreaser uk",
-     "intent": "T",
-     "volume": 20,
-     "kd": 5
     }
    ]
   },
@@ -64741,12 +64735,6 @@
      "intent": "T",
      "volume": 20,
      "kd": 15
-    },
-    {
-     "keyword": "bike degreaser uk",
-     "intent": "T",
-     "volume": 20,
-     "kd": 5
     }
    ]
   },
@@ -64817,12 +64805,6 @@
      "intent": "T",
      "volume": 20,
      "kd": 15
-    },
-    {
-     "keyword": "bike degreaser uk",
-     "intent": "T",
-     "volume": 20,
-     "kd": 5
     }
    ]
   },
@@ -64893,12 +64875,6 @@
      "intent": "T",
      "volume": 20,
      "kd": 15
-    },
-    {
-     "keyword": "bike degreaser uk",
-     "intent": "T",
-     "volume": 20,
-     "kd": 5
     }
    ]
   },
@@ -65424,6 +65400,230 @@
    "category": "Zubehör",
    "primary": {
     "keyword": "buy wahoo elemnt bolt 3 gps bike computer",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-fidlock-twist-trinkflasche-600-ml-mit-halter": {
+   "name": "Muc-Off x Fidlock Twist Water bottle 600 ml with mount",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off x fidlock twist water bottle 600 ml with mount",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-fidlock-twist-trinkflasche-450-ml-mit-halter": {
+   "name": "Muc-Off x Fidlock Twist Water bottle 450 ml with mount",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off x fidlock twist water bottle 450 ml with mount",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-elite-fly-trinkflasche": {
+   "name": "Muc-Off x Elite Fly Water bottle",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off x elite fly water bottle",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-tool-bottle-werkzeugflasche": {
+   "name": "Muc-Off Tool Bottle tool bottle",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off tool bottle tool bottle",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-bc2-flaschenhalter": {
+   "name": "Crankbrothers BC2 Bottle cage",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers bc2 bottle cage",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-stamp-1-gen-2-large-flatpedale": {
+   "name": "Crankbrothers Stamp 1 Gen 2 Large Flat pedals",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers stamp 1 gen 2 large flat pedals",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-stamp-7-large-flatpedale": {
+   "name": "Crankbrothers Stamp 7 Large Flat pedals",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers stamp 7 large flat pedals",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-mallet-enduro-klickpedale": {
+   "name": "Crankbrothers Mallet Enduro Clip-in pedals",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers mallet enduro clip-in pedals",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-eggbeater-3-klickpedale": {
+   "name": "Crankbrothers Eggbeater 3 Clip-in pedals",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers eggbeater 3 clip-in pedals",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-double-shot-2-hybridpedale": {
+   "name": "Crankbrothers Double Shot 2 Hybrid pedals",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers double shot 2 hybrid pedals",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-elektrischer-mini-inflator-pro": {
+   "name": "Muc-Off AirMach Electric mini inflator Pro",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off airmach electric mini inflator pro",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-elektrischer-inflator-pro-max": {
+   "name": "Muc-Off AirMach Electric inflator Pro Max",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off airmach electric inflator pro max",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-carbon-handpumpe": {
+   "name": "Muc-Off AirMach Carbon hand pump",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off airmach carbon hand pump",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "muc-off-airmach-mini-handpumpe": {
+   "name": "Muc-Off AirMach Mini hand pump",
+   "brand": "Muc-Off",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy muc-off airmach mini hand pump",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-klic-hv-handpumpe-mit-pluggingtool": {
+   "name": "Crankbrothers Klic HV Hand pump with plug tool",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers klic hv hand pump with plug tool",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "crankbrothers-klic-standpumpe-analog": {
+   "name": "Crankbrothers Klic Analog floor pump",
+   "brand": "Crankbrothers",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy crankbrothers klic analog floor pump",
     "intent": "T",
     "volume": 0,
     "kd": null,

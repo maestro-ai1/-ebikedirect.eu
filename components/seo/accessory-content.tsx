@@ -40,6 +40,36 @@ const GROUPS: Record<string, { label: string; path: string; guide: string[]; poi
     points: ['Bedienung mit Tasten oder Touchdisplay passend zu Handschuhen und Wetter wählen', 'Akkulaufzeit und Kartenfunktionen in den Herstellerangaben vergleichen', 'Vorhandene Sensoren und die Lenkerhalterung auf Kompatibilität prüfen'],
     blog: { href: '/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized', label: 'E-Bike Reichweite: Guide für Bosch und Shimano' }
   },
+  'trinkflaschen-flaschenhalter': {
+    label: 'Trinkflaschen und Flaschenhalter',
+    path: '/zubehoer/trinkflaschen-flaschenhalter/',
+    guide: [
+      'Trinkflasche und Halterung gehören zur Grundausstattung für jede Tour. Es gibt Flaschen für den klassischen Flaschenhalter am Rahmen und Systeme wie Fidlock Twist, bei denen die Flasche über eine Basis am Rad einrastet und ohne Halter auskommt.',
+      'Beim Kauf zählen der Platz im Rahmendreieck, der Flascheninhalt und die Frage, ob sich eine Basis am Rad befestigen lässt. Bei E-Bikes mit Akku am Unterrohr kann der Platz für einen Flaschenhalter knapp sein, dann bietet sich ein System mit Basis an einer anderen Stelle des Rahmens an.'
+    ],
+    points: ['Platz im Rahmendreieck und freie Schraubaufnahmen prüfen', 'Flascheninhalt zur Tourlänge wählen', 'Flaschen mit Systemverschluss brauchen die passende Basis'],
+    blog: { href: '/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized', label: 'E-Bike Reichweite: Guide für Bosch und Shimano' }
+  },
+  pedale: {
+    label: 'Pedale',
+    path: '/zubehoer/pedale/',
+    guide: [
+      'Pedale bestimmen den Kontakt zwischen Fuß und Rad. Flatpedale sind Plattformpedale ohne Befestigung am Schuh, Klickpedale halten den Schuh über eine Platte (Cleat) am Pedal, Hybridpedale bieten beide Varianten in einem Pedal.',
+      'Beim Kauf zählen die Pedalgröße zur Schuhgröße, die Art der Befestigung und ob Cleats nötig sind. Das Pedalgewinde muss zur Kurbel passen, und bei E-Bikes sollten Sie vor dem Tausch den Platz zwischen Pedal und Kurbel oder Motorgehäuse prüfen.'
+    ],
+    points: ['Pedalgröße zur Schuhgröße wählen', 'Klickpedale brauchen passende Schuhe mit Cleats', 'Gewinde und freien Platz an der Kurbel vor dem Tausch prüfen'],
+    blog: { href: '/blog/e-bike-wartung-tipps-fuer-den-winter', label: 'E-Bike Wartung: Tipps für den Winter' }
+  },
+  'luftpumpen-inflatoren': {
+    label: 'Luftpumpen und Inflatoren',
+    path: '/zubehoer/luftpumpen-inflatoren/',
+    guide: [
+      'Eine Pumpe gehört zu jedem Rad, als Standpumpe für zu Hause, als Handpumpe für unterwegs oder als elektrischer Inflator, der den Reifen auf Knopfdruck füllt. Standpumpen erreichen den nötigen Druck mit wenig Kraftaufwand, Hand- und Mini-Pumpen sind klein genug für Rucksack oder Rahmen.',
+      'Entscheidend sind der passende Ventilkopf (Presta oder Schrader), der erreichbare Maximaldruck und die Größe. Den vorgesehenen Reifendruck finden Sie auf der Reifenflanke, er unterscheidet sich je nach Reifen und Rad.'
+    ],
+    points: ['Ventiltyp Presta oder Schrader prüfen', 'Maximaldruck der Pumpe mit der Reifenangabe vergleichen', 'Elektrische Inflatoren vor der Tour laden'],
+    blog: { href: '/blog/e-bike-wartung-tipps-fuer-den-winter', label: 'E-Bike Wartung: Tipps für den Winter' }
+  },
   'sattel-lenker': {
     label: 'Sattel und Lenker',
     path: '/zubehoer/sattel-lenker/',

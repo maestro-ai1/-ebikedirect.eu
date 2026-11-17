@@ -11,7 +11,7 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Reelight",
     "category": "Zubehör",
     "accessory": "beleuchtung",
-    "price": 36.81,
+    "price": 27.61,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -57,7 +57,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
       "Marke": "Reelight",
       "Einsatz": "Fahrrad und E-Bike, universell"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "originalPrice": 36.99
   },
   {
     "id": "lezyne-smart-grip-handyhalterung",
@@ -685,7 +686,7 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Muc-Off",
     "category": "Zubehör",
     "accessory": "werkzeug-pflege",
-    "price": 19.9,
+    "price": 14.93,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -725,7 +726,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
       "Marke": "Muc-Off",
       "Einsatz": "Fahrrad und E-Bike, universell"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "originalPrice": 30
   },
   {
     "id": "muc-off-reinigungs-und-schmierset",
@@ -734,7 +736,7 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Muc-Off",
     "category": "Zubehör",
     "accessory": "werkzeug-pflege",
-    "price": 29.85,
+    "price": 22.39,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -774,7 +776,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
       "Marke": "Muc-Off",
       "Einsatz": "Fahrrad und E-Bike, universell"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "originalPrice": 30
   },
   {
     "id": "muc-off-bam-pannenreparatur",
@@ -783,8 +786,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Muc-Off",
     "category": "Zubehör",
     "accessory": "werkzeug-pflege",
-    "price": 25.87,
-    "originalPrice": 26,
+    "price": 9.7,
+    "originalPrice": 20,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -832,7 +835,7 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Muc-Off",
     "category": "Zubehör",
     "accessory": "werkzeug-pflege",
-    "price": 14.93,
+    "price": 11.19,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -872,7 +875,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
       "Marke": "Muc-Off",
       "Einsatz": "Fahrrad und E-Bike, universell"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "originalPrice": 15
   },
   {
     "id": "muc-off-schaumspruehr-set",
@@ -881,7 +885,7 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
     "brand": "Muc-Off",
     "category": "Zubehör",
     "accessory": "werkzeug-pflege",
-    "price": 59.7,
+    "price": 44.78,
     "inStock": true,
     "stockCount": 0,
     "rating": 0,
@@ -921,7 +925,8 @@ export const UNIVERSAL_PRODUCTS: Product[] = [
       "Marke": "Muc-Off",
       "Einsatz": "Fahrrad und E-Bike, universell"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "originalPrice": 60
   },
   {
     "id": "lezyne-m-caddy-satteltasche",
