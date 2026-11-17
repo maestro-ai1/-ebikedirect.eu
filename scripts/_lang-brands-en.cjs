@@ -75,9 +75,9 @@ for (const d of brandDefs) {
 // ---- accessory groups
 const BIKE = '(bike|bicycle|cycle|ebike)';
 const ACC = [
-  { url: '/accessories/locks/', de: 'schloesser', name: 'Bike locks', rel: '(' + String.fromCharCode(92) + 'block' + String.fromCharCode(92) + 'b|locks|d lock|chain lock|folding lock|padlock|anti theft)', ex: '(car|motorbike|scooter|door|house|combination key|key replacement|alarm)' },
+  { url: '/accessories/locks/', de: 'schloesser', name: 'Bike locks', rel: '(' + String.fromCharCode(92) + 'block' + String.fromCharCode(92) + 'b|(?<![a-z])locks|d lock|chain (and )?lock|folding lock|padlock|anti theft)', ex: '(car|motorbike|scooter|door|house|combination key|key replacement|alarm)' },
   { url: '/accessories/helmets/', de: 'helme', name: 'Helmets', rel: 'helmets?', ex: '(motorbike|motorcycle|biker|ski|snow|climbing|riding|horse|kids|baby|toddler|camera|bluetooth)' },
-  { url: '/accessories/bags-baskets/', de: 'taschen-koerbe', name: 'Bags and baskets', rel: '(pannier|basket|bike bag|saddle bag|handlebar bag|frame bag|top tube bag)', ex: '(motorbike|dog|child|backpack)' },
+  { url: '/accessories/bags-baskets/', de: 'taschen-koerbe', name: 'Bags and baskets', rel: '(pannier|basket|bikebasket|bike bag|saddle bag|handlebar bag|frame bag|top tube bag)', ex: '(motorbike|dog|child|backpack)' },
   { url: '/accessories/racks-trailers/', de: 'gepaecktraeger-anhaenger', name: 'Racks, seats and trailers', rel: '(luggage rack|rear rack|pannier rack|bike rack|bicycle rack|child seat|baby seat|child bike seat|bike seat|bike trailer|bicycle trailer|cargo trailer|front rack)', ex: '(car|roof|tow ?bar|boot|van|caravan|motorbike|dog)' },
   { url: '/accessories/mudguards-stands/', de: 'schutzbleche-staender', name: 'Mudguards and stands', rel: '(mudguards?|mud guards?|fenders?|kickstand|bike stand|parking stand)', ex: '(car|motorbike|scooter|child)' },
   { url: '/accessories/bottles-cages/', de: 'trinkflaschen-flaschenhalter', name: 'Bottles and bottle cages', rel: '(bottle cage|bottle holder|water bottle|bike bottle|cycling bottle|bicycle bottle)', ex: '(car|dog|baby|thermos|insulated|kids|camping|baby bottle)' },

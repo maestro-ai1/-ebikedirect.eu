@@ -2172,12 +2172,6 @@
      "intent": "I",
      "volume": 1000,
      "kd": 13
-    },
-    {
-     "keyword": "gourde isotherme velo",
-     "volume": 480,
-     "kd": 16,
-     "intent": "C"
     }
    ]
   },
@@ -2215,12 +2209,6 @@
      "intent": "I",
      "volume": 480,
      "kd": 15
-    },
-    {
-     "keyword": "vélo électrique sans pédale",
-     "volume": 210,
-     "kd": 8,
-     "intent": "T"
     }
    ]
   },
@@ -2427,14 +2415,7 @@
     "kd": 19,
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "reparation batterie velo",
-     "volume": 390,
-     "kd": 13,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "huile chaine velo",

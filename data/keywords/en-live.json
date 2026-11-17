@@ -2320,38 +2320,7 @@
     "kd": 4,
     "source": "bank"
    },
-   "secondary": [
-    {
-     "keyword": "qio ebikes",
-     "intent": "T",
-     "volume": 0,
-     "kd": 2
-    },
-    {
-     "keyword": "qio bicycle",
-     "intent": "T",
-     "volume": 0,
-     "kd": 13
-    },
-    {
-     "keyword": "qio bike dealer",
-     "intent": "C",
-     "volume": 0,
-     "kd": 13
-    },
-    {
-     "keyword": "qio bike for sale",
-     "intent": "T",
-     "volume": 0,
-     "kd": 11
-    },
-    {
-     "keyword": "qio bike price",
-     "intent": "T",
-     "volume": 0,
-     "kd": 14
-    }
-   ],
+   "secondary": [],
    "faq": []
   },
   {
@@ -3227,12 +3196,6 @@
    },
    "secondary": [
     {
-     "keyword": "brake blocks for cycles",
-     "intent": "C",
-     "volume": 1600,
-     "kd": 10
-    },
-    {
      "keyword": "d lock for cycle",
      "intent": "C",
      "volume": 1600,
@@ -3263,12 +3226,6 @@
      "intent": "I",
      "volume": 12100,
      "kd": 28
-    },
-    {
-     "keyword": "brake blocks cycle",
-     "intent": "I",
-     "volume": 1900,
-     "kd": 9
     },
     {
      "keyword": "bike chain lock",
@@ -3845,10 +3802,10 @@
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "cateye bike lights",
+    "keyword": "front bike headlight",
     "intent": "T",
-    "volume": 1300,
-    "kd": 12,
+    "volume": 880,
+    "kd": 22,
     "source": "bank"
    },
    "secondary": [
@@ -3863,12 +3820,6 @@
      "intent": "C",
      "volume": 1300,
      "kd": 22
-    },
-    {
-     "keyword": "lezyne bike lights",
-     "intent": "T",
-     "volume": 1300,
-     "kd": 11
     },
     {
      "keyword": "mountain bike lights",
@@ -3891,28 +3842,10 @@
      "kd": 22
     },
     {
-     "keyword": "front bike headlight",
-     "intent": "T",
-     "volume": 880,
-     "kd": 22
-    },
-    {
-     "keyword": "knog bike lights",
-     "intent": "T",
-     "volume": 880,
-     "kd": 22
-    },
-    {
      "keyword": "front bike lamp",
      "intent": "C",
      "volume": 880,
      "kd": 19
-    },
-    {
-     "keyword": "exposure bike lights",
-     "intent": "C",
-     "volume": 880,
-     "kd": 12
     }
    ]
   },
