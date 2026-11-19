@@ -43,12 +43,6 @@
    },
    "secondary": [
     {
-     "keyword": "ebike test 2025",
-     "volume": 1300,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
      "keyword": "e bike unter 20 kg",
      "volume": 1000,
      "kd": 15,
@@ -64,12 +58,6 @@
      "keyword": "e bike unter 1000 euro",
      "volume": 880,
      "kd": 19,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike für touren test",
-     "volume": 720,
-     "kd": 24,
      "intent": "C"
     }
    ],
@@ -139,12 +127,6 @@
      "keyword": "e bikes mountainbike herren",
      "volume": 720,
      "kd": 28,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike fully gebraucht",
-     "volume": 720,
-     "kd": 10,
      "intent": "C"
     }
    ],
@@ -815,12 +797,6 @@
      "volume": 720,
      "kd": 25,
      "intent": "T"
-    },
-    {
-     "keyword": "lastenrad mieten berlin",
-     "volume": 480,
-     "kd": 20,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -846,12 +822,6 @@
      "keyword": "e bike lastenrad",
      "volume": 1300,
      "kd": 26,
-     "intent": "I"
-    },
-    {
-     "keyword": "lastenrad gebraucht",
-     "volume": 1000,
-     "kd": 12,
      "intent": "I"
     }
    ]
@@ -942,24 +912,6 @@
     "intent": "T"
    },
    "secondary": [
-    {
-     "keyword": "e bike klapprad test",
-     "volume": 480,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
-     "keyword": "klapp e bike test",
-     "volume": 320,
-     "kd": 27,
-     "intent": "C"
-    },
-    {
-     "keyword": "gebrauchtes e bike klapprad",
-     "volume": 260,
-     "kd": 21,
-     "intent": "C"
-    },
     {
      "keyword": "klappbare e bike",
      "volume": 260,
@@ -1099,12 +1051,6 @@
      "intent": "C"
     },
     {
-     "keyword": "trekking e bike test",
-     "volume": 390,
-     "kd": 21,
-     "intent": "C"
-    },
-    {
      "keyword": "trekking ebike damen",
      "volume": 210,
      "kd": 11,
@@ -1114,12 +1060,6 @@
      "keyword": "trekking e-bike 750 watt",
      "volume": 170,
      "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "e bike trekking herren test",
-     "volume": 90,
-     "kd": 26,
      "intent": "C"
     }
    ],
@@ -1325,12 +1265,6 @@
     },
     {
      "keyword": "ebike gravel",
-     "volume": 720,
-     "kd": 18,
-     "intent": "C"
-    },
-    {
-     "keyword": "gravel e bike test",
      "volume": 720,
      "kd": 18,
      "intent": "C"
@@ -1577,8 +1511,8 @@
     {
      "keyword": "bosch fahrradcomputer",
      "volume": 5400,
-     "kd": 18,
-     "intent": "I"
+     "kd": 19,
+     "intent": "T"
     },
     {
      "keyword": "bosch e bike",
@@ -1668,12 +1602,6 @@
      "intent": "I"
     },
     {
-     "keyword": "ktm e bike gebraucht",
-     "volume": 390,
-     "kd": 11,
-     "intent": "I"
-    },
-    {
      "keyword": "ktm elektro bike",
      "volume": 320,
      "kd": 23,
@@ -1737,19 +1665,7 @@
      "intent": "I"
     },
     {
-     "keyword": "haibike e bike gebraucht",
-     "volume": 170,
-     "kd": 18,
-     "intent": "I"
-    },
-    {
      "keyword": "haibike damen",
-     "volume": 140,
-     "kd": 19,
-     "intent": "I"
-    },
-    {
-     "keyword": "haibike erfahrungen",
      "volume": 140,
      "kd": 19,
      "intent": "I"
@@ -1774,12 +1690,6 @@
      "intent": "T"
     },
     {
-     "keyword": "riese und müller gebraucht",
-     "volume": 480,
-     "kd": 16,
-     "intent": "C"
-    },
-    {
      "keyword": "e-bike riese und müller",
      "volume": 480,
      "kd": 28,
@@ -1790,12 +1700,6 @@
      "volume": 320,
      "kd": 27,
      "intent": "T"
-    },
-    {
-     "keyword": "riese und müller e bike gebraucht",
-     "volume": 260,
-     "kd": 15,
-     "intent": "C"
     }
    ],
    "faq": [
@@ -1806,27 +1710,9 @@
      "intent": "N"
     },
     {
-     "keyword": "riese und mueller",
-     "volume": 590,
-     "kd": 29,
-     "intent": "N"
-    },
-    {
      "keyword": "riese&müller",
      "volume": 390,
      "kd": 23,
-     "intent": "N"
-    },
-    {
-     "keyword": "riese and muller electric bikes",
-     "volume": 210,
-     "kd": 30,
-     "intent": "I"
-    },
-    {
-     "keyword": "rise müller",
-     "volume": 210,
-     "kd": 25,
      "intent": "N"
     }
    ]
@@ -2050,18 +1936,6 @@
    },
    "secondary": [
     {
-     "keyword": "e bikes kalkhoff gebraucht",
-     "volume": 480,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
-     "keyword": "gebrauchte e bike kalkhoff",
-     "volume": 320,
-     "kd": 11,
-     "intent": "C"
-    },
-    {
      "keyword": "kalkhoff damenrad",
      "volume": 260,
      "kd": 14,
@@ -2091,12 +1965,6 @@
      "keyword": "kalkhoff fahrrad",
      "volume": 2900,
      "kd": 28,
-     "intent": "-"
-    },
-    {
-     "keyword": "ebike kalkhoff",
-     "volume": 880,
-     "kd": 30,
      "intent": "N"
     },
     {
@@ -2166,12 +2034,6 @@
      "keyword": "gazelle damen",
      "volume": 260,
      "kd": 23,
-     "intent": "I"
-    },
-    {
-     "keyword": "gazelle fahrrad gebraucht",
-     "volume": 210,
-     "kd": 16,
      "intent": "I"
     },
     {
@@ -2431,12 +2293,6 @@
      "intent": "C"
     },
     {
-     "keyword": "flyer e bike gebraucht",
-     "volume": 480,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
      "keyword": "flyer pedelec",
      "volume": 170,
      "kd": 17,
@@ -2478,12 +2334,6 @@
      "keyword": "e bike flyer damen",
      "volume": 720,
      "kd": 12,
-     "intent": "I"
-    },
-    {
-     "keyword": "gebrauchte e bike flyer",
-     "volume": 480,
-     "kd": 11,
      "intent": "I"
     }
    ]
@@ -2716,12 +2566,6 @@
      "volume": 320,
      "kd": 26,
      "intent": "C"
-    },
-    {
-     "keyword": "tenways e bike damen",
-     "volume": 210,
-     "kd": 29,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -2730,18 +2574,6 @@
      "volume": 12100,
      "kd": 30,
      "intent": "N"
-    },
-    {
-     "keyword": "tenways erfahrungen",
-     "volume": 320,
-     "kd": 25,
-     "intent": "I"
-    },
-    {
-     "keyword": "tenways e-bike erfahrungen",
-     "volume": 140,
-     "kd": 17,
-     "intent": "I"
     },
     {
      "keyword": "e bike tenways",
@@ -2864,12 +2696,6 @@
     {
      "keyword": "e bike scott",
      "volume": 1600,
-     "kd": 30,
-     "intent": "C"
-    },
-    {
-     "keyword": "scott räder",
-     "volume": 140,
      "kd": 30,
      "intent": "C"
     }
@@ -3010,18 +2836,6 @@
      "volume": 480,
      "kd": 22,
      "intent": "C"
-    },
-    {
-     "keyword": "trek e bikes test",
-     "volume": 90,
-     "kd": 18,
-     "intent": "T"
-    },
-    {
-     "keyword": "bike mtb trek",
-     "volume": 390,
-     "kd": 29,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -3444,12 +3258,6 @@
    },
    "secondary": [
     {
-     "keyword": "qio bike gebraucht",
-     "volume": 260,
-     "kd": 18,
-     "intent": "C"
-    },
-    {
      "keyword": "qio fahrräder",
      "volume": 210,
      "kd": 22,
@@ -3486,12 +3294,6 @@
      "volume": 880,
      "kd": 21,
      "intent": "N"
-    },
-    {
-     "keyword": "qio bike erfahrungen",
-     "volume": 320,
-     "kd": 14,
-     "intent": "I"
     }
    ]
   },
@@ -3758,12 +3560,6 @@
      "intent": "N"
     },
     {
-     "keyword": "hercules fahrräder",
-     "volume": 590,
-     "kd": 29,
-     "intent": "N"
-    },
-    {
      "keyword": "hercules fahrrad damen",
      "volume": 480,
      "kd": 23,
@@ -3824,12 +3620,6 @@
      "keyword": "ghost ebike",
      "volume": 1300,
      "kd": 27,
-     "intent": "N"
-    },
-    {
-     "keyword": "ghost fahrräder",
-     "volume": 880,
-     "kd": 30,
      "intent": "N"
     },
     {
@@ -4434,26 +4224,13 @@
     "kd": 22,
     "intent": "T"
    },
-   "secondary": [
-    {
-     "keyword": "stromer gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "C"
-    }
-   ],
+   "secondary": [],
    "faq": [
     {
      "keyword": "stromere",
      "volume": 320,
      "kd": 21,
-     "intent": "-"
-    },
-    {
-     "keyword": "stromer ebike",
-     "volume": 110,
-     "kd": 30,
-     "intent": "-"
+     "intent": "C"
     },
     {
      "keyword": "stromer e-bike",
@@ -4540,21 +4317,9 @@
      "intent": "T"
     },
     {
-     "keyword": "babboe gebraucht",
-     "volume": 110,
-     "kd": 11,
-     "intent": "C"
-    },
-    {
      "keyword": "babboe fahrräder",
      "volume": 70,
      "kd": 23,
-     "intent": "T"
-    },
-    {
-     "keyword": "babboe e bike",
-     "volume": 170,
-     "kd": 30,
      "intent": "T"
     },
     {
@@ -4572,22 +4337,10 @@
      "intent": "N"
     },
     {
-     "keyword": "babboe e bike gebraucht",
-     "volume": 70,
-     "kd": 8,
-     "intent": "I"
-    },
-    {
      "keyword": "babboe-lastenrad",
      "volume": 140,
      "kd": 25,
      "intent": "N"
-    },
-    {
-     "keyword": "lastenrad babboe gebraucht",
-     "volume": 110,
-     "kd": 10,
-     "intent": "I"
     },
     {
      "keyword": "cargo bike babboe",
@@ -4683,24 +4436,6 @@
      "volume": 1600,
      "kd": 28,
      "intent": "N"
-    },
-    {
-     "keyword": "brompton gebraucht",
-     "volume": 390,
-     "kd": 15,
-     "intent": "I"
-    },
-    {
-     "keyword": "brompton faltrad gebraucht",
-     "volume": 320,
-     "kd": 13,
-     "intent": "I"
-    },
-    {
-     "keyword": "faltrad gebraucht brompton",
-     "volume": 320,
-     "kd": 12,
-     "intent": "I"
     }
    ]
   },
@@ -4762,18 +4497,13 @@
    "type": "brand",
    "name": "Merida",
    "primary": {
-    "keyword": "merida e bike fully",
-    "volume": 140,
-    "kd": 10,
-    "intent": "I"
+    "keyword": "rennrad merida",
+    "volume": 1300,
+    "kd": 23,
+    "intent": "T",
+    "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "rennrad merida",
-     "volume": 1300,
-     "kd": 23,
-     "intent": "T"
-    },
     {
      "keyword": "merida e bike",
      "volume": 1000,
@@ -4931,12 +4661,6 @@
     "intent": "T"
    },
    "secondary": [
-    {
-     "keyword": "fahrradhelm test",
-     "volume": 5400,
-     "kd": 11,
-     "intent": "C"
-    },
     {
      "keyword": "fahrradhelm ökotest",
      "volume": 3600,
@@ -5232,12 +4956,6 @@
    },
    "secondary": [
     {
-     "keyword": "fahrradlicht testbericht",
-     "volume": 880,
-     "kd": 12,
-     "intent": "C"
-    },
-    {
      "keyword": "licht für e bikes",
      "volume": 590,
      "kd": 11,
@@ -5286,12 +5004,6 @@
      "volume": 3600,
      "kd": 19,
      "intent": "-"
-    },
-    {
-     "keyword": "sigma fahrradlicht",
-     "volume": 2400,
-     "kd": 27,
-     "intent": "I"
     }
    ]
   },
@@ -6162,10 +5874,11 @@
    "type": "accessory",
    "name": "Handyhalter",
    "primary": {
-    "keyword": "handy ebike laden",
-    "volume": 110,
-    "kd": 11,
-    "intent": "I"
+    "keyword": "handyhalter",
+    "volume": 0,
+    "kd": null,
+    "intent": "T",
+    "source": "name"
    },
    "secondary": [],
    "faq": [
