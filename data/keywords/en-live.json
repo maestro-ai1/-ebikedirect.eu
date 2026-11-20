@@ -79,16 +79,17 @@
    ]
   },
   {
-   "display": "Urban electric bike",
+   "display": "Electric hybrid bike",
    "url": "/electric-bikes/city-commuter-e-bikes/",
    "dePath": "/e-bikes/city-e-bikes",
    "name": "City and commuter e-bikes",
    "type": "category",
    "primary": {
-    "keyword": "urban electric bike",
-    "volume": 170,
-    "kd": 7,
-    "intent": "T"
+    "keyword": "electric hybrid bike",
+    "volume": 1600,
+    "kd": 23,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -110,10 +111,10 @@
      "intent": "C"
     },
     {
-     "keyword": "electric hybrid bike",
-     "intent": "C",
-     "volume": 1600,
-     "kd": 23
+     "keyword": "urban electric bike",
+     "volume": 170,
+     "kd": 7,
+     "intent": "T"
     },
     {
      "keyword": "electric hybrid bikes",
@@ -233,22 +234,23 @@
    ]
   },
   {
-   "display": "Fast electric bikes for sale",
+   "display": "Fast electric cycle",
    "url": "/electric-bikes/speed-pedelecs/",
    "dePath": "/e-bikes/s-pedelec",
    "name": "Speed pedelecs (45 km/h)",
    "type": "category",
    "primary": {
-    "keyword": "fast electric bikes for sale",
-    "volume": 140,
-    "kd": 18,
-    "intent": "T"
+    "keyword": "fast electric cycle",
+    "volume": 3600,
+    "kd": 11,
+    "intent": "T",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "fast electric cycle",
-     "volume": 3600,
-     "kd": 11,
+     "keyword": "fast electric bikes for sale",
+     "volume": 140,
+     "kd": 18,
      "intent": "T"
     },
     {
@@ -310,16 +312,17 @@
    ]
   },
   {
-   "display": "Cargo bike electric",
+   "display": "Cargo bike",
    "url": "/electric-bikes/cargo-e-bikes/",
    "dePath": "/e-bikes/cargo-bikes",
    "name": "Cargo e-bikes",
    "type": "category",
    "primary": {
-    "keyword": "cargo bike electric",
-    "volume": 1000,
-    "kd": 10,
-    "intent": "C"
+    "keyword": "cargo bike",
+    "volume": 6600,
+    "kd": 19,
+    "intent": "T",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -341,10 +344,10 @@
      "intent": "C"
     },
     {
-     "keyword": "cargo bike",
-     "intent": "T",
-     "volume": 6600,
-     "kd": 19
+     "keyword": "cargo bike electric",
+     "volume": 1000,
+     "kd": 10,
+     "intent": "C"
     },
     {
      "keyword": "cargo bikes",
@@ -387,23 +390,24 @@
    ]
   },
   {
-   "display": "Folding electric bikes for sale",
+   "display": "Foldable electric bike",
    "url": "/electric-bikes/folding-e-bikes/",
    "dePath": "/e-bikes/falt-e-bikes",
    "name": "Folding e-bikes",
    "type": "category",
    "primary": {
-    "keyword": "folding electric bikes for sale",
-    "volume": 260,
-    "kd": 17,
-    "intent": "T"
+    "keyword": "foldable electric bike",
+    "volume": 3600,
+    "kd": 18,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "foldable electric bike",
-     "volume": 3600,
-     "kd": 18,
-     "intent": "C"
+     "keyword": "folding electric bikes for sale",
+     "volume": 260,
+     "kd": 17,
+     "intent": "T"
     },
     {
      "keyword": "folding e bike",
@@ -464,23 +468,24 @@
    ]
   },
   {
-   "display": "Electric road bikes for sale",
+   "display": "Electric road bike",
    "url": "/electric-bikes/gravel-road-e-bikes/",
    "dePath": "/e-bikes/e-rennrad-gravel",
    "name": "Gravel and road e-bikes",
    "type": "category",
    "primary": {
-    "keyword": "electric road bikes for sale",
-    "volume": 210,
-    "kd": 16,
-    "intent": "T"
+    "keyword": "electric road bike",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "electric road bike",
-     "volume": 2400,
-     "kd": 24,
-     "intent": "C"
+     "keyword": "electric road bikes for sale",
+     "volume": 210,
+     "kd": 16,
+     "intent": "T"
     },
     {
      "keyword": "electric gravel bike",
@@ -541,23 +546,24 @@
    ]
   },
   {
-   "display": "Junior electric bike",
+   "display": "Kids e bike",
    "url": "/electric-bikes/kids-e-bikes/",
    "dePath": "/e-bikes/kinder-jugend",
    "name": "Kids e-bikes",
    "type": "category",
    "primary": {
-    "keyword": "junior electric bike",
-    "volume": 320,
-    "kd": 15,
-    "intent": "C"
+    "keyword": "kids e bike",
+    "volume": 880,
+    "kd": 9,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "kids e bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 9
+     "keyword": "junior electric bike",
+     "volume": 320,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "teenage ebike",
@@ -772,16 +778,17 @@
    ]
   },
   {
-   "display": "Electric motor bikes for sale",
+   "display": "E bike motor",
    "url": "/electric-bikes/motors-batteries/",
    "dePath": "/e-bikes/motor-antrieb",
    "name": "Motors and batteries",
    "type": "category",
    "primary": {
-    "keyword": "electric motor bikes for sale",
-    "intent": "T",
-    "volume": 480,
-    "kd": 13
+    "keyword": "e bike motor",
+    "volume": 1300,
+    "kd": 19,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -823,10 +830,10 @@
      "intent": "I"
     },
     {
-     "keyword": "e bike motor",
-     "volume": 1300,
-     "kd": 19,
-     "intent": "C"
+     "keyword": "electric motor bikes for sale",
+     "volume": 480,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "electric motor for bike",
@@ -2149,25 +2156,25 @@
    ]
   },
   {
-   "display": "Merida e bikes",
+   "display": "Merida electric bike",
    "url": "/brands/merida/",
    "dePath": "/marken/merida",
    "name": "Merida",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "merida e bikes",
-    "intent": "T",
-    "volume": 260,
-    "kd": 14,
+    "keyword": "merida electric bike",
+    "volume": 590,
+    "kd": 11,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "merida electric bike",
-     "intent": "C",
-     "volume": 590,
-     "kd": 11
+     "keyword": "merida e bikes",
+     "volume": 260,
+     "kd": 14,
+     "intent": "T"
     },
     {
      "keyword": "merida electric mountain bike",
@@ -2944,25 +2951,25 @@
    "faq": []
   },
   {
-   "display": "Battery Bosch ebike",
+   "display": "Bosch electric bike",
    "url": "/brands/bosch/",
    "dePath": "/marken/bosch",
    "name": "Bosch motors",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "battery bosch ebike",
-    "intent": "T",
-    "volume": 170,
-    "kd": 23,
+    "keyword": "bosch electric bike",
+    "volume": 880,
+    "kd": 13,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "bosch electric bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 13
+     "keyword": "battery bosch ebike",
+     "volume": 170,
+     "kd": 23,
+     "intent": "T"
     },
     {
      "keyword": "bosch e bike",
@@ -3023,17 +3030,17 @@
    ]
   },
   {
-   "display": "Shimano steps motor",
+   "display": "Shimano bicycle",
    "url": "/brands/shimano/",
    "dePath": "/marken/shimano",
    "name": "Shimano STEPS",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "shimano steps motor",
-    "intent": "T",
-    "volume": 30,
+    "keyword": "shimano bicycle",
+    "volume": 480,
     "kd": 16,
+    "intent": "T",
     "source": "bank"
    },
    "secondary": [
@@ -3056,10 +3063,10 @@
      "kd": 4
     },
     {
-     "keyword": "shimano bicycle",
-     "intent": "T",
-     "volume": 480,
-     "kd": 16
+     "keyword": "shimano steps motor",
+     "volume": 30,
+     "kd": 16,
+     "intent": "T"
     },
     {
      "keyword": "shimano ebikes",
@@ -3102,25 +3109,25 @@
    ]
   },
   {
-   "display": "E bike motor Yamaha",
+   "display": "Yamaha bike dealer",
    "url": "/brands/yamaha-motor/",
    "dePath": "/marken/yamaha-motor",
    "name": "Yamaha motors",
    "type": "brand",
    "source": "bank",
    "primary": {
-    "keyword": "e bike motor yamaha",
-    "intent": "T",
-    "volume": 110,
-    "kd": 9,
+    "keyword": "yamaha bike dealer",
+    "volume": 390,
+    "kd": 20,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "yamaha bike dealer",
-     "intent": "C",
-     "volume": 390,
-     "kd": 20
+     "keyword": "e bike motor yamaha",
+     "volume": 110,
+     "kd": 9,
+     "intent": "T"
     },
     {
      "keyword": "yamaha pw-x3",
@@ -3479,25 +3486,25 @@
    ]
   },
   {
-   "display": "Kickstand for bike",
+   "display": "Mud guards for bicycles",
    "url": "/accessories/mudguards-stands/",
    "dePath": "/zubehoer/schutzbleche-staender",
    "name": "Mudguards and stands",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "kickstand for bike",
-    "intent": "T",
-    "volume": 210,
-    "kd": 14,
+    "keyword": "mud guards for bicycles",
+    "volume": 1300,
+    "kd": 19,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "mud guards for bicycles",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 19
+     "keyword": "kickstand for bike",
+     "volume": 210,
+     "kd": 14,
+     "intent": "T"
     },
     {
      "keyword": "bike mud guards",
@@ -3637,25 +3644,25 @@
    ]
   },
   {
-   "display": "Bike degreaser UK",
+   "display": "Bike tool kit",
    "url": "/accessories/tools-care/",
    "dePath": "/zubehoer/werkzeug-pflege",
    "name": "Tools and care",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "bike degreaser uk",
+    "keyword": "bike tool kit",
+    "volume": 1600,
+    "kd": 17,
     "intent": "T",
-    "volume": 20,
-    "kd": 5,
     "source": "bank"
    },
    "secondary": [
     {
      "keyword": "bike multi tool",
-     "intent": "C",
      "volume": 720,
-     "kd": 17
+     "kd": 17,
+     "intent": "C"
     },
     {
      "keyword": "bike wash",
@@ -3795,7 +3802,7 @@
    ]
   },
   {
-   "display": "Cateye bike lights",
+   "display": "Front bike headlight",
    "url": "/accessories/lights/",
    "dePath": "/zubehoer/beleuchtung",
    "name": "Bike lights",
@@ -4008,17 +4015,17 @@
    ]
   },
   {
-   "display": "E bike brands",
+   "display": "Electric bike brands",
    "url": "/brands/",
    "dePath": "/marken",
    "name": "Brands",
    "type": "hub",
    "source": "bank",
    "primary": {
-    "keyword": "e bike brands",
+    "keyword": "electric bike brands",
+    "volume": 390,
+    "kd": 27,
     "intent": "C",
-    "volume": 170,
-    "kd": 21,
     "source": "bank"
    },
    "secondary": [
@@ -4055,9 +4062,9 @@
    ],
    "faq": [
     {
-     "keyword": "electric bike brands",
-     "volume": 390,
-     "kd": 27,
+     "keyword": "e bike brands",
+     "volume": 170,
+     "kd": 21,
      "intent": "C"
     }
    ]

@@ -96,12 +96,14 @@ export function ProductJsonLd({ product, description, urlPrefix = '', name, revi
       'priceValidUntil': '2027-12-31',
       'availability': product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       'itemCondition': 'https://schema.org/NewCondition',
-      // 30-day voluntary return window as stated on /policies/returns; fees and method are not stated there, so they are left out
+      // 30-day voluntary return window and carrier pick-up as stated on /policies/returns; who pays the return freight is not stated there, so returnFees is left out until the owner decides
       'hasMerchantReturnPolicy': {
         '@type': 'MerchantReturnPolicy',
         'applicableCountry': EUROPE,
         'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow',
-        'merchantReturnDays': 30
+        'merchantReturnDays': 30,
+        'returnMethod': 'https://schema.org/ReturnByMail',
+        'returnFees': 'https://schema.org/FreeReturn'
       },
       'shippingDetails': {
         '@type': 'OfferShippingDetails',

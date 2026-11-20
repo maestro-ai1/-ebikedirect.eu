@@ -92,6 +92,7 @@ export default async function ReturnsPolicyPage({ params }: { params: Promise<{ 
             </p>
             <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
               <li>Kontaktieren Sie unseren Kundenservice über das Kontaktformular unter Angabe Ihrer Bestellnummer.</li>
+              <li>Die Rückholung durch die Spedition ist für Sie kostenlos. Wir tragen die Rücksendekosten.</li>
               <li>Wir senden Ihnen per E-Mail den Speditionsschein und stimmen den Wunschabholtag mit Dachser / DB Schenker ab.</li>
               <li>Nach Wareneingang und Prüfung in unserer Münchner Meisterwerkstatt erstatten wir den vollen Kaufbetrag innerhalb von 3 Werktagen auf Ihre ursprüngliche Zahlungsmethode (inkl. Krypto-Rückzahlung in USDT/BTC zum tagesaktuellen Gegenwert).</li>
             </ol>

@@ -2,30 +2,19 @@
  "locale": "fr",
  "pages": [
   {
-   "display": "Prix d'un VTT électrique",
+   "display": "Vélo électrique vtt",
    "url": "/velos-electriques/vtt-electrique/",
    "dePath": "/e-bikes/e-mountainbikes",
    "name": "VTT électriques",
    "type": "category",
    "primary": {
-    "keyword": "prix d un vtt electrique",
-    "volume": 170,
-    "kd": 11,
-    "intent": "T"
+    "keyword": "vélo électrique vtt",
+    "volume": 720,
+    "kd": 10,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
-    {
-     "keyword": "pneu pour vtt",
-     "volume": 1300,
-     "kd": 24,
-     "intent": "C"
-    },
-    {
-     "keyword": "piece vtt",
-     "volume": 880,
-     "kd": 12,
-     "intent": "C"
-    },
     {
      "keyword": "vtt bh",
      "volume": 1000,
@@ -37,12 +26,6 @@
      "volume": 1600,
      "kd": 13,
      "intent": "C"
-    },
-    {
-     "keyword": "pneu vtt",
-     "volume": 2400,
-     "kd": 27,
-     "intent": "T"
     }
    ],
    "faq": [
@@ -53,16 +36,10 @@
      "kd": 13
     },
     {
-     "keyword": "piece pour vtt",
-     "volume": 720,
-     "kd": 10,
-     "intent": "C"
-    },
-    {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "marque vtt",
@@ -79,16 +56,17 @@
    ]
   },
   {
-   "display": "Vélo cargo électrique",
+   "display": "Velo triporteur",
    "url": "/velos-electriques/velo-cargo-electrique/",
    "dePath": "/e-bikes/cargo-bikes",
    "name": "Vélos cargo électriques",
    "type": "category",
    "primary": {
-    "keyword": "velo cargo électrique",
+    "keyword": "velo triporteur",
+    "volume": 1000,
+    "kd": 20,
     "intent": "T",
-    "volume": 480,
-    "kd": 27
+    "source": "bank"
    },
    "secondary": [
     {
@@ -98,10 +76,10 @@
      "intent": "T"
     },
     {
-     "keyword": "velo triporteur",
-     "intent": "T",
-     "volume": 1000,
-     "kd": 20
+     "keyword": "velo cargo électrique",
+     "volume": 480,
+     "kd": 27,
+     "intent": "T"
     },
     {
      "keyword": "longtail electrique",
@@ -227,16 +205,17 @@
    ]
   },
   {
-   "display": "Vélo électrique pliable pas cher",
+   "display": "Velos pliant",
    "url": "/velos-electriques/velo-electrique-pliant/",
    "dePath": "/e-bikes/falt-e-bikes",
    "name": "Vélos électriques pliants",
    "type": "category",
    "primary": {
-    "keyword": "vélo électrique pliable pas cher",
-    "volume": 170,
-    "kd": 3,
-    "intent": "T"
+    "keyword": "velos pliant",
+    "volume": 880,
+    "kd": 18,
+    "intent": "T",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -264,9 +243,9 @@
      "kd": 10
     },
     {
-     "keyword": "velos pliant",
-     "volume": 880,
-     "kd": 18,
+     "keyword": "vélo électrique pliable pas cher",
+     "volume": 170,
+     "kd": 3,
      "intent": "T"
     }
    ],
@@ -332,23 +311,24 @@
    ]
   },
   {
-   "display": "Vélo route assistance électrique",
+   "display": "Velo de route electrique",
    "url": "/velos-electriques/velo-electrique-gravel-route/",
    "dePath": "/e-bikes/e-rennrad-gravel",
    "name": "Vélos électriques gravel et route",
    "type": "category",
    "primary": {
-    "keyword": "velo route assistance electrique",
-    "intent": "T",
-    "volume": 260,
-    "kd": 13
+    "keyword": "velo de route electrique",
+    "volume": 1900,
+    "kd": 18,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "velo de route electrique",
-     "volume": 1900,
-     "kd": 18,
-     "intent": "C"
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo electrique route",
@@ -409,16 +389,17 @@
    ]
   },
   {
-   "display": "Vélo électrique enfant 5 ans",
+   "display": "Vtt enfant 20 pouces",
    "url": "/velos-electriques/velo-electrique-enfant/",
    "dePath": "/e-bikes/kinder-jugend",
    "name": "Vélos électriques enfant",
    "type": "category",
    "primary": {
-    "keyword": "velo electrique enfant 5 ans",
-    "intent": "T",
-    "volume": 210,
-    "kd": 8
+    "keyword": "vtt enfant 20 pouces",
+    "volume": 720,
+    "kd": 14,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -460,10 +441,10 @@
      "kd": 9
     },
     {
-     "keyword": "vtt enfant 20 pouces",
-     "volume": 720,
-     "kd": 14,
-     "intent": "C"
+     "keyword": "velo electrique enfant 5 ans",
+     "volume": 210,
+     "kd": 8,
+     "intent": "T"
     },
     {
      "keyword": "vélo enfant 20 pouces",
@@ -551,16 +532,17 @@
    ]
   },
   {
-   "display": "Vélo électrique pas cher homme",
+   "display": "Vtt pour homme",
    "url": "/velos-electriques/velo-electrique-homme/",
    "dePath": "/e-bikes/herren",
    "name": "Vélos électriques homme",
    "type": "category",
    "primary": {
-    "keyword": "velo electrique pas cher homme",
-    "intent": "T",
-    "volume": 320,
-    "kd": 7
+    "keyword": "vtt pour homme",
+    "volume": 1600,
+    "kd": 28,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
@@ -576,10 +558,10 @@
      "intent": "C"
     },
     {
-     "keyword": "vtt pour homme",
-     "volume": 1600,
-     "kd": 28,
-     "intent": "C"
+     "keyword": "velo electrique pas cher homme",
+     "volume": 320,
+     "kd": 7,
+     "intent": "T"
     },
     {
      "keyword": "vélo homme",
@@ -1756,25 +1738,25 @@
    "faq": []
   },
   {
-   "display": "Antivol vélo prix",
+   "display": "Antivol velo electrique",
    "url": "/accessoires/antivols/",
    "dePath": "/zubehoer/schloesser",
    "name": "Antivols",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "antivol velo prix",
-    "intent": "T",
-    "volume": 70,
-    "kd": 21,
+    "keyword": "antivol velo electrique",
+    "volume": 1300,
+    "kd": 19,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "antivol velo electrique",
-     "intent": "C",
-     "volume": 1300,
-     "kd": 19
+     "keyword": "antivol velo prix",
+     "volume": 70,
+     "kd": 21,
+     "intent": "T"
     },
     {
      "keyword": "meilleur antivol velo",

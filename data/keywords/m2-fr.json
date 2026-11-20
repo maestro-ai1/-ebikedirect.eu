@@ -1,5 +1,14 @@
 {
  "accepted": {
+  "/fr/velos-electriques/vtt-electrique": {
+   "primary": "vélo électrique vtt",
+   "intent": "C",
+   "volume": 720,
+   "bestT": "vtt électriques occasion",
+   "tVolume": 590,
+   "ratio": 1.2,
+   "exception": "the Transactional alternative is second-hand (guard word occasion)"
+  },
   "/fr/velos-electriques/velo-electrique-ville": {
    "primary": "vtc electrique",
    "intent": "C",
@@ -12,6 +21,30 @@
    "primary": "vélo route électrique 45 km/h",
    "intent": "I",
    "volume": 170,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/velos-electriques/velo-electrique-gravel-route": {
+   "primary": "velo de route electrique",
+   "intent": "C",
+   "volume": 1900,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/velos-electriques/velo-electrique-enfant": {
+   "primary": "vtt enfant 20 pouces",
+   "intent": "C",
+   "volume": 720,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/fr/velos-electriques/velo-electrique-homme": {
+   "primary": "vtt pour homme",
+   "intent": "C",
+   "volume": 1600,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -39,6 +72,14 @@
    "bestT": "giant miscanthus grass",
    "tVolume": 1900,
    "ratio": 2.3
+  },
+  "/fr/accessoires/antivols": {
+   "primary": "antivol velo electrique",
+   "intent": "C",
+   "volume": 1300,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/fr/accessoires/pompes-gonfleurs": {
    "primary": "pompe velo",

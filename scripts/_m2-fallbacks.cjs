@@ -39,7 +39,10 @@ function check(url, entry, relFn, own) {
   const pr = entry.primary; if (!pr || pr.intent === 'T' || pr.source === 'name') return;
   const best = bank.filter((b) => b.i === 'T' && !BAD.test(b.k) && relFn(b.k) && !oth.test(norm(b.k)) && !used.has(nk(b.k))).sort((a, b) => b.v - a.v)[0];
   const rec = { primary: pr.keyword, intent: pr.intent, volume: pr.volume, bestT: best ? best.k : null, tVolume: best ? best.v : 0, ratio: best ? +(pr.volume / best.v).toFixed(1) : null };
-  if (!best || pr.volume >= 2 * best.v) out[url] = rec; else rejected[url] = rec;
+  // read one by one by the owner-rule audit (2026-11-20): the close Transactional keyword is not valid for the page, so the Commercial primary stands
+  const MANUAL = { '/fr/velos-electriques/vtt-electrique': 'the Transactional alternative is second-hand (guard word occasion)', '/en/brands/merida': 'merida e160 is a single model name, not a brand-hub keyword' };
+  if (MANUAL[url] && best) rec.exception = MANUAL[url];
+  if (!best || pr.volume >= 2 * best.v || MANUAL[url]) out[url] = rec; else rejected[url] = rec;
 }
 for (const p of live) {
   const slug = p.url;

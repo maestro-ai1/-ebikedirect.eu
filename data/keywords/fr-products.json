@@ -1278,10 +1278,10 @@
      "kd": 12
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -1702,10 +1702,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -1804,10 +1804,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -1880,10 +1880,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -1924,10 +1924,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2032,10 +2032,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -2108,10 +2108,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -2184,10 +2184,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -2260,10 +2260,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -2304,10 +2304,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2392,10 +2392,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2488,10 +2488,10 @@
      "kd": 15
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -2550,10 +2550,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2626,10 +2626,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -2684,10 +2684,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2772,10 +2772,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2842,10 +2842,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -2912,10 +2912,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -3026,10 +3026,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -3108,10 +3108,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "velo de course electrique",
@@ -3146,10 +3146,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -3222,10 +3222,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -3854,10 +3854,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -3930,10 +3930,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4134,10 +4134,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4210,10 +4210,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4286,10 +4286,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4414,10 +4414,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4542,10 +4542,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -4874,10 +4874,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -4950,10 +4950,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5026,10 +5026,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5102,10 +5102,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5178,10 +5178,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5254,10 +5254,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5330,10 +5330,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5406,10 +5406,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5482,10 +5482,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5558,10 +5558,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5634,10 +5634,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5710,10 +5710,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5786,10 +5786,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5862,10 +5862,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -5938,10 +5938,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6014,10 +6014,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6090,10 +6090,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6166,10 +6166,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6242,10 +6242,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6318,10 +6318,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6394,10 +6394,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6470,10 +6470,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6546,10 +6546,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6622,10 +6622,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6698,10 +6698,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6774,10 +6774,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6850,10 +6850,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -6926,10 +6926,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7002,10 +7002,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7078,10 +7078,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7154,10 +7154,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7230,10 +7230,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7306,10 +7306,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7382,10 +7382,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7458,10 +7458,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7534,10 +7534,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7610,10 +7610,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7686,10 +7686,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7762,10 +7762,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7838,10 +7838,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7914,10 +7914,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -7990,10 +7990,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8066,10 +8066,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8142,10 +8142,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8218,10 +8218,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8294,10 +8294,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8370,10 +8370,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8446,10 +8446,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8522,10 +8522,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8598,10 +8598,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8674,10 +8674,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8750,10 +8750,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8826,10 +8826,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8902,10 +8902,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -8978,10 +8978,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -9054,10 +9054,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -9130,10 +9130,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -9206,10 +9206,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -10260,10 +10260,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10336,10 +10336,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10412,10 +10412,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10488,10 +10488,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10564,10 +10564,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10640,10 +10640,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10716,10 +10716,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10792,10 +10792,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10868,10 +10868,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -10944,10 +10944,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -11020,10 +11020,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -11096,10 +11096,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -11172,10 +11172,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -11248,10 +11248,10 @@
      "kd": 24
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13506,10 +13506,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13582,10 +13582,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13658,10 +13658,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13734,10 +13734,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13810,10 +13810,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13898,10 +13898,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -13974,10 +13974,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -14254,10 +14254,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -14330,10 +14330,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -14610,10 +14610,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -14756,10 +14756,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -14896,10 +14896,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15036,10 +15036,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15112,10 +15112,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15188,10 +15188,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15264,10 +15264,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15340,10 +15340,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15416,10 +15416,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15562,10 +15562,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15638,10 +15638,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15714,10 +15714,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15790,10 +15790,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15866,10 +15866,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -15942,10 +15942,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16018,10 +16018,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16094,10 +16094,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16170,10 +16170,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16246,10 +16246,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16322,10 +16322,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16398,10 +16398,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16474,10 +16474,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16550,10 +16550,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16766,10 +16766,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16842,10 +16842,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16918,10 +16918,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -16994,10 +16994,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -17070,10 +17070,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -17146,10 +17146,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -17222,10 +17222,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -17674,10 +17674,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -22922,10 +22922,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23074,10 +23074,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23150,10 +23150,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23372,10 +23372,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23448,10 +23448,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23524,10 +23524,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23600,10 +23600,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -23980,10 +23980,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24208,10 +24208,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24284,10 +24284,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24360,10 +24360,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24494,10 +24494,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24576,10 +24576,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24652,10 +24652,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24728,10 +24728,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24804,10 +24804,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -24880,10 +24880,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25014,10 +25014,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25090,10 +25090,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25166,10 +25166,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25242,10 +25242,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25318,10 +25318,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25394,10 +25394,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25586,10 +25586,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25662,10 +25662,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25738,10 +25738,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25814,10 +25814,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25890,10 +25890,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -25966,10 +25966,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -26194,10 +26194,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -26270,10 +26270,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -26346,10 +26346,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -26422,10 +26422,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -26966,10 +26966,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27042,10 +27042,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27222,10 +27222,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27298,10 +27298,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27374,10 +27374,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27450,10 +27450,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27526,10 +27526,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27602,10 +27602,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27782,10 +27782,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27858,10 +27858,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -27934,10 +27934,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -28010,10 +28010,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -28086,10 +28086,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -28162,10 +28162,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -28238,10 +28238,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -28314,10 +28314,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -29660,10 +29660,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -30842,10 +30842,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -30918,10 +30918,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -30982,10 +30982,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31058,10 +31058,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31134,10 +31134,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31268,10 +31268,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31344,10 +31344,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31420,10 +31420,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31560,10 +31560,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31636,10 +31636,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31828,10 +31828,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31904,10 +31904,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -31980,10 +31980,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32056,10 +32056,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32190,10 +32190,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32266,10 +32266,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32342,10 +32342,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32592,10 +32592,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32668,10 +32668,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -32918,10 +32918,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33046,10 +33046,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33122,10 +33122,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33198,10 +33198,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33274,10 +33274,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33350,10 +33350,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33426,10 +33426,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33502,10 +33502,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33770,10 +33770,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33846,10 +33846,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33922,10 +33922,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -33998,10 +33998,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34074,10 +34074,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34150,10 +34150,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34284,10 +34284,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34360,10 +34360,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34494,10 +34494,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34570,10 +34570,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -34704,10 +34704,10 @@
      "kd": 20
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -35370,10 +35370,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -35446,10 +35446,10 @@
    },
    "secondary": [
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36142,10 +36142,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36218,10 +36218,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36294,10 +36294,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36370,10 +36370,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36446,10 +36446,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36522,10 +36522,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36598,10 +36598,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36674,10 +36674,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36750,10 +36750,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36832,10 +36832,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -36902,10 +36902,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -36978,10 +36978,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -37060,10 +37060,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -37130,10 +37130,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -37206,10 +37206,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -38282,10 +38282,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -38428,10 +38428,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -38742,10 +38742,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -38818,10 +38818,10 @@
      "kd": 15
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -40576,10 +40576,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -40652,10 +40652,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -40728,10 +40728,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -40804,10 +40804,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -40880,10 +40880,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -40956,10 +40956,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41032,10 +41032,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41108,10 +41108,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41184,10 +41184,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41260,10 +41260,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41336,10 +41336,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41412,10 +41412,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41488,10 +41488,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41564,10 +41564,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41640,10 +41640,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41716,10 +41716,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41792,10 +41792,10 @@
      "kd": 13
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41868,10 +41868,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -41944,10 +41944,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42020,10 +42020,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42096,10 +42096,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42172,10 +42172,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42248,10 +42248,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42324,10 +42324,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42400,10 +42400,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42476,10 +42476,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42552,10 +42552,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42628,10 +42628,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -42704,10 +42704,10 @@
      "kd": 18
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -47176,10 +47176,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47252,10 +47252,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47328,10 +47328,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47404,10 +47404,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47480,10 +47480,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47556,10 +47556,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47632,10 +47632,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47708,10 +47708,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47784,10 +47784,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47860,10 +47860,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -47936,10 +47936,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48012,10 +48012,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48088,10 +48088,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48164,10 +48164,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48240,10 +48240,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48316,10 +48316,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48392,10 +48392,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48468,10 +48468,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48544,10 +48544,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48620,10 +48620,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48696,10 +48696,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48772,10 +48772,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48848,10 +48848,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -48924,10 +48924,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49000,10 +49000,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49076,10 +49076,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49152,10 +49152,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49228,10 +49228,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49304,10 +49304,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49380,10 +49380,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49456,10 +49456,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49532,10 +49532,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49608,10 +49608,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49684,10 +49684,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -49760,10 +49760,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51204,10 +51204,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51280,10 +51280,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51356,10 +51356,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51432,10 +51432,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51508,10 +51508,10 @@
      "kd": 5
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -51584,10 +51584,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -51888,10 +51888,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -51964,10 +51964,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -52098,10 +52098,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52174,10 +52174,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52250,10 +52250,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52326,10 +52326,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52402,10 +52402,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52478,10 +52478,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -52554,10 +52554,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53046,10 +53046,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53122,10 +53122,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53198,10 +53198,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53274,10 +53274,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53350,10 +53350,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53426,10 +53426,10 @@
      "kd": 19
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -53502,10 +53502,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -53578,10 +53578,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -54024,10 +54024,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -54100,10 +54100,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -54176,10 +54176,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -54252,10 +54252,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -54334,10 +54334,10 @@
      "kd": 10
     },
     {
-     "keyword": "velo de route electrique",
-     "intent": "C",
-     "volume": 1900,
-     "kd": 18
+     "keyword": "velo route assistance electrique",
+     "volume": 260,
+     "kd": 13,
+     "intent": "T"
     },
     {
      "keyword": "vélo gravel electrique",
@@ -54810,10 +54810,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -55176,10 +55176,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -55600,10 +55600,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -55676,10 +55676,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -55868,10 +55868,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -55944,10 +55944,10 @@
      "kd": 14
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56014,10 +56014,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56090,10 +56090,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56166,10 +56166,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56242,10 +56242,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56318,10 +56318,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56394,10 +56394,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56470,10 +56470,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56546,10 +56546,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56622,10 +56622,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",
@@ -56698,10 +56698,10 @@
      "kd": 25
     },
     {
-     "keyword": "vélo électrique vtt",
-     "intent": "C",
-     "volume": 720,
-     "kd": 10
+     "keyword": "prix d un vtt electrique",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
     },
     {
      "keyword": "vtt electrique suspendu",

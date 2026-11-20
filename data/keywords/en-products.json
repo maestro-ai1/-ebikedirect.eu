@@ -2218,10 +2218,10 @@
    },
    "secondary": [
     {
-     "keyword": "merida electric bike",
-     "intent": "C",
-     "volume": 590,
-     "kd": 11
+     "keyword": "merida e bikes",
+     "volume": 260,
+     "kd": 14,
+     "intent": "T"
     },
     {
      "keyword": "electric gravel bike",
@@ -2598,10 +2598,10 @@
    },
    "secondary": [
     {
-     "keyword": "merida electric bike",
-     "intent": "C",
-     "volume": 590,
-     "kd": 11
+     "keyword": "merida e bikes",
+     "volume": 260,
+     "kd": 14,
+     "intent": "T"
     },
     {
      "keyword": "electric gravel bike",
@@ -3592,10 +3592,10 @@
      "kd": 12
     },
     {
-     "keyword": "kids e bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 9
+     "keyword": "junior electric bike",
+     "volume": 320,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "teenage ebike",
@@ -3680,10 +3680,10 @@
      "kd": 19
     },
     {
-     "keyword": "kids e bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 9
+     "keyword": "junior electric bike",
+     "volume": 320,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "teenage ebike",
@@ -3756,10 +3756,10 @@
      "kd": 19
     },
     {
-     "keyword": "kids e bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 9
+     "keyword": "junior electric bike",
+     "volume": 320,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "teenage ebike",
@@ -3826,10 +3826,10 @@
      "kd": 19
     },
     {
-     "keyword": "fast electric cycle",
-     "intent": "T",
-     "volume": 3600,
-     "kd": 11
+     "keyword": "fast electric bikes for sale",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
     },
     {
      "keyword": "fast electric bike uk",
@@ -4066,10 +4066,10 @@
      "kd": 15
     },
     {
-     "keyword": "fast electric cycle",
-     "intent": "T",
-     "volume": 3600,
-     "kd": 11
+     "keyword": "fast electric bikes for sale",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
     }
    ],
    "faq": [
@@ -4174,10 +4174,10 @@
      "kd": 8
     },
     {
-     "keyword": "fast electric cycle",
-     "intent": "T",
-     "volume": 3600,
-     "kd": 11
+     "keyword": "fast electric bikes for sale",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
     }
    ]
   },
@@ -26912,10 +26912,10 @@
    },
    "secondary": [
     {
-     "keyword": "merida electric bike",
-     "intent": "C",
-     "volume": 590,
-     "kd": 11
+     "keyword": "merida e bikes",
+     "volume": 260,
+     "kd": 14,
+     "intent": "T"
     },
     {
      "keyword": "merida electric mountain bike",
@@ -50800,10 +50800,10 @@
      "kd": 19
     },
     {
-     "keyword": "fast electric cycle",
-     "intent": "T",
-     "volume": 3600,
-     "kd": 11
+     "keyword": "fast electric bikes for sale",
+     "volume": 140,
+     "kd": 18,
+     "intent": "T"
     },
     {
      "keyword": "fast electric bike uk",
@@ -57026,10 +57026,10 @@
      "kd": 12
     },
     {
-     "keyword": "kids e bike",
-     "intent": "C",
-     "volume": 880,
-     "kd": 9
+     "keyword": "junior electric bike",
+     "volume": 320,
+     "kd": 15,
+     "intent": "C"
     },
     {
      "keyword": "teenage ebike",

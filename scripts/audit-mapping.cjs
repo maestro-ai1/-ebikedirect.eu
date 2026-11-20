@@ -26,7 +26,7 @@ const planRel = (file) => { const o = {}; for (const line of fs.readFileSync(fil
 const fitOK = (re, kw) => { const g = new RegExp(re.source, 'gi'); let m; while ((m = g.exec(kw))) { if (m.index === 0 || !/[a-z0-9À-ſ]/i.test(kw[m.index - 1])) return true; if (m[0].length === 0) g.lastIndex++; } return false; };
 const FIT = { fr: planRel(__dirname + '/_lang-brands.cjs'), en: planRel(__dirname + '/_lang-brands-en.cjs'), de: {} };
 const RULES = {
-  P1: ['Primary is a bank keyword (not a name-based fallback)', 'gap'], P2: ['Primary intent is Transactional or Commercial (Navigational only on brand pages)', 'violation'], P3: ['Primary volume at least 10', 'violation'], P4: ['Primary KD within the limit (28, or 30 at volume 1,000+)', 'violation'],
+  P1: ['Primary is a bank keyword (not a name-based fallback)', 'gap'], P2: ['Primary intent is Transactional or Commercial (Navigational only on brand pages)', 'violation'], P3: ['Primary volume at least 10', 'violation'], P4: ['Primary KD within the limit (28, or 30 at volume 1,000+)', 'violation'], P5: ['No stored T/C keyword that fits the page has 2x or more the primary volume (the biggest fitting T/C keyword is the primary)', 'violation'],
   S1: ['Five secondary keywords stored', 'gap'], S2: ['Secondary keywords are Transactional or Commercial', 'violation'], S3: ['Secondary volume at least 10 and KD within the limit', 'violation'],
   F1: ['Five FAQ keywords stored', 'gap'], F2: ['FAQ keyword volume at least 10 and KD within the limit', 'violation'],
   K1: ['Stored intent, volume and KD equal the bank row', 'violation'], K2: ['Keyword is refreshed (live Semrush data, not the monthly export)', 'stale'], K3: ['Keyword exists in the bank', 'violation'],
@@ -71,6 +71,13 @@ for (const [code, m] of Object.entries(M)) {
     r.keys = [];
     if (r.primary) { const pb = bank.get(r.primary.keyword.toLowerCase()); if (r.primary.source === 'name' || (!pb && !(+r.primary.volume > 0))) { flag(r, 'primary', r.primary, 'P1'); r.primary.source = 'name'; } check(r.primary, 'primary'); }
     for (const k of r.secondary) check(k, 'secondary'); for (const k of r.faq) check(k, 'faq');
+    // P5 (owner rule 2026-11-20): a stored Transactional or Commercial keyword that fits the page, is inside the KD limit and has 2x or more the primary volume must be the primary
+    if (r.kind === 'page' && r.primary && r.keys.length && r.keys[0].role === 'primary') {
+      const pv = r.primary.source === 'name' ? 0 : +r.primary.volume || 0; const fp5 = FIT[code][r.url.slice(m.base.length)]; const acc5 = /accessory/.test(r.type) || /accessor|zubeh/.test(r.url);
+      const P5X = { '/velos-electriques/vtt-electrique/': /pneu|piece|pas cher/i, '/accessories/rain-clothing/': /./, '/marken/bosch/': /fahrradcomputer/i, '/zubehoer/werkzeug-pflege/': /pumpe/i }; // read one by one: the shop does not sell tyres, covers (5d pending), Bosch computers; pumps have their own page
+      const pool = [...r.secondary, ...r.faq].filter((k) => !(P5X[r.url.slice(m.base.length)] || /^$/).test(k.keyword)).filter((k) => (k.intent === 'T' || k.intent === 'C') && +k.volume >= 100 && (k.kd == null || k.kd === '' || +k.kd <= limitKd(+k.volume)) && !(acc5 ? HARD[code] : m.guard).test(k.keyword) && !m.notSold.test(k.keyword) && (!fp5 || (fitOK(fp5.rel, k.keyword.toLowerCase()) && !fp5.ex.test(k.keyword.toLowerCase())))).sort((a, b) => b.volume - a.volume);
+      if (pool.length && +pool[0].volume >= 2 * Math.max(pv, 1)) { const c = flag(r, 'primary', r.primary, 'P5', `"${pool[0].keyword}" ${pool[0].intent} ${pool[0].volume} is ${pv ? (pool[0].volume / pv).toFixed(1) + 'x' : 'bigger than'} the primary (${pv})`); r.keys[0].iss.push(c); }
+    }
     if (r.secondary.length < 5) flag(r, 'secondary', null, 'S1', r.secondary.length + ' of 5'); if (r.faq.length < 5) flag(r, 'faq', null, 'F1', r.faq.length + ' of 5');
     r.codes = [...new Set([...(r.primary && r.primary.source === 'name' ? ['P1'] : []), ...(r.secondary.length < 5 ? ['S1'] : []), ...(r.faq.length < 5 ? ['F1'] : []), ...r.keys.flatMap((x) => x.iss)])];
     for (const x of r.keys) csv.push([code, r.type, r.url, '"' + r.name.replace(/"/g, '""') + '"', x.role, '"' + x.k.keyword.replace(/"/g, '""') + '"', x.k.intent || '', x.k.volume, x.k.kd == null ? '' : x.k.kd, x.b ? x.b.i : '', x.b ? x.b.v : '', x.b && x.b.kd != null ? x.b.kd : '', x.k.source === 'name' ? 'name-based' : x.refreshed ? 'yes' : 'no', '"' + x.iss.join(' ') + '"'].join(','));

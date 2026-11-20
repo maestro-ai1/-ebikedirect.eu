@@ -1,5 +1,13 @@
 {
  "accepted": {
+  "/en/electric-bikes/city-commuter-e-bikes": {
+   "primary": "electric hybrid bike",
+   "intent": "C",
+   "volume": 1600,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/electric-bikes/trekking-e-bikes": {
    "primary": "long distance electric bicycle",
    "intent": "C",
@@ -8,18 +16,26 @@
    "tVolume": 260,
    "ratio": 2.3
   },
-  "/en/electric-bikes/cargo-e-bikes": {
-   "primary": "cargo bike electric",
+  "/en/electric-bikes/folding-e-bikes": {
+   "primary": "foldable electric bike",
    "intent": "C",
-   "volume": 1000,
-   "bestT": "family bike",
-   "tVolume": 480,
-   "ratio": 2.1
+   "volume": 3600,
+   "bestT": "folding bikes for sale",
+   "tVolume": 720,
+   "ratio": 5
+  },
+  "/en/electric-bikes/gravel-road-e-bikes": {
+   "primary": "electric road bike",
+   "intent": "C",
+   "volume": 2400,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/electric-bikes/kids-e-bikes": {
-   "primary": "junior electric bike",
+   "primary": "kids e bike",
    "intent": "C",
-   "volume": 320,
+   "volume": 880,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
@@ -31,6 +47,14 @@
    "bestT": "ladies basket for bike",
    "tVolume": 720,
    "ratio": 3.3
+  },
+  "/en/electric-bikes/motors-batteries": {
+   "primary": "e bike motor",
+   "intent": "C",
+   "volume": 1300,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
   },
   "/en/brands/focus": {
    "primary": "focus bikes",
@@ -47,6 +71,15 @@
    "bestT": "liv electric bikes for sale",
    "tVolume": 10,
    "ratio": 72
+  },
+  "/en/brands/merida": {
+   "primary": "merida electric bike",
+   "intent": "C",
+   "volume": 590,
+   "bestT": "merida e160",
+   "tVolume": 590,
+   "ratio": 1,
+   "exception": "merida e160 is a single model name, not a brand-hub keyword"
   },
   "/en/brands/riese-und-mueller": {
    "primary": "riese and muller",
@@ -80,6 +113,30 @@
    "tVolume": 10,
    "ratio": 72
   },
+  "/en/brands/bosch": {
+   "primary": "bosch electric bike",
+   "intent": "C",
+   "volume": 880,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/brands/yamaha-motor": {
+   "primary": "yamaha bike dealer",
+   "intent": "C",
+   "volume": 390,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
+  "/en/accessories/mudguards-stands": {
+   "primary": "mud guards for bicycles",
+   "intent": "C",
+   "volume": 1300,
+   "bestT": null,
+   "tVolume": 0,
+   "ratio": null
+  },
   "/en/accessories/phone-holders": {
    "primary": "bike phone holder",
    "intent": "C",
@@ -89,9 +146,9 @@
    "ratio": 40
   },
   "/en/brands": {
-   "primary": "e bike brands",
+   "primary": "electric bike brands",
    "intent": "C",
-   "volume": 170,
+   "volume": 390,
    "bestT": null,
    "tVolume": 0,
    "ratio": null
