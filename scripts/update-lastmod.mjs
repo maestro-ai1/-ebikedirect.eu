@@ -16,6 +16,8 @@ async function one(u) {
   let h = '';
   try { h = await (await fetch(u.replace(LIVE, base))).text(); } catch { next[u] = old[u] || { h: '', d: now }; return; }
   const pick = (re) => ((h.match(re) || [])[1] || '').trim();
+  const MENU_COUNT = /<span class="text-xs font-medium text-gray-500">\d+<\/span>/g; // menu counters (products per category) change on every page when one product is added: not a content change
+  h = h.replace(MENU_COUNT, '');
   const main = (h.match(/<main[\s\S]*<\/main>/) || [h])[0].replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ');
   const sig = [pick(/<title>([^<]*)/), pick(/<meta name="description" content="([^"]*)"/), pick(/<link rel="canonical" href="([^"]*)"/), main].join('\n');
   const hash = crypto.createHash('sha1').update(sig).digest('hex').slice(0, 12);

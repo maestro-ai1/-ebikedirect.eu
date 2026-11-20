@@ -5730,66 +5730,73 @@
    "type": "accessory",
    "name": "Regenschutz & Bekleidung",
    "primary": {
-    "keyword": "herren regenjacke fahrrad",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "T"
+    "keyword": "fahrrad regenjacke herren",
+    "volume": 1600,
+    "kd": 20,
+    "intent": "C",
+    "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "schutzhülle für fahrräder",
+     "keyword": "regenschutz für die schuhe",
      "volume": 590,
-     "kd": 20,
+     "kd": 24,
      "intent": "C"
     },
     {
-     "keyword": "wasserdichte fahrradabdeckung",
+     "keyword": "wasserdicht überschuhe",
      "volume": 320,
-     "kd": 15,
-     "intent": "C"
-    },
-    {
-     "keyword": "toptrek fahrradabdeckung",
-     "volume": 140,
-     "kd": 21,
+     "kd": 23,
      "intent": "T"
     },
     {
-     "keyword": "fahrradabdeckung für e bike",
-     "volume": 110,
-     "kd": 14,
+     "keyword": "fahrradponcho",
+     "volume": 320,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenanzug fahrrad",
+     "volume": 320,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenüberschuhe",
+     "volume": 260,
+     "kd": 23,
      "intent": "T"
     }
    ],
    "faq": [
     {
-     "keyword": "fahrradabdeckung",
+     "keyword": "regenhose fahrrad",
+     "volume": 2900,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenbekleidung fahrrad",
      "volume": 1900,
      "kd": 26,
      "intent": "I"
     },
     {
-     "keyword": "fahrradschutzhülle",
-     "volume": 1300,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "fahrrad abdeckung",
-     "volume": 1000,
+     "keyword": "regenjacke fahrrad",
+     "volume": 1900,
      "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "regenponcho fahrrad",
+     "volume": 1900,
+     "kd": 25,
      "intent": "I"
     },
     {
-     "keyword": "schutzhülle für fahrrad",
-     "volume": 720,
-     "kd": 22,
-     "intent": "I"
-    },
-    {
-     "keyword": "e bike schutzhülle",
-     "volume": 590,
-     "kd": 10,
+     "keyword": "überschuhe",
+     "volume": 1600,
+     "kd": 27,
      "intent": "I"
     }
    ]

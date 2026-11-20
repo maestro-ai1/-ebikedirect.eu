@@ -3723,81 +3723,81 @@
    ]
   },
   {
-   "display": "Bicycle poncho",
+   "display": "Shoe covers",
    "url": "/accessories/rain-clothing/",
    "dePath": "/zubehoer/regenschutz-bekleidung",
    "name": "Rain protection",
    "type": "accessory",
    "source": "bank",
    "primary": {
-    "keyword": "bicycle poncho",
+    "keyword": "shoe covers",
+    "volume": 2900,
+    "kd": 24,
     "intent": "T",
-    "volume": 320,
-    "kd": 10,
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "bike covers",
-     "intent": "C",
+     "keyword": "waterproof cycling trousers",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof trousers",
      "volume": 1300,
-     "kd": 9
+     "kd": 16,
+     "intent": "C"
     },
     {
-     "keyword": "waterproof bike cover",
-     "intent": "C",
+     "keyword": "cycling rain jacket",
      "volume": 1000,
-     "kd": 21
+     "kd": 16,
+     "intent": "C"
     },
     {
-     "keyword": "waterproof bike trousers",
-     "intent": "C",
+     "keyword": "waterproof jacket mountain bike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof cycling jacket",
      "volume": 720,
-     "kd": 26
-    },
-    {
-     "keyword": "bicycle cover waterproof",
-     "intent": "C",
-     "volume": 720,
-     "kd": 28
-    },
-    {
-     "keyword": "waterproof pants for bike riding",
-     "intent": "C",
-     "volume": 590,
-     "kd": 21
+     "kd": 23,
+     "intent": "C"
     }
    ],
    "faq": [
     {
-     "keyword": "bike cover",
-     "intent": "I",
-     "volume": 5400,
-     "kd": 19
+     "keyword": "bike waterproof jackets",
+     "volume": 2400,
+     "kd": 30,
+     "intent": "I"
     },
     {
-     "keyword": "bike bike cover",
-     "intent": "I",
-     "volume": 4400,
-     "kd": 17
+     "keyword": "waterproof shoe covers",
+     "volume": 880,
+     "kd": 22,
+     "intent": "I"
     },
     {
-     "keyword": "bike coverings",
-     "intent": "I",
-     "volume": 4400,
-     "kd": 16
+     "keyword": "mtb waterproof jacket",
+     "volume": 720,
+     "kd": 22,
+     "intent": "C"
     },
     {
-     "keyword": "water resistant bike cover",
-     "intent": "I",
-     "volume": 1900,
-     "kd": 15
+     "keyword": "waterproof bike trousers",
+     "volume": 720,
+     "kd": 26,
+     "intent": "C"
     },
     {
      "keyword": "bicycle waterproof trousers",
-     "intent": "I",
      "volume": 720,
-     "kd": 22
+     "kd": 23,
+     "intent": "I"
     }
    ]
   },

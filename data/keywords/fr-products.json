@@ -58968,6 +58968,386 @@
      "kd": 7
     }
    ]
+  },
+  "agu-langarm-regenponcho-urban-outdoor": {
+   "name": "AGU Poncho de pluie à manches longues Urban Outdoor",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu poncho de pluie à manches longues urban outdoor",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "cape de pluie velo",
+     "volume": 720,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "cape de pluie pour velo",
+     "volume": 590,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "poncho velo",
+     "volume": 590,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "poncho pluie velo",
+     "volume": 480,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "cape pluie velo",
+     "volume": 390,
+     "kd": 9,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-original-premium-regenjacke": {
+   "name": "AGU Original Premium Veste de pluie",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu original premium veste de pluie",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "veste de pluie velo",
+     "volume": 320,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "veste pluie velo reflechissante",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste",
+     "volume": 20,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste velo",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "veste pluie velo",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "impermeable velo",
+     "volume": 260,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon imperméable",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "veste de pluie pour velo",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "imperméable vélo",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenjacke": {
+   "name": "AGU RainGuard Veste de pluie",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu rainguard veste de pluie",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "veste de pluie velo",
+     "volume": 320,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "veste pluie velo reflechissante",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste",
+     "volume": 20,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste velo",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "veste pluie velo",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "impermeable velo",
+     "volume": 260,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon imperméable",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "veste de pluie pour velo",
+     "volume": 210,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "imperméable vélo",
+     "volume": 140,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenhose": {
+   "name": "AGU RainGuard Pantalon de pluie",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu rainguard pantalon de pluie",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": [
+    {
+     "keyword": "pantalon de pluie velo",
+     "volume": 320,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon imperméable",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon pluie velo",
+     "volume": 170,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "pantalon imperméable vélo",
+     "volume": 70,
+     "kd": 7,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon velo pluie",
+     "volume": 20,
+     "kd": 8,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-original-regenanzug-essential": {
+   "name": "AGU Original Ensemble de pluie Essential",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu original ensemble de pluie essential",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "veste de pluie velo",
+     "volume": 320,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "veste pluie velo reflechissante",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste",
+     "volume": 20,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste velo",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "veste pluie velo",
+     "volume": 720,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "vetement pluie velo",
+     "volume": 590,
+     "kd": 18,
+     "intent": "I"
+    },
+    {
+     "keyword": "pantalon de pluie velo",
+     "volume": 320,
+     "kd": 8,
+     "intent": "I"
+    },
+    {
+     "keyword": "surpantalon imperméable",
+     "volume": 260,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "tenue pluie velo",
+     "volume": 260,
+     "kd": 11,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-tech-regen-ueberschuhe-commuter-hi-vis": {
+   "name": "AGU Tech Surchaussures de pluie Commuter Hi-Vis",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu tech surchaussures de pluie commuter hi-vis",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "couvre chaussures velo pluie",
+     "volume": 10,
+     "kd": 9,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "couvre chaussure velo",
+     "volume": 1000,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "surchaussures velo",
+     "volume": 260,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "surchaussures pluie velo",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-winter-regen-ueberschuhe-commuter": {
+   "name": "AGU Winter Surchaussures de pluie Commuter",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "acheter agu winter surchaussures de pluie commuter",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "couvre chaussures velo pluie",
+     "volume": 10,
+     "kd": 9,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "couvre chaussure velo",
+     "volume": 1000,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "surchaussures velo",
+     "volume": 260,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "surchaussures pluie velo",
+     "volume": 140,
+     "kd": 13,
+     "intent": "I"
+    }
+   ]
   }
  }
 }

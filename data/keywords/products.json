@@ -22751,6 +22751,532 @@
    },
    "secondary": [],
    "faq": []
+  },
+  "agu-langarm-regenponcho-urban-outdoor": {
+   "name": "AGU Langarm Regenponcho Urban Outdoor",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu langarm regenponcho urban outdoor kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "fahrradponcho",
+     "volume": 320,
+     "kd": 27,
+     "intent": "T"
+    },
+    {
+     "keyword": "fahrrad regencape",
+     "volume": 260,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu poncho",
+     "volume": 20,
+     "kd": 8,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu regenponcho",
+     "volume": 20,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenponcho fahrrad kaufen",
+     "volume": 10,
+     "kd": 20,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "regenponcho fahrrad",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "I"
+    },
+    {
+     "keyword": "regencape fahrrad",
+     "volume": 1300,
+     "kd": 29,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenponcho",
+     "volume": 480,
+     "kd": 24,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenponcho fahrrad damen",
+     "volume": 390,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenponcho fahrrad herren",
+     "volume": 110,
+     "kd": 18,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-original-premium-regenjacke": {
+   "name": "AGU Original Premium Regenjacke",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu original premium regenjacke kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "agu regenjacke",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "wasserdichte fahrradjacke",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenjacke radfahren",
+     "volume": 140,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "agu jacke",
+     "volume": 30,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu regenjacke damen",
+     "volume": 30,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "regenjacke fahrrad",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrrad regenjacke damen",
+     "volume": 1300,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenmantel fahrrad",
+     "volume": 260,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenmantel",
+     "volume": 170,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrradregenjacke",
+     "volume": 70,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenjacke": {
+   "name": "AGU RainGuard Regenjacke",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu rainguard regenjacke kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "agu regenjacke",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "wasserdichte fahrradjacke",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenjacke radfahren",
+     "volume": 140,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "agu jacke",
+     "volume": 30,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu regenjacke damen",
+     "volume": 30,
+     "kd": 7,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "regenjacke fahrrad",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrrad regenjacke damen",
+     "volume": 1300,
+     "kd": 15,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenmantel fahrrad",
+     "volume": 260,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenmantel",
+     "volume": 170,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrradregenjacke",
+     "volume": 70,
+     "kd": 19,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenhose": {
+   "name": "AGU RainGuard Regenhose",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu rainguard regenhose kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "fahrradregenhose",
+     "volume": 110,
+     "kd": 15,
+     "intent": "C"
+    },
+    {
+     "keyword": "agu regenhose",
+     "volume": 30,
+     "kd": 20,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu fahrradhose",
+     "volume": 20,
+     "kd": 10,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu regenhose herren",
+     "volume": 20,
+     "kd": 11,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "regenhose fahrrad",
+     "volume": 2900,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenhose damen",
+     "volume": 1300,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenhose herren",
+     "volume": 480,
+     "kd": 16,
+     "intent": "I"
+    },
+    {
+     "keyword": "wasserdichte fahrradhose",
+     "volume": 140,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenhose radfahren",
+     "volume": 90,
+     "kd": 14,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-original-regenanzug-essential": {
+   "name": "AGU Original Regenanzug Essential",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu original regenanzug essential kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "regenanzug fahrrad",
+     "volume": 320,
+     "kd": 18,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu regenjacke",
+     "volume": 170,
+     "kd": 11,
+     "intent": "T"
+    },
+    {
+     "keyword": "wasserdichte fahrradjacke",
+     "volume": 140,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenjacke radfahren",
+     "volume": 140,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "fahrradregenhose",
+     "volume": 110,
+     "kd": 15,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "regenhose fahrrad",
+     "volume": 2900,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenbekleidung fahrrad",
+     "volume": 1900,
+     "kd": 26,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenjacke fahrrad",
+     "volume": 1900,
+     "kd": 24,
+     "intent": "N"
+    },
+    {
+     "keyword": "fahrrad regenhose damen",
+     "volume": 1300,
+     "kd": 17,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad regenjacke damen",
+     "volume": 1300,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-tech-regen-ueberschuhe-commuter-hi-vis": {
+   "name": "AGU Tech Regen Überschuhe Commuter Hi-Vis",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu tech regen überschuhe commuter hi-vis kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "regenschutz für die schuhe",
+     "volume": 590,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "wasserdicht überschuhe",
+     "volume": 320,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenüberschuhe",
+     "volume": 260,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "wasserdichte fahrradüberschuhe",
+     "volume": 140,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "fahrrad überschuhe winter",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "überschuhe",
+     "volume": 1600,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "überschuhe fahrrad",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenschutz schuhe",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad schuh regenschutz",
+     "volume": 390,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad überschuhe",
+     "volume": 390,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-winter-regen-ueberschuhe-commuter": {
+   "name": "AGU Winter Regen Überschuhe Commuter",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "agu winter regen überschuhe commuter kaufen",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "regenschutz für die schuhe",
+     "volume": 590,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "wasserdicht überschuhe",
+     "volume": 320,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "regenüberschuhe",
+     "volume": 260,
+     "kd": 23,
+     "intent": "T"
+    },
+    {
+     "keyword": "wasserdichte fahrradüberschuhe",
+     "volume": 140,
+     "kd": 17,
+     "intent": "C"
+    },
+    {
+     "keyword": "fahrrad überschuhe winter",
+     "volume": 110,
+     "kd": 14,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "überschuhe",
+     "volume": 1600,
+     "kd": 27,
+     "intent": "I"
+    },
+    {
+     "keyword": "überschuhe fahrrad",
+     "volume": 590,
+     "kd": 11,
+     "intent": "I"
+    },
+    {
+     "keyword": "regenschutz schuhe",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad schuh regenschutz",
+     "volume": 390,
+     "kd": 19,
+     "intent": "I"
+    },
+    {
+     "keyword": "fahrrad überschuhe",
+     "volume": 390,
+     "kd": 17,
+     "intent": "I"
+    }
+   ]
   }
  }
 }

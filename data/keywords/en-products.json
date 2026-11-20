@@ -65631,6 +65631,538 @@
    },
    "secondary": [],
    "faq": []
+  },
+  "agu-langarm-regenponcho-urban-outdoor": {
+   "name": "AGU Long-sleeve rain poncho Urban Outdoor",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu long-sleeve rain poncho urban outdoor",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "cycling poncho",
+     "volume": 480,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "bike poncho",
+     "volume": 390,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "bicycle poncho",
+     "volume": 320,
+     "kd": 14,
+     "intent": "T"
+    },
+    {
+     "keyword": "cycling cape",
+     "volume": 320,
+     "kd": 16,
+     "intent": "T"
+    },
+    {
+     "keyword": "cycling rain cape",
+     "volume": 140,
+     "kd": 16,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "cycling poncho rain",
+     "volume": 140,
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike rain poncho",
+     "volume": 110,
+     "kd": 9,
+     "intent": "I"
+    },
+    {
+     "keyword": "cycling poncho waterproof",
+     "volume": 110,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
+     "keyword": "rain poncho bicycle",
+     "volume": 110,
+     "kd": 10,
+     "intent": "I"
+    },
+    {
+     "keyword": "rain poncho for bike",
+     "volume": 110,
+     "kd": 15,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-original-premium-regenjacke": {
+   "name": "AGU Original Premium Rain jacket",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu original premium rain jacket",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "cycling rain jacket",
+     "volume": 1000,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof jacket mountain bike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof cycling jacket",
+     "volume": 720,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "mtb waterproof jacket",
+     "volume": 720,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "lightweight waterproof cycling jacket",
+     "volume": 480,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike waterproof jackets",
+     "volume": 2400,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "biking rain jacket",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike ride rain jacket",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "mountain bike waterproof jacket",
+     "volume": 480,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof jacket for bike",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenjacke": {
+   "name": "AGU RainGuard Rain jacket",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu rainguard rain jacket",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "cycling rain jacket",
+     "volume": 1000,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof jacket mountain bike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof cycling jacket",
+     "volume": 720,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "mtb waterproof jacket",
+     "volume": 720,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "lightweight waterproof cycling jacket",
+     "volume": 480,
+     "kd": 18,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike waterproof jackets",
+     "volume": 2400,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "biking rain jacket",
+     "volume": 590,
+     "kd": 20,
+     "intent": "I"
+    },
+    {
+     "keyword": "bike ride rain jacket",
+     "volume": 480,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "mountain bike waterproof jacket",
+     "volume": 480,
+     "kd": 18,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof jacket for bike",
+     "volume": 390,
+     "kd": 26,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-rainguard-regenhose": {
+   "name": "AGU RainGuard Rain trousers",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu rainguard rain trousers",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "waterproof cycling trousers",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof trousers",
+     "volume": 1300,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof bike trousers",
+     "volume": 720,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "cycling waterproof trousers",
+     "volume": 590,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof pants for bike riding",
+     "volume": 590,
+     "kd": 21,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bicycle waterproof trousers",
+     "volume": 720,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb waterproof trousers",
+     "volume": 720,
+     "kd": 21,
+     "intent": "I"
+    },
+    {
+     "keyword": "waterproof cycling pants",
+     "volume": 260,
+     "kd": 20,
+     "intent": "C"
+    },
+    {
+     "keyword": "mens waterproof cycling trousers",
+     "volume": 260,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof trousers for cycling",
+     "volume": 260,
+     "kd": 22,
+     "intent": "C"
+    }
+   ]
+  },
+  "agu-original-regenanzug-essential": {
+   "name": "AGU Original Rain suit Essential",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu original rain suit essential",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "waterproof cycling trousers",
+     "volume": 1900,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof trousers",
+     "volume": 1300,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "cycling rain jacket",
+     "volume": 1000,
+     "kd": 16,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof jacket mountain bike",
+     "volume": 880,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "best waterproof cycling jacket",
+     "volume": 720,
+     "kd": 23,
+     "intent": "C"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "bike waterproof jackets",
+     "volume": 2400,
+     "kd": 30,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb waterproof jacket",
+     "volume": 720,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "waterproof bike trousers",
+     "volume": 720,
+     "kd": 26,
+     "intent": "C"
+    },
+    {
+     "keyword": "bicycle waterproof trousers",
+     "volume": 720,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "mtb waterproof trousers",
+     "volume": 720,
+     "kd": 21,
+     "intent": "I"
+    }
+   ]
+  },
+  "agu-tech-regen-ueberschuhe-commuter-hi-vis": {
+   "name": "AGU Tech Rain overshoes Commuter Hi-Vis",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu tech rain overshoes commuter hi-vis",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "cycling overshoes waterproof",
+     "volume": 720,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "overshoes cycling",
+     "volume": 480,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "overshoes waterproof cycling",
+     "volume": 480,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cyclist shoe covers",
+     "volume": 390,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "reusable shoe covers",
+     "volume": 390,
+     "kd": 27,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "waterproof shoe covers",
+     "volume": 880,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "water resistant shoe covers",
+     "volume": 590,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "plastic shoe covers",
+     "volume": 390,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "bike shoe covers",
+     "volume": 320,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "cycle overshoes waterproof",
+     "volume": 320,
+     "kd": 22,
+     "intent": "C"
+    }
+   ]
+  },
+  "agu-winter-regen-ueberschuhe-commuter": {
+   "name": "AGU Winter Rain overshoes Commuter",
+   "brand": "AGU",
+   "category": "Zubehör",
+   "primary": {
+    "keyword": "buy agu winter rain overshoes commuter",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [
+    {
+     "keyword": "cycling overshoes waterproof",
+     "volume": 720,
+     "kd": 24,
+     "intent": "C"
+    },
+    {
+     "keyword": "overshoes cycling",
+     "volume": 480,
+     "kd": 22,
+     "intent": "C"
+    },
+    {
+     "keyword": "overshoes waterproof cycling",
+     "volume": 480,
+     "kd": 23,
+     "intent": "C"
+    },
+    {
+     "keyword": "cyclist shoe covers",
+     "volume": 390,
+     "kd": 21,
+     "intent": "C"
+    },
+    {
+     "keyword": "reusable shoe covers",
+     "volume": 390,
+     "kd": 27,
+     "intent": "T"
+    }
+   ],
+   "faq": [
+    {
+     "keyword": "waterproof shoe covers",
+     "volume": 880,
+     "kd": 22,
+     "intent": "I"
+    },
+    {
+     "keyword": "water resistant shoe covers",
+     "volume": 590,
+     "kd": 23,
+     "intent": "I"
+    },
+    {
+     "keyword": "plastic shoe covers",
+     "volume": 390,
+     "kd": 21,
+     "intent": "T"
+    },
+    {
+     "keyword": "bike shoe covers",
+     "volume": 320,
+     "kd": 25,
+     "intent": "C"
+    },
+    {
+     "keyword": "cycle overshoes waterproof",
+     "volume": 320,
+     "kd": 22,
+     "intent": "C"
+    }
+   ]
   }
  }
 }

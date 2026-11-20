@@ -13,7 +13,9 @@ const pathOf = (u) => { try { const x = new URL(u, base); if (x.host !== host &&
 
 // ---- stored keyword data ----
 const prods = require('../data/keywords/products.json').products;
-const m2Fallbacks = {}; for (const lg of ['en', 'fr']) { try { Object.assign(m2Fallbacks, require('../data/keywords/m2-' + lg + '.json').accepted); } catch {} }
+const m6k = (u) => (u.length > 1 && u.endsWith('/') ? u.slice(0, -1) : u);
+let m6x = {}; try { m6x = require('../data/keywords/m6-exhausted.json'); } catch {} // products that store every eligible T/C keyword of the refreshed bank although fewer than five exist (measured by scripts/map-rain.cjs)
+const m2Fallbacks = {}; for (const lg of ['en', 'fr', 'de']) { try { Object.assign(m2Fallbacks, require('../data/keywords/m2-' + lg + '.json').accepted); } catch {} }
 const dePages = require('../data/keywords/de.json').pages;
 const families = require('../data/keywords/families.json').families || [];
 const pageByPath = new Map();
@@ -152,15 +154,15 @@ for (const pg of pages.values()) {
     const key = ((pg.url.match(/^\/(fr|nl|it|es|pt|en)\//) || [])[1] || 'de') + ':' + norm(kw.primary.keyword).split(' ').sort().join(' ');
     rec(pg, 'M5 main keyword used on this URL only', !allKw.get(key) || allKw.get(key).size <= 1);
     const sec = kw.secondary || [];
-    rec(pg, 'M6 five secondary keywords stored', sec.length >= 5, sec.length + ' stored');
+    const m6e = m6x[m6k(pg.url)]; rec(pg, 'M6 five secondary keywords stored', sec.length >= 5 || (!!m6e && sec.length >= m6e.available), sec.length + ' stored' + (m6e && sec.length < 5 ? ' (all ' + m6e.available + ' eligible keywords stored)' : ''));
     rec(pg, 'M6b stored secondaries are all T or C', sec.every((k) => /^(T|C)$/.test(k.intent)));
     const vis = sec.filter((k) => bodyN.includes(norm(k.keyword))).length;
-    rec(pg, 'M6c at least half of the stored secondaries are visible on the page', sec.length === 0 ? null : vis >= Math.ceil(sec.length / 2), vis + ' of ' + sec.length);
+    rec(pg, 'M6c at least half of the stored secondaries are visible on the page', sec.length === 0 ? (m6x[m6k(pg.url)] ? true : null) : vis >= Math.ceil(sec.length / 2), vis + ' of ' + sec.length);
     // headings that carry keywords
     rec(pg, 'H3 H1 contains the main keyword', !!h1s[0] && norm(h1s[0].t).includes(lead), h1s[0] ? h1s[0].t : '');
     const h23 = pg.heads.filter((h) => h.l === 2 || h.l === 3).map((h) => norm(h.t)).join(' | ');
     const inH = sec.filter((k) => h23.includes(norm(k.keyword))).length;
-    rec(pg, 'H6 H2/H3 carry at least two of the secondaries (or all when fewer are stored)', sec.length === 0 ? null : inH >= Math.min(2, sec.length), inH + ' in headings');
+    rec(pg, 'H6 H2/H3 carry at least two of the secondaries (or all when fewer are stored)', sec.length === 0 ? (m6x[m6k(pg.url)] ? true : null) : inH >= Math.min(2, sec.length), inH + ' in headings');
     // title / meta
     rec(pg, 'T2 title starts with the main keyword (or the product name when the keyword is name-based)', norm(pg.title).startsWith(lead) || (pg.type === 'product' && norm(pg.title).startsWith(norm(kw.name))), pg.title);
     rec(pg, 'T4 description contains the main keyword', norm(pg.desc).includes(lead) || (pg.type === 'product' && norm(pg.desc).includes(norm(kw.name))), '');

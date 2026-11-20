@@ -3,6 +3,7 @@
 import { unitsLocal } from '@/lib/l10n-opts';
 
 const EN: [string, string][] = [
+  ['Langarm Regenponcho', 'Long-sleeve rain poncho'], ['Regen Überschuhe', 'Rain overshoes'], ['Regenanzug', 'Rain suit'], ['Regenjacke', 'Rain jacket'], ['Regenhose', 'Rain trousers'],
   ['Elektrischer Mini Inflator', 'Electric mini inflator'], ['Elektrischer Inflator', 'Electric inflator'], ['Carbon Handpumpe', 'Carbon hand pump'], ['Mini Handpumpe', 'Mini hand pump'], ['Handpumpe mit Plug-Tool', 'Hand pump with plug tool'], ['Standpumpe analog', 'Analog floor pump'], ['Werkzeugflasche', 'tool bottle'], ['Trinkflasche', 'Water bottle'], ['mit Halter', 'with mount'], ['Flaschenhalter', 'Bottle cage'], ['Flatpedale', 'Flat pedals'], ['Klickpedale', 'Clip-in pedals'], ['Hybridpedale', 'Hybrid pedals'], ['Handpumpe', 'Hand pump'],
   ['GPS-Fahrradcomputer', 'GPS bike computer'],
   ['Regenschutz für Cargo E-Bike', 'Rain cover for cargo e-bike'], ['Lenker- und Vorbau-Halterung', 'Handlebar and stem mount'], ['Reinigungs- und Schmierset', 'Cleaning and lube kit'],
@@ -13,6 +14,7 @@ const EN: [string, string][] = [
   ['Bike Licht', 'Bike light'], ['Kindersitz', 'Child seat'], ['Minipumpe', 'Mini pump'], ['Messing', 'Brass'], ['Helm', 'Helmet'], ['Licht', 'Light'], ['(NL-Schloss)', '(Dutch frame lock)'],
 ];
 const FR: [string, string][] = [
+  ['Langarm Regenponcho', 'Poncho de pluie à manches longues'], ['Regen Überschuhe', 'Surchaussures de pluie'], ['Regenanzug', 'Ensemble de pluie'], ['Regenjacke', 'Veste de pluie'], ['Regenhose', 'Pantalon de pluie'],
   ['Elektrischer Mini Inflator', 'Mini gonfleur électrique'], ['Elektrischer Inflator', 'Gonfleur électrique'], ['Carbon Handpumpe', 'Pompe à main carbone'], ['Mini Handpumpe', 'Mini-pompe à main'], ['Handpumpe mit Plug-Tool', 'Pompe à main avec kit de mèches'], ['Standpumpe analog', 'Pompe à pied analogique'], ['Werkzeugflasche', 'bidon à outils'], ['Trinkflasche', 'Gourde'], ['mit Halter', 'avec support'], ['Flaschenhalter', 'Porte-bidon'], ['Flatpedale', 'Pédales plates'], ['Klickpedale', 'Pédales automatiques'], ['Hybridpedale', 'Pédales hybrides'], ['Handpumpe', 'Pompe à main'],
   ['GPS-Fahrradcomputer', 'compteur GPS vélo'],
   ['Regenschutz für Cargo E-Bike', 'Protection pluie pour vélo cargo électrique'], ['Lenker- und Vorbau-Halterung', 'Support de guidon et de potence'], ['Reinigungs- und Schmierset', 'Kit de nettoyage et de lubrification'],

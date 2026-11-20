@@ -2432,7 +2432,7 @@
    ]
   },
   {
-   "display": "Protection vélo pluie",
+   "display": "Protection velo pluie",
    "url": "/accessoires/pluie-vetements/",
    "dePath": "/zubehoer/regenschutz-bekleidung",
    "name": "Pluie et vêtements",
@@ -2440,37 +2440,73 @@
    "source": "bank",
    "primary": {
     "keyword": "protection velo pluie",
-    "intent": "C",
     "volume": 480,
     "kd": 9,
+    "intent": "C",
     "source": "bank"
    },
    "secondary": [
     {
-     "keyword": "housse de pluie velo",
-     "intent": "C",
+     "keyword": "veste de pluie velo",
+     "volume": 320,
+     "kd": 10,
+     "intent": "C"
+    },
+    {
+     "keyword": "veste pluie velo reflechissante",
      "volume": 20,
-     "kd": 5
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste",
+     "volume": 20,
+     "kd": 6,
+     "intent": "T"
+    },
+    {
+     "keyword": "agu veste velo",
+     "volume": 20,
+     "kd": 7,
+     "intent": "T"
+    },
+    {
+     "keyword": "couvre chaussures velo pluie",
+     "volume": 10,
+     "kd": 9,
+     "intent": "C"
     }
    ],
    "faq": [
     {
+     "keyword": "couvre chaussure velo",
+     "volume": 1000,
+     "kd": 13,
+     "intent": "I"
+    },
+    {
      "keyword": "cape de pluie velo",
-     "intent": "I",
      "volume": 720,
-     "kd": 19
+     "kd": 18,
+     "intent": "I"
     },
     {
      "keyword": "veste pluie velo",
-     "intent": "I",
      "volume": 720,
-     "kd": 14
+     "kd": 14,
+     "intent": "I"
+    },
+    {
+     "keyword": "cape de pluie pour velo",
+     "volume": 590,
+     "kd": 18,
+     "intent": "I"
     },
     {
      "keyword": "poncho velo",
-     "intent": "I",
      "volume": 590,
-     "kd": 11
+     "kd": 22,
+     "intent": "I"
     }
    ]
   },

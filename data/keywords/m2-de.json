@@ -1,0 +1,13 @@
+{
+ "accepted": {
+  "/zubehoer/regenschutz-bekleidung": {
+   "primary": "fahrrad regenjacke herren",
+   "intent": "C",
+   "volume": 1600,
+   "bestT": "wasserdicht überschuhe",
+   "tVolume": 320,
+   "ratio": 5
+  }
+ },
+ "rejected": {}
+}

@@ -90,6 +90,16 @@ const GROUPS: Record<string, { label: string; path: string; guide: string[]; poi
     points: ['Zulässige Zuladung des Gepäckträgers beachten', 'Befestigungssystem muss zum Träger oder Lenker passen', 'Wasserdichtes Material oder Regenhülle für Pendler'],
     blog: { href: '/blog/e-bike-reichweiten-guide-2026-bosch-shimano-specialized', label: 'E-Bike Reichweite: Guide für Bosch und Shimano' }
   },
+  'regenschutz-bekleidung': {
+    label: 'Regenschutz und Bekleidung',
+    path: '/zubehoer/regenschutz-bekleidung/',
+    guide: [
+      'Wer mit dem E-Bike zur Arbeit oder zum Einkauf fährt, wird irgendwann nass. Regenjacke, Regenhose, Regenponcho und Überschuhe halten Sie auf dem Rad trocken. Wichtig sind eine hohe Wassersäule, getapte Nähte und eine atmungsaktive Membran, damit Sie unter der Kleidung nicht schwitzen.',
+      'Ein Poncho zieht sich schnell über Kleidung und Rucksack und passt zur kurzen Dusche unterwegs. Jacke und Hose mit 20.000 mm Wassersäule sind für längere Strecken bei Dauerregen gedacht. Reflektierende Details erhöhen die Sichtbarkeit bei wenig Licht, Überschuhe schützen die Füße vor Nässe und Wind.',
+    ],
+    points: ['Wassersäule und getapte Nähte für Dauerregen prüfen', 'Reflektierende Details für Fahrten bei wenig Licht', 'Größe nach der Größentabelle wählen, Ponchos fallen weit aus'],
+    blog: { href: '/blog/e-bike-wartung-tipps-fuer-den-winter', label: 'E-Bike Wartung: Tipps für den Winter' }
+  },
   'werkzeug-pflege': {
     label: 'Werkzeug und Pflege',
     path: '/zubehoer/werkzeug-pflege/',
