@@ -9,6 +9,7 @@ import {
   Bitcoin,
   Mail,
   Phone,
+  Clock,
   MapPin,
   Zap
 } from '@/components/ui/icons';
@@ -110,6 +111,12 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-gray-500" />
+                <a href="tel:+491779354855" className="hover:text-[#FF5722] transition-colors">+49 177 9354855</a>
+                <span className="text-gray-600">|</span>
+                <a href="https://wa.me/491779354855" target="_blank" rel="noopener noreferrer" className="hover:text-[#00C853] transition-colors">WhatsApp</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Clock className="w-3.5 h-3.5 text-gray-500" />
                 <span>{u('ft.hours')}</span>
               </div>
             </div>

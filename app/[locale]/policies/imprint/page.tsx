@@ -59,6 +59,7 @@ export default async function ImprintPage({ params }: { params: Promise<{ locale
             <h2 className={H2}>Kontakt</h2>
             <p>
               E-Mail für Kontakt, Bestellungen, Anfragen, Großhandelsanfragen und Richtlinien: <a href="mailto:sales@ebikedirect.eu" className="text-[#FF5722] font-semibold">sales@ebikedirect.eu</a><br />
+              Telefon und WhatsApp: <a href="tel:+491779354855" className="text-[#FF5722] font-semibold">+49 177 9354855</a><br />
               Internet: https://ebikedirect.eu<br />
               Erreichbarkeit: Montag bis Freitag über unser Online-Ticket- und Live-Support-Portal.
             </p>

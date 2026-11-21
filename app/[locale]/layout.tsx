@@ -7,6 +7,7 @@ import { I18nProvider } from '@/context/i18n-context';
 import { CartProvider } from '@/context/cart-context';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
+import { WhatsAppChat } from '@/components/layout/whatsapp-chat';
 import { CartToast } from '@/components/layout/cart-toast';
 import { RecentSalesPopup } from '@/components/home/recent-sales-popup';
 import { StoreJsonLd } from '@/components/seo/json-ld';
@@ -96,6 +97,7 @@ export default async function LocaleLayout({
             </main>
             <CartToast />
             <RecentSalesPopup />
+            <WhatsAppChat locale={locale} />
             <Footer />
           </CartProvider>
         </I18nProvider>

@@ -28,12 +28,14 @@ export function StoreJsonLd() {
         'url': baseUrl,
         'logo': `${baseUrl}/logo.svg`,
         'email': 'sales@ebikedirect.eu',
+        'telephone': '+491779354855',
         'vatID': 'DE325277116',
         'address': address,
         'contactPoint': {
           '@type': 'ContactPoint',
           'contactType': 'customer service',
           'email': 'sales@ebikedirect.eu',
+          'telephone': '+491779354855',
           'availableLanguage': ['de', 'fr', 'en', 'nl', 'it', 'es', 'pt']
         }
       },

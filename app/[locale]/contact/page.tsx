@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useI18n } from '@/context/i18n-context';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { MapPin, Mail, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from '@/components/ui/icons';
+import { MapPin, Mail, Phone, Clock, Send, CheckCircle2, ShieldCheck, Wrench } from '@/components/ui/icons';
 
 export default function ContactPage() {
   const { u, locale, getLocalizedHref } = useI18n();
@@ -73,6 +73,18 @@ export default function ContactPage() {
 
                   </div>
 
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-gray-100 text-gray-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <Phone className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <strong className="block text-gray-900 font-bold">WhatsApp</strong>
+                    <a href="tel:+491779354855" className="text-[#FF5722] font-semibold">+49 177 9354855</a>
+                    <span className="text-gray-400"> | </span>
+                    <a href="https://wa.me/491779354855" target="_blank" rel="noopener noreferrer" className="text-[#00C853] font-semibold">WhatsApp</a>
+                  </div>
                 </div>
 
 
