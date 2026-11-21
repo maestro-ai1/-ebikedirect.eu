@@ -197,6 +197,11 @@ export function Footer() {
                   {t('nav.contact', 'Kontakt')}
                 </Link>
               </li>
+              <li>
+                <a href="tel:+491779354855" className="font-semibold text-[#FF5722] hover:text-white transition-colors">
+                  +49 177 9354855
+                </a>
+              </li>
             </ul>
           </div>
 
