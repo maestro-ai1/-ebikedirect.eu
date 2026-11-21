@@ -83,7 +83,7 @@ export default function ContactPage() {
                     <strong className="block text-gray-900 font-bold">WhatsApp</strong>
                     <a href="tel:+491779354855" className="text-[#FF5722] font-semibold">+49 177 9354855</a>
                     <span className="text-gray-400"> | </span>
-                    <a href="https://wa.me/491779354855" target="_blank" rel="noopener noreferrer" className="text-[#00C853] font-semibold">WhatsApp</a>
+                    <a href="https://wa.me/491779354855" target="_blank" rel="noopener noreferrer" className="text-[#FF5722] font-semibold">WhatsApp</a>
                   </div>
                 </div>
 
