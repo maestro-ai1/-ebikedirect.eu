@@ -16,7 +16,7 @@ import {
 import { useI18n } from '@/context/i18n-context';
 
 export function Footer() {
-  const { t, u, getLocalizedHref } = useI18n();
+  const { t, u, getLocalizedHref, locale } = useI18n();
 
   return (
     <footer className="bg-[#131A22] text-gray-300 border-t border-gray-800 text-xs">
@@ -231,6 +231,13 @@ export function Footer() {
                   {u('ft.imprint')}
                 </Link>
               </li>
+              {locale === 'de' && (
+                <li>
+                  <Link href="/sitemap" className="hover:text-[#FF5722] transition-colors">
+                    Seitenübersicht
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         </div>

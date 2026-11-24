@@ -14,6 +14,7 @@ type Entry = { path: string; priority: number; changeFrequency: 'daily' | 'weekl
 // Real change dates: data/lastmod.json holds a content hash and the date that hash was first seen for every URL (written by scripts/update-lastmod.mjs from a crawl of the built site).
 // A URL without an entry gets the baseline date. The build time is never used, so the date only moves when the page content moved.
 const BASELINE = '2026-11-15T00:00:00.000Z';
+const DEEP_PAGES = 2; // numbered listing pages per list that stay in the sitemap (page 2 and 3)
 const lastmodOf = (url: string): string => ((LASTMOD as Record<string, { h: string; d: string }>)[url] || { d: BASELINE }).d;
 
 export function groupOfUrl(url: string): string {
@@ -43,16 +44,16 @@ export function buildSitemap(): MetadataRoute.Sitemap {
     { path: '/sitemap', priority: 0.6, changeFrequency: 'weekly' },
     ...PRODUCTS.map((p): Entry => ({ path: `/shop/${p.slug}`, priority: 0.9, changeFrequency: 'weekly' })),
     ...getAllPosts().map((p): Entry => ({ path: `/blog/${p.slug}`, priority: 0.8, changeFrequency: 'monthly' })),
-    ...Array.from({ length: Math.max(0, Math.ceil(getAllPosts().length / 12) - 1) }, (_, i): Entry => ({ path: `/blog/page/${i + 2}`, priority: 0.5, changeFrequency: 'weekly' })),
+    ...Array.from({ length: Math.min(DEEP_PAGES, Math.max(0, Math.ceil(getAllPosts().length / 12) - 1)) }, (_, i): Entry => ({ path: `/blog/page/${i + 2}`, priority: 0.5, changeFrequency: 'weekly' })),
     ...MAPPED_PAGES.map((p): Entry => ({ path: p.path, priority: p.type === 'category' ? 0.9 : 0.8, changeFrequency: 'weekly' })),
     // model-family pages and their numbered pages
     ...FAMILIES.filter((f) => familyMembers(f).length >= 2).map((f): Entry => ({ path: f.path, priority: 0.8, changeFrequency: 'weekly' })),
     ...FAMILIES.filter((f) => familyMembers(f).length >= 2).flatMap((f) =>
-      Array.from({ length: Math.max(0, familyPageCount(f) - 1) }, (_, i): Entry => ({ path: familyListingUrl(f.path, i + 2), priority: 0.5, changeFrequency: 'weekly' }))
+      Array.from({ length: Math.min(DEEP_PAGES, Math.max(0, familyPageCount(f) - 1)) }, (_, i): Entry => ({ path: familyListingUrl(f.path, i + 2), priority: 0.5, changeFrequency: 'weekly' }))
     ),
-    // numbered listing pages (9 products per page): page 2 onward
+    // numbered listing pages (9 products per page): pages 2 and 3 only. Deeper pages stay crawlable by normal links (self-canonical), but listing 418 thin pages first buried the real category and product pages (GSC 2026-11-24: 1,247 discovered, not crawled).
     ...MAPPED_PAGES.flatMap((p) =>
-      Array.from({ length: Math.max(0, listingPageCount(p.path) - 1) }, (_, i): Entry => ({ path: listingUrl(p.path, i + 2), priority: 0.5, changeFrequency: 'weekly' }))
+      Array.from({ length: Math.min(DEEP_PAGES, Math.max(0, listingPageCount(p.path) - 1)) }, (_, i): Entry => ({ path: listingUrl(p.path, i + 2), priority: 0.5, changeFrequency: 'weekly' }))
     ),
   ];
 

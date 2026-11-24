@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { BRAND_LOGOS } from '@/lib/brand-logos';
 import { PRODUCTS } from '@/lib/products';
-import { getMappedPage } from '@/lib/mapped-pages';
+import { getMappedPage, MAPPED_PAGES } from '@/lib/mapped-pages';
 
 export const metadata: Metadata = {
   title: 'Marken im Überblick: E-Bike Hersteller',
@@ -49,7 +49,35 @@ export default async function BrandsPage({ params }: { params: Promise<{ locale:
             );
           })}
         </ul>
+
+        {EXTRA.length > 0 && (
+          <section className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 space-y-4">
+            <h2 className="font-display text-2xl font-bold text-[#131A22]">Weitere Marken und Motoren</h2>
+            <p className="text-sm text-gray-700 max-w-3xl leading-relaxed">
+              Auch diese Hersteller und Antriebe finden Sie bei uns. Jede Seite zeigt die aktuell lieferbaren Modelle.
+            </p>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {EXTRA.map((m) => (
+                <li key={m.path}>
+                  <Link href={m.path} className="block rounded-xl border border-gray-200 px-4 py-3 text-sm font-semibold text-[#131A22] transition-colors hover:border-[#FF5722] hover:text-[#FF5722]">
+                    {m.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </div>
   );
 }
+
+// Brand and motor pages without a logo tile above: still linked from the hub so visitors and Google reach every one of them.
+const LABELS: Record<string, string> = { 'riese-und-mueller': 'Riese & Müller', 'yamaha-motor': 'Yamaha Antrieb', 'urban-arrow': 'Urban Arrow', 'bh-bikes': 'BH Bikes' };
+const EXTRA = MAPPED_PAGES
+  .filter((m) => /^\/marken\/[^/]+$/.test(m.path) && !BRAND_LOGOS.some((b) => b.hub === m.path))
+  .map((m) => {
+    const slug = m.path.split('/')[2];
+    return { path: m.path, label: LABELS[slug] || m.brand || slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) };
+  })
+  .sort((a, b) => a.label.localeCompare(b.label, 'de'));
