@@ -28717,5 +28717,225 @@ export const XXL_PRODUCTS: Product[] = [
       "Laufradgröße": "28 Zoll"
     },
     "isFeatured": false
+  },
+  {
+    "id": "diamant-zing-trip-core-545-wh-27-5-zoll",
+    "slug": "diamant-zing-trip-core-545-wh-27-5-zoll",
+    "name": "Diamant Zing Trip Core",
+    "brand": "Diamant",
+    "category": "E-Trekking",
+    "price": 3382.01,
+    "originalPrice": 3399,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 545,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/diamant-zing-trip-core-545-wh-27-5-zoll/diamant-zing-trip-core-545-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/diamant-zing-trip-core-545-wh-27-5-zoll/diamant-zing-trip-core-545-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 545 Wh Akku, 9-Gang Kettenschaltung.",
+    "description": "Das Diamant Zing Trip Core ist ein Trekking E-Bike von Diamant. Es hat Bosch Performance Line CX Smart Gen5 und einen 545 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 9-Gang Kettenschaltung. Die Bremsanlage: Shimano MT200, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 545 Wh",
+          "capacityWh": 545,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch, 545 Wh",
+      "Display": "Bosch Intuvia 100, smart system",
+      "Schaltung": "9-Gang Kettenschaltung",
+      "Bremsen": "Shimano MT200, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour XCR32, Stahlfeder, einstellbare Federvorspannung,",
+      "Rahmen": "Aluminium, Diamant Zing Trip Core",
+      "Reifen": "Schwalbe G-One Allround, mit reflektierendem Streifen, Drahtwulstkern, Pannenschutz, 65-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "diamant-zing-trip-plus-800-wh-27-5-zoll",
+    "slug": "diamant-zing-trip-plus-800-wh-27-5-zoll",
+    "name": "Diamant Zing Trip Plus",
+    "brand": "Diamant",
+    "category": "E-Trekking",
+    "price": 4178.01,
+    "originalPrice": 4199,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/diamant-zing-trip-plus-800-wh-27-5-zoll/diamant-zing-trip-plus-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/diamant-zing-trip-plus-800-wh-27-5-zoll/diamant-zing-trip-plus-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Diamant Zing Trip Plus ist ein Trekking E-Bike von Diamant. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch, 800 Wh",
+      "Display": "Bosch Kiox 500, smart system",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34, Luftfeder, verstellbare Zugstufe und Druckstufe, 100mm Steckachse, 60mm Federweg",
+      "Rahmen": "Aluminium, Diamant Zing Trip Plus",
+      "Reifen": "Schwalbe G-One Allround, mit reflektierendem Streifen, Drahtwulstkern, Pannenschutz, 65-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "diamant-suvea-trip-plus-800-wh-27-5-zoll",
+    "slug": "diamant-suvea-trip-plus-800-wh-27-5-zoll",
+    "name": "Diamant Suvea Trip Plus",
+    "brand": "Diamant",
+    "category": "E-Trekking",
+    "price": 4277.51,
+    "originalPrice": 4299,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/diamant-suvea-trip-plus-800-wh-27-5-zoll/diamant-suvea-trip-plus-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/diamant-suvea-trip-plus-800-wh-27-5-zoll/diamant-suvea-trip-plus-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, 10-Gang Kettenschaltung.",
+    "description": "Das Diamant Suvea Trip Plus ist ein Trekking E-Bike von Diamant. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über 10-Gang Kettenschaltung. Die Bremsanlage: Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 500, smart system",
+      "Schaltung": "10-Gang Kettenschaltung",
+      "Bremsen": "Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34 Boost, Luftfeder, blockierbar, 100mm Federweg",
+      "Rahmen": "Aluminium, Diamant Suvea Trip Plus",
+      "Reifen": "Schwalbe Johnny Watts 365, mit reflektierendem Streifen, Pannenschutz, 65-584",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "diamant-suvea-style-800-wh-27-5-zoll",
+    "slug": "diamant-suvea-style-800-wh-27-5-zoll",
+    "name": "Diamant Suvea Style",
+    "brand": "Diamant",
+    "category": "E-Trekking",
+    "price": 4874.51,
+    "originalPrice": 4899,
+    "inStock": true,
+    "stockCount": 0,
+    "rating": 0,
+    "reviewsCount": 0,
+    "motor": "Bosch Performance Line CX Smart Gen5",
+    "torqueNm": 85,
+    "batteryStandardWh": 800,
+    "rangeKm": 0,
+    "weightKg": 0,
+    "image": "/products/diamant-suvea-style-800-wh-27-5-zoll/diamant-suvea-style-800-wh-27-5-zoll-v1-1.webp",
+    "gallery": [
+      "/products/diamant-suvea-style-800-wh-27-5-zoll/diamant-suvea-style-800-wh-27-5-zoll-v1-1.webp"
+    ],
+    "shortDescription": "Trekking E-Bike mit Bosch Performance Line CX Smart Gen5, 800 Wh Akku, Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf).",
+    "description": "Das Diamant Suvea Style ist ein Trekking E-Bike von Diamant. Es hat Bosch Performance Line CX Smart Gen5 und einen 800 Wh Akku, das Drehmoment beträgt 85 Nm (mit Update bis zu 120 Nm). Geschaltet wird über Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf). Die Bremsanlage: Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse.  Rahmenform, Größe und Farbe stimmen wir bei der Bestellbestätigung ab.",
+    "options": {
+      "frameSizes": [
+        "Rahmenform und Größe werden bei der Bestellbestätigung abgestimmt"
+      ],
+      "batteries": [
+        {
+          "label": "Akku 800 Wh",
+          "capacityWh": 800,
+          "priceDelta": 0
+        }
+      ],
+      "colors": [
+        {
+          "name": "Farbe laut Abbildung, weitere nach Verfügbarkeit",
+          "hex": "#888888"
+        }
+      ]
+    },
+    "specs": {
+      "Motor": "Bosch Mittelmotor Performance Line CX Smart Gen5 250 Watt",
+      "Drehmoment": "85 Nm (mit Update bis zu 120 Nm)",
+      "Akku": "Bosch PowerTube 800",
+      "Display": "Bosch Kiox 500, smart system",
+      "Schaltung": "Stufenlose Getriebe-Nabenschaltung mit Riemenantrieb (Freilauf)",
+      "Bremsen": "Magura MT Thirty, 4-Kolben, hydraulische Scheibenbremse",
+      "Gabel": "SR Suntour Mobie 34 Boost, Luftfeder, blockierbar, 100mm Federweg",
+      "Rahmen": "Aluminium, Diamant Suvea Style",
+      "Reifen": "Schwalbe Super Moto-X, reflektierend, Drahtwulstkern, GreenGuard-Pannenschutz, 62-584, 27,5 x 2,4&quot;",
+      "Laufradgröße": "27,5 Zoll"
+    },
+    "isFeatured": false
   }
 ];

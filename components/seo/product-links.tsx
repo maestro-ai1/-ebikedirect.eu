@@ -26,7 +26,10 @@ export const BRAND_SITES: Record<string, { label: string; href: string }> = {
   Bergamont: { label: 'Bergamont: Hersteller', href: 'https://www.bergamont.com/' },
   Cannondale: { label: 'Cannondale: Hersteller', href: 'https://www.cannondale.com/de-de' },
   Scott: { label: 'Scott Sports: Hersteller', href: 'https://www.scott-sports.com/de/de' },
-  Merida: { label: 'Merida: Hersteller', href: 'https://www.merida-bikes.com/de-de' }
+  Merida: { label: 'Merida: Hersteller', href: 'https://www.merida-bikes.com/de-de' },
+  Bulls: { label: 'Bulls Bikes: Hersteller', href: 'https://www.bulls.de/de-de' },
+  Diamant: { label: 'Diamant: Hersteller', href: 'https://www.diamantrad.com/' },
+  Victoria: { label: 'Victoria: Hersteller', href: 'https://www.victoria-bikes.com/' }
 };
 
 export function ProductLinks({ brand, category, motor }: { brand: string; category: string; motor: string }) {

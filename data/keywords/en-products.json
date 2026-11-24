@@ -66163,6 +66163,1154 @@
      "intent": "C"
     }
    ]
+  },
+  "bulls-sonic-en-r-team": {
+   "name": "Bulls Sonic EN-R Team",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic en-r team",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-sx-i": {
+   "name": "Bulls Sonic AM-SX I",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am-sx i",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-vuca-evo-am-3": {
+   "name": "Bulls Vuca EVO AM 3",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls vuca evo am 3",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-vuca-evo-am-2": {
+   "name": "Bulls Vuca EVO AM 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls vuca evo am 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-en-r-2": {
+   "name": "Bulls Sonic EN-R 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic en-r 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-sx-2": {
+   "name": "Bulls Sonic AM-SX 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am-sx 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-4-abs": {
+   "name": "Bulls Sonic AM 4 ABS",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am 4 abs",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-copperhead-evo-am-4": {
+   "name": "Bulls Copperhead EVO AM 4",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls copperhead evo am 4",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-vuca-evo-am-1": {
+   "name": "Bulls Vuca EVO AM 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls vuca evo am 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-3": {
+   "name": "Bulls Sonic AM 3",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am 3",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-en-r-1": {
+   "name": "Bulls Sonic EN-R 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic en-r 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-sx-2": {
+   "name": "Bulls Sonic SX 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic sx 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-sx-1": {
+   "name": "Bulls Sonic AM-SX 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am-sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-copperhead-evo-am-3": {
+   "name": "Bulls Copperhead EVO AM 3",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls copperhead evo am 3",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-eva-am-sx-1": {
+   "name": "Bulls Sonic EVA AM SX 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic eva am sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-2-abs": {
+   "name": "Bulls Sonic AM 2 ABS",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am 2 abs",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-am-1": {
+   "name": "Bulls Sonic AM 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic am 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-sx-dakar": {
+   "name": "Bulls Sonic SX Dakar",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic sx dakar",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-sx-dakar-low": {
+   "name": "Bulls Sonic SX Dakar Low",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic sx dakar low",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-sx-1-low": {
+   "name": "Bulls Sonic SX 1 Low",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic sx 1 low",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-copperhead-evo-am-2": {
+   "name": "Bulls Copperhead EVO AM 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls copperhead evo am 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-eva-sx-1": {
+   "name": "Bulls Sonic EVA SX 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic eva sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sonic-sx-1": {
+   "name": "Bulls Sonic SX 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls sonic sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-copperhead-evo-am-1": {
+   "name": "Bulls Copperhead EVO AM 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls copperhead evo am 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-evo-cx-am-2": {
+   "name": "Bulls EVO CX AM 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls evo cx am 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-copperhead-evo-1-wave": {
+   "name": "Bulls Copperhead EVO 1 Wave",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls copperhead evo 1 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-evo-cx-am-1": {
+   "name": "Bulls EVO CX AM 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls evo cx am 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-evo-cx-2": {
+   "name": "Bulls EVO CX 2",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls evo cx 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-evo-cx-1": {
+   "name": "Bulls EVO CX 1",
+   "brand": "Bulls",
+   "category": "E-MTB",
+   "primary": {
+    "keyword": "buy bulls evo cx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-vuca-evo-fs-2": {
+   "name": "Bulls Vuca EVO FS 2",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls vuca evo fs 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-vuca-evo-fs-1-wave": {
+   "name": "Bulls Vuca EVO FS 1 Wave",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls vuca evo fs 1 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-iconic-evo-fs": {
+   "name": "Bulls Iconic EVO FS",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls iconic evo fs",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-iconic-evo-belt-wave": {
+   "name": "Bulls Iconic EVO Belt Wave",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls iconic evo belt wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-iconic-evo-2-wave": {
+   "name": "Bulls Iconic EVO 2 Wave",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls iconic evo 2 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-iconic-evo-1-wave": {
+   "name": "Bulls Iconic EVO 1 Wave",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls iconic evo 1 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-machete-evo-sx-2": {
+   "name": "Bulls Machete EVO SX 2",
+   "brand": "Bulls",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "buy bulls machete evo sx 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-machete-evo-sx-1": {
+   "name": "Bulls Machete EVO SX 1",
+   "brand": "Bulls",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "buy bulls machete evo sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-trail-grinder-evo-sx": {
+   "name": "Bulls Trail Grinder EVO SX",
+   "brand": "Bulls",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "buy bulls trail grinder evo sx",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-grinder-evo-sx": {
+   "name": "Bulls Grinder EVO SX",
+   "brand": "Bulls",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "buy bulls grinder evo sx",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-urban-grinder-evo-sx": {
+   "name": "Bulls Urban Grinder EVO SX",
+   "brand": "Bulls",
+   "category": "E-Gravel",
+   "primary": {
+    "keyword": "buy bulls urban grinder evo sx",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-cross-lite-evo-2-abs": {
+   "name": "Bulls Cross Lite EVO 2 ABS",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls cross lite evo 2 abs",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-cross-lite-evo-carbon": {
+   "name": "Bulls Cross Lite EVO Carbon",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls cross lite evo carbon",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-cross-lite-evo-1-trapez": {
+   "name": "Bulls Cross Lite EVO 1 Trapez",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls cross lite evo 1 trapez",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-cross-lite-evo-sx-belt-wave": {
+   "name": "Bulls Cross Lite EVO SX Belt Wave",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls cross lite evo sx belt wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-cross-lite-evo-sx-1": {
+   "name": "Bulls Cross Lite EVO SX 1",
+   "brand": "Bulls",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy bulls cross lite evo sx 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-sturmvogel-evo": {
+   "name": "Bulls Sturmvogel EVO",
+   "brand": "Bulls",
+   "category": "E-City",
+   "primary": {
+    "keyword": "buy bulls sturmvogel evo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "bulls-clunker-evo": {
+   "name": "Bulls Clunker EVO",
+   "brand": "Bulls",
+   "category": "E-City",
+   "primary": {
+    "keyword": "buy bulls clunker evo",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "diamant-zing-trip-core-545-wh-27-5-zoll": {
+   "name": "Diamant Zing Trip Core",
+   "brand": "Diamant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy diamant zing trip core",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "diamant-zing-trip-plus-800-wh-27-5-zoll": {
+   "name": "Diamant Zing Trip Plus",
+   "brand": "Diamant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy diamant zing trip plus",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "diamant-suvea-trip-plus-800-wh-27-5-zoll": {
+   "name": "Diamant Suvea Trip Plus",
+   "brand": "Diamant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy diamant suvea trip plus",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "diamant-suvea-style-800-wh-27-5-zoll": {
+   "name": "Diamant Suvea Style",
+   "brand": "Diamant",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy diamant suvea style",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-10": {
+   "name": "Victoria Avyon 10",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 10",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-2": {
+   "name": "Victoria Avyon 2",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 2",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-4": {
+   "name": "Victoria Avyon 4",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 4",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-5": {
+   "name": "Victoria Avyon 5",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 5",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-6": {
+   "name": "Victoria Avyon 6",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 6",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-avyon-11": {
+   "name": "Victoria Avyon 11",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria avyon 11",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-fybron-8": {
+   "name": "Victoria Fybron 8",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria fybron 8",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-fybron-5": {
+   "name": "Victoria Fybron 5",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria fybron 5",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-parcours-4-wave": {
+   "name": "Victoria Parcours 4 Wave",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria parcours 4 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-parcours-5-wave": {
+   "name": "Victoria Parcours 5 Wave",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria parcours 5 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-parcours-6-wave": {
+   "name": "Victoria Parcours 6 Wave",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria parcours 6 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-fylgran-3": {
+   "name": "Victoria Fylgran 3",
+   "brand": "Victoria",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "buy victoria fylgran 3",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-fylgran-7": {
+   "name": "Victoria Fylgran 7",
+   "brand": "Victoria",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "buy victoria fylgran 7",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-fylgran-1": {
+   "name": "Victoria Fylgran 1",
+   "brand": "Victoria",
+   "category": "Falt-E-Bike",
+   "primary": {
+    "keyword": "buy victoria fylgran 1",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-cysalo-5-wave": {
+   "name": "Victoria Cysalo 5 Wave",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria cysalo 5 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-cysalo-3-wave": {
+   "name": "Victoria Cysalo 3 Wave",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria cysalo 3 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-cysalo-7": {
+   "name": "Victoria Cysalo 7",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria cysalo 7",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-cysalo-9": {
+   "name": "Victoria Cysalo 9",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria cysalo 9",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-manoc-6": {
+   "name": "Victoria Manoc 6",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria manoc 6",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-manoc-3": {
+   "name": "Victoria Manoc 3",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria manoc 3",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-manoc-5": {
+   "name": "Victoria Manoc 5",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria manoc 5",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-manoc-7": {
+   "name": "Victoria Manoc 7",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria manoc 7",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-5": {
+   "name": "Victoria Tresalo 5",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 5",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-4": {
+   "name": "Victoria Tresalo 4",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 4",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-8": {
+   "name": "Victoria Tresalo 8",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 8",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-6": {
+   "name": "Victoria Tresalo 6",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 6",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-9": {
+   "name": "Victoria Tresalo 9",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 9",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-tresalo-7": {
+   "name": "Victoria Tresalo 7",
+   "brand": "Victoria",
+   "category": "E-Trekking",
+   "primary": {
+    "keyword": "buy victoria tresalo 7",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-utilyon-1-wave": {
+   "name": "Victoria Utilyon 1 Wave",
+   "brand": "Victoria",
+   "category": "E-City",
+   "primary": {
+    "keyword": "buy victoria utilyon 1 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-utilyon-3-wave": {
+   "name": "Victoria Utilyon 3 Wave",
+   "brand": "Victoria",
+   "category": "E-City",
+   "primary": {
+    "keyword": "buy victoria utilyon 3 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
+  },
+  "victoria-utilyon-6-wave": {
+   "name": "Victoria Utilyon 6 Wave",
+   "brand": "Victoria",
+   "category": "E-City",
+   "primary": {
+    "keyword": "buy victoria utilyon 6 wave",
+    "intent": "T",
+    "volume": 0,
+    "kd": null,
+    "source": "name"
+   },
+   "secondary": [],
+   "faq": []
   }
  }
 }
